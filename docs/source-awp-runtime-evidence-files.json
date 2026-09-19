@@ -1,0 +1,166 @@
+{
+  "schema": "source-awp-runtime-evidence-v1",
+  "base": "a94e8bcc3af60ed7b3fd2002bf0dead8baefd826",
+  "fileCount": 27,
+  "totalBytes": 15414489,
+  "files": [
+    {
+      "path": "output/source-awp-command-discovery.json",
+      "bytes": 6311,
+      "sha256": "f9c2d50ed86903e8134542266d5f70f3d11f604df0bc3fadbc38e15ac78c5812"
+    },
+    {
+      "path": "output/tests/source-awp-command-native.json",
+      "bytes": 4497380,
+      "sha256": "91c00892ebd3d5fb7ea8467da1d4ba1932c262691c66718de5b3ada0b751b7c4"
+    },
+    {
+      "path": "output/tests/source-awp-animation-clock-native.json",
+      "bytes": 535759,
+      "sha256": "38ac9646e1cbd54529eb9bcbdfd87c5c4ca7654854f73c62a07b0668d0d5f564"
+    },
+    {
+      "path": "output/tests/source-awp-runtime-native.json",
+      "bytes": 10104149,
+      "sha256": "aae4f509f7e721e8e9eebdda37cb83f0f7b35a7bba002a5ff1ff456257cd9077"
+    },
+    {
+      "path": "output/awp-runtime-tests.log",
+      "bytes": 232,
+      "sha256": "6137843695b45327a7648e9a6bcc65930a6c03e62244945492d07610617f9a6e"
+    },
+    {
+      "path": "output/awp-runtime-typecheck.log",
+      "bytes": 48,
+      "sha256": "02ec7138020cd0446002278042bb2b67990c197fc1ccd4ed0f06a42830a704c2"
+    },
+    {
+      "path": "output/source-awp-61d9c0.asm",
+      "bytes": 16940,
+      "sha256": "153a7a1e06bfc09ee2ad5921645c4d383be710f743013569f3734c8b3fced384"
+    },
+    {
+      "path": "output/source-awp-7cb6b0.asm",
+      "bytes": 3077,
+      "sha256": "93ffe197e865dcc39c58174c631a7625b309148c38a753f736de765d8932715f"
+    },
+    {
+      "path": "output/source-awp-c9a920.asm",
+      "bytes": 74110,
+      "sha256": "f94d6f1a2becab03fba6d1148d34cad7f2b7a00fffeed56a492a80abfea3a503"
+    },
+    {
+      "path": "output/source-awp-d3e960.asm",
+      "bytes": 1008,
+      "sha256": "60c99de8115515d18d738bde8ff155909bcfdd8c0e65dd3c25b4f4487d7524be"
+    },
+    {
+      "path": "output/source-awp-d3e9d0.asm",
+      "bytes": 1737,
+      "sha256": "bf5250659fe979b84cc9cd634c5820442e5a4363f369abded94f9579a15ff729"
+    },
+    {
+      "path": "output/source-awp-d3f530.asm",
+      "bytes": 4053,
+      "sha256": "cb980f5847171ba959c7065ca9edc1779871b836c57c60c1614345442e3cad54"
+    },
+    {
+      "path": "output/source-awp-d3ff60.asm",
+      "bytes": 11988,
+      "sha256": "30b48825c224ded0a3478c35b059a95c8143146625fd6d7bdb901baf2794adde"
+    },
+    {
+      "path": "output/source-awp-d42060.asm",
+      "bytes": 7843,
+      "sha256": "a72317b128c5a8cef28c6b9a9752cf1e9a1bb78ea85c0e5f72c28c7060b53e57"
+    },
+    {
+      "path": "output/source-awp-d43820.asm",
+      "bytes": 10266,
+      "sha256": "324f0d095f412af3bc1e066d3e33d288440d31dbdd9aeffa1039a2b4b47d7f1b"
+    },
+    {
+      "path": "output/source-awp-d443d0.asm",
+      "bytes": 5425,
+      "sha256": "2cb811f2b198375d85d30e540eae46da6f0c1df5692fcd2156bd96307976cb15"
+    },
+    {
+      "path": "output/source-awp-d45270.asm",
+      "bytes": 37453,
+      "sha256": "5e7c2b0ed8d034f76067f0b8515045db6e153bb1908c96d5431821f0ab00bf75"
+    },
+    {
+      "path": "output/source-awp-d47610.asm",
+      "bytes": 1254,
+      "sha256": "6925ad1a91b9fe48b6165ef33f0f1622001a50b78e2f0900f3dc2745aab914f0"
+    },
+    {
+      "path": "output/source-awp-d47770.asm",
+      "bytes": 805,
+      "sha256": "65343fb9048680ca8483ffc2abae4842aa7b9974656860fa27100ad991ac48fd"
+    },
+    {
+      "path": "output/source-awp-d499e0.asm",
+      "bytes": 3207,
+      "sha256": "9b0043985ce8c6e039ac26a5c1fe664e9627d13e49b3634fb5272ec382b8d6a1"
+    },
+    {
+      "path": "output/source-awp-d4ac70.asm",
+      "bytes": 3568,
+      "sha256": "96004eb4a39b8fdf06de0178833e04ac25d7d49f72be0753ca9c326b8063ee9d"
+    },
+    {
+      "path": "output/source-awp-d4b1f0.asm",
+      "bytes": 12192,
+      "sha256": "e735ea5b87d6a83708a64aa7459228dcff215922d9311996197cb2cb73a66238"
+    },
+    {
+      "path": "output/source-awp-d4b7e0.asm",
+      "bytes": 10561,
+      "sha256": "a28101b5fc03403c0f8e831b58fe566dcfa0b00edf98370587ecfe969b98e6b7"
+    },
+    {
+      "path": "output/source-awp-d4bd20.asm",
+      "bytes": 25598,
+      "sha256": "6f707de776f57bfe1db3fdfa393fe64dd9dd59e4998798d4c2447b6bb0258d7f"
+    },
+    {
+      "path": "output/source-awp-d4ca70.asm",
+      "bytes": 3934,
+      "sha256": "a1f9f6b5728703fdc7df13f7c5d322d71d7d3e452dd7704f485c6126d076c32a"
+    },
+    {
+      "path": "output/source-awp-d4cc60.asm",
+      "bytes": 19343,
+      "sha256": "b9673d12a46d1ac585e1788a2a3fac962297daa8420f44ba7aef7b4d33c63ecc"
+    },
+    {
+      "path": "output/source-awp-d4d5c0.asm",
+      "bytes": 16248,
+      "sha256": "0af7157af58c67a0f6b84901876e3c2b97a8af84a6c55389f6699856bf2fa9c8"
+    }
+  ],
+  "existingDependencies": [
+    {
+      "path": "output/source-hitbox-fdes.json",
+      "bytes": 959892,
+      "sha256": "7ac080c3b0255a3619bb38271125769fb987d2006fd78d9c9c8e04f1fb9e7705"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/audit.json",
+      "bytes": 6847507,
+      "sha256": "29be7033f28116e604d8ff7591de7ea7dfc91c019c085cc3ce2ea0b66ef1697c"
+    },
+    {
+      "path": ".reference-assets/source-exports/pistol-candidates/glock-ct/audit.json",
+      "bytes": 5291657,
+      "sha256": "9320750bbdf616256c0b395746e61b7001c15928302061234f1c625858aa73cc"
+    },
+    {
+      "path": "research/source-items-catalog.json",
+      "bytes": 5338066,
+      "sha256": "52d5aeb92982f2890942c692362afbee3dd722cdca7d8fbec34593f2d60bc294"
+    }
+  ],
+  "sourceServerSha256": "7de235c31b2d645c5106cbd7358da3f3ac7964e87f870c4fe6ea31d93a714386"
+}

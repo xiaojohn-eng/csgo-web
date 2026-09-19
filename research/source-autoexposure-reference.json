@@ -1,0 +1,6 @@
+{
+  "sourceUrl": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/master/src/game/client/viewpostprocess.cpp",
+  "sha256": "1e786df52fc36cbf040f1f3dd4b8a35cdad0d417a3459cd39a8c2890f2498c43",
+  "bytes": 116165,
+  "scope": "Valve SDK algorithm reference; original Dust2 parameters from frozen BSP. Not a claim of exact CSGO binary equivalence."
+}

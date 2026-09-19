@@ -1,0 +1,784 @@
+{
+  "format": "source-camo-packing-v1",
+  "source": {
+    "file": ".reference-assets/source-exports/customweapon-style-programs/evidence.json",
+    "from": "installed_platform_shader_compiled_per_style"
+  },
+  "samplers": {
+    "all": {
+      "0": "AOSampler",
+      "1": "ScratchesSampler",
+      "2": "ExponentSampler",
+      "3": "BaseSampler",
+      "4": "MasksSampler",
+      "5": "GrungeSampler",
+      "6": "NormalsSampler",
+      "7": "OSPosSampler",
+      "8": "PatternSampler"
+    },
+    "stagedRoles": {
+      "0": "ao",
+      "1": "paintWear",
+      "2": "weaponExponent",
+      "3": "weaponAlbedo",
+      "5": "gunGrunge",
+      "8": "pattern"
+    },
+    "unstaged": [
+      {
+        "slot": 4,
+        "name": "MasksSampler"
+      },
+      {
+        "slot": 6,
+        "name": "NormalsSampler"
+      },
+      {
+        "slot": 7,
+        "name": "OSPosSampler"
+      }
+    ],
+    "reading": "A permutation declares the samplers it samples by name. Six of the nine are covered by a staged role; the three that are not are the mask, the normals and the object-space position."
+  },
+  "declarations": {
+    "1": {
+      "present": true,
+      "color": [
+        "c0=g_cCamo0_camo3r",
+        "c1=g_cCamo1_camo3g",
+        "c2=g_cCamo2_camo3b"
+      ],
+      "exponent": []
+    },
+    "2": {
+      "present": true,
+      "color": [
+        "c0=g_cCamo0_camo3r",
+        "c1=g_cCamo1_camo3g",
+        "c2=g_cCamo2_camo3b"
+      ],
+      "exponent": []
+    },
+    "3": {
+      "present": true,
+      "color": [
+        "c0=g_cCamo0_camo3r",
+        "c1=g_cCamo1_camo3g",
+        "c2=g_cCamo2_camo3b"
+      ],
+      "exponent": []
+    },
+    "4": {
+      "present": true,
+      "color": [
+        "c0=g_cCamo0_camo3r"
+      ],
+      "exponent": []
+    },
+    "5": {
+      "present": true,
+      "color": [
+        "c0=g_cCamo0_camo3r",
+        "c1=g_cCamo1_camo3g",
+        "c2=g_cCamo2_camo3b"
+      ],
+      "exponent": []
+    },
+    "6": {
+      "present": true,
+      "color": [
+        "c0=g_cCamo0_camo3r",
+        "c1=g_cCamo1_camo3g",
+        "c2=g_cCamo2_camo3b"
+      ],
+      "exponent": []
+    },
+    "7": {
+      "present": true,
+      "color": [],
+      "exponent": []
+    },
+    "8": {
+      "present": true,
+      "color": [
+        "c0=g_cCamo0_camo3r",
+        "c1=g_cCamo1_camo3g",
+        "c2=g_cCamo2_camo3b"
+      ],
+      "exponent": []
+    },
+    "9": {
+      "present": true,
+      "color": [
+        "c0=g_cCamo0_camo3r",
+        "c1=g_cCamo1_camo3g",
+        "c2=g_cCamo2_camo3b"
+      ],
+      "exponent": []
+    }
+  },
+  "expected": {
+    "1": [
+      "c0=g_cCamo0_camo3r",
+      "c1=g_cCamo1_camo3g",
+      "c2=g_cCamo2_camo3b"
+    ],
+    "2": [
+      "c0=g_cCamo0_camo3r",
+      "c1=g_cCamo1_camo3g",
+      "c2=g_cCamo2_camo3b"
+    ],
+    "3": [
+      "c0=g_cCamo0_camo3r",
+      "c1=g_cCamo1_camo3g",
+      "c2=g_cCamo2_camo3b"
+    ],
+    "4": [
+      "c0=g_cCamo0_camo3r"
+    ],
+    "5": [
+      "c0=g_cCamo0_camo3r",
+      "c1=g_cCamo1_camo3g",
+      "c2=g_cCamo2_camo3b"
+    ],
+    "6": [
+      "c0=g_cCamo0_camo3r",
+      "c1=g_cCamo1_camo3g",
+      "c2=g_cCamo2_camo3b"
+    ],
+    "7": [],
+    "8": [
+      "c0=g_cCamo0_camo3r",
+      "c1=g_cCamo1_camo3g",
+      "c2=g_cCamo2_camo3b"
+    ],
+    "9": [
+      "c0=g_cCamo0_camo3r",
+      "c1=g_cCamo1_camo3g",
+      "c2=g_cCamo2_camo3b"
+    ]
+  },
+  "reads": {
+    "1": {
+      "c0": [
+        "wwww",
+        "xyzw"
+      ],
+      "c1": [
+        "wwww",
+        "xyzw"
+      ],
+      "c2": [
+        "wwww",
+        "xyzw"
+      ]
+    },
+    "2": {
+      "c0": [
+        "wwww",
+        "xyzw"
+      ],
+      "c1": [
+        "wwww",
+        "xyzw"
+      ],
+      "c2": [
+        "wwww",
+        "xyzw"
+      ]
+    },
+    "4": {
+      "c0": [
+        "xyzw"
+      ]
+    },
+    "5": {
+      "c0": [
+        "wwww",
+        "xyzw"
+      ],
+      "c1": [
+        "wwww",
+        "xyzw"
+      ],
+      "c2": [
+        "wwww",
+        "xyzw"
+      ]
+    },
+    "7": {}
+  },
+  "samplersByStyle": {
+    "1": [
+      {
+        "pass": "color",
+        "sampler": 0,
+        "name": "AOSampler",
+        "role": "ao"
+      },
+      {
+        "pass": "color",
+        "sampler": 1,
+        "name": "ScratchesSampler",
+        "role": "paintWear"
+      },
+      {
+        "pass": "color",
+        "sampler": 3,
+        "name": "BaseSampler",
+        "role": "weaponAlbedo"
+      },
+      {
+        "pass": "color",
+        "sampler": 4,
+        "name": "MasksSampler",
+        "role": null
+      },
+      {
+        "pass": "color",
+        "sampler": 5,
+        "name": "GrungeSampler",
+        "role": "gunGrunge"
+      },
+      {
+        "pass": "exponent",
+        "sampler": 0,
+        "name": "AOSampler",
+        "role": "ao"
+      },
+      {
+        "pass": "exponent",
+        "sampler": 1,
+        "name": "ScratchesSampler",
+        "role": "paintWear"
+      },
+      {
+        "pass": "exponent",
+        "sampler": 2,
+        "name": "ExponentSampler",
+        "role": "weaponExponent"
+      }
+    ],
+    "2": [
+      {
+        "pass": "color",
+        "sampler": 0,
+        "name": "AOSampler",
+        "role": "ao"
+      },
+      {
+        "pass": "color",
+        "sampler": 1,
+        "name": "ScratchesSampler",
+        "role": "paintWear"
+      },
+      {
+        "pass": "color",
+        "sampler": 3,
+        "name": "BaseSampler",
+        "role": "weaponAlbedo"
+      },
+      {
+        "pass": "color",
+        "sampler": 4,
+        "name": "MasksSampler",
+        "role": null
+      },
+      {
+        "pass": "color",
+        "sampler": 5,
+        "name": "GrungeSampler",
+        "role": "gunGrunge"
+      },
+      {
+        "pass": "color",
+        "sampler": 8,
+        "name": "PatternSampler",
+        "role": "pattern"
+      },
+      {
+        "pass": "exponent",
+        "sampler": 0,
+        "name": "AOSampler",
+        "role": "ao"
+      },
+      {
+        "pass": "exponent",
+        "sampler": 1,
+        "name": "ScratchesSampler",
+        "role": "paintWear"
+      },
+      {
+        "pass": "exponent",
+        "sampler": 2,
+        "name": "ExponentSampler",
+        "role": "weaponExponent"
+      },
+      {
+        "pass": "exponent",
+        "sampler": 4,
+        "name": "MasksSampler",
+        "role": null
+      },
+      {
+        "pass": "exponent",
+        "sampler": 8,
+        "name": "PatternSampler",
+        "role": "pattern"
+      }
+    ],
+    "3": [
+      {
+        "pass": "color",
+        "sampler": 0,
+        "name": "AOSampler",
+        "role": "ao"
+      },
+      {
+        "pass": "color",
+        "sampler": 1,
+        "name": "ScratchesSampler",
+        "role": "paintWear"
+      },
+      {
+        "pass": "color",
+        "sampler": 3,
+        "name": "BaseSampler",
+        "role": "weaponAlbedo"
+      },
+      {
+        "pass": "color",
+        "sampler": 5,
+        "name": "GrungeSampler",
+        "role": "gunGrunge"
+      },
+      {
+        "pass": "color",
+        "sampler": 6,
+        "name": "NormalsSampler",
+        "role": null
+      },
+      {
+        "pass": "color",
+        "sampler": 7,
+        "name": "OSPosSampler",
+        "role": null
+      },
+      {
+        "pass": "color",
+        "sampler": 8,
+        "name": "PatternSampler",
+        "role": "pattern"
+      }
+    ],
+    "4": [
+      {
+        "pass": "color",
+        "sampler": 0,
+        "name": "AOSampler",
+        "role": "ao"
+      },
+      {
+        "pass": "color",
+        "sampler": 1,
+        "name": "ScratchesSampler",
+        "role": "paintWear"
+      },
+      {
+        "pass": "color",
+        "sampler": 3,
+        "name": "BaseSampler",
+        "role": "weaponAlbedo"
+      },
+      {
+        "pass": "color",
+        "sampler": 4,
+        "name": "MasksSampler",
+        "role": null
+      },
+      {
+        "pass": "color",
+        "sampler": 5,
+        "name": "GrungeSampler",
+        "role": "gunGrunge"
+      },
+      {
+        "pass": "exponent",
+        "sampler": 0,
+        "name": "AOSampler",
+        "role": "ao"
+      },
+      {
+        "pass": "exponent",
+        "sampler": 1,
+        "name": "ScratchesSampler",
+        "role": "paintWear"
+      },
+      {
+        "pass": "exponent",
+        "sampler": 2,
+        "name": "ExponentSampler",
+        "role": "weaponExponent"
+      },
+      {
+        "pass": "exponent",
+        "sampler": 4,
+        "name": "MasksSampler",
+        "role": null
+      }
+    ],
+    "5": [
+      {
+        "pass": "color",
+        "sampler": 0,
+        "name": "AOSampler",
+        "role": "ao"
+      },
+      {
+        "pass": "color",
+        "sampler": 1,
+        "name": "ScratchesSampler",
+        "role": "paintWear"
+      },
+      {
+        "pass": "color",
+        "sampler": 3,
+        "name": "BaseSampler",
+        "role": "weaponAlbedo"
+      },
+      {
+        "pass": "color",
+        "sampler": 4,
+        "name": "MasksSampler",
+        "role": null
+      },
+      {
+        "pass": "color",
+        "sampler": 5,
+        "name": "GrungeSampler",
+        "role": "gunGrunge"
+      },
+      {
+        "pass": "color",
+        "sampler": 8,
+        "name": "PatternSampler",
+        "role": "pattern"
+      },
+      {
+        "pass": "exponent",
+        "sampler": 0,
+        "name": "AOSampler",
+        "role": "ao"
+      },
+      {
+        "pass": "exponent",
+        "sampler": 1,
+        "name": "ScratchesSampler",
+        "role": "paintWear"
+      },
+      {
+        "pass": "exponent",
+        "sampler": 2,
+        "name": "ExponentSampler",
+        "role": "weaponExponent"
+      },
+      {
+        "pass": "exponent",
+        "sampler": 4,
+        "name": "MasksSampler",
+        "role": null
+      },
+      {
+        "pass": "exponent",
+        "sampler": 8,
+        "name": "PatternSampler",
+        "role": "pattern"
+      }
+    ],
+    "6": [
+      {
+        "pass": "color",
+        "sampler": 0,
+        "name": "AOSampler",
+        "role": "ao"
+      },
+      {
+        "pass": "color",
+        "sampler": 1,
+        "name": "ScratchesSampler",
+        "role": "paintWear"
+      },
+      {
+        "pass": "color",
+        "sampler": 3,
+        "name": "BaseSampler",
+        "role": "weaponAlbedo"
+      },
+      {
+        "pass": "color",
+        "sampler": 4,
+        "name": "MasksSampler",
+        "role": null
+      },
+      {
+        "pass": "color",
+        "sampler": 5,
+        "name": "GrungeSampler",
+        "role": "gunGrunge"
+      },
+      {
+        "pass": "color",
+        "sampler": 6,
+        "name": "NormalsSampler",
+        "role": null
+      },
+      {
+        "pass": "color",
+        "sampler": 7,
+        "name": "OSPosSampler",
+        "role": null
+      },
+      {
+        "pass": "color",
+        "sampler": 8,
+        "name": "PatternSampler",
+        "role": "pattern"
+      }
+    ],
+    "7": [
+      {
+        "pass": "color",
+        "sampler": 0,
+        "name": "AOSampler",
+        "role": "ao"
+      },
+      {
+        "pass": "color",
+        "sampler": 1,
+        "name": "ScratchesSampler",
+        "role": "paintWear"
+      },
+      {
+        "pass": "color",
+        "sampler": 3,
+        "name": "BaseSampler",
+        "role": "weaponAlbedo"
+      },
+      {
+        "pass": "color",
+        "sampler": 5,
+        "name": "GrungeSampler",
+        "role": "gunGrunge"
+      },
+      {
+        "pass": "color",
+        "sampler": 8,
+        "name": "PatternSampler",
+        "role": "pattern"
+      },
+      {
+        "pass": "exponent",
+        "sampler": 0,
+        "name": "AOSampler",
+        "role": "ao"
+      },
+      {
+        "pass": "exponent",
+        "sampler": 1,
+        "name": "ScratchesSampler",
+        "role": "paintWear"
+      },
+      {
+        "pass": "exponent",
+        "sampler": 2,
+        "name": "ExponentSampler",
+        "role": "weaponExponent"
+      },
+      {
+        "pass": "exponent",
+        "sampler": 8,
+        "name": "PatternSampler",
+        "role": "pattern"
+      }
+    ],
+    "8": [
+      {
+        "pass": "color",
+        "sampler": 0,
+        "name": "AOSampler",
+        "role": "ao"
+      },
+      {
+        "pass": "color",
+        "sampler": 1,
+        "name": "ScratchesSampler",
+        "role": "paintWear"
+      },
+      {
+        "pass": "color",
+        "sampler": 3,
+        "name": "BaseSampler",
+        "role": "weaponAlbedo"
+      },
+      {
+        "pass": "color",
+        "sampler": 4,
+        "name": "MasksSampler",
+        "role": null
+      },
+      {
+        "pass": "color",
+        "sampler": 5,
+        "name": "GrungeSampler",
+        "role": "gunGrunge"
+      },
+      {
+        "pass": "color",
+        "sampler": 8,
+        "name": "PatternSampler",
+        "role": "pattern"
+      },
+      {
+        "pass": "exponent",
+        "sampler": 0,
+        "name": "AOSampler",
+        "role": "ao"
+      },
+      {
+        "pass": "exponent",
+        "sampler": 2,
+        "name": "ExponentSampler",
+        "role": "weaponExponent"
+      },
+      {
+        "pass": "exponent",
+        "sampler": 4,
+        "name": "MasksSampler",
+        "role": null
+      }
+    ],
+    "9": [
+      {
+        "pass": "color",
+        "sampler": 0,
+        "name": "AOSampler",
+        "role": "ao"
+      },
+      {
+        "pass": "color",
+        "sampler": 1,
+        "name": "ScratchesSampler",
+        "role": "paintWear"
+      },
+      {
+        "pass": "color",
+        "sampler": 3,
+        "name": "BaseSampler",
+        "role": "weaponAlbedo"
+      },
+      {
+        "pass": "color",
+        "sampler": 4,
+        "name": "MasksSampler",
+        "role": null
+      },
+      {
+        "pass": "color",
+        "sampler": 5,
+        "name": "GrungeSampler",
+        "role": "gunGrunge"
+      },
+      {
+        "pass": "color",
+        "sampler": 8,
+        "name": "PatternSampler",
+        "role": "pattern"
+      },
+      {
+        "pass": "exponent",
+        "sampler": 0,
+        "name": "AOSampler",
+        "role": "ao"
+      },
+      {
+        "pass": "exponent",
+        "sampler": 1,
+        "name": "ScratchesSampler",
+        "role": "paintWear"
+      },
+      {
+        "pass": "exponent",
+        "sampler": 2,
+        "name": "ExponentSampler",
+        "role": "weaponExponent"
+      },
+      {
+        "pass": "exponent",
+        "sampler": 4,
+        "name": "MasksSampler",
+        "role": null
+      },
+      {
+        "pass": "exponent",
+        "sampler": 8,
+        "name": "PatternSampler",
+        "role": "pattern"
+      }
+    ]
+  },
+  "missingByStyle": {
+    "1": [
+      "MasksSampler"
+    ],
+    "2": [
+      "MasksSampler"
+    ],
+    "3": [
+      "NormalsSampler",
+      "OSPosSampler"
+    ],
+    "4": [
+      "MasksSampler"
+    ],
+    "5": [
+      "MasksSampler"
+    ],
+    "6": [
+      "MasksSampler",
+      "NormalsSampler",
+      "OSPosSampler"
+    ],
+    "7": [],
+    "8": [
+      "MasksSampler"
+    ],
+    "9": [
+      "MasksSampler"
+    ]
+  },
+  "missingReading": "A style is short an input only when it declares a sampler no staged role covers, and the table says which: styles 1, 2, 4, 5, 8 and 9 want the mask, styles 3 and 6 want the normals and the object-space position as well, and style 7 - the one the port already draws - wants none of the three, which is why it works today. The mask and the position both ship for every weapon the port covers, as `models/weapons/customization/<folder>/<folder>_masks.vtf` and `_pos.vtf`; the normals come from the finish's own pattern, not from the weapon.",
+  "packing": {
+    "registers": [
+      {
+        "register": 0,
+        "declared": "g_cCamo0_camo3r",
+        "xyz": "colour 0",
+        "w": "colour 3 red"
+      },
+      {
+        "register": 1,
+        "declared": "g_cCamo1_camo3g",
+        "xyz": "colour 1",
+        "w": "colour 3 green"
+      },
+      {
+        "register": 2,
+        "declared": "g_cCamo2_camo3b",
+        "xyz": "colour 2",
+        "w": "colour 3 blue"
+      }
+    ],
+    "reading": "Nine colours' worth of channels in three float4s is exactly four RGB colours, and the declarations say which: each of the three carries one colour in its first three channels and one channel of the fourth in `w`. The translated bodies agree where it can be checked - styles 1, 2 and 5 read `c0.xyzw` and `c0.wwww` separately. Style 4 declares `c0` alone and reads only the whole vector; style 7 declares no camo constant at all, so the four colours do not enter its program this way, which is why the earlier search for the packing in style 7's neighbourhood found none."
+  },
+  "boundary": "What is read is each permutation's own declaration of its palette constants and the channel usage of the bodies the port can translate. What is **not** read is the code that fills those three registers from the material's four `$camocolorN` variables - and the port does not need it, because it compiles the permutation itself and fills its own uniforms, so the declarations are enough to pack them. Neither is the texture each unstaged sampler slot carries: the names are known (`MasksSampler`, `NormalsSampler`, `OSPosSampler`) and the finish generator names the material variables it sets (`$maskstexture`, `$postexture`, ...), but the files behind two of them are still unstaged, and no translation here can supply them."
+}

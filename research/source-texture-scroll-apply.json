@@ -1,0 +1,95 @@
+{
+  "format": "source-texture-scroll-apply-v1",
+  "client": {
+    "path": ".reference-assets/csgo-legacy/csgo/bin/client_client.so",
+    "bytes": 21839778,
+    "sha256": "21d2d652a3b2e07c44fa0a3b638886744af9d24ba0c91e64f97a0d8afc43d4cb"
+  },
+  "reading": {
+    "class": "CTextureScrollMaterialProxy",
+    "classAt": "0x10ef51a",
+    "proxyName": "TextureScroll",
+    "keys": {
+      "textureScrollVar": "0x109d63c",
+      "textureScrollRate": "0x10ef4d8",
+      "textureScrollAngle": "0x10ef4ea",
+      "textureScale": "0x10ef4fd",
+      "varDefault": {
+        "value": "",
+        "at": "0x1049fa6"
+      }
+    },
+    "note": "KeyValues lookups ignore case, so the material files spell these keys texturescrollvar / texturescrollrate / texturescrollangle / texturescale and still match.",
+    "init": {
+      "at": "0xbba230",
+      "floatReads": [
+        {
+          "key": "textureScrollRate",
+          "keyImmediateAt": "0xbba2ba",
+          "defaultImmediateAt": "0xbba2b2",
+          "default": 1.0
+        },
+        {
+          "key": "textureScrollAngle",
+          "keyImmediateAt": "0xbba2dd",
+          "defaultImmediateAt": "0xbba2d5",
+          "default": 0.0
+        },
+        {
+          "key": "textureScale",
+          "keyImmediateAt": "0xbba303",
+          "defaultImmediateAt": "0xbba2fb",
+          "default": 1.0
+        }
+      ]
+    },
+    "onBind": {
+      "at": "0xbba050",
+      "degreesToRadians": {
+        "constant": 0.017453292519943295,
+        "at": "0x10a0618"
+      },
+      "clock": {
+        "global": "0x1492c10",
+        "field": "0x10"
+      },
+      "sincos": {
+        "callAt": "0xbba0c7",
+        "relocation": {
+          "symbol": "sincos",
+          "relativeType": 2,
+          "in": ".rel.dyn"
+        },
+        "argumentOrder": {
+          "sinOut": "ebp-0x50",
+          "cosOut": "ebp-0x58",
+          "note": "the second pointer is the sine, the third the cosine"
+        }
+      },
+      "offsets": {
+        "u": "frac(curtime * rate * cos(angleRadians))",
+        "v": "frac(curtime * rate * sin(angleRadians))",
+        "wrap": {
+          "one": 1.0,
+          "at": "0xf7fc5c"
+        }
+      },
+      "matrix": {
+        "layout": [
+          "scale 0 0 u",
+          "0 scale 0 v",
+          "0 0 1 0",
+          "0 0 0 1"
+        ],
+        "writeSlot": "vtable +0x50 (SetMatrixValue)",
+        "typeCheck": {
+          "mask": 15,
+          "matrixType": 7,
+          "at": "0xbba12e"
+        },
+        "nonMatrixVariable": "the two offsets are written as a vector through vtable +0x30"
+      }
+    },
+    "boundary": "Read from the installed client's own bytes, constants and relocation. The engine is not executed, so this is what the code does when the proxy binds rather than a rendered result; it does not say which of the cloud material's two shader alpha branches is selected, nor which parameter feeds that branch's c1."
+  }
+}

@@ -1,0 +1,1119 @@
+{
+  "format": "source-deagle-asset-handoff-v1",
+  "sourceApp": 740,
+  "build": 12426148,
+  "baseCheckpoint": "1c21fffeb5189c3dcda484c552aa9696675e9b17",
+  "directories": [
+    "public/source/csgo-12426148/deagle-t",
+    "public/source/csgo-12426148/deagle-ct",
+    "public/source/csgo-12426148/character-t-deagle",
+    "public/source/csgo-12426148/character-ct-deagle",
+    ".reference-assets/source-exports/deagle-candidates"
+  ],
+  "files": [
+    {
+      "path": "public/source/csgo-12426148/deagle-t/manifest.json",
+      "bytes": 54856,
+      "sha256": "27a83da5b78470731f2f8f215df02657e1fe0ddf215b46113342c9732f042a9b"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/material-inputs.json",
+      "bytes": 4083,
+      "sha256": "3a9a06b3bb0c9449a07e0f861def2811a75a8be0b58793e4f3d1a22741dcde2d"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/rig.json",
+      "bytes": 53135,
+      "sha256": "4a61f19ccf0014a7be5849f4857416f19c54fd37f98200c48ffa426a5a3933b9"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/sounds/weapons/deagle/de_clipin.wav",
+      "bytes": 26854,
+      "sha256": "08fb1ce7081c662057fc1de00ce6ed90dc9aa4edbef3a0b1570725da6a36ff63"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/sounds/weapons/deagle/de_clipout.wav",
+      "bytes": 26136,
+      "sha256": "bbc80360af0d6c37c5751fd7fb98061bf34d6c89610a0a239bb603ee63fc5816"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/sounds/weapons/deagle/de_draw.wav",
+      "bytes": 87350,
+      "sha256": "d0bfc71b2f4540efe73184c93010b67ffca9455237a8ac2aa7d74a8cc22126a4"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/sounds/weapons/deagle/de_slideback.wav",
+      "bytes": 18666,
+      "sha256": "da0e82dd2736ea91cd4274a5b9372c57316db9b7015cc38e8a6abc8d47da3e56"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/sounds/weapons/deagle/de_slideforward.wav",
+      "bytes": 13844,
+      "sha256": "dcb1b4e483baaf631195a4ce669fd31ca941e40ab452381bd16b298e71e34f1c"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/sounds/weapons/deagle/deagle-1-distant.wav",
+      "bytes": 247540,
+      "sha256": "fb4ddf1c90471a5b7a39ac6da3e63387e6419643de45babd539c922d15d271ff"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/sounds/weapons/deagle/deagle_01.wav",
+      "bytes": 543472,
+      "sha256": "1ac43b5cb6391cf33cd81d35e0b12d8ed7cebee4aa8f70f706522fffb5f9ef59"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/sounds/weapons/deagle/deagle_02.wav",
+      "bytes": 545546,
+      "sha256": "b110c6206c8dfba1c8519229c8260ff82798928b425282a3674b9d2611a23381"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/sounds/weapons/deagle/deagle_special_lookat_f009.wav",
+      "bytes": 157228,
+      "sha256": "4890d3cc19ff3592e617a57663e34d92853755f21f490e1fe60ccfc6ea0ff221"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/sounds/weapons/deagle/deagle_special_lookat_f036.wav",
+      "bytes": 121856,
+      "sha256": "3e67ead5bebe679f0aa694d31eb27635ad48937966cf8aaa642bd9bdf8b61846"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/sounds/weapons/deagle/deagle_special_lookat_f057.wav",
+      "bytes": 142984,
+      "sha256": "1be11dda631b34681e14f8d16430959e868310f9f11aaf9c56cc29cd8552504b"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/sounds/weapons/deagle/deagle_special_lookat_f081.wav",
+      "bytes": 180844,
+      "sha256": "a2c3f00f9cb756b1b22dceaef42fcb1479b7e223a5a58678edf91cafc1c6f4fc"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/sounds/weapons/deagle/deagle_special_lookat_f111.wav",
+      "bytes": 39896,
+      "sha256": "d42f6d0c1cb4df66b68be27e3e627ffcc7c31b08361e87fa64aa5ffd515b4d36"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/sounds/weapons/deagle/deagle_special_lookat_f133.wav",
+      "bytes": 194320,
+      "sha256": "64ee95e2b494ce017846239ba086a88fc7b42048e9492ce5db6b1dc3e120cff6"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/sounds/weapons/deagle/deagle_special_lookat_f166.wav",
+      "bytes": 161820,
+      "sha256": "69ceb5e9184b5ca4735f0d1bb1af5c494b4946ebf941389e59f6cb950a1bc1d8"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/sounds/weapons/deagle/deagle_special_lookat_f193.wav",
+      "bytes": 205288,
+      "sha256": "ecdedffcda17ec7bdc02f8ffa65f6f94e7d5d8aea5d6d32202544a4bf0949722"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/sounds/weapons/deagle/deagle_special_lookat_f228.wav",
+      "bytes": 59552,
+      "sha256": "21b82153df94a25d9227ef7886563b9a96782389b268725b9d412ac2cc830cc0"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/sounds/weapons/lowammo_01.wav",
+      "bytes": 45700,
+      "sha256": "be7421385f4c64e2570d2bafdb0a98ffaf6a803b655a27792b31909660eb7636"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/sounds/weapons/movement1.wav",
+      "bytes": 48398,
+      "sha256": "999130b5319c838ccc9cbdf342b3e3f95175b9e56aa631af04ef8632bc2b1840"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/sounds/weapons/movement2.wav",
+      "bytes": 51214,
+      "sha256": "939f3232142544d2a914436429b1c2c118c77f0cb0667ff9d7d9a744080ac881"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/sounds/weapons/movement3.wav",
+      "bytes": 70670,
+      "sha256": "aae8b21d1899d44a587354ff953df83f252ff4090d1840b173936dc4f565e931"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/textures/pist_deagle-rgba.png",
+      "bytes": 1791221,
+      "sha256": "14f4cadb71e872dd92cc46eb409260998ed205ba8ade8109c18fbc991abf9a89"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/textures/pist_deagle_exponent-rgba.png",
+      "bytes": 99415,
+      "sha256": "0dcb3cfa5740aa45abbe5a92c32240ec10e69be680768741eff6b627a56f3928"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/textures/skin_gradient-rgba.png",
+      "bytes": 4697,
+      "sha256": "89dfb384d22c57fbbdf2acbb7dd7ff2406b1d62316449f888831a97da6cf7cb1"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/textures/t_base_fingerless_glove_color-rgba.png",
+      "bytes": 1330174,
+      "sha256": "a7b2d6c7b1d678de991eb9e2cdd918522d912e9d8355e6947724793160f30226"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/textures/t_base_fingerless_glove_exp-rgba.png",
+      "bytes": 1077329,
+      "sha256": "fb92dda6cc70719cd196b6af94fedd905af8734692f781164084c18bf7cad152"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/textures/t_base_fingerless_glove_normal-rgba.png",
+      "bytes": 1863798,
+      "sha256": "0757956b007aefe2bf1ca32c9cf027849f4014829983c1ff56f1503401f26474"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/textures/v_model_base_arms_color-rgba.png",
+      "bytes": 2892203,
+      "sha256": "5357e8375326a28aa5d6fd85e06fc0b01e823180dd514a57e06c6eaa0343f1f2"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/textures/v_model_base_arms_exp-rgba.png",
+      "bytes": 99757,
+      "sha256": "c73ff813c885bef3aa020c45d4de2cab8b50c0732f79b187bae266ab8b65b4a2"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/textures/v_model_base_arms_normal-rgba.png",
+      "bytes": 3164085,
+      "sha256": "f26a422a6575f2d952956e37404614c49a724779889763c764efe5b5f45c7ee6"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-t/viewmodel.glb",
+      "bytes": 16311004,
+      "sha256": "ffdcc00a371d862fb378b745595af002357c81d3ddf2e632b0927a4c309c2be8"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-ct/manifest.json",
+      "bytes": 54474,
+      "sha256": "0efe98a7eb01604fc7591ee198502a0ad95d494f07f2f83331f9d22b71fe5230"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-ct/material-inputs.json",
+      "bytes": 4677,
+      "sha256": "6dd4368161ac11666a1fb039a79f9b55941b08341148e10c69516ac13a5c0aaa"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-ct/rig.json",
+      "bytes": 53135,
+      "sha256": "4a61f19ccf0014a7be5849f4857416f19c54fd37f98200c48ffa426a5a3933b9"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-ct/sounds/weapons/deagle/de_clipin.wav",
+      "bytes": 26854,
+      "sha256": "08fb1ce7081c662057fc1de00ce6ed90dc9aa4edbef3a0b1570725da6a36ff63"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-ct/sounds/weapons/deagle/de_clipout.wav",
+      "bytes": 26136,
+      "sha256": "bbc80360af0d6c37c5751fd7fb98061bf34d6c89610a0a239bb603ee63fc5816"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-ct/sounds/weapons/deagle/de_draw.wav",
+      "bytes": 87350,
+      "sha256": "d0bfc71b2f4540efe73184c93010b67ffca9455237a8ac2aa7d74a8cc22126a4"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-ct/sounds/weapons/deagle/de_slideback.wav",
+      "bytes": 18666,
+      "sha256": "da0e82dd2736ea91cd4274a5b9372c57316db9b7015cc38e8a6abc8d47da3e56"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-ct/sounds/weapons/deagle/de_slideforward.wav",
+      "bytes": 13844,
+      "sha256": "dcb1b4e483baaf631195a4ce669fd31ca941e40ab452381bd16b298e71e34f1c"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-ct/sounds/weapons/deagle/deagle-1-distant.wav",
+      "bytes": 247540,
+      "sha256": "fb4ddf1c90471a5b7a39ac6da3e63387e6419643de45babd539c922d15d271ff"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-ct/sounds/weapons/deagle/deagle_01.wav",
+      "bytes": 543472,
+      "sha256": "1ac43b5cb6391cf33cd81d35e0b12d8ed7cebee4aa8f70f706522fffb5f9ef59"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-ct/sounds/weapons/deagle/deagle_02.wav",
+      "bytes": 545546,
+      "sha256": "b110c6206c8dfba1c8519229c8260ff82798928b425282a3674b9d2611a23381"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-ct/sounds/weapons/deagle/deagle_special_lookat_f009.wav",
+      "bytes": 157228,
+      "sha256": "4890d3cc19ff3592e617a57663e34d92853755f21f490e1fe60ccfc6ea0ff221"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-ct/sounds/weapons/deagle/deagle_special_lookat_f036.wav",
+      "bytes": 121856,
+      "sha256": "3e67ead5bebe679f0aa694d31eb27635ad48937966cf8aaa642bd9bdf8b61846"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-ct/sounds/weapons/deagle/deagle_special_lookat_f057.wav",
+      "bytes": 142984,
+      "sha256": "1be11dda631b34681e14f8d16430959e868310f9f11aaf9c56cc29cd8552504b"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-ct/sounds/weapons/deagle/deagle_special_lookat_f081.wav",
+      "bytes": 180844,
+      "sha256": "a2c3f00f9cb756b1b22dceaef42fcb1479b7e223a5a58678edf91cafc1c6f4fc"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-ct/sounds/weapons/deagle/deagle_special_lookat_f111.wav",
+      "bytes": 39896,
+      "sha256": "d42f6d0c1cb4df66b68be27e3e627ffcc7c31b08361e87fa64aa5ffd515b4d36"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-ct/sounds/weapons/deagle/deagle_special_lookat_f133.wav",
+      "bytes": 194320,
+      "sha256": "64ee95e2b494ce017846239ba086a88fc7b42048e9492ce5db6b1dc3e120cff6"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-ct/sounds/weapons/deagle/deagle_special_lookat_f166.wav",
+      "bytes": 161820,
+      "sha256": "69ceb5e9184b5ca4735f0d1bb1af5c494b4946ebf941389e59f6cb950a1bc1d8"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-ct/sounds/weapons/deagle/deagle_special_lookat_f193.wav",
+      "bytes": 205288,
+      "sha256": "ecdedffcda17ec7bdc02f8ffa65f6f94e7d5d8aea5d6d32202544a4bf0949722"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-ct/sounds/weapons/deagle/deagle_special_lookat_f228.wav",
+      "bytes": 59552,
+      "sha256": "21b82153df94a25d9227ef7886563b9a96782389b268725b9d412ac2cc830cc0"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-ct/sounds/weapons/lowammo_01.wav",
+      "bytes": 45700,
+      "sha256": "be7421385f4c64e2570d2bafdb0a98ffaf6a803b655a27792b31909660eb7636"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-ct/sounds/weapons/movement1.wav",
+      "bytes": 48398,
+      "sha256": "999130b5319c838ccc9cbdf342b3e3f95175b9e56aa631af04ef8632bc2b1840"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-ct/sounds/weapons/movement2.wav",
+      "bytes": 51214,
+      "sha256": "939f3232142544d2a914436429b1c2c118c77f0cb0667ff9d7d9a744080ac881"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-ct/sounds/weapons/movement3.wav",
+      "bytes": 70670,
+      "sha256": "aae8b21d1899d44a587354ff953df83f252ff4090d1840b173936dc4f565e931"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-ct/textures/ct_arms_idf-rgba.png",
+      "bytes": 2671033,
+      "sha256": "931fe8bdc5fc7879a66430a786ec706bc7a119e5868eb315104ae6398369dc14"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-ct/textures/ct_arms_normal-rgba.png",
+      "bytes": 2443767,
+      "sha256": "da3967e612b1eef5e602fb2de2c90775c0fd3adb985edeff385471ca4bfa25f1"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-ct/textures/ct_base_glove_color-rgba.png",
+      "bytes": 2101764,
+      "sha256": "025c4f541318670cec61aa2739a5832769d6aa99562eaad6290060330ff23727"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-ct/textures/ct_base_glove_exp-rgba.png",
+      "bytes": 1720007,
+      "sha256": "335b519b92c9bddef787e5ddafd5a50babf4ca781cadec2349120881c802e34c"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-ct/textures/ct_base_glove_normal-rgba.png",
+      "bytes": 2510347,
+      "sha256": "c3760a0df0eb6d9e479a096845d3e7371e60cfd65a74aca1d87d4ea50363d636"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-ct/textures/pist_deagle-rgba.png",
+      "bytes": 1791221,
+      "sha256": "14f4cadb71e872dd92cc46eb409260998ed205ba8ade8109c18fbc991abf9a89"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-ct/textures/pist_deagle_exponent-rgba.png",
+      "bytes": 99415,
+      "sha256": "0dcb3cfa5740aa45abbe5a92c32240ec10e69be680768741eff6b627a56f3928"
+    },
+    {
+      "path": "public/source/csgo-12426148/deagle-ct/viewmodel.glb",
+      "bytes": 17081840,
+      "sha256": "020a56aa45617061c7cbf331b0715cd82e0b13f4f7258d40027d4ee7d871d1c4"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-deagle/body-frames.f64.bin",
+      "bytes": 8977808,
+      "sha256": "3615fcfb0f51424228202c3746710663f5a4966b51d35001cc5bdc713b9d66e9"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-deagle/body-pose-data.json",
+      "bytes": 198911,
+      "sha256": "c6e40da5089f897bf0c22873f7710c4cee33a69cd3127d5b3b0fba3502d48859"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-deagle/character.glb",
+      "bytes": 10893804,
+      "sha256": "7832d88c18c1f6304d9f0c062bc8b2d313490187f6d95adca432c13264e97ff2"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-deagle/manifest.json",
+      "bytes": 5398,
+      "sha256": "e6d944e52ab9b31fbbed7cc424d6e7c2b8641aa241eeb6e56326350097c937b9"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-deagle/rig.json",
+      "bytes": 17468,
+      "sha256": "631e5056ba5cacaa86eb585e67466b519a234e7339400783512a1ed9aaa34d7a"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-deagle/textures/pist_deagle.png",
+      "bytes": 521917,
+      "sha256": "55d0dd0b7f6cba5acebc6a109c0d829c9ce9f35d61be0e7bae2ef99ef1b4e3ca"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-deagle/textures/pist_deagle_exponent.png",
+      "bytes": 2823,
+      "sha256": "72673ad0d0f8205d6d1edc6543c4cd89fa7a4989852d4c5b7873b81463c514ef"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-deagle/textures/tm_elite_head_varianta.png",
+      "bytes": 1551234,
+      "sha256": "588adc46541067a9f9cbe4f9010cb9dea56bd7dae54195b6fb4249621f5e45f6"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-deagle/textures/tm_elite_head_varianta_exponent.png",
+      "bytes": 8463,
+      "sha256": "64470293fa4b529562d852aff0c32a068a1cd21daa3826f74dd1020004cdfb05"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-deagle/textures/tm_elite_head_varianta_normal.png",
+      "bytes": 1533884,
+      "sha256": "915828b3c06f31d0b77b33f7cec2d1db2bfdea84890890530109dfa80d740b3e"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-deagle/textures/tm_leet_lowerbody_varianta.png",
+      "bytes": 1724545,
+      "sha256": "27e7e6e8b0bd6738224a7fd1c05ca443362f6f33c5f3784fb19812611b9dac69"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-deagle/textures/tm_leet_lowerbody_varianta_exponent.png",
+      "bytes": 21245,
+      "sha256": "eb5fa48fb3657bc79ad469e1a2c387c32d86e81f5e0672bea802e171bafcffab"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-deagle/textures/tm_leet_lowerbody_varianta_normal.png",
+      "bytes": 2093924,
+      "sha256": "fd80afd914b049756898af3f03d8bcb8dfdf264483a278356462823de72e8e76"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-deagle/textures/tm_leet_upperbody_varianta.png",
+      "bytes": 1332801,
+      "sha256": "cf4a53054e979c65e67c2aa169389328dc14cecb6bbacacb9d72398101a62025"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-deagle/textures/tm_leet_upperbody_varianta_exponent.png",
+      "bytes": 21833,
+      "sha256": "7c8657458a4e71ab9d5843f44d4abbe8914679c694c3dca246909e0d87a77e46"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-deagle/textures/tm_leet_upperbody_varianta_normal.png",
+      "bytes": 1332650,
+      "sha256": "7ee8f820e41036a913cbd942bc2bc3f3797cdfec09677bb1b5dfaa8f1de7742f"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-deagle/world-frames.f64.bin",
+      "bytes": 2005080,
+      "sha256": "ca39a61effbd88f0e7f32117fbf5cdb46d797a288ce2dc78971e7387dc480774"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-deagle/world-material-inputs.json",
+      "bytes": 1083,
+      "sha256": "e9cbaa46b5c901c8afe3689692dee7d113ab02bb931468d3cc33f9bd222fb5ff"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-deagle/world-pose-data.json",
+      "bytes": 118338,
+      "sha256": "aa8e36cc946c1b01a1713da7df6b5e987b3306fa62848d95132bc9953844ba3d"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-deagle/body-frames.f64.bin",
+      "bytes": 8867040,
+      "sha256": "5b32182dc731f2253de19b29475d450ae54ca513d878d732bb6342926bbce4fe"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-deagle/body-pose-data.json",
+      "bytes": 202850,
+      "sha256": "fc0a649a278a7a5fb61f57ee2441f9f595199f3e86fef5bb1fd204dbd5673684"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-deagle/character.glb",
+      "bytes": 16760712,
+      "sha256": "fcaf570ef65f9efabc12d458aff3c8a38f566fc32f0e4f4d3ec0a68a63530338"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-deagle/manifest.json",
+      "bytes": 5326,
+      "sha256": "67810c9bbcfd905cb047314b1c7c53166e575493c8a15a2f54fb17264b647888"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-deagle/rig.json",
+      "bytes": 17684,
+      "sha256": "89ea3078a3b6b0f05c68fec9950c53bd9be0c4df17a63ad978b89626e12cf24d"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-deagle/textures/ctm_idf_head_varianta.png",
+      "bytes": 1091351,
+      "sha256": "81ab976202c0a38d2bd796f9026fe94c8eb5b69fb704b89d9367c3a330a051bb"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-deagle/textures/ctm_idf_head_varianta_exponent.png",
+      "bytes": 13425,
+      "sha256": "45129bc922cf5b1c500351e02224a7a6614b16bb55aa2bbb9ce204360f4a1d11"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-deagle/textures/ctm_idf_head_varianta_normal.png",
+      "bytes": 1646286,
+      "sha256": "d5e5f5ebc69c57fb15a96a18d5f4b8c26814f7dacd447aef4dd32bb71929ef63"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-deagle/textures/ctm_idf_lowerbody.png",
+      "bytes": 1326802,
+      "sha256": "cf4ae79ac7bceabcf6218d731d5ef3231d3faa024b9b721474b30f10d6fd6af8"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-deagle/textures/ctm_idf_lowerbody_exponent.png",
+      "bytes": 28191,
+      "sha256": "cdb5e2c5e7f09f31da1237ad806b634df6d8620d037f40440f87eae0d40d5725"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-deagle/textures/ctm_idf_lowerbody_normal.png",
+      "bytes": 2171251,
+      "sha256": "d667586c9aec4bfbb9ed4cb6baa87c76a5040e169886a391c6cc991946f71564"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-deagle/textures/ctm_idf_upperbody.png",
+      "bytes": 7903315,
+      "sha256": "9886b291e64f58b733a7cf4b9dfe0be38ecf66bd4d36bc3ce0923e22d4cb44e9"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-deagle/textures/ctm_idf_upperbody_exponent.png",
+      "bytes": 24367,
+      "sha256": "589e2d6508ab4cb7278ad56b08554b99fc5123e4b3f5f774eb66ec30edbb8899"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-deagle/textures/ctm_idf_upperbody_normal.png",
+      "bytes": 1506382,
+      "sha256": "f268b054766c195843e80023d9b663c34d9392ff86fcb85f6076aa19122d1a9f"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-deagle/textures/pist_deagle.png",
+      "bytes": 521917,
+      "sha256": "55d0dd0b7f6cba5acebc6a109c0d829c9ce9f35d61be0e7bae2ef99ef1b4e3ca"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-deagle/textures/pist_deagle_exponent.png",
+      "bytes": 2823,
+      "sha256": "72673ad0d0f8205d6d1edc6543c4cd89fa7a4989852d4c5b7873b81463c514ef"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-deagle/world-frames.f64.bin",
+      "bytes": 2005080,
+      "sha256": "ca39a61effbd88f0e7f32117fbf5cdb46d797a288ce2dc78971e7387dc480774"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-deagle/world-material-inputs.json",
+      "bytes": 1083,
+      "sha256": "e9cbaa46b5c901c8afe3689692dee7d113ab02bb931468d3cc33f9bd222fb5ff"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-deagle/world-pose-data.json",
+      "bytes": 118338,
+      "sha256": "aa8e36cc946c1b01a1713da7df6b5e987b3306fa62848d95132bc9953844ba3d"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/character-ct-deagle/assembly-readback.json",
+      "bytes": 1072,
+      "sha256": "99050325612a488378518509db1784a4e180314de2333d4fb381bd4e0676a08d"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/character-ct-deagle/body-frames.f64.bin",
+      "bytes": 8867040,
+      "sha256": "5b32182dc731f2253de19b29475d450ae54ca513d878d732bb6342926bbce4fe"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/character-ct-deagle/body-pose-data.json",
+      "bytes": 202850,
+      "sha256": "fc0a649a278a7a5fb61f57ee2441f9f595199f3e86fef5bb1fd204dbd5673684"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/character-ct-deagle/character.glb",
+      "bytes": 16760712,
+      "sha256": "fcaf570ef65f9efabc12d458aff3c8a38f566fc32f0e4f4d3ec0a68a63530338"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/character-ct-deagle/owner-verification.json",
+      "bytes": 439,
+      "sha256": "c2eb189a69a6153f694b2adfa3c860537964f792190b9640679bcdc3915c821f"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/character-ct-deagle/pose-verification.json",
+      "bytes": 809,
+      "sha256": "f82266a6d7b117c14795786a836240a06a475500e77da92339041123e474d8c4"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/character-ct-deagle/python-reference.json",
+      "bytes": 3115108,
+      "sha256": "75971563e320168051e36013882e79e11edaedc4fd3a49095b774cefcf4638a1"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/character-ct-deagle/rig.json",
+      "bytes": 17684,
+      "sha256": "89ea3078a3b6b0f05c68fec9950c53bd9be0c4df17a63ad978b89626e12cf24d"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/character-ct-deagle/world-frames.f64.bin",
+      "bytes": 2005080,
+      "sha256": "ca39a61effbd88f0e7f32117fbf5cdb46d797a288ce2dc78971e7387dc480774"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/character-ct-deagle/world-pose-data.json",
+      "bytes": 118338,
+      "sha256": "aa8e36cc946c1b01a1713da7df6b5e987b3306fa62848d95132bc9953844ba3d"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/character-t-deagle/assembly-readback.json",
+      "bytes": 1068,
+      "sha256": "2f8fb0f34306c4268491386d4bb3ebe4804534cd7bc87e9eccc100ac1979b4b6"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/character-t-deagle/body-frames.f64.bin",
+      "bytes": 8977808,
+      "sha256": "3615fcfb0f51424228202c3746710663f5a4966b51d35001cc5bdc713b9d66e9"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/character-t-deagle/body-pose-data.json",
+      "bytes": 198911,
+      "sha256": "c6e40da5089f897bf0c22873f7710c4cee33a69cd3127d5b3b0fba3502d48859"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/character-t-deagle/character.glb",
+      "bytes": 10893804,
+      "sha256": "7832d88c18c1f6304d9f0c062bc8b2d313490187f6d95adca432c13264e97ff2"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/character-t-deagle/owner-verification.json",
+      "bytes": 438,
+      "sha256": "a1f3824c17fe38274cf3c5d4bf6d8d5b8d6bc3663d3e986a33186449e47f7c6e"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/character-t-deagle/pose-verification.json",
+      "bytes": 811,
+      "sha256": "63b9914d4b8f877dd4711dcc97bdc76bdc4b248e356fa4a8e8fa1a3e152abe43"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/character-t-deagle/python-reference.json",
+      "bytes": 3083197,
+      "sha256": "58aea10cabca587fddc489653c919cd8b5f4cb3a69d56ae2d9c1c38519efdfc5"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/character-t-deagle/rig.json",
+      "bytes": 17468,
+      "sha256": "631e5056ba5cacaa86eb585e67466b519a234e7339400783512a1ed9aaa34d7a"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/character-t-deagle/world-frames.f64.bin",
+      "bytes": 2005080,
+      "sha256": "ca39a61effbd88f0e7f32117fbf5cdb46d797a288ce2dc78971e7387dc480774"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/character-t-deagle/world-pose-data.json",
+      "bytes": 118338,
+      "sha256": "aa8e36cc946c1b01a1713da7df6b5e987b3306fa62848d95132bc9953844ba3d"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/audit.json",
+      "bytes": 9247729,
+      "sha256": "320f5840ff08d211762e8fd4272f3b42ab243012417f41fdcacbe5ad045e1fbb"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/gltf-structure.json",
+      "bytes": 892800,
+      "sha256": "ce46759751fbf6f360e59d052abc33f3b118620989527714ccc18c8e908f6b23"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/materials/ct_arms.vmt",
+      "bytes": 446,
+      "sha256": "4538ec6e78a3b24229aa3a9982f0c07189126125ba3ae62f912b8ef12889281e"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/materials/ct_arms_idf.vmt",
+      "bytes": 374,
+      "sha256": "f8b076d12b38921887e144b2e75a6ad94f8c6e30784d9495847c206b3130a0f6"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/materials/ct_base_glove.vmt",
+      "bytes": 692,
+      "sha256": "feff3dd059c1d785817f49cb619fdc001ebc78d4c5b60a78b5e5f73f708e2656"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/metadata.json",
+      "bytes": 376412,
+      "sha256": "81f4b9b7a787dccea16fd43ef46173cf05b1ecc869de3ec8f16762aec4db2890"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/original-frames.json",
+      "bytes": 4684006,
+      "sha256": "54e3945c17b77cacea346a62dfdfe25fb7c99fb7281edfa0023b3718e2cf8620"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/sounds/weapons/deagle/de_clipin.wav",
+      "bytes": 26854,
+      "sha256": "08fb1ce7081c662057fc1de00ce6ed90dc9aa4edbef3a0b1570725da6a36ff63"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/sounds/weapons/deagle/de_clipout.wav",
+      "bytes": 26136,
+      "sha256": "bbc80360af0d6c37c5751fd7fb98061bf34d6c89610a0a239bb603ee63fc5816"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/sounds/weapons/deagle/de_draw.wav",
+      "bytes": 87350,
+      "sha256": "d0bfc71b2f4540efe73184c93010b67ffca9455237a8ac2aa7d74a8cc22126a4"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/sounds/weapons/deagle/de_slideback.wav",
+      "bytes": 18666,
+      "sha256": "da0e82dd2736ea91cd4274a5b9372c57316db9b7015cc38e8a6abc8d47da3e56"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/sounds/weapons/deagle/de_slideforward.wav",
+      "bytes": 13844,
+      "sha256": "dcb1b4e483baaf631195a4ce669fd31ca941e40ab452381bd16b298e71e34f1c"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/sounds/weapons/deagle/deagle-1-distant.wav",
+      "bytes": 247540,
+      "sha256": "fb4ddf1c90471a5b7a39ac6da3e63387e6419643de45babd539c922d15d271ff"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/sounds/weapons/deagle/deagle_01.wav",
+      "bytes": 543472,
+      "sha256": "1ac43b5cb6391cf33cd81d35e0b12d8ed7cebee4aa8f70f706522fffb5f9ef59"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/sounds/weapons/deagle/deagle_02.wav",
+      "bytes": 545546,
+      "sha256": "b110c6206c8dfba1c8519229c8260ff82798928b425282a3674b9d2611a23381"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/sounds/weapons/deagle/deagle_special_lookat_f009.wav",
+      "bytes": 157228,
+      "sha256": "4890d3cc19ff3592e617a57663e34d92853755f21f490e1fe60ccfc6ea0ff221"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/sounds/weapons/deagle/deagle_special_lookat_f036.wav",
+      "bytes": 121856,
+      "sha256": "3e67ead5bebe679f0aa694d31eb27635ad48937966cf8aaa642bd9bdf8b61846"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/sounds/weapons/deagle/deagle_special_lookat_f057.wav",
+      "bytes": 142984,
+      "sha256": "1be11dda631b34681e14f8d16430959e868310f9f11aaf9c56cc29cd8552504b"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/sounds/weapons/deagle/deagle_special_lookat_f081.wav",
+      "bytes": 180844,
+      "sha256": "a2c3f00f9cb756b1b22dceaef42fcb1479b7e223a5a58678edf91cafc1c6f4fc"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/sounds/weapons/deagle/deagle_special_lookat_f111.wav",
+      "bytes": 39896,
+      "sha256": "d42f6d0c1cb4df66b68be27e3e627ffcc7c31b08361e87fa64aa5ffd515b4d36"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/sounds/weapons/deagle/deagle_special_lookat_f133.wav",
+      "bytes": 194320,
+      "sha256": "64ee95e2b494ce017846239ba086a88fc7b42048e9492ce5db6b1dc3e120cff6"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/sounds/weapons/deagle/deagle_special_lookat_f166.wav",
+      "bytes": 161820,
+      "sha256": "69ceb5e9184b5ca4735f0d1bb1af5c494b4946ebf941389e59f6cb950a1bc1d8"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/sounds/weapons/deagle/deagle_special_lookat_f193.wav",
+      "bytes": 205288,
+      "sha256": "ecdedffcda17ec7bdc02f8ffa65f6f94e7d5d8aea5d6d32202544a4bf0949722"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/sounds/weapons/deagle/deagle_special_lookat_f228.wav",
+      "bytes": 59552,
+      "sha256": "21b82153df94a25d9227ef7886563b9a96782389b268725b9d412ac2cc830cc0"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/sounds/weapons/lowammo_01.wav",
+      "bytes": 45700,
+      "sha256": "be7421385f4c64e2570d2bafdb0a98ffaf6a803b655a27792b31909660eb7636"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/sounds/weapons/movement1.wav",
+      "bytes": 48398,
+      "sha256": "999130b5319c838ccc9cbdf342b3e3f95175b9e56aa631af04ef8632bc2b1840"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/sounds/weapons/movement2.wav",
+      "bytes": 51214,
+      "sha256": "939f3232142544d2a914436429b1c2c118c77f0cb0667ff9d7d9a744080ac881"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/sounds/weapons/movement3.wav",
+      "bytes": 70670,
+      "sha256": "aae8b21d1899d44a587354ff953df83f252ff4090d1840b173936dc4f565e931"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/textures/ct_arms-rgba.png",
+      "bytes": 3073070,
+      "sha256": "8079c96383ce0b6437d256037c4ea375b3eb77c7d5df766879a23ce99d180f5b"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/textures/ct_arms_idf-rgba.png",
+      "bytes": 2671033,
+      "sha256": "931fe8bdc5fc7879a66430a786ec706bc7a119e5868eb315104ae6398369dc14"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/textures/ct_arms_normal-rgba.png",
+      "bytes": 2443767,
+      "sha256": "da3967e612b1eef5e602fb2de2c90775c0fd3adb985edeff385471ca4bfa25f1"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/textures/ct_base_glove_color-rgba.png",
+      "bytes": 2101764,
+      "sha256": "025c4f541318670cec61aa2739a5832769d6aa99562eaad6290060330ff23727"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/textures/ct_base_glove_exp-rgba.png",
+      "bytes": 1720007,
+      "sha256": "335b519b92c9bddef787e5ddafd5a50babf4ca781cadec2349120881c802e34c"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/textures/ct_base_glove_normal-rgba.png",
+      "bytes": 2510347,
+      "sha256": "c3760a0df0eb6d9e479a096845d3e7371e60cfd65a74aca1d87d4ea50363d636"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/textures/pist_deagle-rgba.png",
+      "bytes": 1791221,
+      "sha256": "14f4cadb71e872dd92cc46eb409260998ed205ba8ade8109c18fbc991abf9a89"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/textures/pist_deagle_exponent-rgba.png",
+      "bytes": 99415,
+      "sha256": "0dcb3cfa5740aa45abbe5a92c32240ec10e69be680768741eff6b627a56f3928"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/three-readback.json",
+      "bytes": 6454,
+      "sha256": "060167e3dd8095bc1cf6a2d183f5f8e1d232fe3f6b0c6df42a3b77c2c4816180"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-ct/v_pist_deagle-with-arms-source-unit.glb",
+      "bytes": 17081840,
+      "sha256": "020a56aa45617061c7cbf331b0715cd82e0b13f4f7258d40027d4ee7d871d1c4"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/audit.json",
+      "bytes": 6548870,
+      "sha256": "0fa699fdf07e23f966cbdbf52657cfb8a5522911a53f19e6f8a608b86ceef8a3"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/gltf-structure.json",
+      "bytes": 893451,
+      "sha256": "36b505e1ae307731a012b87e04cfcdd0364d8329d03e8d080c579acfca06f3b7"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/materials/t_base_fingerless_glove.vmt",
+      "bytes": 722,
+      "sha256": "0c9336113c82de6cd35d0e5e7ecba74515259aa998da09f3907e271d4734aaf3"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/materials/v_model_base_arms.vmt",
+      "bytes": 732,
+      "sha256": "b5a64134d282115119b9e550d253ee33579d985232d7cab153e3f81aef149232"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/metadata.json",
+      "bytes": 376918,
+      "sha256": "ce94fec0481a086b4a7032b69344a16c62ef471b163ea58227a735a04f86bbe6"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/original-frames.json",
+      "bytes": 4684006,
+      "sha256": "54e3945c17b77cacea346a62dfdfe25fb7c99fb7281edfa0023b3718e2cf8620"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/sounds/weapons/deagle/de_clipin.wav",
+      "bytes": 26854,
+      "sha256": "08fb1ce7081c662057fc1de00ce6ed90dc9aa4edbef3a0b1570725da6a36ff63"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/sounds/weapons/deagle/de_clipout.wav",
+      "bytes": 26136,
+      "sha256": "bbc80360af0d6c37c5751fd7fb98061bf34d6c89610a0a239bb603ee63fc5816"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/sounds/weapons/deagle/de_draw.wav",
+      "bytes": 87350,
+      "sha256": "d0bfc71b2f4540efe73184c93010b67ffca9455237a8ac2aa7d74a8cc22126a4"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/sounds/weapons/deagle/de_slideback.wav",
+      "bytes": 18666,
+      "sha256": "da0e82dd2736ea91cd4274a5b9372c57316db9b7015cc38e8a6abc8d47da3e56"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/sounds/weapons/deagle/de_slideforward.wav",
+      "bytes": 13844,
+      "sha256": "dcb1b4e483baaf631195a4ce669fd31ca941e40ab452381bd16b298e71e34f1c"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/sounds/weapons/deagle/deagle-1-distant.wav",
+      "bytes": 247540,
+      "sha256": "fb4ddf1c90471a5b7a39ac6da3e63387e6419643de45babd539c922d15d271ff"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/sounds/weapons/deagle/deagle_01.wav",
+      "bytes": 543472,
+      "sha256": "1ac43b5cb6391cf33cd81d35e0b12d8ed7cebee4aa8f70f706522fffb5f9ef59"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/sounds/weapons/deagle/deagle_02.wav",
+      "bytes": 545546,
+      "sha256": "b110c6206c8dfba1c8519229c8260ff82798928b425282a3674b9d2611a23381"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/sounds/weapons/deagle/deagle_special_lookat_f009.wav",
+      "bytes": 157228,
+      "sha256": "4890d3cc19ff3592e617a57663e34d92853755f21f490e1fe60ccfc6ea0ff221"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/sounds/weapons/deagle/deagle_special_lookat_f036.wav",
+      "bytes": 121856,
+      "sha256": "3e67ead5bebe679f0aa694d31eb27635ad48937966cf8aaa642bd9bdf8b61846"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/sounds/weapons/deagle/deagle_special_lookat_f057.wav",
+      "bytes": 142984,
+      "sha256": "1be11dda631b34681e14f8d16430959e868310f9f11aaf9c56cc29cd8552504b"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/sounds/weapons/deagle/deagle_special_lookat_f081.wav",
+      "bytes": 180844,
+      "sha256": "a2c3f00f9cb756b1b22dceaef42fcb1479b7e223a5a58678edf91cafc1c6f4fc"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/sounds/weapons/deagle/deagle_special_lookat_f111.wav",
+      "bytes": 39896,
+      "sha256": "d42f6d0c1cb4df66b68be27e3e627ffcc7c31b08361e87fa64aa5ffd515b4d36"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/sounds/weapons/deagle/deagle_special_lookat_f133.wav",
+      "bytes": 194320,
+      "sha256": "64ee95e2b494ce017846239ba086a88fc7b42048e9492ce5db6b1dc3e120cff6"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/sounds/weapons/deagle/deagle_special_lookat_f166.wav",
+      "bytes": 161820,
+      "sha256": "69ceb5e9184b5ca4735f0d1bb1af5c494b4946ebf941389e59f6cb950a1bc1d8"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/sounds/weapons/deagle/deagle_special_lookat_f193.wav",
+      "bytes": 205288,
+      "sha256": "ecdedffcda17ec7bdc02f8ffa65f6f94e7d5d8aea5d6d32202544a4bf0949722"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/sounds/weapons/deagle/deagle_special_lookat_f228.wav",
+      "bytes": 59552,
+      "sha256": "21b82153df94a25d9227ef7886563b9a96782389b268725b9d412ac2cc830cc0"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/sounds/weapons/lowammo_01.wav",
+      "bytes": 45700,
+      "sha256": "be7421385f4c64e2570d2bafdb0a98ffaf6a803b655a27792b31909660eb7636"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/sounds/weapons/movement1.wav",
+      "bytes": 48398,
+      "sha256": "999130b5319c838ccc9cbdf342b3e3f95175b9e56aa631af04ef8632bc2b1840"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/sounds/weapons/movement2.wav",
+      "bytes": 51214,
+      "sha256": "939f3232142544d2a914436429b1c2c118c77f0cb0667ff9d7d9a744080ac881"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/sounds/weapons/movement3.wav",
+      "bytes": 70670,
+      "sha256": "aae8b21d1899d44a587354ff953df83f252ff4090d1840b173936dc4f565e931"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/textures/pist_deagle-rgba.png",
+      "bytes": 1791221,
+      "sha256": "14f4cadb71e872dd92cc46eb409260998ed205ba8ade8109c18fbc991abf9a89"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/textures/pist_deagle_exponent-rgba.png",
+      "bytes": 99415,
+      "sha256": "0dcb3cfa5740aa45abbe5a92c32240ec10e69be680768741eff6b627a56f3928"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/textures/skin_gradient-rgba.png",
+      "bytes": 4697,
+      "sha256": "89dfb384d22c57fbbdf2acbb7dd7ff2406b1d62316449f888831a97da6cf7cb1"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/textures/t_base_fingerless_glove_color-rgba.png",
+      "bytes": 1330174,
+      "sha256": "a7b2d6c7b1d678de991eb9e2cdd918522d912e9d8355e6947724793160f30226"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/textures/t_base_fingerless_glove_exp-rgba.png",
+      "bytes": 1077329,
+      "sha256": "fb92dda6cc70719cd196b6af94fedd905af8734692f781164084c18bf7cad152"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/textures/t_base_fingerless_glove_normal-rgba.png",
+      "bytes": 1863798,
+      "sha256": "0757956b007aefe2bf1ca32c9cf027849f4014829983c1ff56f1503401f26474"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/textures/v_model_base_arms_color-rgba.png",
+      "bytes": 2892203,
+      "sha256": "5357e8375326a28aa5d6fd85e06fc0b01e823180dd514a57e06c6eaa0343f1f2"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/textures/v_model_base_arms_exp-rgba.png",
+      "bytes": 99757,
+      "sha256": "c73ff813c885bef3aa020c45d4de2cab8b50c0732f79b187bae266ab8b65b4a2"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/textures/v_model_base_arms_normal-rgba.png",
+      "bytes": 3164085,
+      "sha256": "f26a422a6575f2d952956e37404614c49a724779889763c764efe5b5f45c7ee6"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/three-readback.json",
+      "bytes": 6453,
+      "sha256": "012c35cdcd29324a9890c0a82bf0cc545f336134e75183d26d66b8f2444a230b"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-t/v_pist_deagle-with-arms-source-unit.glb",
+      "bytes": 16311004,
+      "sha256": "ffdcc00a371d862fb378b745595af002357c81d3ddf2e632b0927a4c309c2be8"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-world/audit.json",
+      "bytes": 2900042,
+      "sha256": "084924760fca429e70fdca14d84be234b693a1d42796bfaca9531c1b53f86014"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-world/continuous/frames.f64.bin",
+      "bytes": 2005080,
+      "sha256": "ca39a61effbd88f0e7f32117fbf5cdb46d797a288ce2dc78971e7387dc480774"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-world/continuous/manifest.json",
+      "bytes": 42863,
+      "sha256": "1f0c4c3e9794e63c5316462bd81b64d55205ecee8b32a184d778fba0fd905898"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-world/continuous/original-frames.npz",
+      "bytes": 652145,
+      "sha256": "4606319818011bd9103be0570234d17ecd711b2d28c8afcddf83fdb96e4b8f0c"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-world/continuous/pose-data.json",
+      "bytes": 118338,
+      "sha256": "aa8e36cc946c1b01a1713da7df6b5e987b3306fa62848d95132bc9953844ba3d"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-world/continuous/python-reference.json",
+      "bytes": 2807554,
+      "sha256": "0e570cd454deac019cd233e0edbd5e5ed46262a79fc8e16815bcb25df5b62d46"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-world/continuous/verification.json",
+      "bytes": 304,
+      "sha256": "dc547864e257b10166c7d0191e49a4ed25d38302f6309e0766caa7f5ff4b8cb4"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-world/gltf-structure.json",
+      "bytes": 628450,
+      "sha256": "99715292320981e5dc27b076a3383e406a00529dc478274d675e9378124155b7"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-world/metadata.json",
+      "bytes": 301003,
+      "sha256": "2d3f6bf88c6009daffd872d7b326bc3e481fbd540f5f7bd511e769af83093694"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-world/textures/pist_deagle-rgba.png",
+      "bytes": 521917,
+      "sha256": "55d0dd0b7f6cba5acebc6a109c0d829c9ce9f35d61be0e7bae2ef99ef1b4e3ca"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-world/textures/pist_deagle_exponent-rgba.png",
+      "bytes": 2823,
+      "sha256": "72673ad0d0f8205d6d1edc6543c4cd89fa7a4989852d4c5b7873b81463c514ef"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-world/w_pist_deagle-source-unit.glb",
+      "bytes": 2111760,
+      "sha256": "1658d9dfaaeb5071da2fccd763b878d97f40e109b64a3c4a9325744357a5a9dd"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/deagle-world/world-original-frames.npz",
+      "bytes": 483916,
+      "sha256": "8fe9c91c3378fcf0c66e9ffa3d000c6aa0b67f37e2467c29d2348c46c0dc4222"
+    },
+    {
+      "path": ".reference-assets/source-exports/deagle-candidates/inventory.json",
+      "bytes": 297845,
+      "sha256": "a852171a496d78bfe8ce08dc572d793d41c75e1d455497899a60d77ae26e28bd"
+    },
+    {
+      "path": "output/deagle-gltf-validation.json",
+      "bytes": 38608,
+      "sha256": "f16ac8d1e14a7b802ad7fa94db4d860eb32b8f3329764c629ee20dd751efdbd1"
+    },
+    {
+      "path": "output/deagle-asset-tests.log",
+      "bytes": 465,
+      "sha256": "e3945383244818096e2933bea6f1ac8e20cd862c1db0918bae0ad2b2e86a5b25"
+    },
+    {
+      "path": "output/deagle-final-typecheck.log",
+      "bytes": 48,
+      "sha256": "02ec7138020cd0446002278042bb2b67990c197fc1ccd4ed0f06a42830a704c2"
+    },
+    {
+      "path": "output/source-deagle-staged.json",
+      "bytes": 993,
+      "sha256": "635fd774a4c36b9318bff360c9e1eaf9382eb752cd5f3c92f7b332a736f94dcd"
+    },
+    {
+      "path": "output/source-deagle-character-staged.json",
+      "bytes": 1142,
+      "sha256": "f9ddd16efa05023d371bfd34a630151c1bb01093f6b538a72ba88f79120e7d7b"
+    },
+    {
+      "path": "output/source-deagle-audio-stage.json",
+      "bytes": 9751,
+      "sha256": "933bbf6d4fb2e81250f440318a24959c6702c67c76f5cd9826f1802a66cbed74"
+    }
+  ],
+  "totalBytes": 306968895,
+  "limitations": [
+    "Checks prove local original asset conversion and independent numeric sampling, not whole-game parity or GPU acceptance."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "enabled": true,
+  "textures": 6,
+  "lowerLevels": 57,
+  "baseMipUnchanged": true,
+  "materialIdentityUnchanged": true,
+  "scope": "Actual GLTF material dependencies, exact lower PNG pixels and reversible texture state; no geometry/GPU/browser/framerate verification",
+  "checkedBytes": 2847540,
+  "manifestSha256": "bc4af131a28acdfe7e11ecebbb6b9e0ffe9c4923e9dda02f50f12c34a28735f1",
+  "originalGLBSha256": "55937fce28a53461520fa2c531384f65f0f8b69df1a8205245466b6064ab5232",
+  "baseImages": 6,
+  "positiveDecoded": 57,
+  "decodedLowerImages": 113,
+  "closedLowerImages": 113,
+  "bypassedMeshes": 1287,
+  "geometryImported": false,
+  "corruptMipRejectsBeforeAnyTextureMutation": true,
+  "allConcurrentDecodersSettledBeforeCleanup": true
+}

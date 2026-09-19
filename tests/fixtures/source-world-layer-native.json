@@ -1,0 +1,1956 @@
+{
+  "format": "source-world-layer-arithmetic-v1",
+  "source": {
+    "file": ".reference-assets/csgo-legacy/bin/linux64/stdshader_dx9_client.so",
+    "bytes": 1440902,
+    "sha256": "0383c51766a4681b5de26aa79b67ade5d3a867a8622185abe8a090877bac7c2e"
+  },
+  "shader": {
+    "path": "shaders/fxc/lightmappedgeneric_ps30.vcs",
+    "sha256": "d934a5fb8d8003b07f35ea18fdace61cc9633e194f8bf64cd0a67a50208f465f",
+    "programs": [
+      {
+        "requestedStatic": 579,
+        "version": 6,
+        "totalCombos": 981467136,
+        "dynamicCombos": 16,
+        "staticRecordsIncludingSentinel": 99257,
+        "sourceCRC32": "39233d6a",
+        "static": 579,
+        "dynamic": 0,
+        "staticFileSpan": [
+          6057446,
+          6058584
+        ],
+        "parsedProgramsInSelectedStatic": 9,
+        "blocks": [
+          {
+            "kind": 1,
+            "packedBytes": 1130,
+            "unpackedBytes": 14568,
+            "sha256": "8076bb64e058823797cc21ec9a19ca5453d9b91fbc9d3489da1c3774658d5c22"
+          }
+        ],
+        "programBytes": 1972,
+        "programSha256": "07e06886f8ff5be594a33cfcd026ac5293ab4d3c24aee0735c3d7206986590b9"
+      },
+      {
+        "requestedStatic": 1161,
+        "version": 6,
+        "totalCombos": 981467136,
+        "dynamicCombos": 16,
+        "staticRecordsIncludingSentinel": 99257,
+        "sourceCRC32": "39233d6a",
+        "static": 1161,
+        "dynamic": 0,
+        "staticFileSpan": [
+          6205122,
+          6206468
+        ],
+        "parsedProgramsInSelectedStatic": 9,
+        "blocks": [
+          {
+            "kind": 1,
+            "packedBytes": 1338,
+            "unpackedBytes": 16908,
+            "sha256": "330fccefe603b05540810e90d650e3fabc67ddc53ad98e5ec32150a72967146e"
+          }
+        ],
+        "programBytes": 2416,
+        "programSha256": "fbf77c74b02404c4d860cdeb904438de07a4e4677990e2fb906f1c675cec50f7"
+      }
+    ]
+  },
+  "nativeUpload": {
+    "start": "0x82b55",
+    "end": "0x82c67",
+    "input": [
+      0.1,
+      0.25,
+      0.1,
+      0.1
+    ],
+    "output": [
+      0.10000000149011612,
+      0.25,
+      -0.10000000149011612,
+      0.10000000149011612
+    ],
+    "command": [
+      3,
+      46,
+      1
+    ],
+    "semantics": [
+      "blendSoftness",
+      "layerBorderStrength",
+      "-layerBorderOffset",
+      "layerBorderSoftness"
+    ]
+  },
+  "gamma": {
+    "uploadCalls": [
+      "0x885ea",
+      "0x87be5"
+    ],
+    "function": "0xfa720",
+    "tableBuilder": "0xfa490..0xfa523",
+    "entries": 256,
+    "exponent": 2.200000047683716,
+    "saturatesAt": 0.949999988079071,
+    "quantization": "nearest integer of value*255; byte/255 computed float32 before pow"
+  },
+  "materialGates": {
+    "registration": {
+      "LightmappedGeneric": {
+        "start": "0x359f0",
+        "size": 7135,
+        "sha256": "ce3c1645dc896364f2ee7cf4953e10e68b5ab38a3696590f44c9dd9f41594e8c",
+        "names": [
+          "$ADDBUMPMAPS",
+          "$ALPHATESTREFERENCE",
+          "$BASETEXTURE2",
+          "$BASETEXTURETRANSFORM2",
+          "$BLENDMODULATETEXTURE",
+          "$BLENDMODULATETRANSFORM",
+          "$BLENDSOFTNESS",
+          "$BUMPDETAILSCALE1",
+          "$BUMPDETAILSCALE2",
+          "$BUMPFRAME",
+          "$BUMPFRAME2",
+          "$BUMPMAP",
+          "$BUMPMAP2",
+          "$BUMPMASK",
+          "$BUMPTRANSFORM",
+          "$BUMPTRANSFORM2",
+          "$BUMP_FORCE_ON",
+          "$DETAIL",
+          "$DETAIL2",
+          "$DETAILBLENDFACTOR",
+          "$DETAILBLENDFACTOR2",
+          "$DETAILBLENDMODE",
+          "$DETAILFRAME",
+          "$DETAILFRAME2",
+          "$DETAILSCALE",
+          "$DETAILSCALE2",
+          "$DETAILTINT",
+          "$DETAILTINT2",
+          "$ENVMAP",
+          "$ENVMAPANISOTROPY",
+          "$ENVMAPANISOTROPYSCALE",
+          "$ENVMAPCONTRAST",
+          "$ENVMAPFRAME",
+          "$ENVMAPLIGHTSCALE",
+          "$ENVMAPLIGHTSCALEMINMAX",
+          "$ENVMAPMASK",
+          "$ENVMAPMASK2",
+          "$ENVMAPMASKFRAME",
+          "$ENVMAPMASKFRAME2",
+          "$ENVMAPMASKTRANSFORM",
+          "$ENVMAPMASKTRANSFORM2",
+          "$ENVMAPSATURATION",
+          "$ENVMAPTINT",
+          "$FRAME2",
+          "$FRESNELREFLECTION",
+          "$LAYERBORDEROFFSET",
+          "$LAYERBORDERSOFTNESS",
+          "$LAYERBORDERSTRENGTH",
+          "$LAYERBORDERTINT",
+          "$LAYEREDGENORMAL",
+          "$LAYEREDGEOFFSET",
+          "$LAYEREDGEPUNCHIN",
+          "$LAYEREDGESOFTNESS",
+          "$LAYEREDGESTRENGTH",
+          "$LAYERTINT1",
+          "$LAYERTINT2",
+          "$NEWLAYERBLENDING",
+          "$NODIFFUSEBUMPLIGHTING",
+          "$NOENVMAPMIP",
+          "$PHONG",
+          "$PHONGAMOUNT",
+          "$PHONGAMOUNT2",
+          "$PHONGBASETINT",
+          "$PHONGBASETINT2",
+          "$PHONGEXPONENT",
+          "$PHONGEXPONENT2",
+          "$PHONGMASKCONTRASTBRIGHTNESS",
+          "$PHONGMASKCONTRASTBRIGHTNESS2",
+          "$POINTSAMPLEMAGFILTER",
+          "$SEAMLESS_SCALE",
+          "$SELFILLUMTINT",
+          "$SHADERSRGBREAD360",
+          "$SSBUMP"
+        ]
+      },
+      "WorldVertexTransition": {
+        "start": "0x4e820",
+        "size": 6988,
+        "sha256": "ad760b70ba93a0a14f176eb7ca68f6fe2a51b4616aa1457b4de7cc4a251267c8",
+        "names": [
+          "$BASETEXTURE2",
+          "$BASETEXTURETRANSFORM2",
+          "$BLENDMODULATETEXTURE",
+          "$BLENDMODULATETRANSFORM",
+          "$BLENDSOFTNESS",
+          "$BUMPFRAME",
+          "$BUMPFRAME2",
+          "$BUMPMAP",
+          "$BUMPMAP2",
+          "$BUMPMASK",
+          "$BUMPTRANSFORM",
+          "$BUMPTRANSFORM2",
+          "$BUMP_FORCE_ON",
+          "$DETAIL",
+          "$DETAIL2",
+          "$DETAILBLENDFACTOR",
+          "$DETAILBLENDFACTOR2",
+          "$DETAILBLENDMODE",
+          "$DETAILFRAME",
+          "$DETAILFRAME2",
+          "$DETAILSCALE",
+          "$DETAILSCALE2",
+          "$DETAILTINT",
+          "$DETAILTINT2",
+          "$DROPSHADOWDEPTHEXAGGERATION",
+          "$DROPSHADOWHIGHLIGHTSCALE",
+          "$DROPSHADOWOPACITY",
+          "$DROPSHADOWSCALE",
+          "$ENVMAP",
+          "$ENVMAPANISOTROPY",
+          "$ENVMAPANISOTROPYSCALE",
+          "$ENVMAPCONTRAST",
+          "$ENVMAPFRAME",
+          "$ENVMAPLIGHTSCALE",
+          "$ENVMAPLIGHTSCALEMINMAX",
+          "$ENVMAPMASK",
+          "$ENVMAPMASK2",
+          "$ENVMAPMASKFRAME",
+          "$ENVMAPMASKFRAME2",
+          "$ENVMAPMASKTRANSFORM",
+          "$ENVMAPMASKTRANSFORM2",
+          "$ENVMAPSATURATION",
+          "$ENVMAPTINT",
+          "$FRAME2",
+          "$FRESNELREFLECTION",
+          "$LAYERBORDEROFFSET",
+          "$LAYERBORDERSOFTNESS",
+          "$LAYERBORDERSTRENGTH",
+          "$LAYERBORDERTINT",
+          "$LAYEREDGENORMAL",
+          "$LAYEREDGEOFFSET",
+          "$LAYEREDGEPUNCHIN",
+          "$LAYEREDGESOFTNESS",
+          "$LAYEREDGESTRENGTH",
+          "$LAYERTINT1",
+          "$LAYERTINT2",
+          "$NEWLAYERBLENDING",
+          "$NODIFFUSEBUMPLIGHTING",
+          "$PHONG",
+          "$PHONGAMOUNT",
+          "$PHONGAMOUNT2",
+          "$PHONGBASETINT",
+          "$PHONGBASETINT2",
+          "$PHONGEXPONENT",
+          "$PHONGEXPONENT2",
+          "$PHONGMASKCONTRASTBRIGHTNESS",
+          "$PHONGMASKCONTRASTBRIGHTNESS2",
+          "$SEAMLESS_SCALE",
+          "$SELFILLUMTINT",
+          "$SSBUMP"
+        ]
+      },
+      "VertexLitGeneric": {
+        "start": "0x47280",
+        "size": 12928,
+        "sha256": "13f7adbcaaf6ad45573846692440db6058e0d9e0794bdfd39ecc5026b8bbb97b",
+        "names": [
+          "$ALBEDO",
+          "$ALLOWDIFFUSEMODULATION",
+          "$ALLOWFENCERENDERSTATEHACK",
+          "$ALPHATESTREFERENCE",
+          "$AMBIENTOCCLUSION",
+          "$AMBIENTONLY",
+          "$BASEALPHAENVMAPMASKMINMAXEXP",
+          "$BASEMAPALPHAPHONGMASK",
+          "$BASEMAPLUMINANCEPHONGMASK",
+          "$BLENDTINTBYBASEALPHA",
+          "$BLENDWITHSMOKEGRENADE",
+          "$BLENDWITHSMOKEGRENADEPOSENTITY",
+          "$BLENDWITHSMOKEGRENADEPOSSMOKE",
+          "$BUMPCOMPRESS",
+          "$BUMPFRAME",
+          "$BUMPMAP",
+          "$BUMPSTRETCH",
+          "$BUMPTRANSFORM",
+          "$CLOAKCOLORTINT",
+          "$CLOAKFACTOR",
+          "$CLOAKPASSENABLED",
+          "$COMPRESS",
+          "$DECALBLENDMODE",
+          "$DECALTEXTURE",
+          "$DESATURATEWITHBASEALPHA",
+          "$DETAIL",
+          "$DETAILBLENDFACTOR",
+          "$DETAILBLENDMODE",
+          "$DETAILFRAME",
+          "$DETAILSCALE",
+          "$DETAILTEXTURETRANSFORM",
+          "$DETAILTINT",
+          "$DISABLECSMLOOKUP",
+          "$DISPLACEMENTMAP",
+          "$DISPLACEMENTWRINKLE",
+          "$EMISSIVEBLENDBASETEXTURE",
+          "$EMISSIVEBLENDENABLED",
+          "$EMISSIVEBLENDFLOWTEXTURE",
+          "$EMISSIVEBLENDSCROLLVECTOR",
+          "$EMISSIVEBLENDSTRENGTH",
+          "$EMISSIVEBLENDTEXTURE",
+          "$EMISSIVEBLENDTINT",
+          "$ENVMAP",
+          "$ENVMAPCONTRAST",
+          "$ENVMAPFRAME",
+          "$ENVMAPFRESNEL",
+          "$ENVMAPFRESNELMINMAXEXP",
+          "$ENVMAPLIGHTSCALE",
+          "$ENVMAPLIGHTSCALEMINMAX",
+          "$ENVMAPMASK",
+          "$ENVMAPMASKFRAME",
+          "$ENVMAPMASKINTINTMASKTEXTURE",
+          "$ENVMAPMASKTRANSFORM",
+          "$ENVMAPSATURATION",
+          "$ENVMAPTINT",
+          "$FLASHLIGHTNOLAMBERT",
+          "$FLESHBORDERNOISESCALE",
+          "$FLESHBORDERSOFTNESS",
+          "$FLESHBORDERTEXTURE1D",
+          "$FLESHBORDERTINT",
+          "$FLESHBORDERWIDTH",
+          "$FLESHCUBETEXTURE",
+          "$FLESHDEBUGFORCEFLESHON",
+          "$FLESHEFFECTCENTERRADIUS1",
+          "$FLESHEFFECTCENTERRADIUS2",
+          "$FLESHEFFECTCENTERRADIUS3",
+          "$FLESHEFFECTCENTERRADIUS4",
+          "$FLESHGLOBALOPACITY",
+          "$FLESHGLOSSBRIGHTNESS",
+          "$FLESHINTERIORENABLED",
+          "$FLESHINTERIORNOISETEXTURE",
+          "$FLESHINTERIORTEXTURE",
+          "$FLESHNORMALTEXTURE",
+          "$FLESHSCROLLSPEED",
+          "$FLESHSUBSURFACETEXTURE",
+          "$FLESHSUBSURFACETINT",
+          "$FORCEPHONG",
+          "$GRADIENTCOLORSTOP0",
+          "$GRADIENTCOLORSTOP1",
+          "$GRADIENTCOLORSTOP2",
+          "$GRADIENTMODULATION",
+          "$INVERTPHONGMASK",
+          "$LAYEREDDAMAGEBLEND",
+          "$LIGHTWARPTEXTURE",
+          "$LINEARWRITE",
+          "$LOWQUALITYFLASHLIGHTSHADOWS",
+          "$MODELDECALIGNOREZ",
+          "$NOTINT",
+          "$PEARLESCENT",
+          "$PHONG",
+          "$PHONGALBEDOBOOST",
+          "$PHONGALBEDOTINT",
+          "$PHONGBOOST",
+          "$PHONGDISABLEHALFLAMBERT",
+          "$PHONGEXPONENT",
+          "$PHONGEXPONENTTEXTURE",
+          "$PHONGFRESNELRANGES",
+          "$PHONGTINT",
+          "$PHONGWARPTEXTURE",
+          "$REFRACTAMOUNT",
+          "$RIMLIGHT",
+          "$RIMLIGHTBOOST",
+          "$RIMLIGHTEXPONENT",
+          "$RIMMASK",
+          "$SEAMLESS_BASE",
+          "$SEAMLESS_DETAIL",
+          "$SEAMLESS_SCALE",
+          "$SELFILLUMFRESNEL",
+          "$SELFILLUMFRESNELENABLEDTHISFRAME",
+          "$SELFILLUMFRESNELMINMAXEXP",
+          "$SELFILLUMMASK",
+          "$SELFILLUMMASKSCALE",
+          "$SELFILLUMTINT",
+          "$SELFILLUM_ENVMAPMASK_ALPHA",
+          "$SEPARATEDETAILUVS",
+          "$SHADERSRGBREAD360",
+          "$STRETCH",
+          "$TIME",
+          "$TINTMASKTEXTURE",
+          "$TREESWAY",
+          "$TREESWAYFALLOFFEXP",
+          "$TREESWAYHEIGHT",
+          "$TREESWAYRADIUS",
+          "$TREESWAYSCRUMBLEFALLOFFEXP",
+          "$TREESWAYSCRUMBLEFREQUENCY",
+          "$TREESWAYSCRUMBLESPEED",
+          "$TREESWAYSCRUMBLESTRENGTH",
+          "$TREESWAYSPEED",
+          "$TREESWAYSPEEDHIGHWINDMULTIPLIER",
+          "$TREESWAYSPEEDLERPEND",
+          "$TREESWAYSPEEDLERPSTART",
+          "$TREESWAYSTARTHEIGHT",
+          "$TREESWAYSTARTRADIUS",
+          "$TREESWAYSTATIC",
+          "$TREESWAYSTRENGTH",
+          "$VERTEXCOLORPOWER"
+        ]
+      }
+    },
+    "nativeFancyBlendModes": {
+      "inputs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "outputs": [
+        1,
+        2,
+        3
+      ],
+      "start": "0x812e2",
+      "end": "0x81330"
+    },
+    "dropshadow": {
+      "upload": [
+        -0.032499998807907104,
+        1.0,
+        0.032499998807907104,
+        3.0
+      ],
+      "command": [
+        3,
+        26,
+        1
+      ],
+      "start": "0x85081",
+      "end": "0x851a5",
+      "static": 1161,
+      "variants": [
+        {
+          "dynamic": 0,
+          "programSha256": "fbf77c74b02404c4d860cdeb904438de07a4e4677990e2fb906f1c675cec50f7",
+          "readsC26": []
+        },
+        {
+          "dynamic": 2,
+          "programSha256": "fbf77c74b02404c4d860cdeb904438de07a4e4677990e2fb906f1c675cec50f7",
+          "readsC26": []
+        },
+        {
+          "dynamic": 3,
+          "programSha256": "fbf77c74b02404c4d860cdeb904438de07a4e4677990e2fb906f1c675cec50f7",
+          "readsC26": []
+        },
+        {
+          "dynamic": 8,
+          "programSha256": "3b3e1fd05f2f79db6a13dced78dcd1549e435525d469697054e1e3421e569fa5",
+          "readsC26": []
+        },
+        {
+          "dynamic": 10,
+          "programSha256": "3b3e1fd05f2f79db6a13dced78dcd1549e435525d469697054e1e3421e569fa5",
+          "readsC26": []
+        },
+        {
+          "dynamic": 11,
+          "programSha256": "3b3e1fd05f2f79db6a13dced78dcd1549e435525d469697054e1e3421e569fa5",
+          "readsC26": []
+        },
+        {
+          "dynamic": 12,
+          "programSha256": "1c11333ce1e32ea73e7688f2fc3b0630b680f433c36362139d9e5ef82cd0900f",
+          "readsC26": []
+        },
+        {
+          "dynamic": 14,
+          "programSha256": "1c11333ce1e32ea73e7688f2fc3b0630b680f433c36362139d9e5ef82cd0900f",
+          "readsC26": []
+        },
+        {
+          "dynamic": 15,
+          "programSha256": "1c11333ce1e32ea73e7688f2fc3b0630b680f433c36362139d9e5ef82cd0900f",
+          "readsC26": []
+        }
+      ],
+      "conclusion": "Four Dust2 VMTs set old drop-shadow constants; the selected NEWLAYER ordinary double-normal shader family does not consume them. Do not substitute the separate layer-edge-normal branch."
+    },
+    "alphaTint": "BLENDTINTBYBASEALPHA is registered only by VertexLitGeneric, not either world shader; four authored rollup-door keys are inactive in this build."
+  },
+  "bounds": "Unicorn original command-buffer span plus original PS token interpreter; supplied texels, no engine draw/GPU/frame claim",
+  "cases": [
+    {
+      "static": 579,
+      "alpha": -0.0001,
+      "mod": [
+        0.1,
+        0.5
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.24000000953674316,
+          0.3499999940395355,
+          0.41999998688697815
+        ],
+        "blend": 0.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 579,
+      "alpha": -0.0001,
+      "mod": [
+        0.35,
+        0.15
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.24000000953674316,
+          0.3499999940395355,
+          0.41999998688697815
+        ],
+        "blend": 0.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 579,
+      "alpha": -0.0001,
+      "mod": [
+        0.25,
+        0.9
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.24000000953674316,
+          0.3499999940395355,
+          0.41999998688697815
+        ],
+        "blend": 0.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 579,
+      "alpha": 0,
+      "mod": [
+        0.1,
+        0.5
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.24000000953674316,
+          0.3499999940395355,
+          0.41999998688697815
+        ],
+        "blend": 0.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 579,
+      "alpha": 0,
+      "mod": [
+        0.35,
+        0.15
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.24000000953674316,
+          0.3499999940395355,
+          0.41999998688697815
+        ],
+        "blend": 0.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 579,
+      "alpha": 0,
+      "mod": [
+        0.25,
+        0.9
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.24000000953674316,
+          0.3499999940395355,
+          0.41999998688697815
+        ],
+        "blend": 0.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 579,
+      "alpha": 0.25,
+      "mod": [
+        0.1,
+        0.5
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.24000000953674316,
+          0.3499999940395355,
+          0.41999998688697815
+        ],
+        "blend": 0.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 579,
+      "alpha": 0.25,
+      "mod": [
+        0.35,
+        0.15
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.5199999809265137,
+          0.4449999928474426,
+          0.3700000047683716
+        ],
+        "blend": 0.5,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 579,
+      "alpha": 0.25,
+      "mod": [
+        0.25,
+        0.9
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.24000000953674316,
+          0.3499999940395355,
+          0.41999998688697815
+        ],
+        "blend": 0.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 579,
+      "alpha": 0.4,
+      "mod": [
+        0.1,
+        0.5
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.24000000953674316,
+          0.3499999940395355,
+          0.41999998688697815
+        ],
+        "blend": 0.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 579,
+      "alpha": 0.4,
+      "mod": [
+        0.35,
+        0.15
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.7417600154876709,
+          0.5202400088310242,
+          0.3303999900817871
+        ],
+        "blend": 0.8960000276565552,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 579,
+      "alpha": 0.4,
+      "mod": [
+        0.25,
+        0.9
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.24000000953674316,
+          0.3499999940395355,
+          0.41999998688697815
+        ],
+        "blend": 0.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 579,
+      "alpha": 0.5,
+      "mod": [
+        0.1,
+        0.5
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.5199999809265137,
+          0.4449999928474426,
+          0.3700000047683716
+        ],
+        "blend": 0.49999988079071045,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 579,
+      "alpha": 0.5,
+      "mod": [
+        0.35,
+        0.15
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.800000011920929,
+          0.5400000214576721,
+          0.3199999928474426
+        ],
+        "blend": 1.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 579,
+      "alpha": 0.5,
+      "mod": [
+        0.25,
+        0.9
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.24000000953674316,
+          0.3499999940395355,
+          0.41999998688697815
+        ],
+        "blend": 0.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 579,
+      "alpha": 0.6,
+      "mod": [
+        0.1,
+        0.5
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.800000011920929,
+          0.5400000214576721,
+          0.3199999928474426
+        ],
+        "blend": 1.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 579,
+      "alpha": 0.6,
+      "mod": [
+        0.35,
+        0.15
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.800000011920929,
+          0.5400000214576721,
+          0.3199999928474426
+        ],
+        "blend": 1.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 579,
+      "alpha": 0.6,
+      "mod": [
+        0.25,
+        0.9
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.24000000953674316,
+          0.3499999940395355,
+          0.41999998688697815
+        ],
+        "blend": 0.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 579,
+      "alpha": 0.75,
+      "mod": [
+        0.1,
+        0.5
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.800000011920929,
+          0.5400000214576721,
+          0.3199999928474426
+        ],
+        "blend": 1.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 579,
+      "alpha": 0.75,
+      "mod": [
+        0.35,
+        0.15
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.800000011920929,
+          0.5400000214576721,
+          0.3199999928474426
+        ],
+        "blend": 1.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 579,
+      "alpha": 0.75,
+      "mod": [
+        0.25,
+        0.9
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.3510204255580902,
+          0.3876676559448242,
+          0.40017491579055786
+        ],
+        "blend": 0.19825075566768646,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 579,
+      "alpha": 1,
+      "mod": [
+        0.1,
+        0.5
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.800000011920929,
+          0.5400000214576721,
+          0.3199999928474426
+        ],
+        "blend": 1.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 579,
+      "alpha": 1,
+      "mod": [
+        0.35,
+        0.15
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.800000011920929,
+          0.5400000214576721,
+          0.3199999928474426
+        ],
+        "blend": 1.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 579,
+      "alpha": 1,
+      "mod": [
+        0.25,
+        0.9
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.800000011920929,
+          0.5400000214576721,
+          0.3199999928474426
+        ],
+        "blend": 1.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 579,
+      "alpha": 1.0001,
+      "mod": [
+        0.1,
+        0.5
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.800000011920929,
+          0.5400000214576721,
+          0.3199999928474426
+        ],
+        "blend": 1.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 579,
+      "alpha": 1.0001,
+      "mod": [
+        0.35,
+        0.15
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.800000011920929,
+          0.5400000214576721,
+          0.3199999928474426
+        ],
+        "blend": 1.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 579,
+      "alpha": 1.0001,
+      "mod": [
+        0.25,
+        0.9
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.800000011920929,
+          0.5400000214576721,
+          0.3199999928474426
+        ],
+        "blend": 1.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 1161,
+      "alpha": -0.0001,
+      "mod": [
+        0.1,
+        0.5
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.24000000953674316,
+          0.3499999940395355,
+          0.41999998688697815
+        ],
+        "blend": 0.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 1161,
+      "alpha": -0.0001,
+      "mod": [
+        0.35,
+        0.15
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.22804318368434906,
+          0.32956597208976746,
+          0.39253664016723633
+        ],
+        "blend": 0.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 1161,
+      "alpha": -0.0001,
+      "mod": [
+        0.25,
+        0.9
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.24000000953674316,
+          0.3499999940395355,
+          0.41999998688697815
+        ],
+        "blend": 0.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 1161,
+      "alpha": 0,
+      "mod": [
+        0.1,
+        0.5
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.24000000953674316,
+          0.3499999940395355,
+          0.41999998688697815
+        ],
+        "blend": 0.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 1161,
+      "alpha": 0,
+      "mod": [
+        0.35,
+        0.15
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.2280000001192093,
+          0.3294921815395355,
+          0.39243748784065247
+        ],
+        "blend": 0.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 1161,
+      "alpha": 0,
+      "mod": [
+        0.25,
+        0.9
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.24000000953674316,
+          0.3499999940395355,
+          0.41999998688697815
+        ],
+        "blend": 0.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 1161,
+      "alpha": 0.25,
+      "mod": [
+        0.1,
+        0.5
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.24000000953674316,
+          0.3499999940395355,
+          0.41999998688697815
+        ],
+        "blend": 0.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 1161,
+      "alpha": 0.25,
+      "mod": [
+        0.35,
+        0.15
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.800000011920929,
+          0.5400000214576721,
+          0.3199999928474426
+        ],
+        "blend": 1.0,
+        "normalWeights": [
+          0.020563038668563616,
+          0.7877423479892898,
+          0.19169461334214657
+        ]
+      }
+    },
+    {
+      "static": 1161,
+      "alpha": 0.25,
+      "mod": [
+        0.25,
+        0.9
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.24000000953674316,
+          0.3499999940395355,
+          0.41999998688697815
+        ],
+        "blend": 0.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 1161,
+      "alpha": 0.4,
+      "mod": [
+        0.1,
+        0.5
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.20160001516342163,
+          0.28437501192092896,
+          0.33180001378059387
+        ],
+        "blend": 0.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 1161,
+      "alpha": 0.4,
+      "mod": [
+        0.35,
+        0.15
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.800000011920929,
+          0.5400000214576721,
+          0.3199999928474426
+        ],
+        "blend": 1.0,
+        "normalWeights": [
+          0.020563038668563616,
+          0.7877423479892898,
+          0.19169461334214657
+        ]
+      }
+    },
+    {
+      "static": 1161,
+      "alpha": 0.4,
+      "mod": [
+        0.25,
+        0.9
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.24000000953674316,
+          0.3499999940395355,
+          0.41999998688697815
+        ],
+        "blend": 0.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 1161,
+      "alpha": 0.5,
+      "mod": [
+        0.1,
+        0.5
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.5199999809265137,
+          0.4449999928474426,
+          0.3700000047683716
+        ],
+        "blend": 0.49999988079071045,
+        "normalWeights": [
+          0.33218400497735817,
+          0.3817715171703626,
+          0.28604447785227927
+        ]
+      }
+    },
+    {
+      "static": 1161,
+      "alpha": 0.5,
+      "mod": [
+        0.35,
+        0.15
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.800000011920929,
+          0.5400000214576721,
+          0.3199999928474426
+        ],
+        "blend": 1.0,
+        "normalWeights": [
+          0.020563038668563616,
+          0.7877423479892898,
+          0.19169461334214657
+        ]
+      }
+    },
+    {
+      "static": 1161,
+      "alpha": 0.5,
+      "mod": [
+        0.25,
+        0.9
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.24000000953674316,
+          0.3499999940395355,
+          0.41999998688697815
+        ],
+        "blend": 0.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 1161,
+      "alpha": 0.6,
+      "mod": [
+        0.1,
+        0.5
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.800000011920929,
+          0.5400000214576721,
+          0.3199999928474426
+        ],
+        "blend": 1.0,
+        "normalWeights": [
+          0.020563038668563616,
+          0.7877423479892898,
+          0.19169461334214657
+        ]
+      }
+    },
+    {
+      "static": 1161,
+      "alpha": 0.6,
+      "mod": [
+        0.35,
+        0.15
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.800000011920929,
+          0.5400000214576721,
+          0.3199999928474426
+        ],
+        "blend": 1.0,
+        "normalWeights": [
+          0.020563038668563616,
+          0.7877423479892898,
+          0.19169461334214657
+        ]
+      }
+    },
+    {
+      "static": 1161,
+      "alpha": 0.6,
+      "mod": [
+        0.25,
+        0.9
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.24000000953674316,
+          0.3499999940395355,
+          0.41999998688697815
+        ],
+        "blend": 0.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 1161,
+      "alpha": 0.75,
+      "mod": [
+        0.1,
+        0.5
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.800000011920929,
+          0.5400000214576721,
+          0.3199999928474426
+        ],
+        "blend": 1.0,
+        "normalWeights": [
+          0.020563038668563616,
+          0.7877423479892898,
+          0.19169461334214657
+        ]
+      }
+    },
+    {
+      "static": 1161,
+      "alpha": 0.75,
+      "mod": [
+        0.35,
+        0.15
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.800000011920929,
+          0.5400000214576721,
+          0.3199999928474426
+        ],
+        "blend": 1.0,
+        "normalWeights": [
+          0.020563038668563616,
+          0.7877423479892898,
+          0.19169461334214657
+        ]
+      }
+    },
+    {
+      "static": 1161,
+      "alpha": 0.75,
+      "mod": [
+        0.25,
+        0.9
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.2279999703168869,
+          0.32949215173721313,
+          0.3924374282360077
+        ],
+        "blend": 0.0,
+        "normalWeights": [
+          0.7089879790774403,
+          0.0457224535324404,
+          0.24528956739011934
+        ]
+      }
+    },
+    {
+      "static": 1161,
+      "alpha": 1,
+      "mod": [
+        0.1,
+        0.5
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.800000011920929,
+          0.5400000214576721,
+          0.3199999928474426
+        ],
+        "blend": 1.0,
+        "normalWeights": [
+          0.020563038668563616,
+          0.7877423479892898,
+          0.19169461334214657
+        ]
+      }
+    },
+    {
+      "static": 1161,
+      "alpha": 1,
+      "mod": [
+        0.35,
+        0.15
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.800000011920929,
+          0.5400000214576721,
+          0.3199999928474426
+        ],
+        "blend": 1.0,
+        "normalWeights": [
+          0.020563038668563616,
+          0.7877423479892898,
+          0.19169461334214657
+        ]
+      }
+    },
+    {
+      "static": 1161,
+      "alpha": 1,
+      "mod": [
+        0.25,
+        0.9
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.800000011920929,
+          0.5400000214576721,
+          0.3199999928474426
+        ],
+        "blend": 1.0,
+        "normalWeights": [
+          0.020563038668563616,
+          0.7877423479892898,
+          0.19169461334214657
+        ]
+      }
+    },
+    {
+      "static": 1161,
+      "alpha": 1.0001,
+      "mod": [
+        0.1,
+        0.5
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.800000011920929,
+          0.5400000214576721,
+          0.3199999928474426
+        ],
+        "blend": 1.0,
+        "normalWeights": [
+          0.020563038668563616,
+          0.7877423479892898,
+          0.19169461334214657
+        ]
+      }
+    },
+    {
+      "static": 1161,
+      "alpha": 1.0001,
+      "mod": [
+        0.35,
+        0.15
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.800000011920929,
+          0.5400000214576721,
+          0.3199999928474426
+        ],
+        "blend": 1.0,
+        "normalWeights": [
+          0.020563038668563616,
+          0.7877423479892898,
+          0.19169461334214657
+        ]
+      }
+    },
+    {
+      "static": 1161,
+      "alpha": 1.0001,
+      "mod": [
+        0.25,
+        0.9
+      ],
+      "parameters": [
+        0.1,
+        0.25,
+        0.1,
+        0.1
+      ],
+      "output": {
+        "base": [
+          0.800000011920929,
+          0.5400000214576721,
+          0.3199999928474426
+        ],
+        "blend": 1.0,
+        "normalWeights": [
+          0.020563038668563616,
+          0.7877423479892898,
+          0.19169461334214657
+        ]
+      }
+    }
+  ]
+}

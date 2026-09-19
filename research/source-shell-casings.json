@@ -1,0 +1,3614 @@
+{
+  "format": "source-shell-casings-v1",
+  "build": 12426148,
+  "context": {
+    "installation": {
+      "appid": "740",
+      "name": "Counter-Strike Global Offensive - Dedicated Server",
+      "stateflags": "4",
+      "updateresult": "0",
+      "buildid": "12426148",
+      "installeddepots": {
+        "731": {
+          "manifest": "1224088799001669801",
+          "size": "32722411363"
+        },
+        "740": {
+          "manifest": "6998097922547485721",
+          "size": "1983335199"
+        }
+      },
+      "sizeondisk": "34705746562"
+    },
+    "manifestSha256": "66b82304a18cbb15707450eee259965b23a4813c19453edd190da0213c992bbd",
+    "sourceioCommit": "cfc2591d096628a35f570aa830ab75cc8665108b",
+    "blenderVersion": "5.2.1 LTS"
+  },
+  "pcf": {
+    "source": "particles/weapons/cs_weapon_fx.pcf",
+    "path": "original/cs_weapon_fx.pcf",
+    "bytes": 245331,
+    "sha256": "b41b47e293c06b8b86848904ac0da18909fbc9716df53a2ace5a97e1b7ac8567"
+  },
+  "effects": {
+    "weapon_shell_casing_rifle": {
+      "preventNameBasedLookup": false,
+      "max_particles": 16,
+      "material": "particle\\shells\\particle_shells.vmt",
+      "bounding_box_min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "bounding_box_max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "fallback replacement definition": "weapon_shell_casing_rifle_fallback",
+      "fallback max count": 16,
+      "radius": 0.75,
+      "maximum draw distance": 400.0,
+      "Sort particles": false,
+      "collections": {
+        "renderers": [
+          "Render models"
+        ],
+        "operators": [
+          "Movement Basic",
+          "Lifespan Decay",
+          "Rotation Spin Roll",
+          "Alpha Fade Out Random",
+          "Rotation Spin Yaw"
+        ],
+        "initializers": [
+          "Lifetime Random",
+          "Rotation Random",
+          "Position Within Sphere Random",
+          "Radius Random"
+        ],
+        "emitters": [
+          "emit_instantaneously"
+        ],
+        "children": [],
+        "forces": [],
+        "constraints": [
+          "Collision via traces"
+        ]
+      },
+      "operators": {
+        "Render models": {
+          "functionName": "Render models",
+          "sequence 0 model": "models\\weapons\\shared\\shell_762_hr.mdl"
+        },
+        "Movement Basic": {
+          "functionName": "Movement Basic",
+          "gravity": [
+            0.0,
+            0.0,
+            -600.0
+          ],
+          "drag": 0.05000000074505806
+        },
+        "Lifespan Decay": {
+          "functionName": "Lifespan Decay"
+        },
+        "Rotation Spin Roll": {
+          "functionName": "Rotation Spin Roll",
+          "spin_rate_degrees": 85,
+          "spin_stop_time": 0.6000000238418579
+        },
+        "Alpha Fade Out Random": {
+          "functionName": "Alpha Fade Out Random"
+        },
+        "Rotation Spin Yaw": {
+          "functionName": "Rotation Spin Yaw",
+          "yaw_rate_degrees": 20
+        },
+        "Lifetime Random": {
+          "functionName": "Lifetime Random",
+          "lifetime_min": 0.800000011920929,
+          "lifetime_max": 0.800000011920929
+        },
+        "Rotation Random": {
+          "functionName": "Rotation Random"
+        },
+        "Position Within Sphere Random": {
+          "functionName": "Position Within Sphere Random",
+          "speed_in_local_coordinate_system_min": [
+            120.0,
+            -15.0,
+            50.0
+          ],
+          "speed_in_local_coordinate_system_max": [
+            150.0,
+            5.0,
+            75.0
+          ]
+        },
+        "Radius Random": {
+          "functionName": "Radius Random",
+          "radius_min": 0.07999999821186066,
+          "radius_max": 0.07999999821186066
+        },
+        "emit_instantaneously": {
+          "functionName": "emit_instantaneously",
+          "num_to_emit": 1
+        },
+        "Collision via traces": {
+          "functionName": "Collision via traces",
+          "collision group": "DEBRIS",
+          "brush only": true,
+          "amount of slide": 0.4000000059604645,
+          "amount of bounce": 0.800000011920929
+        }
+      },
+      "fallback": {
+        "preventNameBasedLookup": false,
+        "max_particles": 16,
+        "material": "particle\\shells\\particle_shells.vmt",
+        "bounding_box_min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "bounding_box_max": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "radius": 1.25,
+        "maximum draw distance": 400.0,
+        "Sort particles": false,
+        "minimum simulation time step": 0.07500000298023224,
+        "collections": {
+          "renderers": [
+            "render_animated_sprites"
+          ],
+          "operators": [
+            "Movement Basic",
+            "Lifespan Decay",
+            "Rotation Spin Roll",
+            "Alpha Fade Out Random"
+          ],
+          "initializers": [
+            "Lifetime Random",
+            "Position Within Sphere Random",
+            "Sequence Random",
+            "Color Random",
+            "Rotation Random",
+            "Radius Random"
+          ],
+          "emitters": [
+            "emit_instantaneously"
+          ],
+          "children": [],
+          "forces": [],
+          "constraints": []
+        },
+        "operators": {
+          "render_animated_sprites": {
+            "functionName": "render_animated_sprites"
+          },
+          "Movement Basic": {
+            "functionName": "Movement Basic",
+            "drag": 0.05000000074505806,
+            "gravity": [
+              0.0,
+              0.0,
+              -600.0
+            ]
+          },
+          "Lifespan Decay": {
+            "functionName": "Lifespan Decay"
+          },
+          "Rotation Spin Roll": {
+            "functionName": "Rotation Spin Roll",
+            "spin_stop_time": 0.800000011920929,
+            "spin_rate_degrees": 170
+          },
+          "Alpha Fade Out Random": {
+            "functionName": "Alpha Fade Out Random"
+          },
+          "Lifetime Random": {
+            "functionName": "Lifetime Random",
+            "lifetime_max": 0.800000011920929,
+            "lifetime_min": 0.800000011920929
+          },
+          "Position Within Sphere Random": {
+            "functionName": "Position Within Sphere Random",
+            "speed_in_local_coordinate_system_max": [
+              90.0,
+              15.0,
+              85.0
+            ],
+            "speed_in_local_coordinate_system_min": [
+              40.0,
+              -15.0,
+              20.0
+            ]
+          },
+          "Sequence Random": {
+            "functionName": "Sequence Random",
+            "sequence_max": 7,
+            "sequence_min": 6
+          },
+          "Color Random": {
+            "functionName": "Color Random",
+            "tint clamp max": [
+              201.0,
+              201.0,
+              201.0,
+              255.0
+            ],
+            "tint_perc": 0.75
+          },
+          "Rotation Random": {
+            "functionName": "Rotation Random",
+            "rotation_offset_max": 10.0,
+            "rotation_offset_min": -10.0
+          },
+          "Radius Random": {
+            "functionName": "Radius Random",
+            "radius_max": 2.0,
+            "radius_min": 2.0
+          },
+          "emit_instantaneously": {
+            "functionName": "emit_instantaneously",
+            "num_to_emit": 1
+          }
+        }
+      }
+    },
+    "weapon_shell_casing_50cal": {
+      "preventNameBasedLookup": false,
+      "max_particles": 32,
+      "material": "particle\\shells\\particle_shells.vmt",
+      "bounding_box_min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "bounding_box_max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "fallback replacement definition": "weapon_shell_casing_50cal_fallback",
+      "fallback max count": 16,
+      "radius": 3.0,
+      "maximum draw distance": 512.0,
+      "Sort particles": false,
+      "aggregation radius": 256.0,
+      "collections": {
+        "renderers": [
+          "Render models"
+        ],
+        "operators": [
+          "Movement Basic",
+          "Lifespan Decay",
+          "Rotation Spin Roll",
+          "Alpha Fade Out Random",
+          "Rotation Spin Yaw"
+        ],
+        "initializers": [
+          "Lifetime Random",
+          "Position Within Sphere Random",
+          "Radius Random"
+        ],
+        "emitters": [
+          "emit_instantaneously"
+        ],
+        "children": [],
+        "forces": [],
+        "constraints": [
+          "Collision via traces"
+        ]
+      },
+      "operators": {
+        "Render models": {
+          "functionName": "Render models",
+          "sequence 0 model": "models\\weapons\\shared\\shell_50cal_hr.mdl"
+        },
+        "Movement Basic": {
+          "functionName": "Movement Basic",
+          "drag": 0.05000000074505806,
+          "gravity": [
+            0.0,
+            0.0,
+            -600.0
+          ]
+        },
+        "Lifespan Decay": {
+          "functionName": "Lifespan Decay"
+        },
+        "Rotation Spin Roll": {
+          "functionName": "Rotation Spin Roll",
+          "spin_stop_time": 2.0,
+          "spin_rate_degrees": 125
+        },
+        "Alpha Fade Out Random": {
+          "functionName": "Alpha Fade Out Random"
+        },
+        "Rotation Spin Yaw": {
+          "functionName": "Rotation Spin Yaw",
+          "yaw_rate_degrees": 20
+        },
+        "Lifetime Random": {
+          "functionName": "Lifetime Random",
+          "lifetime_max": 0.800000011920929,
+          "lifetime_min": 0.800000011920929
+        },
+        "Position Within Sphere Random": {
+          "functionName": "Position Within Sphere Random",
+          "speed_in_local_coordinate_system_max": [
+            120.0,
+            85.0,
+            55.0
+          ],
+          "speed_in_local_coordinate_system_min": [
+            90.0,
+            55.0,
+            30.0
+          ]
+        },
+        "Radius Random": {
+          "functionName": "Radius Random",
+          "radius_min": 0.07999999821186066,
+          "radius_max": 0.07999999821186066
+        },
+        "emit_instantaneously": {
+          "functionName": "emit_instantaneously",
+          "num_to_emit": 1
+        },
+        "Collision via traces": {
+          "functionName": "Collision via traces",
+          "amount of bounce": 0.800000011920929,
+          "amount of slide": 0.20000000298023224,
+          "brush only": true,
+          "collision group": "DEBRIS"
+        }
+      },
+      "fallback": {
+        "preventNameBasedLookup": false,
+        "max_particles": 200,
+        "material": "particle\\shells\\particle_shells.vmt",
+        "bounding_box_min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "bounding_box_max": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "radius": 3.0,
+        "maximum draw distance": 512.0,
+        "Sort particles": false,
+        "aggregation radius": 256.0,
+        "collections": {
+          "renderers": [
+            "render_animated_sprites"
+          ],
+          "operators": [
+            "Movement Basic",
+            "Lifespan Decay",
+            "Rotation Spin Roll",
+            "Alpha Fade Out Random"
+          ],
+          "initializers": [
+            "Lifetime Random",
+            "Position Within Sphere Random",
+            "Sequence Random",
+            "Color Random",
+            "Rotation Random",
+            "Radius Random"
+          ],
+          "emitters": [
+            "emit_instantaneously"
+          ],
+          "children": [],
+          "forces": [],
+          "constraints": []
+        },
+        "operators": {
+          "render_animated_sprites": {
+            "functionName": "render_animated_sprites"
+          },
+          "Movement Basic": {
+            "functionName": "Movement Basic",
+            "gravity": [
+              0.0,
+              0.0,
+              -600.0
+            ],
+            "drag": 0.05000000074505806
+          },
+          "Lifespan Decay": {
+            "functionName": "Lifespan Decay"
+          },
+          "Rotation Spin Roll": {
+            "functionName": "Rotation Spin Roll",
+            "spin_rate_degrees": 85,
+            "spin_stop_time": 0.800000011920929
+          },
+          "Alpha Fade Out Random": {
+            "functionName": "Alpha Fade Out Random"
+          },
+          "Lifetime Random": {
+            "functionName": "Lifetime Random",
+            "lifetime_min": 0.800000011920929,
+            "lifetime_max": 0.800000011920929
+          },
+          "Position Within Sphere Random": {
+            "functionName": "Position Within Sphere Random",
+            "speed_in_local_coordinate_system_min": [
+              70.0,
+              -15.0,
+              20.0
+            ],
+            "speed_in_local_coordinate_system_max": [
+              130.0,
+              15.0,
+              115.0
+            ]
+          },
+          "Sequence Random": {
+            "functionName": "Sequence Random",
+            "sequence_min": 6,
+            "sequence_max": 7
+          },
+          "Color Random": {
+            "functionName": "Color Random",
+            "tint_perc": 0.75,
+            "tint clamp max": [
+              187.0,
+              187.0,
+              187.0,
+              255.0
+            ]
+          },
+          "Rotation Random": {
+            "functionName": "Rotation Random",
+            "rotation_offset_min": -10.0,
+            "rotation_offset_max": 10.0
+          },
+          "Radius Random": {
+            "functionName": "Radius Random",
+            "radius_max": 3.5,
+            "radius_min": 3.5
+          },
+          "emit_instantaneously": {
+            "functionName": "emit_instantaneously",
+            "num_to_emit": 1
+          }
+        }
+      }
+    },
+    "weapon_shell_casing_9mm": {
+      "preventNameBasedLookup": false,
+      "max_particles": 16,
+      "material": "particle\\shells\\particle_shells.vmt",
+      "bounding_box_min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "bounding_box_max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "fallback replacement definition": "weapon_shell_casing_9mm_fallback",
+      "fallback max count": 16,
+      "radius": 0.75,
+      "maximum draw distance": 400.0,
+      "Sort particles": false,
+      "collections": {
+        "renderers": [
+          "Render models"
+        ],
+        "operators": [
+          "Movement Basic",
+          "Lifespan Decay",
+          "Rotation Spin Roll",
+          "Alpha Fade Out Random",
+          "Rotation Spin Yaw"
+        ],
+        "initializers": [
+          "Lifetime Random",
+          "Rotation Random",
+          "Position Within Sphere Random",
+          "Radius Random"
+        ],
+        "emitters": [
+          "emit_instantaneously"
+        ],
+        "children": [],
+        "forces": [],
+        "constraints": [
+          "Collision via traces"
+        ]
+      },
+      "operators": {
+        "Render models": {
+          "functionName": "Render models",
+          "sequence 0 model": "models\\weapons\\shared\\shell_9mm_hr.mdl"
+        },
+        "Movement Basic": {
+          "functionName": "Movement Basic",
+          "drag": 0.05000000074505806,
+          "gravity": [
+            0.0,
+            0.0,
+            -600.0
+          ]
+        },
+        "Lifespan Decay": {
+          "functionName": "Lifespan Decay"
+        },
+        "Rotation Spin Roll": {
+          "functionName": "Rotation Spin Roll",
+          "spin_stop_time": 0.6000000238418579,
+          "spin_rate_degrees": 85
+        },
+        "Alpha Fade Out Random": {
+          "functionName": "Alpha Fade Out Random"
+        },
+        "Rotation Spin Yaw": {
+          "functionName": "Rotation Spin Yaw",
+          "yaw_rate_degrees": 20
+        },
+        "Lifetime Random": {
+          "functionName": "Lifetime Random",
+          "lifetime_max": 0.800000011920929,
+          "lifetime_min": 0.800000011920929
+        },
+        "Rotation Random": {
+          "functionName": "Rotation Random"
+        },
+        "Position Within Sphere Random": {
+          "functionName": "Position Within Sphere Random",
+          "speed_in_local_coordinate_system_max": [
+            150.0,
+            5.0,
+            75.0
+          ],
+          "speed_in_local_coordinate_system_min": [
+            120.0,
+            -15.0,
+            50.0
+          ]
+        },
+        "Radius Random": {
+          "functionName": "Radius Random",
+          "radius_max": 0.07999999821186066,
+          "radius_min": 0.07999999821186066
+        },
+        "emit_instantaneously": {
+          "functionName": "emit_instantaneously",
+          "num_to_emit": 1
+        },
+        "Collision via traces": {
+          "functionName": "Collision via traces",
+          "amount of bounce": 0.800000011920929,
+          "amount of slide": 0.4000000059604645,
+          "brush only": true,
+          "collision group": "DEBRIS"
+        }
+      },
+      "fallback": {
+        "preventNameBasedLookup": false,
+        "max_particles": 16,
+        "material": "particle\\shells\\particle_shells.vmt",
+        "bounding_box_min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "bounding_box_max": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "radius": 0.75,
+        "maximum draw distance": 400.0,
+        "Sort particles": false,
+        "minimum simulation time step": 0.07500000298023224,
+        "collections": {
+          "renderers": [
+            "render_animated_sprites"
+          ],
+          "operators": [
+            "Movement Basic",
+            "Lifespan Decay",
+            "Rotation Spin Roll",
+            "Alpha Fade Out Random"
+          ],
+          "initializers": [
+            "Lifetime Random",
+            "Position Within Sphere Random",
+            "Rotation Random",
+            "Sequence Random",
+            "Rotation Yaw Flip Random",
+            "Color Random",
+            "Radius Random"
+          ],
+          "emitters": [
+            "emit_instantaneously"
+          ],
+          "children": [],
+          "forces": [],
+          "constraints": []
+        },
+        "operators": {
+          "render_animated_sprites": {
+            "functionName": "render_animated_sprites"
+          },
+          "Movement Basic": {
+            "functionName": "Movement Basic",
+            "gravity": [
+              0.0,
+              0.0,
+              -600.0
+            ],
+            "drag": 0.05000000074505806
+          },
+          "Lifespan Decay": {
+            "functionName": "Lifespan Decay"
+          },
+          "Rotation Spin Roll": {
+            "functionName": "Rotation Spin Roll",
+            "spin_rate_degrees": 85,
+            "spin_stop_time": 0.6000000238418579
+          },
+          "Alpha Fade Out Random": {
+            "functionName": "Alpha Fade Out Random"
+          },
+          "Lifetime Random": {
+            "functionName": "Lifetime Random",
+            "lifetime_min": 0.800000011920929,
+            "lifetime_max": 0.800000011920929
+          },
+          "Position Within Sphere Random": {
+            "functionName": "Position Within Sphere Random",
+            "speed_in_local_coordinate_system_min": [
+              100.0,
+              -15.0,
+              110.0
+            ],
+            "speed_in_local_coordinate_system_max": [
+              130.0,
+              15.0,
+              135.0
+            ]
+          },
+          "Rotation Random": {
+            "functionName": "Rotation Random"
+          },
+          "Sequence Random": {
+            "functionName": "Sequence Random",
+            "sequence_max": 2
+          },
+          "Rotation Yaw Flip Random": {
+            "functionName": "Rotation Yaw Flip Random"
+          },
+          "Color Random": {
+            "functionName": "Color Random",
+            "tint clamp max": [
+              208.0,
+              208.0,
+              208.0,
+              255.0
+            ],
+            "tint_perc": 0.75
+          },
+          "Radius Random": {
+            "functionName": "Radius Random",
+            "radius_min": 1.25,
+            "radius_max": 1.25
+          },
+          "emit_instantaneously": {
+            "functionName": "emit_instantaneously",
+            "num_to_emit": 1
+          }
+        }
+      }
+    }
+  },
+  "models": {
+    "weapon_shell_casing_rifle": {
+      "reference": "models\\weapons\\shared\\shell_762_hr.mdl",
+      "internalName": "models\\weapons\\shared\\shell_762_hr.mdl",
+      "bone": [
+        "762"
+      ],
+      "vertices": [
+        119
+      ],
+      "materialPaths": [
+        "models\\weapons\\shared\\shells\\"
+      ],
+      "materials": [
+        "shells"
+      ],
+      "surfaceProp": "default",
+      "files": {
+        ".mdl": {
+          "source": "models/models/weapons/shared/shell_762_hr.mdl",
+          "path": "original/shell_762_hr.mdl",
+          "bytes": 1852,
+          "sha256": "86558ff208915271b38db220a17450e2c8aa17924497db1363ba70e0a1480216"
+        },
+        ".vvd": {
+          "source": "models/models/weapons/shared/shell_762_hr.vvd",
+          "path": "original/shell_762_hr.vvd",
+          "bytes": 7680,
+          "sha256": "663b614c971d9fc4b6799b3fcd4135bf32367970da42fc79919c66652d956ddd"
+        },
+        ".dx90.vtx": {
+          "source": "models/models/weapons/shared/shell_762_hr.dx90.vtx",
+          "path": "original/shell_762_hr.dx90.vtx",
+          "bytes": 2080,
+          "sha256": "4b361526e1aadd04bb6b6938f74c9eba32444c2d0968b8431e715d942f845318"
+        }
+      }
+    },
+    "weapon_shell_casing_50cal": {
+      "reference": "models\\weapons\\shared\\shell_50cal_hr.mdl",
+      "internalName": "models\\weapons\\shared\\shell_50cal_hr.mdl",
+      "bone": [
+        "50cal"
+      ],
+      "vertices": [
+        119
+      ],
+      "materialPaths": [
+        "models\\weapons\\shared\\shells\\"
+      ],
+      "materials": [
+        "shells"
+      ],
+      "surfaceProp": "default",
+      "files": {
+        ".mdl": {
+          "source": "models/models/weapons/shared/shell_50cal_hr.mdl",
+          "path": "original/shell_50cal_hr.mdl",
+          "bytes": 1860,
+          "sha256": "2d3ac0a12e810c2469cdee892921d821c29c1020e1ef745e9b2cc46435f0ee2b"
+        },
+        ".vvd": {
+          "source": "models/models/weapons/shared/shell_50cal_hr.vvd",
+          "path": "original/shell_50cal_hr.vvd",
+          "bytes": 7680,
+          "sha256": "7323b728f439a02c8cfd682b2df40384a2b694c3572def6c8098b2a5725696b3"
+        },
+        ".dx90.vtx": {
+          "source": "models/models/weapons/shared/shell_50cal_hr.dx90.vtx",
+          "path": "original/shell_50cal_hr.dx90.vtx",
+          "bytes": 2080,
+          "sha256": "cc721580a1f4f306f40fd2163cf5084a54e6cb90591d0da1f995211cb59b1190"
+        }
+      }
+    },
+    "weapon_shell_casing_9mm": {
+      "reference": "models\\weapons\\shared\\shell_9mm_hr.mdl",
+      "internalName": "models\\weapons\\shared\\shell_9mm_hr.mdl",
+      "bone": [
+        "9mm"
+      ],
+      "vertices": [
+        99
+      ],
+      "materialPaths": [
+        "models\\weapons\\shared\\shells\\"
+      ],
+      "materials": [
+        "shells"
+      ],
+      "surfaceProp": "default",
+      "files": {
+        ".mdl": {
+          "source": "models/models/weapons/shared/shell_9mm_hr.mdl",
+          "path": "original/shell_9mm_hr.mdl",
+          "bytes": 1852,
+          "sha256": "65a7e7528e0a070928ad9e68cd96ba038ace1ae62599e6ec0720f05e1179f933"
+        },
+        ".vvd": {
+          "source": "models/models/weapons/shared/shell_9mm_hr.vvd",
+          "path": "original/shell_9mm_hr.vvd",
+          "bytes": 6400,
+          "sha256": "ad8a42045e0e1891c28c8b74a54093922e5ed6c4943f24f203f491c3faee9139"
+        },
+        ".dx90.vtx": {
+          "source": "models/models/weapons/shared/shell_9mm_hr.dx90.vtx",
+          "path": "original/shell_9mm_hr.dx90.vtx",
+          "bytes": 1684,
+          "sha256": "376f6960164cd36045007040621392329942800266896073053c0078681dbbeb"
+        }
+      }
+    }
+  },
+  "materials": {
+    "materials/models/weapons/shared/shells/shells.vmt": {
+      "source": "materials/models/weapons/shared/shells/shells.vmt",
+      "shader": "vertexlitgeneric",
+      "textures": [
+        {
+          "parameter": "$basetexture",
+          "source": "materials/models/weapons/shared/shells/shells.vtf",
+          "path": "original/shells.vtf",
+          "bytes": 87640,
+          "sha256": "e19db4ede247a9f3853e7d7a4d7c5527cb425b53add5d90f0b1f8c2fc351b8cf"
+        }
+      ],
+      "path": "original/shells.vmt",
+      "bytes": 402,
+      "sha256": "1f2f6b32526c136f77843808aba8977bf7d04dd0db4d6486b96bc82cb2ce57dc"
+    }
+  },
+  "nativeSchemas": {
+    "Alpha Fade Out Random": {
+      "functionName": "Alpha Fade Out Random",
+      "registrationVA": "0x404018",
+      "definitionVTable": "0x1114368",
+      "factory": "0xd2bae0",
+      "unpackGetter": "0xd1eb30",
+      "tableVA": "0x14b07c0",
+      "fields": [
+        {
+          "name": "operator start fadein",
+          "default": "0",
+          "offset": 4,
+          "bytes": 4,
+          "rawRecordVA": "0x14b07c0",
+          "rawRecordHex": "65611001879a0a01000000000400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end fadein",
+          "default": "0",
+          "offset": 8,
+          "bytes": 4,
+          "rawRecordVA": "0x14b07ec",
+          "rawRecordHex": "7b611001879a0a01000000000800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator start fadeout",
+          "default": "0",
+          "offset": 12,
+          "bytes": 4,
+          "rawRecordVA": "0x14b0818",
+          "rawRecordHex": "8f611001879a0a01000000000c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end fadeout",
+          "default": "0",
+          "offset": 16,
+          "bytes": 4,
+          "rawRecordVA": "0x14b0844",
+          "rawRecordHex": "a6611001879a0a01000000001000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator fade oscillate",
+          "default": "0",
+          "offset": 20,
+          "bytes": 4,
+          "rawRecordVA": "0x14b0870",
+          "rawRecordHex": "bb611001879a0a01000000001400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time offset seed",
+          "default": "0",
+          "offset": 32,
+          "bytes": 4,
+          "rawRecordVA": "0x14b089c",
+          "rawRecordHex": "d3611001879a0a01000000002000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator time offset min",
+          "default": "0",
+          "offset": 24,
+          "bytes": 4,
+          "rawRecordVA": "0x14b08c8",
+          "rawRecordHex": "ed611001879a0a01000000001800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time offset max",
+          "default": "0",
+          "offset": 28,
+          "bytes": 4,
+          "rawRecordVA": "0x14b08f4",
+          "rawRecordHex": "06621001879a0a01000000001c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time scale seed",
+          "default": "0",
+          "offset": 48,
+          "bytes": 4,
+          "rawRecordVA": "0x14b0920",
+          "rawRecordHex": "1f621001879a0a01000000003000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator time scale min",
+          "default": "1",
+          "offset": 52,
+          "bytes": 4,
+          "rawRecordVA": "0x14b094c",
+          "rawRecordHex": "386210018d631001000000003400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time scale max",
+          "default": "1",
+          "offset": 56,
+          "bytes": 4,
+          "rawRecordVA": "0x14b0978",
+          "rawRecordHex": "506210018d631001000000003800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time strength random scale max",
+          "default": "1",
+          "offset": 44,
+          "bytes": 4,
+          "rawRecordVA": "0x14b09a4",
+          "rawRecordHex": "f85f10018d631001000000002c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator strength scale seed",
+          "default": "0",
+          "offset": 36,
+          "bytes": 4,
+          "rawRecordVA": "0x14b09d0",
+          "rawRecordHex": "68621001879a0a01000000002400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator strength random scale min",
+          "default": "1",
+          "offset": 40,
+          "bytes": 4,
+          "rawRecordVA": "0x14b09fc",
+          "rawRecordHex": "206010018d631001000000002800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator strength random scale max",
+          "default": "1",
+          "offset": 44,
+          "bytes": 4,
+          "rawRecordVA": "0x14b0a28",
+          "rawRecordHex": "446010018d631001000000002c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end cap state",
+          "default": "-1",
+          "offset": 64,
+          "bytes": 4,
+          "rawRecordVA": "0x14b0a54",
+          "rawRecordHex": "85621001b38a0f01000000004000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "fade out time min",
+          "default": ".25",
+          "offset": 88,
+          "bytes": 4,
+          "rawRecordVA": "0x14b0a80",
+          "rawRecordHex": "f8e7100188d91001000000005800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "fade out time max",
+          "default": ".25",
+          "offset": 92,
+          "bytes": 4,
+          "rawRecordVA": "0x14b0aac",
+          "rawRecordHex": "0ae8100188d91001000000005c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "fade out time exponent",
+          "default": "1",
+          "offset": 96,
+          "bytes": 4,
+          "rawRecordVA": "0x14b0ad8",
+          "rawRecordHex": "1ce810018d631001000000006000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "proportional 0/1",
+          "default": "1",
+          "offset": 128,
+          "bytes": 1,
+          "rawRecordVA": "0x14b0b04",
+          "rawRecordHex": "e7e710018d631001000000008000000001000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 4
+        },
+        {
+          "name": "ease in and out",
+          "default": "1",
+          "offset": 129,
+          "bytes": 1,
+          "rawRecordVA": "0x14b0b30",
+          "rawRecordHex": "33e810018d631001000000008100000001000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 4
+        },
+        {
+          "name": "fade bias",
+          "default": "0.5",
+          "offset": 100,
+          "bytes": 4,
+          "rawRecordVA": "0x14b0b5c",
+          "rawRecordHex": "43e81001072bfc00000000006400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        }
+      ],
+      "nativeGetterExecuted": true
+    },
+    "Collision via traces": {
+      "functionName": "Collision via traces",
+      "registrationVA": "0x402c81",
+      "definitionVTable": "0x1106a28",
+      "factory": "0xce6970",
+      "unpackGetter": "0xce5e10",
+      "tableVA": "0x149ccc0",
+      "fields": [
+        {
+          "name": "operator start fadein",
+          "default": "0",
+          "offset": 4,
+          "bytes": 4,
+          "rawRecordVA": "0x149ccc0",
+          "rawRecordHex": "65611001879a0a01000000000400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end fadein",
+          "default": "0",
+          "offset": 8,
+          "bytes": 4,
+          "rawRecordVA": "0x149ccec",
+          "rawRecordHex": "7b611001879a0a01000000000800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator start fadeout",
+          "default": "0",
+          "offset": 12,
+          "bytes": 4,
+          "rawRecordVA": "0x149cd18",
+          "rawRecordHex": "8f611001879a0a01000000000c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end fadeout",
+          "default": "0",
+          "offset": 16,
+          "bytes": 4,
+          "rawRecordVA": "0x149cd44",
+          "rawRecordHex": "a6611001879a0a01000000001000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator fade oscillate",
+          "default": "0",
+          "offset": 20,
+          "bytes": 4,
+          "rawRecordVA": "0x149cd70",
+          "rawRecordHex": "bb611001879a0a01000000001400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time offset seed",
+          "default": "0",
+          "offset": 32,
+          "bytes": 4,
+          "rawRecordVA": "0x149cd9c",
+          "rawRecordHex": "d3611001879a0a01000000002000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator time offset min",
+          "default": "0",
+          "offset": 24,
+          "bytes": 4,
+          "rawRecordVA": "0x149cdc8",
+          "rawRecordHex": "ed611001879a0a01000000001800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time offset max",
+          "default": "0",
+          "offset": 28,
+          "bytes": 4,
+          "rawRecordVA": "0x149cdf4",
+          "rawRecordHex": "06621001879a0a01000000001c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time scale seed",
+          "default": "0",
+          "offset": 48,
+          "bytes": 4,
+          "rawRecordVA": "0x149ce20",
+          "rawRecordHex": "1f621001879a0a01000000003000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator time scale min",
+          "default": "1",
+          "offset": 52,
+          "bytes": 4,
+          "rawRecordVA": "0x149ce4c",
+          "rawRecordHex": "386210018d631001000000003400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time scale max",
+          "default": "1",
+          "offset": 56,
+          "bytes": 4,
+          "rawRecordVA": "0x149ce78",
+          "rawRecordHex": "506210018d631001000000003800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time strength random scale max",
+          "default": "1",
+          "offset": 44,
+          "bytes": 4,
+          "rawRecordVA": "0x149cea4",
+          "rawRecordHex": "f85f10018d631001000000002c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator strength scale seed",
+          "default": "0",
+          "offset": 36,
+          "bytes": 4,
+          "rawRecordVA": "0x149ced0",
+          "rawRecordHex": "68621001879a0a01000000002400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator strength random scale min",
+          "default": "1",
+          "offset": 40,
+          "bytes": 4,
+          "rawRecordVA": "0x149cefc",
+          "rawRecordHex": "206010018d631001000000002800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator strength random scale max",
+          "default": "1",
+          "offset": 44,
+          "bytes": 4,
+          "rawRecordVA": "0x149cf28",
+          "rawRecordHex": "446010018d631001000000002c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end cap state",
+          "default": "-1",
+          "offset": 64,
+          "bytes": 4,
+          "rawRecordVA": "0x149cf54",
+          "rawRecordHex": "85621001b38a0f01000000004000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "collision mode",
+          "default": "0",
+          "offset": 100,
+          "bytes": 4,
+          "rawRecordVA": "0x149cf80",
+          "rawRecordHex": "ab631001879a0a01000000006400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "amount of bounce",
+          "default": "0",
+          "offset": 104,
+          "bytes": 4,
+          "rawRecordVA": "0x149cfac",
+          "rawRecordHex": "ba631001879a0a01000000006800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "amount of slide",
+          "default": "0",
+          "offset": 108,
+          "bytes": 4,
+          "rawRecordVA": "0x149cfd8",
+          "rawRecordHex": "cb631001879a0a01000000006c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "radius scale",
+          "default": "1",
+          "offset": 112,
+          "bytes": 4,
+          "rawRecordVA": "0x149d004",
+          "rawRecordHex": "db6310018d631001000000007000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "brush only",
+          "default": "0",
+          "offset": 264,
+          "bytes": 1,
+          "rawRecordVA": "0x149d030",
+          "rawRecordHex": "e8631001879a0a01000000000801000001000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 4
+        },
+        {
+          "name": "collision group",
+          "default": "NONE",
+          "offset": 130,
+          "bytes": 128,
+          "rawRecordVA": "0x149d05c",
+          "rawRecordHex": "60831001cf720001050000008200000080000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 5
+        },
+        {
+          "name": "control point offset for fast collisions",
+          "default": "0 0 0",
+          "offset": 88,
+          "bytes": 12,
+          "rawRecordVA": "0x149d088",
+          "rawRecordHex": "b8601001839a0a0100000000580000000c000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 10
+        },
+        {
+          "name": "control point movement distance tolerance",
+          "default": "5",
+          "offset": 116,
+          "bytes": 4,
+          "rawRecordVA": "0x149d0b4",
+          "rawRecordHex": "e46010015c831201000000007400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "kill particle on collision",
+          "default": "0",
+          "offset": 128,
+          "bytes": 1,
+          "rawRecordVA": "0x149d0e0",
+          "rawRecordHex": "f3631001879a0a01000000008000000001000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 4
+        },
+        {
+          "name": "minimum speed to kill on collision",
+          "default": "-1",
+          "offset": 124,
+          "bytes": 4,
+          "rawRecordVA": "0x149d10c",
+          "rawRecordHex": "10611001b38a0f01000000007c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "Confirm Collision",
+          "default": "0",
+          "offset": 129,
+          "bytes": 1,
+          "rawRecordVA": "0x149d138",
+          "rawRecordHex": "0e641001879a0a01000000008100000001000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 4
+        },
+        {
+          "name": "trace accuracy tolerance",
+          "default": "24",
+          "offset": 120,
+          "bytes": 4,
+          "rawRecordVA": "0x149d164",
+          "rawRecordHex": "206410010dcf0401000000007800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        }
+      ],
+      "nativeGetterExecuted": true
+    },
+    "Lifespan Decay": {
+      "functionName": "Lifespan Decay",
+      "registrationVA": "0x404616",
+      "definitionVTable": "0x11146a8",
+      "factory": "0xd2b460",
+      "unpackGetter": "0xd208d0",
+      "tableVA": "0x14b6e80",
+      "fields": [
+        {
+          "name": "operator start fadein",
+          "default": "0",
+          "offset": 4,
+          "bytes": 4,
+          "rawRecordVA": "0x14b6e80",
+          "rawRecordHex": "65611001879a0a01000000000400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end fadein",
+          "default": "0",
+          "offset": 8,
+          "bytes": 4,
+          "rawRecordVA": "0x14b6eac",
+          "rawRecordHex": "7b611001879a0a01000000000800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator start fadeout",
+          "default": "0",
+          "offset": 12,
+          "bytes": 4,
+          "rawRecordVA": "0x14b6ed8",
+          "rawRecordHex": "8f611001879a0a01000000000c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end fadeout",
+          "default": "0",
+          "offset": 16,
+          "bytes": 4,
+          "rawRecordVA": "0x14b6f04",
+          "rawRecordHex": "a6611001879a0a01000000001000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator fade oscillate",
+          "default": "0",
+          "offset": 20,
+          "bytes": 4,
+          "rawRecordVA": "0x14b6f30",
+          "rawRecordHex": "bb611001879a0a01000000001400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time offset seed",
+          "default": "0",
+          "offset": 32,
+          "bytes": 4,
+          "rawRecordVA": "0x14b6f5c",
+          "rawRecordHex": "d3611001879a0a01000000002000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator time offset min",
+          "default": "0",
+          "offset": 24,
+          "bytes": 4,
+          "rawRecordVA": "0x14b6f88",
+          "rawRecordHex": "ed611001879a0a01000000001800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time offset max",
+          "default": "0",
+          "offset": 28,
+          "bytes": 4,
+          "rawRecordVA": "0x14b6fb4",
+          "rawRecordHex": "06621001879a0a01000000001c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time scale seed",
+          "default": "0",
+          "offset": 48,
+          "bytes": 4,
+          "rawRecordVA": "0x14b6fe0",
+          "rawRecordHex": "1f621001879a0a01000000003000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator time scale min",
+          "default": "1",
+          "offset": 52,
+          "bytes": 4,
+          "rawRecordVA": "0x14b700c",
+          "rawRecordHex": "386210018d631001000000003400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time scale max",
+          "default": "1",
+          "offset": 56,
+          "bytes": 4,
+          "rawRecordVA": "0x14b7038",
+          "rawRecordHex": "506210018d631001000000003800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time strength random scale max",
+          "default": "1",
+          "offset": 44,
+          "bytes": 4,
+          "rawRecordVA": "0x14b7064",
+          "rawRecordHex": "f85f10018d631001000000002c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator strength scale seed",
+          "default": "0",
+          "offset": 36,
+          "bytes": 4,
+          "rawRecordVA": "0x14b7090",
+          "rawRecordHex": "68621001879a0a01000000002400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator strength random scale min",
+          "default": "1",
+          "offset": 40,
+          "bytes": 4,
+          "rawRecordVA": "0x14b70bc",
+          "rawRecordHex": "206010018d631001000000002800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator strength random scale max",
+          "default": "1",
+          "offset": 44,
+          "bytes": 4,
+          "rawRecordVA": "0x14b70e8",
+          "rawRecordHex": "446010018d631001000000002c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end cap state",
+          "default": "-1",
+          "offset": 64,
+          "bytes": 4,
+          "rawRecordVA": "0x14b7114",
+          "rawRecordHex": "85621001b38a0f01000000004000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        }
+      ],
+      "nativeGetterExecuted": true
+    },
+    "Lifetime Random": {
+      "functionName": "Lifetime Random",
+      "registrationVA": "0x40303d",
+      "definitionVTable": "0x110ae48",
+      "factory": "0xcff300",
+      "unpackGetter": "0xcf6510",
+      "tableVA": "0x14a0640",
+      "fields": [
+        {
+          "name": "operator start fadein",
+          "default": "0",
+          "offset": 4,
+          "bytes": 4,
+          "rawRecordVA": "0x14a0640",
+          "rawRecordHex": "65611001879a0a01000000000400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end fadein",
+          "default": "0",
+          "offset": 8,
+          "bytes": 4,
+          "rawRecordVA": "0x14a066c",
+          "rawRecordHex": "7b611001879a0a01000000000800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator start fadeout",
+          "default": "0",
+          "offset": 12,
+          "bytes": 4,
+          "rawRecordVA": "0x14a0698",
+          "rawRecordHex": "8f611001879a0a01000000000c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end fadeout",
+          "default": "0",
+          "offset": 16,
+          "bytes": 4,
+          "rawRecordVA": "0x14a06c4",
+          "rawRecordHex": "a6611001879a0a01000000001000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator fade oscillate",
+          "default": "0",
+          "offset": 20,
+          "bytes": 4,
+          "rawRecordVA": "0x14a06f0",
+          "rawRecordHex": "bb611001879a0a01000000001400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time offset seed",
+          "default": "0",
+          "offset": 32,
+          "bytes": 4,
+          "rawRecordVA": "0x14a071c",
+          "rawRecordHex": "d3611001879a0a01000000002000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator time offset min",
+          "default": "0",
+          "offset": 24,
+          "bytes": 4,
+          "rawRecordVA": "0x14a0748",
+          "rawRecordHex": "ed611001879a0a01000000001800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time offset max",
+          "default": "0",
+          "offset": 28,
+          "bytes": 4,
+          "rawRecordVA": "0x14a0774",
+          "rawRecordHex": "06621001879a0a01000000001c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time scale seed",
+          "default": "0",
+          "offset": 48,
+          "bytes": 4,
+          "rawRecordVA": "0x14a07a0",
+          "rawRecordHex": "1f621001879a0a01000000003000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator time scale min",
+          "default": "1",
+          "offset": 52,
+          "bytes": 4,
+          "rawRecordVA": "0x14a07cc",
+          "rawRecordHex": "386210018d631001000000003400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time scale max",
+          "default": "1",
+          "offset": 56,
+          "bytes": 4,
+          "rawRecordVA": "0x14a07f8",
+          "rawRecordHex": "506210018d631001000000003800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time strength random scale max",
+          "default": "1",
+          "offset": 44,
+          "bytes": 4,
+          "rawRecordVA": "0x14a0824",
+          "rawRecordHex": "f85f10018d631001000000002c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator strength scale seed",
+          "default": "0",
+          "offset": 36,
+          "bytes": 4,
+          "rawRecordVA": "0x14a0850",
+          "rawRecordHex": "68621001879a0a01000000002400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator strength random scale min",
+          "default": "1",
+          "offset": 40,
+          "bytes": 4,
+          "rawRecordVA": "0x14a087c",
+          "rawRecordHex": "206010018d631001000000002800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator strength random scale max",
+          "default": "1",
+          "offset": 44,
+          "bytes": 4,
+          "rawRecordVA": "0x14a08a8",
+          "rawRecordHex": "446010018d631001000000002c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end cap state",
+          "default": "-1",
+          "offset": 64,
+          "bytes": 4,
+          "rawRecordVA": "0x14a08d4",
+          "rawRecordHex": "85621001b38a0f01000000004000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "run for killed parent particles",
+          "default": "1",
+          "offset": 88,
+          "bytes": 1,
+          "rawRecordVA": "0x14a0900",
+          "rawRecordHex": "246f10018d631001000000005800000001000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 4
+        },
+        {
+          "name": "lifetime_min",
+          "default": "0",
+          "offset": 92,
+          "bytes": 4,
+          "rawRecordVA": "0x14a092c",
+          "rawRecordHex": "a27c1001879a0a01000000005c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "lifetime_max",
+          "default": "0",
+          "offset": 96,
+          "bytes": 4,
+          "rawRecordVA": "0x14a0958",
+          "rawRecordHex": "af7c1001879a0a01000000006000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "lifetime_random_exponent",
+          "default": "1",
+          "offset": 100,
+          "bytes": 4,
+          "rawRecordVA": "0x14a0984",
+          "rawRecordHex": "bc7c10018d631001000000006400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        }
+      ],
+      "nativeGetterExecuted": true
+    },
+    "Movement Basic": {
+      "functionName": "Movement Basic",
+      "registrationVA": "0x403f2c",
+      "definitionVTable": "0x11142e8",
+      "factory": "0xd2bbe0",
+      "unpackGetter": "0xd1e6d0",
+      "tableVA": "0x14af8a0",
+      "fields": [
+        {
+          "name": "operator start fadein",
+          "default": "0",
+          "offset": 4,
+          "bytes": 4,
+          "rawRecordVA": "0x14af8a0",
+          "rawRecordHex": "65611001879a0a01000000000400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end fadein",
+          "default": "0",
+          "offset": 8,
+          "bytes": 4,
+          "rawRecordVA": "0x14af8cc",
+          "rawRecordHex": "7b611001879a0a01000000000800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator start fadeout",
+          "default": "0",
+          "offset": 12,
+          "bytes": 4,
+          "rawRecordVA": "0x14af8f8",
+          "rawRecordHex": "8f611001879a0a01000000000c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end fadeout",
+          "default": "0",
+          "offset": 16,
+          "bytes": 4,
+          "rawRecordVA": "0x14af924",
+          "rawRecordHex": "a6611001879a0a01000000001000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator fade oscillate",
+          "default": "0",
+          "offset": 20,
+          "bytes": 4,
+          "rawRecordVA": "0x14af950",
+          "rawRecordHex": "bb611001879a0a01000000001400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time offset seed",
+          "default": "0",
+          "offset": 32,
+          "bytes": 4,
+          "rawRecordVA": "0x14af97c",
+          "rawRecordHex": "d3611001879a0a01000000002000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator time offset min",
+          "default": "0",
+          "offset": 24,
+          "bytes": 4,
+          "rawRecordVA": "0x14af9a8",
+          "rawRecordHex": "ed611001879a0a01000000001800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time offset max",
+          "default": "0",
+          "offset": 28,
+          "bytes": 4,
+          "rawRecordVA": "0x14af9d4",
+          "rawRecordHex": "06621001879a0a01000000001c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time scale seed",
+          "default": "0",
+          "offset": 48,
+          "bytes": 4,
+          "rawRecordVA": "0x14afa00",
+          "rawRecordHex": "1f621001879a0a01000000003000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator time scale min",
+          "default": "1",
+          "offset": 52,
+          "bytes": 4,
+          "rawRecordVA": "0x14afa2c",
+          "rawRecordHex": "386210018d631001000000003400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time scale max",
+          "default": "1",
+          "offset": 56,
+          "bytes": 4,
+          "rawRecordVA": "0x14afa58",
+          "rawRecordHex": "506210018d631001000000003800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time strength random scale max",
+          "default": "1",
+          "offset": 44,
+          "bytes": 4,
+          "rawRecordVA": "0x14afa84",
+          "rawRecordHex": "f85f10018d631001000000002c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator strength scale seed",
+          "default": "0",
+          "offset": 36,
+          "bytes": 4,
+          "rawRecordVA": "0x14afab0",
+          "rawRecordHex": "68621001879a0a01000000002400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator strength random scale min",
+          "default": "1",
+          "offset": 40,
+          "bytes": 4,
+          "rawRecordVA": "0x14afadc",
+          "rawRecordHex": "206010018d631001000000002800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator strength random scale max",
+          "default": "1",
+          "offset": 44,
+          "bytes": 4,
+          "rawRecordVA": "0x14afb08",
+          "rawRecordHex": "446010018d631001000000002c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end cap state",
+          "default": "-1",
+          "offset": 64,
+          "bytes": 4,
+          "rawRecordVA": "0x14afb34",
+          "rawRecordHex": "85621001b38a0f01000000004000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "gravity",
+          "default": "0 0 0",
+          "offset": 88,
+          "bytes": 12,
+          "rawRecordVA": "0x14afb60",
+          "rawRecordHex": "1ea30e01839a0a0100000000580000000c000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 10
+        },
+        {
+          "name": "drag",
+          "default": "0",
+          "offset": 100,
+          "bytes": 4,
+          "rawRecordVA": "0x14afb8c",
+          "rawRecordHex": "34e71001879a0a01000000006400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "max constraint passes",
+          "default": "3",
+          "offset": 104,
+          "bytes": 4,
+          "rawRecordVA": "0x14afbb8",
+          "rawRecordHex": "39e7100134831201000000006800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        }
+      ],
+      "nativeGetterExecuted": true
+    },
+    "Position Within Sphere Random": {
+      "functionName": "Position Within Sphere Random",
+      "registrationVA": "0x402e93",
+      "definitionVTable": "0x110ad88",
+      "factory": "0xcff480",
+      "unpackGetter": "0xcf5db0",
+      "tableVA": "0x149ebe0",
+      "fields": [
+        {
+          "name": "operator start fadein",
+          "default": "0",
+          "offset": 4,
+          "bytes": 4,
+          "rawRecordVA": "0x149ebe0",
+          "rawRecordHex": "65611001879a0a01000000000400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end fadein",
+          "default": "0",
+          "offset": 8,
+          "bytes": 4,
+          "rawRecordVA": "0x149ec0c",
+          "rawRecordHex": "7b611001879a0a01000000000800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator start fadeout",
+          "default": "0",
+          "offset": 12,
+          "bytes": 4,
+          "rawRecordVA": "0x149ec38",
+          "rawRecordHex": "8f611001879a0a01000000000c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end fadeout",
+          "default": "0",
+          "offset": 16,
+          "bytes": 4,
+          "rawRecordVA": "0x149ec64",
+          "rawRecordHex": "a6611001879a0a01000000001000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator fade oscillate",
+          "default": "0",
+          "offset": 20,
+          "bytes": 4,
+          "rawRecordVA": "0x149ec90",
+          "rawRecordHex": "bb611001879a0a01000000001400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time offset seed",
+          "default": "0",
+          "offset": 32,
+          "bytes": 4,
+          "rawRecordVA": "0x149ecbc",
+          "rawRecordHex": "d3611001879a0a01000000002000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator time offset min",
+          "default": "0",
+          "offset": 24,
+          "bytes": 4,
+          "rawRecordVA": "0x149ece8",
+          "rawRecordHex": "ed611001879a0a01000000001800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time offset max",
+          "default": "0",
+          "offset": 28,
+          "bytes": 4,
+          "rawRecordVA": "0x149ed14",
+          "rawRecordHex": "06621001879a0a01000000001c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time scale seed",
+          "default": "0",
+          "offset": 48,
+          "bytes": 4,
+          "rawRecordVA": "0x149ed40",
+          "rawRecordHex": "1f621001879a0a01000000003000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator time scale min",
+          "default": "1",
+          "offset": 52,
+          "bytes": 4,
+          "rawRecordVA": "0x149ed6c",
+          "rawRecordHex": "386210018d631001000000003400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time scale max",
+          "default": "1",
+          "offset": 56,
+          "bytes": 4,
+          "rawRecordVA": "0x149ed98",
+          "rawRecordHex": "506210018d631001000000003800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time strength random scale max",
+          "default": "1",
+          "offset": 44,
+          "bytes": 4,
+          "rawRecordVA": "0x149edc4",
+          "rawRecordHex": "f85f10018d631001000000002c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator strength scale seed",
+          "default": "0",
+          "offset": 36,
+          "bytes": 4,
+          "rawRecordVA": "0x149edf0",
+          "rawRecordHex": "68621001879a0a01000000002400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator strength random scale min",
+          "default": "1",
+          "offset": 40,
+          "bytes": 4,
+          "rawRecordVA": "0x149ee1c",
+          "rawRecordHex": "206010018d631001000000002800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator strength random scale max",
+          "default": "1",
+          "offset": 44,
+          "bytes": 4,
+          "rawRecordVA": "0x149ee48",
+          "rawRecordHex": "446010018d631001000000002c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end cap state",
+          "default": "-1",
+          "offset": 64,
+          "bytes": 4,
+          "rawRecordVA": "0x149ee74",
+          "rawRecordHex": "85621001b38a0f01000000004000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "run for killed parent particles",
+          "default": "1",
+          "offset": 88,
+          "bytes": 1,
+          "rawRecordVA": "0x149eea0",
+          "rawRecordHex": "246f10018d631001000000005800000001000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 4
+        },
+        {
+          "name": "distance_min",
+          "default": "0",
+          "offset": 92,
+          "bytes": 4,
+          "rawRecordVA": "0x149eecc",
+          "rawRecordHex": "23dd0801879a0a01000000005c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "distance_max",
+          "default": "0",
+          "offset": 96,
+          "bytes": 4,
+          "rawRecordVA": "0x149eef8",
+          "rawRecordHex": "3cdd0801879a0a01000000006000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "distance_bias",
+          "default": "1 1 1",
+          "offset": 100,
+          "bytes": 12,
+          "rawRecordVA": "0x149ef24",
+          "rawRecordHex": "317b1001906d110100000000640000000c000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 10
+        },
+        {
+          "name": "distance_bias_absolute_value",
+          "default": "0 0 0",
+          "offset": 112,
+          "bytes": 12,
+          "rawRecordVA": "0x149ef50",
+          "rawRecordHex": "3f7b1001839a0a0100000000700000000c000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 10
+        },
+        {
+          "name": "bias in local system",
+          "default": "0",
+          "offset": 144,
+          "bytes": 1,
+          "rawRecordVA": "0x149ef7c",
+          "rawRecordHex": "5c7b1001879a0a01000000009000000001000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 4
+        },
+        {
+          "name": "control_point_number",
+          "default": "0",
+          "offset": 124,
+          "bytes": 4,
+          "rawRecordVA": "0x149efa8",
+          "rawRecordHex": "33d7fe00879a0a01000000007c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "speed_min",
+          "default": "0",
+          "offset": 132,
+          "bytes": 4,
+          "rawRecordVA": "0x149efd4",
+          "rawRecordHex": "f77b1001879a0a01000000008400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "speed_max",
+          "default": "0",
+          "offset": 136,
+          "bytes": 4,
+          "rawRecordVA": "0x149f000",
+          "rawRecordHex": "087c1001879a0a01000000008800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "speed_random_exponent",
+          "default": "1",
+          "offset": 140,
+          "bytes": 4,
+          "rawRecordVA": "0x149f02c",
+          "rawRecordHex": "717b10018d631001000000008c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "speed_in_local_coordinate_system_min",
+          "default": "0 0 0",
+          "offset": 152,
+          "bytes": 12,
+          "rawRecordVA": "0x149f058",
+          "rawRecordHex": "44701001839a0a0100000000980000000c000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 10
+        },
+        {
+          "name": "speed_in_local_coordinate_system_max",
+          "default": "0 0 0",
+          "offset": 164,
+          "bytes": 12,
+          "rawRecordVA": "0x149f084",
+          "rawRecordHex": "6c701001839a0a0100000000a40000000c000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 10
+        },
+        {
+          "name": "randomly distribute to highest supplied Control Point",
+          "default": "0",
+          "offset": 146,
+          "bytes": 1,
+          "rawRecordVA": "0x149f0b0",
+          "rawRecordHex": "94701001879a0a01000000009200000001000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 4
+        },
+        {
+          "name": "randomly distribution growth time",
+          "default": "0",
+          "offset": 148,
+          "bytes": 4,
+          "rawRecordVA": "0x149f0dc",
+          "rawRecordHex": "cc701001879a0a01000000009400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "scale cp (distance/speed/local speed)",
+          "default": "-1",
+          "offset": 128,
+          "bytes": 4,
+          "rawRecordVA": "0x149f108",
+          "rawRecordHex": "f0701001b38a0f01000000008000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        }
+      ],
+      "nativeGetterExecuted": true
+    },
+    "Radius Random": {
+      "functionName": "Radius Random",
+      "registrationVA": "0x403129",
+      "definitionVTable": "0x110aec8",
+      "factory": "0xcff200",
+      "unpackGetter": "0xcf6970",
+      "tableVA": "0x14a1540",
+      "fields": [
+        {
+          "name": "operator start fadein",
+          "default": "0",
+          "offset": 4,
+          "bytes": 4,
+          "rawRecordVA": "0x14a1540",
+          "rawRecordHex": "65611001879a0a01000000000400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end fadein",
+          "default": "0",
+          "offset": 8,
+          "bytes": 4,
+          "rawRecordVA": "0x14a156c",
+          "rawRecordHex": "7b611001879a0a01000000000800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator start fadeout",
+          "default": "0",
+          "offset": 12,
+          "bytes": 4,
+          "rawRecordVA": "0x14a1598",
+          "rawRecordHex": "8f611001879a0a01000000000c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end fadeout",
+          "default": "0",
+          "offset": 16,
+          "bytes": 4,
+          "rawRecordVA": "0x14a15c4",
+          "rawRecordHex": "a6611001879a0a01000000001000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator fade oscillate",
+          "default": "0",
+          "offset": 20,
+          "bytes": 4,
+          "rawRecordVA": "0x14a15f0",
+          "rawRecordHex": "bb611001879a0a01000000001400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time offset seed",
+          "default": "0",
+          "offset": 32,
+          "bytes": 4,
+          "rawRecordVA": "0x14a161c",
+          "rawRecordHex": "d3611001879a0a01000000002000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator time offset min",
+          "default": "0",
+          "offset": 24,
+          "bytes": 4,
+          "rawRecordVA": "0x14a1648",
+          "rawRecordHex": "ed611001879a0a01000000001800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time offset max",
+          "default": "0",
+          "offset": 28,
+          "bytes": 4,
+          "rawRecordVA": "0x14a1674",
+          "rawRecordHex": "06621001879a0a01000000001c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time scale seed",
+          "default": "0",
+          "offset": 48,
+          "bytes": 4,
+          "rawRecordVA": "0x14a16a0",
+          "rawRecordHex": "1f621001879a0a01000000003000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator time scale min",
+          "default": "1",
+          "offset": 52,
+          "bytes": 4,
+          "rawRecordVA": "0x14a16cc",
+          "rawRecordHex": "386210018d631001000000003400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time scale max",
+          "default": "1",
+          "offset": 56,
+          "bytes": 4,
+          "rawRecordVA": "0x14a16f8",
+          "rawRecordHex": "506210018d631001000000003800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time strength random scale max",
+          "default": "1",
+          "offset": 44,
+          "bytes": 4,
+          "rawRecordVA": "0x14a1724",
+          "rawRecordHex": "f85f10018d631001000000002c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator strength scale seed",
+          "default": "0",
+          "offset": 36,
+          "bytes": 4,
+          "rawRecordVA": "0x14a1750",
+          "rawRecordHex": "68621001879a0a01000000002400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator strength random scale min",
+          "default": "1",
+          "offset": 40,
+          "bytes": 4,
+          "rawRecordVA": "0x14a177c",
+          "rawRecordHex": "206010018d631001000000002800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator strength random scale max",
+          "default": "1",
+          "offset": 44,
+          "bytes": 4,
+          "rawRecordVA": "0x14a17a8",
+          "rawRecordHex": "446010018d631001000000002c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end cap state",
+          "default": "-1",
+          "offset": 64,
+          "bytes": 4,
+          "rawRecordVA": "0x14a17d4",
+          "rawRecordHex": "85621001b38a0f01000000004000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "run for killed parent particles",
+          "default": "1",
+          "offset": 88,
+          "bytes": 1,
+          "rawRecordVA": "0x14a1800",
+          "rawRecordHex": "246f10018d631001000000005800000001000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 4
+        },
+        {
+          "name": "radius_min",
+          "default": "1",
+          "offset": 92,
+          "bytes": 4,
+          "rawRecordVA": "0x14a182c",
+          "rawRecordHex": "f87c10018d631001000000005c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "radius_max",
+          "default": "1",
+          "offset": 96,
+          "bytes": 4,
+          "rawRecordVA": "0x14a1858",
+          "rawRecordHex": "037d10018d631001000000006000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "radius_random_exponent",
+          "default": "1",
+          "offset": 100,
+          "bytes": 4,
+          "rawRecordVA": "0x14a1884",
+          "rawRecordHex": "0e7d10018d631001000000006400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        }
+      ],
+      "nativeGetterExecuted": true
+    },
+    "Render models": {
+      "functionName": "Render models",
+      "registrationVA": "0x4054d3",
+      "definitionVTable": "0x1117d08",
+      "factory": "0xd3bda0",
+      "unpackGetter": "0xd37880",
+      "tableVA": "0x14c7180",
+      "fields": [
+        {
+          "name": "operator start fadein",
+          "default": "0",
+          "offset": 4,
+          "bytes": 4,
+          "rawRecordVA": "0x14c7180",
+          "rawRecordHex": "65611001879a0a01000000000400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end fadein",
+          "default": "0",
+          "offset": 8,
+          "bytes": 4,
+          "rawRecordVA": "0x14c71ac",
+          "rawRecordHex": "7b611001879a0a01000000000800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator start fadeout",
+          "default": "0",
+          "offset": 12,
+          "bytes": 4,
+          "rawRecordVA": "0x14c71d8",
+          "rawRecordHex": "8f611001879a0a01000000000c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end fadeout",
+          "default": "0",
+          "offset": 16,
+          "bytes": 4,
+          "rawRecordVA": "0x14c7204",
+          "rawRecordHex": "a6611001879a0a01000000001000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator fade oscillate",
+          "default": "0",
+          "offset": 20,
+          "bytes": 4,
+          "rawRecordVA": "0x14c7230",
+          "rawRecordHex": "bb611001879a0a01000000001400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time offset seed",
+          "default": "0",
+          "offset": 32,
+          "bytes": 4,
+          "rawRecordVA": "0x14c725c",
+          "rawRecordHex": "d3611001879a0a01000000002000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator time offset min",
+          "default": "0",
+          "offset": 24,
+          "bytes": 4,
+          "rawRecordVA": "0x14c7288",
+          "rawRecordHex": "ed611001879a0a01000000001800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time offset max",
+          "default": "0",
+          "offset": 28,
+          "bytes": 4,
+          "rawRecordVA": "0x14c72b4",
+          "rawRecordHex": "06621001879a0a01000000001c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time scale seed",
+          "default": "0",
+          "offset": 48,
+          "bytes": 4,
+          "rawRecordVA": "0x14c72e0",
+          "rawRecordHex": "1f621001879a0a01000000003000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator time scale min",
+          "default": "1",
+          "offset": 52,
+          "bytes": 4,
+          "rawRecordVA": "0x14c730c",
+          "rawRecordHex": "386210018d631001000000003400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time scale max",
+          "default": "1",
+          "offset": 56,
+          "bytes": 4,
+          "rawRecordVA": "0x14c7338",
+          "rawRecordHex": "506210018d631001000000003800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time strength random scale max",
+          "default": "1",
+          "offset": 44,
+          "bytes": 4,
+          "rawRecordVA": "0x14c7364",
+          "rawRecordHex": "f85f10018d631001000000002c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator strength scale seed",
+          "default": "0",
+          "offset": 36,
+          "bytes": 4,
+          "rawRecordVA": "0x14c7390",
+          "rawRecordHex": "68621001879a0a01000000002400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator strength random scale min",
+          "default": "1",
+          "offset": 40,
+          "bytes": 4,
+          "rawRecordVA": "0x14c73bc",
+          "rawRecordHex": "206010018d631001000000002800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator strength random scale max",
+          "default": "1",
+          "offset": 44,
+          "bytes": 4,
+          "rawRecordVA": "0x14c73e8",
+          "rawRecordHex": "446010018d631001000000002c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end cap state",
+          "default": "-1",
+          "offset": 64,
+          "bytes": 4,
+          "rawRecordVA": "0x14c7414",
+          "rawRecordHex": "85621001b38a0f01000000004000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "Visibility Proxy Input Control Point Number",
+          "default": "-1",
+          "offset": 136,
+          "bytes": 4,
+          "rawRecordVA": "0x14c7440",
+          "rawRecordHex": "cc721101b38a0f01000000008800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "Visibility Proxy Radius",
+          "default": "1.0",
+          "offset": 116,
+          "bytes": 4,
+          "rawRecordVA": "0x14c746c",
+          "rawRecordHex": "576c110185b8fb00000000007400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "Visibility input minimum",
+          "default": "0",
+          "offset": 88,
+          "bytes": 4,
+          "rawRecordVA": "0x14c7498",
+          "rawRecordHex": "6f6c1101879a0a01000000005800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "Visibility input maximum",
+          "default": "1",
+          "offset": 92,
+          "bytes": 4,
+          "rawRecordVA": "0x14c74c4",
+          "rawRecordHex": "886c11018d631001000000005c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "Visibility input dot minimum",
+          "default": "0",
+          "offset": 128,
+          "bytes": 4,
+          "rawRecordVA": "0x14c74f0",
+          "rawRecordHex": "a16c1101879a0a01000000008000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "Visibility input dot maximum",
+          "default": "0",
+          "offset": 132,
+          "bytes": 4,
+          "rawRecordVA": "0x14c751c",
+          "rawRecordHex": "be6c1101879a0a01000000008400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "Visibility input distance minimum",
+          "default": "0",
+          "offset": 120,
+          "bytes": 4,
+          "rawRecordVA": "0x14c7548",
+          "rawRecordHex": "f8721101879a0a01000000007800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "Visibility input distance maximum",
+          "default": "0",
+          "offset": 124,
+          "bytes": 4,
+          "rawRecordVA": "0x14c7574",
+          "rawRecordHex": "1c731101879a0a01000000007c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "Visibility Alpha Scale minimum",
+          "default": "0",
+          "offset": 96,
+          "bytes": 4,
+          "rawRecordVA": "0x14c75a0",
+          "rawRecordHex": "40731101879a0a01000000006000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "Visibility Alpha Scale maximum",
+          "default": "1",
+          "offset": 100,
+          "bytes": 4,
+          "rawRecordVA": "0x14c75cc",
+          "rawRecordHex": "607311018d631001000000006400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "Visibility Radius Scale minimum",
+          "default": "1",
+          "offset": 104,
+          "bytes": 4,
+          "rawRecordVA": "0x14c75f8",
+          "rawRecordHex": "807311018d631001000000006800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "Visibility Radius Scale maximum",
+          "default": "1",
+          "offset": 108,
+          "bytes": 4,
+          "rawRecordVA": "0x14c7624",
+          "rawRecordHex": "a07311018d631001000000006c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "Visibility Radius FOV Scale base",
+          "default": "0",
+          "offset": 112,
+          "bytes": 4,
+          "rawRecordVA": "0x14c7650",
+          "rawRecordHex": "c0731101879a0a01000000007000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "sequence 0 model",
+          "default": "NONE",
+          "offset": 396,
+          "bytes": 256,
+          "rawRecordVA": "0x14c767c",
+          "rawRecordHex": "6d6e1101cf720001050000008c01000000010000ffffffff000000007e6e1101000000000000000000000000",
+          "nativeType": 5
+        },
+        {
+          "name": "animation rate",
+          "default": "30.0",
+          "offset": 672,
+          "bytes": 4,
+          "rawRecordVA": "0x14c76a8",
+          "rawRecordHex": "8e6e11014b4f0e0100000000a002000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "scale animation rate",
+          "default": "0",
+          "offset": 657,
+          "bytes": 1,
+          "rawRecordVA": "0x14c76d4",
+          "rawRecordHex": "886e1101879a0a01000000009102000001000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 4
+        },
+        {
+          "name": "animation rate scale field",
+          "default": "10",
+          "offset": 660,
+          "bytes": 4,
+          "rawRecordVA": "0x14c7700",
+          "rawRecordHex": "9d6e11012e851101000000009402000004000000ffffffff0000000080711001000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "orient model z to normal",
+          "default": "0",
+          "offset": 656,
+          "bytes": 1,
+          "rawRecordVA": "0x14c772c",
+          "rawRecordHex": "b86e1101879a0a01000000009002000001000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 4
+        },
+        {
+          "name": "skin number",
+          "default": "0",
+          "offset": 664,
+          "bytes": 4,
+          "rawRecordVA": "0x14c7758",
+          "rawRecordHex": "d16e1101879a0a01000000009802000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "activity override",
+          "default": "",
+          "offset": 140,
+          "bytes": 256,
+          "rawRecordVA": "0x14c7784",
+          "rawRecordHex": "dd6e1101a69f0401050000008c00000000010000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 5
+        }
+      ],
+      "nativeGetterExecuted": true
+    },
+    "Rotation Random": {
+      "functionName": "Rotation Random",
+      "registrationVA": "0x40319f",
+      "definitionVTable": "0x110af08",
+      "factory": "0xcff180",
+      "unpackGetter": "0xcf6b90",
+      "tableVA": "0x14a1c80",
+      "fields": [
+        {
+          "name": "operator start fadein",
+          "default": "0",
+          "offset": 4,
+          "bytes": 4,
+          "rawRecordVA": "0x14a1c80",
+          "rawRecordHex": "65611001879a0a01000000000400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end fadein",
+          "default": "0",
+          "offset": 8,
+          "bytes": 4,
+          "rawRecordVA": "0x14a1cac",
+          "rawRecordHex": "7b611001879a0a01000000000800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator start fadeout",
+          "default": "0",
+          "offset": 12,
+          "bytes": 4,
+          "rawRecordVA": "0x14a1cd8",
+          "rawRecordHex": "8f611001879a0a01000000000c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end fadeout",
+          "default": "0",
+          "offset": 16,
+          "bytes": 4,
+          "rawRecordVA": "0x14a1d04",
+          "rawRecordHex": "a6611001879a0a01000000001000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator fade oscillate",
+          "default": "0",
+          "offset": 20,
+          "bytes": 4,
+          "rawRecordVA": "0x14a1d30",
+          "rawRecordHex": "bb611001879a0a01000000001400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time offset seed",
+          "default": "0",
+          "offset": 32,
+          "bytes": 4,
+          "rawRecordVA": "0x14a1d5c",
+          "rawRecordHex": "d3611001879a0a01000000002000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator time offset min",
+          "default": "0",
+          "offset": 24,
+          "bytes": 4,
+          "rawRecordVA": "0x14a1d88",
+          "rawRecordHex": "ed611001879a0a01000000001800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time offset max",
+          "default": "0",
+          "offset": 28,
+          "bytes": 4,
+          "rawRecordVA": "0x14a1db4",
+          "rawRecordHex": "06621001879a0a01000000001c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time scale seed",
+          "default": "0",
+          "offset": 48,
+          "bytes": 4,
+          "rawRecordVA": "0x14a1de0",
+          "rawRecordHex": "1f621001879a0a01000000003000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator time scale min",
+          "default": "1",
+          "offset": 52,
+          "bytes": 4,
+          "rawRecordVA": "0x14a1e0c",
+          "rawRecordHex": "386210018d631001000000003400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time scale max",
+          "default": "1",
+          "offset": 56,
+          "bytes": 4,
+          "rawRecordVA": "0x14a1e38",
+          "rawRecordHex": "506210018d631001000000003800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time strength random scale max",
+          "default": "1",
+          "offset": 44,
+          "bytes": 4,
+          "rawRecordVA": "0x14a1e64",
+          "rawRecordHex": "f85f10018d631001000000002c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator strength scale seed",
+          "default": "0",
+          "offset": 36,
+          "bytes": 4,
+          "rawRecordVA": "0x14a1e90",
+          "rawRecordHex": "68621001879a0a01000000002400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator strength random scale min",
+          "default": "1",
+          "offset": 40,
+          "bytes": 4,
+          "rawRecordVA": "0x14a1ebc",
+          "rawRecordHex": "206010018d631001000000002800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator strength random scale max",
+          "default": "1",
+          "offset": 44,
+          "bytes": 4,
+          "rawRecordVA": "0x14a1ee8",
+          "rawRecordHex": "446010018d631001000000002c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end cap state",
+          "default": "-1",
+          "offset": 64,
+          "bytes": 4,
+          "rawRecordVA": "0x14a1f14",
+          "rawRecordHex": "85621001b38a0f01000000004000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "run for killed parent particles",
+          "default": "1",
+          "offset": 88,
+          "bytes": 1,
+          "rawRecordVA": "0x14a1f40",
+          "rawRecordHex": "246f10018d631001000000005800000001000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 4
+        },
+        {
+          "name": "rotation_initial",
+          "default": "0",
+          "offset": 100,
+          "bytes": 4,
+          "rawRecordVA": "0x14a1f6c",
+          "rawRecordHex": "4f7d1001879a0a01000000006400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "rotation_offset_min",
+          "default": "0",
+          "offset": 92,
+          "bytes": 4,
+          "rawRecordVA": "0x14a1f98",
+          "rawRecordHex": "607d1001879a0a01000000005c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "rotation_offset_max",
+          "default": "360",
+          "offset": 96,
+          "bytes": 4,
+          "rawRecordVA": "0x14a1fc4",
+          "rawRecordHex": "747d10018003f800000000006000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "rotation_random_exponent",
+          "default": "1",
+          "offset": 116,
+          "bytes": 4,
+          "rawRecordVA": "0x14a1ff0",
+          "rawRecordHex": "887d10018d631001000000007400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "randomly_flip_direction",
+          "default": "1",
+          "offset": 120,
+          "bytes": 1,
+          "rawRecordVA": "0x14a201c",
+          "rawRecordHex": "a17d10018d631001000000007800000001000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 4
+        }
+      ],
+      "nativeGetterExecuted": true
+    },
+    "Rotation Spin Roll": {
+      "functionName": "Rotation Spin Roll",
+      "registrationVA": "0x404778",
+      "definitionVTable": "0x1114768",
+      "factory": "0xd2b2e0",
+      "unpackGetter": "0xd20eb0",
+      "tableVA": "0x14b8220",
+      "fields": [
+        {
+          "name": "operator start fadein",
+          "default": "0",
+          "offset": 4,
+          "bytes": 4,
+          "rawRecordVA": "0x14b8220",
+          "rawRecordHex": "65611001879a0a01000000000400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end fadein",
+          "default": "0",
+          "offset": 8,
+          "bytes": 4,
+          "rawRecordVA": "0x14b824c",
+          "rawRecordHex": "7b611001879a0a01000000000800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator start fadeout",
+          "default": "0",
+          "offset": 12,
+          "bytes": 4,
+          "rawRecordVA": "0x14b8278",
+          "rawRecordHex": "8f611001879a0a01000000000c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end fadeout",
+          "default": "0",
+          "offset": 16,
+          "bytes": 4,
+          "rawRecordVA": "0x14b82a4",
+          "rawRecordHex": "a6611001879a0a01000000001000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator fade oscillate",
+          "default": "0",
+          "offset": 20,
+          "bytes": 4,
+          "rawRecordVA": "0x14b82d0",
+          "rawRecordHex": "bb611001879a0a01000000001400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time offset seed",
+          "default": "0",
+          "offset": 32,
+          "bytes": 4,
+          "rawRecordVA": "0x14b82fc",
+          "rawRecordHex": "d3611001879a0a01000000002000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator time offset min",
+          "default": "0",
+          "offset": 24,
+          "bytes": 4,
+          "rawRecordVA": "0x14b8328",
+          "rawRecordHex": "ed611001879a0a01000000001800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time offset max",
+          "default": "0",
+          "offset": 28,
+          "bytes": 4,
+          "rawRecordVA": "0x14b8354",
+          "rawRecordHex": "06621001879a0a01000000001c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time scale seed",
+          "default": "0",
+          "offset": 48,
+          "bytes": 4,
+          "rawRecordVA": "0x14b8380",
+          "rawRecordHex": "1f621001879a0a01000000003000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator time scale min",
+          "default": "1",
+          "offset": 52,
+          "bytes": 4,
+          "rawRecordVA": "0x14b83ac",
+          "rawRecordHex": "386210018d631001000000003400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time scale max",
+          "default": "1",
+          "offset": 56,
+          "bytes": 4,
+          "rawRecordVA": "0x14b83d8",
+          "rawRecordHex": "506210018d631001000000003800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time strength random scale max",
+          "default": "1",
+          "offset": 44,
+          "bytes": 4,
+          "rawRecordVA": "0x14b8404",
+          "rawRecordHex": "f85f10018d631001000000002c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator strength scale seed",
+          "default": "0",
+          "offset": 36,
+          "bytes": 4,
+          "rawRecordVA": "0x14b8430",
+          "rawRecordHex": "68621001879a0a01000000002400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator strength random scale min",
+          "default": "1",
+          "offset": 40,
+          "bytes": 4,
+          "rawRecordVA": "0x14b845c",
+          "rawRecordHex": "206010018d631001000000002800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator strength random scale max",
+          "default": "1",
+          "offset": 44,
+          "bytes": 4,
+          "rawRecordVA": "0x14b8488",
+          "rawRecordHex": "446010018d631001000000002c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end cap state",
+          "default": "-1",
+          "offset": 64,
+          "bytes": 4,
+          "rawRecordVA": "0x14b84b4",
+          "rawRecordHex": "85621001b38a0f01000000004000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "spin_rate_degrees",
+          "default": "0",
+          "offset": 88,
+          "bytes": 4,
+          "rawRecordVA": "0x14b84e0",
+          "rawRecordHex": "e8ea1001879a0a01000000005800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "spin_stop_time",
+          "default": "0",
+          "offset": 100,
+          "bytes": 4,
+          "rawRecordVA": "0x14b850c",
+          "rawRecordHex": "faea1001879a0a01000000006400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "spin_rate_min",
+          "default": "0",
+          "offset": 92,
+          "bytes": 4,
+          "rawRecordVA": "0x14b8538",
+          "rawRecordHex": "09eb1001879a0a01000000005c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        }
+      ],
+      "nativeGetterExecuted": true
+    },
+    "Rotation Spin Yaw": {
+      "functionName": "Rotation Spin Yaw",
+      "registrationVA": "0x4047ee",
+      "definitionVTable": "0x11147a8",
+      "factory": "0xd2b260",
+      "unpackGetter": "0xd210b0",
+      "tableVA": "0x14b88a0",
+      "fields": [
+        {
+          "name": "operator start fadein",
+          "default": "0",
+          "offset": 4,
+          "bytes": 4,
+          "rawRecordVA": "0x14b88a0",
+          "rawRecordHex": "65611001879a0a01000000000400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end fadein",
+          "default": "0",
+          "offset": 8,
+          "bytes": 4,
+          "rawRecordVA": "0x14b88cc",
+          "rawRecordHex": "7b611001879a0a01000000000800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator start fadeout",
+          "default": "0",
+          "offset": 12,
+          "bytes": 4,
+          "rawRecordVA": "0x14b88f8",
+          "rawRecordHex": "8f611001879a0a01000000000c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end fadeout",
+          "default": "0",
+          "offset": 16,
+          "bytes": 4,
+          "rawRecordVA": "0x14b8924",
+          "rawRecordHex": "a6611001879a0a01000000001000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator fade oscillate",
+          "default": "0",
+          "offset": 20,
+          "bytes": 4,
+          "rawRecordVA": "0x14b8950",
+          "rawRecordHex": "bb611001879a0a01000000001400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time offset seed",
+          "default": "0",
+          "offset": 32,
+          "bytes": 4,
+          "rawRecordVA": "0x14b897c",
+          "rawRecordHex": "d3611001879a0a01000000002000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator time offset min",
+          "default": "0",
+          "offset": 24,
+          "bytes": 4,
+          "rawRecordVA": "0x14b89a8",
+          "rawRecordHex": "ed611001879a0a01000000001800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time offset max",
+          "default": "0",
+          "offset": 28,
+          "bytes": 4,
+          "rawRecordVA": "0x14b89d4",
+          "rawRecordHex": "06621001879a0a01000000001c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time scale seed",
+          "default": "0",
+          "offset": 48,
+          "bytes": 4,
+          "rawRecordVA": "0x14b8a00",
+          "rawRecordHex": "1f621001879a0a01000000003000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator time scale min",
+          "default": "1",
+          "offset": 52,
+          "bytes": 4,
+          "rawRecordVA": "0x14b8a2c",
+          "rawRecordHex": "386210018d631001000000003400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time scale max",
+          "default": "1",
+          "offset": 56,
+          "bytes": 4,
+          "rawRecordVA": "0x14b8a58",
+          "rawRecordHex": "506210018d631001000000003800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time strength random scale max",
+          "default": "1",
+          "offset": 44,
+          "bytes": 4,
+          "rawRecordVA": "0x14b8a84",
+          "rawRecordHex": "f85f10018d631001000000002c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator strength scale seed",
+          "default": "0",
+          "offset": 36,
+          "bytes": 4,
+          "rawRecordVA": "0x14b8ab0",
+          "rawRecordHex": "68621001879a0a01000000002400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator strength random scale min",
+          "default": "1",
+          "offset": 40,
+          "bytes": 4,
+          "rawRecordVA": "0x14b8adc",
+          "rawRecordHex": "206010018d631001000000002800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator strength random scale max",
+          "default": "1",
+          "offset": 44,
+          "bytes": 4,
+          "rawRecordVA": "0x14b8b08",
+          "rawRecordHex": "446010018d631001000000002c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end cap state",
+          "default": "-1",
+          "offset": 64,
+          "bytes": 4,
+          "rawRecordVA": "0x14b8b34",
+          "rawRecordHex": "85621001b38a0f01000000004000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "yaw_rate_degrees",
+          "default": "0",
+          "offset": 88,
+          "bytes": 4,
+          "rawRecordVA": "0x14b8b60",
+          "rawRecordHex": "17eb1001879a0a01000000005800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "yaw_stop_time",
+          "default": "0",
+          "offset": 100,
+          "bytes": 4,
+          "rawRecordVA": "0x14b8b8c",
+          "rawRecordHex": "28eb1001879a0a01000000006400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "yaw_rate_min",
+          "default": "0",
+          "offset": 92,
+          "bytes": 4,
+          "rawRecordVA": "0x14b8bb8",
+          "rawRecordHex": "36eb1001879a0a01000000005c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        }
+      ],
+      "nativeGetterExecuted": true
+    },
+    "emit_instantaneously": {
+      "functionName": "emit_instantaneously",
+      "registrationVA": "0x403bbc",
+      "definitionVTable": "0x110d5e8",
+      "factory": "0xd046d0",
+      "unpackGetter": "0xd03960",
+      "tableVA": "0x14acd40",
+      "fields": [
+        {
+          "name": "operator start fadein",
+          "default": "0",
+          "offset": 4,
+          "bytes": 4,
+          "rawRecordVA": "0x14acd40",
+          "rawRecordHex": "65611001879a0a01000000000400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end fadein",
+          "default": "0",
+          "offset": 8,
+          "bytes": 4,
+          "rawRecordVA": "0x14acd6c",
+          "rawRecordHex": "7b611001879a0a01000000000800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator start fadeout",
+          "default": "0",
+          "offset": 12,
+          "bytes": 4,
+          "rawRecordVA": "0x14acd98",
+          "rawRecordHex": "8f611001879a0a01000000000c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end fadeout",
+          "default": "0",
+          "offset": 16,
+          "bytes": 4,
+          "rawRecordVA": "0x14acdc4",
+          "rawRecordHex": "a6611001879a0a01000000001000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator fade oscillate",
+          "default": "0",
+          "offset": 20,
+          "bytes": 4,
+          "rawRecordVA": "0x14acdf0",
+          "rawRecordHex": "bb611001879a0a01000000001400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time offset seed",
+          "default": "0",
+          "offset": 32,
+          "bytes": 4,
+          "rawRecordVA": "0x14ace1c",
+          "rawRecordHex": "d3611001879a0a01000000002000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator time offset min",
+          "default": "0",
+          "offset": 24,
+          "bytes": 4,
+          "rawRecordVA": "0x14ace48",
+          "rawRecordHex": "ed611001879a0a01000000001800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time offset max",
+          "default": "0",
+          "offset": 28,
+          "bytes": 4,
+          "rawRecordVA": "0x14ace74",
+          "rawRecordHex": "06621001879a0a01000000001c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time scale seed",
+          "default": "0",
+          "offset": 48,
+          "bytes": 4,
+          "rawRecordVA": "0x14acea0",
+          "rawRecordHex": "1f621001879a0a01000000003000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator time scale min",
+          "default": "1",
+          "offset": 52,
+          "bytes": 4,
+          "rawRecordVA": "0x14acecc",
+          "rawRecordHex": "386210018d631001000000003400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time scale max",
+          "default": "1",
+          "offset": 56,
+          "bytes": 4,
+          "rawRecordVA": "0x14acef8",
+          "rawRecordHex": "506210018d631001000000003800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator time strength random scale max",
+          "default": "1",
+          "offset": 44,
+          "bytes": 4,
+          "rawRecordVA": "0x14acf24",
+          "rawRecordHex": "f85f10018d631001000000002c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator strength scale seed",
+          "default": "0",
+          "offset": 36,
+          "bytes": 4,
+          "rawRecordVA": "0x14acf50",
+          "rawRecordHex": "68621001879a0a01000000002400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "operator strength random scale min",
+          "default": "1",
+          "offset": 40,
+          "bytes": 4,
+          "rawRecordVA": "0x14acf7c",
+          "rawRecordHex": "206010018d631001000000002800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator strength random scale max",
+          "default": "1",
+          "offset": 44,
+          "bytes": 4,
+          "rawRecordVA": "0x14acfa8",
+          "rawRecordHex": "446010018d631001000000002c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "operator end cap state",
+          "default": "-1",
+          "offset": 64,
+          "bytes": 4,
+          "rawRecordVA": "0x14acfd4",
+          "rawRecordHex": "85621001b38a0f01000000004000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "emission_start_time",
+          "default": "0",
+          "offset": 96,
+          "bytes": 4,
+          "rawRecordVA": "0x14ad000",
+          "rawRecordHex": "99d01001879a0a01000000006000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "emission_start_time max",
+          "default": "-1",
+          "offset": 100,
+          "bytes": 4,
+          "rawRecordVA": "0x14ad02c",
+          "rawRecordHex": "add01001b38a0f01000000006400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 3
+        },
+        {
+          "name": "num_to_emit_minimum",
+          "default": "-1",
+          "offset": 92,
+          "bytes": 4,
+          "rawRecordVA": "0x14ad058",
+          "rawRecordHex": "c5d01001b38a0f01000000005c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "num_to_emit",
+          "default": "100",
+          "offset": 88,
+          "bytes": 4,
+          "rawRecordVA": "0x14ad084",
+          "rawRecordHex": "d9d01001d9100e01000000005800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "maximum emission per frame",
+          "default": "-1",
+          "offset": 104,
+          "bytes": 4,
+          "rawRecordVA": "0x14ad0b0",
+          "rawRecordHex": "e5d01001b38a0f01000000006800000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "emission count scale control point",
+          "default": "-1",
+          "offset": 108,
+          "bytes": 4,
+          "rawRecordVA": "0x14ad0dc",
+          "rawRecordHex": "80d41001b38a0f01000000006c00000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "emission count scale control point field",
+          "default": "0",
+          "offset": 112,
+          "bytes": 4,
+          "rawRecordVA": "0x14ad108",
+          "rawRecordHex": "a4d41001879a0a01000000007000000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        },
+        {
+          "name": "control point with snapshot data",
+          "default": "-1",
+          "offset": 116,
+          "bytes": 4,
+          "rawRecordVA": "0x14ad134",
+          "rawRecordHex": "d0d41001b38a0f01000000007400000004000000ffffffff0000000000000000000000000000000000000000",
+          "nativeType": 2
+        }
+      ],
+      "nativeGetterExecuted": true
+    }
+  },
+  "nativeUndocumented": [],
+  "nativeSource": {
+    "path": ".reference-assets/source-exports/shell-casings/native-defaults.json",
+    "sha256": "77300a60bb0172bcd89650c5366f341c576004e5bb34e43c5c89346e9d62d74f"
+  },
+  "sourceFiles": {
+    "particles/weapons/cs_weapon_fx.pcf": {
+      "path": "particles/weapons/cs_weapon_fx.pcf",
+      "bytes": 245331,
+      "crc32": "250ea107",
+      "preloadBytes": 0,
+      "archiveIndex": 6,
+      "archiveOffset": 114924074,
+      "archiveBytes": 245331,
+      "container": "pak01",
+      "sha256": "b41b47e293c06b8b86848904ac0da18909fbc9716df53a2ace5a97e1b7ac8567"
+    },
+    "models/models/weapons/shared/shell_762_hr.mdl": {
+      "path": "models/models/weapons/shared/shell_762_hr.mdl",
+      "bytes": 1852,
+      "crc32": "f7b04ddf",
+      "preloadBytes": 0,
+      "archiveIndex": 192,
+      "archiveOffset": 153926056,
+      "archiveBytes": 1852,
+      "container": "pak01",
+      "sha256": "86558ff208915271b38db220a17450e2c8aa17924497db1363ba70e0a1480216"
+    },
+    "models/models/weapons/shared/shell_762_hr.vvd": {
+      "path": "models/models/weapons/shared/shell_762_hr.vvd",
+      "bytes": 7680,
+      "crc32": "367f5ec0",
+      "preloadBytes": 0,
+      "archiveIndex": 192,
+      "archiveOffset": 153927908,
+      "archiveBytes": 7680,
+      "container": "pak01",
+      "sha256": "663b614c971d9fc4b6799b3fcd4135bf32367970da42fc79919c66652d956ddd"
+    },
+    "models/models/weapons/shared/shell_762_hr.dx90.vtx": {
+      "path": "models/models/weapons/shared/shell_762_hr.dx90.vtx",
+      "bytes": 2080,
+      "crc32": "e21790c4",
+      "preloadBytes": 0,
+      "archiveIndex": 192,
+      "archiveOffset": 153935588,
+      "archiveBytes": 2080,
+      "container": "pak01",
+      "sha256": "4b361526e1aadd04bb6b6938f74c9eba32444c2d0968b8431e715d942f845318"
+    },
+    "models/models/weapons/shared/shell_50cal_hr.mdl": {
+      "path": "models/models/weapons/shared/shell_50cal_hr.mdl",
+      "bytes": 1860,
+      "crc32": "7323e3df",
+      "preloadBytes": 0,
+      "archiveIndex": 192,
+      "archiveOffset": 153914436,
+      "archiveBytes": 1860,
+      "container": "pak01",
+      "sha256": "2d3ac0a12e810c2469cdee892921d821c29c1020e1ef745e9b2cc46435f0ee2b"
+    },
+    "models/models/weapons/shared/shell_50cal_hr.vvd": {
+      "path": "models/models/weapons/shared/shell_50cal_hr.vvd",
+      "bytes": 7680,
+      "crc32": "312c1172",
+      "preloadBytes": 0,
+      "archiveIndex": 192,
+      "archiveOffset": 153916296,
+      "archiveBytes": 7680,
+      "container": "pak01",
+      "sha256": "7323b728f439a02c8cfd682b2df40384a2b694c3572def6c8098b2a5725696b3"
+    },
+    "models/models/weapons/shared/shell_50cal_hr.dx90.vtx": {
+      "path": "models/models/weapons/shared/shell_50cal_hr.dx90.vtx",
+      "bytes": 2080,
+      "crc32": "afeeae54",
+      "preloadBytes": 0,
+      "archiveIndex": 192,
+      "archiveOffset": 153923976,
+      "archiveBytes": 2080,
+      "container": "pak01",
+      "sha256": "cc721580a1f4f306f40fd2163cf5084a54e6cb90591d0da1f995211cb59b1190"
+    },
+    "models/models/weapons/shared/shell_9mm_hr.mdl": {
+      "path": "models/models/weapons/shared/shell_9mm_hr.mdl",
+      "bytes": 1852,
+      "crc32": "c681be86",
+      "preloadBytes": 0,
+      "archiveIndex": 192,
+      "archiveOffset": 153937668,
+      "archiveBytes": 1852,
+      "container": "pak01",
+      "sha256": "65a7e7528e0a070928ad9e68cd96ba038ace1ae62599e6ec0720f05e1179f933"
+    },
+    "models/models/weapons/shared/shell_9mm_hr.vvd": {
+      "path": "models/models/weapons/shared/shell_9mm_hr.vvd",
+      "bytes": 6400,
+      "crc32": "802bfb66",
+      "preloadBytes": 0,
+      "archiveIndex": 192,
+      "archiveOffset": 153939520,
+      "archiveBytes": 6400,
+      "container": "pak01",
+      "sha256": "ad8a42045e0e1891c28c8b74a54093922e5ed6c4943f24f203f491c3faee9139"
+    },
+    "models/models/weapons/shared/shell_9mm_hr.dx90.vtx": {
+      "path": "models/models/weapons/shared/shell_9mm_hr.dx90.vtx",
+      "bytes": 1684,
+      "crc32": "f0ad8e86",
+      "preloadBytes": 0,
+      "archiveIndex": 192,
+      "archiveOffset": 153945920,
+      "archiveBytes": 1684,
+      "container": "pak01",
+      "sha256": "376f6960164cd36045007040621392329942800266896073053c0078681dbbeb"
+    },
+    "materials/models/weapons/shared/shells/shells.vmt": {
+      "path": "materials/models/weapons/shared/shells/shells.vmt",
+      "bytes": 402,
+      "crc32": "694f0282",
+      "preloadBytes": 402,
+      "archiveIndex": 32767,
+      "archiveOffset": 0,
+      "archiveBytes": 0,
+      "container": "pak01",
+      "sha256": "1f2f6b32526c136f77843808aba8977bf7d04dd0db4d6486b96bc82cb2ce57dc"
+    },
+    "materials/models/weapons/shared/shells/shells.vtf": {
+      "path": "materials/models/weapons/shared/shells/shells.vtf",
+      "bytes": 87640,
+      "crc32": "f19102ba",
+      "preloadBytes": 0,
+      "archiveIndex": 192,
+      "archiveOffset": 153953051,
+      "archiveBytes": 87640,
+      "container": "pak01",
+      "sha256": "e19db4ede247a9f3853e7d7a4d7c5527cb425b53add5d90f0b1f8c2fc351b8cf"
+    }
+  },
+  "limitations": [
+    "`Collision via traces` is applied against the level's own collision; the operator's \"brush only\" flag is honoured as \"the level, not actors or dynamic props\".",
+    "`Alpha Fade Out Random` ships with every field at this build's default of zero, so no alpha fade is applied.",
+    "The fallback systems are exported but the primary model is drawn at every distance.",
+    "The emitter frame is the weapon's own shell-eject attachment; the PCF names the velocity as local to the emitter and does not name the attachment itself."
+  ]
+}

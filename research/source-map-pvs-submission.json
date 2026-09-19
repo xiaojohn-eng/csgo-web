@@ -1,0 +1,643 @@
+{
+  "status": "passed",
+  "scope": "CPU only; exact original GLB indices with original PVS at 30 diagnostic Z+64 spawn eyes plus all-visible fallback. Diagnostic material groups include all original primitives; real shader-branch batches, frustum, GPU uploads and FPS are not measured.",
+  "resources": [
+    {
+      "kind": "props",
+      "sourceSHA256": "55937fce28a53461520fa2c531384f65f0f8b69df1a8205245466b6064ab5232",
+      "originalTriangles": 6269945,
+      "diagnosticGroups": 209,
+      "indexBytesRetained": 150478680
+    },
+    {
+      "kind": "world",
+      "sourceSHA256": "91b52e52b988e1b41b07b9cd365c159d615934fa49f07c3fa1e438d43269ffa8",
+      "originalTriangles": 302307,
+      "diagnosticGroups": 85,
+      "indexBytesRetained": 7255368
+    }
+  ],
+  "pvsSHA256": "75b812f49a56ce4db0b1afe3cde56ab138b6be497827c83b581412d24c91d343",
+  "samples": [
+    {
+      "hammerid": "12649431",
+      "leaf": 697,
+      "cluster": 450,
+      "allVisible": false,
+      "visibleProps": 891,
+      "visibleWorldProps": 816,
+      "props": {
+        "sourceTriangles": 6269945,
+        "submittedTriangles": 1836505,
+        "changedGroups": 190,
+        "selectMs": 4.716583000000014
+      },
+      "world": {
+        "sourceTriangles": 302307,
+        "submittedTriangles": 58296,
+        "changedGroups": 72,
+        "selectMs": 1.1440830000000233
+      }
+    },
+    {
+      "hammerid": "12649433",
+      "leaf": 697,
+      "cluster": 450,
+      "allVisible": false,
+      "visibleProps": 891,
+      "visibleWorldProps": 816,
+      "props": {
+        "sourceTriangles": 6269945,
+        "submittedTriangles": 1836505,
+        "changedGroups": 0,
+        "selectMs": 0.1699580000000651
+      },
+      "world": {
+        "sourceTriangles": 302307,
+        "submittedTriangles": 58296,
+        "changedGroups": 0,
+        "selectMs": 0.2474169999999276
+      }
+    },
+    {
+      "hammerid": "12649435",
+      "leaf": 697,
+      "cluster": 450,
+      "allVisible": false,
+      "visibleProps": 891,
+      "visibleWorldProps": 816,
+      "props": {
+        "sourceTriangles": 6269945,
+        "submittedTriangles": 1836505,
+        "changedGroups": 0,
+        "selectMs": 0.1503340000000435
+      },
+      "world": {
+        "sourceTriangles": 302307,
+        "submittedTriangles": 58296,
+        "changedGroups": 0,
+        "selectMs": 0.2598330000000715
+      }
+    },
+    {
+      "hammerid": "12649437",
+      "leaf": 697,
+      "cluster": 450,
+      "allVisible": false,
+      "visibleProps": 891,
+      "visibleWorldProps": 816,
+      "props": {
+        "sourceTriangles": 6269945,
+        "submittedTriangles": 1836505,
+        "changedGroups": 0,
+        "selectMs": 0.1603339999999207
+      },
+      "world": {
+        "sourceTriangles": 302307,
+        "submittedTriangles": 58296,
+        "changedGroups": 0,
+        "selectMs": 0.24633299999982228
+      }
+    },
+    {
+      "hammerid": "12649439",
+      "leaf": 697,
+      "cluster": 450,
+      "allVisible": false,
+      "visibleProps": 891,
+      "visibleWorldProps": 816,
+      "props": {
+        "sourceTriangles": 6269945,
+        "submittedTriangles": 1836505,
+        "changedGroups": 0,
+        "selectMs": 0.1823749999998654
+      },
+      "world": {
+        "sourceTriangles": 302307,
+        "submittedTriangles": 58296,
+        "changedGroups": 0,
+        "selectMs": 0.2596250000001419
+      }
+    },
+    {
+      "hammerid": "12649474",
+      "leaf": 697,
+      "cluster": 450,
+      "allVisible": false,
+      "visibleProps": 891,
+      "visibleWorldProps": 816,
+      "props": {
+        "sourceTriangles": 6269945,
+        "submittedTriangles": 1836505,
+        "changedGroups": 0,
+        "selectMs": 0.15487499999994725
+      },
+      "world": {
+        "sourceTriangles": 302307,
+        "submittedTriangles": 58296,
+        "changedGroups": 0,
+        "selectMs": 0.2662909999999101
+      }
+    },
+    {
+      "hammerid": "12649476",
+      "leaf": 697,
+      "cluster": 450,
+      "allVisible": false,
+      "visibleProps": 891,
+      "visibleWorldProps": 816,
+      "props": {
+        "sourceTriangles": 6269945,
+        "submittedTriangles": 1836505,
+        "changedGroups": 0,
+        "selectMs": 0.1486250000000382
+      },
+      "world": {
+        "sourceTriangles": 302307,
+        "submittedTriangles": 58296,
+        "changedGroups": 0,
+        "selectMs": 0.23633300000005875
+      }
+    },
+    {
+      "hammerid": "12649478",
+      "leaf": 697,
+      "cluster": 450,
+      "allVisible": false,
+      "visibleProps": 891,
+      "visibleWorldProps": 816,
+      "props": {
+        "sourceTriangles": 6269945,
+        "submittedTriangles": 1836505,
+        "changedGroups": 0,
+        "selectMs": 0.2293329999999969
+      },
+      "world": {
+        "sourceTriangles": 302307,
+        "submittedTriangles": 58296,
+        "changedGroups": 0,
+        "selectMs": 0.25070800000003146
+      }
+    },
+    {
+      "hammerid": "12649480",
+      "leaf": 697,
+      "cluster": 450,
+      "allVisible": false,
+      "visibleProps": 891,
+      "visibleWorldProps": 816,
+      "props": {
+        "sourceTriangles": 6269945,
+        "submittedTriangles": 1836505,
+        "changedGroups": 0,
+        "selectMs": 0.15325000000007094
+      },
+      "world": {
+        "sourceTriangles": 302307,
+        "submittedTriangles": 58296,
+        "changedGroups": 0,
+        "selectMs": 0.2397920000000795
+      }
+    },
+    {
+      "hammerid": "12649482",
+      "leaf": 697,
+      "cluster": 450,
+      "allVisible": false,
+      "visibleProps": 891,
+      "visibleWorldProps": 816,
+      "props": {
+        "sourceTriangles": 6269945,
+        "submittedTriangles": 1836505,
+        "changedGroups": 0,
+        "selectMs": 0.15666600000008657
+      },
+      "world": {
+        "sourceTriangles": 302307,
+        "submittedTriangles": 58296,
+        "changedGroups": 0,
+        "selectMs": 0.23079200000006495
+      }
+    },
+    {
+      "hammerid": "12649517",
+      "leaf": 695,
+      "cluster": 449,
+      "allVisible": false,
+      "visibleProps": 560,
+      "visibleWorldProps": 485,
+      "props": {
+        "sourceTriangles": 6269945,
+        "submittedTriangles": 1203784,
+        "changedGroups": 94,
+        "selectMs": 4.073832999999922
+      },
+      "world": {
+        "sourceTriangles": 302307,
+        "submittedTriangles": 41624,
+        "changedGroups": 40,
+        "selectMs": 0.36120899999991707
+      }
+    },
+    {
+      "hammerid": "12649519",
+      "leaf": 695,
+      "cluster": 449,
+      "allVisible": false,
+      "visibleProps": 560,
+      "visibleWorldProps": 485,
+      "props": {
+        "sourceTriangles": 6269945,
+        "submittedTriangles": 1203784,
+        "changedGroups": 0,
+        "selectMs": 0.16762500000004366
+      },
+      "world": {
+        "sourceTriangles": 302307,
+        "submittedTriangles": 41624,
+        "changedGroups": 0,
+        "selectMs": 0.2287499999999909
+      }
+    },
+    {
+      "hammerid": "12649521",
+      "leaf": 695,
+      "cluster": 449,
+      "allVisible": false,
+      "visibleProps": 560,
+      "visibleWorldProps": 485,
+      "props": {
+        "sourceTriangles": 6269945,
+        "submittedTriangles": 1203784,
+        "changedGroups": 0,
+        "selectMs": 0.14720799999986411
+      },
+      "world": {
+        "sourceTriangles": 302307,
+        "submittedTriangles": 41624,
+        "changedGroups": 0,
+        "selectMs": 0.2738329999999678
+      }
+    },
+    {
+      "hammerid": "12649523",
+      "leaf": 695,
+      "cluster": 449,
+      "allVisible": false,
+      "visibleProps": 560,
+      "visibleWorldProps": 485,
+      "props": {
+        "sourceTriangles": 6269945,
+        "submittedTriangles": 1203784,
+        "changedGroups": 0,
+        "selectMs": 0.1361660000000029
+      },
+      "world": {
+        "sourceTriangles": 302307,
+        "submittedTriangles": 41624,
+        "changedGroups": 0,
+        "selectMs": 0.24791700000014316
+      }
+    },
+    {
+      "hammerid": "12649525",
+      "leaf": 695,
+      "cluster": 449,
+      "allVisible": false,
+      "visibleProps": 560,
+      "visibleWorldProps": 485,
+      "props": {
+        "sourceTriangles": 6269945,
+        "submittedTriangles": 1203784,
+        "changedGroups": 0,
+        "selectMs": 0.12129100000015569
+      },
+      "world": {
+        "sourceTriangles": 302307,
+        "submittedTriangles": 41624,
+        "changedGroups": 0,
+        "selectMs": 0.26095900000018446
+      }
+    },
+    {
+      "hammerid": "12649560",
+      "leaf": 2478,
+      "cluster": 1555,
+      "allVisible": false,
+      "visibleProps": 1387,
+      "visibleWorldProps": 1312,
+      "props": {
+        "sourceTriangles": 6269945,
+        "submittedTriangles": 2758855,
+        "changedGroups": 179,
+        "selectMs": 4.114041999999699
+      },
+      "world": {
+        "sourceTriangles": 302307,
+        "submittedTriangles": 159925,
+        "changedGroups": 75,
+        "selectMs": 0.510834000000159
+      }
+    },
+    {
+      "hammerid": "12649562",
+      "leaf": 2478,
+      "cluster": 1555,
+      "allVisible": false,
+      "visibleProps": 1387,
+      "visibleWorldProps": 1312,
+      "props": {
+        "sourceTriangles": 6269945,
+        "submittedTriangles": 2758855,
+        "changedGroups": 0,
+        "selectMs": 0.15545800000018062
+      },
+      "world": {
+        "sourceTriangles": 302307,
+        "submittedTriangles": 159925,
+        "changedGroups": 0,
+        "selectMs": 0.24295900000015536
+      }
+    },
+    {
+      "hammerid": "12649564",
+      "leaf": 2478,
+      "cluster": 1555,
+      "allVisible": false,
+      "visibleProps": 1387,
+      "visibleWorldProps": 1312,
+      "props": {
+        "sourceTriangles": 6269945,
+        "submittedTriangles": 2758855,
+        "changedGroups": 0,
+        "selectMs": 0.1615830000000642
+      },
+      "world": {
+        "sourceTriangles": 302307,
+        "submittedTriangles": 159925,
+        "changedGroups": 0,
+        "selectMs": 0.251292000000376
+      }
+    },
+    {
+      "hammerid": "12649566",
+      "leaf": 2478,
+      "cluster": 1555,
+      "allVisible": false,
+      "visibleProps": 1387,
+      "visibleWorldProps": 1312,
+      "props": {
+        "sourceTriangles": 6269945,
+        "submittedTriangles": 2758855,
+        "changedGroups": 0,
+        "selectMs": 0.17104199999994307
+      },
+      "world": {
+        "sourceTriangles": 302307,
+        "submittedTriangles": 159925,
+        "changedGroups": 0,
+        "selectMs": 0.24212500000021464
+      }
+    },
+    {
+      "hammerid": "12649568",
+      "leaf": 2478,
+      "cluster": 1555,
+      "allVisible": false,
+      "visibleProps": 1387,
+      "visibleWorldProps": 1312,
+      "props": {
+        "sourceTriangles": 6269945,
+        "submittedTriangles": 2758855,
+        "changedGroups": 0,
+        "selectMs": 0.1540829999999005
+      },
+      "world": {
+        "sourceTriangles": 302307,
+        "submittedTriangles": 159925,
+        "changedGroups": 0,
+        "selectMs": 0.24512499999991633
+      }
+    },
+    {
+      "hammerid": "12649603",
+      "leaf": 2746,
+      "cluster": 1695,
+      "allVisible": false,
+      "visibleProps": 883,
+      "visibleWorldProps": 808,
+      "props": {
+        "sourceTriangles": 6269945,
+        "submittedTriangles": 1717859,
+        "changedGroups": 118,
+        "selectMs": 0.7167499999995925
+      },
+      "world": {
+        "sourceTriangles": 302307,
+        "submittedTriangles": 123554,
+        "changedGroups": 47,
+        "selectMs": 0.4001250000001164
+      }
+    },
+    {
+      "hammerid": "12649605",
+      "leaf": 2747,
+      "cluster": 1696,
+      "allVisible": false,
+      "visibleProps": 882,
+      "visibleWorldProps": 807,
+      "props": {
+        "sourceTriangles": 6269945,
+        "submittedTriangles": 1717777,
+        "changedGroups": 1,
+        "selectMs": 0.17070800000010422
+      },
+      "world": {
+        "sourceTriangles": 302307,
+        "submittedTriangles": 122914,
+        "changedGroups": 5,
+        "selectMs": 0.2869580000001406
+      }
+    },
+    {
+      "hammerid": "12649607",
+      "leaf": 2746,
+      "cluster": 1695,
+      "allVisible": false,
+      "visibleProps": 883,
+      "visibleWorldProps": 808,
+      "props": {
+        "sourceTriangles": 6269945,
+        "submittedTriangles": 1717859,
+        "changedGroups": 1,
+        "selectMs": 0.15991699999995035
+      },
+      "world": {
+        "sourceTriangles": 302307,
+        "submittedTriangles": 123554,
+        "changedGroups": 5,
+        "selectMs": 0.33137500000020736
+      }
+    },
+    {
+      "hammerid": "12649609",
+      "leaf": 2493,
+      "cluster": 1564,
+      "allVisible": false,
+      "visibleProps": 886,
+      "visibleWorldProps": 811,
+      "props": {
+        "sourceTriangles": 6269945,
+        "submittedTriangles": 1737884,
+        "changedGroups": 33,
+        "selectMs": 0.42791699999997945
+      },
+      "world": {
+        "sourceTriangles": 302307,
+        "submittedTriangles": 125627,
+        "changedGroups": 21,
+        "selectMs": 0.3845409999998992
+      }
+    },
+    {
+      "hammerid": "12649611",
+      "leaf": 2493,
+      "cluster": 1564,
+      "allVisible": false,
+      "visibleProps": 886,
+      "visibleWorldProps": 811,
+      "props": {
+        "sourceTriangles": 6269945,
+        "submittedTriangles": 1737884,
+        "changedGroups": 0,
+        "selectMs": 0.16037499999993088
+      },
+      "world": {
+        "sourceTriangles": 302307,
+        "submittedTriangles": 125627,
+        "changedGroups": 0,
+        "selectMs": 0.22654199999988123
+      }
+    },
+    {
+      "hammerid": "12649646",
+      "leaf": 2450,
+      "cluster": 1537,
+      "allVisible": false,
+      "visibleProps": 1478,
+      "visibleWorldProps": 1403,
+      "props": {
+        "sourceTriangles": 6269945,
+        "submittedTriangles": 2928221,
+        "changedGroups": 129,
+        "selectMs": 1.2396670000002814
+      },
+      "world": {
+        "sourceTriangles": 302307,
+        "submittedTriangles": 163661,
+        "changedGroups": 52,
+        "selectMs": 0.5583329999999478
+      }
+    },
+    {
+      "hammerid": "12649648",
+      "leaf": 2478,
+      "cluster": 1555,
+      "allVisible": false,
+      "visibleProps": 1387,
+      "visibleWorldProps": 1312,
+      "props": {
+        "sourceTriangles": 6269945,
+        "submittedTriangles": 2758855,
+        "changedGroups": 64,
+        "selectMs": 0.6532500000002983
+      },
+      "world": {
+        "sourceTriangles": 302307,
+        "submittedTriangles": 159925,
+        "changedGroups": 32,
+        "selectMs": 0.43620899999996254
+      }
+    },
+    {
+      "hammerid": "12649650",
+      "leaf": 2450,
+      "cluster": 1537,
+      "allVisible": false,
+      "visibleProps": 1478,
+      "visibleWorldProps": 1403,
+      "props": {
+        "sourceTriangles": 6269945,
+        "submittedTriangles": 2928221,
+        "changedGroups": 64,
+        "selectMs": 0.6834170000001905
+      },
+      "world": {
+        "sourceTriangles": 302307,
+        "submittedTriangles": 163661,
+        "changedGroups": 32,
+        "selectMs": 0.4534169999997175
+      }
+    },
+    {
+      "hammerid": "12649652",
+      "leaf": 2450,
+      "cluster": 1537,
+      "allVisible": false,
+      "visibleProps": 1478,
+      "visibleWorldProps": 1403,
+      "props": {
+        "sourceTriangles": 6269945,
+        "submittedTriangles": 2928221,
+        "changedGroups": 0,
+        "selectMs": 0.15545800000018062
+      },
+      "world": {
+        "sourceTriangles": 302307,
+        "submittedTriangles": 163661,
+        "changedGroups": 0,
+        "selectMs": 0.2476249999999709
+      }
+    },
+    {
+      "hammerid": "12649654",
+      "leaf": 2437,
+      "cluster": 1526,
+      "allVisible": false,
+      "visibleProps": 1455,
+      "visibleWorldProps": 1380,
+      "props": {
+        "sourceTriangles": 6269945,
+        "submittedTriangles": 2892989,
+        "changedGroups": 43,
+        "selectMs": 0.5755840000001626
+      },
+      "world": {
+        "sourceTriangles": 302307,
+        "submittedTriangles": 158963,
+        "changedGroups": 32,
+        "selectMs": 0.44749999999976353
+      }
+    },
+    {
+      "hammerid": "all-visible-boundary",
+      "leaf": -1,
+      "cluster": -1,
+      "allVisible": true,
+      "visibleProps": 3158,
+      "visibleWorldProps": 3083,
+      "props": {
+        "sourceTriangles": 6269945,
+        "submittedTriangles": 6238836,
+        "changedGroups": 159,
+        "selectMs": 5.100916999999754
+      },
+      "world": {
+        "sourceTriangles": 302307,
+        "submittedTriangles": 301411,
+        "changedGroups": 72,
+        "selectMs": 0.5993750000002365
+      }
+    }
+  ]
+}

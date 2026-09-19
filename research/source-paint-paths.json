@@ -1,0 +1,4946 @@
+{
+  "format": "source-paint-paths-native-v1",
+  "client": {
+    "file": ".reference-assets/csgo-legacy/csgo/bin/linux64/client_client.so",
+    "bytes": 35112006,
+    "sha256": "c47c64c38a066e02bdc006ac4db4fe6e9a318fdd896153accb7af9bd065b7fb5"
+  },
+  "inputCatalogueSHA256": "55cd22797eff14172ff926b0ca4339519c049d0a3fe9ad9f2130c5a983ff03e0",
+  "styleDirectoryTable": {
+    "address": "0x231b860",
+    "directories": [
+      "original",
+      "solid",
+      "hydrographic",
+      "spray",
+      "anodized",
+      "anodized_multi",
+      "anodized_air",
+      "custom",
+      "antiqued",
+      "gunsmith"
+    ]
+  },
+  "surfaceFormat": {
+    "instruction": "0xf5309f",
+    "format": "models/weapons/customization/%s/%s_surface.vtf"
+  },
+  "cases": [
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 14,
+      "style": 2,
+      "field": "pattern",
+      "sourceValue": "laminate_ak47",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/hydrographic/laminate_ak47.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "hydrographic",
+        "laminate_ak47"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/hydrographic/laminate_ak47.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 44,
+      "style": 8,
+      "field": "pattern",
+      "sourceValue": "oiled",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/antiqued/oiled.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "antiqued",
+        "oiled"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/antiqued/oiled.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 72,
+      "style": 3,
+      "field": "pattern",
+      "sourceValue": "chainlink",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/spray/chainlink.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "spray",
+        "chainlink"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/spray/chainlink.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 122,
+      "style": 3,
+      "field": "pattern",
+      "sourceValue": "camo_daubs",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/spray/camo_daubs.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "spray",
+        "camo_daubs"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/spray/camo_daubs.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 170,
+      "style": 3,
+      "field": "pattern",
+      "sourceValue": "tiger",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/tiger.vtf",
+        "materials/models/weapons/customization/paints/hydrographic/tiger.vtf",
+        "materials/models/weapons/customization/paints/spray/tiger.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "spray",
+        "tiger"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/spray/tiger.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 172,
+      "style": 2,
+      "field": "pattern",
+      "sourceValue": "laminate_ak47",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/hydrographic/laminate_ak47.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "hydrographic",
+        "laminate_ak47"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/hydrographic/laminate_ak47.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 180,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "fireserpent_ak47",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/fireserpent_ak47.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "fireserpent_ak47"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/fireserpent_ak47.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 226,
+      "style": 2,
+      "field": "pattern",
+      "sourceValue": "laminate_ak47",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/hydrographic/laminate_ak47.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "hydrographic",
+        "laminate_ak47"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/hydrographic/laminate_ak47.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 282,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/elegantredv1.1",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/elegantredv1.1.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/elegantredv1.1"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/elegantredv1.1.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 300,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "pinstripe_ak47",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/pinstripe_ak47.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "pinstripe_ak47"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/pinstripe_ak47.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 302,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/rubber_ak47",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/rubber_ak47.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/rubber_ak47"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/rubber_ak47.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 316,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "panther_ak47",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/panther_ak47.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "panther_ak47"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/panther_ak47.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 340,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "well_traveled",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/well_traveled.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "well_traveled"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/well_traveled.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 341,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "green_leather",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/green_leather.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "green_leather"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/green_leather.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 380,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/tribute_ak47",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/tribute_ak47.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/tribute_ak47"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/tribute_ak47.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 394,
+      "style": 8,
+      "field": "pattern",
+      "sourceValue": "workshop/AK47_CARTEL",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/antiqued/workshop/ak47_cartel.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "antiqued",
+        "workshop/AK47_CARTEL"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/antiqued/workshop/ak47_cartel.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 394,
+      "style": 8,
+      "field": "normal",
+      "sourceValue": "workshop/AK47_CARTEL_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/antiqued/workshop/ak47_cartel_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "antiqued",
+        "workshop/AK47_CARTEL_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/antiqued/workshop/ak47_cartel_normal.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 422,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/ak47_mastery",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/ak47_mastery.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/ak47_mastery"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/ak47_mastery.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 456,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "bamboo_jungle",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/bamboo_jungle.vtf",
+        "materials/models/weapons/customization/paints/hydrographic/bamboo_jungle.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "bamboo_jungle"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/bamboo_jungle.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 474,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/ak47_courage",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/ak47_courage.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/ak47_courage"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/ak47_courage.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 490,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/ak47_winter_sport",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/ak47_winter_sport.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/ak47_winter_sport"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/ak47_winter_sport.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 506,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/ak47_point_disarray",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/ak47_point_disarray.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/ak47_point_disarray"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/ak47_point_disarray.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 524,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "workshop/ak47_supercharged",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_supercharged.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/ak47_supercharged"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_supercharged.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 524,
+      "style": 9,
+      "field": "normal",
+      "sourceValue": "workshop/ak47_supercharged_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_supercharged_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/ak47_supercharged_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_supercharged_normal.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 600,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/anarchy_ak47",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/anarchy_ak47.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/anarchy_ak47"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/anarchy_ak47.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 639,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "workshop/ak47_bloodsport",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_bloodsport.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/ak47_bloodsport"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_bloodsport.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 656,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "workshop/ak_colony01_red",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/ak_colony01_red.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/ak_colony01_red"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/ak_colony01_red.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 675,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "workshop/ak47_empress",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_empress.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/ak47_empress"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_empress.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 707,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/ak_neon_rider",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/ak_neon_rider.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/ak_neon_rider"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/ak_neon_rider.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 707,
+      "style": 7,
+      "field": "normal",
+      "sourceValue": "workshop/ak_neon_rider_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/ak_neon_rider_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/ak_neon_rider_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/ak_neon_rider_normal.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 724,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "ak_island_floral",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/ak_island_floral.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "ak_island_floral"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/ak_island_floral.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 745,
+      "style": 2,
+      "field": "pattern",
+      "sourceValue": "veneto",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/veneto.vtf",
+        "materials/models/weapons/customization/paints/hydrographic/veneto.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "hydrographic",
+        "veneto"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/hydrographic/veneto.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 795,
+      "style": 2,
+      "field": "pattern",
+      "sourceValue": "mesh_fabric",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/hydrographic/mesh_fabric.vtf",
+        "materials/models/weapons/customization/paints/spray/mesh_fabric.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "hydrographic",
+        "mesh_fabric"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/hydrographic/mesh_fabric.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 801,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/ak47_asiimov",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/ak47_asiimov.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/ak47_asiimov"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/ak47_asiimov.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 836,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/ak47_aztec",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/ak47_aztec.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/ak47_aztec"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/ak47_aztec.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 836,
+      "style": 7,
+      "field": "normal",
+      "sourceValue": "workshop/ak47_aztec_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/ak47_aztec_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/ak47_aztec_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/ak47_aztec_normal.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 885,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "workshop/ak47_nibbler",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_nibbler.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/ak47_nibbler"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_nibbler.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 885,
+      "style": 9,
+      "field": "normal",
+      "sourceValue": "workshop/ak47_nibbler_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_nibbler_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/ak47_nibbler_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_nibbler_normal.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 921,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "ak47_gold_arabesque",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/ak47_gold_arabesque.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "ak47_gold_arabesque"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/ak47_gold_arabesque.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 921,
+      "style": 9,
+      "field": "normal",
+      "sourceValue": "ak47_gold_arabesque_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/ak47_gold_arabesque_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "ak47_gold_arabesque_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/ak47_gold_arabesque_normal.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 941,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/ak-47_phantom_disruptor",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/ak-47_phantom_disruptor.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/ak-47_phantom_disruptor"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/ak-47_phantom_disruptor.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 941,
+      "style": 7,
+      "field": "normal",
+      "sourceValue": "workshop/ak-47_phantom_disruptor_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/ak-47_phantom_disruptor_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/ak-47_phantom_disruptor_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/ak-47_phantom_disruptor_normal.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 959,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/ak47_anubis",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/ak47_anubis.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/ak47_anubis"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/ak47_anubis.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 959,
+      "style": 7,
+      "field": "normal",
+      "sourceValue": "workshop/ak47_anubis_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/ak47_anubis_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/ak47_anubis_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/ak47_anubis_normal.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 1004,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "ak_xray",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/ak_xray.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "ak_xray"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/ak_xray.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 1018,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "jaguar_ak47",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/jaguar_ak47.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "jaguar_ak47"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/jaguar_ak47.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 1018,
+      "style": 7,
+      "field": "normal",
+      "sourceValue": "jaguar_ak47_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/jaguar_ak47_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "jaguar_ak47_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/jaguar_ak47_normal.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 1035,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "workshop/ak47_professional",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_professional.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/ak47_professional"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_professional.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 1035,
+      "style": 9,
+      "field": "normal",
+      "sourceValue": "workshop/ak47_professional_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_professional_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/ak47_professional_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_professional_normal.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 1070,
+      "style": 2,
+      "field": "pattern",
+      "sourceValue": "laminate_ak47",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/hydrographic/laminate_ak47.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "hydrographic",
+        "laminate_ak47"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/hydrographic/laminate_ak47.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 1087,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "workshop/ak47_abstract",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_abstract.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/ak47_abstract"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_abstract.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 1141,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/ak47_nightwish",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/ak47_nightwish.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/ak47_nightwish"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/ak47_nightwish.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 1143,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/ak47_cogthings",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/ak47_cogthings.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/ak47_cogthings"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/ak47_cogthings.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 1143,
+      "style": 7,
+      "field": "normal",
+      "sourceValue": "workshop/ak47_cogthings_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/ak47_cogthings_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/ak47_cogthings_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/ak47_cogthings_normal.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 1221,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/ak_head_shot_holo",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/ak_head_shot_holo.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/ak_head_shot_holo"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/ak_head_shot_holo.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 1238,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "ak47_strone",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/ak47_strone.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "ak47_strone"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/ak47_strone.vtf"
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 1238,
+      "style": 9,
+      "field": "normal",
+      "sourceValue": "ak47_strone_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/ak47_strone_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "ak47_strone_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/ak47_strone_normal.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 8,
+      "style": 2,
+      "field": "pattern",
+      "sourceValue": "desert_spots",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/hydrographic/desert_spots.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "hydrographic",
+        "desert_spots"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/hydrographic/desert_spots.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 16,
+      "style": 2,
+      "field": "pattern",
+      "sourceValue": "v_tiger",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/hydrographic/v_tiger.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "hydrographic",
+        "v_tiger"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/hydrographic/v_tiger.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 17,
+      "style": 2,
+      "field": "pattern",
+      "sourceValue": "ddpat",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/ddpat.vtf",
+        "materials/models/weapons/customization/paints/hydrographic/ddpat.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "hydrographic",
+        "ddpat"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/hydrographic/ddpat.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 155,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "bullet_rain_m4",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/bullet_rain_m4.vmt",
+        "materials/models/weapons/customization/paints/custom/bullet_rain_m4.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "bullet_rain_m4"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/bullet_rain_m4.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 164,
+      "style": 2,
+      "field": "pattern",
+      "sourceValue": "hunter_modern",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/hydrographic/hunter_modern.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "hydrographic",
+        "hunter_modern"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/hydrographic/hunter_modern.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 167,
+      "style": 3,
+      "field": "pattern",
+      "sourceValue": "nukestripe",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/spray/nukestripe.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "spray",
+        "nukestripe"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/spray/nukestripe.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 176,
+      "style": 3,
+      "field": "pattern",
+      "sourceValue": "tiger",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/tiger.vtf",
+        "materials/models/weapons/customization/paints/hydrographic/tiger.vtf",
+        "materials/models/weapons/customization/paints/spray/tiger.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "spray",
+        "tiger"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/spray/tiger.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 187,
+      "style": 3,
+      "field": "pattern",
+      "sourceValue": "star",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/spray/star.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "spray",
+        "star"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/spray/star.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 215,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "xray_m4",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/xray_m4.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "xray_m4"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/xray_m4.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 255,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/zone9_m4",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/zone9_m4.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/zone9_m4"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/zone9_m4.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 309,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/howling_m4a1",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/howling_m4a1.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/howling_m4a1"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/howling_m4a1.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 336,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/m4a4_titanstorm",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/m4a4_titanstorm.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/m4a4_titanstorm"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/m4a4_titanstorm.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 384,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/M4A4_Griffin",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/m4a4_griffin.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/M4A4_Griffin"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/m4a4_griffin.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 400,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/m4a4_ancestral",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/m4a4_ancestral.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/m4a4_ancestral"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/m4a4_ancestral.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 449,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "poseidon_m4",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/poseidon_m4.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "poseidon_m4"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/poseidon_m4.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 471,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "kimono_sunrise",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/kimono_sunrise.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "kimono_sunrise"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/kimono_sunrise.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 480,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/daimyo_evil_greyred",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/daimyo_evil_greyred.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/daimyo_evil_greyred"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/daimyo_evil_greyred.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 512,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "workshop/m4a4_royal_squire",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_royal_squire.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/m4a4_royal_squire"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_royal_squire.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 512,
+      "style": 9,
+      "field": "normal",
+      "sourceValue": "workshop/m4a4_royal_squire_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_royal_squire_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/m4a4_royal_squire_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_royal_squire_normal.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 533,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "workshop/m4a4_pioneer",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_pioneer.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/m4a4_pioneer"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_pioneer.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 533,
+      "style": 9,
+      "field": "normal",
+      "sourceValue": "workshop/m4a4_pioneer_n",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_pioneer_n.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/m4a4_pioneer_n"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_pioneer_n.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 588,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/m4a4_desolatespace2",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/m4a4_desolatespace2.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/m4a4_desolatespace2"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/m4a4_desolatespace2.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 632,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "workshop/m4a4_sector",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_sector.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/m4a4_sector"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_sector.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 632,
+      "style": 9,
+      "field": "normal",
+      "sourceValue": "workshop/m4a4_sector_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_sector_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/m4a4_sector_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_sector_normal.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 664,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/m4a4_hellfire",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/m4a4_hellfire.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/m4a4_hellfire"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/m4a4_hellfire.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 695,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/m4a4_neo_noir",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/m4a4_neo_noir.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/m4a4_neo_noir"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/m4a4_neo_noir.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 695,
+      "style": 7,
+      "field": "normal",
+      "sourceValue": "workshop/m4a4_neo_noir_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/m4a4_neo_noir_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/m4a4_neo_noir_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/m4a4_neo_noir_normal.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 730,
+      "style": 3,
+      "field": "pattern",
+      "sourceValue": "island_flower_bud",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/hydrographic/island_flower_bud.vtf",
+        "materials/models/weapons/customization/paints/spray/island_flower_bud.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "spray",
+        "island_flower_bud"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/spray/island_flower_bud.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 780,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "circuitboard",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/circuitboard.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "circuitboard"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/circuitboard.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 793,
+      "style": 2,
+      "field": "pattern",
+      "sourceValue": "hive",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/hydrographic/hive.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "hydrographic",
+        "hive"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/hydrographic/hive.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 811,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "workshop/m4a4_chopper_ghost",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_chopper_ghost.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/m4a4_chopper_ghost"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_chopper_ghost.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 811,
+      "style": 9,
+      "field": "normal",
+      "sourceValue": "workshop/m4a4_chopper_ghost_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_chopper_ghost_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/m4a4_chopper_ghost_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_chopper_ghost_normal.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 844,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "workshop/m4a4_emperor",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_emperor.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/m4a4_emperor"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_emperor.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 926,
+      "style": 2,
+      "field": "pattern",
+      "sourceValue": "ddpat",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/ddpat.vtf",
+        "materials/models/weapons/customization/paints/hydrographic/ddpat.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "hydrographic",
+        "ddpat"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/hydrographic/ddpat.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 971,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/m4a4_queenfairy",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/m4a4_queenfairy.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/m4a4_queenfairy"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/m4a4_queenfairy.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 971,
+      "style": 7,
+      "field": "normal",
+      "sourceValue": "workshop/m4a4_queenfairy_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/m4a4_queenfairy_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/m4a4_queenfairy_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/m4a4_queenfairy_normal.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 985,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/m4a4_cyberpunk",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/m4a4_cyberpunk.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/m4a4_cyberpunk"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/m4a4_cyberpunk.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 985,
+      "style": 7,
+      "field": "normal",
+      "sourceValue": "workshop/m4a4_cyberpunk_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/m4a4_cyberpunk_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/m4a4_cyberpunk_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/m4a4_cyberpunk_normal.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 993,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "cs_camo",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/cs_camo.vtf",
+        "materials/models/weapons/customization/paints/hydrographic/cs_camo.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "cs_camo"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/cs_camo.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 1041,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/m4a4_love",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/m4a4_love.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/m4a4_love"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/m4a4_love.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 1041,
+      "style": 7,
+      "field": "normal",
+      "sourceValue": "workshop/m4a4_love_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/m4a4_love_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/m4a4_love_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/m4a4_love_normal.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 1063,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "m4a4_coalition",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/m4a4_coalition.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "m4a4_coalition"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/m4a4_coalition.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 1063,
+      "style": 9,
+      "field": "normal",
+      "sourceValue": "m4a4_coalition_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/m4a4_coalition_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "m4a4_coalition_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/m4a4_coalition_normal.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 1097,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "workshop/m4_flowers",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/m4_flowers.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/m4_flowers"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/m4_flowers.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 1097,
+      "style": 9,
+      "field": "normal",
+      "sourceValue": "workshop/m4_flowers_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/m4_flowers_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/m4_flowers_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/m4_flowers_normal.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 1149,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/m4a4_elite_tactical",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/m4a4_elite_tactical.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/m4a4_elite_tactical"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/m4a4_elite_tactical.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 1149,
+      "style": 7,
+      "field": "normal",
+      "sourceValue": "workshop/m4a4_elite_tactical_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/m4a4_elite_tactical_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/m4a4_elite_tactical_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/m4a4_elite_tactical_normal.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 1228,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/m4a4_temukau",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/m4a4_temukau.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/m4a4_temukau"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/m4a4_temukau.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 1228,
+      "style": 7,
+      "field": "normal",
+      "sourceValue": "workshop/m4a4_temukau_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/m4a4_temukau_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/m4a4_temukau_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/m4a4_temukau_normal.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 1255,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "m4a4_ra",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/m4a4_ra.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "m4a4_ra"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/m4a4_ra.vtf"
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 1255,
+      "style": 9,
+      "field": "normal",
+      "sourceValue": "m4a4_ra_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/m4a4_ra_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "m4a4_ra_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/m4a4_ra_normal.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 38,
+      "style": 6,
+      "field": "pattern",
+      "sourceValue": "fade",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_air/fade.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_air",
+        "fade"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_air/fade.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 48,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "dragon_glock",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/dragon_glock.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "dragon_glock"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/dragon_glock.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 84,
+      "style": 2,
+      "field": "pattern",
+      "sourceValue": "ddpat",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/ddpat.vtf",
+        "materials/models/weapons/customization/paints/hydrographic/ddpat.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "hydrographic",
+        "ddpat"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/hydrographic/ddpat.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 159,
+      "style": 8,
+      "field": "pattern",
+      "sourceValue": "aged",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/antiqued/aged.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "antiqued",
+        "aged"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/antiqued/aged.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 230,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "ddpat_dense",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/ddpat_dense.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "ddpat_dense"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/ddpat_dense.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 278,
+      "style": 2,
+      "field": "pattern",
+      "sourceValue": "craquelure",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/hydrographic/craquelure.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "hydrographic",
+        "craquelure"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/hydrographic/craquelure.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 293,
+      "style": 2,
+      "field": "pattern",
+      "sourceValue": "snakeskin",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/hydrographic/snakeskin.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "hydrographic",
+        "snakeskin"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/hydrographic/snakeskin.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 353,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/liquescent",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/liquescent.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/liquescent"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/liquescent.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 367,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "nuclear_pattern",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/nuclear_pattern.vtf",
+        "materials/models/weapons/customization/paints/hydrographic/nuclear_pattern.vtf",
+        "materials/models/weapons/customization/paints/spray/nuclear_pattern.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "nuclear_pattern"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/nuclear_pattern.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 381,
+      "style": 8,
+      "field": "pattern",
+      "sourceValue": "workshop/167-miracle",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/antiqued/workshop/167-miracle.vtf",
+        "materials/models/weapons/customization/paints/custom/workshop/167-miracle.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "antiqued",
+        "workshop/167-miracle"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/antiqued/workshop/167-miracle.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 399,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "workshop/skull",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/workshop/skull.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "workshop/skull"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/workshop/skull.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 437,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "noise",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/noise.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "noise"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/noise.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 479,
+      "style": 8,
+      "field": "pattern",
+      "sourceValue": "workshop/glock_flames_blue_green",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/antiqued/workshop/glock_flames_blue_green.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "antiqued",
+        "workshop/glock_flames_blue_green"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/antiqued/workshop/glock_flames_blue_green.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 495,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "workshop/glock18_wrathys",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/glock18_wrathys.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/glock18_wrathys"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/glock18_wrathys.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 495,
+      "style": 9,
+      "field": "normal",
+      "sourceValue": "workshop/glock18_wrathys_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/glock18_wrathys_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/glock18_wrathys_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/glock18_wrathys_normal.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 532,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "workshop/glock18_award",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/glock18_award.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/glock18_award"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/glock18_award.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 532,
+      "style": 9,
+      "field": "normal",
+      "sourceValue": "workshop/glock18_award_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/glock18_award_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/glock18_award_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/glock18_award_normal.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 586,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/glock_wasteland_rebel",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/glock_wasteland_rebel.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/glock_wasteland_rebel"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/glock_wasteland_rebel.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 607,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/glock18_weasel1j",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/glock18_weasel1j.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/glock18_weasel1j"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/glock18_weasel1j.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 623,
+      "style": 8,
+      "field": "pattern",
+      "sourceValue": "workshop/glock_dark_fall",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/antiqued/workshop/glock_dark_fall.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "antiqued",
+        "workshop/glock_dark_fall"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/antiqued/workshop/glock_dark_fall.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 680,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/glock_indigo",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/glock_indigo.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/glock_indigo"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/glock_indigo.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 694,
+      "style": 6,
+      "field": "pattern",
+      "sourceValue": "workshop/glock_18_urban_moon_fever",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_air/workshop/glock_18_urban_moon_fever.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_air",
+        "workshop/glock_18_urban_moon_fever"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_air/workshop/glock_18_urban_moon_fever.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 713,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "workshop/glock_thunder_dust",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/glock_thunder_dust.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/glock_thunder_dust"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/glock_thunder_dust.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 713,
+      "style": 9,
+      "field": "normal",
+      "sourceValue": "workshop/glock_thunder_dust_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/glock_thunder_dust_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/glock_thunder_dust_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/glock_thunder_dust_normal.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 732,
+      "style": 2,
+      "field": "pattern",
+      "sourceValue": "island_leaf",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/hydrographic/island_leaf.vtf",
+        "materials/models/weapons/customization/paints/spray/island_leaf.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "hydrographic",
+        "island_leaf"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/hydrographic/island_leaf.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 789,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "nuclear_skulls_02",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/nuclear_skulls_02.vtf",
+        "materials/models/weapons/customization/paints/hydrographic/nuclear_skulls_02.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "nuclear_skulls_02"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/nuclear_skulls_02.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 799,
+      "style": 6,
+      "field": "pattern",
+      "sourceValue": "vertigo",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_air/vertigo.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_air",
+        "vertigo"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_air/vertigo.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 808,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/glock18_corroden",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/glock18_corroden.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/glock18_corroden"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/glock18_corroden.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 918,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/glock_hero",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/glock_hero.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/glock_hero"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/glock_hero.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 918,
+      "style": 7,
+      "field": "normal",
+      "sourceValue": "workshop/glock_hero_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/glock_hero_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/glock_hero_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/glock_hero_normal.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 957,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/glock18_warmaiden",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/glock18_warmaiden.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/glock18_warmaiden"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/glock18_warmaiden.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 963,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/glock_eyecontact",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/glock_eyecontact.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/glock_eyecontact"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/glock_eyecontact.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 988,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/glock_noir",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/glock_noir.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/glock_noir"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/glock_noir.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 988,
+      "style": 7,
+      "field": "normal",
+      "sourceValue": "workshop/glock_noir_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/glock_noir_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/glock_noir_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/glock_noir_normal.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1016,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "money",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/money.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "money"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/money.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1039,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "workshop/glock_polymer",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/glock_polymer.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/glock_polymer"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/glock_polymer.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1039,
+      "style": 9,
+      "field": "normal",
+      "sourceValue": "workshop/glock_polymer_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/glock_polymer_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/glock_polymer_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/glock_polymer_normal.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1079,
+      "style": 3,
+      "field": "pattern",
+      "sourceValue": "tire_tread",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/spray/tire_tread.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "spray",
+        "tire_tread"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/spray/tire_tread.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1100,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/glock_snackattack",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/glock_snackattack.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/glock_snackattack"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/glock_snackattack.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1100,
+      "style": 7,
+      "field": "normal",
+      "sourceValue": "workshop/glock_snackattack_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/glock_snackattack_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/glock_snackattack_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/glock_snackattack_normal.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1119,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "smoke2",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/smoke2.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "smoke2"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/smoke2.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1120,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "smoke2",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/smoke2.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "smoke2"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/smoke2.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1121,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "smoke2",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/smoke2.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "smoke2"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/smoke2.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1122,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "smoke2",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/smoke2.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "smoke2"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/smoke2.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1123,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "smoke2",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/smoke2.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "smoke2"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/smoke2.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1158,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "workshop/glock_elite_camo",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/glock_elite_camo.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/glock_elite_camo"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/glock_elite_camo.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1158,
+      "style": 9,
+      "field": "normal",
+      "sourceValue": "workshop/glock_elite_camo_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/glock_elite_camo_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/glock_elite_camo_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/glock_elite_camo_normal.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1227,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/glock_moon_rabbit",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/glock_moon_rabbit.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/glock_moon_rabbit"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/glock_moon_rabbit.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1240,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "glock_ramzes",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/glock_ramzes.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "glock_ramzes"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/glock_ramzes.vtf"
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1240,
+      "style": 7,
+      "field": "normal",
+      "sourceValue": "glock_ramzes_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/glock_ramzes_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "glock_ramzes_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/glock_ramzes_normal.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 25,
+      "style": 3,
+      "field": "pattern",
+      "sourceValue": "camo_leaves",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/spray/camo_leaves.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "spray",
+        "camo_leaves"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/spray/camo_leaves.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 60,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "zebra",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/zebra.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "zebra"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/zebra.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 183,
+      "style": 2,
+      "field": "pattern",
+      "sourceValue": "camo_arctic",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/hydrographic/camo_arctic.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "hydrographic",
+        "camo_arctic"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/hydrographic/camo_arctic.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 217,
+      "style": 2,
+      "field": "pattern",
+      "sourceValue": "v_tiger",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/hydrographic/v_tiger.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "hydrographic",
+        "v_tiger"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/hydrographic/v_tiger.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 221,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "electric",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/electric.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "electric"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/electric.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 236,
+      "style": 2,
+      "field": "pattern",
+      "sourceValue": "varicamo",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/hydrographic/varicamo.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "hydrographic",
+        "varicamo"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/hydrographic/varicamo.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 277,
+      "style": 8,
+      "field": "pattern",
+      "sourceValue": "silver_usp",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/antiqued/silver_usp.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "antiqued",
+        "silver_usp"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/antiqued/silver_usp.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 290,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/usp-s_ct_elegant_update",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/usp-s_ct_elegant_update.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/usp-s_ct_elegant_update"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/usp-s_ct_elegant_update.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 313,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/spitfire_usp",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/spitfire_usp.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/spitfire_usp"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/spitfire_usp.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 318,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "usp-s_sandpapered",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/usp-s_sandpapered.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "usp-s_sandpapered"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/usp-s_sandpapered.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 332,
+      "style": 2,
+      "field": "pattern",
+      "sourceValue": "usp_solid_colors",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/hydrographic/usp_solid_colors.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "hydrographic",
+        "usp_solid_colors"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/hydrographic/usp_solid_colors.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 339,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/usp_kaiman",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/usp_kaiman.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/usp_kaiman"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/usp_kaiman.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 364,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "luggage_usp-s",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/luggage_usp-s.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "luggage_usp-s"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/luggage_usp-s.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 443,
+      "style": 3,
+      "field": "pattern",
+      "sourceValue": "labyrinth_basic",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/labyrinth_basic.vtf",
+        "materials/models/weapons/customization/paints/spray/labyrinth_basic.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "spray",
+        "labyrinth_basic"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/spray/labyrinth_basic.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 454,
+      "style": 2,
+      "field": "pattern",
+      "sourceValue": "usp_solid",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/hydrographic/usp_solid.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "hydrographic",
+        "usp_solid"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/hydrographic/usp_solid.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 489,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/usps_progressiv",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/usps_progressiv.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/usps_progressiv"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/usps_progressiv.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 504,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/usp_kill_confirmed",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/usp_kill_confirmed.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/usp_kill_confirmed"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/usp_kill_confirmed.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 540,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "workshop/usp_voltage",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/usp_voltage.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/usp_voltage"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/usp_voltage.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 540,
+      "style": 9,
+      "field": "normal",
+      "sourceValue": "workshop/usp_voltage_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/usp_voltage_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/usp_voltage_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/usp_voltage_normal.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 637,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/usp_cyrex",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/usp_cyrex.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/usp_cyrex"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/usp_cyrex.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 653,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/usps_noir",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/usps_noir.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/usps_noir"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/usps_noir.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 657,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/usps_blueprint",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/usps_blueprint.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/usps_blueprint"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/usps_blueprint.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 705,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/usp_cut",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/usp_cut.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/usp_cut"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/usp_cut.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 796,
+      "style": 3,
+      "field": "pattern",
+      "sourceValue": "mesh_fabric",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/hydrographic/mesh_fabric.vtf",
+        "materials/models/weapons/customization/paints/spray/mesh_fabric.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "spray",
+        "mesh_fabric"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/spray/mesh_fabric.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 817,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/usp_flashback",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/usp_flashback.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/usp_flashback"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/usp_flashback.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 818,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "ddpat",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/ddpat.vtf",
+        "materials/models/weapons/customization/paints/hydrographic/ddpat.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "ddpat"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/ddpat.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 922,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "iguana_skin",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/iguana_skin.vtf",
+        "materials/models/weapons/customization/paints/hydrographic/iguana_skin.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "iguana_skin"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/iguana_skin.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 991,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/usp_krokos",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/usp_krokos.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/usp_krokos"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/usp_krokos.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 1027,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "intelligence",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/intelligence.vtf",
+        "materials/models/weapons/customization/paints/hydrographic/intelligence.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "intelligence"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/intelligence.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 1031,
+      "style": 3,
+      "field": "pattern",
+      "sourceValue": "ancient_pattern",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_air/ancient_pattern.vtf",
+        "materials/models/weapons/customization/paints/anodized_multi/ancient_pattern.vtf",
+        "materials/models/weapons/customization/paints/hydrographic/ancient_pattern.vtf",
+        "materials/models/weapons/customization/paints/spray/ancient_pattern.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "spray",
+        "ancient_pattern"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/spray/ancient_pattern.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 1040,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "workshop/usps_hangedman",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/usps_hangedman.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/usps_hangedman"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/usps_hangedman.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 1102,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/usp_black_lotus",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/usp_black_lotus.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/usp_black_lotus"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/usp_black_lotus.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 1102,
+      "style": 7,
+      "field": "normal",
+      "sourceValue": "workshop/usp_black_lotus_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/usp_black_lotus_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/usp_black_lotus_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/usp_black_lotus_normal.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 1136,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/usp_to_hell",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/usp_to_hell.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/usp_to_hell"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/usp_to_hell.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 1142,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/usp_printstream",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/usp_printstream.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/usp_printstream"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/usp_printstream.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 1142,
+      "style": 7,
+      "field": "normal",
+      "sourceValue": "workshop/usp_printstream_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/usp_printstream_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/usp_printstream_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/usp_printstream_normal.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 1253,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "usps_tactical_camo",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/usps_tactical_camo.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "usps_tactical_camo"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/usps_tactical_camo.vtf"
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 1253,
+      "style": 9,
+      "field": "normal",
+      "sourceValue": "usps_tactical_camo_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/usps_tactical_camo_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "usps_tactical_camo_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/usps_tactical_camo_normal.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 17,
+      "style": 2,
+      "field": "pattern",
+      "sourceValue": "ddpat",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/ddpat.vtf",
+        "materials/models/weapons/customization/paints/hydrographic/ddpat.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "hydrographic",
+        "ddpat"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/hydrographic/ddpat.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 37,
+      "style": 6,
+      "field": "pattern",
+      "sourceValue": "flamegraphic",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_air/flamegraphic.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_air",
+        "flamegraphic"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_air/flamegraphic.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 61,
+      "style": 6,
+      "field": "pattern",
+      "sourceValue": "vertigo",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_air/vertigo.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_air",
+        "vertigo"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_air/vertigo.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 90,
+      "style": 2,
+      "field": "pattern",
+      "sourceValue": "marbleized",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/hydrographic/marbleized.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "hydrographic",
+        "marbleized"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/hydrographic/marbleized.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 185,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "scales",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/scales.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "scales"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/scales.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 231,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "ddpat_dense",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/ddpat_dense.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "ddpat_dense"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/ddpat_dense.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 232,
+      "style": 2,
+      "field": "pattern",
+      "sourceValue": "webs",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/hydrographic/webs.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "hydrographic",
+        "webs"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/hydrographic/webs.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 237,
+      "style": 2,
+      "field": "pattern",
+      "sourceValue": "varicamo",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/hydrographic/varicamo.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "hydrographic",
+        "varicamo"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/hydrographic/varicamo.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 273,
+      "style": 8,
+      "field": "pattern",
+      "sourceValue": "etched_deagle",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/etched_deagle.vtf",
+        "materials/models/weapons/customization/paints/antiqued/etched_deagle.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "antiqued",
+        "etched_deagle"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/antiqued/etched_deagle.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 296,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "crystallized",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/crystallized.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "crystallized"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/crystallized.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 328,
+      "style": 8,
+      "field": "pattern",
+      "sourceValue": "handcannon",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/antiqued/handcannon.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "antiqued",
+        "handcannon"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/antiqued/handcannon.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 347,
+      "style": 8,
+      "field": "pattern",
+      "sourceValue": "pilot_deagle",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/antiqued/pilot_deagle.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "antiqued",
+        "pilot_deagle"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/antiqued/pilot_deagle.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 351,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/deagle_aureus",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/deagle_aureus.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/deagle_aureus"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/deagle_aureus.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 397,
+      "style": 8,
+      "field": "pattern",
+      "sourceValue": "workshop/deagle_naga",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/antiqued/workshop/deagle_naga.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "antiqued",
+        "workshop/deagle_naga"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/antiqued/workshop/deagle_naga.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 397,
+      "style": 8,
+      "field": "normal",
+      "sourceValue": "workshop/deagle_naga_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/antiqued/workshop/deagle_naga_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "antiqued",
+        "workshop/deagle_naga_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/antiqued/workshop/deagle_naga_normal.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 425,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "workshop/bronze_flakes",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/workshop/bronze_flakes.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "workshop/bronze_flakes"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/workshop/bronze_flakes.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 468,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "sea_storm",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/sea_storm.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "sea_storm"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/sea_storm.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 469,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "sea_storm_blood",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/sea_storm_blood.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "sea_storm_blood"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/sea_storm_blood.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 470,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "sea_storm_shojo",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/sea_storm_shojo.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "sea_storm_shojo"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/sea_storm_shojo.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 509,
+      "style": 8,
+      "field": "pattern",
+      "sourceValue": "workshop/deagle_corinthian",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/antiqued/workshop/deagle_corinthian.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "antiqued",
+        "workshop/deagle_corinthian"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/antiqued/workshop/deagle_corinthian.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 527,
+      "style": 8,
+      "field": "pattern",
+      "sourceValue": "workshop/deserteagle_kumichodragon",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/antiqued/workshop/deserteagle_kumichodragon.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "antiqued",
+        "workshop/deserteagle_kumichodragon"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/antiqued/workshop/deserteagle_kumichodragon.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 603,
+      "style": 8,
+      "field": "pattern",
+      "sourceValue": "workshop/de_constable",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/antiqued/workshop/de_constable.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "antiqued",
+        "workshop/de_constable"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/antiqued/workshop/de_constable.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 603,
+      "style": 8,
+      "field": "normal",
+      "sourceValue": "workshop/de_constable_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/antiqued/workshop/de_constable_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "antiqued",
+        "workshop/de_constable_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/antiqued/workshop/de_constable_normal.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 645,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/desert_eagle_corroden",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/desert_eagle_corroden.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/desert_eagle_corroden"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/desert_eagle_corroden.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 711,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "workshop/deagle_aggressor",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/deagle_aggressor.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/deagle_aggressor"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/deagle_aggressor.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 711,
+      "style": 9,
+      "field": "normal",
+      "sourceValue": "workshop/deagle_aggressor_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/deagle_aggressor_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/deagle_aggressor_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/deagle_aggressor_normal.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 757,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "jormungandr",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/jormungandr.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "jormungandr"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/jormungandr.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 764,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "deagle_fennec",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/deagle_fennec.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "deagle_fennec"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/deagle_fennec.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 764,
+      "style": 9,
+      "field": "normal",
+      "sourceValue": "deagle_fennec_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/deagle_fennec_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "deagle_fennec_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/deagle_fennec_normal.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 805,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "workshop/deagle_mecha",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/deagle_mecha.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/deagle_mecha"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/deagle_mecha.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 841,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "workshop/deagle_exo",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/deagle_exo.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/deagle_exo"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/deagle_exo.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 841,
+      "style": 9,
+      "field": "normal",
+      "sourceValue": "workshop/deagle_exo_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/deagle_exo_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/deagle_exo_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/deagle_exo_normal.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 945,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/deagle_replica",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/deagle_replica.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/deagle_replica"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/deagle_replica.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 945,
+      "style": 7,
+      "field": "normal",
+      "sourceValue": "workshop/deagle_replica_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/deagle_replica_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/deagle_replica_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/deagle_replica_normal.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 962,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/deag_printstream",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/deag_printstream.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/deag_printstream"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/deag_printstream.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 962,
+      "style": 7,
+      "field": "normal",
+      "sourceValue": "workshop/deag_printstream_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/deag_printstream_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/deag_printstream_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/deag_printstream_normal.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 992,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "numbers",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/numbers.vtf",
+        "materials/models/weapons/customization/paints/hydrographic/numbers.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "numbers"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/numbers.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 1006,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "heist",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/heist.vtf",
+        "materials/models/weapons/customization/paints/spray/heist.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "heist"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/heist.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 1050,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/deag_trigger_discipline",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/deag_trigger_discipline.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/deag_trigger_discipline"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/deag_trigger_discipline.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 1050,
+      "style": 7,
+      "field": "normal",
+      "sourceValue": "workshop/deag_trigger_discipline_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/deag_trigger_discipline_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/deag_trigger_discipline_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/deag_trigger_discipline_normal.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 1056,
+      "style": 3,
+      "field": "pattern",
+      "sourceValue": "spacerace",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_air/spacerace.vtf",
+        "materials/models/weapons/customization/paints/spray/spacerace.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "spray",
+        "spacerace"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/spray/spacerace.vtf"
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 1090,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/deagle_kitch",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/deagle_kitch.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/deagle_kitch"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/deagle_kitch.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 30,
+      "style": 3,
+      "field": "pattern",
+      "sourceValue": "snake",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/spray/snake.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "spray",
+        "snake"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/spray/snake.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 51,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "lightning_strike",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/lightning_strike.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "lightning_strike"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/lightning_strike.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 72,
+      "style": 3,
+      "field": "pattern",
+      "sourceValue": "chainlink",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/spray/chainlink.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "spray",
+        "chainlink"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/spray/chainlink.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 84,
+      "style": 2,
+      "field": "pattern",
+      "sourceValue": "ddpat",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/ddpat.vtf",
+        "materials/models/weapons/customization/paints/hydrographic/ddpat.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "hydrographic",
+        "ddpat"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/hydrographic/ddpat.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 174,
+      "style": 2,
+      "field": "pattern",
+      "sourceValue": "blam",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/hydrographic/blam.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "hydrographic",
+        "blam"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/hydrographic/blam.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 181,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "favela_awp",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/favela_awp.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "favela_awp"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/favela_awp.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 212,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "crumple",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/crumple.vtf",
+        "materials/models/weapons/customization/paints/hydrographic/crumple.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "crumple"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/crumple.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 227,
+      "style": 2,
+      "field": "pattern",
+      "sourceValue": "hive",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/hydrographic/hive.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "hydrographic",
+        "hive"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/hydrographic/hive.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 251,
+      "style": 2,
+      "field": "pattern",
+      "sourceValue": "snakeskin",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/hydrographic/snakeskin.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "hydrographic",
+        "snakeskin"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/hydrographic/snakeskin.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 259,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/elegantredawpend",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/elegantredawpend.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/elegantredawpend"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/elegantredawpend.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 279,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/zone9_awp",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/zone9_awp.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/zone9_awp"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/zone9_awp.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 344,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "dragon_awp",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/dragon_awp.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "dragon_awp"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/dragon_awp.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 395,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "workshop/glory_awp",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/workshop/glory_awp.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "workshop/glory_awp"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/workshop/glory_awp.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 424,
+      "style": 8,
+      "field": "pattern",
+      "sourceValue": "workshop/AWP_twine",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/antiqued/workshop/awp_twine.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "antiqued",
+        "workshop/AWP_twine"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/antiqued/workshop/awp_twine.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 446,
+      "style": 8,
+      "field": "pattern",
+      "sourceValue": "medusa_awp",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/antiqued/medusa_awp.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "antiqued",
+        "medusa_awp"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/antiqued/medusa_awp.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 451,
+      "style": 2,
+      "field": "pattern",
+      "sourceValue": "zodiac",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/hydrographic/zodiac.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "hydrographic",
+        "zodiac"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/hydrographic/zodiac.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 475,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/awp_hyper_beast",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/awp_hyper_beast.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/awp_hyper_beast"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/awp_hyper_beast.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 525,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/awp_mastery",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/awp_mastery.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/awp_mastery"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/awp_mastery.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 584,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "workshop/awp-phobos",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/awp-phobos.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/awp-phobos"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/awp-phobos.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 584,
+      "style": 9,
+      "field": "normal",
+      "sourceValue": "workshop/awp-phobos_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/awp-phobos_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/awp-phobos_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/awp-phobos_normal.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 640,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/awp_psychopath",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/awp_psychopath.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/awp_psychopath"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/awp_psychopath.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 662,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/awp_hannya",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/awp_hannya.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/awp_hannya"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/awp_hannya.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 691,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "workshop/awp_death",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/awp_death.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/awp_death"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/awp_death.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 718,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "workshop/awp_pawpaw",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/workshop/awp_pawpaw.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "workshop/awp_pawpaw"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/workshop/awp_pawpaw.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 736,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "awp_enamel",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/awp_enamel.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "awp_enamel"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/awp_enamel.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 736,
+      "style": 9,
+      "field": "normal",
+      "sourceValue": "awp_enamel_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/awp_enamel_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "awp_enamel_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/awp_enamel_normal.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 756,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "awp_gungnir",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/awp_gungnir.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "awp_gungnir"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/awp_gungnir.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 756,
+      "style": 9,
+      "field": "normal",
+      "sourceValue": "awp_gungnir_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/awp_gungnir_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "awp_gungnir_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/awp_gungnir_normal.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 788,
+      "style": 2,
+      "field": "pattern",
+      "sourceValue": "nuclear_skulls_02",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/nuclear_skulls_02.vtf",
+        "materials/models/weapons/customization/paints/hydrographic/nuclear_skulls_02.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "hydrographic",
+        "nuclear_skulls_02"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/hydrographic/nuclear_skulls_02.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 803,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/awp_neonoir",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/awp_neonoir.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/awp_neonoir"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/awp_neonoir.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 803,
+      "style": 7,
+      "field": "normal",
+      "sourceValue": "workshop/awp_neonoir_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/awp_neonoir_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/awp_neonoir_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/awp_neonoir_normal.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 819,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "awp_hydra",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/awp_hydra.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "awp_hydra"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/awp_hydra.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 819,
+      "style": 9,
+      "field": "normal",
+      "sourceValue": "awp_hydra_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/awp_hydra_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "awp_hydra_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/awp_hydra_normal.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 838,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/awp_viper",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/awp_viper.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/awp_viper"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/awp_viper.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 887,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/awp_virus",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/awp_virus.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/awp_virus"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/awp_virus.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 887,
+      "style": 7,
+      "field": "normal",
+      "sourceValue": "workshop/awp_virus_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/awp_virus_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/awp_virus_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/awp_virus_normal.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 917,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/awp_wildfire",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/awp_wildfire.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/awp_wildfire"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/awp_wildfire.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 917,
+      "style": 7,
+      "field": "normal",
+      "sourceValue": "workshop/awp_wildfire_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/awp_wildfire_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/awp_wildfire_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/awp_wildfire_normal.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 943,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/awp_vein",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/awp_vein.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/awp_vein"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/awp_vein.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 975,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "workshop/awp_exoskeleton",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/awp_exoskeleton.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/awp_exoskeleton"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/awp_exoskeleton.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 975,
+      "style": 9,
+      "field": "normal",
+      "sourceValue": "workshop/awp_exoskeleton_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/awp_exoskeleton_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/awp_exoskeleton_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/awp_exoskeleton_normal.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 1026,
+      "style": 6,
+      "field": "pattern",
+      "sourceValue": "fade",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_air/fade.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_air",
+        "fade"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_air/fade.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 1029,
+      "style": 5,
+      "field": "pattern",
+      "sourceValue": "tigers",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/anodized_multi/tigers.vtf",
+        "materials/models/weapons/customization/paints/hydrographic/tigers.vtf",
+        "materials/models/weapons/customization/paints/spray/tigers.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "anodized_multi",
+        "tigers"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/anodized_multi/tigers.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 1058,
+      "style": 2,
+      "field": "pattern",
+      "sourceValue": "technowar",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/hydrographic/technowar.vtf",
+        "materials/models/weapons/customization/paints/spray/technowar.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "hydrographic",
+        "technowar"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/hydrographic/technowar.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 1144,
+      "style": 7,
+      "field": "pattern",
+      "sourceValue": "workshop/awp_chroma_pink",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/custom/workshop/awp_chroma_pink.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "custom",
+        "workshop/awp_chroma_pink"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/custom/workshop/awp_chroma_pink.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 1222,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "workshop/awp_limbo_snake",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/awp_limbo_snake.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/awp_limbo_snake"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/awp_limbo_snake.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 1222,
+      "style": 9,
+      "field": "normal",
+      "sourceValue": "workshop/awp_limbo_snake_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/workshop/awp_limbo_snake_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "workshop/awp_limbo_snake_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/workshop/awp_limbo_snake_normal.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 1239,
+      "style": 9,
+      "field": "pattern",
+      "sourceValue": "awp_strone",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/awp_strone.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "awp_strone"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/awp_strone.vtf"
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 1239,
+      "style": 9,
+      "field": "normal",
+      "sourceValue": "awp_strone_normal",
+      "priorCandidates": [
+        "materials/models/weapons/customization/paints/gunsmith/awp_strone_normal.vtf"
+      ],
+      "nativeFormatArguments": [
+        "models/weapons/customization/paints/%s/%s.vtf",
+        "gunsmith",
+        "awp_strone_normal"
+      ],
+      "selectedVpkPath": "materials/models/weapons/customization/paints/gunsmith/awp_strone_normal.vtf"
+    }
+  ],
+  "resolved": {
+    "14:pattern": "materials/models/weapons/customization/paints/hydrographic/laminate_ak47.vtf",
+    "44:pattern": "materials/models/weapons/customization/paints/antiqued/oiled.vtf",
+    "72:pattern": "materials/models/weapons/customization/paints/spray/chainlink.vtf",
+    "122:pattern": "materials/models/weapons/customization/paints/spray/camo_daubs.vtf",
+    "170:pattern": "materials/models/weapons/customization/paints/spray/tiger.vtf",
+    "172:pattern": "materials/models/weapons/customization/paints/hydrographic/laminate_ak47.vtf",
+    "180:pattern": "materials/models/weapons/customization/paints/custom/fireserpent_ak47.vtf",
+    "226:pattern": "materials/models/weapons/customization/paints/hydrographic/laminate_ak47.vtf",
+    "282:pattern": "materials/models/weapons/customization/paints/custom/workshop/elegantredv1.1.vtf",
+    "300:pattern": "materials/models/weapons/customization/paints/custom/pinstripe_ak47.vtf",
+    "302:pattern": "materials/models/weapons/customization/paints/custom/workshop/rubber_ak47.vtf",
+    "316:pattern": "materials/models/weapons/customization/paints/custom/panther_ak47.vtf",
+    "340:pattern": "materials/models/weapons/customization/paints/custom/well_traveled.vtf",
+    "341:pattern": "materials/models/weapons/customization/paints/custom/green_leather.vtf",
+    "380:pattern": "materials/models/weapons/customization/paints/custom/workshop/tribute_ak47.vtf",
+    "394:pattern": "materials/models/weapons/customization/paints/antiqued/workshop/ak47_cartel.vtf",
+    "394:normal": "materials/models/weapons/customization/paints/antiqued/workshop/ak47_cartel_normal.vtf",
+    "422:pattern": "materials/models/weapons/customization/paints/custom/workshop/ak47_mastery.vtf",
+    "456:pattern": "materials/models/weapons/customization/paints/anodized_multi/bamboo_jungle.vtf",
+    "474:pattern": "materials/models/weapons/customization/paints/custom/workshop/ak47_courage.vtf",
+    "490:pattern": "materials/models/weapons/customization/paints/custom/workshop/ak47_winter_sport.vtf",
+    "506:pattern": "materials/models/weapons/customization/paints/custom/workshop/ak47_point_disarray.vtf",
+    "524:pattern": "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_supercharged.vtf",
+    "524:normal": "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_supercharged_normal.vtf",
+    "600:pattern": "materials/models/weapons/customization/paints/custom/workshop/anarchy_ak47.vtf",
+    "639:pattern": "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_bloodsport.vtf",
+    "656:pattern": "materials/models/weapons/customization/paints/gunsmith/workshop/ak_colony01_red.vtf",
+    "675:pattern": "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_empress.vtf",
+    "707:pattern": "materials/models/weapons/customization/paints/custom/workshop/ak_neon_rider.vtf",
+    "707:normal": "materials/models/weapons/customization/paints/custom/workshop/ak_neon_rider_normal.vtf",
+    "724:pattern": "materials/models/weapons/customization/paints/custom/ak_island_floral.vtf",
+    "745:pattern": "materials/models/weapons/customization/paints/hydrographic/veneto.vtf",
+    "795:pattern": "materials/models/weapons/customization/paints/hydrographic/mesh_fabric.vtf",
+    "801:pattern": "materials/models/weapons/customization/paints/custom/workshop/ak47_asiimov.vtf",
+    "836:pattern": "materials/models/weapons/customization/paints/custom/workshop/ak47_aztec.vtf",
+    "836:normal": "materials/models/weapons/customization/paints/custom/workshop/ak47_aztec_normal.vtf",
+    "885:pattern": "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_nibbler.vtf",
+    "885:normal": "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_nibbler_normal.vtf",
+    "921:pattern": "materials/models/weapons/customization/paints/gunsmith/ak47_gold_arabesque.vtf",
+    "921:normal": "materials/models/weapons/customization/paints/gunsmith/ak47_gold_arabesque_normal.vtf",
+    "941:pattern": "materials/models/weapons/customization/paints/custom/workshop/ak-47_phantom_disruptor.vtf",
+    "941:normal": "materials/models/weapons/customization/paints/custom/workshop/ak-47_phantom_disruptor_normal.vtf",
+    "959:pattern": "materials/models/weapons/customization/paints/custom/workshop/ak47_anubis.vtf",
+    "959:normal": "materials/models/weapons/customization/paints/custom/workshop/ak47_anubis_normal.vtf",
+    "1004:pattern": "materials/models/weapons/customization/paints/custom/ak_xray.vtf",
+    "1018:pattern": "materials/models/weapons/customization/paints/custom/jaguar_ak47.vtf",
+    "1018:normal": "materials/models/weapons/customization/paints/custom/jaguar_ak47_normal.vtf",
+    "1035:pattern": "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_professional.vtf",
+    "1035:normal": "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_professional_normal.vtf",
+    "1070:pattern": "materials/models/weapons/customization/paints/hydrographic/laminate_ak47.vtf",
+    "1087:pattern": "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_abstract.vtf",
+    "1141:pattern": "materials/models/weapons/customization/paints/custom/workshop/ak47_nightwish.vtf",
+    "1143:pattern": "materials/models/weapons/customization/paints/custom/workshop/ak47_cogthings.vtf",
+    "1143:normal": "materials/models/weapons/customization/paints/custom/workshop/ak47_cogthings_normal.vtf",
+    "1221:pattern": "materials/models/weapons/customization/paints/custom/workshop/ak_head_shot_holo.vtf",
+    "1238:pattern": "materials/models/weapons/customization/paints/gunsmith/ak47_strone.vtf",
+    "1238:normal": "materials/models/weapons/customization/paints/gunsmith/ak47_strone_normal.vtf",
+    "8:pattern": "materials/models/weapons/customization/paints/hydrographic/desert_spots.vtf",
+    "16:pattern": "materials/models/weapons/customization/paints/hydrographic/v_tiger.vtf",
+    "17:pattern": "materials/models/weapons/customization/paints/hydrographic/ddpat.vtf",
+    "155:pattern": "materials/models/weapons/customization/paints/custom/bullet_rain_m4.vtf",
+    "164:pattern": "materials/models/weapons/customization/paints/hydrographic/hunter_modern.vtf",
+    "167:pattern": "materials/models/weapons/customization/paints/spray/nukestripe.vtf",
+    "176:pattern": "materials/models/weapons/customization/paints/spray/tiger.vtf",
+    "187:pattern": "materials/models/weapons/customization/paints/spray/star.vtf",
+    "215:pattern": "materials/models/weapons/customization/paints/custom/xray_m4.vtf",
+    "255:pattern": "materials/models/weapons/customization/paints/custom/workshop/zone9_m4.vtf",
+    "309:pattern": "materials/models/weapons/customization/paints/custom/workshop/howling_m4a1.vtf",
+    "336:pattern": "materials/models/weapons/customization/paints/custom/workshop/m4a4_titanstorm.vtf",
+    "384:pattern": "materials/models/weapons/customization/paints/custom/workshop/m4a4_griffin.vtf",
+    "400:pattern": "materials/models/weapons/customization/paints/custom/workshop/m4a4_ancestral.vtf",
+    "449:pattern": "materials/models/weapons/customization/paints/custom/poseidon_m4.vtf",
+    "471:pattern": "materials/models/weapons/customization/paints/anodized_multi/kimono_sunrise.vtf",
+    "480:pattern": "materials/models/weapons/customization/paints/custom/workshop/daimyo_evil_greyred.vtf",
+    "512:pattern": "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_royal_squire.vtf",
+    "512:normal": "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_royal_squire_normal.vtf",
+    "533:pattern": "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_pioneer.vtf",
+    "533:normal": "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_pioneer_n.vtf",
+    "588:pattern": "materials/models/weapons/customization/paints/custom/workshop/m4a4_desolatespace2.vtf",
+    "632:pattern": "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_sector.vtf",
+    "632:normal": "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_sector_normal.vtf",
+    "664:pattern": "materials/models/weapons/customization/paints/custom/workshop/m4a4_hellfire.vtf",
+    "695:pattern": "materials/models/weapons/customization/paints/custom/workshop/m4a4_neo_noir.vtf",
+    "695:normal": "materials/models/weapons/customization/paints/custom/workshop/m4a4_neo_noir_normal.vtf",
+    "730:pattern": "materials/models/weapons/customization/paints/spray/island_flower_bud.vtf",
+    "780:pattern": "materials/models/weapons/customization/paints/anodized_multi/circuitboard.vtf",
+    "793:pattern": "materials/models/weapons/customization/paints/hydrographic/hive.vtf",
+    "811:pattern": "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_chopper_ghost.vtf",
+    "811:normal": "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_chopper_ghost_normal.vtf",
+    "844:pattern": "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_emperor.vtf",
+    "926:pattern": "materials/models/weapons/customization/paints/hydrographic/ddpat.vtf",
+    "971:pattern": "materials/models/weapons/customization/paints/custom/workshop/m4a4_queenfairy.vtf",
+    "971:normal": "materials/models/weapons/customization/paints/custom/workshop/m4a4_queenfairy_normal.vtf",
+    "985:pattern": "materials/models/weapons/customization/paints/custom/workshop/m4a4_cyberpunk.vtf",
+    "985:normal": "materials/models/weapons/customization/paints/custom/workshop/m4a4_cyberpunk_normal.vtf",
+    "993:pattern": "materials/models/weapons/customization/paints/custom/cs_camo.vtf",
+    "1041:pattern": "materials/models/weapons/customization/paints/custom/workshop/m4a4_love.vtf",
+    "1041:normal": "materials/models/weapons/customization/paints/custom/workshop/m4a4_love_normal.vtf",
+    "1063:pattern": "materials/models/weapons/customization/paints/gunsmith/m4a4_coalition.vtf",
+    "1063:normal": "materials/models/weapons/customization/paints/gunsmith/m4a4_coalition_normal.vtf",
+    "1097:pattern": "materials/models/weapons/customization/paints/gunsmith/workshop/m4_flowers.vtf",
+    "1097:normal": "materials/models/weapons/customization/paints/gunsmith/workshop/m4_flowers_normal.vtf",
+    "1149:pattern": "materials/models/weapons/customization/paints/custom/workshop/m4a4_elite_tactical.vtf",
+    "1149:normal": "materials/models/weapons/customization/paints/custom/workshop/m4a4_elite_tactical_normal.vtf",
+    "1228:pattern": "materials/models/weapons/customization/paints/custom/workshop/m4a4_temukau.vtf",
+    "1228:normal": "materials/models/weapons/customization/paints/custom/workshop/m4a4_temukau_normal.vtf",
+    "1255:pattern": "materials/models/weapons/customization/paints/gunsmith/m4a4_ra.vtf",
+    "1255:normal": "materials/models/weapons/customization/paints/gunsmith/m4a4_ra_normal.vtf",
+    "38:pattern": "materials/models/weapons/customization/paints/anodized_air/fade.vtf",
+    "48:pattern": "materials/models/weapons/customization/paints/anodized_multi/dragon_glock.vtf",
+    "84:pattern": "materials/models/weapons/customization/paints/hydrographic/ddpat.vtf",
+    "159:pattern": "materials/models/weapons/customization/paints/antiqued/aged.vtf",
+    "230:pattern": "materials/models/weapons/customization/paints/anodized_multi/ddpat_dense.vtf",
+    "278:pattern": "materials/models/weapons/customization/paints/hydrographic/craquelure.vtf",
+    "293:pattern": "materials/models/weapons/customization/paints/hydrographic/snakeskin.vtf",
+    "353:pattern": "materials/models/weapons/customization/paints/custom/workshop/liquescent.vtf",
+    "367:pattern": "materials/models/weapons/customization/paints/anodized_multi/nuclear_pattern.vtf",
+    "381:pattern": "materials/models/weapons/customization/paints/antiqued/workshop/167-miracle.vtf",
+    "399:pattern": "materials/models/weapons/customization/paints/anodized_multi/workshop/skull.vtf",
+    "437:pattern": "materials/models/weapons/customization/paints/anodized_multi/noise.vtf",
+    "479:pattern": "materials/models/weapons/customization/paints/antiqued/workshop/glock_flames_blue_green.vtf",
+    "495:pattern": "materials/models/weapons/customization/paints/gunsmith/workshop/glock18_wrathys.vtf",
+    "495:normal": "materials/models/weapons/customization/paints/gunsmith/workshop/glock18_wrathys_normal.vtf",
+    "532:pattern": "materials/models/weapons/customization/paints/gunsmith/workshop/glock18_award.vtf",
+    "532:normal": "materials/models/weapons/customization/paints/gunsmith/workshop/glock18_award_normal.vtf",
+    "586:pattern": "materials/models/weapons/customization/paints/custom/workshop/glock_wasteland_rebel.vtf",
+    "607:pattern": "materials/models/weapons/customization/paints/custom/workshop/glock18_weasel1j.vtf",
+    "623:pattern": "materials/models/weapons/customization/paints/antiqued/workshop/glock_dark_fall.vtf",
+    "680:pattern": "materials/models/weapons/customization/paints/custom/workshop/glock_indigo.vtf",
+    "694:pattern": "materials/models/weapons/customization/paints/anodized_air/workshop/glock_18_urban_moon_fever.vtf",
+    "713:pattern": "materials/models/weapons/customization/paints/gunsmith/workshop/glock_thunder_dust.vtf",
+    "713:normal": "materials/models/weapons/customization/paints/gunsmith/workshop/glock_thunder_dust_normal.vtf",
+    "732:pattern": "materials/models/weapons/customization/paints/hydrographic/island_leaf.vtf",
+    "789:pattern": "materials/models/weapons/customization/paints/anodized_multi/nuclear_skulls_02.vtf",
+    "799:pattern": "materials/models/weapons/customization/paints/anodized_air/vertigo.vtf",
+    "808:pattern": "materials/models/weapons/customization/paints/custom/workshop/glock18_corroden.vtf",
+    "918:pattern": "materials/models/weapons/customization/paints/custom/workshop/glock_hero.vtf",
+    "918:normal": "materials/models/weapons/customization/paints/custom/workshop/glock_hero_normal.vtf",
+    "957:pattern": "materials/models/weapons/customization/paints/custom/workshop/glock18_warmaiden.vtf",
+    "963:pattern": "materials/models/weapons/customization/paints/custom/workshop/glock_eyecontact.vtf",
+    "988:pattern": "materials/models/weapons/customization/paints/custom/workshop/glock_noir.vtf",
+    "988:normal": "materials/models/weapons/customization/paints/custom/workshop/glock_noir_normal.vtf",
+    "1016:pattern": "materials/models/weapons/customization/paints/custom/money.vtf",
+    "1039:pattern": "materials/models/weapons/customization/paints/gunsmith/workshop/glock_polymer.vtf",
+    "1039:normal": "materials/models/weapons/customization/paints/gunsmith/workshop/glock_polymer_normal.vtf",
+    "1079:pattern": "materials/models/weapons/customization/paints/spray/tire_tread.vtf",
+    "1100:pattern": "materials/models/weapons/customization/paints/custom/workshop/glock_snackattack.vtf",
+    "1100:normal": "materials/models/weapons/customization/paints/custom/workshop/glock_snackattack_normal.vtf",
+    "1119:pattern": "materials/models/weapons/customization/paints/anodized_multi/smoke2.vtf",
+    "1120:pattern": "materials/models/weapons/customization/paints/anodized_multi/smoke2.vtf",
+    "1121:pattern": "materials/models/weapons/customization/paints/anodized_multi/smoke2.vtf",
+    "1122:pattern": "materials/models/weapons/customization/paints/anodized_multi/smoke2.vtf",
+    "1123:pattern": "materials/models/weapons/customization/paints/anodized_multi/smoke2.vtf",
+    "1158:pattern": "materials/models/weapons/customization/paints/gunsmith/workshop/glock_elite_camo.vtf",
+    "1158:normal": "materials/models/weapons/customization/paints/gunsmith/workshop/glock_elite_camo_normal.vtf",
+    "1227:pattern": "materials/models/weapons/customization/paints/custom/workshop/glock_moon_rabbit.vtf",
+    "1240:pattern": "materials/models/weapons/customization/paints/custom/glock_ramzes.vtf",
+    "1240:normal": "materials/models/weapons/customization/paints/custom/glock_ramzes_normal.vtf",
+    "25:pattern": "materials/models/weapons/customization/paints/spray/camo_leaves.vtf",
+    "60:pattern": "materials/models/weapons/customization/paints/anodized_multi/zebra.vtf",
+    "183:pattern": "materials/models/weapons/customization/paints/hydrographic/camo_arctic.vtf",
+    "217:pattern": "materials/models/weapons/customization/paints/hydrographic/v_tiger.vtf",
+    "221:pattern": "materials/models/weapons/customization/paints/anodized_multi/electric.vtf",
+    "236:pattern": "materials/models/weapons/customization/paints/hydrographic/varicamo.vtf",
+    "277:pattern": "materials/models/weapons/customization/paints/antiqued/silver_usp.vtf",
+    "290:pattern": "materials/models/weapons/customization/paints/custom/workshop/usp-s_ct_elegant_update.vtf",
+    "313:pattern": "materials/models/weapons/customization/paints/custom/workshop/spitfire_usp.vtf",
+    "318:pattern": "materials/models/weapons/customization/paints/custom/usp-s_sandpapered.vtf",
+    "332:pattern": "materials/models/weapons/customization/paints/hydrographic/usp_solid_colors.vtf",
+    "339:pattern": "materials/models/weapons/customization/paints/custom/workshop/usp_kaiman.vtf",
+    "364:pattern": "materials/models/weapons/customization/paints/custom/luggage_usp-s.vtf",
+    "443:pattern": "materials/models/weapons/customization/paints/spray/labyrinth_basic.vtf",
+    "454:pattern": "materials/models/weapons/customization/paints/hydrographic/usp_solid.vtf",
+    "489:pattern": "materials/models/weapons/customization/paints/custom/workshop/usps_progressiv.vtf",
+    "504:pattern": "materials/models/weapons/customization/paints/custom/workshop/usp_kill_confirmed.vtf",
+    "540:pattern": "materials/models/weapons/customization/paints/gunsmith/workshop/usp_voltage.vtf",
+    "540:normal": "materials/models/weapons/customization/paints/gunsmith/workshop/usp_voltage_normal.vtf",
+    "637:pattern": "materials/models/weapons/customization/paints/custom/workshop/usp_cyrex.vtf",
+    "653:pattern": "materials/models/weapons/customization/paints/custom/workshop/usps_noir.vtf",
+    "657:pattern": "materials/models/weapons/customization/paints/custom/workshop/usps_blueprint.vtf",
+    "705:pattern": "materials/models/weapons/customization/paints/custom/workshop/usp_cut.vtf",
+    "796:pattern": "materials/models/weapons/customization/paints/spray/mesh_fabric.vtf",
+    "817:pattern": "materials/models/weapons/customization/paints/custom/workshop/usp_flashback.vtf",
+    "818:pattern": "materials/models/weapons/customization/paints/anodized_multi/ddpat.vtf",
+    "922:pattern": "materials/models/weapons/customization/paints/anodized_multi/iguana_skin.vtf",
+    "991:pattern": "materials/models/weapons/customization/paints/custom/workshop/usp_krokos.vtf",
+    "1027:pattern": "materials/models/weapons/customization/paints/anodized_multi/intelligence.vtf",
+    "1031:pattern": "materials/models/weapons/customization/paints/spray/ancient_pattern.vtf",
+    "1040:pattern": "materials/models/weapons/customization/paints/gunsmith/workshop/usps_hangedman.vtf",
+    "1102:pattern": "materials/models/weapons/customization/paints/custom/workshop/usp_black_lotus.vtf",
+    "1102:normal": "materials/models/weapons/customization/paints/custom/workshop/usp_black_lotus_normal.vtf",
+    "1136:pattern": "materials/models/weapons/customization/paints/custom/workshop/usp_to_hell.vtf",
+    "1142:pattern": "materials/models/weapons/customization/paints/custom/workshop/usp_printstream.vtf",
+    "1142:normal": "materials/models/weapons/customization/paints/custom/workshop/usp_printstream_normal.vtf",
+    "1253:pattern": "materials/models/weapons/customization/paints/gunsmith/usps_tactical_camo.vtf",
+    "1253:normal": "materials/models/weapons/customization/paints/gunsmith/usps_tactical_camo_normal.vtf",
+    "37:pattern": "materials/models/weapons/customization/paints/anodized_air/flamegraphic.vtf",
+    "61:pattern": "materials/models/weapons/customization/paints/anodized_air/vertigo.vtf",
+    "90:pattern": "materials/models/weapons/customization/paints/hydrographic/marbleized.vtf",
+    "185:pattern": "materials/models/weapons/customization/paints/anodized_multi/scales.vtf",
+    "231:pattern": "materials/models/weapons/customization/paints/anodized_multi/ddpat_dense.vtf",
+    "232:pattern": "materials/models/weapons/customization/paints/hydrographic/webs.vtf",
+    "237:pattern": "materials/models/weapons/customization/paints/hydrographic/varicamo.vtf",
+    "273:pattern": "materials/models/weapons/customization/paints/antiqued/etched_deagle.vtf",
+    "296:pattern": "materials/models/weapons/customization/paints/anodized_multi/crystallized.vtf",
+    "328:pattern": "materials/models/weapons/customization/paints/antiqued/handcannon.vtf",
+    "347:pattern": "materials/models/weapons/customization/paints/antiqued/pilot_deagle.vtf",
+    "351:pattern": "materials/models/weapons/customization/paints/custom/workshop/deagle_aureus.vtf",
+    "397:pattern": "materials/models/weapons/customization/paints/antiqued/workshop/deagle_naga.vtf",
+    "397:normal": "materials/models/weapons/customization/paints/antiqued/workshop/deagle_naga_normal.vtf",
+    "425:pattern": "materials/models/weapons/customization/paints/anodized_multi/workshop/bronze_flakes.vtf",
+    "468:pattern": "materials/models/weapons/customization/paints/anodized_multi/sea_storm.vtf",
+    "469:pattern": "materials/models/weapons/customization/paints/anodized_multi/sea_storm_blood.vtf",
+    "470:pattern": "materials/models/weapons/customization/paints/anodized_multi/sea_storm_shojo.vtf",
+    "509:pattern": "materials/models/weapons/customization/paints/antiqued/workshop/deagle_corinthian.vtf",
+    "527:pattern": "materials/models/weapons/customization/paints/antiqued/workshop/deserteagle_kumichodragon.vtf",
+    "603:pattern": "materials/models/weapons/customization/paints/antiqued/workshop/de_constable.vtf",
+    "603:normal": "materials/models/weapons/customization/paints/antiqued/workshop/de_constable_normal.vtf",
+    "645:pattern": "materials/models/weapons/customization/paints/custom/workshop/desert_eagle_corroden.vtf",
+    "711:pattern": "materials/models/weapons/customization/paints/gunsmith/workshop/deagle_aggressor.vtf",
+    "711:normal": "materials/models/weapons/customization/paints/gunsmith/workshop/deagle_aggressor_normal.vtf",
+    "757:pattern": "materials/models/weapons/customization/paints/anodized_multi/jormungandr.vtf",
+    "764:pattern": "materials/models/weapons/customization/paints/gunsmith/deagle_fennec.vtf",
+    "764:normal": "materials/models/weapons/customization/paints/gunsmith/deagle_fennec_normal.vtf",
+    "805:pattern": "materials/models/weapons/customization/paints/gunsmith/workshop/deagle_mecha.vtf",
+    "841:pattern": "materials/models/weapons/customization/paints/gunsmith/workshop/deagle_exo.vtf",
+    "841:normal": "materials/models/weapons/customization/paints/gunsmith/workshop/deagle_exo_normal.vtf",
+    "945:pattern": "materials/models/weapons/customization/paints/custom/workshop/deagle_replica.vtf",
+    "945:normal": "materials/models/weapons/customization/paints/custom/workshop/deagle_replica_normal.vtf",
+    "962:pattern": "materials/models/weapons/customization/paints/custom/workshop/deag_printstream.vtf",
+    "962:normal": "materials/models/weapons/customization/paints/custom/workshop/deag_printstream_normal.vtf",
+    "992:pattern": "materials/models/weapons/customization/paints/anodized_multi/numbers.vtf",
+    "1006:pattern": "materials/models/weapons/customization/paints/anodized_multi/heist.vtf",
+    "1050:pattern": "materials/models/weapons/customization/paints/custom/workshop/deag_trigger_discipline.vtf",
+    "1050:normal": "materials/models/weapons/customization/paints/custom/workshop/deag_trigger_discipline_normal.vtf",
+    "1056:pattern": "materials/models/weapons/customization/paints/spray/spacerace.vtf",
+    "1090:pattern": "materials/models/weapons/customization/paints/custom/workshop/deagle_kitch.vtf",
+    "30:pattern": "materials/models/weapons/customization/paints/spray/snake.vtf",
+    "51:pattern": "materials/models/weapons/customization/paints/anodized_multi/lightning_strike.vtf",
+    "174:pattern": "materials/models/weapons/customization/paints/hydrographic/blam.vtf",
+    "181:pattern": "materials/models/weapons/customization/paints/custom/favela_awp.vtf",
+    "212:pattern": "materials/models/weapons/customization/paints/anodized_multi/crumple.vtf",
+    "227:pattern": "materials/models/weapons/customization/paints/hydrographic/hive.vtf",
+    "251:pattern": "materials/models/weapons/customization/paints/hydrographic/snakeskin.vtf",
+    "259:pattern": "materials/models/weapons/customization/paints/custom/workshop/elegantredawpend.vtf",
+    "279:pattern": "materials/models/weapons/customization/paints/custom/workshop/zone9_awp.vtf",
+    "344:pattern": "materials/models/weapons/customization/paints/custom/dragon_awp.vtf",
+    "395:pattern": "materials/models/weapons/customization/paints/anodized_multi/workshop/glory_awp.vtf",
+    "424:pattern": "materials/models/weapons/customization/paints/antiqued/workshop/awp_twine.vtf",
+    "446:pattern": "materials/models/weapons/customization/paints/antiqued/medusa_awp.vtf",
+    "451:pattern": "materials/models/weapons/customization/paints/hydrographic/zodiac.vtf",
+    "475:pattern": "materials/models/weapons/customization/paints/custom/workshop/awp_hyper_beast.vtf",
+    "525:pattern": "materials/models/weapons/customization/paints/custom/workshop/awp_mastery.vtf",
+    "584:pattern": "materials/models/weapons/customization/paints/gunsmith/workshop/awp-phobos.vtf",
+    "584:normal": "materials/models/weapons/customization/paints/gunsmith/workshop/awp-phobos_normal.vtf",
+    "640:pattern": "materials/models/weapons/customization/paints/custom/workshop/awp_psychopath.vtf",
+    "662:pattern": "materials/models/weapons/customization/paints/custom/workshop/awp_hannya.vtf",
+    "691:pattern": "materials/models/weapons/customization/paints/gunsmith/workshop/awp_death.vtf",
+    "718:pattern": "materials/models/weapons/customization/paints/anodized_multi/workshop/awp_pawpaw.vtf",
+    "736:pattern": "materials/models/weapons/customization/paints/gunsmith/awp_enamel.vtf",
+    "736:normal": "materials/models/weapons/customization/paints/gunsmith/awp_enamel_normal.vtf",
+    "756:pattern": "materials/models/weapons/customization/paints/gunsmith/awp_gungnir.vtf",
+    "756:normal": "materials/models/weapons/customization/paints/gunsmith/awp_gungnir_normal.vtf",
+    "788:pattern": "materials/models/weapons/customization/paints/hydrographic/nuclear_skulls_02.vtf",
+    "803:pattern": "materials/models/weapons/customization/paints/custom/workshop/awp_neonoir.vtf",
+    "803:normal": "materials/models/weapons/customization/paints/custom/workshop/awp_neonoir_normal.vtf",
+    "819:pattern": "materials/models/weapons/customization/paints/gunsmith/awp_hydra.vtf",
+    "819:normal": "materials/models/weapons/customization/paints/gunsmith/awp_hydra_normal.vtf",
+    "838:pattern": "materials/models/weapons/customization/paints/custom/workshop/awp_viper.vtf",
+    "887:pattern": "materials/models/weapons/customization/paints/custom/workshop/awp_virus.vtf",
+    "887:normal": "materials/models/weapons/customization/paints/custom/workshop/awp_virus_normal.vtf",
+    "917:pattern": "materials/models/weapons/customization/paints/custom/workshop/awp_wildfire.vtf",
+    "917:normal": "materials/models/weapons/customization/paints/custom/workshop/awp_wildfire_normal.vtf",
+    "943:pattern": "materials/models/weapons/customization/paints/custom/workshop/awp_vein.vtf",
+    "975:pattern": "materials/models/weapons/customization/paints/gunsmith/workshop/awp_exoskeleton.vtf",
+    "975:normal": "materials/models/weapons/customization/paints/gunsmith/workshop/awp_exoskeleton_normal.vtf",
+    "1026:pattern": "materials/models/weapons/customization/paints/anodized_air/fade.vtf",
+    "1029:pattern": "materials/models/weapons/customization/paints/anodized_multi/tigers.vtf",
+    "1058:pattern": "materials/models/weapons/customization/paints/hydrographic/technowar.vtf",
+    "1144:pattern": "materials/models/weapons/customization/paints/custom/workshop/awp_chroma_pink.vtf",
+    "1222:pattern": "materials/models/weapons/customization/paints/gunsmith/workshop/awp_limbo_snake.vtf",
+    "1222:normal": "materials/models/weapons/customization/paints/gunsmith/workshop/awp_limbo_snake_normal.vtf",
+    "1239:pattern": "materials/models/weapons/customization/paints/gunsmith/awp_strone.vtf",
+    "1239:normal": "materials/models/weapons/customization/paints/gunsmith/awp_strone_normal.vtf"
+  },
+  "boundary": "Original indexed directory load and formatter arguments execute; host supplies snprintf ABI. All resulting paths are checked against original VPK directory and prior enumerated candidates. No original-client GPU comparison."
+}

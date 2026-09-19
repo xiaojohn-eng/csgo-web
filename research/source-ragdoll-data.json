@@ -1,0 +1,974 @@
+{
+  "t": {
+    "source": "models/player/tm_leet_varianta.phy",
+    "phyChecksum": "0f39613a",
+    "solidCount": 16,
+    "rootBone": "valvebiped.bip01_pelvis",
+    "totalMass": 250.0,
+    "summedPartMass": 249.999972,
+    "parts": [
+      {
+        "index": 0,
+        "bone": "ValveBiped.Bip01_Pelvis",
+        "mass": 29.425449,
+        "surfaceprop": "flesh",
+        "damping": 0.01,
+        "rotdamping": 10.0,
+        "inertia": 10.0,
+        "volume": 1087.563721
+      },
+      {
+        "index": 1,
+        "bone": "ValveBiped.Bip01_R_Thigh",
+        "mass": 13.802009,
+        "surfaceprop": "flesh",
+        "damping": 0.01,
+        "rotdamping": 4.0,
+        "inertia": 10.0,
+        "volume": 637.652283,
+        "parentBone": "ValveBiped.Bip01_Pelvis",
+        "massBias": 0.8
+      },
+      {
+        "index": 2,
+        "bone": "ValveBiped.Bip01_R_Calf",
+        "mass": 16.873325,
+        "surfaceprop": "flesh",
+        "damping": 0.01,
+        "rotdamping": 3.0,
+        "inertia": 10.0,
+        "volume": 519.697998,
+        "parentBone": "ValveBiped.Bip01_R_Thigh",
+        "massBias": 1.2
+      },
+      {
+        "index": 3,
+        "bone": "ValveBiped.Bip01_L_Thigh",
+        "mass": 13.802058,
+        "surfaceprop": "flesh",
+        "damping": 0.01,
+        "rotdamping": 4.0,
+        "inertia": 10.0,
+        "volume": 637.654541,
+        "parentBone": "ValveBiped.Bip01_Pelvis",
+        "massBias": 0.8
+      },
+      {
+        "index": 4,
+        "bone": "ValveBiped.Bip01_L_Calf",
+        "mass": 16.873335,
+        "surfaceprop": "flesh",
+        "damping": 0.01,
+        "rotdamping": 3.0,
+        "inertia": 10.0,
+        "volume": 519.698242,
+        "parentBone": "ValveBiped.Bip01_L_Thigh",
+        "massBias": 1.2
+      },
+      {
+        "index": 5,
+        "bone": "ValveBiped.Bip01_L_Foot",
+        "mass": 3.441794,
+        "surfaceprop": "flesh",
+        "damping": 0.01,
+        "rotdamping": 7.0,
+        "inertia": 10.0,
+        "volume": 169.611481,
+        "parentBone": "ValveBiped.Bip01_L_Calf",
+        "massBias": 0.75
+      },
+      {
+        "index": 6,
+        "bone": "ValveBiped.Bip01_Spine1",
+        "mass": 38.130276,
+        "surfaceprop": "flesh",
+        "damping": 0.01,
+        "rotdamping": 18.0,
+        "inertia": 10.0,
+        "volume": 1409.293823,
+        "parentBone": "ValveBiped.Bip01_Pelvis"
+      },
+      {
+        "index": 7,
+        "bone": "ValveBiped.Bip01_Spine2",
+        "mass": 62.520206,
+        "surfaceprop": "flesh",
+        "damping": 0.01,
+        "rotdamping": 12.0,
+        "inertia": 10.0,
+        "volume": 1444.215454,
+        "parentBone": "ValveBiped.Bip01_Spine1",
+        "massBias": 1.6
+      },
+      {
+        "index": 8,
+        "bone": "ValveBiped.Bip01_R_UpperArm",
+        "mass": 5.096545,
+        "surfaceprop": "flesh",
+        "damping": 0.01,
+        "rotdamping": 16.0,
+        "inertia": 10.0,
+        "volume": 235.460205,
+        "parentBone": "ValveBiped.Bip01_Spine2",
+        "massBias": 0.8
+      },
+      {
+        "index": 9,
+        "bone": "ValveBiped.Bip01_R_Forearm",
+        "mass": 7.304815,
+        "surfaceprop": "flesh",
+        "damping": 0.01,
+        "rotdamping": 4.0,
+        "inertia": 10.0,
+        "volume": 149.992065,
+        "parentBone": "ValveBiped.Bip01_R_UpperArm",
+        "massBias": 1.8
+      },
+      {
+        "index": 10,
+        "bone": "ValveBiped.Bip01_L_UpperArm",
+        "mass": 5.096541,
+        "surfaceprop": "flesh",
+        "damping": 0.01,
+        "rotdamping": 16.0,
+        "inertia": 10.0,
+        "volume": 235.459991,
+        "parentBone": "ValveBiped.Bip01_Spine2",
+        "massBias": 0.8
+      },
+      {
+        "index": 11,
+        "bone": "ValveBiped.Bip01_L_Forearm",
+        "mass": 7.304818,
+        "surfaceprop": "flesh",
+        "damping": 0.01,
+        "rotdamping": 4.0,
+        "inertia": 10.0,
+        "volume": 149.992157,
+        "parentBone": "ValveBiped.Bip01_L_UpperArm",
+        "massBias": 1.8
+      },
+      {
+        "index": 12,
+        "bone": "ValveBiped.Bip01_L_Hand",
+        "mass": 1.354462,
+        "surfaceprop": "flesh",
+        "damping": 0.01,
+        "rotdamping": 8.0,
+        "inertia": 10.0,
+        "volume": 83.434807,
+        "parentBone": "ValveBiped.Bip01_L_Forearm",
+        "massBias": 0.6
+      },
+      {
+        "index": 13,
+        "bone": "ValveBiped.Bip01_R_Hand",
+        "mass": 1.354463,
+        "surfaceprop": "flesh",
+        "damping": 0.01,
+        "rotdamping": 8.0,
+        "inertia": 10.0,
+        "volume": 83.434845,
+        "parentBone": "ValveBiped.Bip01_R_Forearm",
+        "massBias": 0.6
+      },
+      {
+        "index": 14,
+        "bone": "ValveBiped.Bip01_Head",
+        "mass": 24.178083,
+        "surfaceprop": "flesh",
+        "damping": 0.01,
+        "rotdamping": 10.0,
+        "inertia": 10.0,
+        "volume": 595.747498,
+        "parentBone": "ValveBiped.Bip01_Spine2",
+        "massBias": 1.5
+      },
+      {
+        "index": 15,
+        "bone": "ValveBiped.Bip01_R_Foot",
+        "mass": 3.441793,
+        "surfaceprop": "flesh",
+        "damping": 0.01,
+        "rotdamping": 7.0,
+        "inertia": 10.0,
+        "volume": 169.611435,
+        "parentBone": "ValveBiped.Bip01_R_Calf",
+        "massBias": 0.75
+      }
+    ],
+    "joints": [
+      {
+        "parent": 0,
+        "child": 1,
+        "x": [
+          -12.0,
+          12.0,
+          0.0
+        ],
+        "y": [
+          -28.0,
+          8.0,
+          0.0
+        ],
+        "z": [
+          -24.0,
+          60.0,
+          0.0
+        ]
+      },
+      {
+        "parent": 1,
+        "child": 2,
+        "x": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "y": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -90.0,
+          -15.0,
+          0.0
+        ]
+      },
+      {
+        "parent": 0,
+        "child": 3,
+        "x": [
+          -12.0,
+          12.0,
+          0.0
+        ],
+        "y": [
+          -28.0,
+          8.0,
+          0.0
+        ],
+        "z": [
+          -24.0,
+          60.0,
+          0.0
+        ]
+      },
+      {
+        "parent": 3,
+        "child": 4,
+        "x": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "y": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -90.0,
+          -15.0,
+          0.0
+        ]
+      },
+      {
+        "parent": 4,
+        "child": 5,
+        "x": [
+          -10.0,
+          22.0,
+          0.0
+        ],
+        "y": [
+          -15.0,
+          15.0,
+          0.0
+        ],
+        "z": [
+          -17.0,
+          24.0,
+          0.0
+        ]
+      },
+      {
+        "parent": 0,
+        "child": 6,
+        "x": [
+          -20.0,
+          20.0,
+          0.0
+        ],
+        "y": [
+          -10.0,
+          10.0,
+          0.0
+        ],
+        "z": [
+          -15.0,
+          30.0,
+          0.0
+        ]
+      },
+      {
+        "parent": 6,
+        "child": 7,
+        "x": [
+          -30.0,
+          30.0,
+          0.0
+        ],
+        "y": [
+          -16.0,
+          16.0,
+          0.0
+        ],
+        "z": [
+          -15.0,
+          20.0,
+          0.0
+        ]
+      },
+      {
+        "parent": 7,
+        "child": 8,
+        "x": [
+          -50.0,
+          40.0,
+          0.0
+        ],
+        "y": [
+          -26.0,
+          26.0,
+          0.0
+        ],
+        "z": [
+          -45.0,
+          15.0,
+          0.0
+        ]
+      },
+      {
+        "parent": 8,
+        "child": 9,
+        "x": [
+          -45.0,
+          45.0,
+          0.0
+        ],
+        "y": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -120.0,
+          -45.0,
+          0.0
+        ]
+      },
+      {
+        "parent": 7,
+        "child": 10,
+        "x": [
+          -40.0,
+          50.0,
+          0.0
+        ],
+        "y": [
+          -26.0,
+          26.0,
+          0.0
+        ],
+        "z": [
+          -40.0,
+          15.0,
+          0.0
+        ]
+      },
+      {
+        "parent": 10,
+        "child": 11,
+        "x": [
+          -45.0,
+          45.0,
+          0.0
+        ],
+        "y": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -120.0,
+          -45.0,
+          0.0
+        ]
+      },
+      {
+        "parent": 11,
+        "child": 12,
+        "x": [
+          -30.0,
+          37.0,
+          0.0
+        ],
+        "y": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -20.0,
+          35.0,
+          0.0
+        ]
+      },
+      {
+        "parent": 9,
+        "child": 13,
+        "x": [
+          -37.0,
+          30.0,
+          0.0
+        ],
+        "y": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -35.0,
+          20.0,
+          0.0
+        ]
+      },
+      {
+        "parent": 7,
+        "child": 14,
+        "x": [
+          -45.0,
+          45.0,
+          0.0
+        ],
+        "y": [
+          -30.0,
+          30.0,
+          0.0
+        ],
+        "z": [
+          -40.0,
+          20.0,
+          0.0
+        ]
+      },
+      {
+        "parent": 2,
+        "child": 15,
+        "x": [
+          -10.0,
+          22.0,
+          0.0
+        ],
+        "y": [
+          -19.0,
+          25.0,
+          0.0
+        ],
+        "z": [
+          -17.0,
+          24.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "ct": {
+    "source": "models/player/ctm_idf.phy",
+    "phyChecksum": "3be4fbeb",
+    "solidCount": 16,
+    "rootBone": "valvebiped.bip01_pelvis",
+    "totalMass": 250.0,
+    "summedPartMass": 249.999973,
+    "parts": [
+      {
+        "index": 0,
+        "bone": "ValveBiped.Bip01_Pelvis",
+        "mass": 29.425449,
+        "surfaceprop": "flesh",
+        "damping": 0.01,
+        "rotdamping": 10.0,
+        "inertia": 10.0,
+        "volume": 1087.563721
+      },
+      {
+        "index": 1,
+        "bone": "ValveBiped.Bip01_R_Thigh",
+        "mass": 13.802009,
+        "surfaceprop": "flesh",
+        "damping": 0.01,
+        "rotdamping": 4.0,
+        "inertia": 10.0,
+        "volume": 637.652283,
+        "parentBone": "ValveBiped.Bip01_Pelvis",
+        "massBias": 0.8
+      },
+      {
+        "index": 2,
+        "bone": "ValveBiped.Bip01_R_Calf",
+        "mass": 16.873325,
+        "surfaceprop": "flesh",
+        "damping": 0.01,
+        "rotdamping": 3.0,
+        "inertia": 10.0,
+        "volume": 519.697998,
+        "parentBone": "ValveBiped.Bip01_R_Thigh",
+        "massBias": 1.2
+      },
+      {
+        "index": 3,
+        "bone": "ValveBiped.Bip01_L_Thigh",
+        "mass": 13.802058,
+        "surfaceprop": "flesh",
+        "damping": 0.01,
+        "rotdamping": 4.0,
+        "inertia": 10.0,
+        "volume": 637.654541,
+        "parentBone": "ValveBiped.Bip01_Pelvis",
+        "massBias": 0.8
+      },
+      {
+        "index": 4,
+        "bone": "ValveBiped.Bip01_L_Calf",
+        "mass": 16.873335,
+        "surfaceprop": "flesh",
+        "damping": 0.01,
+        "rotdamping": 3.0,
+        "inertia": 10.0,
+        "volume": 519.698242,
+        "parentBone": "ValveBiped.Bip01_L_Thigh",
+        "massBias": 1.2
+      },
+      {
+        "index": 5,
+        "bone": "ValveBiped.Bip01_L_Foot",
+        "mass": 3.441794,
+        "surfaceprop": "flesh",
+        "damping": 0.01,
+        "rotdamping": 7.0,
+        "inertia": 10.0,
+        "volume": 169.611481,
+        "parentBone": "ValveBiped.Bip01_L_Calf",
+        "massBias": 0.75
+      },
+      {
+        "index": 6,
+        "bone": "ValveBiped.Bip01_Spine1",
+        "mass": 38.130276,
+        "surfaceprop": "flesh",
+        "damping": 0.01,
+        "rotdamping": 18.0,
+        "inertia": 10.0,
+        "volume": 1409.293823,
+        "parentBone": "ValveBiped.Bip01_Pelvis"
+      },
+      {
+        "index": 7,
+        "bone": "ValveBiped.Bip01_Spine2",
+        "mass": 62.520206,
+        "surfaceprop": "flesh",
+        "damping": 0.01,
+        "rotdamping": 12.0,
+        "inertia": 10.0,
+        "volume": 1444.215454,
+        "parentBone": "ValveBiped.Bip01_Spine1",
+        "massBias": 1.6
+      },
+      {
+        "index": 8,
+        "bone": "ValveBiped.Bip01_R_UpperArm",
+        "mass": 5.096545,
+        "surfaceprop": "flesh",
+        "damping": 0.01,
+        "rotdamping": 16.0,
+        "inertia": 10.0,
+        "volume": 235.460205,
+        "parentBone": "ValveBiped.Bip01_Spine2",
+        "massBias": 0.8
+      },
+      {
+        "index": 9,
+        "bone": "ValveBiped.Bip01_R_Forearm",
+        "mass": 7.304815,
+        "surfaceprop": "flesh",
+        "damping": 0.01,
+        "rotdamping": 4.0,
+        "inertia": 10.0,
+        "volume": 149.992065,
+        "parentBone": "ValveBiped.Bip01_R_UpperArm",
+        "massBias": 1.8
+      },
+      {
+        "index": 10,
+        "bone": "ValveBiped.Bip01_L_UpperArm",
+        "mass": 5.096541,
+        "surfaceprop": "flesh",
+        "damping": 0.01,
+        "rotdamping": 16.0,
+        "inertia": 10.0,
+        "volume": 235.459991,
+        "parentBone": "ValveBiped.Bip01_Spine2",
+        "massBias": 0.8
+      },
+      {
+        "index": 11,
+        "bone": "ValveBiped.Bip01_L_Forearm",
+        "mass": 7.304819,
+        "surfaceprop": "flesh",
+        "damping": 0.01,
+        "rotdamping": 4.0,
+        "inertia": 10.0,
+        "volume": 149.992157,
+        "parentBone": "ValveBiped.Bip01_L_UpperArm",
+        "massBias": 1.8
+      },
+      {
+        "index": 12,
+        "bone": "ValveBiped.Bip01_L_Hand",
+        "mass": 1.354462,
+        "surfaceprop": "flesh",
+        "damping": 0.01,
+        "rotdamping": 8.0,
+        "inertia": 10.0,
+        "volume": 83.434807,
+        "parentBone": "ValveBiped.Bip01_L_Forearm",
+        "massBias": 0.6
+      },
+      {
+        "index": 13,
+        "bone": "ValveBiped.Bip01_R_Hand",
+        "mass": 1.354463,
+        "surfaceprop": "flesh",
+        "damping": 0.01,
+        "rotdamping": 8.0,
+        "inertia": 10.0,
+        "volume": 83.434845,
+        "parentBone": "ValveBiped.Bip01_R_Forearm",
+        "massBias": 0.6
+      },
+      {
+        "index": 14,
+        "bone": "ValveBiped.Bip01_Head",
+        "mass": 24.178083,
+        "surfaceprop": "flesh",
+        "damping": 0.01,
+        "rotdamping": 10.0,
+        "inertia": 10.0,
+        "volume": 595.747498,
+        "parentBone": "ValveBiped.Bip01_Spine2",
+        "massBias": 1.5
+      },
+      {
+        "index": 15,
+        "bone": "ValveBiped.Bip01_R_Foot",
+        "mass": 3.441793,
+        "surfaceprop": "flesh",
+        "damping": 0.01,
+        "rotdamping": 7.0,
+        "inertia": 10.0,
+        "volume": 169.611435,
+        "parentBone": "ValveBiped.Bip01_R_Calf",
+        "massBias": 0.75
+      }
+    ],
+    "joints": [
+      {
+        "parent": 0,
+        "child": 1,
+        "x": [
+          -12.0,
+          12.0,
+          0.0
+        ],
+        "y": [
+          -28.0,
+          8.0,
+          0.0
+        ],
+        "z": [
+          -24.0,
+          60.0,
+          0.0
+        ]
+      },
+      {
+        "parent": 1,
+        "child": 2,
+        "x": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "y": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -90.0,
+          -15.0,
+          0.0
+        ]
+      },
+      {
+        "parent": 0,
+        "child": 3,
+        "x": [
+          -12.0,
+          12.0,
+          0.0
+        ],
+        "y": [
+          -28.0,
+          8.0,
+          0.0
+        ],
+        "z": [
+          -24.0,
+          60.0,
+          0.0
+        ]
+      },
+      {
+        "parent": 3,
+        "child": 4,
+        "x": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "y": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -90.0,
+          -15.0,
+          0.0
+        ]
+      },
+      {
+        "parent": 4,
+        "child": 5,
+        "x": [
+          -10.0,
+          22.0,
+          0.0
+        ],
+        "y": [
+          -15.0,
+          15.0,
+          0.0
+        ],
+        "z": [
+          -17.0,
+          24.0,
+          0.0
+        ]
+      },
+      {
+        "parent": 0,
+        "child": 6,
+        "x": [
+          -20.0,
+          20.0,
+          0.0
+        ],
+        "y": [
+          -10.0,
+          10.0,
+          0.0
+        ],
+        "z": [
+          -15.0,
+          30.0,
+          0.0
+        ]
+      },
+      {
+        "parent": 6,
+        "child": 7,
+        "x": [
+          -30.0,
+          30.0,
+          0.0
+        ],
+        "y": [
+          -16.0,
+          16.0,
+          0.0
+        ],
+        "z": [
+          -15.0,
+          20.0,
+          0.0
+        ]
+      },
+      {
+        "parent": 7,
+        "child": 8,
+        "x": [
+          -50.0,
+          40.0,
+          0.0
+        ],
+        "y": [
+          -26.0,
+          26.0,
+          0.0
+        ],
+        "z": [
+          -45.0,
+          15.0,
+          0.0
+        ]
+      },
+      {
+        "parent": 8,
+        "child": 9,
+        "x": [
+          -45.0,
+          45.0,
+          0.0
+        ],
+        "y": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -120.0,
+          -45.0,
+          0.0
+        ]
+      },
+      {
+        "parent": 7,
+        "child": 10,
+        "x": [
+          -40.0,
+          50.0,
+          0.0
+        ],
+        "y": [
+          -26.0,
+          26.0,
+          0.0
+        ],
+        "z": [
+          -40.0,
+          15.0,
+          0.0
+        ]
+      },
+      {
+        "parent": 10,
+        "child": 11,
+        "x": [
+          -45.0,
+          45.0,
+          0.0
+        ],
+        "y": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -120.0,
+          -45.0,
+          0.0
+        ]
+      },
+      {
+        "parent": 11,
+        "child": 12,
+        "x": [
+          -30.0,
+          37.0,
+          0.0
+        ],
+        "y": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -20.0,
+          35.0,
+          0.0
+        ]
+      },
+      {
+        "parent": 9,
+        "child": 13,
+        "x": [
+          -37.0,
+          30.0,
+          0.0
+        ],
+        "y": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -35.0,
+          20.0,
+          0.0
+        ]
+      },
+      {
+        "parent": 7,
+        "child": 14,
+        "x": [
+          -45.0,
+          45.0,
+          0.0
+        ],
+        "y": [
+          -30.0,
+          30.0,
+          0.0
+        ],
+        "z": [
+          -40.0,
+          20.0,
+          0.0
+        ]
+      },
+      {
+        "parent": 2,
+        "child": 15,
+        "x": [
+          -10.0,
+          22.0,
+          0.0
+        ],
+        "y": [
+          -19.0,
+          25.0,
+          0.0
+        ],
+        "z": [
+          -17.0,
+          24.0,
+          0.0
+        ]
+      }
+    ]
+  }
+}

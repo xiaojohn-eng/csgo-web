@@ -1,0 +1,16 @@
+[
+  {
+    "kind": "texture",
+    "name": "spark",
+    "path": "png/spark.png",
+    "bytes": 1167,
+    "sha256": "c192bcf04d2dbf25a4b3ae4dc9865b277a6c38de2c2ee9239ebc70a4b1f8fdc0"
+  },
+  {
+    "kind": "provenance",
+    "name": "provenance.json",
+    "path": "provenance.json",
+    "bytes": 2060,
+    "sha256": "b7ef2cbfb111dad7cad250dde2c0258127bbb641074ec7d2f036ab64d760565c"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "path": "graph.json",
+    "bytes": 542759,
+    "sha256": "9852cd9fa3df8181572503a3ad93f0a34d54ab324b5df2492d1b52939af0846a"
+  },
+  {
+    "path": "native-defaults.json",
+    "bytes": 268826,
+    "sha256": "5e80f824e5916d7fb0957640f82fc14ee5357c3da1d1749ca0209b6cb9fd695a"
+  },
+  {
+    "path": "sheets/fire_particle_4.bin",
+    "bytes": 5528,
+    "sha256": "e1d2ec27966a617c959f2b6d4638fd1db764b936410e7ff27fb23b6d236f23fd"
+  },
+  {
+    "path": "sheets/smoke1.bin",
+    "bytes": 1352,
+    "sha256": "7885ddac9568c99146e712876f28a0d1b9d676483158b46b1f2f23dda8ed8dac"
+  },
+  {
+    "path": "sheets/vistasmokev1_emods.bin",
+    "bytes": 17960,
+    "sha256": "ff902284d68de6fb897898256e42b8ba69f3a2e7a808233eec3fd539be60c4d1"
+  },
+  {
+    "path": "textures/fire_particle_4-frame-0.png",
+    "bytes": 179982,
+    "sha256": "cd2ca41707ad1e8ac2fcee2c0d4e17e7aa0c75d7d4f1f7f1614839dd4a07068a"
+  },
+  {
+    "path": "textures/muzzleflashx-frame-0.png",
+    "bytes": 15164,
+    "sha256": "4d5e2420b7babe39ebaa0b13b1cf88b9997ae021654c456045f8e16d60c1389f"
+  },
+  {
+    "path": "textures/particle_flare_004-frame-0.png",
+    "bytes": 78557,
+    "sha256": "93223fabf1640d0d68490473d4e0625ee509dfeaeb19c00aa13c454641c9c16c"
+  },
+  {
+    "path": "textures/particle_glow_04-frame-0.png",
+    "bytes": 15577,
+    "sha256": "00270c29dd2e04dd3cdaf344e33257cb05b38d58217e920a0a5e128ad6aa6d00"
+  },
+  {
+    "path": "textures/smoke1-frame-0.png",
+    "bytes": 174268,
+    "sha256": "64f1b83feb941ddc5203aa200963685c6c5e776ea798dc4ad3df1a4a4a40d413"
+  },
+  {
+    "path": "textures/spark-frame-0.png",
+    "bytes": 1167,
+    "sha256": "c192bcf04d2dbf25a4b3ae4dc9865b277a6c38de2c2ee9239ebc70a4b1f8fdc0"
+  },
+  {
+    "path": "textures/vistasmokev1_emods-frame-0.png",
+    "bytes": 1077397,
+    "sha256": "e4eae792fa784d92f6f33ffd4944653c7504cf47b1f4ea008c659542d659d55b"
+  }
+]

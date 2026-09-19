@@ -1,0 +1,279 @@
+{
+  "format": "source-camo-palette-v1",
+  "sources": {
+    "client64Sha256": "c47c64c38a066e02bdc006ac4db4fe6e9a318fdd896153accb7af9bd065b7fb5",
+    "binariesSearched": 18
+  },
+  "filler": {
+    "at": "0xf52b90",
+    "length": 1855,
+    "callers": [
+      "0xf533c8"
+    ],
+    "kitIndexField": "this + 0x18",
+    "recordLookup": "A map lookup in the client's item schema: the getter returns a table whose entries are 0x20 bytes with the key at +0x10 and the object at +0x18 (0xd16bc0).",
+    "blockCleared": {
+      "at": "this + 0x98",
+      "bytes": 2988
+    },
+    "scaleOut": {
+      "at": "this + 0xa00",
+      "value": 1.0
+    },
+    "reading": "The kit record's twelve bytes at +0xbc..+0xca are four RGB triples; each byte is widened to a float and stored at this + 0x9c4 + 12i + {0,4,8}, so the object holds four (r, g, b) triples in the record's own order and nothing is repacked."
+  },
+  "palette": [
+    {
+      "firstByte": "0xbc",
+      "channels": [
+        "0xbc",
+        "0xbd",
+        "0xbe"
+      ],
+      "strideInRecord": 4,
+      "to": [
+        "0x9c4",
+        "0x9c8",
+        "0x9cc"
+      ]
+    },
+    {
+      "firstByte": "0xc0",
+      "channels": [
+        "0xc0",
+        "0xc1",
+        "0xc2"
+      ],
+      "strideInRecord": 4,
+      "to": [
+        "0x9d0",
+        "0x9d4",
+        "0x9d8"
+      ]
+    },
+    {
+      "firstByte": "0xc4",
+      "channels": [
+        "0xc4",
+        "0xc5",
+        "0xc6"
+      ],
+      "strideInRecord": 4,
+      "to": [
+        "0x9dc",
+        "0x9e0",
+        "0x9e4"
+      ]
+    },
+    {
+      "firstByte": "0xc8",
+      "channels": [
+        "0xc8",
+        "0xc9",
+        "0xca"
+      ],
+      "strideInRecord": 4,
+      "to": [
+        "0x9e8",
+        "0x9ec",
+        "0x9f0"
+      ]
+    }
+  ],
+  "recordFieldsCopied": [
+    "+0xb8 -> this + 0x9bc",
+    "+0xe9 -> this + 0x9f8",
+    "+0xea - 1 -> this + 0x9f4",
+    "+0xeb -> this + 0x9fc",
+    "+0xec -> this + 0xa08",
+    "+0x118 -> this + 0xc4c"
+  ],
+  "uploader": {
+    "at": "0xf52040",
+    "length": 1733,
+    "variables": {
+      "$camocolor0": "0xf52120",
+      "$camocolor1": "0xf52180",
+      "$camocolor2": "0xf521e0",
+      "$camocolor3": "0xf52240"
+    },
+    "format": "[%f %f %f]",
+    "scaleAt": "0x1936e9c",
+    "scale": 0.003921568859368563,
+    "scaleReading": "The four bytes at 0x1936e9c are exactly the float32 nearest 1/255, so a byte 0..255 becomes 0..1 before it is formatted.",
+    "reading": "Each of the four variables is set to the \"[%f %f %f]\" rendering of one triple times that scale. The four colours are uploaded as four colours: no packing happens here."
+  },
+  "materialBlock": {
+    "generator": "0xf52040",
+    "shapes": "The generator builds one KeyValues for a finish. Two variables are set before the style dispatch, so every style gets them; then style 0 and style 1 have blocks of their own, and the block that writes the four palette variables is shared - both style blocks jump back into it - so **every** style ends up with the colours.",
+    "everyStyle": [
+      {
+        "variable": "$aotexture",
+        "from": "[rbx + 0x4a8]"
+      },
+      {
+        "variable": "$weartexture",
+        "from": "[rbx + 0xb3c]"
+      }
+    ],
+    "paletteBlock": [
+      {
+        "variable": "$camocolor0",
+        "from": "[%f %f %f]"
+      },
+      {
+        "variable": "$camocolor1",
+        "from": "[%f %f %f]"
+      },
+      {
+        "variable": "$camocolor2",
+        "from": "[%f %f %f]"
+      },
+      {
+        "variable": "$camocolor3",
+        "from": "[%f %f %f]"
+      },
+      {
+        "variable": "$wearprogress",
+        "from": "%f"
+      },
+      {
+        "variable": "$paintstyle",
+        "from": "%i"
+      },
+      {
+        "variable": "$patterntexturetransform",
+        "from": "scale %.2f %.2f translate %.2f %.2f rotate %.2f"
+      },
+      {
+        "variable": "$weartexturetransform",
+        "from": "scale %.2f %.2f translate %.2f %.2f rotate %.2f"
+      },
+      {
+        "variable": "$grungetexturetransform",
+        "from": "scale %.2f %.2f translate %.2f %.2f rotate %.2f"
+      },
+      {
+        "variable": "$phongalbedofactor",
+        "from": "%f"
+      },
+      {
+        "variable": "$phongintensity",
+        "from": "%f"
+      },
+      {
+        "variable": "$phongexponent",
+        "from": "%f"
+      }
+    ],
+    "style0": [
+      {
+        "variable": "$exponentmode",
+        "from": "0"
+      },
+      {
+        "variable": "$baseTexture",
+        "from": "[rbx + 0x98]"
+      },
+      {
+        "variable": "$maskstexture",
+        "from": "[rbx + 0x2a0]"
+      },
+      {
+        "variable": "$grungetexture",
+        "from": "[rbx + 0xa38]"
+      },
+      {
+        "variable": "$exptexture",
+        "from": "[rbx + 0x19c]"
+      },
+      {
+        "variable": "$painttexture",
+        "from": "[rbx + 0x6b0]"
+      },
+      {
+        "variable": "$postexture",
+        "from": "[rbx + 0x3a4]"
+      },
+      {
+        "variable": "$surfacetexture",
+        "from": "[rbx + 0x5ac]"
+      }
+    ],
+    "style1": [
+      {
+        "variable": "$exponentmode",
+        "from": "1"
+      },
+      {
+        "variable": "$exptexture",
+        "from": "[rbx + 0x19c]"
+      },
+      {
+        "variable": "$painttexture",
+        "from": "[rbx + 0x6b0]"
+      },
+      {
+        "variable": "$maskstexture",
+        "from": "[rbx + 0x2a0]"
+      }
+    ],
+    "styleSwitch": "The style-0 block switches on the kit's own style field at this + 0x9bc (copied from kit + 0xb8) and adds textures accordingly; the style-1 block tests the same field against the bitmask 0x2a4, which selects styles 2, 5, 7 and 9.",
+    "reading": "So which textures a finish needs is not a guess: the generator names each material variable and the field its value comes from, per style. The names are the material variables (`$maskstexture`, `$exptexture`, `$painttexture`, `$postexture`, `$surfacetexture`, `$grungetexture`, `$baseTexture`, `$aotexture`, `$weartexture`), and every style sets `$aotexture`, `$weartexture`, `$maskstexture` and the four colours. What is not read is how those variables reach the shader program's samplers and constants."
+  },
+  "textureFormats": {
+    "at": [
+      "0xf5301a",
+      "0xf53038",
+      "0xf5305f",
+      "0xf5307f",
+      "0xf5309f",
+      "0xf530bf",
+      "0xf530d9",
+      "0xf530f3"
+    ],
+    "formats": {
+      "0x98": "models/weapons/v_models/%s/%s.vtf",
+      "0x19c": "models/weapons/v_models/%s/%s_exponent.vtf",
+      "0x3a4": "models/weapons/customization/%s/%s_pos.vtf",
+      "0x4a8": "models/weapons/customization/%s/%s_ao.vtf",
+      "0x5ac": "models/weapons/customization/%s/%s_surface.vtf",
+      "0x2a0": "models/weapons/customization/%s/%s_masks.vtf",
+      "0xa38": "models/weapons/customization/shared/gun_grunge.vtf",
+      "0xb3c": "models/weapons/customization/shared/paint_wear.vtf"
+    },
+    "argumentsFrom": "this + 0x88, one buffer holding two strings 0x100 apart, kept by the CustomWeapon constructor from its third argument",
+    "class": {
+      "name": "CustomWeapon",
+      "size": 3152
+    },
+    "reading": "Each path is formatted into its own field, and six of the eight take the two `%s` from that buffer while the other two are shared constants. The pak ships `models/weapons/customization/<folder>/<folder>_ao.vtf` and the port already stages exactly that path for its `ao` role, which identifies both `%s` as the weapon's model folder. The two paths the port does not stage are the mask and the object-space position, and both ship for every weapon - so what the withheld finishes are missing is these two files, not an unread rule."
+  },
+  "carriers": {
+    "$camocolor0": [
+      "client.dll",
+      "client_client.so",
+      "client_panorama.dll",
+      "linux64/client_client.so",
+      "linux64/client_panorama_client.so"
+    ],
+    "$camocolor3": [
+      "client.dll",
+      "client_client.so",
+      "client_panorama.dll",
+      "linux64/client_client.so",
+      "linux64/client_panorama_client.so"
+    ],
+    "CCamoMaterialProxy": [
+      "client_client.so",
+      "linux64/client_client.so",
+      "linux64/client_panorama_client.so"
+    ],
+    "CCamoTextureRegen": [
+      "client_client.so",
+      "linux64/client_client.so",
+      "linux64/client_panorama_client.so"
+    ]
+  },
+  "boundary": "What is read is where a kit's four colours come from and what form they are uploaded in - four colours at kit + 0xbc, 0xc0, 0xc4 and 0xc8, three bytes each and four bytes apart, widened, scaled by exactly 1/255 and written as four \"[%f %f %f]\" strings. What is **not** read is the bridge from those four material variables to a shader's three palette constants: no shipped binary pairs `$camocolor*` with them by name, and the constants' CTAB entries carry no default, so which colour reaches which constant is still unknown. The port therefore keeps refusing the finishes whose program needs that mapping, and the earlier framing - that a \"four colours into three constants\" packing rule had to be measured - is withdrawn: on the client side there is no such rule. The kit record's other fields that the filler copies (+0xb8, +0xe9, +0xea, +0xeb, +0xec, +0x118) are recorded but not identified."
+}

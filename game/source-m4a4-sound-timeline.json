@@ -1,0 +1,46 @@
+{
+  "idle": [],
+  "fire": [],
+  "reload": [
+    {
+      "time": 0.36666667064030967,
+      "event": "Weapon_M4A1.Clipout"
+    },
+    {
+      "time": 1.1666666626930238,
+      "event": "Weapon_M4A1.Clipin"
+    },
+    {
+      "time": 1.8999999125798546,
+      "event": "Weapon_M4A1.ClipHit"
+    }
+  ],
+  "inspect": [
+    {
+      "time": 0.06666666436940431,
+      "event": "Weapon_M4A1.WeaponMove1"
+    },
+    {
+      "time": 3.0666668176651,
+      "event": "Weapon_M4A1.WeaponMove2"
+    },
+    {
+      "time": 3.8666665136814116,
+      "event": "Weapon_M4A1.WeaponMove3"
+    }
+  ],
+  "draw": [
+    {
+      "time": 0.0,
+      "event": "Weapon_M4A1.Draw"
+    },
+    {
+      "time": 0.33333334724108377,
+      "event": "Weapon_M4A1.BoltForward"
+    },
+    {
+      "time": 0.5666666666666667,
+      "event": "Weapon_M4A1.BoltBack"
+    }
+  ]
+}

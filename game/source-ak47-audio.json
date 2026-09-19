@@ -1,0 +1,137 @@
+[
+  {
+    "key": "source_ak47_boltpull",
+    "event": "weapon_ak47.boltpull",
+    "url": "/source/csgo-12426148/ak47-audio/weapons/ak47/ak47_boltpull.wav",
+    "sha256": "d6253073be8c071eb6112cdbf8212ac58f377dd7c5ee623c48b4b673dec5f36c",
+    "bytes": 28846,
+    "pitch": [
+      100.0,
+      105.0
+    ],
+    "volume": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "key": "source_ak47_clipin",
+    "event": "weapon_ak47.clipin",
+    "url": "/source/csgo-12426148/ak47-audio/weapons/ak47/ak47_clipin.wav",
+    "sha256": "bbf5d5429d709d422d2488189e7375e99437b88c7ef7d579e65edd2e4cdf825c",
+    "bytes": 15724,
+    "pitch": [
+      100.0,
+      105.0
+    ],
+    "volume": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "key": "source_ak47_clipout",
+    "event": "weapon_ak47.clipout",
+    "url": "/source/csgo-12426148/ak47-audio/weapons/ak47/ak47_clipout.wav",
+    "sha256": "17953c6c9e57d9c050169830c18cd46edc7e55467c7b690298f43c4a7e0d72ec",
+    "bytes": 16706,
+    "pitch": [
+      100.0,
+      105.0
+    ],
+    "volume": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "key": "source_ak47_draw",
+    "event": "weapon_ak47.draw",
+    "url": "/source/csgo-12426148/ak47-audio/weapons/ak47/ak47_draw.wav",
+    "sha256": "8118407efcf748c119e459d6dd87369fa714a36863dc11e735dc59c857376cd2",
+    "bytes": 39884,
+    "pitch": [
+      100,
+      100
+    ],
+    "volume": [
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "key": "source_ak47_shot",
+    "event": "weapon_ak47.single",
+    "url": "/source/csgo-12426148/ak47-audio/weapons/ak47/ak47_01.wav",
+    "sha256": "6fc24ceac0d1aa625467ef2405433031d1e8fb2eff08c93fd5d962b19a55fd55",
+    "bytes": 502676,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "key": "source_ak47_distant",
+    "event": "weapon_ak47.singledistant",
+    "url": "/source/csgo-12426148/ak47-audio/weapons/ak47/ak47_distant.wav",
+    "sha256": "1cf69849a57cd20f793aa4307243de8897a967acfa81f8aa2073dd8350c0cfed",
+    "bytes": 352920,
+    "pitch": [
+      100,
+      100
+    ],
+    "volume": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "key": "source_ak47_weaponmove1",
+    "event": "weapon_ak47.weaponmove1",
+    "url": "/source/csgo-12426148/ak47-audio/weapons/movement3.wav",
+    "sha256": "aae8b21d1899d44a587354ff953df83f252ff4090d1840b173936dc4f565e931",
+    "bytes": 70670,
+    "pitch": [
+      98.0,
+      101.0
+    ],
+    "volume": [
+      0.05,
+      0.1
+    ]
+  },
+  {
+    "key": "source_ak47_weaponmove2",
+    "event": "weapon_ak47.weaponmove2",
+    "url": "/source/csgo-12426148/ak47-audio/weapons/movement2.wav",
+    "sha256": "939f3232142544d2a914436429b1c2c118c77f0cb0667ff9d7d9a744080ac881",
+    "bytes": 51214,
+    "pitch": [
+      98.0,
+      101.0
+    ],
+    "volume": [
+      0.05,
+      0.1
+    ]
+  },
+  {
+    "key": "source_ak47_weaponmove3",
+    "event": "weapon_ak47.weaponmove3",
+    "url": "/source/csgo-12426148/ak47-audio/weapons/movement3.wav",
+    "sha256": "aae8b21d1899d44a587354ff953df83f252ff4090d1840b173936dc4f565e931",
+    "bytes": 70670,
+    "pitch": [
+      98.0,
+      101.0
+    ],
+    "volume": [
+      0.05,
+      0.1
+    ]
+  }
+]

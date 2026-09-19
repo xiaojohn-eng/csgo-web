@@ -1,0 +1,19 @@
+{
+  "format": "source-environment-probes-v1",
+  "manifestSha256": "58dc7e31adf0a7c2a76f3948e1020271d6ec7066f081a83dd95c653b9cc28706",
+  "manifestBytes": 13827,
+  "files": 21,
+  "probes": 16,
+  "ambientSamples": 22894,
+  "leaves": 3478,
+  "sourceBSP": {
+    "path": ".reference-assets/csgo-legacy/csgo/maps/de_dust2.bsp",
+    "sha256": "b91be410539fbbfc16300423f1e19c024f12addf1429c8cb2f72b53fe0fd6bcc",
+    "bytes": 325735952
+  },
+  "assetBytes": 2344904,
+  "outputDirectories": [
+    ".reference-assets/source-exports/fidelity-environment-20260913",
+    "public/source/csgo-12426148/environment-probes"
+  ]
+}

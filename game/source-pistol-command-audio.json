@@ -1,0 +1,32 @@
+[
+  {
+    "key": "source_pistol_command_mode",
+    "event": "weapon.autosemiautoswitch",
+    "url": "/source/csgo-12426148/pistol-command-audio/weapons/auto_semiauto_switch.wav",
+    "bytes": 29420,
+    "sha256": "3f6f830a03bc78519f1358ff0133fc5dc8e0fe92600cdc1b06f4206ba091a855",
+    "pitch": [
+      100,
+      100
+    ],
+    "volume": [
+      1,
+      1
+    ]
+  },
+  {
+    "key": "source_pistol_command_empty",
+    "event": "default.clipempty_pistol",
+    "url": "/source/csgo-12426148/pistol-command-audio/weapons/clipempty_pistol.wav",
+    "bytes": 11480,
+    "sha256": "4dc232228ec1a28956fb0e53203d16470e457bbda3266dce89cee02ebcae3768",
+    "pitch": [
+      100,
+      100
+    ],
+    "volume": [
+      1,
+      1
+    ]
+  }
+]

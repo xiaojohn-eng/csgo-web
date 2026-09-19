@@ -1,0 +1,202 @@
+{
+  "format": "source-rifle-fire-variants-v1",
+  "frames": "research/source-weapon-activities.json",
+  "script": "scripts/append-source-rifle-fire-variants.py",
+  "audit": ".reference-assets/source-exports/rifle-fire-variants-audit/audit.json",
+  "note": "Both rifles give ACT_VM_PRIMARYATTACK three equal-weight sequences, but the frozen exporter kept one absolute sequence per category. This appends the other two, decoded from the same ANI with the same verified FRAMEANIM adapter, with the gun frames the model carries, the arms bone-merge rule the exporter used (shared names follow the weapon, Bip01 keeps its rest), and the exporter's root conversion solved from the already-shipped variant rather than assumed.",
+  "boundary": "The append is byte-preserving for everything that already existed, and the rule is asserted against the shipped variant of the same activity on every one of that clip's channels. It reads no engine binary: how the engine chooses between the variants is taken from research/source-weapon-activities.json.",
+  "assets": [
+    {
+      "status": "passed-byte-preserving-rifle-fire-variant-append",
+      "asset": "ak47-draw",
+      "team": "t",
+      "weapon": "vandal",
+      "manifest": "provenance.json",
+      "previousGLBSHA256": "c5da61dcea3fbd81312efcad3edf45d4f7ec8ff891bd2cae3e317e34912f5d65",
+      "resultGLBSHA256": "2bb9a3be6f863a8cbe42820355c6c20c5e5fac3baf6b093eff1d6b68fe6cd1e4",
+      "previousBytes": 23795864,
+      "resultBytes": 23988880,
+      "existingBinaryBytes": 23517924,
+      "appended": [
+        {
+          "sequence": "ak47_fire2",
+          "clip_name": "fire__ak47_fire2",
+          "frames": 16,
+          "fps": 20.0,
+          "channels": 212
+        },
+        {
+          "sequence": "ak47_fire3",
+          "clip_name": "fire__ak47_fire3",
+          "frames": 16,
+          "fps": 20.0,
+          "channels": 212
+        }
+      ],
+      "validatedAgainst": "fire__ak47_fire1",
+      "comparedChannels": 212,
+      "maximumChannelDeviation": 9.5367431640625e-06,
+      "rootTranslationMaximumError": 0.0,
+      "rootRotationQuaternionXYZW": [
+        -0.707106781183404,
+        3.261520988474007e-09,
+        3.2591304293549693e-09,
+        0.7071067811896911
+      ],
+      "matchedBoneNames": 47,
+      "unmappedArmsBoneNames": [
+        "Bip01"
+      ],
+      "gunJoints": 58,
+      "armsJoints": 48,
+      "existingBinaryPrefixByteEqual": true,
+      "existingJsonStructuresUnchanged": true,
+      "existingAnimationsAndAccessorsAndBufferViewsEqual": true,
+      "alreadyAppended": true
+    },
+    {
+      "status": "passed-byte-preserving-rifle-fire-variant-append",
+      "asset": "ak47-ct-draw",
+      "team": "ct",
+      "weapon": "vandal",
+      "manifest": "manifest.json",
+      "previousGLBSHA256": "d7812ebb628f6c178c134b8ab53536ae312a0ba9de955ce3533f5b04af7c0bf1",
+      "resultGLBSHA256": "72230f3bdbde976eb63e92d6d87bd5be770efe8f244e806c8efc8afe55080844",
+      "previousBytes": 24566704,
+      "resultBytes": 24759716,
+      "existingBinaryBytes": 24289280,
+      "appended": [
+        {
+          "sequence": "ak47_fire2",
+          "clip_name": "fire__ak47_fire2",
+          "frames": 16,
+          "fps": 20.0,
+          "channels": 212
+        },
+        {
+          "sequence": "ak47_fire3",
+          "clip_name": "fire__ak47_fire3",
+          "frames": 16,
+          "fps": 20.0,
+          "channels": 212
+        }
+      ],
+      "validatedAgainst": "fire__ak47_fire1",
+      "comparedChannels": 212,
+      "maximumChannelDeviation": 9.5367431640625e-06,
+      "rootTranslationMaximumError": 0.0,
+      "rootRotationQuaternionXYZW": [
+        -0.707106781183404,
+        3.261520988474007e-09,
+        3.2591304293549693e-09,
+        0.7071067811896911
+      ],
+      "matchedBoneNames": 47,
+      "unmappedArmsBoneNames": [
+        "Bip01"
+      ],
+      "gunJoints": 58,
+      "armsJoints": 48,
+      "existingBinaryPrefixByteEqual": true,
+      "existingJsonStructuresUnchanged": true,
+      "existingAnimationsAndAccessorsAndBufferViewsEqual": true,
+      "alreadyAppended": true
+    },
+    {
+      "status": "passed-byte-preserving-rifle-fire-variant-append",
+      "asset": "m4a4",
+      "team": "ct",
+      "weapon": "m4a4",
+      "manifest": "manifest.json",
+      "previousGLBSHA256": "defbb97f7c799a22b2eab42419a480d1aaffe910ffd17639cdd166360375934a",
+      "resultGLBSHA256": "d65e99f748cd53f13af8497bc556a5c995082153ef7be38e277b84d8ad6e4f9d",
+      "previousBytes": 21516440,
+      "resultBytes": 21666008,
+      "existingBinaryBytes": 21241348,
+      "appended": [
+        {
+          "sequence": "shoot2",
+          "clip_name": "fire__shoot2",
+          "frames": 9,
+          "fps": 20.0,
+          "channels": 210
+        },
+        {
+          "sequence": "shoot3",
+          "clip_name": "fire__shoot3",
+          "frames": 9,
+          "fps": 20.0,
+          "channels": 210
+        }
+      ],
+      "validatedAgainst": "fire__shoot1",
+      "comparedChannels": 210,
+      "maximumChannelDeviation": 7.748603820800781e-06,
+      "rootTranslationMaximumError": 0.0,
+      "rootRotationQuaternionXYZW": [
+        -0.7071067811834042,
+        3.261520988474007e-09,
+        3.2591304293549693e-09,
+        0.7071067811896908
+      ],
+      "matchedBoneNames": 47,
+      "unmappedArmsBoneNames": [
+        "Bip01"
+      ],
+      "gunJoints": 57,
+      "armsJoints": 48,
+      "existingBinaryPrefixByteEqual": true,
+      "existingJsonStructuresUnchanged": true,
+      "existingAnimationsAndAccessorsAndBufferViewsEqual": true,
+      "alreadyAppended": true
+    },
+    {
+      "status": "passed-byte-preserving-rifle-fire-variant-append",
+      "asset": "m4a4-t",
+      "team": "t",
+      "weapon": "m4a4",
+      "manifest": "manifest.json",
+      "previousGLBSHA256": "eed443e06f447daf14ab374189db0a1acb46a6d8605cbb5c5943df35a2a0af28",
+      "resultGLBSHA256": "4312033d946dca9948bc0fdac1ee0b2fc198f9e887f2fd981e38f62c3f26745a",
+      "previousBytes": 20745600,
+      "resultBytes": 20895168,
+      "existingBinaryBytes": 20469992,
+      "appended": [
+        {
+          "sequence": "shoot2",
+          "clip_name": "fire__shoot2",
+          "frames": 9,
+          "fps": 20.0,
+          "channels": 210
+        },
+        {
+          "sequence": "shoot3",
+          "clip_name": "fire__shoot3",
+          "frames": 9,
+          "fps": 20.0,
+          "channels": 210
+        }
+      ],
+      "validatedAgainst": "fire__shoot1",
+      "comparedChannels": 210,
+      "maximumChannelDeviation": 7.748603820800781e-06,
+      "rootTranslationMaximumError": 0.0,
+      "rootRotationQuaternionXYZW": [
+        -0.7071067811834042,
+        3.261520988474007e-09,
+        3.2591304293549693e-09,
+        0.7071067811896908
+      ],
+      "matchedBoneNames": 47,
+      "unmappedArmsBoneNames": [
+        "Bip01"
+      ],
+      "gunJoints": 57,
+      "armsJoints": 48,
+      "existingBinaryPrefixByteEqual": true,
+      "existingJsonStructuresUnchanged": true,
+      "existingAnimationsAndAccessorsAndBufferViewsEqual": true,
+      "alreadyAppended": true
+    }
+  ]
+}

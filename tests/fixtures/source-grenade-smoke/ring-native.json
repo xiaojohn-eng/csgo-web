@@ -1,0 +1,140 @@
+{
+  "format": "source-particle-ring-native-v1",
+  "clientSHA256": "21d2d652a3b2e07c44fa0a3b638886744af9d24ba0c91e64f97a0d8afc43d4cb",
+  "initializer": "0xcec660",
+  "probe": "scripts/probe-source-child-initializers.py",
+  "scope": "Only the successful ring initializer positions are used. Earlier scalar calls in this synthetic batch failed, so this is not a full emission/RNG oracle.",
+  "inputOverride": "PARTICLE_RING_THICKNESS=0; original radius=74, even=true, CP identity",
+  "radius": 74,
+  "count": 16,
+  "positions": [
+    {
+      "index": 0,
+      "position": [
+        68.36708068847656,
+        28.318574905395508,
+        0.0
+      ]
+    },
+    {
+      "index": 1,
+      "position": [
+        52.32590103149414,
+        52.32590103149414,
+        0.0
+      ]
+    },
+    {
+      "index": 2,
+      "position": [
+        28.318572998046875,
+        68.36708068847656,
+        0.0
+      ]
+    },
+    {
+      "index": 3,
+      "position": [
+        -3.2346426905860426e-06,
+        74.0,
+        0.0
+      ]
+    },
+    {
+      "index": 4,
+      "position": [
+        -28.318580627441406,
+        68.36708068847656,
+        0.0
+      ]
+    },
+    {
+      "index": 5,
+      "position": [
+        -52.32590103149414,
+        52.32590103149414,
+        0.0
+      ]
+    },
+    {
+      "index": 6,
+      "position": [
+        -68.36709594726562,
+        28.318561553955078,
+        0.0
+      ]
+    },
+    {
+      "index": 7,
+      "position": [
+        -74.0,
+        -6.469285381172085e-06,
+        0.0
+      ]
+    },
+    {
+      "index": 8,
+      "position": [
+        -68.36708068847656,
+        -28.318572998046875,
+        0.0
+      ]
+    },
+    {
+      "index": 9,
+      "position": [
+        -52.32589340209961,
+        -52.32590866088867,
+        0.0
+      ]
+    },
+    {
+      "index": 10,
+      "position": [
+        -28.318552017211914,
+        -68.36709594726562,
+        0.0
+      ]
+    },
+    {
+      "index": 11,
+      "position": [
+        8.82441156591085e-07,
+        -74.0,
+        0.0
+      ]
+    },
+    {
+      "index": 12,
+      "position": [
+        28.318586349487305,
+        -68.36708068847656,
+        0.0
+      ]
+    },
+    {
+      "index": 13,
+      "position": [
+        52.32592010498047,
+        -52.32588195800781,
+        0.0
+      ]
+    },
+    {
+      "index": 14,
+      "position": [
+        68.3670883178711,
+        -28.318572998046875,
+        0.0
+      ]
+    },
+    {
+      "index": 15,
+      "position": [
+        74.0,
+        1.293857076234417e-05,
+        0.0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,842 @@
+{
+  "vandal": {
+    "model": "models/weapons/v_rif_ak47.mdl",
+    "present": true,
+    "sequences": [
+      {
+        "index": 0,
+        "name": "ak47_idle",
+        "activity": -1,
+        "activityName": "ACT_VM_IDLE",
+        "activityWeight": 1,
+        "flags": 1,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 1,
+        "name": "ak47_fire1",
+        "activity": -1,
+        "activityName": "ACT_VM_PRIMARYATTACK",
+        "activityWeight": 1,
+        "flags": 2,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 2,
+        "name": "ak47_fire2",
+        "activity": -1,
+        "activityName": "ACT_VM_PRIMARYATTACK",
+        "activityWeight": 1,
+        "flags": 2,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 3,
+        "name": "ak47_fire3",
+        "activity": -1,
+        "activityName": "ACT_VM_PRIMARYATTACK",
+        "activityWeight": 1,
+        "flags": 2,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 4,
+        "name": "ak47_draw",
+        "activity": -1,
+        "activityName": "ACT_VM_DRAW",
+        "activityWeight": 1,
+        "flags": 2,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 5,
+        "name": "ak47_reload",
+        "activity": -1,
+        "activityName": "ACT_VM_RELOAD",
+        "activityWeight": 1,
+        "flags": 0,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 6,
+        "name": "lookat01",
+        "activity": -1,
+        "activityName": "",
+        "activityWeight": 0,
+        "flags": 0,
+        "blendCount": 1,
+        "fadeIn": 0.30000001192092896,
+        "fadeOut": 0.30000001192092896
+      },
+      {
+        "index": 7,
+        "name": "lookat01_prepare",
+        "activity": -1,
+        "activityName": "",
+        "activityWeight": 0,
+        "flags": 0,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 8,
+        "name": "lookat01_loop",
+        "activity": -1,
+        "activityName": "",
+        "activityWeight": 0,
+        "flags": 0,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      }
+    ],
+    "auditPath": ".reference-assets/source-exports/ak47/audit.json",
+    "fireVariants": [
+      "ak47_fire1",
+      "ak47_fire2",
+      "ak47_fire3"
+    ],
+    "fireWeights": [
+      1,
+      1,
+      1
+    ],
+    "fireWeightTotal": 3,
+    "fireWeightsAllEqual": true,
+    "fireVariantCount": 3
+  },
+  "m4a4": {
+    "model": "models/weapons/v_rif_m4a1.mdl",
+    "present": true,
+    "sequences": [
+      {
+        "index": 0,
+        "name": "idle",
+        "activity": -1,
+        "activityName": "ACT_VM_IDLE",
+        "activityWeight": 1,
+        "flags": 2,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 1,
+        "name": "shoot1",
+        "activity": -1,
+        "activityName": "ACT_VM_PRIMARYATTACK",
+        "activityWeight": 1,
+        "flags": 2,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 2,
+        "name": "shoot2",
+        "activity": -1,
+        "activityName": "ACT_VM_PRIMARYATTACK",
+        "activityWeight": 1,
+        "flags": 2,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 3,
+        "name": "shoot3",
+        "activity": -1,
+        "activityName": "ACT_VM_PRIMARYATTACK",
+        "activityWeight": 1,
+        "flags": 2,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 4,
+        "name": "reload",
+        "activity": -1,
+        "activityName": "ACT_VM_RELOAD",
+        "activityWeight": 5,
+        "flags": 2,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 5,
+        "name": "draw",
+        "activity": -1,
+        "activityName": "ACT_VM_DRAW",
+        "activityWeight": 1,
+        "flags": 2,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 6,
+        "name": "lookat01",
+        "activity": -1,
+        "activityName": "",
+        "activityWeight": 0,
+        "flags": 0,
+        "blendCount": 1,
+        "fadeIn": 0.30000001192092896,
+        "fadeOut": 0.30000001192092896
+      },
+      {
+        "index": 7,
+        "name": "lookat01_prepare",
+        "activity": -1,
+        "activityName": "",
+        "activityWeight": 0,
+        "flags": 0,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 8,
+        "name": "lookat01_loop",
+        "activity": -1,
+        "activityName": "",
+        "activityWeight": 0,
+        "flags": 0,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      }
+    ],
+    "auditPath": ".reference-assets/source-exports/m4a4/audit.json",
+    "fireVariants": [
+      "shoot1",
+      "shoot2",
+      "shoot3"
+    ],
+    "fireWeights": [
+      1,
+      1,
+      1
+    ],
+    "fireWeightTotal": 3,
+    "fireWeightsAllEqual": true,
+    "fireVariantCount": 3
+  },
+  "glock": {
+    "model": "models/weapons/v_pist_glock18.mdl",
+    "present": true,
+    "sequences": [
+      {
+        "index": 0,
+        "name": "glock_idle",
+        "activity": -1,
+        "activityName": "ACT_VM_IDLE",
+        "activityWeight": 1,
+        "flags": 2,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 1,
+        "name": "glock_firesingle",
+        "activity": -1,
+        "activityName": "ACT_VM_PRIMARYATTACK",
+        "activityWeight": 1,
+        "flags": 2,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 2,
+        "name": "glock_firelast",
+        "activity": -1,
+        "activityName": "ACT_VM_DRYFIRE",
+        "activityWeight": 1,
+        "flags": 2,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 3,
+        "name": "glock_draw",
+        "activity": -1,
+        "activityName": "ACT_VM_DRAW",
+        "activityWeight": 1,
+        "flags": 2,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 4,
+        "name": "glock_reload",
+        "activity": -1,
+        "activityName": "ACT_VM_RELOAD",
+        "activityWeight": 1,
+        "flags": 2,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 5,
+        "name": "lookat01",
+        "activity": -1,
+        "activityName": "",
+        "activityWeight": 0,
+        "flags": 0,
+        "blendCount": 1,
+        "fadeIn": 0.30000001192092896,
+        "fadeOut": 0.30000001192092896
+      }
+    ],
+    "auditPath": ".reference-assets/source-exports/pistol-candidates/glock-ct/audit.json",
+    "fireVariants": [
+      "glock_firesingle"
+    ],
+    "fireWeights": [
+      1
+    ],
+    "fireWeightTotal": 1,
+    "fireWeightsAllEqual": true,
+    "fireVariantCount": 1
+  },
+  "usp": {
+    "model": "models/weapons/v_pist_223.mdl",
+    "present": true,
+    "sequences": [
+      {
+        "index": 0,
+        "name": "idle",
+        "activity": -1,
+        "activityName": "ACT_VM_IDLE",
+        "activityWeight": 1,
+        "flags": 0,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 1,
+        "name": "attach",
+        "activity": -1,
+        "activityName": "ACT_VM_ATTACH_SILENCER",
+        "activityWeight": 1,
+        "flags": 0,
+        "blendCount": 1,
+        "fadeIn": 0.30000001192092896,
+        "fadeOut": 0.30000001192092896
+      },
+      {
+        "index": 2,
+        "name": "detach",
+        "activity": -1,
+        "activityName": "ACT_VM_DETACH_SILENCER",
+        "activityWeight": 1,
+        "flags": 0,
+        "blendCount": 1,
+        "fadeIn": 0.30000001192092896,
+        "fadeOut": 0.30000001192092896
+      },
+      {
+        "index": 3,
+        "name": "shoot1",
+        "activity": -1,
+        "activityName": "ACT_VM_PRIMARYATTACK",
+        "activityWeight": 1,
+        "flags": 2,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 4,
+        "name": "shoot2",
+        "activity": -1,
+        "activityName": "ACT_VM_PRIMARYATTACK",
+        "activityWeight": 1,
+        "flags": 2,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 5,
+        "name": "shoot3",
+        "activity": -1,
+        "activityName": "ACT_VM_PRIMARYATTACK",
+        "activityWeight": 1,
+        "flags": 2,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 6,
+        "name": "shoot_empty",
+        "activity": -1,
+        "activityName": "ACT_VM_DRYFIRE",
+        "activityWeight": 1,
+        "flags": 0,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 7,
+        "name": "reload",
+        "activity": -1,
+        "activityName": "ACT_VM_RELOAD",
+        "activityWeight": 1,
+        "flags": 0,
+        "blendCount": 1,
+        "fadeIn": 0.0,
+        "fadeOut": 0.30000001192092896
+      },
+      {
+        "index": 8,
+        "name": "draw",
+        "activity": -1,
+        "activityName": "ACT_VM_DRAW_SILENCED",
+        "activityWeight": 1,
+        "flags": 2,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 9,
+        "name": "draw_silenced",
+        "activity": -1,
+        "activityName": "ACT_VM_DRAW",
+        "activityWeight": 1,
+        "flags": 2,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 10,
+        "name": "lookat01",
+        "activity": -1,
+        "activityName": "",
+        "activityWeight": 0,
+        "flags": 0,
+        "blendCount": 1,
+        "fadeIn": 0.30000001192092896,
+        "fadeOut": 0.30000001192092896
+      }
+    ],
+    "auditPath": ".reference-assets/source-exports/pistol-candidates/usp-ct/audit.json",
+    "fireVariants": [
+      "shoot1",
+      "shoot2",
+      "shoot3"
+    ],
+    "fireWeights": [
+      1,
+      1,
+      1
+    ],
+    "fireWeightTotal": 3,
+    "fireWeightsAllEqual": true,
+    "fireVariantCount": 3
+  },
+  "deagle": {
+    "model": "models/weapons/v_pist_deagle.mdl",
+    "present": true,
+    "sequences": [
+      {
+        "index": 0,
+        "name": "idle1",
+        "activity": -1,
+        "activityName": "ACT_VM_IDLE",
+        "activityWeight": 1,
+        "flags": 0,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 1,
+        "name": "shoot1",
+        "activity": -1,
+        "activityName": "ACT_VM_PRIMARYATTACK",
+        "activityWeight": 1,
+        "flags": 2,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 2,
+        "name": "shoot2",
+        "activity": -1,
+        "activityName": "ACT_VM_PRIMARYATTACK",
+        "activityWeight": 1,
+        "flags": 2,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 3,
+        "name": "shoot3",
+        "activity": -1,
+        "activityName": "ACT_VM_PRIMARYATTACK",
+        "activityWeight": 1,
+        "flags": 2,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 4,
+        "name": "shoot_empty",
+        "activity": -1,
+        "activityName": "ACT_VM_DRYFIRE",
+        "activityWeight": 1,
+        "flags": 2,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 5,
+        "name": "reload",
+        "activity": -1,
+        "activityName": "ACT_VM_RELOAD",
+        "activityWeight": 1,
+        "flags": 0,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 6,
+        "name": "draw",
+        "activity": -1,
+        "activityName": "ACT_VM_DRAW",
+        "activityWeight": 1,
+        "flags": 2,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 7,
+        "name": "lookat01",
+        "activity": -1,
+        "activityName": "ACT_VM_IDLE_LOWERED",
+        "activityWeight": 10,
+        "flags": 0,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 8,
+        "name": "lookat02",
+        "activity": -1,
+        "activityName": "ACT_VM_IDLE_LOWERED",
+        "activityWeight": 1,
+        "flags": 0,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      }
+    ],
+    "auditPath": ".reference-assets/source-exports/deagle-candidates/deagle-ct/audit.json",
+    "fireVariants": [
+      "shoot1",
+      "shoot2",
+      "shoot3"
+    ],
+    "fireWeights": [
+      1,
+      1,
+      1
+    ],
+    "fireWeightTotal": 3,
+    "fireWeightsAllEqual": true,
+    "fireVariantCount": 3
+  },
+  "awp": {
+    "model": "models/weapons/v_snip_awp.mdl",
+    "present": true,
+    "sequences": [
+      {
+        "index": 0,
+        "name": "awp_idle",
+        "activity": -1,
+        "activityName": "ACT_VM_IDLE",
+        "activityWeight": 1,
+        "flags": 0,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 1,
+        "name": "awp_fire",
+        "activity": -1,
+        "activityName": "ACT_VM_PRIMARYATTACK",
+        "activityWeight": 1,
+        "flags": 2,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 2,
+        "name": "awp_draw",
+        "activity": -1,
+        "activityName": "ACT_VM_DRAW",
+        "activityWeight": 1,
+        "flags": 2,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 3,
+        "name": "awp_reload",
+        "activity": -1,
+        "activityName": "ACT_VM_RELOAD",
+        "activityWeight": 1,
+        "flags": 2,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 4,
+        "name": "lookat01",
+        "activity": -1,
+        "activityName": "",
+        "activityWeight": 0,
+        "flags": 0,
+        "blendCount": 1,
+        "fadeIn": 0.30000001192092896,
+        "fadeOut": 0.30000001192092896
+      },
+      {
+        "index": 5,
+        "name": "lookat01_prepare",
+        "activity": -1,
+        "activityName": "",
+        "activityWeight": 0,
+        "flags": 0,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      },
+      {
+        "index": 6,
+        "name": "lookat01_loop",
+        "activity": -1,
+        "activityName": "",
+        "activityWeight": 0,
+        "flags": 0,
+        "blendCount": 1,
+        "fadeIn": 0.20000000298023224,
+        "fadeOut": 0.20000000298023224
+      }
+    ],
+    "auditPath": ".reference-assets/source-exports/awp-candidates/awp-ct/audit.json",
+    "fireVariants": [
+      "awp_fire"
+    ],
+    "fireWeights": [
+      1
+    ],
+    "fireWeightTotal": 1,
+    "fireWeightsAllEqual": true,
+    "fireVariantCount": 1
+  },
+  "auditCrossCheck": [
+    {
+      "weapon": "vandal",
+      "compared": true,
+      "audit": ".reference-assets/source-exports/ak47/audit.json",
+      "matches": true,
+      "auditNames": [
+        "ak47_idle",
+        "ak47_fire1",
+        "ak47_fire2",
+        "ak47_fire3",
+        "ak47_draw",
+        "ak47_reload",
+        "lookat01",
+        "lookat01_prepare",
+        "lookat01_loop"
+      ],
+      "modelNames": [
+        "ak47_idle",
+        "ak47_fire1",
+        "ak47_fire2",
+        "ak47_fire3",
+        "ak47_draw",
+        "ak47_reload",
+        "lookat01",
+        "lookat01_prepare",
+        "lookat01_loop"
+      ]
+    },
+    {
+      "weapon": "m4a4",
+      "compared": true,
+      "audit": ".reference-assets/source-exports/m4a4/audit.json",
+      "matches": true,
+      "auditNames": [
+        "idle",
+        "shoot1",
+        "shoot2",
+        "shoot3",
+        "reload",
+        "draw",
+        "lookat01",
+        "lookat01_prepare",
+        "lookat01_loop"
+      ],
+      "modelNames": [
+        "idle",
+        "shoot1",
+        "shoot2",
+        "shoot3",
+        "reload",
+        "draw",
+        "lookat01",
+        "lookat01_prepare",
+        "lookat01_loop"
+      ]
+    },
+    {
+      "weapon": "glock",
+      "compared": true,
+      "audit": ".reference-assets/source-exports/pistol-candidates/glock-ct/audit.json",
+      "matches": true,
+      "auditNames": [
+        "glock_idle",
+        "glock_firesingle",
+        "glock_firelast",
+        "glock_draw",
+        "glock_reload",
+        "lookat01"
+      ],
+      "modelNames": [
+        "glock_idle",
+        "glock_firesingle",
+        "glock_firelast",
+        "glock_draw",
+        "glock_reload",
+        "lookat01"
+      ]
+    },
+    {
+      "weapon": "usp",
+      "compared": true,
+      "audit": ".reference-assets/source-exports/pistol-candidates/usp-ct/audit.json",
+      "matches": true,
+      "auditNames": [
+        "idle",
+        "attach",
+        "detach",
+        "shoot1",
+        "shoot2",
+        "shoot3",
+        "shoot_empty",
+        "reload",
+        "draw",
+        "draw_silenced",
+        "lookat01"
+      ],
+      "modelNames": [
+        "idle",
+        "attach",
+        "detach",
+        "shoot1",
+        "shoot2",
+        "shoot3",
+        "shoot_empty",
+        "reload",
+        "draw",
+        "draw_silenced",
+        "lookat01"
+      ]
+    },
+    {
+      "weapon": "deagle",
+      "compared": true,
+      "audit": ".reference-assets/source-exports/deagle-candidates/deagle-ct/audit.json",
+      "matches": true,
+      "auditNames": [
+        "idle1",
+        "shoot1",
+        "shoot2",
+        "shoot3",
+        "shoot_empty",
+        "reload",
+        "draw",
+        "lookat01",
+        "lookat02"
+      ],
+      "modelNames": [
+        "idle1",
+        "shoot1",
+        "shoot2",
+        "shoot3",
+        "shoot_empty",
+        "reload",
+        "draw",
+        "lookat01",
+        "lookat02"
+      ]
+    },
+    {
+      "weapon": "awp",
+      "compared": true,
+      "audit": ".reference-assets/source-exports/awp-candidates/awp-ct/audit.json",
+      "matches": true,
+      "auditNames": [
+        "awp_idle",
+        "awp_fire",
+        "awp_draw",
+        "awp_reload",
+        "lookat01",
+        "lookat01_prepare",
+        "lookat01_loop"
+      ],
+      "modelNames": [
+        "awp_idle",
+        "awp_fire",
+        "awp_draw",
+        "awp_reload",
+        "lookat01",
+        "lookat01_prepare",
+        "lookat01_loop"
+      ]
+    }
+  ],
+  "format": "source-weapon-activities-v1",
+  "note": "Sequences are read with the same SourceIO reader this repository uses for player models. `activity` is the model's raw field; the activity a shot matches is the model's own activity *name*, which is what the audits and the port already key on. The weights are the model's `actweight`.",
+  "boundary": "This reads which variants exist and what each weighs. It does not measure the engine's draw itself, so whether the choice avoids repeating the previous variant is not decided here."
+}

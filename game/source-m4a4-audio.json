@@ -1,0 +1,182 @@
+[
+  {
+    "key": "source_m4a4_0",
+    "event": "weapon_m4a1.weaponmove3",
+    "url": "/source/csgo-12426148/m4a4/sounds/weapons/movement3.wav",
+    "sha256": "aae8b21d1899d44a587354ff953df83f252ff4090d1840b173936dc4f565e931",
+    "bytes": 70670,
+    "pitch": [
+      98.0,
+      101.0
+    ],
+    "volume": [
+      0.05,
+      0.1
+    ]
+  },
+  {
+    "key": "source_m4a4_1",
+    "event": "weapon_m4a1.weaponmove2",
+    "url": "/source/csgo-12426148/m4a4/sounds/weapons/movement2.wav",
+    "sha256": "939f3232142544d2a914436429b1c2c118c77f0cb0667ff9d7d9a744080ac881",
+    "bytes": 51214,
+    "pitch": [
+      98.0,
+      101.0
+    ],
+    "volume": [
+      0.05,
+      0.1
+    ]
+  },
+  {
+    "key": "source_m4a4_2",
+    "event": "weapon_m4a1.weaponmove1",
+    "url": "/source/csgo-12426148/m4a4/sounds/weapons/movement1.wav",
+    "sha256": "999130b5319c838ccc9cbdf342b3e3f95175b9e56aa631af04ef8632bc2b1840",
+    "bytes": 48398,
+    "pitch": [
+      98.0,
+      101.0
+    ],
+    "volume": [
+      0.05,
+      0.1
+    ]
+  },
+  {
+    "key": "source_m4a4_3",
+    "event": "weapon_m4a1.single",
+    "url": "/source/csgo-12426148/m4a4/sounds/weapons/m4a1/m4a1_01.wav",
+    "sha256": "adc4579be17be59372a15bb63b01b3afe712418333050bd95616c6a2bd43fafc",
+    "bytes": 563188,
+    "pitch": [
+      120.0,
+      120.0
+    ],
+    "volume": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "key": "source_m4a4_4",
+    "event": "weapon_m4a1.single",
+    "url": "/source/csgo-12426148/m4a4/sounds/weapons/m4a1/m4a1_02.wav",
+    "sha256": "50f0c8d50ce3c3075fd7fe865f19b90ae45353d0aa20d688e8b95fde365fbaf1",
+    "bytes": 328196,
+    "pitch": [
+      120.0,
+      120.0
+    ],
+    "volume": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "key": "source_m4a4_5",
+    "event": "weapon_m4a4.singledistant",
+    "url": "/source/csgo-12426148/m4a4/sounds/weapons/m4a1/m4a1_distant_01.wav",
+    "sha256": "a61fe5527179b5e39b3413ed0897cb38418d43cc8a2d3ab9c728fabf1518a8f8",
+    "bytes": 325006,
+    "pitch": [
+      100,
+      100
+    ],
+    "volume": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "key": "source_m4a4_6",
+    "event": "weapon_m4a1.draw",
+    "url": "/source/csgo-12426148/m4a4/sounds/weapons/m4a1/m4a1_draw.wav",
+    "sha256": "f8a54f39f8efd71d8ef7f5703ec99fe7e439f0b8dcb3c1375fc382cfa950cec9",
+    "bytes": 90312,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "key": "source_m4a4_7",
+    "event": "weapon_m4a1.clipout",
+    "url": "/source/csgo-12426148/m4a4/sounds/weapons/m4a1/m4a1_clipout.wav",
+    "sha256": "b3cdbb7d21f6e3285d7d76838dfe7378ce46a7112f2755ba003c4c2d32e05625",
+    "bytes": 33120,
+    "pitch": [
+      100.0,
+      101.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "key": "source_m4a4_8",
+    "event": "weapon_m4a1.clipin",
+    "url": "/source/csgo-12426148/m4a4/sounds/weapons/m4a1/m4a1_clipin.wav",
+    "sha256": "654f310c41f97021006110af429922556fee149c51881c3d4a967c6793a17acc",
+    "bytes": 36750,
+    "pitch": [
+      100.0,
+      105.0
+    ],
+    "volume": [
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "key": "source_m4a4_9",
+    "event": "weapon_m4a1.cliphit",
+    "url": "/source/csgo-12426148/m4a4/sounds/weapons/m4a1/m4a1_cliphit.wav",
+    "sha256": "dba737f3abd6c3a3c4ec6f5169e5c725417c890bfd9ae81886dd028669be6de8",
+    "bytes": 18366,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "key": "source_m4a4_10",
+    "event": "weapon_m4a1.boltforward",
+    "url": "/source/csgo-12426148/m4a4/sounds/weapons/m4a1/m4a1_boltforward.wav",
+    "sha256": "cdfecd48ca661ae5d2014499d570235089c916eea07a1f1b753fc9b5f5c34be6",
+    "bytes": 33120,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "key": "source_m4a4_11",
+    "event": "weapon_m4a1.boltback",
+    "url": "/source/csgo-12426148/m4a4/sounds/weapons/m4a1/m4a1_boltback.wav",
+    "sha256": "1af86f38556f0ed0ec643530ced345cfc79fdf0b1407ee5cb26c2388c4bd3993",
+    "bytes": 33120,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.8,
+      0.8
+    ]
+  }
+]

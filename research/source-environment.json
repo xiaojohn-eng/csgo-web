@@ -1,0 +1,393 @@
+{
+  "format": "source-environment-v1",
+  "id": "de_dust2",
+  "sourceBspSha256": "b91be410539fbbfc16300423f1e19c024f12addf1429c8cb2f72b53fe0fd6bcc",
+  "metersPerSourceUnit": 0.0254,
+  "entityLump": {
+    "bytes": 106613,
+    "sha256": "8100753288cdeb12663e3edfa6efb41bb53209308c2ce91fc4d7045958fa1d2a",
+    "entities": 375
+  },
+  "sources": {
+    "entitiesJsonSha256": "f0fd42a47dd4dd9f1eb8c79130b084475cf0f4402e1e6f21dfc70b65a55caf30",
+    "serverDllSha256": "699757bb5c8ddb71193f68daba22f59f697491ddbd768bc8656ac2ce435c4db8",
+    "fogControllerKeyFields": {
+      "fogcolor": "m_fog.colorPrimary",
+      "fogenable": "m_fog.enable",
+      "fogdir": "m_fog.dirPrimary",
+      "fogstart": "m_fog.start",
+      "fogblend": "m_fog.blend",
+      "fogmaxdensity": "m_fog.maxdensity",
+      "fogend": "m_fog.end"
+    },
+    "serverClientSoSha256": "e2d7cab6059f8bb3346796795b46831621fdb0015ce6aa28a7e5747ec7fc463b",
+    "clientDllSha256": "183d42fac8a4ecc24dc02edf5f09122f37fe9e7533ca093a867718b25cfdeb03"
+  },
+  "limitations": [
+    "The port models the single static fog controller. The build also has fog volumes and fog/tonemap triggers (`CFogVolume`, `trigger_fog`, `trigger_tonemap`), and this map declares none of them (asserted above), so no transition is modelled.",
+    "Colour correction is declared but not applied: against the neutral lookup that ships beside it, the Dust2 cube moves no channel by more than one step of 255 and leaves 86.9% of the cube alone, so a full-frame lookup pass would buy at most that much. The measurement is recorded here; the moment a map ships a grade that moves anything further, this probe fails and the pass has to land."
+  ],
+  "worldspawn": {
+    "skyname": "nukeblank",
+    "legacyFogKeys": "absent"
+  },
+  "lightEnvironment": {
+    "sunColor": [
+      254,
+      230,
+      197
+    ],
+    "sunBrightness": 575.0,
+    "ambientColor": [
+      211,
+      226,
+      248
+    ],
+    "ambientBrightness": 245.0,
+    "ambientScaleHDR": 1.0,
+    "lightScaleHDR": 1.0,
+    "sunSourceAngles": [
+      0.0,
+      43.0,
+      0.0
+    ],
+    "sunSourcePitch": -50.0,
+    "sunSpreadAngle": 0.0,
+    "sunSourceDirection": [
+      0.470105098,
+      0.438380096,
+      0.766044443
+    ],
+    "hammerId": "2568360",
+    "meaning": "`_light`/`_ambient` are a colour and a brightness. `_lightscaleHDR` is the scale the shipped `unlittwotexture` sky program reads as `cLightScale` (c30): that program's product is `texture0 * texture1 * g_DiffuseModulation`, then `rgb * cLightScale`. `sunSourceDirection` is the Source-frame direction (x forward, y left, z up) derived from the map's own `angles`/`pitch`, pointing from the map toward the sun."
+  },
+  "fogController": {
+    "enabled": true,
+    "color": [
+      213,
+      203,
+      172
+    ],
+    "color2": [
+      255,
+      255,
+      255
+    ],
+    "blend": false,
+    "sourceDirection": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "sourceStart": 512.0,
+    "sourceEnd": 9000.0,
+    "maxDensity": 0.4,
+    "zoomFogScale": 1.0,
+    "nearMetres": 13.0048,
+    "farMetres": 228.6,
+    "hammerId": "2568356",
+    "spawnFlags": 0,
+    "meaning": "The original gates on the networked `m_fog.enable` bool; while set, the frame fades linearly toward `fogcolor` from `fogstart`, reaches `fogmaxdensity` at `fogend` and holds there. `$nofog` materials opt out. The colour is 8-bit sRGB and `blend` is off, so `fogcolor2` is unused."
+  },
+  "tonemapController": {
+    "targetname": "AutoInstance1-tonemap_global",
+    "hammerId": "2568350",
+    "onMapSpawn": {
+      "SetTonemapPercentTarget": 80.0,
+      "SetTonemapPercentBrightPixels": 3.0,
+      "SetTonemapRate": 0.2,
+      "SetBloomScale": 0.0,
+      "SetAutoExposureMax": 1.25,
+      "SetAutoExposureMin": 0.5
+    },
+    "outputOrder": [
+      "SetTonemapPercentTarget",
+      "SetTonemapPercentBrightPixels",
+      "SetTonemapRate",
+      "SetBloomScale",
+      "SetAutoExposureMax",
+      "SetAutoExposureMin"
+    ],
+    "meaning": "The original auto-exposes: it drives the frame toward a target average luminance of `SetTonemapPercentTarget`/255 over the brightest `SetTonemapPercentBrightPixels` percent of pixels, at `SetTonemapRate`, with the exposure itself bounded by the auto-exposure minimum and maximum. Every value is the map's own number."
+  },
+  "sun": {
+    "material": "sprites/light_glow02_add_noz",
+    "size": 32.0,
+    "renderColor": [
+      255,
+      245,
+      217
+    ],
+    "overlayColor": [
+      0,
+      0,
+      0
+    ],
+    "overlayMaterial": "sprites/light_glow02_add_noz",
+    "overlaySize": -1.0,
+    "glowDistanceScale": 0.1,
+    "hdrColorScale": 1.0,
+    "sourceAngles": [
+      0.0,
+      47.0,
+      0.0
+    ],
+    "sourcePitch": -43.0,
+    "hammerId": "2568352",
+    "members": {
+      "material": {
+        "member": "m_strMaterial",
+        "offset": 1248,
+        "typeCode": 393217,
+        "entry": "0x1c1b4c8"
+      },
+      "overlaymaterial": {
+        "member": "m_strOverlayMaterial",
+        "offset": 1256,
+        "typeCode": 393217,
+        "entry": "0x1c1b530"
+      },
+      "use_angles": {
+        "member": "m_bUseAngles",
+        "offset": 1264,
+        "typeCode": 393217,
+        "entry": "0x1c1b258"
+      },
+      "pitch": {
+        "member": "m_flPitch",
+        "offset": 1268,
+        "typeCode": 393217,
+        "entry": "0x1c1b2c0"
+      },
+      "angle": {
+        "member": "m_flYaw",
+        "offset": 1272,
+        "typeCode": 393217,
+        "entry": "0x1c1b328"
+      },
+      "size": {
+        "member": "m_nSize",
+        "offset": 1276,
+        "typeCode": 393217,
+        "entry": "0x1c1b390"
+      },
+      "overlaysize": {
+        "member": "m_nOverlaySize",
+        "offset": 1280,
+        "typeCode": 393217,
+        "entry": "0x1c1b460"
+      },
+      "overlaycolor": {
+        "member": "m_clrOverlay",
+        "offset": 1284,
+        "typeCode": 393217,
+        "entry": "0x1c1b3f8"
+      }
+    },
+    "membersFrom": "csgo/bin/linux64/server_client.so",
+    "membersFromSha256": "5dc259006b3251e48c39cf30a86aae149da36c975fda054d0314907b7391845c",
+    "memberReading": "The map writes `use_angles 1`, so the direction comes from the entity's own `angles` with `m_flPitch` replacing the pitch: the build pairs `pitch` with `m_flPitch` (0x4f4) and `angle` (singular) with `m_flYaw` (0x4f8), while the map's `angles` (plural) is the base entity's rotation. Every pair here is the build's own datamap entry, found through its relocations, not inferred from the key names.",
+    "keyCarriers": {
+      "material": [
+        "client.dll",
+        "client_client.so",
+        "client_panorama.dll",
+        "linux64/client_client.so",
+        "linux64/client_panorama_client.so",
+        "linux64/server_client.so",
+        "server.dll",
+        "server.so",
+        "server_client.so",
+        "server_i486.so"
+      ],
+      "overlaymaterial": [
+        "linux64/server_client.so",
+        "server.dll",
+        "server.so",
+        "server_client.so",
+        "server_i486.so"
+      ],
+      "overlaysize": [
+        "client.dll",
+        "client_client.so",
+        "client_panorama.dll",
+        "linux64/client_client.so",
+        "linux64/client_panorama_client.so",
+        "linux64/server_client.so",
+        "server.dll",
+        "server.so",
+        "server_client.so"
+      ],
+      "overlaycolor": [
+        "linux64/server_client.so",
+        "server.dll",
+        "server.so",
+        "server_client.so"
+      ],
+      "rendercolor": [
+        "client.dll",
+        "client_client.so",
+        "client_panorama.dll",
+        "linux64/client_client.so",
+        "linux64/client_panorama_client.so",
+        "linux64/server_client.so",
+        "server.dll",
+        "server.so",
+        "server_client.so",
+        "server_i486.so"
+      ],
+      "hdrcolorscale": [
+        "client.dll",
+        "client_client.so",
+        "client_panorama.dll",
+        "linux64/client_client.so",
+        "linux64/client_panorama_client.so"
+      ],
+      "glowdistancescale": []
+    },
+    "binariesSearched": 18,
+    "glowDistanceScaleReading": "`glowdistancescale` is carried by none of the 18 shipped binaries, so the build cannot match that key at all and the value the map writes is authoring metadata. It is kept in this report as the file states it and is not a number this port can act on. `hdrcolorscale` is carried by the client binaries only, and `overlaysize`/`overlaycolor` by both sides."
+  },
+  "shadowControl": {
+    "color": [
+      128,
+      128,
+      128
+    ],
+    "distance": 72.0,
+    "disableAllShadows": false,
+    "sourceAngles": [
+      90.0,
+      43.0,
+      0.0
+    ],
+    "hammerId": "2568364"
+  },
+  "colorCorrection": {
+    "filename": "materials/correction/cc_dust2.raw",
+    "maxWeight": 1.0,
+    "minFalloff": 0.0,
+    "maxFalloff": 0.0,
+    "fadeInDuration": 0.0,
+    "fadeOutDuration": 0.0,
+    "spawnFlags": 1,
+    "hammerId": "2568366",
+    "meaning": "The original grades the finished frame through this 32x32x32 lookup at full weight with no fades, so it is part of the shipped Dust2 image rather than an optional effect.",
+    "lut": {
+      "bytes": 98304,
+      "sha256": "cb7d3a3ab21cb20231ee34b20790f851f06bf9675136f89c339556e9d4371a85",
+      "side": 32,
+      "channels": 3,
+      "neutralLutSha256": "2a5ce4a7af86d02efefe0ab954c45e1a985cb4e012a61de2c0246a831549ead1",
+      "storageOrder": {
+        "inputAxisOrder": [
+          0,
+          1,
+          2
+        ],
+        "outputChannelOrder": [
+          2,
+          1,
+          0
+        ],
+        "from": "off.raw is a neutral lookup, so the order that makes it the identity ramp is the format"
+      },
+      "neutralWorstChannelError": 0.677,
+      "gradeWorstChannelError": 1.194,
+      "axisSearch": "The storage order comes from `off.raw` fitting the identity ramp to within one 8-bit level, at which point every entry of both cubes is walked and the worst channel error is reported.",
+      "againstNeutral": {
+        "channelDeltaHistogram": [
+          [
+            0,
+            85467
+          ],
+          [
+            1,
+            12837
+          ]
+        ],
+        "channelsMoved": 12837,
+        "channels": 98304,
+        "maxChannelDelta": 1
+      },
+      "greyAxis": {
+        "step4": [
+          0,
+          0,
+          0,
+          33,
+          33,
+          33,
+          66,
+          66,
+          66,
+          99,
+          99,
+          99,
+          132,
+          132,
+          132,
+          165,
+          165,
+          165,
+          198,
+          198,
+          198,
+          231,
+          231,
+          231
+        ],
+        "neutralStep4": [
+          0,
+          0,
+          0,
+          33,
+          33,
+          33,
+          66,
+          66,
+          66,
+          99,
+          99,
+          99,
+          132,
+          132,
+          132,
+          165,
+          165,
+          165,
+          198,
+          198,
+          198,
+          231,
+          231,
+          231
+        ]
+      }
+    },
+    "applied": false
+  },
+  "postProcess": {
+    "targetname": "pp_dust",
+    "strengths": {
+      "localcontraststrength": 0.0,
+      "screenblurstrength": 0.0,
+      "fadetoblackstrength": 0.0,
+      "depthblurstrength": 0.0,
+      "vignetteblurstrength": 0.0
+    },
+    "allStrengthsZero": true,
+    "hammerId": "2568358",
+    "meaning": "The map ships the entity but asks for no post-process effect."
+  },
+  "skyCamera": {
+    "hammerId": "12482060",
+    "scale": 16.0,
+    "hdrColorScale": 1.0,
+    "sourceOrigin": [
+      -27.1673,
+      -478.122,
+      -8231.0
+    ]
+  }
+}

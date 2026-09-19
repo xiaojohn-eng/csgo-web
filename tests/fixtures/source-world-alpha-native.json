@@ -1,0 +1,537 @@
+{
+  "format": "source-native-world-alpha-v1",
+  "engine": {
+    "file": ".reference-assets/csgo-legacy/bin/linux64/engine_client.so",
+    "bytes": 12656429,
+    "sha256": "34a96aefd9357a20e7e81f1525f13363e2561c88001d73d24c2b06b0655671f1"
+  },
+  "sourceBspSha256": "b91be410539fbbfc16300423f1e19c024f12addf1429c8cb2f72b53fe0fd6bcc",
+  "originalDispVertices": 228156,
+  "uniqueMapValuesExecuted": 27855,
+  "originalLumpSha256": "0878fb469c1bb82c5f357e8bcb32779e50406f75ae0c067f480cb8c849cd7264",
+  "normalizedUNORM8Source": "native byte / 255 at vertex shader input",
+  "packedBytesSha256": "57d49e89012c31fcbd74501ae8dc3cee0890fc08bb86d2abc207536171f80b85",
+  "minAlpha": -0.039993301033973694,
+  "maxAlpha": 255.01800537109375,
+  "nativeSpans": [
+    {
+      "start": "0x3ef1a0",
+      "stop": "0x3ef1e3",
+      "sha256": "e86501d1c6abd3601a2737a88943966d698a3030e9c3ef4eed55e8ea93744028"
+    },
+    {
+      "start": "0x3eef44",
+      "stop": "0x3eef5f",
+      "sha256": "ed1157eef1884148a1622da76a2438aeb65a857f2c6040a34e0ea0a76ddce730"
+    },
+    {
+      "start": "0x303268",
+      "stop": "0x303319",
+      "sha256": "04d7ae3cb76de8f306341b44446d1b7cf671f3a210820f1f1a2ad832006105d2"
+    }
+  ],
+  "loaderChain": [
+    "DispInfo_LoadDisplacements 0x3057a0 reads lump33 into 20-byte records",
+    "0x305c30 calls 0x305630; 0x3056bd calls 0x3ef140; 0x3ef1d0 copies raw record+16 alpha",
+    "0x3eeaca preserves alpha-array argument in r13; 0x3eef56 stores CoreDispVertex+0x8c",
+    "0x305d33 -> 0x304130 -> 0x302fe0; 0x303268 loads the same +0x8c and writes white RGB / quantized alpha"
+  ],
+  "constants": {
+    "inverse255": 0.003921568859368563,
+    "clampMin": 0,
+    "clampMax": 1,
+    "scale": 255,
+    "roundMagic": 8388608
+  },
+  "scope": "Exact original native CPU vertex packing spans and all distinct original BSP alpha values; full engine and GPU interpolation not executed",
+  "cases": [
+    {
+      "alpha": -0.039993301033973694,
+      "byte": 0
+    },
+    {
+      "alpha": 0.0,
+      "byte": 0
+    },
+    {
+      "alpha": 7.247920166264521e-06,
+      "byte": 0
+    },
+    {
+      "alpha": 0.00014021599781699479,
+      "byte": 0
+    },
+    {
+      "alpha": 0.4889709949493408,
+      "byte": 0
+    },
+    {
+      "alpha": 1.678670048713684,
+      "byte": 2
+    },
+    {
+      "alpha": 3.40939998626709,
+      "byte": 3
+    },
+    {
+      "alpha": 4.875010013580322,
+      "byte": 5
+    },
+    {
+      "alpha": 6.599999904632568,
+      "byte": 7
+    },
+    {
+      "alpha": 8.362629890441895,
+      "byte": 8
+    },
+    {
+      "alpha": 10.0,
+      "byte": 10
+    },
+    {
+      "alpha": 11.655599594116211,
+      "byte": 12
+    },
+    {
+      "alpha": 13.54170036315918,
+      "byte": 14
+    },
+    {
+      "alpha": 15.265000343322754,
+      "byte": 15
+    },
+    {
+      "alpha": 17.218799591064453,
+      "byte": 17
+    },
+    {
+      "alpha": 19.161699295043945,
+      "byte": 19
+    },
+    {
+      "alpha": 21.16320037841797,
+      "byte": 21
+    },
+    {
+      "alpha": 23.23419952392578,
+      "byte": 23
+    },
+    {
+      "alpha": 25.053800582885742,
+      "byte": 25
+    },
+    {
+      "alpha": 27.000099182128906,
+      "byte": 27
+    },
+    {
+      "alpha": 28.906299591064453,
+      "byte": 29
+    },
+    {
+      "alpha": 30.831199645996094,
+      "byte": 31
+    },
+    {
+      "alpha": 32.62910079956055,
+      "byte": 33
+    },
+    {
+      "alpha": 34.599998474121094,
+      "byte": 35
+    },
+    {
+      "alpha": 36.41669845581055,
+      "byte": 36
+    },
+    {
+      "alpha": 38.23540115356445,
+      "byte": 38
+    },
+    {
+      "alpha": 40.077999114990234,
+      "byte": 40
+    },
+    {
+      "alpha": 42.052101135253906,
+      "byte": 42
+    },
+    {
+      "alpha": 43.98809814453125,
+      "byte": 44
+    },
+    {
+      "alpha": 45.941001892089844,
+      "byte": 46
+    },
+    {
+      "alpha": 47.96879959106445,
+      "byte": 48
+    },
+    {
+      "alpha": 49.80630111694336,
+      "byte": 50
+    },
+    {
+      "alpha": 51.555599212646484,
+      "byte": 52
+    },
+    {
+      "alpha": 53.384300231933594,
+      "byte": 53
+    },
+    {
+      "alpha": 55.16669845581055,
+      "byte": 55
+    },
+    {
+      "alpha": 56.948001861572266,
+      "byte": 57
+    },
+    {
+      "alpha": 58.7942008972168,
+      "byte": 59
+    },
+    {
+      "alpha": 60.777801513671875,
+      "byte": 61
+    },
+    {
+      "alpha": 62.607398986816406,
+      "byte": 63
+    },
+    {
+      "alpha": 64.45140075683594,
+      "byte": 64
+    },
+    {
+      "alpha": 66.52169799804688,
+      "byte": 67
+    },
+    {
+      "alpha": 68.53630065917969,
+      "byte": 69
+    },
+    {
+      "alpha": 70.6875,
+      "byte": 71
+    },
+    {
+      "alpha": 72.75,
+      "byte": 73
+    },
+    {
+      "alpha": 74.7656021118164,
+      "byte": 75
+    },
+    {
+      "alpha": 76.63300323486328,
+      "byte": 77
+    },
+    {
+      "alpha": 78.63619995117188,
+      "byte": 79
+    },
+    {
+      "alpha": 80.58419799804688,
+      "byte": 81
+    },
+    {
+      "alpha": 82.63890075683594,
+      "byte": 83
+    },
+    {
+      "alpha": 84.54740142822266,
+      "byte": 85
+    },
+    {
+      "alpha": 86.40029907226562,
+      "byte": 86
+    },
+    {
+      "alpha": 88.64630126953125,
+      "byte": 89
+    },
+    {
+      "alpha": 90.63909912109375,
+      "byte": 91
+    },
+    {
+      "alpha": 92.71499633789062,
+      "byte": 93
+    },
+    {
+      "alpha": 94.6666030883789,
+      "byte": 95
+    },
+    {
+      "alpha": 96.65730285644531,
+      "byte": 97
+    },
+    {
+      "alpha": 98.90589904785156,
+      "byte": 99
+    },
+    {
+      "alpha": 101.12799835205078,
+      "byte": 101
+    },
+    {
+      "alpha": 103.53900146484375,
+      "byte": 104
+    },
+    {
+      "alpha": 105.93099975585938,
+      "byte": 106
+    },
+    {
+      "alpha": 108.125,
+      "byte": 108
+    },
+    {
+      "alpha": 110.66300201416016,
+      "byte": 111
+    },
+    {
+      "alpha": 113.16799926757812,
+      "byte": 113
+    },
+    {
+      "alpha": 115.45500183105469,
+      "byte": 115
+    },
+    {
+      "alpha": 117.91699981689453,
+      "byte": 118
+    },
+    {
+      "alpha": 120.6259994506836,
+      "byte": 121
+    },
+    {
+      "alpha": 123.38800048828125,
+      "byte": 123
+    },
+    {
+      "alpha": 125.6969985961914,
+      "byte": 126
+    },
+    {
+      "alpha": 128.281005859375,
+      "byte": 128
+    },
+    {
+      "alpha": 130.91099548339844,
+      "byte": 131
+    },
+    {
+      "alpha": 133.66700744628906,
+      "byte": 134
+    },
+    {
+      "alpha": 136.68800354003906,
+      "byte": 137
+    },
+    {
+      "alpha": 139.6929931640625,
+      "byte": 140
+    },
+    {
+      "alpha": 142.5070037841797,
+      "byte": 143
+    },
+    {
+      "alpha": 145.26199340820312,
+      "byte": 145
+    },
+    {
+      "alpha": 148.2220001220703,
+      "byte": 148
+    },
+    {
+      "alpha": 151.20799255371094,
+      "byte": 151
+    },
+    {
+      "alpha": 154.06500244140625,
+      "byte": 154
+    },
+    {
+      "alpha": 156.718994140625,
+      "byte": 157
+    },
+    {
+      "alpha": 159.97900390625,
+      "byte": 160
+    },
+    {
+      "alpha": 162.77099609375,
+      "byte": 163
+    },
+    {
+      "alpha": 166.0500030517578,
+      "byte": 166
+    },
+    {
+      "alpha": 169.3520050048828,
+      "byte": 169
+    },
+    {
+      "alpha": 172.8260040283203,
+      "byte": 173
+    },
+    {
+      "alpha": 176.3730010986328,
+      "byte": 176
+    },
+    {
+      "alpha": 179.79100036621094,
+      "byte": 180
+    },
+    {
+      "alpha": 183.28599548339844,
+      "byte": 183
+    },
+    {
+      "alpha": 186.61500549316406,
+      "byte": 187
+    },
+    {
+      "alpha": 190.625,
+      "byte": 191
+    },
+    {
+      "alpha": 194.26600646972656,
+      "byte": 194
+    },
+    {
+      "alpha": 197.8719940185547,
+      "byte": 198
+    },
+    {
+      "alpha": 201.66700744628906,
+      "byte": 202
+    },
+    {
+      "alpha": 205.41700744628906,
+      "byte": 205
+    },
+    {
+      "alpha": 209.44400024414062,
+      "byte": 209
+    },
+    {
+      "alpha": 213.20399475097656,
+      "byte": 213
+    },
+    {
+      "alpha": 217.08399963378906,
+      "byte": 217
+    },
+    {
+      "alpha": 221.41000366210938,
+      "byte": 221
+    },
+    {
+      "alpha": 225.71400451660156,
+      "byte": 226
+    },
+    {
+      "alpha": 229.93800354003906,
+      "byte": 230
+    },
+    {
+      "alpha": 234.23599243164062,
+      "byte": 234
+    },
+    {
+      "alpha": 238.531005859375,
+      "byte": 239
+    },
+    {
+      "alpha": 243.17100524902344,
+      "byte": 243
+    },
+    {
+      "alpha": 247.5290069580078,
+      "byte": 248
+    },
+    {
+      "alpha": 252.02000427246094,
+      "byte": 252
+    },
+    {
+      "alpha": 255.0,
+      "byte": 255
+    },
+    {
+      "alpha": -1,
+      "byte": 0
+    },
+    {
+      "alpha": -0.0,
+      "byte": 0
+    },
+    {
+      "alpha": 0,
+      "byte": 0
+    },
+    {
+      "alpha": 0.49,
+      "byte": 0
+    },
+    {
+      "alpha": 0.5,
+      "byte": 0
+    },
+    {
+      "alpha": 0.51,
+      "byte": 1
+    },
+    {
+      "alpha": 1.5,
+      "byte": 2
+    },
+    {
+      "alpha": 2.5,
+      "byte": 2
+    },
+    {
+      "alpha": 63.5,
+      "byte": 64
+    },
+    {
+      "alpha": 127.5,
+      "byte": 128
+    },
+    {
+      "alpha": 128.5,
+      "byte": 129
+    },
+    {
+      "alpha": 254.5,
+      "byte": 254
+    },
+    {
+      "alpha": 255,
+      "byte": 255
+    },
+    {
+      "alpha": 256,
+      "byte": 255
+    },
+    {
+      "alpha": "inf",
+      "byte": 0
+    },
+    {
+      "alpha": "-inf",
+      "byte": 0
+    },
+    {
+      "alpha": "nan",
+      "byte": 0
+    }
+  ]
+}

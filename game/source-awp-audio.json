@@ -1,0 +1,301 @@
+{
+  "format": "source-pistol-audio-v1",
+  "sourceApp": 740,
+  "build": 12426148,
+  "weapons": {
+    "awp": {
+      "records": [
+        {
+          "key": "source_awp_0",
+          "event": "default.clipempty_rifle",
+          "url": "/source/csgo-12426148/awp-t/sounds/weapons/clipempty_rifle.wav",
+          "sha256": "c265a1b30ac073153bf196a8546e7de5dcf7c8d8f2c055ec4f9f6963200a4d81",
+          "bytes": 11480,
+          "pitch": [
+            100,
+            100
+          ],
+          "volume": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "key": "source_awp_1",
+          "event": "default.nearlyempty",
+          "url": "/source/csgo-12426148/awp-t/sounds/weapons/lowammo_01.wav",
+          "sha256": "be7421385f4c64e2570d2bafdb0a98ffaf6a803b655a27792b31909660eb7636",
+          "bytes": 45700,
+          "pitch": [
+            100.0,
+            100.0
+          ],
+          "volume": [
+            0.3,
+            0.3
+          ]
+        },
+        {
+          "key": "source_awp_2",
+          "event": "weapon_awp.boltback",
+          "url": "/source/csgo-12426148/awp-t/sounds/weapons/awp/awp_boltback.wav",
+          "sha256": "2ee1d6f1cc4e2b4e3933ef09e285c0b1a09f1f8130d9f4b8afe94281e989f2b8",
+          "bytes": 29408,
+          "pitch": [
+            97.0,
+            105.0
+          ],
+          "volume": [
+            0.5,
+            1.0
+          ]
+        },
+        {
+          "key": "source_awp_3",
+          "event": "weapon_awp.boltforward",
+          "url": "/source/csgo-12426148/awp-t/sounds/weapons/awp/awp_boltforward.wav",
+          "sha256": "8a9ec313fdd18eb719c3b87fe6d2cdd0387acc2fea03d8358cb19cee718fd11b",
+          "bytes": 18978,
+          "pitch": [
+            97.0,
+            105.0
+          ],
+          "volume": [
+            0.5,
+            1.0
+          ]
+        },
+        {
+          "key": "source_awp_4",
+          "event": "weapon_awp.cliphit",
+          "url": "/source/csgo-12426148/awp-t/sounds/weapons/awp/awp_cliphit.wav",
+          "sha256": "584cc4dacca962c55f924b87ec3c8713379a95bb00d8dabd113eaa68358221e3",
+          "bytes": 23544,
+          "pitch": [
+            97.0,
+            105.0
+          ],
+          "volume": [
+            0.5,
+            1.0
+          ]
+        },
+        {
+          "key": "source_awp_5",
+          "event": "weapon_awp.clipin",
+          "url": "/source/csgo-12426148/awp-t/sounds/weapons/awp/awp_clipin.wav",
+          "sha256": "eca44d8ca1da8c1c3b3a8e109d2932d07dd6277aeaa6f9f0d96d615c3c88a5af",
+          "bytes": 26558,
+          "pitch": [
+            97.0,
+            105.0
+          ],
+          "volume": [
+            0.5,
+            1.0
+          ]
+        },
+        {
+          "key": "source_awp_6",
+          "event": "weapon_awp.clipout",
+          "url": "/source/csgo-12426148/awp-t/sounds/weapons/awp/awp_clipout.wav",
+          "sha256": "83673ef2f05053d155664307bd73a372a151460489aa3b88e284b1063e01b123",
+          "bytes": 12752,
+          "pitch": [
+            97.0,
+            105.0
+          ],
+          "volume": [
+            0.5,
+            1.0
+          ]
+        },
+        {
+          "key": "source_awp_7",
+          "event": "weapon_awp.draw",
+          "url": "/source/csgo-12426148/awp-t/sounds/weapons/awp/awp_draw.wav",
+          "sha256": "1a8bf18c3171df1d2c2a62f1f8b1935717acf5d2149abce1beb5d2dba9649897",
+          "bytes": 64994,
+          "pitch": [
+            100,
+            100
+          ],
+          "volume": [
+            0.3,
+            0.3
+          ]
+        },
+        {
+          "key": "source_awp_8",
+          "event": "weapon_awp.single",
+          "url": "/source/csgo-12426148/awp-t/sounds/weapons/awp/awp_01.wav",
+          "sha256": "4bccb603bea8bcd39e287a7959b5bb7e8ed7c0aabe74755715b169482d6fa8b0",
+          "bytes": 728408,
+          "pitch": [
+            100,
+            100
+          ],
+          "volume": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "key": "source_awp_9",
+          "event": "weapon_awp.single",
+          "url": "/source/csgo-12426148/awp-t/sounds/weapons/awp/awp_02.wav",
+          "sha256": "ccb3d3b19d48efa5e81cd1bf436fc90df8247cb8fc0df7cb6050d5354bdee081",
+          "bytes": 728484,
+          "pitch": [
+            100,
+            100
+          ],
+          "volume": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "key": "source_awp_10",
+          "event": "weapon_awp.singledistant",
+          "url": "/source/csgo-12426148/awp-t/sounds/weapons/awp/awp_distant.wav",
+          "sha256": "eb4abcaa93d8d9f998ab2499b5c88872db319853040c29225f3090f692f0359b",
+          "bytes": 890128,
+          "pitch": [
+            100,
+            100
+          ],
+          "volume": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "key": "source_awp_11",
+          "event": "weapon_awp.weaponmove1",
+          "url": "/source/csgo-12426148/awp-t/sounds/weapons/movement1.wav",
+          "sha256": "999130b5319c838ccc9cbdf342b3e3f95175b9e56aa631af04ef8632bc2b1840",
+          "bytes": 48398,
+          "pitch": [
+            98.0,
+            101.0
+          ],
+          "volume": [
+            0.05,
+            0.1
+          ]
+        },
+        {
+          "key": "source_awp_12",
+          "event": "weapon_awp.weaponmove2",
+          "url": "/source/csgo-12426148/awp-t/sounds/weapons/movement2.wav",
+          "sha256": "939f3232142544d2a914436429b1c2c118c77f0cb0667ff9d7d9a744080ac881",
+          "bytes": 51214,
+          "pitch": [
+            98.0,
+            101.0
+          ],
+          "volume": [
+            0.05,
+            0.1
+          ]
+        },
+        {
+          "key": "source_awp_13",
+          "event": "weapon_awp.weaponmove3",
+          "url": "/source/csgo-12426148/awp-t/sounds/weapons/movement3.wav",
+          "sha256": "aae8b21d1899d44a587354ff953df83f252ff4090d1840b173936dc4f565e931",
+          "bytes": 70670,
+          "pitch": [
+            98.0,
+            101.0
+          ],
+          "volume": [
+            0.05,
+            0.1
+          ]
+        },
+        {
+          "key": "source_awp_14",
+          "event": "weapon_awp.zoom",
+          "url": "/source/csgo-12426148/awp-t/sounds/weapons/awp/zoom.wav",
+          "sha256": "d95e891904e65d97f8b30e27a766f44bd2b61f6d8c1a9af489a3186bf3e8521b",
+          "bytes": 31610,
+          "pitch": [
+            100,
+            100
+          ],
+          "volume": [
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "timeline": {
+        "awp_idle": [],
+        "awp_fire": [
+          {
+            "time": 0.6000000238418579,
+            "event": "weapon_awp.boltback"
+          },
+          {
+            "time": 0.9333333373069763,
+            "event": "weapon_awp.boltforward"
+          }
+        ],
+        "awp_draw": [
+          {
+            "time": 0.0,
+            "event": "weapon_awp.draw"
+          },
+          {
+            "time": 0.2916666679084301,
+            "event": "weapon_awp.boltback"
+          },
+          {
+            "time": 0.5833333358168602,
+            "event": "weapon_awp.boltforward"
+          }
+        ],
+        "awp_reload": [
+          {
+            "time": 0.23333332935969034,
+            "event": "weapon_awp.clipout"
+          },
+          {
+            "time": 1.3333333730697632,
+            "event": "weapon_awp.clipin"
+          },
+          {
+            "time": 2.0000000596046448,
+            "event": "weapon_awp.cliphit"
+          },
+          {
+            "time": 2.5666666229565935,
+            "event": "weapon_awp.boltback"
+          },
+          {
+            "time": 2.9666666785875955,
+            "event": "weapon_awp.boltforward"
+          }
+        ],
+        "lookat01": [
+          {
+            "time": 0.1666666753590107,
+            "event": "weapon_awp.weaponmove1"
+          },
+          {
+            "time": 3.033333420753479,
+            "event": "weapon_awp.weaponmove2"
+          },
+          {
+            "time": 3.866666555404663,
+            "event": "weapon_awp.weaponmove3"
+          }
+        ],
+        "lookat01_prepare": [],
+        "lookat01_loop": []
+      }
+    }
+  }
+}

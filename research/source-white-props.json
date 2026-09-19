@@ -1,0 +1,2529 @@
+{
+  "method": "Exact Three Raycaster intersections on unchanged original props GLB; original first CT/T spawn at same 1440x900 FOV75 camera",
+  "originalGLBSha256": "55937fce28a53461520fa2c531384f65f0f8b69df1a8205245466b6064ab5232",
+  "imagesDecoded": false,
+  "boundary": "Prop geometry only; no image-alpha test or world occlusion inferred. Target labels are visual hypotheses, nearest actual triangle gives identity.",
+  "results": [
+    {
+      "team": "t",
+      "label": "large_crate",
+      "pixel": [
+        420,
+        580
+      ],
+      "camera": {
+        "position": [
+          -20.888071,
+          5.4536086,
+          20.2093068
+        ],
+        "quaternion": [
+          0,
+          0.1478094111296104,
+          0,
+          0.989015863361917
+        ]
+      },
+      "hits": [
+        {
+          "mesh": "static_prop_2554_mesh_0",
+          "anchor": "static_prop_2554",
+          "identity": {
+            "name": "static_prop_2554",
+            "sourceModel": "models/props/de_dust/hr_dust/dust_crates/dust_crate_style_02_64x64x64.mdl",
+            "sourceSkin": 1,
+            "sourceSolid": 6
+          },
+          "distance": 3.3035041086423047,
+          "point": [
+            -23.143198087804226,
+            4.814000315824095,
+            17.88155198978442
+          ],
+          "faceIndex": 1664,
+          "uv": [
+            0.7395702515255196,
+            0.4160120554657174
+          ],
+          "material": "models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_02_wood_decals",
+          "displayName": "dust_shipping_crate_02_wood_decals",
+          "sourceMaterial": {
+            "name": "dust_shipping_crate_02_wood_decals",
+            "source": "models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_02_wood_decals",
+            "shader": "vertexlitgeneric",
+            "mapped": [
+              "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+              "tangent normal with green inversion"
+            ],
+            "unmapped": [
+              "$surfaceprop",
+              "$decaltexture",
+              "$decalblendmode"
+            ],
+            "parameters": {
+              "$basetexture": "models\\props\\de_dust\\hr_dust\\dust_crates\\dust_shipping_crate_02_wood_color",
+              "$bumpmap": "models\\props\\de_dust\\hr_dust\\dust_crates\\dust_shipping_crate_02_wood_normal",
+              "$surfaceprop": "Wood_Panel",
+              "$decaltexture": "models\\props\\de_dust\\hr_dust\\dust_crates\\dust_shipping_crate_01_decal",
+              "$decalblendmode": "1"
+            },
+            "rawVmtSha256": "4c92b5723a63dc54a4b02a750aa48cd30d8d61638297fb8c69d39316ec214e58",
+            "group": "decal",
+            "reasons": [
+              "$decaltexture",
+              "$decalblendmode"
+            ],
+            "meshInstances": 13,
+            "triangles": 61952,
+            "eligibleMeshes": 0,
+            "eligibleTriangles": 0,
+            "ambiguousMeshes": 0,
+            "ambiguousTriangles": 0,
+            "modelVariants": [
+              "models/props/de_dust/hr_dust/dust_crates/dust_crate_style_02_37x37x74.mdl|skin 1",
+              "models/props/de_dust/hr_dust/dust_crates/dust_crate_style_02_72x72x72.mdl|skin 1",
+              "models/props/de_dust/hr_dust/dust_crates/dust_crate_style_02_72x72x72b.mdl|skin 1",
+              "models/props/de_dust/hr_dust/dust_crates/dust_crate_style_02_72x36x72.mdl|skin 1",
+              "models/props/de_dust/hr_dust/dust_crates/dust_crate_style_02_32x64x64.mdl|skin 1",
+              "models/props/autocombine/de_dust2/_autocombine_dust_crate_style_02_478.mdl|skin 1",
+              "models/props/de_dust/hr_dust/dust_crates/dust_crate_style_02_32x64x46.mdl|skin 1",
+              "models/props/de_dust/hr_dust/dust_crates/dust_crate_style_02_64x64x64.mdl|skin 1"
+            ]
+          }
+        },
+        {
+          "mesh": "static_prop_2554_mesh_0",
+          "anchor": "static_prop_2554",
+          "identity": {
+            "name": "static_prop_2554",
+            "sourceModel": "models/props/de_dust/hr_dust/dust_crates/dust_crate_style_02_64x64x64.mdl",
+            "sourceSkin": 1,
+            "sourceSolid": 6
+          },
+          "distance": 3.3393940447037775,
+          "point": [
+            -23.167698244101913,
+            4.807051482201214,
+            17.856262791237075
+          ],
+          "faceIndex": 2193,
+          "uv": [
+            0.627171447748464,
+            0.29723305654753135
+          ],
+          "material": "models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_02_wood_decals",
+          "displayName": "dust_shipping_crate_02_wood_decals",
+          "sourceMaterial": {
+            "name": "dust_shipping_crate_02_wood_decals",
+            "source": "models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_02_wood_decals",
+            "shader": "vertexlitgeneric",
+            "mapped": [
+              "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+              "tangent normal with green inversion"
+            ],
+            "unmapped": [
+              "$surfaceprop",
+              "$decaltexture",
+              "$decalblendmode"
+            ],
+            "parameters": {
+              "$basetexture": "models\\props\\de_dust\\hr_dust\\dust_crates\\dust_shipping_crate_02_wood_color",
+              "$bumpmap": "models\\props\\de_dust\\hr_dust\\dust_crates\\dust_shipping_crate_02_wood_normal",
+              "$surfaceprop": "Wood_Panel",
+              "$decaltexture": "models\\props\\de_dust\\hr_dust\\dust_crates\\dust_shipping_crate_01_decal",
+              "$decalblendmode": "1"
+            },
+            "rawVmtSha256": "4c92b5723a63dc54a4b02a750aa48cd30d8d61638297fb8c69d39316ec214e58",
+            "group": "decal",
+            "reasons": [
+              "$decaltexture",
+              "$decalblendmode"
+            ],
+            "meshInstances": 13,
+            "triangles": 61952,
+            "eligibleMeshes": 0,
+            "eligibleTriangles": 0,
+            "ambiguousMeshes": 0,
+            "ambiguousTriangles": 0,
+            "modelVariants": [
+              "models/props/de_dust/hr_dust/dust_crates/dust_crate_style_02_37x37x74.mdl|skin 1",
+              "models/props/de_dust/hr_dust/dust_crates/dust_crate_style_02_72x72x72.mdl|skin 1",
+              "models/props/de_dust/hr_dust/dust_crates/dust_crate_style_02_72x72x72b.mdl|skin 1",
+              "models/props/de_dust/hr_dust/dust_crates/dust_crate_style_02_72x36x72.mdl|skin 1",
+              "models/props/de_dust/hr_dust/dust_crates/dust_crate_style_02_32x64x64.mdl|skin 1",
+              "models/props/autocombine/de_dust2/_autocombine_dust_crate_style_02_478.mdl|skin 1",
+              "models/props/de_dust/hr_dust/dust_crates/dust_crate_style_02_32x64x46.mdl|skin 1",
+              "models/props/de_dust/hr_dust/dust_crates/dust_crate_style_02_64x64x64.mdl|skin 1"
+            ]
+          }
+        },
+        {
+          "mesh": "static_prop_2596_mesh_0",
+          "anchor": "static_prop_2596",
+          "identity": {
+            "name": "static_prop_2596",
+            "sourceModel": "models/props/de_dust/hr_dust/dust_vehicles/dust_taxi_body.mdl",
+            "sourceSkin": 0,
+            "sourceSolid": 6
+          },
+          "distance": 6.40955520841601,
+          "point": [
+            -25.26353447633154,
+            4.212621916054089,
+            15.692928894278376
+          ],
+          "faceIndex": 1697,
+          "uv": [
+            0.8779298608988003,
+            0.9646181708485166
+          ],
+          "material": "models/props/de_dust/hr_dust/dust_vehicles/dust_300d_color",
+          "displayName": "models/props/de_dust/hr_dust/dust_vehicles/dust_300d_color",
+          "sourceMaterial": {
+            "name": "models/props/de_dust/hr_dust/dust_vehicles/dust_300d_color",
+            "source": "models/props/de_dust/hr_dust/dust_vehicles/dust_300d_color",
+            "shader": "vertexlitgeneric",
+            "mapped": [
+              "$basetexture original VTF full-resolution RGB -> glTF baseColor"
+            ],
+            "unmapped": [
+              "$tintmasktexture",
+              "$envmapmaskintintmasktexture",
+              "$surfaceprop",
+              "$envmap",
+              "$envmaplightscale",
+              "$envmaplightscaleminmax",
+              "$envmapcontrast"
+            ],
+            "parameters": {
+              "$basetexture": "models\\props\\de_dust\\hr_dust\\dust_vehicles\\dust_300d_color",
+              "$tintmasktexture": "models\\props\\de_dust\\hr_dust\\dust_vehicles\\dust_300d_mask",
+              "$envmapmaskintintmasktexture": "1",
+              "$surfaceprop": "metalvehicle",
+              "$envmap": "env_cubemap",
+              "$envmaplightscale": "1",
+              "$envmaplightscaleminmax": "[0 1]",
+              "$envmapcontrast": ".5"
+            },
+            "rawVmtSha256": "5cb62cd5f6562516e942e5601c337ae35ed5d5b99e6bb87d5624bc8a2052cd64",
+            "group": "non_bump",
+            "reasons": [
+              "missing $bumpmap",
+              "$tintmasktexture",
+              "$envmapmaskintintmasktexture",
+              "$envmap",
+              "$envmaplightscale",
+              "$envmaplightscaleminmax",
+              "$envmapcontrast"
+            ],
+            "meshInstances": 6,
+            "triangles": 34438,
+            "eligibleMeshes": 0,
+            "eligibleTriangles": 0,
+            "ambiguousMeshes": 0,
+            "ambiguousTriangles": 0,
+            "modelVariants": [
+              "models/props/de_dust/hr_dust/dust_vehicles/dust_taxi_body.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_vehicles/dust_limo_lowpoly.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_vehicles/dust_taxi_sign.mdl|skin 0"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "team": "t",
+      "label": "upper_crate",
+      "pixel": [
+        420,
+        400
+      ],
+      "camera": {
+        "position": [
+          -20.888071,
+          5.4536086,
+          20.2093068
+        ],
+        "quaternion": [
+          0,
+          0.1478094111296104,
+          0,
+          0.989015863361917
+        ]
+      },
+      "hits": [
+        {
+          "mesh": "static_prop_1220_mesh_0",
+          "anchor": "static_prop_1220",
+          "identity": {
+            "name": "static_prop_1220",
+            "sourceModel": "models/props/de_dust/hr_dust/dust_crates/dust_crate_style_02_64x64x64b.mdl",
+            "sourceSkin": 3,
+            "sourceSolid": 6
+          },
+          "distance": 3.2502888830030923,
+          "point": [
+            -23.14317883527293,
+            5.699609686036523,
+            17.88157186235504
+          ],
+          "faceIndex": 2326,
+          "uv": [
+            -1.5414218370693793,
+            0.9756922173867322
+          ],
+          "material": "models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_02_painted_decals",
+          "displayName": "dust_shipping_crate_02_painted_decals",
+          "sourceMaterial": {
+            "name": "dust_shipping_crate_02_painted_decals",
+            "source": "models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_02_painted_decals",
+            "shader": "vertexlitgeneric",
+            "mapped": [
+              "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+              "tangent normal with green inversion"
+            ],
+            "unmapped": [
+              "$tintmasktexture",
+              "$surfaceprop",
+              "$decaltexture",
+              "$decalblendmode"
+            ],
+            "parameters": {
+              "$basetexture": "models\\props\\de_dust\\hr_dust\\dust_crates\\dust_shipping_crate_02_painted_color",
+              "$tintmasktexture": "models\\props\\de_dust\\hr_dust\\dust_crates\\dust_shipping_crate_02_painted_tint",
+              "$bumpmap": "models\\props\\de_dust\\hr_dust\\dust_crates\\dust_shipping_crate_02_wood_normal",
+              "$surfaceprop": "Wood_Panel",
+              "$decaltexture": "models\\props\\de_dust\\hr_dust\\dust_crates\\dust_shipping_crate_01_decal",
+              "$decalblendmode": "1"
+            },
+            "rawVmtSha256": "3b7db39e3830966d07fc3c16a330b9e2d4fd86918c3eaab75e0d5c6c9e9e4795",
+            "group": "decal",
+            "reasons": [
+              "$tintmasktexture",
+              "$decaltexture",
+              "$decalblendmode"
+            ],
+            "meshInstances": 22,
+            "triangles": 126605,
+            "eligibleMeshes": 0,
+            "eligibleTriangles": 0,
+            "ambiguousMeshes": 0,
+            "ambiguousTriangles": 0,
+            "modelVariants": [
+              "models/props/de_dust/hr_dust/dust_crates/dust_crate_style_02_64x64x75.mdl|skin 3",
+              "models/props/de_dust/hr_dust/dust_crates/dust_crate_style_02_64x64x64b.mdl|skin 3",
+              "models/props/de_dust/hr_dust/dust_crates/dust_crate_style_02_72x72x72.mdl|skin 3",
+              "models/props/autocombine/de_dust2/_autocombine_dust_crate_style_02_377.mdl|skin 3",
+              "models/props/autocombine/de_dust2/_autocombine_dust_crate_style_02_378.mdl|skin 3",
+              "models/props/de_dust/hr_dust/dust_crates/dust_crate_style_02_64x64x57.mdl|skin 3",
+              "models/props/autocombine/de_dust2/_autocombine_dust_crate_style_02_644.mdl|skin 3"
+            ]
+          }
+        },
+        {
+          "mesh": "props\\de_dust\\hr_dust\\dust_awnings\\dust_awning_commercial_01_1_Body_dmx\\dust_awning_commercial_01_136_short_fabric_b_MESH001_1",
+          "anchor": "static_prop_2652",
+          "identity": {
+            "name": "static_prop_2652",
+            "sourceModel": "models/props/de_dust/hr_dust/dust_awnings/dust_awning_commercial_01_136_short_fabric_b.mdl",
+            "sourceSkin": 0,
+            "sourceSolid": 6
+          },
+          "distance": 17.957614100255835,
+          "point": [
+            -33.34738083921594,
+            6.812747042859303,
+            7.348737403691528
+          ],
+          "faceIndex": 38,
+          "uv": [
+            0.2037026241173507,
+            0.725554804176929
+          ],
+          "material": "models/props/de_dust/hr_dust/dust_awnings/dust_awning_fabric_ripped_01",
+          "displayName": "models/props/de_dust/hr_dust/dust_awnings/dust_awning_fabric_ripped_01",
+          "sourceMaterial": {
+            "name": "models/props/de_dust/hr_dust/dust_awnings/dust_awning_fabric_ripped_01",
+            "source": "models/props/de_dust/hr_dust/dust_awnings/dust_awning_fabric_ripped_01",
+            "shader": "vertexlitgeneric",
+            "mapped": [
+              "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+              "base texture alpha",
+              "tangent normal with green inversion"
+            ],
+            "unmapped": [
+              "$nodecal",
+              "$surfaceprop"
+            ],
+            "parameters": {
+              "$basetexture": "models\\props\\de_dust\\hr_dust\\dust_awnings\\dust_awning_fabric_ripped_01_color",
+              "$bumpmap": "models\\props\\de_dust\\hr_dust\\dust_awnings\\dust_awning_fabric_ripped_01_normal",
+              "$nocull": "1",
+              "$nodecal": "1",
+              "$alphatest": "1",
+              "$surfaceprop": "carpet"
+            },
+            "rawVmtSha256": "d68b1f19a259891c4135ae861e5f852aa56bf3e14850026bbedc2acb85f0701a",
+            "alphaTest": 1,
+            "alphaCutoff": 0.5,
+            "group": "supported_plain_bump",
+            "reasons": [],
+            "meshInstances": 3,
+            "triangles": 1797,
+            "eligibleMeshes": 3,
+            "eligibleTriangles": 1797,
+            "ambiguousMeshes": 0,
+            "ambiguousTriangles": 0,
+            "modelVariants": [
+              "models/props/de_dust/hr_dust/dust_awnings/dust_awning_commercial_01_136_short_fabric_b.mdl|skin 0"
+            ]
+          }
+        },
+        {
+          "mesh": "static_prop_2653_mesh_0",
+          "anchor": "static_prop_2653",
+          "identity": {
+            "name": "static_prop_2653",
+            "sourceModel": "models/props/de_dust/hr_dust/dust_awnings/dust_awning_commercial_01_136_short_frame.mdl",
+            "sourceSkin": 0,
+            "sourceSolid": 6
+          },
+          "distance": 18.109901222054305,
+          "point": [
+            -33.453040334091845,
+            6.824273032917512,
+            7.239675081318457
+          ],
+          "faceIndex": 689,
+          "uv": [
+            0.7658700681417409,
+            0.5063149945449431
+          ],
+          "material": "models/props/de_dust/hr_dust/dust_awnings/dust_awning_fabric_frame_01",
+          "displayName": "models/props/de_dust/hr_dust/dust_awnings/dust_awning_fabric_frame_01",
+          "sourceMaterial": {
+            "name": "models/props/de_dust/hr_dust/dust_awnings/dust_awning_fabric_frame_01",
+            "source": "models/props/de_dust/hr_dust/dust_awnings/dust_awning_fabric_frame_01",
+            "shader": "vertexlitgeneric",
+            "mapped": [
+              "$basetexture original VTF full-resolution RGB -> glTF baseColor"
+            ],
+            "unmapped": [
+              "$notint",
+              "$surfaceprop"
+            ],
+            "parameters": {
+              "$basetexture": "models\\props\\de_dust\\hr_dust\\dust_awnings\\dust_awning_fabric_frame_01_color",
+              "$notint": "1",
+              "$surfaceprop": "metal"
+            },
+            "rawVmtSha256": "76c3cf20767e22cbb7da90add151dcc8f90197b02d46bed3d98e6505835548b2",
+            "group": "non_bump",
+            "reasons": [
+              "missing $bumpmap"
+            ],
+            "meshInstances": 30,
+            "triangles": 38684,
+            "eligibleMeshes": 0,
+            "eligibleTriangles": 0,
+            "ambiguousMeshes": 0,
+            "ambiguousTriangles": 0,
+            "modelVariants": [
+              "models/props/de_dust/hr_dust/dust_awnings/dust_awning_commercial_01_136_short_fabric_a.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_awnings/dust_awning_commercial_01_192_short_frame.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_awnings/dust_awning_commercial_01_256_frame.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_awnings/dust_awning_commercial_01_192_fabric_a.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_awnings/dust_awning_commercial_01_136_short_frame.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_awnings/dust_awning_commercial_01_136_short_fabric_b.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_awnings/dust_awning_commercial_01_192_frame.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_awnings/dust_awning_commercial_01_192_short_fabric_a.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_awnings/dust_awning_commercial_01_136_frame.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_awnings/dust_awning_commercial_01_256b_frame.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_awnings/dust_awning_commercial_01_136b_frame.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_awnings/dust_awning_commercial_01_136_fabric_a.mdl|skin 0"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "team": "t",
+      "label": "left_window_frame",
+      "pixel": [
+        663,
+        246
+      ],
+      "camera": {
+        "position": [
+          -20.888071,
+          5.4536086,
+          20.2093068
+        ],
+        "quaternion": [
+          0,
+          0.1478094111296104,
+          0,
+          0.989015863361917
+        ]
+      },
+      "hits": [
+        {
+          "mesh": "static_prop_1127_mesh_0",
+          "anchor": "static_prop_1127",
+          "identity": {
+            "name": "static_prop_1127",
+            "sourceModel": "models/props/autocombine/de_dust2/_autocombine_dust_window_bars_alpha_324.mdl",
+            "sourceSkin": 0,
+            "sourceSolid": 0
+          },
+          "distance": 4.388093330401858,
+          "point": [
+            -22.478342231761676,
+            6.889257796460234,
+            16.37977525287161
+          ],
+          "faceIndex": 1512,
+          "uv": [
+            0.05634712530825334,
+            0.019869495855658236
+          ],
+          "material": "models/props/de_dust/hr_dust/dust_windows/dust_window_bars_metal_01_alpha",
+          "displayName": "models/props/de_dust/hr_dust/dust_windows/dust_window_bars_metal_01_alpha",
+          "sourceMaterial": {
+            "name": "models/props/de_dust/hr_dust/dust_windows/dust_window_bars_metal_01_alpha",
+            "source": "models/props/de_dust/hr_dust/dust_windows/dust_window_bars_metal_01_alpha",
+            "shader": "vertexlitgeneric",
+            "mapped": [
+              "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+              "base texture alpha",
+              "tangent normal with green inversion"
+            ],
+            "unmapped": [
+              "$allowalphatocoverage",
+              "$surfaceprop"
+            ],
+            "parameters": {
+              "$basetexture": "models\\props\\de_dust\\hr_dust\\dust_windows\\dust_window_bars_metal_01_color",
+              "$bumpmap": "models\\props\\de_dust\\hr_dust\\dust_windows\\dust_window_bars_metal_01_normal",
+              "$alphatest": "1",
+              "$allowalphatocoverage": "1",
+              "$surfaceprop": "metal"
+            },
+            "rawVmtSha256": "e68077b6947cc31e9744f0b7315222125d5196473c8df66f6ef4951a56c59518",
+            "alphaTest": 1,
+            "alphaCutoff": 0.5,
+            "group": "supported_plain_bump",
+            "reasons": [],
+            "meshInstances": 7,
+            "triangles": 31930,
+            "eligibleMeshes": 7,
+            "eligibleTriangles": 31930,
+            "ambiguousMeshes": 0,
+            "ambiguousTriangles": 0,
+            "modelVariants": [
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_bars_alpha_321.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_bars_alpha_322.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_bars_alpha_323.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_bars_alpha_324.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_bars_alpha_325.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_bars_alpha_326.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_bars_24x24_02.mdl|skin 0"
+            ]
+          }
+        },
+        {
+          "mesh": "static_prop_2372_mesh_0",
+          "anchor": "static_prop_2372",
+          "identity": {
+            "name": "static_prop_2372",
+            "sourceModel": "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_593.mdl",
+            "sourceSkin": 0,
+            "sourceSolid": 6
+          },
+          "distance": 4.481993134484594,
+          "point": [
+            -22.51237208159788,
+            6.919978924779263,
+            16.297827984450343
+          ],
+          "faceIndex": 1828,
+          "uv": [
+            0.41207048464256635,
+            0.4386657853247547
+          ],
+          "material": "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01",
+          "displayName": "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01",
+          "sourceMaterial": {
+            "name": "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01",
+            "source": "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01",
+            "shader": "vertexlitgeneric",
+            "mapped": [
+              "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+              "tangent normal with green inversion"
+            ],
+            "unmapped": [
+              "$tintmasktexture",
+              "$surfaceprop"
+            ],
+            "parameters": {
+              "$basetexture": "models\\props\\de_dust\\hr_dust\\dust_windows\\dust_window_frame_wood_01_color",
+              "$bumpmap": "models\\props\\de_dust\\hr_dust\\dust_windows\\dust_window_frame_wood_01_normal",
+              "$tintmasktexture": "models\\props\\de_dust\\hr_dust\\dust_windows\\dust_window_frame_wood_01_tint",
+              "$surfaceprop": "wood"
+            },
+            "rawVmtSha256": "6d1a92ebdb2c86521c8e626104b443f57c08d95d8d210c65a77acf99778109bf",
+            "group": "tintmask",
+            "reasons": [
+              "$tintmasktexture"
+            ],
+            "meshInstances": 186,
+            "triangles": 318293,
+            "eligibleMeshes": 0,
+            "eligibleTriangles": 0,
+            "ambiguousMeshes": 0,
+            "ambiguousTriangles": 0,
+            "modelVariants": [
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_24x64_02.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_133.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_36x64_02.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_134.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_135.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_136.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_137.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_138.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_139.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_140.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_141.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_142.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_146.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_147.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_148.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_149.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_150.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_151.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_152.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_153.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_154.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_155.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_156.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_56x90_02.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_199.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_36x64_01_ajar.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_201.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_36x64_01_open.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_202.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_203.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_204.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_205.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_207.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_208.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_209.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_210.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_211.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_212.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_213.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_214.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_215.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_36x62_round_01.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_56x90_01.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_24x24_02.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_64x64_01_open.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_282.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_64x24_02.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_64x64_01_ajar.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_24x64_02_open.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_bars_64x64_05.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_367.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_368.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_370.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_371.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_372.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_373.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_24x64_01_ajar.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_24x64_02_ajar.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_376.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_64x24_02_open.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_24x24_02_OPEN.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_383.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_384.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_385.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_24x64_01_open.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_24x64_01_closed.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_420.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_421.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_430.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_24x24_01.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_433.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_436.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_437.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_438.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_466.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_quarter_round_112_01.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_546.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_547.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_56x90_03.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_590.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_591.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_593.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_bars_24x64_05.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_606.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_620.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_64x24_01.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_24x24_02_closed.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_649.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_36x64_02_open.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_24x24_02_open.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_bars_36x64_05.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_36x64_02_closed.mdl|skin 0"
+            ]
+          }
+        },
+        {
+          "mesh": "static_prop_2648_mesh_0",
+          "anchor": "static_prop_2648",
+          "identity": {
+            "name": "static_prop_2648",
+            "sourceModel": "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_616.mdl",
+            "sourceSkin": 0,
+            "sourceSolid": 6
+          },
+          "distance": 18.415407710509204,
+          "point": [
+            -27.561924744241807,
+            11.47856369813119,
+            4.13800214199994
+          ],
+          "faceIndex": 10085,
+          "uv": [
+            0.22422486860278593,
+            0.5140080641382575
+          ],
+          "material": "models/props/de_dust/hr_dust/dust_trims/hr_dust_roof_trim001_color",
+          "displayName": "models/props/de_dust/hr_dust/dust_trims/hr_dust_roof_trim001_color",
+          "sourceMaterial": {
+            "name": "models/props/de_dust/hr_dust/dust_trims/hr_dust_roof_trim001_color",
+            "source": "models/props/de_dust/hr_dust/dust_trims/hr_dust_roof_trim001_color",
+            "shader": "vertexlitgeneric",
+            "mapped": [
+              "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+              "tangent normal with green inversion"
+            ],
+            "unmapped": [],
+            "parameters": {
+              "$basetexture": "models/props/de_dust/hr_dust/dust_trims/hr_dust_roof_trim001_color.vtf",
+              "$bumpmap": "models\\props\\de_dust\\hr_dust\\dust_trims\\hr_dust_roof_trim001_normal.vtf"
+            },
+            "rawVmtSha256": "776743e04e33656f4cee73d2911fde5ab1d07a4302727b1e265bcd0585b5cff2",
+            "group": "supported_plain_bump",
+            "reasons": [],
+            "meshInstances": 103,
+            "triangles": 629748,
+            "eligibleMeshes": 103,
+            "eligibleTriangles": 629748,
+            "ambiguousMeshes": 0,
+            "ambiguousTriangles": 0,
+            "modelVariants": [
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_19.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_20.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_21.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_22.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_23.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_24.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_25.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_26.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_27.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_28.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_trims/dust_roof_trim001_32.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_29.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_30.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_31.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_32.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_33.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_34.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_35.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_36.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_37.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_38.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_39.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_183.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_184.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_185.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_186.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_187.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_188.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_trims/dust_roof_trim001_128.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_200.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_trims/dust_roof_trim001_256.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_206.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_trims/dust_roof_trim001_64.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_251.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_297.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_298.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_299.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_300.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_trims/dust_roof_trim001_cn.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_301.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_302.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_303.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_304.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_305.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_306.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_307.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_308.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_309.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_330.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_331.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_332.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_333.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_363.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_364.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_365.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_366.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_380.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_422.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_423.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_424.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_425.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_520.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_521.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_552.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_553.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_571.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_579.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_580.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_601.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_615.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_616.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_619.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_622.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_623.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_626.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_627.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_628.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_633.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_634.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_640.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_641.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_647.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_648.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_652.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_653.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_665.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_666.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_hr_dust_roof_trim001_color_677.mdl|skin 0"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "team": "t",
+      "label": "right_window_frame",
+      "pixel": [
+        1008,
+        313
+      ],
+      "camera": {
+        "position": [
+          -20.888071,
+          5.4536086,
+          20.2093068
+        ],
+        "quaternion": [
+          0,
+          0.1478094111296104,
+          0,
+          0.989015863361917
+        ]
+      },
+      "hits": [
+        {
+          "mesh": "static_prop_2372_mesh_0",
+          "anchor": "static_prop_2372",
+          "identity": {
+            "name": "static_prop_2372",
+            "sourceModel": "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_593.mdl",
+            "sourceSkin": 0,
+            "sourceSolid": 6
+          },
+          "distance": 4.058431313884103,
+          "point": [
+            -20.25608415555164,
+            6.28649837373348,
+            16.287859110336214
+          ],
+          "faceIndex": 2017,
+          "uv": [
+            0.7880458912342585,
+            0.47008199286806085
+          ],
+          "material": "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01",
+          "displayName": "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01",
+          "sourceMaterial": {
+            "name": "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01",
+            "source": "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01",
+            "shader": "vertexlitgeneric",
+            "mapped": [
+              "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+              "tangent normal with green inversion"
+            ],
+            "unmapped": [
+              "$tintmasktexture",
+              "$surfaceprop"
+            ],
+            "parameters": {
+              "$basetexture": "models\\props\\de_dust\\hr_dust\\dust_windows\\dust_window_frame_wood_01_color",
+              "$bumpmap": "models\\props\\de_dust\\hr_dust\\dust_windows\\dust_window_frame_wood_01_normal",
+              "$tintmasktexture": "models\\props\\de_dust\\hr_dust\\dust_windows\\dust_window_frame_wood_01_tint",
+              "$surfaceprop": "wood"
+            },
+            "rawVmtSha256": "6d1a92ebdb2c86521c8e626104b443f57c08d95d8d210c65a77acf99778109bf",
+            "group": "tintmask",
+            "reasons": [
+              "$tintmasktexture"
+            ],
+            "meshInstances": 186,
+            "triangles": 318293,
+            "eligibleMeshes": 0,
+            "eligibleTriangles": 0,
+            "ambiguousMeshes": 0,
+            "ambiguousTriangles": 0,
+            "modelVariants": [
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_24x64_02.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_133.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_36x64_02.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_134.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_135.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_136.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_137.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_138.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_139.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_140.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_141.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_142.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_146.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_147.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_148.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_149.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_150.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_151.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_152.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_153.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_154.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_155.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_156.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_56x90_02.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_199.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_36x64_01_ajar.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_201.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_36x64_01_open.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_202.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_203.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_204.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_205.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_207.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_208.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_209.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_210.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_211.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_212.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_213.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_214.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_215.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_36x62_round_01.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_56x90_01.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_24x24_02.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_64x64_01_open.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_282.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_64x24_02.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_64x64_01_ajar.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_24x64_02_open.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_bars_64x64_05.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_367.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_368.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_370.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_371.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_372.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_373.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_24x64_01_ajar.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_24x64_02_ajar.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_376.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_64x24_02_open.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_24x24_02_OPEN.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_383.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_384.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_385.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_24x64_01_open.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_24x64_01_closed.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_420.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_421.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_430.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_24x24_01.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_433.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_436.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_437.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_438.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_466.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_quarter_round_112_01.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_546.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_547.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_56x90_03.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_590.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_591.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_593.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_bars_24x64_05.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_606.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_620.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_64x24_01.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_24x24_02_closed.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_649.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_36x64_02_open.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_24x24_02_open.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_bars_36x64_05.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_36x64_02_closed.mdl|skin 0"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "team": "t",
+      "label": "cable",
+      "pixel": [
+        841,
+        184
+      ],
+      "camera": {
+        "position": [
+          -20.888071,
+          5.4536086,
+          20.2093068
+        ],
+        "quaternion": [
+          0,
+          0.1478094111296104,
+          0,
+          0.989015863361917
+        ]
+      },
+      "hits": []
+    },
+    {
+      "team": "ct",
+      "label": "left_crate",
+      "pixel": [
+        64,
+        506
+      ],
+      "camera": {
+        "position": [
+          9.706228999999999,
+          -1.1429999999999998,
+          -53.401976
+        ],
+        "quaternion": [
+          0,
+          0.09584575252022381,
+          0,
+          0.9953961983671789
+        ]
+      },
+      "hits": [
+        {
+          "mesh": "static_prop_2785_mesh_0",
+          "anchor": "static_prop_2785",
+          "identity": {
+            "name": "static_prop_2785",
+            "sourceModel": "models/props/de_dust/hr_dust/dust_crates/dust_crate_assembly_100x100_01_tarp.mdl",
+            "sourceSkin": 0,
+            "sourceSolid": 6
+          },
+          "distance": 8.705192894339774,
+          "point": [
+            2.243611968487838,
+            -1.6958978760283667,
+            -57.849900719161916
+          ],
+          "faceIndex": 861,
+          "uv": [
+            0.7976485607384813,
+            0.8949341986281953
+          ],
+          "material": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_tarp_04",
+          "displayName": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_tarp_04",
+          "sourceMaterial": {
+            "name": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_tarp_04",
+            "source": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_tarp_04",
+            "shader": "vertexlitgeneric",
+            "mapped": [
+              "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+              "tangent normal with green inversion"
+            ],
+            "unmapped": [
+              "$tintmasktexture",
+              "$surfaceprop"
+            ],
+            "parameters": {
+              "$basetexture": "models\\props\\de_dust\\hr_dust\\dust_kasbah\\dust_kasbah_tarp_04_color",
+              "$bumpmap": "models\\props\\de_dust\\hr_dust\\dust_kasbah\\dust_kasbah_tarp_04_normal",
+              "$tintmasktexture": "models\\props\\de_dust\\hr_dust\\dust_kasbah\\dust_kasbah_tarp_04_tint",
+              "$surfaceprop": "carpet"
+            },
+            "rawVmtSha256": "26bfd14dd09999fad9a67f8b2fd76b03e4b3ad2e33ff4f106aca228340cbc0d0",
+            "group": "tintmask",
+            "reasons": [
+              "$tintmasktexture"
+            ],
+            "meshInstances": 5,
+            "triangles": 9751,
+            "eligibleMeshes": 0,
+            "eligibleTriangles": 0,
+            "ambiguousMeshes": 0,
+            "ambiguousTriangles": 0,
+            "modelVariants": [
+              "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_mudbrick_pile_07_tarp.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_crates/dust_crate_assembly_100x100_01_tarp.mdl|skin 0"
+            ]
+          }
+        },
+        {
+          "mesh": "props\\de_dust\\hr_dust\\dust_crates\\dust_crate_assembly_100x100__Body_dmx\\dust_crate_assembly_100x100_01_MESH003_1",
+          "anchor": "static_prop_2784",
+          "identity": {
+            "name": "static_prop_2784",
+            "sourceModel": "models/props/de_dust/hr_dust/dust_crates/dust_crate_assembly_100x100_01.mdl",
+            "sourceSkin": 3,
+            "sourceSolid": 6
+          },
+          "distance": 8.74850639774789,
+          "point": [
+            2.206481017783914,
+            -1.698648871247929,
+            -57.87203178562085
+          ],
+          "faceIndex": 108,
+          "uv": [
+            0.6672668345988876,
+            0.39321664737805573
+          ],
+          "material": "models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_02_painted_color",
+          "displayName": "dust_shipping_crate_02_painted_color",
+          "sourceMaterial": {
+            "name": "dust_shipping_crate_02_painted_color",
+            "source": "models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_02_painted_color",
+            "shader": "vertexlitgeneric",
+            "mapped": [
+              "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+              "tangent normal with green inversion"
+            ],
+            "unmapped": [
+              "$tintmasktexture",
+              "$surfaceprop"
+            ],
+            "parameters": {
+              "$basetexture": "models\\props\\de_dust\\hr_dust\\dust_crates\\dust_shipping_crate_02_painted_color",
+              "$tintmasktexture": "models\\props\\de_dust\\hr_dust\\dust_crates\\dust_shipping_crate_02_painted_tint",
+              "$bumpmap": "models\\props\\de_dust\\hr_dust\\dust_crates\\dust_shipping_crate_02_wood_normal",
+              "$surfaceprop": "Wood_Panel"
+            },
+            "rawVmtSha256": "0742e99d44844f51e5d785c9941808a70d0760f51dcbb75004f620831d60c87c",
+            "group": "tintmask",
+            "reasons": [
+              "$tintmasktexture"
+            ],
+            "meshInstances": 3,
+            "triangles": 10271,
+            "eligibleMeshes": 0,
+            "eligibleTriangles": 0,
+            "ambiguousMeshes": 0,
+            "ambiguousTriangles": 0,
+            "modelVariants": [
+              "models/props/de_dust/hr_dust/dust_crates/dust_crate_assembly_100x100_01.mdl|skin 3",
+              "models/props/de_dust/hr_dust/dust_crates/dust_crate_style_02_72x36x72.mdl|skin 2"
+            ]
+          }
+        },
+        {
+          "mesh": "props\\de_dust\\hr_dust\\dust_kasbah\\dust_kasbah_tower_01bmdl_Body_dust_kasbah_tower_01fbx_MESH001_1",
+          "anchor": "static_prop_2783",
+          "identity": {
+            "name": "static_prop_2783",
+            "sourceModel": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_tower_01b.mdl",
+            "sourceSkin": 0,
+            "sourceSolid": 6
+          },
+          "distance": 15.120233651784112,
+          "point": [
+            -3.2557483553341013,
+            -2.103340014585985,
+            -61.127670517694554
+          ],
+          "faceIndex": 259,
+          "uv": [
+            0.712097910343098,
+            -1.9077090187057584
+          ],
+          "material": "models/props/de_dust/hr_dust/dust_kasbah/dust_mudbrick_tower_01_plaster",
+          "displayName": "dust_mudbrick_tower_01_plaster",
+          "sourceMaterial": {
+            "name": "dust_mudbrick_tower_01_plaster",
+            "source": "models/props/de_dust/hr_dust/dust_kasbah/dust_mudbrick_tower_01_plaster",
+            "shader": "vertexlitgeneric",
+            "mapped": [
+              "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+              "tangent normal with green inversion"
+            ],
+            "unmapped": [
+              "$surfaceprop",
+              "$phong",
+              "$phongexponent",
+              "$phongalbedotint",
+              "$phongtint",
+              "$phongdisablehalflambert",
+              "$phongboost",
+              "$decaltexture",
+              "$decalblendmode"
+            ],
+            "parameters": {
+              "$basetexture": "models/props/de_dust/hr_dust/dust_kasbah/dust_mudbrick_plaster_color.vtf",
+              "$bumpmap": "models/props/de_dust/hr_dust/dust_kasbah/dust_mudbrick_plaster_normal.vtf",
+              "$surfaceprop": "concrete",
+              "$phong": "1",
+              "$phongexponent": "5",
+              "$phongalbedotint": "0",
+              "$phongtint": "[.05 .05 .05]",
+              "$phongdisablehalflambert": "1",
+              "$phongboost": "0",
+              "$decaltexture": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_tower_01_dirt.vtf",
+              "$decalblendmode": "1"
+            },
+            "rawVmtSha256": "08a0dd3372256bb18b24001b9d2a26155fc1a87b710af709a6e8487249bcc56e",
+            "group": "phong",
+            "reasons": [
+              "$phong",
+              "$phongexponent",
+              "$phongalbedotint",
+              "$phongtint",
+              "$phongdisablehalflambert",
+              "$phongboost",
+              "$decaltexture",
+              "$decalblendmode"
+            ],
+            "meshInstances": 6,
+            "triangles": 4884,
+            "eligibleMeshes": 0,
+            "eligibleTriangles": 0,
+            "ambiguousMeshes": 0,
+            "ambiguousTriangles": 0,
+            "modelVariants": [
+              "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_tower_01b.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_tower_01.mdl|skin 0"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "team": "ct",
+      "label": "hanging_lamp",
+      "pixel": [
+        712,
+        284
+      ],
+      "camera": {
+        "position": [
+          9.706228999999999,
+          -1.1429999999999998,
+          -53.401976
+        ],
+        "quaternion": [
+          0,
+          0.09584575252022381,
+          0,
+          0.9953961983671789
+        ]
+      },
+      "hits": [
+        {
+          "mesh": "static_prop_2650_mesh_0",
+          "anchor": "static_prop_2650",
+          "identity": {
+            "name": "static_prop_2650",
+            "sourceModel": "models/props/de_dust/hr_dust/dust_lights/dust_hanging_light_02_short.mdl",
+            "sourceSkin": 0,
+            "sourceSolid": 6
+          },
+          "distance": 7.216290853469977,
+          "point": [
+            8.28849297394942,
+            0.8222429703190829,
+            -60.19923267530101
+          ],
+          "faceIndex": 1102,
+          "uv": [
+            0.7300409557103549,
+            0.21121376375111506
+          ],
+          "material": "models/props/de_dust/hr_dust/dust_lights/dust_hanging_light_02_on",
+          "displayName": "models/props/de_dust/hr_dust/dust_lights/dust_hanging_light_02_on",
+          "sourceMaterial": {
+            "name": "models/props/de_dust/hr_dust/dust_lights/dust_hanging_light_02_on",
+            "source": "models/props/de_dust/hr_dust/dust_lights/dust_hanging_light_02_on",
+            "shader": "vertexlitgeneric",
+            "mapped": [
+              "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+              "tangent normal with green inversion"
+            ],
+            "unmapped": [
+              "$tintmasktexture",
+              "$envmapmaskintintmasktexture",
+              "$selfillum",
+              "$selfillumtint",
+              "$envmap",
+              "$envmaplightscale",
+              "$envmaplightscaleminmax",
+              "$envmapcontrast",
+              "$envmaptint",
+              "$surfaceprop"
+            ],
+            "parameters": {
+              "$basetexture": "models\\props\\de_dust\\hr_dust\\dust_lights\\dust_hanging_light_02_color",
+              "$bumpmap": "models\\props\\de_dust\\hr_dust\\dust_lights\\dust_hanging_light_02_normal",
+              "$tintmasktexture": "models\\props\\de_dust\\hr_dust\\dust_lights\\dust_hanging_light_02_tint",
+              "$envmapmaskintintmasktexture": "1",
+              "$selfillum": "1",
+              "$selfillumtint": "[4 4 3]",
+              "$envmap": "models\\props\\de_dust\\hr_dust\\dust_cubemap\\dust_cubemap",
+              "$envmaplightscale": "1",
+              "$envmaplightscaleminmax": "[0 1]",
+              "$envmapcontrast": "0.15",
+              "$envmaptint": "[0.6 0.6 0.6]",
+              "$surfaceprop": "metal"
+            },
+            "rawVmtSha256": "4ecef33e7e2d4c8062cbd4cbafe8c8b17f4cab8a1314107e23193c2f6add1a74",
+            "group": "envmap",
+            "reasons": [
+              "$tintmasktexture",
+              "$envmapmaskintintmasktexture",
+              "$selfillum",
+              "$selfillumtint",
+              "$envmap",
+              "$envmaplightscale",
+              "$envmaplightscaleminmax",
+              "$envmapcontrast",
+              "$envmaptint"
+            ],
+            "meshInstances": 5,
+            "triangles": 6764,
+            "eligibleMeshes": 0,
+            "eligibleTriangles": 0,
+            "ambiguousMeshes": 0,
+            "ambiguousTriangles": 0,
+            "modelVariants": [
+              "models/props/de_dust/hr_dust/dust_lights/dust_hanging_light_02.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_lights/dust_hanging_light_02_short.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_lights/dust_hanging_light_02_short_broken.mdl|skin 0"
+            ]
+          }
+        },
+        {
+          "mesh": "static_prop_2650_mesh_0",
+          "anchor": "static_prop_2650",
+          "identity": {
+            "name": "static_prop_2650",
+            "sourceModel": "models/props/de_dust/hr_dust/dust_lights/dust_hanging_light_02_short.mdl",
+            "sourceSkin": 0,
+            "sourceSolid": 6
+          },
+          "distance": 7.400984659947092,
+          "point": [
+            8.252207426630452,
+            0.8725414147985044,
+            -60.373201717632455
+          ],
+          "faceIndex": 841,
+          "uv": [
+            0.16218979614519763,
+            0.9270478751364729
+          ],
+          "material": "models/props/de_dust/hr_dust/dust_lights/dust_hanging_light_02_on",
+          "displayName": "models/props/de_dust/hr_dust/dust_lights/dust_hanging_light_02_on",
+          "sourceMaterial": {
+            "name": "models/props/de_dust/hr_dust/dust_lights/dust_hanging_light_02_on",
+            "source": "models/props/de_dust/hr_dust/dust_lights/dust_hanging_light_02_on",
+            "shader": "vertexlitgeneric",
+            "mapped": [
+              "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+              "tangent normal with green inversion"
+            ],
+            "unmapped": [
+              "$tintmasktexture",
+              "$envmapmaskintintmasktexture",
+              "$selfillum",
+              "$selfillumtint",
+              "$envmap",
+              "$envmaplightscale",
+              "$envmaplightscaleminmax",
+              "$envmapcontrast",
+              "$envmaptint",
+              "$surfaceprop"
+            ],
+            "parameters": {
+              "$basetexture": "models\\props\\de_dust\\hr_dust\\dust_lights\\dust_hanging_light_02_color",
+              "$bumpmap": "models\\props\\de_dust\\hr_dust\\dust_lights\\dust_hanging_light_02_normal",
+              "$tintmasktexture": "models\\props\\de_dust\\hr_dust\\dust_lights\\dust_hanging_light_02_tint",
+              "$envmapmaskintintmasktexture": "1",
+              "$selfillum": "1",
+              "$selfillumtint": "[4 4 3]",
+              "$envmap": "models\\props\\de_dust\\hr_dust\\dust_cubemap\\dust_cubemap",
+              "$envmaplightscale": "1",
+              "$envmaplightscaleminmax": "[0 1]",
+              "$envmapcontrast": "0.15",
+              "$envmaptint": "[0.6 0.6 0.6]",
+              "$surfaceprop": "metal"
+            },
+            "rawVmtSha256": "4ecef33e7e2d4c8062cbd4cbafe8c8b17f4cab8a1314107e23193c2f6add1a74",
+            "group": "envmap",
+            "reasons": [
+              "$tintmasktexture",
+              "$envmapmaskintintmasktexture",
+              "$selfillum",
+              "$selfillumtint",
+              "$envmap",
+              "$envmaplightscale",
+              "$envmaplightscaleminmax",
+              "$envmapcontrast",
+              "$envmaptint"
+            ],
+            "meshInstances": 5,
+            "triangles": 6764,
+            "eligibleMeshes": 0,
+            "eligibleTriangles": 0,
+            "ambiguousMeshes": 0,
+            "ambiguousTriangles": 0,
+            "modelVariants": [
+              "models/props/de_dust/hr_dust/dust_lights/dust_hanging_light_02.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_lights/dust_hanging_light_02_short.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_lights/dust_hanging_light_02_short_broken.mdl|skin 0"
+            ]
+          }
+        },
+        {
+          "mesh": "static_prop_2338_mesh_0",
+          "anchor": "static_prop_2338",
+          "identity": {
+            "name": "static_prop_2338",
+            "sourceModel": "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_ceiling_584.mdl",
+            "sourceSkin": 0,
+            "sourceSolid": 6
+          },
+          "distance": 9.275514517461978,
+          "point": [
+            7.883931179889592,
+            1.383040049060581,
+            -62.13888173881914
+          ],
+          "faceIndex": 2001,
+          "uv": [
+            0.9390859776039469,
+            0.17196898132217545
+          ],
+          "material": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_ceiling",
+          "displayName": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_ceiling",
+          "sourceMaterial": {
+            "name": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_ceiling",
+            "source": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_ceiling",
+            "shader": "vertexlitgeneric",
+            "mapped": [
+              "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+              "tangent normal with green inversion"
+            ],
+            "unmapped": [
+              "$surfaceprop"
+            ],
+            "parameters": {
+              "$basetexture": "models\\props\\de_dust\\hr_dust\\dust_kasbah\\dust_kasbah_ceiling_color",
+              "$bumpmap": "models\\props\\de_dust\\hr_dust\\dust_kasbah\\dust_kasbah_ceiling_normal",
+              "$surfaceprop": "wood"
+            },
+            "rawVmtSha256": "f47df1153f12c17100880f2792fbcd4506ef7910e102e334d347bb5463cbbe87",
+            "group": "supported_plain_bump",
+            "reasons": [],
+            "meshInstances": 5,
+            "triangles": 12880,
+            "eligibleMeshes": 5,
+            "eligibleTriangles": 12880,
+            "ambiguousMeshes": 0,
+            "ambiguousTriangles": 0,
+            "modelVariants": [
+              "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_ceiling_584.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_ceiling_611.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_ceiling_l_tunnels_01.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_ceiling_192_02.mdl|skin 0"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "team": "ct",
+      "label": "cable",
+      "pixel": [
+        950,
+        255
+      ],
+      "camera": {
+        "position": [
+          9.706228999999999,
+          -1.1429999999999998,
+          -53.401976
+        ],
+        "quaternion": [
+          0,
+          0.09584575252022381,
+          0,
+          0.9953961983671789
+        ]
+      },
+      "hits": [
+        {
+          "mesh": "static_prop_2338_mesh_0",
+          "anchor": "static_prop_2338",
+          "identity": {
+            "name": "static_prop_2338",
+            "sourceModel": "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_ceiling_584.mdl",
+            "sourceSkin": 0,
+            "sourceSolid": 6
+          },
+          "distance": 8.529097686678178,
+          "point": [
+            11.179077143602097,
+            1.379132103494524,
+            -61.41540693483117
+          ],
+          "faceIndex": 1372,
+          "uv": [
+            0.8337735911623904,
+            0.46835161042163065
+          ],
+          "material": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_ceiling",
+          "displayName": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_ceiling",
+          "sourceMaterial": {
+            "name": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_ceiling",
+            "source": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_ceiling",
+            "shader": "vertexlitgeneric",
+            "mapped": [
+              "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+              "tangent normal with green inversion"
+            ],
+            "unmapped": [
+              "$surfaceprop"
+            ],
+            "parameters": {
+              "$basetexture": "models\\props\\de_dust\\hr_dust\\dust_kasbah\\dust_kasbah_ceiling_color",
+              "$bumpmap": "models\\props\\de_dust\\hr_dust\\dust_kasbah\\dust_kasbah_ceiling_normal",
+              "$surfaceprop": "wood"
+            },
+            "rawVmtSha256": "f47df1153f12c17100880f2792fbcd4506ef7910e102e334d347bb5463cbbe87",
+            "group": "supported_plain_bump",
+            "reasons": [],
+            "meshInstances": 5,
+            "triangles": 12880,
+            "eligibleMeshes": 5,
+            "eligibleTriangles": 12880,
+            "ambiguousMeshes": 0,
+            "ambiguousTriangles": 0,
+            "modelVariants": [
+              "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_ceiling_584.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_ceiling_611.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_ceiling_l_tunnels_01.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_ceiling_192_02.mdl|skin 0"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "team": "ct",
+      "label": "cable_precise_1",
+      "pixel": [
+        1000,
+        191
+      ],
+      "camera": {
+        "position": [
+          9.706228999999999,
+          -1.1429999999999998,
+          -53.401976
+        ],
+        "quaternion": [
+          0,
+          0.09584575252022381,
+          0,
+          0.9953961983671789
+        ]
+      },
+      "hits": [
+        {
+          "mesh": "static_prop_2338_mesh_0",
+          "anchor": "static_prop_2338",
+          "identity": {
+            "name": "static_prop_2338",
+            "sourceModel": "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_ceiling_584.mdl",
+            "sourceSkin": 0,
+            "sourceSolid": 6
+          },
+          "distance": 6.813588647077113,
+          "point": [
+            11.293349566602894,
+            1.3795565576309563,
+            -59.52918963853075
+          ],
+          "faceIndex": 2923,
+          "uv": [
+            0.7694154261246663,
+            0.6218022913812791
+          ],
+          "material": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_ceiling",
+          "displayName": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_ceiling",
+          "sourceMaterial": {
+            "name": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_ceiling",
+            "source": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_ceiling",
+            "shader": "vertexlitgeneric",
+            "mapped": [
+              "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+              "tangent normal with green inversion"
+            ],
+            "unmapped": [
+              "$surfaceprop"
+            ],
+            "parameters": {
+              "$basetexture": "models\\props\\de_dust\\hr_dust\\dust_kasbah\\dust_kasbah_ceiling_color",
+              "$bumpmap": "models\\props\\de_dust\\hr_dust\\dust_kasbah\\dust_kasbah_ceiling_normal",
+              "$surfaceprop": "wood"
+            },
+            "rawVmtSha256": "f47df1153f12c17100880f2792fbcd4506ef7910e102e334d347bb5463cbbe87",
+            "group": "supported_plain_bump",
+            "reasons": [],
+            "meshInstances": 5,
+            "triangles": 12880,
+            "eligibleMeshes": 5,
+            "eligibleTriangles": 12880,
+            "ambiguousMeshes": 0,
+            "ambiguousTriangles": 0,
+            "modelVariants": [
+              "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_ceiling_584.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_ceiling_611.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_ceiling_l_tunnels_01.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_ceiling_192_02.mdl|skin 0"
+            ]
+          }
+        },
+        {
+          "mesh": "static_prop_1887_mesh_0",
+          "anchor": "static_prop_1887",
+          "identity": {
+            "name": "static_prop_1887",
+            "sourceModel": "models/props/autocombine/de_dust2/_autocombine_dust_railing_d_477.mdl",
+            "sourceSkin": 1,
+            "sourceSolid": 6
+          },
+          "distance": 23.301745324545415,
+          "point": [
+            15.13401179669021,
+            7.483873959861651,
+            -74.35639211600258
+          ],
+          "faceIndex": 1069,
+          "uv": [
+            0.45201084585561246,
+            0.43259745242919684
+          ],
+          "material": "models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_06b",
+          "displayName": "dust_door_46x106_06B",
+          "sourceMaterial": {
+            "name": "dust_door_46x106_06B",
+            "source": "models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_06b",
+            "shader": "vertexlitgeneric",
+            "mapped": [
+              "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+              "tangent normal with green inversion"
+            ],
+            "unmapped": [
+              "$tintmasktexture",
+              "$surfaceprop"
+            ],
+            "parameters": {
+              "$basetexture": "models\\props\\de_dust\\hr_dust\\dust_doors\\dust_door_46x106_06_colorb",
+              "$bumpmap": "models\\props\\de_dust\\hr_dust\\dust_doors\\dust_door_46x106_06_normal",
+              "$tintmasktexture": "models\\props\\de_dust\\hr_dust\\dust_doors\\dust_door_46x106_06_tint",
+              "$surfaceprop": "metal"
+            },
+            "rawVmtSha256": "9f38e1c9adf4e20ab89f893b5102a3af498bb656674d8f8096f8ca5461018b09",
+            "group": "tintmask",
+            "reasons": [
+              "$tintmasktexture"
+            ],
+            "meshInstances": 40,
+            "triangles": 200028,
+            "eligibleMeshes": 0,
+            "eligibleTriangles": 0,
+            "ambiguousMeshes": 1,
+            "ambiguousTriangles": 5480,
+            "modelVariants": [
+              "models/props/de_dust/hr_dust/dust_doors/dust_door_80x128_06_round.mdl|skin 1",
+              "models/props/de_dust/hr_dust/dust_doors/dust_door_80x128_05.mdl|skin 1",
+              "models/props/autocombine/de_dust2/_autocombine_dust_railing_d_469.mdl|skin 1",
+              "models/props/autocombine/de_dust2/_autocombine_dust_railing_d_477.mdl|skin 1",
+              "models/props/autocombine/de_dust2/_autocombine_dust_railing_d_513.mdl|skin 1",
+              "models/props/autocombine/de_dust2/_autocombine_dust_railing_d_524.mdl|skin 1",
+              "models/props/autocombine/de_dust2/_autocombine_dust_railing_d_525.mdl|skin 1",
+              "models/props/de_dust/hr_dust/dust_railings/dust_railing_e_end.mdl|skin 1",
+              "models/props/autocombine/de_dust2/_autocombine_dust_railing_d_576.mdl|skin 1",
+              "models/props/autocombine/de_dust2/_autocombine_dust_railing_d_585.mdl|skin 1",
+              "models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_06.mdl|skin 1",
+              "models/props/autocombine/de_dust2/_autocombine_dust_railing_d_643.mdl|skin 1",
+              "models/props/autocombine/de_dust2/_autocombine_dust_railing_d_670.mdl|skin 1"
+            ]
+          }
+        },
+        {
+          "mesh": "static_prop_1044_mesh_0",
+          "anchor": "static_prop_1044",
+          "identity": {
+            "name": "static_prop_1044",
+            "sourceModel": "models/props/autocombine/de_dust2/_autocombine_dust_hotel_arch001_color_292.mdl",
+            "sourceSkin": 0,
+            "sourceSolid": 6
+          },
+          "distance": 25.60606756751165,
+          "point": [
+            15.670768183570285,
+            8.336990208284263,
+            -76.42858569944254
+          ],
+          "faceIndex": 5252,
+          "uv": [
+            0.5284969531823761,
+            0.921215904387698
+          ],
+          "material": "models/props/de_dust/hr_dust/dust_arches/dust_hotel_arch001_color",
+          "displayName": "models/props/de_dust/hr_dust/dust_arches/dust_hotel_arch001_color",
+          "sourceMaterial": {
+            "name": "models/props/de_dust/hr_dust/dust_arches/dust_hotel_arch001_color",
+            "source": "models/props/de_dust/hr_dust/dust_arches/dust_hotel_arch001_color",
+            "shader": "vertexlitgeneric",
+            "mapped": [
+              "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+              "tangent normal with green inversion"
+            ],
+            "unmapped": [],
+            "parameters": {
+              "$basetexture": "models/props/de_dust/hr_dust/dust_arches/dust_hotel_arch001_color.vtf",
+              "$bumpmap": "models\\props\\de_dust\\hr_dust\\dust_arches\\dust_hotel_arch001_normal"
+            },
+            "rawVmtSha256": "07068c03ac0f2607fe7e23c9b59b5790a68b5877b1ab128821e7177bf5c909f8",
+            "group": "supported_plain_bump",
+            "reasons": [],
+            "meshInstances": 3,
+            "triangles": 13768,
+            "eligibleMeshes": 3,
+            "eligibleTriangles": 13768,
+            "ambiguousMeshes": 0,
+            "ambiguousTriangles": 0,
+            "modelVariants": [
+              "models/props/autocombine/de_dust2/_autocombine_dust_hotel_arch001_color_291.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_hotel_arch001_color_292.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_hotel_arch001_color_526.mdl|skin 0"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "team": "ct",
+      "label": "cable_precise_2",
+      "pixel": [
+        1160,
+        177
+      ],
+      "camera": {
+        "position": [
+          9.706228999999999,
+          -1.1429999999999998,
+          -53.401976
+        ],
+        "quaternion": [
+          0,
+          0.09584575252022381,
+          0,
+          0.9953961983671789
+        ]
+      },
+      "hits": [
+        {
+          "mesh": "static_prop_2338_mesh_0",
+          "anchor": "static_prop_2338",
+          "identity": {
+            "name": "static_prop_2338",
+            "sourceModel": "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_ceiling_584.mdl",
+            "sourceSkin": 0,
+            "sourceSolid": 6
+          },
+          "distance": 7.228828342246679,
+          "point": [
+            12.663181222309372,
+            1.3795256708377694,
+            -59.49699503168587
+          ],
+          "faceIndex": 2953,
+          "uv": [
+            0.7740987109666646,
+            0.8814785176535426
+          ],
+          "material": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_ceiling",
+          "displayName": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_ceiling",
+          "sourceMaterial": {
+            "name": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_ceiling",
+            "source": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_ceiling",
+            "shader": "vertexlitgeneric",
+            "mapped": [
+              "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+              "tangent normal with green inversion"
+            ],
+            "unmapped": [
+              "$surfaceprop"
+            ],
+            "parameters": {
+              "$basetexture": "models\\props\\de_dust\\hr_dust\\dust_kasbah\\dust_kasbah_ceiling_color",
+              "$bumpmap": "models\\props\\de_dust\\hr_dust\\dust_kasbah\\dust_kasbah_ceiling_normal",
+              "$surfaceprop": "wood"
+            },
+            "rawVmtSha256": "f47df1153f12c17100880f2792fbcd4506ef7910e102e334d347bb5463cbbe87",
+            "group": "supported_plain_bump",
+            "reasons": [],
+            "meshInstances": 5,
+            "triangles": 12880,
+            "eligibleMeshes": 5,
+            "eligibleTriangles": 12880,
+            "ambiguousMeshes": 0,
+            "ambiguousTriangles": 0,
+            "modelVariants": [
+              "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_ceiling_584.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_ceiling_611.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_ceiling_l_tunnels_01.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_ceiling_192_02.mdl|skin 0"
+            ]
+          }
+        },
+        {
+          "mesh": "static_prop_2127_mesh_0",
+          "anchor": "static_prop_2127",
+          "identity": {
+            "name": "static_prop_2127",
+            "sourceModel": "models/props/autocombine/de_dust2/_autocombine_dust_crate_style_01_528.mdl",
+            "sourceSkin": 0,
+            "sourceSolid": 6
+          },
+          "distance": 18.301300941960214,
+          "point": [
+            17.192376122240688,
+            5.243304840858093,
+            -68.83279995441
+          ],
+          "faceIndex": 1169,
+          "uv": [
+            0.7857291686314979,
+            0.917666384646646
+          ],
+          "material": "models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_01_wood_color",
+          "displayName": "dust_shipping_crate_01_wood_color",
+          "sourceMaterial": {
+            "name": "dust_shipping_crate_01_wood_color",
+            "source": "models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_01_wood_color",
+            "shader": "vertexlitgeneric",
+            "mapped": [
+              "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+              "tangent normal with green inversion"
+            ],
+            "unmapped": [
+              "$surfaceprop"
+            ],
+            "parameters": {
+              "$basetexture": "models\\props\\de_dust\\hr_dust\\dust_crates\\dust_shipping_crate_01_wood_color",
+              "$bumpmap": "models\\props\\de_dust\\hr_dust\\dust_crates\\dust_shipping_crate_01_wood_normal",
+              "$surfaceprop": "Wood_Panel"
+            },
+            "rawVmtSha256": "41c1ce1a879642f75609b7fba757dc2417185b6fafc083dd59e208b6cff4d800",
+            "group": "supported_plain_bump",
+            "reasons": [],
+            "meshInstances": 8,
+            "triangles": 35745,
+            "eligibleMeshes": 8,
+            "eligibleTriangles": 35745,
+            "ambiguousMeshes": 0,
+            "ambiguousTriangles": 0,
+            "modelVariants": [
+              "models/props/de_dust/hr_dust/dust_crates/dust_crate_style_01_37x37x74b.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_crates/dust_crate_style_01_37x37x74.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_crate_style_01_528.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_crates/dust_crate_assembly_100x100_01.mdl|skin 0"
+            ]
+          }
+        },
+        {
+          "mesh": "static_prop_2127_mesh_0",
+          "anchor": "static_prop_2127",
+          "identity": {
+            "name": "static_prop_2127",
+            "sourceModel": "models/props/autocombine/de_dust2/_autocombine_dust_crate_style_01_528.mdl",
+            "sourceSkin": 0,
+            "sourceSolid": 6
+          },
+          "distance": 18.33070767989989,
+          "point": [
+            17.20440494834981,
+            5.253566427914311,
+            -68.85759437736714
+          ],
+          "faceIndex": 4714,
+          "uv": [
+            0.5093402959526973,
+            0.8655108278471098
+          ],
+          "material": "models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_01_wood_color",
+          "displayName": "dust_shipping_crate_01_wood_color",
+          "sourceMaterial": {
+            "name": "dust_shipping_crate_01_wood_color",
+            "source": "models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_01_wood_color",
+            "shader": "vertexlitgeneric",
+            "mapped": [
+              "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+              "tangent normal with green inversion"
+            ],
+            "unmapped": [
+              "$surfaceprop"
+            ],
+            "parameters": {
+              "$basetexture": "models\\props\\de_dust\\hr_dust\\dust_crates\\dust_shipping_crate_01_wood_color",
+              "$bumpmap": "models\\props\\de_dust\\hr_dust\\dust_crates\\dust_shipping_crate_01_wood_normal",
+              "$surfaceprop": "Wood_Panel"
+            },
+            "rawVmtSha256": "41c1ce1a879642f75609b7fba757dc2417185b6fafc083dd59e208b6cff4d800",
+            "group": "supported_plain_bump",
+            "reasons": [],
+            "meshInstances": 8,
+            "triangles": 35745,
+            "eligibleMeshes": 8,
+            "eligibleTriangles": 35745,
+            "ambiguousMeshes": 0,
+            "ambiguousTriangles": 0,
+            "modelVariants": [
+              "models/props/de_dust/hr_dust/dust_crates/dust_crate_style_01_37x37x74b.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_crates/dust_crate_style_01_37x37x74.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_crate_style_01_528.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_crates/dust_crate_assembly_100x100_01.mdl|skin 0"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "team": "t",
+      "label": "cable_precise_1",
+      "pixel": [
+        1000,
+        156
+      ],
+      "camera": {
+        "position": [
+          -20.888071,
+          5.4536086,
+          20.2093068
+        ],
+        "quaternion": [
+          0,
+          0.1478094111296104,
+          0,
+          0.989015863361917
+        ]
+      },
+      "hits": []
+    },
+    {
+      "team": "t",
+      "label": "cable_precise_2",
+      "pixel": [
+        600,
+        205
+      ],
+      "camera": {
+        "position": [
+          -20.888071,
+          5.4536086,
+          20.2093068
+        ],
+        "quaternion": [
+          0,
+          0.1478094111296104,
+          0,
+          0.989015863361917
+        ]
+      },
+      "hits": []
+    },
+    {
+      "team": "t",
+      "label": "cable_precise_3",
+      "pixel": [
+        800,
+        186
+      ],
+      "camera": {
+        "position": [
+          -20.888071,
+          5.4536086,
+          20.2093068
+        ],
+        "quaternion": [
+          0,
+          0.1478094111296104,
+          0,
+          0.989015863361917
+        ]
+      },
+      "hits": [
+        {
+          "mesh": "static_prop_1982_mesh_0",
+          "anchor": "static_prop_1982",
+          "identity": {
+            "name": "static_prop_1982",
+            "sourceModel": "models/props/autocombine/de_dust2/_autocombine_dust_wires_no-collision_496.mdl",
+            "sourceSkin": 0,
+            "sourceSolid": 0
+          },
+          "distance": 4.326741665793014,
+          "point": [
+            -21.522019872628515,
+            7.216109117469671,
+            16.308999863960032
+          ],
+          "faceIndex": 3943,
+          "uv": [
+            0.5219071529996226,
+            0.01973582307688984
+          ],
+          "material": "models/props/de_dust/hr_dust/dust_wires/dust_wires_01",
+          "displayName": "models/props/de_dust/hr_dust/dust_wires/dust_wires_01",
+          "sourceMaterial": {
+            "name": "models/props/de_dust/hr_dust/dust_wires/dust_wires_01",
+            "source": "models/props/de_dust/hr_dust/dust_wires/dust_wires_01",
+            "shader": "vertexlitgeneric",
+            "mapped": [
+              "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+              "tangent normal with green inversion"
+            ],
+            "unmapped": [
+              "$tintmasktexture",
+              "$surfaceprop"
+            ],
+            "parameters": {
+              "$basetexture": "models\\props\\de_dust\\hr_dust\\dust_wires\\dust_wires_01_color",
+              "$bumpmap": "models\\props\\de_dust\\hr_dust\\dust_wires\\dust_wires_01_normal",
+              "$tintmasktexture": "models\\props\\de_dust\\hr_dust\\dust_wires\\dust_wires_01_tint",
+              "$surfaceprop": "plastic"
+            },
+            "rawVmtSha256": "47a56e08fe576d4c38837a517d135d75a94325f636a038fcafccc04cb4384932",
+            "group": "tintmask",
+            "reasons": [
+              "$tintmasktexture"
+            ],
+            "meshInstances": 55,
+            "triangles": 529466,
+            "eligibleMeshes": 0,
+            "eligibleTriangles": 0,
+            "ambiguousMeshes": 0,
+            "ambiguousTriangles": 0,
+            "modelVariants": [
+              "models/props/autocombine/de_dust2/_autocombine_dust_wires_no-collision_73.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_wires_no-collision_74.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_wires_no-collision_75.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_wires_no-collision_76.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_wires_no-collision_77.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_wires_no-collision_78.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_wires_no-collision_79.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_wires_no-collision_80.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_wires_no-collision_81.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_wires_no-collision_82.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_wires_no-collision_83.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_wires_no-collision_84.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_wires_no-collision_85.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_wires_no-collision_86.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_wires_no-collision_87.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_wires_no-collision_88.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_wires_no-collision_89.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_wires_no-collision_90.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_wires_no-collision_91.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_wires_no-collision_92.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_wires_no-collision_489.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_wires_no-collision_490.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_wires_no-collision_491.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_wires_no-collision_492.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_wires_no-collision_493.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_wires_no-collision_494.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_wires_no-collision_495.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_wires_no-collision_496.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_wires_no-collision_497.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_wires/dust_wires_01_attachment_looseloop.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_wires/dust_wires_01_attachment_smallwires.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_wires/dust_wires_01_clamp.mdl|skin 0"
+            ]
+          }
+        },
+        {
+          "mesh": "static_prop_349_mesh_0",
+          "anchor": "static_prop_349",
+          "identity": {
+            "name": "static_prop_349",
+            "sourceModel": "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_135.mdl",
+            "sourceSkin": 0,
+            "sourceSolid": 0
+          },
+          "distance": 22.038473098157525,
+          "point": [
+            -24.117120999792444,
+            14.430992331234357,
+            0.34290013097145233
+          ],
+          "faceIndex": 499,
+          "uv": [
+            0.28187511352822264,
+            0.3861152822207474
+          ],
+          "material": "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01",
+          "displayName": "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01",
+          "sourceMaterial": {
+            "name": "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01",
+            "source": "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01",
+            "shader": "vertexlitgeneric",
+            "mapped": [
+              "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+              "tangent normal with green inversion"
+            ],
+            "unmapped": [
+              "$tintmasktexture",
+              "$surfaceprop"
+            ],
+            "parameters": {
+              "$basetexture": "models\\props\\de_dust\\hr_dust\\dust_windows\\dust_window_frame_wood_01_color",
+              "$bumpmap": "models\\props\\de_dust\\hr_dust\\dust_windows\\dust_window_frame_wood_01_normal",
+              "$tintmasktexture": "models\\props\\de_dust\\hr_dust\\dust_windows\\dust_window_frame_wood_01_tint",
+              "$surfaceprop": "wood"
+            },
+            "rawVmtSha256": "6d1a92ebdb2c86521c8e626104b443f57c08d95d8d210c65a77acf99778109bf",
+            "group": "tintmask",
+            "reasons": [
+              "$tintmasktexture"
+            ],
+            "meshInstances": 186,
+            "triangles": 318293,
+            "eligibleMeshes": 0,
+            "eligibleTriangles": 0,
+            "ambiguousMeshes": 0,
+            "ambiguousTriangles": 0,
+            "modelVariants": [
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_24x64_02.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_133.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_36x64_02.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_134.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_135.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_136.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_137.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_138.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_139.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_140.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_141.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_142.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_146.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_147.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_148.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_149.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_150.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_151.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_152.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_153.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_154.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_155.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_156.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_56x90_02.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_199.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_36x64_01_ajar.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_201.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_36x64_01_open.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_202.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_203.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_204.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_205.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_207.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_208.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_209.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_210.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_211.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_212.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_213.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_214.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_215.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_36x62_round_01.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_56x90_01.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_24x24_02.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_64x64_01_open.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_282.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_64x24_02.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_64x64_01_ajar.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_24x64_02_open.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_bars_64x64_05.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_367.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_368.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_370.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_371.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_372.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_373.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_24x64_01_ajar.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_24x64_02_ajar.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_376.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_64x24_02_open.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_24x24_02_OPEN.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_383.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_384.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_385.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_24x64_01_open.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_24x64_01_closed.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_420.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_421.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_430.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_24x24_01.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_433.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_436.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_437.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_438.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_466.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_quarter_round_112_01.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_546.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_547.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_56x90_03.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_590.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_591.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_593.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_bars_24x64_05.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_606.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_620.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_64x24_01.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_24x24_02_closed.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_window_frame_wood_01_649.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_36x64_02_open.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_24x24_02_open.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_bars_36x64_05.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_windows/dust_window_shutters_36x64_02_closed.mdl|skin 0"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "team": "ct",
+      "label": "gate_frame",
+      "pixel": [
+        669,
+        362
+      ],
+      "camera": {
+        "position": [
+          9.706228999999999,
+          -1.1429999999999998,
+          -53.401976
+        ],
+        "quaternion": [
+          0,
+          0.09584575252022381,
+          0,
+          0.9953961983671789
+        ]
+      },
+      "hits": [
+        {
+          "mesh": "props\\de_dust\\hr_dust\\dust_doors\\dust_underpass_frame_03mdl_Body_dmx\\dust_underpass_frame_03_MESH001",
+          "anchor": "static_prop_2584",
+          "identity": {
+            "name": "static_prop_2584",
+            "sourceModel": "models/props/de_dust/hr_dust/dust_doors/dust_underpass_frame_03.mdl",
+            "sourceSkin": 0,
+            "sourceSolid": 6
+          },
+          "distance": 12.249973567597188,
+          "point": [
+            6.372854351130523,
+            0.6681335364601684,
+            -65.04973377436212
+          ],
+          "faceIndex": 272,
+          "uv": [
+            0.7046648008761547,
+            0.04295622052398717
+          ],
+          "material": "models/props/de_dust/hr_dust/dust_doors/dust_door_arch_01",
+          "displayName": "models/props/de_dust/hr_dust/dust_doors/dust_door_arch_01",
+          "sourceMaterial": {
+            "name": "models/props/de_dust/hr_dust/dust_doors/dust_door_arch_01",
+            "source": "models/props/de_dust/hr_dust/dust_doors/dust_door_arch_01",
+            "shader": "vertexlitgeneric",
+            "mapped": [
+              "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+              "tangent normal with green inversion"
+            ],
+            "unmapped": [
+              "$surfaceprop",
+              "$notint"
+            ],
+            "parameters": {
+              "$basetexture": "models\\props\\de_dust\\hr_dust\\dust_doors\\dust_door_arch_01_color",
+              "$bumpmap": "models\\props\\de_dust\\hr_dust\\dust_doors\\dust_door_arch_01_normal",
+              "$surfaceprop": "Wood_Dense",
+              "$notint": "1"
+            },
+            "rawVmtSha256": "ecbb573b21e7f5dc7ab099cfc58a10689d2f954b8c364fa98534efe9a6ddfd91",
+            "group": "supported_plain_bump",
+            "reasons": [],
+            "meshInstances": 19,
+            "triangles": 78271,
+            "eligibleMeshes": 19,
+            "eligibleTriangles": 78271,
+            "ambiguousMeshes": 0,
+            "ambiguousTriangles": 0,
+            "modelVariants": [
+              "models/props/autocombine/de_dust2/_autocombine_dust_door_arch_01_535.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_door_arch_01_536.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_doors/dust_door_b_doors_02.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_doors/dust_door_mid_doors_01.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_doors/dust_underpass_frame_03.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_doors/dust_door_long_doors_01.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_doors/dust_door_large_doorframe_01.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_doors/dust_door_large_doorframe_05.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_doors/dust_underpass_frame_01.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_arches/dust_arch_01_interior.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_doors/dust_underpass_frame_02.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_railings/dust_railing_tunnel_stairs_01.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_window_32x48_shutter_01.mdl|skin 0"
+            ]
+          }
+        },
+        {
+          "mesh": "static_prop_2338_mesh_0",
+          "anchor": "static_prop_2338",
+          "identity": {
+            "name": "static_prop_2338",
+            "sourceModel": "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_ceiling_584.mdl",
+            "sourceSkin": 0,
+            "sourceSolid": 6
+          },
+          "distance": 17.157206407481222,
+          "point": [
+            5.037533466207359,
+            1.3936578748180626,
+            -69.71572420658278
+          ],
+          "faceIndex": 765,
+          "uv": [
+            0.7726125340530634,
+            0.3489708425164159
+          ],
+          "material": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_ceiling",
+          "displayName": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_ceiling",
+          "sourceMaterial": {
+            "name": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_ceiling",
+            "source": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_ceiling",
+            "shader": "vertexlitgeneric",
+            "mapped": [
+              "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+              "tangent normal with green inversion"
+            ],
+            "unmapped": [
+              "$surfaceprop"
+            ],
+            "parameters": {
+              "$basetexture": "models\\props\\de_dust\\hr_dust\\dust_kasbah\\dust_kasbah_ceiling_color",
+              "$bumpmap": "models\\props\\de_dust\\hr_dust\\dust_kasbah\\dust_kasbah_ceiling_normal",
+              "$surfaceprop": "wood"
+            },
+            "rawVmtSha256": "f47df1153f12c17100880f2792fbcd4506ef7910e102e334d347bb5463cbbe87",
+            "group": "supported_plain_bump",
+            "reasons": [],
+            "meshInstances": 5,
+            "triangles": 12880,
+            "eligibleMeshes": 5,
+            "eligibleTriangles": 12880,
+            "ambiguousMeshes": 0,
+            "ambiguousTriangles": 0,
+            "modelVariants": [
+              "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_ceiling_584.mdl|skin 0",
+              "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_ceiling_611.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_ceiling_l_tunnels_01.mdl|skin 0",
+              "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_ceiling_192_02.mdl|skin 0"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "projectedLights": [
+    {
+      "team": "ct",
+      "mesh": "static_prop_2365_mesh_0",
+      "material": "models/props/de_dust/hr_dust/dust_lights/dust_hanging_light_02_on",
+      "centerPixel": [
+        750.9463237530423,
+        378.9616483663468
+      ],
+      "distance": 17.349939952942332
+    },
+    {
+      "team": "ct",
+      "mesh": "static_prop_2577_mesh_0",
+      "material": "models/props/de_dust/hr_dust/dust_lights/dust_ornate_lanterns_01",
+      "centerPixel": [
+        854.6341852067823,
+        358.4114734822451
+      ],
+      "distance": 11.369219463166141
+    },
+    {
+      "team": "ct",
+      "mesh": "static_prop_2578_mesh_0",
+      "material": "models/props/de_dust/hr_dust/dust_lights/dust_ornate_lanterns_01",
+      "centerPixel": [
+        854.8309419521047,
+        384.29507266848236
+      ],
+      "distance": 11.200605378205768
+    },
+    {
+      "team": "ct",
+      "mesh": "propsde_dusthr_dustdust_wire_connectorsdust_electric_cable_body_dmxdust_electric_cable_pole_wall_modeldmx_MESH001_1",
+      "material": "models/props/de_dust/hr_dust/dust_lights/street_lantern_01/street_lantern_01_color",
+      "centerPixel": [
+        177.007327167063,
+        166.29759045431172
+      ],
+      "distance": 20.97083189112172
+    },
+    {
+      "team": "ct",
+      "mesh": "static_prop_2649_mesh_0",
+      "material": "models/props/de_dust/hr_dust/dust_lights/dust_hanging_light_02_off",
+      "centerPixel": [
+        645.2674925232322,
+        259.34530444083384
+      ],
+      "distance": 4.637262485936857
+    },
+    {
+      "team": "ct",
+      "mesh": "static_prop_2650_mesh_0",
+      "material": "models/props/de_dust/hr_dust/dust_lights/dust_hanging_light_02_on",
+      "centerPixel": [
+        712.1841485267308,
+        296.69316627115944
+      ],
+      "distance": 7.228679554048614
+    },
+    {
+      "team": "t",
+      "mesh": "static_prop_719_mesh_0",
+      "material": "models/props/de_dust/hr_dust/dust_lights/street_lantern_01/street_lantern_01_color",
+      "centerPixel": [
+        834.1199739766379,
+        28.16831984884584
+      ],
+      "distance": 16.1564132064516
+    },
+    {
+      "team": "t",
+      "mesh": "static_prop_724_mesh_0",
+      "material": "models/props/de_dust/hr_dust/dust_lights/street_lantern_01/street_lantern_01_color",
+      "centerPixel": [
+        823.8707719516605,
+        362.36688751098364
+      ],
+      "distance": 25.133640571927373
+    },
+    {
+      "team": "t",
+      "mesh": "static_prop_853_mesh_0",
+      "material": "models/props/de_dust/hr_dust/dust_lights/street_lamp_01/street_lamp_01_color",
+      "centerPixel": [
+        789.4907339138797,
+        451.5294494577084
+      ],
+      "distance": 23.427512367824715
+    },
+    {
+      "team": "t",
+      "mesh": "static_prop_2757_mesh_0",
+      "material": "models/props/de_dust/hr_dust/dust_lights/dust_ornate_lanterns_01",
+      "centerPixel": [
+        858.9332368714165,
+        476.4325671429094
+      ],
+      "distance": 20.610608875890037
+    },
+    {
+      "team": "t",
+      "mesh": "static_prop_2840_mesh_0",
+      "material": "models/props/de_dust/hr_dust/dust_lights/street_lamp_01/street_lamp_01_color",
+      "centerPixel": [
+        617.4829774991389,
+        387.2616734301545
+      ],
+      "distance": 23.97170428100384
+    },
+    {
+      "team": "t",
+      "mesh": "static_prop_2841_mesh_0",
+      "material": "models/props/de_dust/hr_dust/dust_lights/street_lamp_01/street_lamp_01_color",
+      "centerPixel": [
+        711.8818164389999,
+        391.70216484908383
+      ],
+      "distance": 27.514777867738644
+    },
+    {
+      "team": "t",
+      "mesh": "static_prop_2850_mesh_0",
+      "material": "models/props/de_dust/hr_dust/dust_lights/street_lamp_02/street_lamp_02_color",
+      "centerPixel": [
+        655.9491205754628,
+        407.7495033706311
+      ],
+      "distance": 25.15284223291179
+    },
+    {
+      "team": "t",
+      "mesh": "propsde_dusthr_dustdust_wire_connectorsdust_electric_cable_body_dmxdust_electric_cable_pole_wall_modeldmx_MESH001_1",
+      "material": "models/props/de_dust/hr_dust/dust_lights/street_lantern_01/street_lantern_01_color",
+      "centerPixel": [
+        641.5223080618375,
+        398.500275902865
+      ],
+      "distance": 29.13956507909862
+    },
+    {
+      "team": "t",
+      "mesh": "propsde_dusthr_dustdust_wire_connectorsdust_electric_cable_body_dmxdust_electric_cable_pole_wall_modeldmx_MESH001_1",
+      "material": "models/props/de_dust/hr_dust/dust_lights/street_lantern_01/street_lantern_01_color",
+      "centerPixel": [
+        1119.2674953776504,
+        268.7777615925854
+      ],
+      "distance": 26.757767811622028
+    }
+  ]
+}

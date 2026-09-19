@@ -1,0 +1,198 @@
+{
+  "format": "source-paintkit-transform-v1",
+  "sources": {
+    "client64Sha256": "c47c64c38a066e02bdc006ac4db4fe6e9a318fdd896153accb7af9bd065b7fb5",
+    "vstdlib64Sha256": "165cc150abb900dc14fdd4405fc2ee14b3404ce9ba17a9d01cbe1bd81fcc0914",
+    "randomFloatSymbol": "_ZN20CUniformRandomStream11RandomFloatEff",
+    "randomFloatDefinition": "0x1e750",
+    "randomFloatStub": "0x6a0d00",
+    "randomFloatGotSlot": "0x22ed9a0"
+  },
+  "filler": {
+    "at": "0xf52b90",
+    "callers": [
+      "0xf533c8"
+    ],
+    "generator": "0xf52040"
+  },
+  "slots": {
+    "pattern": {
+      "scale": "0xa08",
+      "x": "0xa0c",
+      "y": "0xa10",
+      "rotate": "0xa14"
+    },
+    "wear": {
+      "scale": "0xa18",
+      "x": "0xa1c",
+      "y": "0xa20",
+      "rotate": "0xa24"
+    },
+    "grunge": {
+      "scale": "0xa28",
+      "x": "0xa2c",
+      "y": "0xa30",
+      "rotate": "0xa34"
+    }
+  },
+  "draws": {
+    "count": 11,
+    "order": [
+      "pattern.x",
+      "pattern.y",
+      "pattern.rotate",
+      "wear.scale",
+      "wear.x",
+      "wear.y",
+      "wear.rotate",
+      "grunge.scale",
+      "grunge.x",
+      "grunge.y",
+      "grunge.rotate"
+    ],
+    "pattern": {
+      "pairs": {
+        "x": [
+          "record +0xf0",
+          "record +0xf4"
+        ],
+        "y": [
+          "record +0xf8",
+          "record +0xfc"
+        ],
+        "rotate": [
+          "record +0x100",
+          "record +0x104"
+        ]
+      },
+      "scaleFromRecord": "record +0xec (copied, never drawn)",
+      "reading": "Three draws in the order x, y, rotate, each from the kit record's own start/end pair; the scale is a single float."
+    },
+    "wearGrunge": {
+      "ranges": [
+        [
+          1.600000023841858,
+          1.7999999523162842
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          360.0
+        ],
+        [
+          1.600000023841858,
+          1.7999999523162842
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          360.0
+        ]
+      ],
+      "reading": "The same two-argument draw over fixed constants: 1.6..1.8 for each scale, 0..1 for each offset, 0..360 for each rotation, which is what the port already draws."
+    },
+    "literals": [
+      {
+        "at": "0xf52e45",
+        "address": "0x19d4710",
+        "value": 1.7999999523162842
+      },
+      {
+        "at": "0xf52e55",
+        "address": "0x19353e8",
+        "value": 1.600000023841858
+      },
+      {
+        "at": "0xf52e65",
+        "address": "0x192c0f0",
+        "value": 1.0
+      },
+      {
+        "at": "0xf52e81",
+        "address": "0x192c0f0",
+        "value": 1.0
+      },
+      {
+        "at": "0xf52e9d",
+        "address": "0x1933730",
+        "value": 360.0
+      },
+      {
+        "at": "0xf52eb9",
+        "address": "0x19d4710",
+        "value": 1.7999999523162842
+      },
+      {
+        "at": "0xf52ec9",
+        "address": "0x19353e8",
+        "value": 1.600000023841858
+      },
+      {
+        "at": "0xf52ed9",
+        "address": "0x192c0f0",
+        "value": 1.0
+      },
+      {
+        "at": "0xf52ef5",
+        "address": "0x192c0f0",
+        "value": 1.0
+      },
+      {
+        "at": "0xf52f11",
+        "address": "0x1933730",
+        "value": 360.0
+      }
+    ]
+  },
+  "scaleFactor": {
+    "field": "this + 0x84",
+    "flag": "this + 0xc4c (kit record + 0x118)",
+    "whenSet": 1.0,
+    "reading": "The three transform scales are multiplied by the weapon's own size scale, or by 1.0 when the kit sets ignore_weapon_size_scale. A kit that does not set it needs the weapon size scale, which the port has not read."
+  },
+  "randomFloat": {
+    "body": [
+      "push rbp",
+      "mov rbp, rsp",
+      "sub rsp, 0x10",
+      "movss dword ptr [rbp - 8], xmm0",
+      "movss dword ptr [rbp - 4], xmm1",
+      "call 0x9380",
+      "pxor xmm3, xmm3",
+      "pxor xmm2, xmm2",
+      "movss xmm1, dword ptr [rbp - 4]",
+      "cvtsi2sd xmm3, eax",
+      "movss xmm0, dword ptr [rbp - 8]",
+      "mulsd xmm3, qword ptr [rip + 0x21a13]",
+      "cvtsd2ss xmm2, xmm3",
+      "pxor xmm3, xmm3",
+      "cvtss2sd xmm3, xmm2",
+      "comisd xmm3, xmmword ptr [rip + 0x21a07]",
+      "jbe 0x1e7a3",
+      "movss xmm2, dword ptr [rip + 0x219ed]",
+      "leave ",
+      "subss xmm1, xmm0",
+      "mulss xmm2, xmm1",
+      "addss xmm0, xmm2",
+      "ret ",
+      "nop ",
+      "nop word ptr cs:[rax + rax]"
+    ],
+    "reading": "min + value * (max - min) in float32, one draw, no swap and no clamp on the interval - so a reversed range is still a range."
+  },
+  "boundary": "What is read is which kit fields the three transforms are drawn from, the order, the class that draws them and its formula, and the scale factor's condition. What is not read is the weapon's own size scale, so a pattern finish whose kit does not ignore it is not composed."
+}

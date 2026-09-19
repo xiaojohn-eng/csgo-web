@@ -1,0 +1,92 @@
+{
+  "format": "source-projected-shadows-v1",
+  "entity": {
+    "classes": [
+      "DT_ShadowControl",
+      "CShadowControl"
+    ],
+    "members": [
+      "m_shadowColor",
+      "m_flShadowMaxDist",
+      "m_bDisableShadows",
+      "m_bEnableLocalLightShadows"
+    ],
+    "key": "disableallshadows",
+    "inputs": [
+      "SetDistance",
+      "SetShadowsDisabled",
+      "SetShadowsFromLocalLightsEnabled"
+    ],
+    "namesAt": "0x1943ed4",
+    "noDirectionMember": true,
+    "meaning": "The client that draws a projected shadow nets only the colour, the reach, an on/off switch and a switch for local-light shadows. It carries no direction at all, so the direction is straight down for every one of them - which is what the map's own `angles 90 43 0` states."
+  },
+  "sources": {
+    "client64Sha256": "c47c64c38a066e02bdc006ac4db4fe6e9a318fdd896153accb7af9bd065b7fb5",
+    "server64Sha256": "5dc259006b3251e48c39cf30a86aae149da36c975fda054d0314907b7391845c",
+    "environmentSha256": "7edb22c1efd95dfe21c6ddc50cbdc432b4cb73e467ac88e51b6b288902a620d6",
+    "sourceBspSha256": "b91be410539fbbfc16300423f1e19c024f12addf1429c8cb2f72b53fe0fd6bcc"
+  },
+  "map": {
+    "color": [
+      128,
+      128,
+      128
+    ],
+    "sourceDistance": 72.0,
+    "disableAllShadows": false,
+    "sourceAngles": [
+      90.0,
+      43.0,
+      0.0
+    ],
+    "metresPerSourceUnit": 0.0254,
+    "reachMetres": 1.8288
+  },
+  "programs": {
+    "model": {
+      "path": "shaders/fxc/shadowmodel_ps20.vcs",
+      "sha256": "8f2cc01e86af2c8a72e9b5f0df1cc37020057a3603d483e0400bbf8fe5bc0982",
+      "bytes": 271,
+      "statics": [
+        "0x0",
+        "0xffffffff"
+      ],
+      "dynamicCombos": 1,
+      "programs": {
+        "0x0/0": {
+          "static": 0,
+          "dynamic": 0,
+          "bytes": 328,
+          "sha256": "b22bde32be56ad87c239644f58f19c7f80f772801f542f668b230949478be6ab",
+          "instructions": "[omitted: private reference evidence]",
+          "tokens": "[omitted: private reference evidence]"
+        }
+      }
+    },
+    "build": {
+      "path": "shaders/fxc/shadowbuildtexture_ps20b.vcs",
+      "sha256": "054bd52c6221ba16710b24d143ff6d238dd97c1f0eb99bab45b519fa41ae1107",
+      "bytes": 269,
+      "statics": [
+        "0x0",
+        "0xffffffff"
+      ],
+      "dynamicCombos": 1,
+      "programs": {
+        "0x0/0": {
+          "static": 0,
+          "dynamic": 0,
+          "bytes": 272,
+          "sha256": "bac0560905baec0fedd92b774e173f2228f1392ddd148d8a76d3834ae69a8a3c",
+          "instructions": "[omitted: private reference evidence]",
+          "tokens": "[omitted: private reference evidence]"
+        }
+      }
+    }
+  },
+  "expression": "oc0.rgb = 1 + a0.w * (v0.rgb - 1); oc0.a = 1",
+  "silhouette": "white, alpha = the model texture alpha times the vertex alpha",
+  "reading": "The original gives every actor the `shadow_control` entity's projected shadow on this map: a silhouette of that actor, built white with its own alpha, multiplied onto the receiver as `1 + coverage * (modulation - 1)` with the map's colour, straight down, over the map's own 72 units of reach. The port draws exactly that.",
+  "boundary": "The engine sets the projection plane and the height fade per entity at runtime; neither is in these programs and neither was read, so the port places the silhouette on the first surface below the caster and does not fade with height. The entity also carries no member for a second direction, so straight down is the whole of it and not a simplification."
+}

@@ -1,0 +1,537 @@
+{
+  "format": "source-awp-character-handoff-v1",
+  "sourceApp": 740,
+  "sourceBuild": 12426148,
+  "baseCheckpoint": "a5660eba950083ea341a6ec87cad81a8d14706ec",
+  "firstAWP166FilesUnchanged": true,
+  "assetRoots": [
+    "public/source/csgo-12426148/character-t-awp",
+    "public/source/csgo-12426148/character-ct-awp",
+    ".reference-assets/source-exports/awp-character-candidates"
+  ],
+  "fileCount": 99,
+  "totalBytes": 174666473,
+  "verification": {
+    "testFiles": 4,
+    "tests": 13,
+    "typecheck": "passed",
+    "bodyFramesPerTeam": 1625,
+    "bodyDescriptorsPerTeam": 92,
+    "fullPoseCasesPerTeam": 120,
+    "exactCombinedIBMByTeam": {
+      "t": 165,
+      "ct": 168
+    },
+    "nativeHitbox": {
+      "status": "passed-original-native-awp-hitboxes",
+      "rays": 4092,
+      "layeredRays": 3960,
+      "maximumDistanceErrorMeters": 1.163136229553885e-06,
+      "sameGroupHitboxIDBoundaries": 23,
+      "identicalNativeFractionTies": 14,
+      "maximumNativeBoundaryUlpDifference": 2,
+      "sourceServerSHA256": "7de235c31b2d645c5106cbd7358da3f3ac7964e87f870c4fe6ea31d93a714386"
+    }
+  },
+  "files": [
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-ct-awp/assembly-readback.json",
+      "bytes": 1063,
+      "sha256": "f5878315868f903fcad1cba5bb391b0035a106c13d082e3a21b196caa2c546cb"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-ct-awp/body-frames.f64.bin",
+      "bytes": 6370000,
+      "sha256": "819872f4b4e0646e763765410aa1ecf47b002dd5eb8b71848d51216e251147f5"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-ct-awp/body-pose-data.json",
+      "bytes": 196171,
+      "sha256": "3f1c7bbd14949a4c7125a96f8c39d7709736b8c60ea4118559855fc133cc9dca"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-ct-awp/character.glb",
+      "bytes": 18411524,
+      "sha256": "fb69640610397fe8414e2f10faeb2699670e8709171d7e627de1bd2ac45eb768"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-ct-awp/gltf-verification.json",
+      "bytes": 900847,
+      "sha256": "c701c8c3c1535f0624a71da210508a060ddd9071be01e1c0efbfae4da4b5e128"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-ct-awp/owner-verification.json",
+      "bytes": 433,
+      "sha256": "59ec820b547a3b4dbe297908c13bc44596bed7951d0f05e82f26101c2e96e8c0"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-ct-awp/pose-verification.json",
+      "bytes": 816,
+      "sha256": "403100e89c1160a55f26ec42944de29b86f9a31dee9685c05362e5c38e432b41"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-ct-awp/python-reference.json",
+      "bytes": 6693512,
+      "sha256": "89248bc939584f810ccac0ce8caa3a8eb6d4592aff0ca8c2433a9bc1fa8db729"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-ct-awp/rig.json",
+      "bytes": 17781,
+      "sha256": "9038ad98e81a169a6f51c59e8ea63d00f3eeded6b6f8d3035a451f0934aca2ac"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-ct-awp/world-frames.f64.bin",
+      "bytes": 2342480,
+      "sha256": "b58e2b0c73212072178bce11309e4499dab376b4fa125c0dd5c7d649c7dde6d2"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-ct-awp/world-pose-data.json",
+      "bytes": 85441,
+      "sha256": "99bf22ea3cbb558aa3eabb2fd5eca19aeb100dd6b0e78a52fe084ebaeebd2155"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-ct-awp-family/combat/decoded-frames.npz",
+      "bytes": 1742455,
+      "sha256": "a5c0dd6b2cee9d025bdd22642a980f25cfd9dee0a5d81204ec0833200577ffd1"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-ct-awp-family/combat/sampled-poses.json",
+      "bytes": 1798563,
+      "sha256": "e53ab5043475506ca65455c28a19276921e8ec13dfa62a7b75a7febf59bd13a4"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-ct-awp-family/combat/source-animation-metadata.json",
+      "bytes": 75639,
+      "sha256": "673581a74287af97056d0ed403c838c46b5aa6cd15c74aa94557f37b9a9192e5"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-ct-awp-family/combat-audit.json",
+      "bytes": 2524244,
+      "sha256": "127aeda6de1b7902e9673fbeb991307ceaac3272449c29c03592327d711765e6"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-ct-awp-family/continuous/frames.f64.bin",
+      "bytes": 6370000,
+      "sha256": "819872f4b4e0646e763765410aa1ecf47b002dd5eb8b71848d51216e251147f5"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-ct-awp-family/continuous/frames.f64.bin.gz",
+      "bytes": 1663069,
+      "sha256": "a0fb61a5824a935a4bcd58b79cdc603bf1325a67d96d34583aa225e0d850c62c"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-ct-awp-family/continuous/interior-pose-fixtures.json",
+      "bytes": 331176,
+      "sha256": "acb3bbb9bc34ea242e7758947c3a82a64b642c88a5a20cbc3c770f83cce754a2"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-ct-awp-family/continuous/manifest.json",
+      "bytes": 79513,
+      "sha256": "d3e6474c22252c8030167bd2b218f89064db4da55641573b256e38d3335af94d"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-ct-awp-family/continuous/pose-data.json",
+      "bytes": 196126,
+      "sha256": "becf920f7f1d42d1d8fcd5268152d323bf22f25e545f29ff8936a87ca01cf7d7"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-ct-awp-family/continuous/verification.json",
+      "bytes": 25448,
+      "sha256": "e93e6468cf312a137ec02f1b8fa8344596474f65264d3b445644faafcee55680"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-t-awp/assembly-readback.json",
+      "bytes": 1059,
+      "sha256": "d3ec6738bf54812ac277d91cb170bfdfb6058b4176bbe8564c698bf26c139e72"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-t-awp/body-frames.f64.bin",
+      "bytes": 6461000,
+      "sha256": "87d58832989ddae2a23db6ecc62495e98d67c0e12bebd2316fc43e2c26f0ffe4"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-t-awp/body-pose-data.json",
+      "bytes": 191585,
+      "sha256": "8e0d85bf45378a59f9a053c7f3fa57efb3da584b42603f45e5463eb213f45ec0"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-t-awp/character.glb",
+      "bytes": 12545796,
+      "sha256": "a1abe332dc23d94cd5a8d64699c5c648ebc99dbf7bb1cb3f65c04fb83168ab8e"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-t-awp/gltf-verification.json",
+      "bytes": 887488,
+      "sha256": "5741cb60f9bde78ab3aad1f18c2810c098250f9b77ecad34da0e104d3b3575e5"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-t-awp/owner-verification.json",
+      "bytes": 432,
+      "sha256": "58ab2e149f12f8c44b0b5fc30ac79e253d197782bd39cd9d4ac4b7a233f4fb59"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-t-awp/pose-verification.json",
+      "bytes": 816,
+      "sha256": "bb0ae800d95c1e5c925167c8e9510c8c1269c10f4a690f1aa11c9c6229533099"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-t-awp/python-reference.json",
+      "bytes": 6628048,
+      "sha256": "c1c0989916240cb14055f37d39547dd256aa219ac8c7d314a7cfb999ed63ab41"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-t-awp/rig.json",
+      "bytes": 17565,
+      "sha256": "6e169820d5a81922cb4b82faf2c8487073bad620a9784e13bb7bb1dabf0b70d4"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-t-awp/world-frames.f64.bin",
+      "bytes": 2342480,
+      "sha256": "b58e2b0c73212072178bce11309e4499dab376b4fa125c0dd5c7d649c7dde6d2"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-t-awp/world-pose-data.json",
+      "bytes": 85441,
+      "sha256": "99bf22ea3cbb558aa3eabb2fd5eca19aeb100dd6b0e78a52fe084ebaeebd2155"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-t-awp-family/combat/decoded-frames.npz",
+      "bytes": 1958556,
+      "sha256": "cbcd16b3f14b300fa9ede05fd9e17db3e08a72200f174ae1afd598631066337f"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-t-awp-family/combat/sampled-poses.json",
+      "bytes": 1726723,
+      "sha256": "82f88b15bf46841b84d32935c7181abb2a60acd3cc1aa969a029e8f33efd0e0c"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-t-awp-family/combat/source-animation-metadata.json",
+      "bytes": 81598,
+      "sha256": "59d46ff187f7d617f260dcaeb522cbfb0a51736868b706303cc6f092e621bea4"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-t-awp-family/combat-audit.json",
+      "bytes": 2774350,
+      "sha256": "9319e3bd79c0d34e14476a21760853e3bc5962ebd809d893c4606f533f284c9d"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-t-awp-family/continuous/frames.f64.bin",
+      "bytes": 6461000,
+      "sha256": "87d58832989ddae2a23db6ecc62495e98d67c0e12bebd2316fc43e2c26f0ffe4"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-t-awp-family/continuous/frames.f64.bin.gz",
+      "bytes": 1872390,
+      "sha256": "9224e47a8fe674489c624b324d803151fdb9e8364ceee0c4dafd33ca31397ec3"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-t-awp-family/continuous/interior-pose-fixtures.json",
+      "bytes": 342092,
+      "sha256": "85c5a71a9362e1863de71a2cfe2b1a1212811cbcabb569d1da9131659b5e5586"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-t-awp-family/continuous/manifest.json",
+      "bytes": 102320,
+      "sha256": "ec3d4ecdc8b17f38fb2be7021b1196672c6731cdabe282984ae0af96f292747c"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-t-awp-family/continuous/pose-data.json",
+      "bytes": 191507,
+      "sha256": "46867afbcab5d1dd3937e9a9efc64894e71ac55a69ac446d4815c9eeea796fc8"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-character-candidates/character-t-awp-family/continuous/verification.json",
+      "bytes": 24936,
+      "sha256": "95af9493fa14feb66b5a19b8916eb40ba5a6555235063c59b608c42c03320048"
+    },
+    {
+      "path": "output/awp-character-assembly.log",
+      "bytes": 264,
+      "sha256": "b23e179c0978b280f1e67a490148705b318867b7e9280ac799d932aca36596ba"
+    },
+    {
+      "path": "output/awp-character-ct-conformance.log",
+      "bytes": 1332,
+      "sha256": "494ef4950413babfe7f3e5b99f94e61c8efec752f9afacb7a97962489c762983"
+    },
+    {
+      "path": "output/awp-character-export.log",
+      "bytes": 16315,
+      "sha256": "6012b6f2a7a0266e2df242a28c1931c98053aa236c5d882fd8f765b1e80de3dc"
+    },
+    {
+      "path": "output/awp-character-gltf-validation.log",
+      "bytes": 607,
+      "sha256": "c990f780d974be4394eb44626f43ea5a3cdb892b97bef729a910bcbff4801fba"
+    },
+    {
+      "path": "output/awp-character-hitbox-verification.json",
+      "bytes": 359,
+      "sha256": "d9626bd10998f61bb061a540830f77ca29ac41c91ad03567d4f53afabed80efb"
+    },
+    {
+      "path": "output/awp-character-native-hitbox.log",
+      "bytes": 187,
+      "sha256": "728ffb562443840688c1aa02fbc6089c8af33d28de83a15cafc7a07da8e8b1e6"
+    },
+    {
+      "path": "output/awp-character-native-ties.log",
+      "bytes": 138,
+      "sha256": "1ce9c82133de97cb296a64bc7bd3b36d6f06d4a882962194d5140ecc3a0b32d3"
+    },
+    {
+      "path": "output/awp-character-reference.log",
+      "bytes": 139,
+      "sha256": "03d57aaedd71a54ec040925aff8a1a13bfdb25f1ca90b506dacab50e42dede54"
+    },
+    {
+      "path": "output/awp-character-t-conformance.log",
+      "bytes": 1331,
+      "sha256": "03a49d3f6cdd96ec89edfed9196f155f67d633486091ad422f39f2a6979baf3a"
+    },
+    {
+      "path": "output/awp-character-tests.log",
+      "bytes": 230,
+      "sha256": "2e35fa5d1f63b34396240c1671240e03b8841340e4f8fc4bf28fc041877bb196"
+    },
+    {
+      "path": "output/awp-character-typecheck.log",
+      "bytes": 48,
+      "sha256": "02ec7138020cd0446002278042bb2b67990c197fc1ccd4ed0f06a42830a704c2"
+    },
+    {
+      "path": "output/source-awp-character-staged.json",
+      "bytes": 1124,
+      "sha256": "14ce68b7b8d6f9d97778f91a11324ddd579fb8b936c23a782034cb2636535853"
+    },
+    {
+      "path": "output/tests/source-awp-character-hitbox-native.json",
+      "bytes": 2472000,
+      "sha256": "5f6aaf10978899b55215033be52ed990808b6a4d189ae3646f4ca6229b7db59c"
+    },
+    {
+      "path": "output/tests/source-awp-character-hitbox-tie-requests.json",
+      "bytes": 2447,
+      "sha256": "fa32267f10f180f322b96f549c8d775bdeb82ba3e022ab98948c60700274f053"
+    },
+    {
+      "path": "output/tests/source-awp-character-hitbox-ties-native.json",
+      "bytes": 20667,
+      "sha256": "7e98e1a451e1580f32f2dc1cf83123ee4c38b11291ec8fbefb8d950005ac94cf"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-awp/body-frames.f64.bin",
+      "bytes": 6370000,
+      "sha256": "819872f4b4e0646e763765410aa1ecf47b002dd5eb8b71848d51216e251147f5"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-awp/body-pose-data.json",
+      "bytes": 196171,
+      "sha256": "3f1c7bbd14949a4c7125a96f8c39d7709736b8c60ea4118559855fc133cc9dca"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-awp/character.glb",
+      "bytes": 18411524,
+      "sha256": "fb69640610397fe8414e2f10faeb2699670e8709171d7e627de1bd2ac45eb768"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-awp/manifest.json",
+      "bytes": 5812,
+      "sha256": "6579cef1487fa11a117549efee49f3dfd8108c6c08e6026248fbf04f08f3c93f"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-awp/rig.json",
+      "bytes": 17781,
+      "sha256": "9038ad98e81a169a6f51c59e8ea63d00f3eeded6b6f8d3035a451f0934aca2ac"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-awp/textures/awp.png",
+      "bytes": 415693,
+      "sha256": "9e0a613a368ed9e309b02f0e7976e8458a52308e3b1be5b1240d95d88285dc62"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-awp/textures/awp_exponent.png",
+      "bytes": 33657,
+      "sha256": "bb252e5595dbc232bc28f93b1a4fbe41b86def56229e00ddeea290e52b6871f0"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-awp/textures/ctm_idf_head_varianta.png",
+      "bytes": 1091351,
+      "sha256": "81ab976202c0a38d2bd796f9026fe94c8eb5b69fb704b89d9367c3a330a051bb"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-awp/textures/ctm_idf_head_varianta_exponent.png",
+      "bytes": 13425,
+      "sha256": "45129bc922cf5b1c500351e02224a7a6614b16bb55aa2bbb9ce204360f4a1d11"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-awp/textures/ctm_idf_head_varianta_normal.png",
+      "bytes": 1646286,
+      "sha256": "d5e5f5ebc69c57fb15a96a18d5f4b8c26814f7dacd447aef4dd32bb71929ef63"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-awp/textures/ctm_idf_lowerbody.png",
+      "bytes": 1326802,
+      "sha256": "cf4ae79ac7bceabcf6218d731d5ef3231d3faa024b9b721474b30f10d6fd6af8"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-awp/textures/ctm_idf_lowerbody_exponent.png",
+      "bytes": 28191,
+      "sha256": "cdb5e2c5e7f09f31da1237ad806b634df6d8620d037f40440f87eae0d40d5725"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-awp/textures/ctm_idf_lowerbody_normal.png",
+      "bytes": 2171251,
+      "sha256": "d667586c9aec4bfbb9ed4cb6baa87c76a5040e169886a391c6cc991946f71564"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-awp/textures/ctm_idf_upperbody.png",
+      "bytes": 7903315,
+      "sha256": "9886b291e64f58b733a7cf4b9dfe0be38ecf66bd4d36bc3ce0923e22d4cb44e9"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-awp/textures/ctm_idf_upperbody_exponent.png",
+      "bytes": 24367,
+      "sha256": "589e2d6508ab4cb7278ad56b08554b99fc5123e4b3f5f774eb66ec30edbb8899"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-awp/textures/ctm_idf_upperbody_normal.png",
+      "bytes": 1506382,
+      "sha256": "f268b054766c195843e80023d9b663c34d9392ff86fcb85f6076aa19122d1a9f"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-awp/textures/scope.png",
+      "bytes": 510825,
+      "sha256": "7c703fd61a31d1ee1a6fb02818c6f1ceed0e257b42b02ae8e62910d79f1f8d57"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-awp/textures/scope_normal.png",
+      "bytes": 644724,
+      "sha256": "8d0bcee5dc1d11fcf9874a1398e48f43fdd2b32f1f0d0213dc9781a0f0cfaca6"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-awp/world-frames.f64.bin",
+      "bytes": 2342480,
+      "sha256": "b58e2b0c73212072178bce11309e4499dab376b4fa125c0dd5c7d649c7dde6d2"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-awp/world-material-inputs.json",
+      "bytes": 2548,
+      "sha256": "5e936ff9f3b987d23c22fa69f66157f64c20bb6fbacaebbada6ba1f648896513"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-ct-awp/world-pose-data.json",
+      "bytes": 85441,
+      "sha256": "99bf22ea3cbb558aa3eabb2fd5eca19aeb100dd6b0e78a52fe084ebaeebd2155"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-awp/body-frames.f64.bin",
+      "bytes": 6461000,
+      "sha256": "87d58832989ddae2a23db6ecc62495e98d67c0e12bebd2316fc43e2c26f0ffe4"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-awp/body-pose-data.json",
+      "bytes": 191585,
+      "sha256": "8e0d85bf45378a59f9a053c7f3fa57efb3da584b42603f45e5463eb213f45ec0"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-awp/character.glb",
+      "bytes": 12545796,
+      "sha256": "a1abe332dc23d94cd5a8d64699c5c648ebc99dbf7bb1cb3f65c04fb83168ab8e"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-awp/manifest.json",
+      "bytes": 5883,
+      "sha256": "8e590c9b555e1afbb42a76d896dd5228bdc9de085fe1462db1905d449115afb0"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-awp/rig.json",
+      "bytes": 17565,
+      "sha256": "6e169820d5a81922cb4b82faf2c8487073bad620a9784e13bb7bb1dabf0b70d4"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-awp/textures/awp.png",
+      "bytes": 415693,
+      "sha256": "9e0a613a368ed9e309b02f0e7976e8458a52308e3b1be5b1240d95d88285dc62"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-awp/textures/awp_exponent.png",
+      "bytes": 33657,
+      "sha256": "bb252e5595dbc232bc28f93b1a4fbe41b86def56229e00ddeea290e52b6871f0"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-awp/textures/scope.png",
+      "bytes": 510825,
+      "sha256": "7c703fd61a31d1ee1a6fb02818c6f1ceed0e257b42b02ae8e62910d79f1f8d57"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-awp/textures/scope_normal.png",
+      "bytes": 644724,
+      "sha256": "8d0bcee5dc1d11fcf9874a1398e48f43fdd2b32f1f0d0213dc9781a0f0cfaca6"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-awp/textures/tm_elite_head_varianta.png",
+      "bytes": 1551234,
+      "sha256": "588adc46541067a9f9cbe4f9010cb9dea56bd7dae54195b6fb4249621f5e45f6"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-awp/textures/tm_elite_head_varianta_exponent.png",
+      "bytes": 8463,
+      "sha256": "64470293fa4b529562d852aff0c32a068a1cd21daa3826f74dd1020004cdfb05"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-awp/textures/tm_elite_head_varianta_normal.png",
+      "bytes": 1533884,
+      "sha256": "915828b3c06f31d0b77b33f7cec2d1db2bfdea84890890530109dfa80d740b3e"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-awp/textures/tm_leet_lowerbody_varianta.png",
+      "bytes": 1724545,
+      "sha256": "27e7e6e8b0bd6738224a7fd1c05ca443362f6f33c5f3784fb19812611b9dac69"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-awp/textures/tm_leet_lowerbody_varianta_exponent.png",
+      "bytes": 21245,
+      "sha256": "eb5fa48fb3657bc79ad469e1a2c387c32d86e81f5e0672bea802e171bafcffab"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-awp/textures/tm_leet_lowerbody_varianta_normal.png",
+      "bytes": 2093924,
+      "sha256": "fd80afd914b049756898af3f03d8bcb8dfdf264483a278356462823de72e8e76"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-awp/textures/tm_leet_upperbody_varianta.png",
+      "bytes": 1332801,
+      "sha256": "cf4a53054e979c65e67c2aa169389328dc14cecb6bbacacb9d72398101a62025"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-awp/textures/tm_leet_upperbody_varianta_exponent.png",
+      "bytes": 21833,
+      "sha256": "7c8657458a4e71ab9d5843f44d4abbe8914679c694c3dca246909e0d87a77e46"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-awp/textures/tm_leet_upperbody_varianta_normal.png",
+      "bytes": 1332650,
+      "sha256": "7ee8f820e41036a913cbd942bc2bc3f3797cdfec09677bb1b5dfaa8f1de7742f"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-awp/world-frames.f64.bin",
+      "bytes": 2342480,
+      "sha256": "b58e2b0c73212072178bce11309e4499dab376b4fa125c0dd5c7d649c7dde6d2"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-awp/world-material-inputs.json",
+      "bytes": 2548,
+      "sha256": "5e936ff9f3b987d23c22fa69f66157f64c20bb6fbacaebbada6ba1f648896513"
+    },
+    {
+      "path": "public/source/csgo-12426148/character-t-awp/world-pose-data.json",
+      "bytes": 85441,
+      "sha256": "99bf22ea3cbb558aa3eabb2fd5eca19aeb100dd6b0e78a52fe084ebaeebd2155"
+    }
+  ],
+  "limitations": [
+    "No shared gameplay/runtime integration or GPU/LAN/original-client acceptance in this increment.",
+    "23 same-group hitbox ID boundaries: 14 exact native fraction ties and 9 differences of at most 2 float32 ULP; group/head match, max distance difference 1.1632e-6 m."
+  ]
+}

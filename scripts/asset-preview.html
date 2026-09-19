@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CS:GO 原版资产检查</title><link rel="icon" href="data:,">
+<style>
+*{box-sizing:border-box}body{margin:0;background:#1b2026;color:#e9edf1;font:14px system-ui,sans-serif;overflow:hidden}canvas{display:block;width:100%;height:100%}main{position:absolute;inset:0}aside{position:absolute;top:20px;left:20px;width:350px;max-height:calc(100vh - 40px);overflow:auto;padding:20px;background:#14191fec;border:1px solid #414951;border-radius:8px;box-shadow:0 12px 40px #0005}h1{font-size:19px;margin:0 0 8px}p{color:#acb5bf;line-height:1.6;margin:8px 0 16px}label{display:block;margin-top:14px;color:#b4bec8}select,button,input{font:inherit}select{width:100%;margin-top:6px;padding:9px;border:1px solid #535e68;background:#262f38;color:#fff;border-radius:4px}button{padding:8px 11px;color:#e9edf1;border:1px solid #56616c;background:#2b353f;border-radius:4px;cursor:pointer}.buttons{display:flex;gap:8px;margin-top:12px}input[type=range]{width:100%;accent-color:#d7b674}pre{font:11px/1.55 ui-monospace,monospace;white-space:pre-wrap;overflow-wrap:anywhere;color:#b4c4d2;margin-bottom:0}.status{color:#dcc087;margin-top:12px;line-height:1.5}#clock{font:12px ui-monospace,monospace;color:#b6c4cf}.error{color:#ffaaaa}@media(max-width:650px){aside{width:260px;top:10px;left:10px;padding:12px}}
+</style>
+<script type="importmap">{"imports":{"three":"/vendor/three/build/three.module.js","three/addons/":"/vendor/three/examples/jsm/"}}</script>
+<main id="viewport"></main><aside>
+<h1>CS:GO 原版资产检查</h1>
+<p>拖动旋转 · 滚轮缩放 · 右键平移<br>保持转换文件的坐标、材质和动画。</p>
+<label>已转换模型<select id="asset" aria-label="已转换模型"></select></label>
+<label>原始动画<select id="clip" aria-label="原始动画"><option value="-1">绑定姿态</option></select></label>
+<div class="buttons"><button id="play">暂停</button><button id="frame">框选模型</button><button id="wire">线框</button></div>
+<div class="buttons"><button id="dust2">Dust2 完整场景</button><button id="ctspawn">CT 出生点</button><button id="tspawn">T 出生点</button></div>
+<div class="buttons"><button id="dust2lit">Dust2 原版烘焙光照</button><button id="pvs">PVS 开</button></div>
+<div class="buttons"><button id="proplit">原版道具光照</button></div>
+<div class="buttons"><button id="sourcecharacter">原版 T 持 AK</button></div>
+<label>时间轴<input id="time" aria-label="动画时间轴" type="range" min="0" max="1" step="0.001" value="0"></label><div id="clock">0.000 s</div>
+<div class="status" id="status">读取模型清单…</div><pre id="report"></pre>
+</aside>
+<script type="module">
+import * as T from 'three';
+import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
+import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
+import {RoomEnvironment} from 'three/addons/environments/RoomEnvironment.js';
+const $=id=>document.getElementById(id);
+const renderer=new T.WebGLRenderer({antialias:true}); renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setSize(innerWidth,innerHeight);
+renderer.outputColorSpace=T.SRGBColorSpace;renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=1;
+$('viewport').append(renderer.domElement);
+const scene=new T.Scene();scene.background=new T.Color('#303841');
+const camera=new T.PerspectiveCamera(48,innerWidth/innerHeight,.01,1e6);
+const controls=new OrbitControls(camera,renderer.domElement);controls.enableDamping=true;
+const pmrem=new T.PMREMGenerator(renderer), room=new RoomEnvironment(), environment=pmrem.fromScene(room,.04);
+scene.environment=environment.texture;room.dispose();pmrem.dispose();
+scene.add(new T.HemisphereLight(0xffffff,0x4e5b69,1.3));
+const light=new T.DirectionalLight(0xffe9cf,2);light.position.set(3,5,4);scene.add(light);
+const grid=new T.GridHelper(200,20,0x73818b,0x44535f);scene.add(grid);
+let gltf=null,mixer=null,action=null,playing=true,wire=false,loading=0,last=performance.now(),layers=[],mapMetadata=null;
+let pvs=null,pvsEnabled=true,characterPreview=null,lightmapPreview=null,sourceMapOwner=null,pendingAbort=null,propLighting=null,propEpoch=0;
+function frame(){if(!gltf)return;gltf.scene.updateMatrixWorld(true);const box=new T.Box3().setFromObject(gltf.scene),center=box.getCenter(new T.Vector3()),size=box.getSize(new T.Vector3());const radius=Math.max(size.length()/2,.01);controls.target.copy(center);camera.position.copy(center).add(new T.Vector3(1,.45,1.6).normalize().multiplyScalar(radius/Math.sin(T.MathUtils.degToRad(camera.fov/2))*1.3));camera.near=Math.max(radius/5000,.001);camera.far=Math.max(radius*1000,100);camera.updateProjectionMatrix();grid.position.y=box.min.y;grid.scale.setScalar(radius/50);controls.update();}
+function release(model){if(!model)return;const geometries=new Set(),materials=new Set(),textures=new Set(),skeletons=new Set();model.scene.traverse(o=>{if(o.geometry)geometries.add(o.geometry);if(o.skeleton)skeletons.add(o.skeleton);for(const m of o.material?(Array.isArray(o.material)?o.material:[o.material]):[]){materials.add(m);for(const v of Object.values(m))if(v?.isTexture)textures.add(v);}});geometries.forEach(g=>g.dispose());materials.forEach(m=>m.dispose());textures.forEach(t=>t.dispose());skeletons.forEach(s=>s.dispose());}
+function report(){if(!gltf)return;let meshes=0,vertices=0,triangles=0;const bones=new Set(),materials=new Set(),textures=new Set();for(const model of [gltf,...layers])model.scene.traverse(o=>{if(o.isBone)bones.add(o.name);if(!o.isMesh)return;meshes++;vertices+=o.geometry.attributes.position.count;triangles+=(o.geometry.index?.count??o.geometry.attributes.position.count)/3;for(const m of Array.isArray(o.material)?o.material:[o.material]){materials.add(m);for(const v of Object.values(m))if(v?.isTexture)textures.add(v);}});const box=new T.Box3().setFromObject(gltf.scene);const receipt={source:$('asset').value,layers:layers.length,meshes,vertices,triangles,bones:bones.size,materials:materials.size,textures:textures.size,bounds:{min:box.min.toArray(),max:box.max.toArray()},animations:gltf.animations.map(a=>({name:a.name,duration:a.duration,tracks:a.tracks.length})),render:{calls:renderer.info.render.calls,triangles:renderer.info.render.triangles,memory:{...renderer.info.memory},programs:renderer.info.programs.length},coordinateUnit:'文件原单位；尚未从此预览推定物理单位'};$('report').textContent=JSON.stringify(receipt,null,2);window.__CSGO_ASSET_AUDIT__=receipt;}
+function selectClip(){if(!mixer)return;mixer.stopAllAction();const clip=gltf.animations[Number($('clip').value)];action=clip?mixer.clipAction(clip).reset().play():null;$('time').max=clip?.duration||1;$('time').value=0;if(action)action.paused=true;mixer.update(0);}
+async function load(url,token=beginLoad()){$('status').className='status';$('status').textContent='加载并解析 GLB…';try{const next=await new GLTFLoader().loadAsync(url);if(token!==loading){release(next);return false;}if(gltf){mixer?.stopAllAction();mixer?.uncacheRoot(gltf.scene);scene.remove(gltf.scene);release(gltf);}gltf=next;scene.add(gltf.scene);mixer=new T.AnimationMixer(gltf.scene);$('clip').replaceChildren(new Option('绑定姿态','-1'),...gltf.animations.map((c,i)=>new Option(`${c.name} · ${c.duration.toFixed(3)} s`,String(i))));gltf.scene.traverse(o=>{if(o.isSkinnedMesh)o.frustumCulled=false;if(o.isMesh)for(const m of Array.isArray(o.material)?o.material:[o.material])m.wireframe=wire;});selectClip();frame();$('status').textContent=gltf.animations.length?'模型与动画已加载；播放结果仍须对照原作。':'静态模型已加载；此文件没有动画。';report();return true;}catch(error){if(token!==loading)return false;$('status').className='status error';$('status').textContent=String(error);throw error;}}
+window.__CSGO_ASSET_PREVIEW__={focus:(position,target)=>{camera.position.fromArray(position);controls.target.fromArray(target);controls.update();},sample:(name,seconds)=>{const index=gltf.animations.findIndex(c=>c.name===name);if(index<0)throw new Error('Missing original clip '+name);$('clip').value=String(index);selectClip();playing=false;$('play').textContent='播放';action.time=Math.max(0,Math.min(seconds,action.getClip().duration));mixer.update(0);},report};
+function clearLayers(){propEpoch++;propLighting?.dispose();propLighting=null;window.__CSGO_PROP_LIGHTING_AUDIT__=null;pvs?.dispose();pvs=null;characterPreview?.dispose();characterPreview=null;lightmapPreview?.dispose();lightmapPreview=null;if(sourceMapOwner){mixer?.stopAllAction();mixer?.uncacheRoot(gltf.scene);sourceMapOwner.dispose();sourceMapOwner=null;gltf=null;mixer=null;action=null;layers=[];}window.__CSGO_LIGHTMAP_AUDIT__=null;window.__CSGO_PVS_AUDIT__=null;window.__CSGO_SOURCE_CHARACTER_AUDIT__=null;for(const layer of layers){scene.remove(layer.scene);release(layer);}layers=[];mapMetadata=null;grid.visible=true;}
+function beginLoad(){const token=++loading;pendingAbort?.abort();pendingAbort=null;clearLayers();if(gltf){mixer?.stopAllAction();mixer?.uncacheRoot(gltf.scene);scene.remove(gltf.scene);release(gltf);}gltf=mixer=action=null;window.__CSGO_ASSET_AUDIT__=null;window.__CSGO_SOURCE_MAP_LOADER_AUDIT__=null;return token;}
+window.__CSGO_ASSET_PREVIEW__.unload=beginLoad;
+window.__CSGO_ASSET_PREVIEW__.memory=()=>({...renderer.info.memory,programs:renderer.info.programs.length,objects:scene.children.map(o=>o.type)});
+function spawnView(team){if(!mapMetadata)return;const s=mapMetadata.spawns.find(s=>s.classname===(team==='ct'?'info_player_counterterrorist':'info_player_terrorist'));const eye=new T.Vector3().fromArray(s.browserMetresPosition);eye.y+=64*.0254;camera.fov=75;camera.near=.02;camera.far=2000;camera.updateProjectionMatrix();camera.position.copy(eye);controls.target.copy(eye).add(new T.Vector3().fromArray(s.browserForward));controls.update();report();}
+async function loadDust2(lighted=false){
+  if(lighted)return loadIntegratedDust2();
+  const token=beginLoad(),base='/assets/source-exports/dust2/',worldBase='/assets/source-exports/dust2-corrected/';
+  $('asset').value=worldBase+'world.glb';if(!await load(worldBase+'world.glb',token))return;
+  $('status').textContent='世界已加载，正在读取 3,158 个原版道具…';
+  const props=await new GLTFLoader().loadAsync(base+'props.glb');if(token!==loading){release(props);return;}
+  layers.push(props);scene.add(props.scene);
+  const metadata=await fetch(base+'map-metadata.json').then(r=>r.json());if(token!==loading)return;
+  mapMetadata=metadata;grid.visible=false;spawnView('ct');$('status').textContent='世界与全部原版道具已加载；游戏运动接入继续进行。';report();
+}
+async function loadSourceCharacter(){
+  const token=beginLoad(),base='/assets/source-exports/character-ak/',url=base+'tm_leet_ak47-sdk-poses-basecolor-reference.glb';
+  $('asset').value=url;if(!await load(url,token))return;const target=gltf;
+  const {applySourceCharacterPreview}=await import(base+'preview-source-character.js');if(token!==loading)return;
+  const preview=await applySourceCharacterPreview(target,base);if(token!==loading){preview.dispose();return;}
+  characterPreview=preview;const {dispose,...audit}=preview;window.__CSGO_SOURCE_CHARACTER_AUDIT__=audit;
+  $('status').textContent='原版角色、世界 AK 与有界 Phong 材质候选；手部 IK 和原环境光仍待恢复。';report();
+}
+async function loadIntegratedDust2(){
+  const token=beginLoad(),abort=new AbortController();pendingAbort=abort;
+  $('status').textContent='加载已校验的原版地图、光照、可见区域与碰撞数据…';
+  const base='/assets/source-exports/dust2-runtime/';
+  try{
+    const {loadSourceDust2}=await import(base+'preview-source-dust2.js');if(token!==loading)return;
+    const asset=await loadSourceDust2({manifestURL:base+'manifest.json',signal:abort.signal});
+    if(token!==loading){asset.dispose();return;}sourceMapOwner=asset;
+    gltf=asset.world;layers=[asset.props];scene.add(asset.root);mixer=new T.AnimationMixer(gltf.scene);action=null;
+    $('asset').value='/assets/source-exports/dust2-lightmapped/world.glb';$('clip').replaceChildren(new Option('绑定姿态','-1'));
+    pvs={update:asset.updateVisibility,dispose:()=>{}};
+    window.__CSGO_LIGHTMAP_AUDIT__=asset.lightmap;window.__CSGO_SOURCE_MAP_LOADER_AUDIT__=asset.stats;
+    const metadata=await fetch('/assets/source-exports/dust2/map-metadata.json',{signal:abort.signal}).then(r=>r.json());
+    if(token!==loading)return;mapMetadata=metadata;grid.visible=false;spawnView('ct');
+    $('status').textContent='正式地图加载模块已接入检查场景；道具光照与游戏运动接入继续进行。';report();
+  }catch(error){if(token===loading){beginLoad();throw error;}}
+}
+async function enablePropLighting(enabled=true,options={}){
+  const epoch=++propEpoch;propLighting?.dispose();propLighting=null;window.__CSGO_PROP_LIGHTING_AUDIT__=null;
+  if(!enabled)return;const map=sourceMapOwner;if(!map)throw Error('先加载正式 Dust2 原版烘焙光照');
+  const {applySourcePropLightingPreview}=await import(options.enableTintDecal===true?'/assets/source-exports/dust2-vhv/tint-decal/preview-source-prop-tint-decal.js':options.enableTintMask===true?'/assets/source-exports/dust2-vhv/tint/preview-source-prop-lighting.js':'/assets/source-exports/dust2-vhv/remap/preview-source-prop-lighting.js');
+  if(epoch!==propEpoch||map!==sourceMapOwner)return;
+  const layer=await applySourcePropLightingPreview(map.props,{baseURL:'/assets/source-exports/dust2-vhv/remap/',maxTextureSize:renderer.capabilities.maxTextureSize,enablePlainUnbumped:options.enablePlainUnbumped===true,enableDecalMultiply:options.enableDecalMultiply===true,enableTintMask:options.enableTintMask===true,enableTintDecal:options.enableTintDecal===true});
+  if(epoch!==propEpoch||map!==sourceMapOwner){layer.dispose();return;}propLighting=layer;
+  window.__CSGO_PROP_LIGHTING_AUDIT__=layer.audit;report();
+}
+window.__CSGO_ASSET_PREVIEW__.enablePropLighting=enablePropLighting;
+$('proplit').onclick=()=>enablePropLighting(!propLighting).catch(e=>{console.error(e);$('status').textContent=String(e);});
+window.__CSGO_ASSET_PREVIEW__.loadIntegratedDust2=loadIntegratedDust2;
+window.__CSGO_ASSET_PREVIEW__.loadSourceCharacter=loadSourceCharacter;
+window.__CSGO_ASSET_PREVIEW__.setPVS=enabled=>{pvsEnabled=enabled;$('pvs').textContent=enabled?'PVS 开':'PVS 关';};
+window.__CSGO_ASSET_PREVIEW__.loadDust2=loadDust2;window.__CSGO_ASSET_PREVIEW__.spawnView=spawnView;
+$('dust2').onclick=()=>loadDust2().catch(e=>{$('status').textContent=String(e);console.error(e);});$('ctspawn').onclick=()=>spawnView('ct');$('tspawn').onclick=()=>spawnView('t');
+$('dust2lit').onclick=()=>loadIntegratedDust2().catch(e=>{$('status').textContent=String(e);console.error(e);});
+$('pvs').onclick=()=>window.__CSGO_ASSET_PREVIEW__.setPVS(!pvsEnabled);
+$('sourcecharacter').onclick=()=>loadSourceCharacter().catch(e=>{$('status').textContent=String(e);console.error(e);});
+$('asset').onchange=()=>load($('asset').value);$('clip').onchange=selectClip;$('frame').onclick=frame;
+$('play').onclick=()=>{playing=!playing;$('play').textContent=playing?'暂停':'播放';};
+$('wire').onclick=()=>{wire=!wire;if(gltf)gltf.scene.traverse(o=>{if(o.isMesh)for(const m of Array.isArray(o.material)?o.material:[o.material])m.wireframe=wire;});};
+$('time').oninput=()=>{if(action){action.time=Number($('time').value);mixer.update(0);}};
+addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight);});
+renderer.setAnimationLoop(()=>{const now=performance.now(),dt=Math.min((now-last)/1000,.1);last=now;if(action){if(playing)action.time=(action.time+dt)%Math.max(action.getClip().duration,1e-6);mixer.update(0);$('time').value=action.time;$('clock').textContent=`${action.time.toFixed(3)} / ${action.getClip().duration.toFixed(3)} s`;}controls.update();if(pvs)window.__CSGO_PVS_AUDIT__=pvs.update(camera.position,pvsEnabled);renderer.render(scene,camera);});
+const catalog=await fetch('/catalog').then(r=>r.json());$('asset').replaceChildren(...catalog.map(a=>new Option(`${a.name} · ${(a.bytes/1e6).toFixed(1)} MB`,a.url)));
+if(catalog.length){const first=catalog.find(a=>a.name==='workbench/glb/ak-47.glb')||catalog[0];$('asset').value=first.url;await load(first.url);}else $('status').textContent='尚无已转换的 GLB。';
+</script>
+</html>

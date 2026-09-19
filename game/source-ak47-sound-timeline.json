@@ -1,0 +1,42 @@
+{
+  "idle": [],
+  "fire": [],
+  "reload": [
+    {
+      "time": 0.2999999977648258,
+      "event": "weapon_ak47.clipout"
+    },
+    {
+      "time": 1.0000000288089115,
+      "event": "weapon_ak47.clipin"
+    },
+    {
+      "time": 1.6666666905085243,
+      "event": "weapon_ak47.boltpull"
+    }
+  ],
+  "inspect": [
+    {
+      "time": 0.06666666613891721,
+      "event": "weapon_ak47.weaponmove3"
+    },
+    {
+      "time": 2.2000000208616255,
+      "event": "weapon_ak47.weaponmove1"
+    },
+    {
+      "time": 3.4666667242844897,
+      "event": "weapon_ak47.weaponmove2"
+    }
+  ],
+  "draw": [
+    {
+      "time": 0.0,
+      "event": "weapon_ak47.draw"
+    },
+    {
+      "time": 0.36666667461395264,
+      "event": "weapon_ak47.boltpull"
+    }
+  ]
+}

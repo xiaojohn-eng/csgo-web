@@ -1,0 +1,31 @@
+{
+  "format": "source-fidelity-sdk-reference-v1",
+  "boundary": "Official SDK documents the adaptation. These files are not a claim of installed CSGO client binary parity.",
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/master/src/game/client/c_sun.cpp",
+      "sha256": "b67308c9fbd80c82b973ac0fb6d33dbeaa12fac209f9bc7b6adfa352d056b9ce",
+      "bytes": 4125
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/master/src/game/client/c_sun.h",
+      "sha256": "b17212dce935b65be2db61aea78f6d9ef133241c12f48ced1c0bcc27cb13ba33",
+      "bytes": 1637
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/master/src/game/client/glow_overlay.cpp",
+      "sha256": "741c05c011d06884e6c4b54b5b9c7c1698644b80deebe60ab48588fac55d5ec5",
+      "bytes": 15501
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/master/src/game/client/glow_overlay.h",
+      "sha256": "9bccbdb13773b7bd760b81473bbd4018a0ea578280c5a96c6a52be74e01507ce",
+      "bytes": 3204
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/master/src/game/client/clientshadowmgr.cpp",
+      "sha256": "50813aa131504f64d7a175c80499c47c7f88364578df844d1b03675d9c584f04",
+      "bytes": 149623
+    }
+  ]
+}

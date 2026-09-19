@@ -1,0 +1,750 @@
+{
+  "format": "source-decal-pool-v1",
+  "binaries": {
+    "bin/bsppack_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/crashhandler.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/datacache.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/datacache_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/dedicated.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/dedicated_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/engine.so": {
+      "r_decals": 3,
+      "r_decal_overlap_count": 1,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/engine_client.so": {
+      "r_decals": 3,
+      "r_decal_overlap_count": 1,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/engine_ds_client.so": {
+      "r_decals": 3,
+      "r_decal_overlap_count": 1,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/engine_xlsp.so": {
+      "r_decals": 5,
+      "r_decal_overlap_count": 3,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/filesystem_stdio_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/filesystem_steam_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/inputsystem_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/launcher_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/libMiles.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/libsteam_api.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/libsteamnetworkingsockets.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/libtelemetryx64.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/libtelemetryx64c.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/libtelemetryx86.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/libtelemetryx86c.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/libtier0.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/libtier0_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/libtogl_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/libvstdlib.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/libvstdlib_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/bsppack_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/datacache_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/dedicated_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/engine_client.so": {
+      "r_decals": 3,
+      "r_decal_overlap_count": 1,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/filesystem_stdio_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/filesystem_steam_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/inputsystem_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/launcher_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/libMiles.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/libcairo_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/libdxvk_d3d9.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/libicui18n.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/libicuuc.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/libphonon.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/libsteam_api.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/libsteamnetworkingsockets.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/libtier0_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/libtogl_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/libv8.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/libv8_libbase.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/libv8_libplatform.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/libvideo.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/libvstdlib_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/localize_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/matchmaking_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/matchmaking_ds_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/materialsystem_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/panorama_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/panorama_gl_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/panorama_text_pango_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/panoramauiclient_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/scenefilecache_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/serverbrowser_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/shaderapidx9_client.so": {
+      "r_decals": 2,
+      "r_decal_overlap_count": 1,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/shaderapivk_client.so": {
+      "r_decals": 2,
+      "r_decal_overlap_count": 1,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/soundemittersystem_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/stdshader_dx9_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 2
+    },
+    "bin/linux64/studiorender_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/valve_avi_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/vaudio_celt_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/vaudio_miles_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/vgui2_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/vguimatsurface_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/vphysics_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/linux64/vscript_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/localize_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/materialsystem.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/materialsystem_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/scenefilecache.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/scenefilecache_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/serverbrowser_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/shaderapidx9_client.so": {
+      "r_decals": 2,
+      "r_decal_overlap_count": 1,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/shaderapiempty.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/soundemittersystem.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/soundemittersystem_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/stdshader_dx9_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 2
+    },
+    "bin/steamclient.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/studiorender.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/studiorender_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/unitlib.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/valve_avi_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/vaudio_celt_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/vaudio_miles_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/vaudio_speex_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/vgui2_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/vguimatsurface_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/vphysics.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/vphysics_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/vscript.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "bin/vscript_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "csgo/bin/client_client.so": {
+      "r_decals": 2,
+      "r_decal_overlap_count": 1,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "csgo/bin/linux64/client_client.so": {
+      "r_decals": 2,
+      "r_decal_overlap_count": 1,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "csgo/bin/linux64/client_panorama_client.so": {
+      "r_decals": 2,
+      "r_decal_overlap_count": 1,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "csgo/bin/linux64/matchmaking_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "csgo/bin/linux64/matchmaking_ds.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "csgo/bin/linux64/matchmaking_ds_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "csgo/bin/linux64/server_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "csgo/bin/matchmaking_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "csgo/bin/matchmaking_ds.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "csgo/bin/matchmaking_ds_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "csgo/bin/server.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "csgo/bin/server_client.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    },
+    "csgo/bin/server_i486.so": {
+      "r_decals": 0,
+      "r_decal_overlap_count": 0,
+      "cl_decals": 0,
+      "fog fade parameters": 0
+    }
+  },
+  "rDecals": {
+    "name": "r_decals",
+    "default": "2048",
+    "nameAt": "0x94b693",
+    "defaultAt": "0x94b68e",
+    "binary": "bin/linux64/engine_client.so",
+    "sha256": "34a96aefd9357a20e7e81f1525f13363e2561c88001d73d24c2b06b0655671f1"
+  },
+  "engineWording": {
+    "debugFormat": "%d decals: %d permanent, %d dynamic\nr_decals: %d\n",
+    "at": "0x94dd98",
+    "noSlot": "R_FindDynamicDecalSlot: no slot available.\n",
+    "noSlotAt": "0x94ddd0"
+  },
+  "decalShaderFogFade": {
+    "shader": "DecalModulate",
+    "flags": [
+      "bHasFogFade = FOGFADE",
+      "nLightingPreviewMode = LIGHTING_PREVIEW"
+    ],
+    "flagTableAt": "0x1167f0",
+    "parameters": [
+      {
+        "name": "$FOGEXPONENT",
+        "default": "0.4",
+        "description": "exponent to tweak fog fade"
+      },
+      {
+        "name": "$FOGSCALE",
+        "default": null,
+        "description": "scale to tweak fog fade"
+      },
+      {
+        "name": "$FOGFADESTART",
+        "default": null,
+        "description": "fog amount at which to start fading decal"
+      },
+      {
+        "name": "$FOGFADEEND",
+        "default": null,
+        "description": "fog amount at which to end fading decal"
+      }
+    ],
+    "note": "The shader spells the parameters in upper case and the materials in lower case; the engine matches them ignoring case, the same way the texture scroll proxy does."
+  },
+  "fogFadeMaterials": {
+    "materials/decals/flesh/blood9.vmt": [
+      "$fogfadeend 0.5"
+    ],
+    "materials/decals/flesh/blood5.vmt": [
+      "$fogfadeend 0.5"
+    ],
+    "materials/decals/flesh/blood4.vmt": [
+      "$fogfadeend 0.5"
+    ],
+    "materials/decals/flesh/blood3.vmt": [
+      "$fogfadeend 0.5"
+    ],
+    "materials/decals/flesh/blood2.vmt": [
+      "$fogfadeend 0.5"
+    ],
+    "materials/decals/flesh/blood1.vmt": [
+      "$fogfadeend 0.5"
+    ],
+    "materials/decals/decals_bulletsheet.vmt": [
+      "$fogfadeend 0.5"
+    ],
+    "materials/decals/blood8.vmt": [
+      "$fogfadeend 0.5"
+    ],
+    "materials/decals/blood7.vmt": [
+      "$fogfadeend 0.5"
+    ],
+    "materials/decals/blood5.vmt": [
+      "$fogfadeend 0.5"
+    ],
+    "materials/decals/blood4.vmt": [
+      "$fogfadeend 0.5"
+    ],
+    "materials/decals/blood3.vmt": [
+      "$fogfadeend 0.5"
+    ],
+    "materials/decals/blood2.vmt": [
+      "$fogfadeend 0.5"
+    ],
+    "materials/decals/blood1.vmt": [
+      "$fogfadeend 0.5"
+    ]
+  },
+  "reading": "The installed build states 2048 as the default for r_decals, counts its decals as permanent plus dynamic, recycles a slot when the pool is full, and states no decal fade convar at all. The fade decals have is a fog fade, stated by the DecalModulate shader through a FOGFADE static flag and four parameters, and every one of the 14 materials that use it - including the bullet decal sheet this build draws from - states exactly $fogfadeend 0.5.",
+  "boundary": "The pool number is the shipped default rather than a measurement of the original running: how it divides 2048 between permanent and dynamic decals, and the order it recycles slots in, are not read, so this build keeps its own budget and oldest-first recycling and says so. The fog fade's own arithmetic has not been read off the DecalModulate program yet, and it would not show on the map this build ships, whose fog is disabled; it is recorded here as the next step rather than implemented from the parameter names."
+}

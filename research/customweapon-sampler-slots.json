@@ -1,0 +1,193 @@
+{
+  "format": "source-customweapon-sampler-slots-v1",
+  "status": "installed_shader_texture_slots_scanned",
+  "binary": {
+    "file": ".reference-assets/csgo-legacy/bin/linux64/stdshader_dx9_client.so",
+    "bytes": 1440902,
+    "sha256": "0383c51766a4681b5de26aa79b67ade5d3a867a8622185abe8a090877bac7c2e"
+  },
+  "windows": [
+    [
+      "0x678f0",
+      "0x67d40"
+    ],
+    [
+      "0x660c0",
+      "0x66320"
+    ]
+  ],
+  "addressesTested": 1712,
+  "slots": [
+    {
+      "sampler": 0,
+      "srgbRead": true,
+      "flags": 2147483648,
+      "address": "0x67968",
+      "span": [
+        "0x67968"
+      ],
+      "candidates": 1
+    },
+    {
+      "sampler": 1,
+      "srgbRead": false,
+      "flags": 1,
+      "address": "0x67c40",
+      "span": [
+        "0x67c40"
+      ],
+      "candidates": 1
+    },
+    {
+      "sampler": 2,
+      "srgbRead": false,
+      "flags": 2,
+      "address": "0x67bd8",
+      "span": [
+        "0x67bd8"
+      ],
+      "candidates": 1
+    },
+    {
+      "sampler": 3,
+      "srgbRead": true,
+      "flags": 2147483651,
+      "address": "0x67b6f",
+      "span": [
+        "0x67b6f"
+      ],
+      "candidates": 1
+    },
+    {
+      "sampler": 4,
+      "srgbRead": false,
+      "flags": 4,
+      "address": "0x67b08",
+      "span": [
+        "0x67b08"
+      ],
+      "candidates": 1
+    },
+    {
+      "sampler": 5,
+      "srgbRead": true,
+      "flags": 2147483653,
+      "address": "0x67aa0",
+      "span": [
+        "0x67aa0"
+      ],
+      "candidates": 1
+    },
+    {
+      "sampler": 6,
+      "srgbRead": false,
+      "flags": 6,
+      "address": "0x67a38",
+      "span": [
+        "0x67a38"
+      ],
+      "candidates": 1
+    },
+    {
+      "sampler": 7,
+      "srgbRead": false,
+      "flags": 7,
+      "address": "0x679d0",
+      "span": [
+        "0x679d0"
+      ],
+      "candidates": 1
+    },
+    {
+      "sampler": 8,
+      "srgbRead": true,
+      "flags": 2147483656,
+      "address": "0x661c1",
+      "span": [
+        "0x661c1"
+      ],
+      "candidates": 1
+    }
+  ],
+  "knownControl": [
+    {
+      "sampler": 0,
+      "expectedSpan": [
+        "0x67968",
+        "0x679ac"
+      ],
+      "measured": {
+        "sampler": 0,
+        "srgbRead": true,
+        "flags": 2147483648,
+        "address": "0x67968"
+      }
+    },
+    {
+      "sampler": 1,
+      "expectedSpan": [
+        "0x67c40",
+        "0x67c84"
+      ],
+      "measured": {
+        "sampler": 1,
+        "srgbRead": false,
+        "flags": 1,
+        "address": "0x67c40"
+      }
+    },
+    {
+      "sampler": 2,
+      "expectedSpan": [
+        "0x67bd8",
+        "0x67c1c"
+      ],
+      "measured": {
+        "sampler": 2,
+        "srgbRead": false,
+        "flags": 2,
+        "address": "0x67bd8"
+      }
+    },
+    {
+      "sampler": 3,
+      "expectedSpan": [
+        "0x67b6f",
+        "0x67bb3"
+      ],
+      "measured": {
+        "sampler": 3,
+        "srgbRead": true,
+        "flags": 2147483651,
+        "address": "0x67b6f"
+      }
+    },
+    {
+      "sampler": 5,
+      "expectedSpan": [
+        "0x67aa0",
+        "0x67ae4"
+      ],
+      "measured": {
+        "sampler": 5,
+        "srgbRead": true,
+        "flags": 2147483653,
+        "address": "0x67aa0"
+      }
+    },
+    {
+      "sampler": 8,
+      "expectedSpan": [
+        "0x661c1",
+        "0x66205"
+      ],
+      "measured": {
+        "sampler": 8,
+        "srgbRead": true,
+        "flags": 2147483656,
+        "address": "0x661c1"
+      }
+    }
+  ],
+  "boundary": "Bind-command writers found by running this build's own code. Which original texture a slot carries is not decided here: it needs the material's own texture list, which this scan does not read."
+}

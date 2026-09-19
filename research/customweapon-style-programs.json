@@ -1,0 +1,1281 @@
+{
+  "format": "source-customweapon-style-programs-v1",
+  "status": "installed_platform_shader_compiled_per_style",
+  "platformVpk": {
+    "path": ".reference-assets/csgo-legacy/platform/platform_pak01_dir.vpk",
+    "bytes": 105651,
+    "sha256": "0bc202e8e5568801e0c302308683add26aa9cd01ea3e381dbb4cd0f2cecf7a1f"
+  },
+  "vcsFile": {
+    "path": "shaders/fxc/customweapon_ps30.vcs",
+    "bytes": 99157,
+    "sha256": "7115c936b78fa3762e9a729b60b1b2123f761ac32a41bf044b3bb34bde5ac0ce"
+  },
+  "selectorRule": "static = style + 10*exponentMode (non-preview, albedoFactor>=1)",
+  "styleFamilies": {
+    "1": {
+      "family": "SOLID",
+      "directoriesFromHeading": [],
+      "directories": [
+        "solid"
+      ]
+    },
+    "2": {
+      "family": "HYDROGRAPHIC",
+      "directoriesFromHeading": [],
+      "directories": [
+        "hydrographic"
+      ]
+    },
+    "3": {
+      "family": "SPRAYPAINT",
+      "directoriesFromHeading": [],
+      "directories": [
+        "spray"
+      ]
+    },
+    "4": {
+      "family": "ANODIZED",
+      "directoriesFromHeading": [],
+      "directories": [
+        "anodized"
+      ]
+    },
+    "5": {
+      "family": "ANODIZED MULTI",
+      "directoriesFromHeading": [],
+      "directories": [
+        "anodized_multi"
+      ]
+    },
+    "6": {
+      "family": "ANODIZED AIRBRUSHED",
+      "directoriesFromHeading": [],
+      "directories": [
+        "anodized_air"
+      ]
+    },
+    "7": {
+      "family": "CUSTOM APPLIQUE",
+      "directoriesFromHeading": [],
+      "directories": [
+        "custom"
+      ]
+    },
+    "8": {
+      "family": "ANTIQUED/PATINA",
+      "directoriesFromHeading": [],
+      "directories": [
+        "antiqued"
+      ]
+    }
+  },
+  "styleFamiliesFile": {
+    "path": "materials/models/weapons/customization/paints/master.vmt",
+    "sha256": "8fcce02f2a6c6680a4e42b359c4ff35adbf769516620d3c6ef7ea5cdf57474a2"
+  },
+  "stagedInputRoles": {
+    "0": "ao",
+    "1": "paintWear",
+    "2": "weaponExponent",
+    "3": "weaponAlbedo",
+    "5": "gunGrunge",
+    "8": "pattern"
+  },
+  "samplerNames": {
+    "0": "AOSampler",
+    "1": "ScratchesSampler",
+    "2": "ExponentSampler",
+    "3": "BaseSampler",
+    "4": "MasksSampler",
+    "5": "GrungeSampler",
+    "6": "NormalsSampler",
+    "7": "OSPosSampler",
+    "8": "PatternSampler"
+  },
+  "requirements": {
+    "1": {
+      "family": "SOLID",
+      "colorPermutation": true,
+      "exponentPermutation": true,
+      "samplers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "missingInputs": [
+        {
+          "sampler": 4,
+          "name": "MasksSampler",
+          "stagedRole": null
+        }
+      ]
+    },
+    "2": {
+      "family": "HYDROGRAPHIC",
+      "colorPermutation": true,
+      "exponentPermutation": true,
+      "samplers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "missingInputs": [
+        {
+          "sampler": 4,
+          "name": "MasksSampler",
+          "stagedRole": null
+        }
+      ]
+    },
+    "3": {
+      "family": "SPRAYPAINT",
+      "colorPermutation": true,
+      "exponentPermutation": false,
+      "samplers": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "missingInputs": [
+        {
+          "sampler": 6,
+          "name": "NormalsSampler",
+          "stagedRole": null
+        },
+        {
+          "sampler": 7,
+          "name": "OSPosSampler",
+          "stagedRole": null
+        }
+      ]
+    },
+    "4": {
+      "family": "ANODIZED",
+      "colorPermutation": true,
+      "exponentPermutation": true,
+      "samplers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "missingInputs": [
+        {
+          "sampler": 4,
+          "name": "MasksSampler",
+          "stagedRole": null
+        }
+      ]
+    },
+    "5": {
+      "family": "ANODIZED MULTI",
+      "colorPermutation": true,
+      "exponentPermutation": true,
+      "samplers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "missingInputs": [
+        {
+          "sampler": 4,
+          "name": "MasksSampler",
+          "stagedRole": null
+        }
+      ]
+    },
+    "6": {
+      "family": "ANODIZED AIRBRUSHED",
+      "colorPermutation": true,
+      "exponentPermutation": false,
+      "samplers": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "missingInputs": [
+        {
+          "sampler": 4,
+          "name": "MasksSampler",
+          "stagedRole": null
+        },
+        {
+          "sampler": 6,
+          "name": "NormalsSampler",
+          "stagedRole": null
+        },
+        {
+          "sampler": 7,
+          "name": "OSPosSampler",
+          "stagedRole": null
+        }
+      ]
+    },
+    "7": {
+      "family": "CUSTOM APPLIQUE",
+      "colorPermutation": true,
+      "exponentPermutation": true,
+      "samplers": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        8
+      ],
+      "missingInputs": []
+    },
+    "8": {
+      "family": "ANTIQUED/PATINA",
+      "colorPermutation": true,
+      "exponentPermutation": true,
+      "samplers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "missingInputs": [
+        {
+          "sampler": 4,
+          "name": "MasksSampler",
+          "stagedRole": null
+        }
+      ]
+    },
+    "9": {
+      "family": null,
+      "colorPermutation": true,
+      "exponentPermutation": true,
+      "samplers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "missingInputs": [
+        {
+          "sampler": 4,
+          "name": "MasksSampler",
+          "stagedRole": null
+        }
+      ]
+    }
+  },
+  "control": {
+    "color": {
+      "static": 7,
+      "matchesPublishedProgram": true,
+      "publishedSha256": "fbd03afa4cc074434791bc3cd8078fea0c7d1933d7b7aa995cd7d7e538ee1ba3"
+    },
+    "exponent": {
+      "static": 17,
+      "matchesPublishedProgram": true,
+      "publishedSha256": "9fcf95e92c2694fdb89b80d3b5b6a64896b92bfd274b9df3f8d439e4a6fdeb21"
+    }
+  },
+  "styles": {
+    "1": {
+      "color": {
+        "static": 1,
+        "present": true,
+        "programBytes": 1676,
+        "programSha256": "b4c85db4a5ce2c506baca54f6486c216f1714c0320aabc10bb1543bd4b67760a",
+        "tokenCount": 67,
+        "declaredSamplers": [
+          0,
+          1,
+          3,
+          4,
+          5
+        ],
+        "loadedSamplers": [
+          0,
+          1,
+          3,
+          4,
+          5
+        ],
+        "ctabSamplers": {
+          "0": "AOSampler",
+          "1": "ScratchesSampler",
+          "3": "BaseSampler",
+          "4": "MasksSampler",
+          "5": "GrungeSampler"
+        },
+        "ctabConstants": [
+          {
+            "registerSet": 2,
+            "register": 0,
+            "count": 1,
+            "name": "g_cCamo0_camo3r"
+          },
+          {
+            "registerSet": 2,
+            "register": 1,
+            "count": 1,
+            "name": "g_cCamo1_camo3g"
+          },
+          {
+            "registerSet": 2,
+            "register": 2,
+            "count": 1,
+            "name": "g_cCamo2_camo3b"
+          },
+          {
+            "registerSet": 2,
+            "register": 3,
+            "count": 1,
+            "name": "g_fvPhongSettings_wear"
+          }
+        ],
+        "opcodes": [
+          1,
+          2,
+          4,
+          5,
+          8,
+          11,
+          18,
+          31,
+          66,
+          81
+        ]
+      },
+      "exponent": {
+        "static": 11,
+        "present": true,
+        "programBytes": 680,
+        "programSha256": "fddbe8ae2532a9182222914ce2cdf00bd4c34021a38f2fca2d1378fd7284fcc8",
+        "tokenCount": 22,
+        "declaredSamplers": [
+          0,
+          1,
+          2
+        ],
+        "loadedSamplers": [
+          0,
+          1,
+          2
+        ],
+        "ctabSamplers": {
+          "0": "AOSampler",
+          "1": "ScratchesSampler",
+          "2": "ExponentSampler"
+        },
+        "ctabConstants": [
+          {
+            "registerSet": 2,
+            "register": 3,
+            "count": 1,
+            "name": "g_fvPhongSettings_wear"
+          }
+        ],
+        "opcodes": [
+          1,
+          4,
+          5,
+          31,
+          66,
+          81
+        ]
+      }
+    },
+    "2": {
+      "color": {
+        "static": 2,
+        "present": true,
+        "programBytes": 2060,
+        "programSha256": "d1a07e45c2d5a986ce42ceb7b300d3a5efadd02d79f99822f6f5fa3cd6d8b951",
+        "tokenCount": 87,
+        "declaredSamplers": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          8
+        ],
+        "loadedSamplers": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          8
+        ],
+        "ctabSamplers": {
+          "0": "AOSampler",
+          "1": "ScratchesSampler",
+          "3": "BaseSampler",
+          "4": "MasksSampler",
+          "5": "GrungeSampler",
+          "8": "PatternSampler"
+        },
+        "ctabConstants": [
+          {
+            "registerSet": 2,
+            "register": 0,
+            "count": 1,
+            "name": "g_cCamo0_camo3r"
+          },
+          {
+            "registerSet": 2,
+            "register": 1,
+            "count": 1,
+            "name": "g_cCamo1_camo3g"
+          },
+          {
+            "registerSet": 2,
+            "register": 2,
+            "count": 1,
+            "name": "g_cCamo2_camo3b"
+          },
+          {
+            "registerSet": 2,
+            "register": 3,
+            "count": 1,
+            "name": "g_fvPhongSettings_wear"
+          }
+        ],
+        "opcodes": [
+          1,
+          2,
+          4,
+          5,
+          8,
+          11,
+          18,
+          31,
+          66,
+          81
+        ]
+      },
+      "exponent": {
+        "static": 12,
+        "present": true,
+        "programBytes": 1116,
+        "programSha256": "38afcd242605c5d8b2388d8eb7b2394141721c3cbcdf0fc905002bbaf70e4127",
+        "tokenCount": 42,
+        "declaredSamplers": [
+          0,
+          1,
+          2,
+          4,
+          8
+        ],
+        "loadedSamplers": [
+          0,
+          1,
+          2,
+          4,
+          8
+        ],
+        "ctabSamplers": {
+          "0": "AOSampler",
+          "1": "ScratchesSampler",
+          "2": "ExponentSampler",
+          "4": "MasksSampler",
+          "8": "PatternSampler"
+        },
+        "ctabConstants": [
+          {
+            "registerSet": 2,
+            "register": 3,
+            "count": 1,
+            "name": "g_fvPhongSettings_wear"
+          }
+        ],
+        "opcodes": [
+          1,
+          2,
+          4,
+          5,
+          11,
+          31,
+          66,
+          81
+        ]
+      }
+    },
+    "3": {
+      "color": {
+        "static": 3,
+        "present": true,
+        "programBytes": 3600,
+        "programSha256": "abf2fe592c456890340b5a51bca270f89631382782ed7d49168b2781fa14fbde",
+        "tokenCount": 163,
+        "declaredSamplers": [
+          0,
+          1,
+          3,
+          5,
+          6,
+          7,
+          8
+        ],
+        "loadedSamplers": [
+          0,
+          1,
+          3,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ctabSamplers": {
+          "0": "AOSampler",
+          "1": "ScratchesSampler",
+          "3": "BaseSampler",
+          "5": "GrungeSampler",
+          "6": "NormalsSampler",
+          "7": "OSPosSampler",
+          "8": "PatternSampler"
+        },
+        "ctabConstants": [
+          {
+            "registerSet": 2,
+            "register": 0,
+            "count": 1,
+            "name": "g_cCamo0_camo3r"
+          },
+          {
+            "registerSet": 2,
+            "register": 1,
+            "count": 1,
+            "name": "g_cCamo1_camo3g"
+          },
+          {
+            "registerSet": 2,
+            "register": 2,
+            "count": 1,
+            "name": "g_cCamo2_camo3b"
+          },
+          {
+            "registerSet": 2,
+            "register": 3,
+            "count": 1,
+            "name": "g_fvPhongSettings_wear"
+          },
+          {
+            "registerSet": 2,
+            "register": 10,
+            "count": 2,
+            "name": "g_patternTexCoordTransform"
+          }
+        ],
+        "opcodes": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          11,
+          18,
+          31,
+          32,
+          66,
+          81,
+          90
+        ]
+      },
+      "exponent": {
+        "static": 13,
+        "present": false
+      }
+    },
+    "4": {
+      "color": {
+        "static": 4,
+        "present": true,
+        "programBytes": 1468,
+        "programSha256": "a4a734182da7aa72298813ce4d929dc23de9dc0b2f14f3c995fe5222a8641a64",
+        "tokenCount": 59,
+        "declaredSamplers": [
+          0,
+          1,
+          3,
+          4,
+          5
+        ],
+        "loadedSamplers": [
+          0,
+          1,
+          3,
+          4,
+          5
+        ],
+        "ctabSamplers": {
+          "0": "AOSampler",
+          "1": "ScratchesSampler",
+          "3": "BaseSampler",
+          "4": "MasksSampler",
+          "5": "GrungeSampler"
+        },
+        "ctabConstants": [
+          {
+            "registerSet": 2,
+            "register": 0,
+            "count": 1,
+            "name": "g_cCamo0_camo3r"
+          },
+          {
+            "registerSet": 2,
+            "register": 3,
+            "count": 1,
+            "name": "g_fvPhongSettings_wear"
+          }
+        ],
+        "opcodes": [
+          1,
+          2,
+          4,
+          5,
+          8,
+          18,
+          31,
+          66,
+          81
+        ]
+      },
+      "exponent": {
+        "static": 14,
+        "present": true,
+        "programBytes": 804,
+        "programSha256": "4aa03f66fa89b5e7b69c2e49c2bf233165ba521d374a67fad496a066f71420da",
+        "tokenCount": 26,
+        "declaredSamplers": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "loadedSamplers": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "ctabSamplers": {
+          "0": "AOSampler",
+          "1": "ScratchesSampler",
+          "2": "ExponentSampler",
+          "4": "MasksSampler"
+        },
+        "ctabConstants": [
+          {
+            "registerSet": 2,
+            "register": 3,
+            "count": 1,
+            "name": "g_fvPhongSettings_wear"
+          }
+        ],
+        "opcodes": [
+          1,
+          2,
+          4,
+          5,
+          31,
+          66,
+          81
+        ]
+      }
+    },
+    "5": {
+      "color": {
+        "static": 5,
+        "present": true,
+        "programBytes": 1912,
+        "programSha256": "d6778d12af79b63b704eefc229756b8f3ec2be5b648ff45e2f2e7b8dffa81cfb",
+        "tokenCount": 78,
+        "declaredSamplers": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          8
+        ],
+        "loadedSamplers": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          8
+        ],
+        "ctabSamplers": {
+          "0": "AOSampler",
+          "1": "ScratchesSampler",
+          "3": "BaseSampler",
+          "4": "MasksSampler",
+          "5": "GrungeSampler",
+          "8": "PatternSampler"
+        },
+        "ctabConstants": [
+          {
+            "registerSet": 2,
+            "register": 0,
+            "count": 1,
+            "name": "g_cCamo0_camo3r"
+          },
+          {
+            "registerSet": 2,
+            "register": 1,
+            "count": 1,
+            "name": "g_cCamo1_camo3g"
+          },
+          {
+            "registerSet": 2,
+            "register": 2,
+            "count": 1,
+            "name": "g_cCamo2_camo3b"
+          },
+          {
+            "registerSet": 2,
+            "register": 3,
+            "count": 1,
+            "name": "g_fvPhongSettings_wear"
+          }
+        ],
+        "opcodes": [
+          1,
+          2,
+          4,
+          5,
+          8,
+          18,
+          31,
+          66,
+          81
+        ]
+      },
+      "exponent": {
+        "static": 15,
+        "present": true,
+        "programBytes": 1072,
+        "programSha256": "8c6f65d29fcc90cfd89475c34ffb1cc59b100504f3aca9528edc12d241fed1a7",
+        "tokenCount": 39,
+        "declaredSamplers": [
+          0,
+          1,
+          2,
+          4,
+          8
+        ],
+        "loadedSamplers": [
+          0,
+          1,
+          2,
+          4,
+          8
+        ],
+        "ctabSamplers": {
+          "0": "AOSampler",
+          "1": "ScratchesSampler",
+          "2": "ExponentSampler",
+          "4": "MasksSampler",
+          "8": "PatternSampler"
+        },
+        "ctabConstants": [
+          {
+            "registerSet": 2,
+            "register": 3,
+            "count": 1,
+            "name": "g_fvPhongSettings_wear"
+          }
+        ],
+        "opcodes": [
+          1,
+          2,
+          4,
+          5,
+          11,
+          31,
+          66,
+          81
+        ]
+      }
+    },
+    "6": {
+      "color": {
+        "static": 6,
+        "present": true,
+        "programBytes": 3364,
+        "programSha256": "7ff75eb8ad96d2cf62a66cc0794549ff961203d61dd6595360bb6d6b2b419957",
+        "tokenCount": 146,
+        "declaredSamplers": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "loadedSamplers": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ctabSamplers": {
+          "0": "AOSampler",
+          "1": "ScratchesSampler",
+          "3": "BaseSampler",
+          "4": "MasksSampler",
+          "5": "GrungeSampler",
+          "6": "NormalsSampler",
+          "7": "OSPosSampler",
+          "8": "PatternSampler"
+        },
+        "ctabConstants": [
+          {
+            "registerSet": 2,
+            "register": 0,
+            "count": 1,
+            "name": "g_cCamo0_camo3r"
+          },
+          {
+            "registerSet": 2,
+            "register": 1,
+            "count": 1,
+            "name": "g_cCamo1_camo3g"
+          },
+          {
+            "registerSet": 2,
+            "register": 2,
+            "count": 1,
+            "name": "g_cCamo2_camo3b"
+          },
+          {
+            "registerSet": 2,
+            "register": 3,
+            "count": 1,
+            "name": "g_fvPhongSettings_wear"
+          },
+          {
+            "registerSet": 2,
+            "register": 10,
+            "count": 2,
+            "name": "g_patternTexCoordTransform"
+          }
+        ],
+        "opcodes": [
+          1,
+          2,
+          4,
+          5,
+          7,
+          8,
+          18,
+          31,
+          32,
+          66,
+          81,
+          90
+        ]
+      },
+      "exponent": {
+        "static": 16,
+        "present": false
+      }
+    },
+    "7": {
+      "color": {
+        "static": 7,
+        "present": true,
+        "programBytes": 1644,
+        "programSha256": "fbd03afa4cc074434791bc3cd8078fea0c7d1933d7b7aa995cd7d7e538ee1ba3",
+        "tokenCount": 71,
+        "declaredSamplers": [
+          0,
+          1,
+          3,
+          5,
+          8
+        ],
+        "loadedSamplers": [
+          0,
+          1,
+          3,
+          5,
+          8
+        ],
+        "ctabSamplers": {
+          "0": "AOSampler",
+          "1": "ScratchesSampler",
+          "3": "BaseSampler",
+          "5": "GrungeSampler",
+          "8": "PatternSampler"
+        },
+        "ctabConstants": [
+          {
+            "registerSet": 2,
+            "register": 3,
+            "count": 1,
+            "name": "g_fvPhongSettings_wear"
+          }
+        ],
+        "opcodes": [
+          1,
+          2,
+          4,
+          5,
+          8,
+          11,
+          18,
+          31,
+          66,
+          81
+        ]
+      },
+      "exponent": {
+        "static": 17,
+        "present": true,
+        "programBytes": 972,
+        "programSha256": "9fcf95e92c2694fdb89b80d3b5b6a64896b92bfd274b9df3f8d439e4a6fdeb21",
+        "tokenCount": 36,
+        "declaredSamplers": [
+          0,
+          1,
+          2,
+          8
+        ],
+        "loadedSamplers": [
+          0,
+          1,
+          2,
+          8
+        ],
+        "ctabSamplers": {
+          "0": "AOSampler",
+          "1": "ScratchesSampler",
+          "2": "ExponentSampler",
+          "8": "PatternSampler"
+        },
+        "ctabConstants": [
+          {
+            "registerSet": 2,
+            "register": 3,
+            "count": 1,
+            "name": "g_fvPhongSettings_wear"
+          }
+        ],
+        "opcodes": [
+          1,
+          2,
+          4,
+          5,
+          31,
+          66,
+          81
+        ]
+      }
+    },
+    "8": {
+      "color": {
+        "static": 8,
+        "present": true,
+        "programBytes": 1916,
+        "programSha256": "a307edf37b2ed217c28b522f3872c99c11f382fe39113ed9fd41f2eff307e996",
+        "tokenCount": 79,
+        "declaredSamplers": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          8
+        ],
+        "loadedSamplers": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          8
+        ],
+        "ctabSamplers": {
+          "0": "AOSampler",
+          "1": "ScratchesSampler",
+          "3": "BaseSampler",
+          "4": "MasksSampler",
+          "5": "GrungeSampler",
+          "8": "PatternSampler"
+        },
+        "ctabConstants": [
+          {
+            "registerSet": 2,
+            "register": 0,
+            "count": 1,
+            "name": "g_cCamo0_camo3r"
+          },
+          {
+            "registerSet": 2,
+            "register": 1,
+            "count": 1,
+            "name": "g_cCamo1_camo3g"
+          },
+          {
+            "registerSet": 2,
+            "register": 2,
+            "count": 1,
+            "name": "g_cCamo2_camo3b"
+          },
+          {
+            "registerSet": 2,
+            "register": 3,
+            "count": 1,
+            "name": "g_fvPhongSettings_wear"
+          }
+        ],
+        "opcodes": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          18,
+          31,
+          66,
+          81
+        ]
+      },
+      "exponent": {
+        "static": 18,
+        "present": true,
+        "programBytes": 576,
+        "programSha256": "08c2e31f6ba90c57323d65f38c4ddedd043e5f020cfca369b34b51a654e3c4a7",
+        "tokenCount": 16,
+        "declaredSamplers": [
+          0,
+          2,
+          4
+        ],
+        "loadedSamplers": [
+          0,
+          2,
+          4
+        ],
+        "ctabSamplers": {
+          "0": "AOSampler",
+          "2": "ExponentSampler",
+          "4": "MasksSampler"
+        },
+        "ctabConstants": [
+          {
+            "registerSet": 2,
+            "register": 3,
+            "count": 1,
+            "name": "g_fvPhongSettings_wear"
+          }
+        ],
+        "opcodes": [
+          2,
+          4,
+          31,
+          66,
+          81,
+          88
+        ]
+      }
+    },
+    "9": {
+      "color": {
+        "static": 9,
+        "present": true,
+        "programBytes": 2600,
+        "programSha256": "d6bcc641e71917517341f70d6c046ee4bf67599df6ecf771772cd9717732393f",
+        "tokenCount": 116,
+        "declaredSamplers": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          8
+        ],
+        "loadedSamplers": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          8
+        ],
+        "ctabSamplers": {
+          "0": "AOSampler",
+          "1": "ScratchesSampler",
+          "3": "BaseSampler",
+          "4": "MasksSampler",
+          "5": "GrungeSampler",
+          "8": "PatternSampler"
+        },
+        "ctabConstants": [
+          {
+            "registerSet": 2,
+            "register": 0,
+            "count": 1,
+            "name": "g_cCamo0_camo3r"
+          },
+          {
+            "registerSet": 2,
+            "register": 1,
+            "count": 1,
+            "name": "g_cCamo1_camo3g"
+          },
+          {
+            "registerSet": 2,
+            "register": 2,
+            "count": 1,
+            "name": "g_cCamo2_camo3b"
+          },
+          {
+            "registerSet": 2,
+            "register": 3,
+            "count": 1,
+            "name": "g_fvPhongSettings_wear"
+          }
+        ],
+        "opcodes": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          18,
+          31,
+          66,
+          81
+        ]
+      },
+      "exponent": {
+        "static": 19,
+        "present": true,
+        "programBytes": 1200,
+        "programSha256": "b1e5cd25dd17aeb5999356819d6e7e700cdf1ab0cdb3f6afb4297273def098f1",
+        "tokenCount": 45,
+        "declaredSamplers": [
+          0,
+          1,
+          2,
+          4,
+          8
+        ],
+        "loadedSamplers": [
+          0,
+          1,
+          2,
+          4,
+          8
+        ],
+        "ctabSamplers": {
+          "0": "AOSampler",
+          "1": "ScratchesSampler",
+          "2": "ExponentSampler",
+          "4": "MasksSampler",
+          "8": "PatternSampler"
+        },
+        "ctabConstants": [
+          {
+            "registerSet": 2,
+            "register": 3,
+            "count": 1,
+            "name": "g_fvPhongSettings_wear"
+          }
+        ],
+        "opcodes": [
+          1,
+          2,
+          4,
+          5,
+          18,
+          31,
+          66,
+          81,
+          88
+        ]
+      }
+    }
+  },
+  "distinctDeclaredSamplers": {
+    "(0, 1, 3, 4, 5)": [
+      "1c",
+      "4c"
+    ],
+    "(0, 1, 2)": [
+      "1e"
+    ],
+    "(0, 1, 3, 4, 5, 8)": [
+      "2c",
+      "5c",
+      "8c",
+      "9c"
+    ],
+    "(0, 1, 2, 4, 8)": [
+      "2e",
+      "5e",
+      "9e"
+    ],
+    "(0, 1, 3, 5, 6, 7, 8)": [
+      "3c"
+    ],
+    "(0, 1, 2, 4)": [
+      "4e"
+    ],
+    "(0, 1, 3, 4, 5, 6, 7, 8)": [
+      "6c"
+    ],
+    "(0, 1, 3, 5, 8)": [
+      "7c"
+    ],
+    "(0, 1, 2, 8)": [
+      "7e"
+    ],
+    "(0, 2, 4)": [
+      "8e"
+    ]
+  },
+  "boundary": "Compiled permutations and what their own constant tables declare. How the original uploads a permutation's palette constants is not measured here, and neither is the texture a missing slot carries."
+}

@@ -1,0 +1,885 @@
+{
+  "commit": "b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+  "files": [
+    {
+      "name": "VertexLitGeneric.psh",
+      "path": "src/materialsystem/stdshaders/VertexLitGeneric.psh",
+      "sha": "5aea47c4995d0172775f139b44975b7a2f380081",
+      "size": 259,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/5aea47c4995d0172775f139b44975b7a2f380081",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/5aea47c4995d0172775f139b44975b7a2f380081",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric.psh"
+      }
+    },
+    {
+      "name": "VertexLitGeneric_BaseAlphaMaskedEnvMapV2.psh",
+      "path": "src/materialsystem/stdshaders/VertexLitGeneric_BaseAlphaMaskedEnvMapV2.psh",
+      "sha": "95b80efcdfb5c386469608d4586e8c58cadcd918",
+      "size": 415,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_BaseAlphaMaskedEnvMapV2.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_BaseAlphaMaskedEnvMapV2.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/95b80efcdfb5c386469608d4586e8c58cadcd918",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_BaseAlphaMaskedEnvMapV2.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_BaseAlphaMaskedEnvMapV2.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/95b80efcdfb5c386469608d4586e8c58cadcd918",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_BaseAlphaMaskedEnvMapV2.psh"
+      }
+    },
+    {
+      "name": "VertexLitGeneric_BlendTint.psh",
+      "path": "src/materialsystem/stdshaders/VertexLitGeneric_BlendTint.psh",
+      "sha": "e74a5272d53a7a39823a0f1f973228cfe1abe663",
+      "size": 327,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_BlendTint.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_BlendTint.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/e74a5272d53a7a39823a0f1f973228cfe1abe663",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_BlendTint.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_BlendTint.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/e74a5272d53a7a39823a0f1f973228cfe1abe663",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_BlendTint.psh"
+      }
+    },
+    {
+      "name": "VertexLitGeneric_Detail.psh",
+      "path": "src/materialsystem/stdshaders/VertexLitGeneric_Detail.psh",
+      "sha": "cdb39b77ee4bb5c92e1e1e8be441b9accf79ba05",
+      "size": 328,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_Detail.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_Detail.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/cdb39b77ee4bb5c92e1e1e8be441b9accf79ba05",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_Detail.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_Detail.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/cdb39b77ee4bb5c92e1e1e8be441b9accf79ba05",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_Detail.psh"
+      }
+    },
+    {
+      "name": "VertexLitGeneric_DetailBaseAlphaMaskedEnvMapV2.psh",
+      "path": "src/materialsystem/stdshaders/VertexLitGeneric_DetailBaseAlphaMaskedEnvMapV2.psh",
+      "sha": "3a329f2042774e8cbaccdd9a759555152000e47c",
+      "size": 477,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_DetailBaseAlphaMaskedEnvMapV2.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_DetailBaseAlphaMaskedEnvMapV2.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/3a329f2042774e8cbaccdd9a759555152000e47c",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_DetailBaseAlphaMaskedEnvMapV2.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_DetailBaseAlphaMaskedEnvMapV2.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/3a329f2042774e8cbaccdd9a759555152000e47c",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_DetailBaseAlphaMaskedEnvMapV2.psh"
+      }
+    },
+    {
+      "name": "VertexLitGeneric_DetailEnvMapV2.psh",
+      "path": "src/materialsystem/stdshaders/VertexLitGeneric_DetailEnvMapV2.psh",
+      "sha": "ce9ade839a94b1ff886f3dc246494a99159d24d5",
+      "size": 413,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_DetailEnvMapV2.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_DetailEnvMapV2.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/ce9ade839a94b1ff886f3dc246494a99159d24d5",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_DetailEnvMapV2.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_DetailEnvMapV2.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/ce9ade839a94b1ff886f3dc246494a99159d24d5",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_DetailEnvMapV2.psh"
+      }
+    },
+    {
+      "name": "VertexLitGeneric_DetailMaskedEnvMapV2.psh",
+      "path": "src/materialsystem/stdshaders/VertexLitGeneric_DetailMaskedEnvMapV2.psh",
+      "sha": "00945231221029f9edc10217abddd39f41acd09e",
+      "size": 455,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_DetailMaskedEnvMapV2.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_DetailMaskedEnvMapV2.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/00945231221029f9edc10217abddd39f41acd09e",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_DetailMaskedEnvMapV2.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_DetailMaskedEnvMapV2.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/00945231221029f9edc10217abddd39f41acd09e",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_DetailMaskedEnvMapV2.psh"
+      }
+    },
+    {
+      "name": "VertexLitGeneric_DetailNoTexture.psh",
+      "path": "src/materialsystem/stdshaders/VertexLitGeneric_DetailNoTexture.psh",
+      "sha": "f22d557fbf2edddd25f47a15afeea4ee15e84791",
+      "size": 228,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_DetailNoTexture.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_DetailNoTexture.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/f22d557fbf2edddd25f47a15afeea4ee15e84791",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_DetailNoTexture.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_DetailNoTexture.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/f22d557fbf2edddd25f47a15afeea4ee15e84791",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_DetailNoTexture.psh"
+      }
+    },
+    {
+      "name": "VertexLitGeneric_DetailSelfIlluminated.psh",
+      "path": "src/materialsystem/stdshaders/VertexLitGeneric_DetailSelfIlluminated.psh",
+      "sha": "898393ecc944496e12e63eace5225178355716b6",
+      "size": 519,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_DetailSelfIlluminated.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_DetailSelfIlluminated.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/898393ecc944496e12e63eace5225178355716b6",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_DetailSelfIlluminated.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_DetailSelfIlluminated.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/898393ecc944496e12e63eace5225178355716b6",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_DetailSelfIlluminated.psh"
+      }
+    },
+    {
+      "name": "VertexLitGeneric_DetailSelfIlluminatedEnvMapV2.psh",
+      "path": "src/materialsystem/stdshaders/VertexLitGeneric_DetailSelfIlluminatedEnvMapV2.psh",
+      "sha": "42befc1ff60a1269ec10796741a7a9da725f1c88",
+      "size": 585,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_DetailSelfIlluminatedEnvMapV2.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_DetailSelfIlluminatedEnvMapV2.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/42befc1ff60a1269ec10796741a7a9da725f1c88",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_DetailSelfIlluminatedEnvMapV2.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_DetailSelfIlluminatedEnvMapV2.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/42befc1ff60a1269ec10796741a7a9da725f1c88",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_DetailSelfIlluminatedEnvMapV2.psh"
+      }
+    },
+    {
+      "name": "VertexLitGeneric_DetailSelfIlluminatedMaskedEnvMapV2.psh",
+      "path": "src/materialsystem/stdshaders/VertexLitGeneric_DetailSelfIlluminatedMaskedEnvMapV2.psh",
+      "sha": "666acb6d9a4bfde969d8812e510fce9d36d773ec",
+      "size": 672,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_DetailSelfIlluminatedMaskedEnvMapV2.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_DetailSelfIlluminatedMaskedEnvMapV2.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/666acb6d9a4bfde969d8812e510fce9d36d773ec",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_DetailSelfIlluminatedMaskedEnvMapV2.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_DetailSelfIlluminatedMaskedEnvMapV2.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/666acb6d9a4bfde969d8812e510fce9d36d773ec",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_DetailSelfIlluminatedMaskedEnvMapV2.psh"
+      }
+    },
+    {
+      "name": "VertexLitGeneric_Detail_LerpBase.psh",
+      "path": "src/materialsystem/stdshaders/VertexLitGeneric_Detail_LerpBase.psh",
+      "sha": "8fcae481a6e60167deb495b90a72c92f6c74e398",
+      "size": 310,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_Detail_LerpBase.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_Detail_LerpBase.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/8fcae481a6e60167deb495b90a72c92f6c74e398",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_Detail_LerpBase.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_Detail_LerpBase.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/8fcae481a6e60167deb495b90a72c92f6c74e398",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_Detail_LerpBase.psh"
+      }
+    },
+    {
+      "name": "VertexLitGeneric_Detail_additive.psh",
+      "path": "src/materialsystem/stdshaders/VertexLitGeneric_Detail_additive.psh",
+      "sha": "586a5c0780a91808c138f0f34d3103f0754be94b",
+      "size": 285,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_Detail_additive.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_Detail_additive.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/586a5c0780a91808c138f0f34d3103f0754be94b",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_Detail_additive.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_Detail_additive.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/586a5c0780a91808c138f0f34d3103f0754be94b",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_Detail_additive.psh"
+      }
+    },
+    {
+      "name": "VertexLitGeneric_Detail_additive_selfillum.psh",
+      "path": "src/materialsystem/stdshaders/VertexLitGeneric_Detail_additive_selfillum.psh",
+      "sha": "e40041fb6cde50a1582efeb0ae89631264176ae6",
+      "size": 289,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_Detail_additive_selfillum.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_Detail_additive_selfillum.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/e40041fb6cde50a1582efeb0ae89631264176ae6",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_Detail_additive_selfillum.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_Detail_additive_selfillum.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/e40041fb6cde50a1582efeb0ae89631264176ae6",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_Detail_additive_selfillum.psh"
+      }
+    },
+    {
+      "name": "VertexLitGeneric_EnvMapNoTexture.psh",
+      "path": "src/materialsystem/stdshaders/VertexLitGeneric_EnvMapNoTexture.psh",
+      "sha": "8e864ab4d74f4d247e4667b024e1f141be31de5d",
+      "size": 340,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_EnvMapNoTexture.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_EnvMapNoTexture.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/8e864ab4d74f4d247e4667b024e1f141be31de5d",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_EnvMapNoTexture.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_EnvMapNoTexture.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/8e864ab4d74f4d247e4667b024e1f141be31de5d",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_EnvMapNoTexture.psh"
+      }
+    },
+    {
+      "name": "VertexLitGeneric_EnvMapV2.psh",
+      "path": "src/materialsystem/stdshaders/VertexLitGeneric_EnvMapV2.psh",
+      "sha": "cfc6e67cc18d48d35a449bc17c8d88fbcae84e80",
+      "size": 350,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_EnvMapV2.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_EnvMapV2.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/cfc6e67cc18d48d35a449bc17c8d88fbcae84e80",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_EnvMapV2.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_EnvMapV2.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/cfc6e67cc18d48d35a449bc17c8d88fbcae84e80",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_EnvMapV2.psh"
+      }
+    },
+    {
+      "name": "VertexLitGeneric_EnvmappedBumpmapV2.psh",
+      "path": "src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmapV2.psh",
+      "sha": "7cbd38fc421acaf213f5fff6cff053a46ede6ca1",
+      "size": 1124,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmapV2.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmapV2.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/7cbd38fc421acaf213f5fff6cff053a46ede6ca1",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmapV2.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmapV2.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/7cbd38fc421acaf213f5fff6cff053a46ede6ca1",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmapV2.psh"
+      }
+    },
+    {
+      "name": "VertexLitGeneric_EnvmappedBumpmapV2_MultByAlpha.psh",
+      "path": "src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmapV2_MultByAlpha.psh",
+      "sha": "9b72f0e493c9e0695dd8a31b1a96656eb48fec4a",
+      "size": 1217,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmapV2_MultByAlpha.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmapV2_MultByAlpha.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/9b72f0e493c9e0695dd8a31b1a96656eb48fec4a",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmapV2_MultByAlpha.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmapV2_MultByAlpha.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/9b72f0e493c9e0695dd8a31b1a96656eb48fec4a",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmapV2_MultByAlpha.psh"
+      }
+    },
+    {
+      "name": "VertexLitGeneric_EnvmappedBumpmapV2_MultByAlpha_ps14.psh",
+      "path": "src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmapV2_MultByAlpha_ps14.psh",
+      "sha": "912143f82b3403872ea2bda10e606c9542cff786",
+      "size": 1315,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmapV2_MultByAlpha_ps14.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmapV2_MultByAlpha_ps14.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/912143f82b3403872ea2bda10e606c9542cff786",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmapV2_MultByAlpha_ps14.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmapV2_MultByAlpha_ps14.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/912143f82b3403872ea2bda10e606c9542cff786",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmapV2_MultByAlpha_ps14.psh"
+      }
+    },
+    {
+      "name": "VertexLitGeneric_EnvmappedBumpmapV2_ps14.psh",
+      "path": "src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmapV2_ps14.psh",
+      "sha": "7dec5f7d72907b35d114c0845945c67d4ed2d635",
+      "size": 1271,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmapV2_ps14.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmapV2_ps14.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/7dec5f7d72907b35d114c0845945c67d4ed2d635",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmapV2_ps14.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmapV2_ps14.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/7dec5f7d72907b35d114c0845945c67d4ed2d635",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmapV2_ps14.psh"
+      }
+    },
+    {
+      "name": "VertexLitGeneric_EnvmappedBumpmap_NoLighting.vsh",
+      "path": "src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmap_NoLighting.vsh",
+      "sha": "576e31cf42078e104006181a79b130300f4c08a5",
+      "size": 2925,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmap_NoLighting.vsh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmap_NoLighting.vsh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/576e31cf42078e104006181a79b130300f4c08a5",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmap_NoLighting.vsh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmap_NoLighting.vsh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/576e31cf42078e104006181a79b130300f4c08a5",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmap_NoLighting.vsh"
+      }
+    },
+    {
+      "name": "VertexLitGeneric_EnvmappedBumpmap_NoLighting_ps14.vsh",
+      "path": "src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmap_NoLighting_ps14.vsh",
+      "sha": "2ac66164c15dee8d552e18b050a1c54a21918e69",
+      "size": 2792,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmap_NoLighting_ps14.vsh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmap_NoLighting_ps14.vsh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/2ac66164c15dee8d552e18b050a1c54a21918e69",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmap_NoLighting_ps14.vsh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmap_NoLighting_ps14.vsh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/2ac66164c15dee8d552e18b050a1c54a21918e69",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_EnvmappedBumpmap_NoLighting_ps14.vsh"
+      }
+    },
+    {
+      "name": "VertexLitGeneric_MaskedEnvMapNoTexture.psh",
+      "path": "src/materialsystem/stdshaders/VertexLitGeneric_MaskedEnvMapNoTexture.psh",
+      "sha": "a6209ab3f7a741d55b7a2bfe95a85dc17274aece",
+      "size": 380,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_MaskedEnvMapNoTexture.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_MaskedEnvMapNoTexture.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/a6209ab3f7a741d55b7a2bfe95a85dc17274aece",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_MaskedEnvMapNoTexture.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_MaskedEnvMapNoTexture.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/a6209ab3f7a741d55b7a2bfe95a85dc17274aece",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_MaskedEnvMapNoTexture.psh"
+      }
+    },
+    {
+      "name": "VertexLitGeneric_MaskedEnvMapV2.psh",
+      "path": "src/materialsystem/stdshaders/VertexLitGeneric_MaskedEnvMapV2.psh",
+      "sha": "53519d93e17d7e6fcec86fa16a0020450d645c4c",
+      "size": 392,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_MaskedEnvMapV2.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_MaskedEnvMapV2.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/53519d93e17d7e6fcec86fa16a0020450d645c4c",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_MaskedEnvMapV2.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_MaskedEnvMapV2.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/53519d93e17d7e6fcec86fa16a0020450d645c4c",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_MaskedEnvMapV2.psh"
+      }
+    },
+    {
+      "name": "VertexLitGeneric_NoTexture.psh",
+      "path": "src/materialsystem/stdshaders/VertexLitGeneric_NoTexture.psh",
+      "sha": "0bc2e455c31db330b45e4ae466daa9f4e4beca33",
+      "size": 181,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_NoTexture.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_NoTexture.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/0bc2e455c31db330b45e4ae466daa9f4e4beca33",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_NoTexture.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_NoTexture.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/0bc2e455c31db330b45e4ae466daa9f4e4beca33",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_NoTexture.psh"
+      }
+    },
+    {
+      "name": "VertexLitGeneric_SelfIllumOnly.psh",
+      "path": "src/materialsystem/stdshaders/VertexLitGeneric_SelfIllumOnly.psh",
+      "sha": "198ad9e4697ce39f88151d7e06dbe40ccd0d5b13",
+      "size": 36,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_SelfIllumOnly.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_SelfIllumOnly.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/198ad9e4697ce39f88151d7e06dbe40ccd0d5b13",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_SelfIllumOnly.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_SelfIllumOnly.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/198ad9e4697ce39f88151d7e06dbe40ccd0d5b13",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_SelfIllumOnly.psh"
+      }
+    },
+    {
+      "name": "VertexLitGeneric_SelfIllumOnly.vsh",
+      "path": "src/materialsystem/stdshaders/VertexLitGeneric_SelfIllumOnly.vsh",
+      "sha": "40eb8d28b6827f05f519be4aa2d6c92eb4f51a24",
+      "size": 1299,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_SelfIllumOnly.vsh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_SelfIllumOnly.vsh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/40eb8d28b6827f05f519be4aa2d6c92eb4f51a24",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_SelfIllumOnly.vsh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_SelfIllumOnly.vsh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/40eb8d28b6827f05f519be4aa2d6c92eb4f51a24",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_SelfIllumOnly.vsh"
+      }
+    },
+    {
+      "name": "VertexLitGeneric_SelfIlluminated.psh",
+      "path": "src/materialsystem/stdshaders/VertexLitGeneric_SelfIlluminated.psh",
+      "sha": "3d14e4b3c42d399f78e2bc43d3e9cb63987e42d5",
+      "size": 472,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_SelfIlluminated.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_SelfIlluminated.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/3d14e4b3c42d399f78e2bc43d3e9cb63987e42d5",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_SelfIlluminated.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_SelfIlluminated.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/3d14e4b3c42d399f78e2bc43d3e9cb63987e42d5",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_SelfIlluminated.psh"
+      }
+    },
+    {
+      "name": "VertexLitGeneric_SelfIlluminatedEnvMapV2.psh",
+      "path": "src/materialsystem/stdshaders/VertexLitGeneric_SelfIlluminatedEnvMapV2.psh",
+      "sha": "b8ba4d13855fa2967b08e49ac446f60a2e708160",
+      "size": 537,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_SelfIlluminatedEnvMapV2.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_SelfIlluminatedEnvMapV2.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/b8ba4d13855fa2967b08e49ac446f60a2e708160",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_SelfIlluminatedEnvMapV2.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_SelfIlluminatedEnvMapV2.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/b8ba4d13855fa2967b08e49ac446f60a2e708160",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_SelfIlluminatedEnvMapV2.psh"
+      }
+    },
+    {
+      "name": "VertexLitGeneric_SelfIlluminatedMaskedEnvMapV2.psh",
+      "path": "src/materialsystem/stdshaders/VertexLitGeneric_SelfIlluminatedMaskedEnvMapV2.psh",
+      "sha": "44fe15d639e40ab4c77ebe7d399b3c4cb81b414f",
+      "size": 614,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_SelfIlluminatedMaskedEnvMapV2.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_SelfIlluminatedMaskedEnvMapV2.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/44fe15d639e40ab4c77ebe7d399b3c4cb81b414f",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_SelfIlluminatedMaskedEnvMapV2.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/VertexLitGeneric_SelfIlluminatedMaskedEnvMapV2.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/44fe15d639e40ab4c77ebe7d399b3c4cb81b414f",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/VertexLitGeneric_SelfIlluminatedMaskedEnvMapV2.psh"
+      }
+    },
+    {
+      "name": "common_ps_fxc.h",
+      "path": "src/materialsystem/stdshaders/common_ps_fxc.h",
+      "sha": "ee18040b1f44a0411cba0234d427e996cf588f19",
+      "size": 27953,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/common_ps_fxc.h?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/common_ps_fxc.h",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/ee18040b1f44a0411cba0234d427e996cf588f19",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/common_ps_fxc.h",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/common_ps_fxc.h?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/ee18040b1f44a0411cba0234d427e996cf588f19",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/common_ps_fxc.h"
+      }
+    },
+    {
+      "name": "common_vertexlitgeneric_dx9.h",
+      "path": "src/materialsystem/stdshaders/common_vertexlitgeneric_dx9.h",
+      "sha": "2eb7bb3cc25a944821fde189c3cd6ff57ce172bf",
+      "size": 16425,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/common_vertexlitgeneric_dx9.h?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/common_vertexlitgeneric_dx9.h",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/2eb7bb3cc25a944821fde189c3cd6ff57ce172bf",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/common_vertexlitgeneric_dx9.h",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/common_vertexlitgeneric_dx9.h?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/2eb7bb3cc25a944821fde189c3cd6ff57ce172bf",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/common_vertexlitgeneric_dx9.h"
+      }
+    },
+    {
+      "name": "common_vertexlitgeneric_vs20.fxc",
+      "path": "src/materialsystem/stdshaders/common_vertexlitgeneric_vs20.fxc",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/common_vertexlitgeneric_vs20.fxc?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/common_vertexlitgeneric_vs20.fxc",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/common_vertexlitgeneric_vs20.fxc",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/common_vertexlitgeneric_vs20.fxc?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/common_vertexlitgeneric_vs20.fxc"
+      }
+    },
+    {
+      "name": "vertexlitgeneric_basealphamaskedenvmap.psh",
+      "path": "src/materialsystem/stdshaders/vertexlitgeneric_basealphamaskedenvmap.psh",
+      "sha": "db80aefde645c687630e8242541375208534439f",
+      "size": 622,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_basealphamaskedenvmap.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_basealphamaskedenvmap.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/db80aefde645c687630e8242541375208534439f",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_basealphamaskedenvmap.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_basealphamaskedenvmap.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/db80aefde645c687630e8242541375208534439f",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_basealphamaskedenvmap.psh"
+      }
+    },
+    {
+      "name": "vertexlitgeneric_detailbasealphamaskedenvmap.psh",
+      "path": "src/materialsystem/stdshaders/vertexlitgeneric_detailbasealphamaskedenvmap.psh",
+      "sha": "82989f4e3778ec108bb9758526911111771f2daa",
+      "size": 685,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_detailbasealphamaskedenvmap.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_detailbasealphamaskedenvmap.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/82989f4e3778ec108bb9758526911111771f2daa",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_detailbasealphamaskedenvmap.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_detailbasealphamaskedenvmap.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/82989f4e3778ec108bb9758526911111771f2daa",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_detailbasealphamaskedenvmap.psh"
+      }
+    },
+    {
+      "name": "vertexlitgeneric_detailenvmap.psh",
+      "path": "src/materialsystem/stdshaders/vertexlitgeneric_detailenvmap.psh",
+      "sha": "e95d932bf71661e92ee6eea541bfc49406de5c49",
+      "size": 591,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_detailenvmap.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_detailenvmap.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/e95d932bf71661e92ee6eea541bfc49406de5c49",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_detailenvmap.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_detailenvmap.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/e95d932bf71661e92ee6eea541bfc49406de5c49",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_detailenvmap.psh"
+      }
+    },
+    {
+      "name": "vertexlitgeneric_detailmaskedenvmap.psh",
+      "path": "src/materialsystem/stdshaders/vertexlitgeneric_detailmaskedenvmap.psh",
+      "sha": "ace4a68f315faaa9154f3ff949167b98e0ae405c",
+      "size": 644,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_detailmaskedenvmap.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_detailmaskedenvmap.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/ace4a68f315faaa9154f3ff949167b98e0ae405c",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_detailmaskedenvmap.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_detailmaskedenvmap.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/ace4a68f315faaa9154f3ff949167b98e0ae405c",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_detailmaskedenvmap.psh"
+      }
+    },
+    {
+      "name": "vertexlitgeneric_detailselfilluminatedenvmap.psh",
+      "path": "src/materialsystem/stdshaders/vertexlitgeneric_detailselfilluminatedenvmap.psh",
+      "sha": "9cc71776ad6449bec6ded7bb04c577f248948ce1",
+      "size": 764,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_detailselfilluminatedenvmap.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_detailselfilluminatedenvmap.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/9cc71776ad6449bec6ded7bb04c577f248948ce1",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_detailselfilluminatedenvmap.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_detailselfilluminatedenvmap.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/9cc71776ad6449bec6ded7bb04c577f248948ce1",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_detailselfilluminatedenvmap.psh"
+      }
+    },
+    {
+      "name": "vertexlitgeneric_detailselfilluminatedmaskedenvmap.psh",
+      "path": "src/materialsystem/stdshaders/vertexlitgeneric_detailselfilluminatedmaskedenvmap.psh",
+      "sha": "24396a07faefa4883f666a6bf2db829ba8e4c1ee",
+      "size": 850,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_detailselfilluminatedmaskedenvmap.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_detailselfilluminatedmaskedenvmap.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/24396a07faefa4883f666a6bf2db829ba8e4c1ee",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_detailselfilluminatedmaskedenvmap.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_detailselfilluminatedmaskedenvmap.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/24396a07faefa4883f666a6bf2db829ba8e4c1ee",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_detailselfilluminatedmaskedenvmap.psh"
+      }
+    },
+    {
+      "name": "vertexlitgeneric_dx6.cpp",
+      "path": "src/materialsystem/stdshaders/vertexlitgeneric_dx6.cpp",
+      "sha": "8ecd111f0a532d0f47429ee1de64d0b198fcb99d",
+      "size": 12914,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_dx6.cpp?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_dx6.cpp",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/8ecd111f0a532d0f47429ee1de64d0b198fcb99d",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_dx6.cpp",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_dx6.cpp?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/8ecd111f0a532d0f47429ee1de64d0b198fcb99d",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_dx6.cpp"
+      }
+    },
+    {
+      "name": "vertexlitgeneric_dx7.cpp",
+      "path": "src/materialsystem/stdshaders/vertexlitgeneric_dx7.cpp",
+      "sha": "7a114a56cd512ed7389e28005ffad1e0ddd2f9d7",
+      "size": 12465,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_dx7.cpp?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_dx7.cpp",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/7a114a56cd512ed7389e28005ffad1e0ddd2f9d7",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_dx7.cpp",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_dx7.cpp?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/7a114a56cd512ed7389e28005ffad1e0ddd2f9d7",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_dx7.cpp"
+      }
+    },
+    {
+      "name": "vertexlitgeneric_dx8.cpp",
+      "path": "src/materialsystem/stdshaders/vertexlitgeneric_dx8.cpp",
+      "sha": "31addf42956bffb18eeb9a409fe915a85490257c",
+      "size": 27456,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_dx8.cpp?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_dx8.cpp",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/31addf42956bffb18eeb9a409fe915a85490257c",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_dx8.cpp",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_dx8.cpp?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/31addf42956bffb18eeb9a409fe915a85490257c",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_dx8.cpp"
+      }
+    },
+    {
+      "name": "vertexlitgeneric_dx9.cpp",
+      "path": "src/materialsystem/stdshaders/vertexlitgeneric_dx9.cpp",
+      "sha": "b412756ec0f1c33412a70971da02cbd93aff4278",
+      "size": 26268,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_dx9.cpp?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_dx9.cpp",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/b412756ec0f1c33412a70971da02cbd93aff4278",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_dx9.cpp",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_dx9.cpp?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/b412756ec0f1c33412a70971da02cbd93aff4278",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_dx9.cpp"
+      }
+    },
+    {
+      "name": "vertexlitgeneric_dx95_helper.h",
+      "path": "src/materialsystem/stdshaders/vertexlitgeneric_dx95_helper.h",
+      "sha": "3736bfe82cfb03a80b06cdae77a8792c06fb89ee",
+      "size": 2194,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_dx95_helper.h?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_dx95_helper.h",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/3736bfe82cfb03a80b06cdae77a8792c06fb89ee",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_dx95_helper.h",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_dx95_helper.h?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/3736bfe82cfb03a80b06cdae77a8792c06fb89ee",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_dx95_helper.h"
+      }
+    },
+    {
+      "name": "vertexlitgeneric_dx9_helper.cpp",
+      "path": "src/materialsystem/stdshaders/vertexlitgeneric_dx9_helper.cpp",
+      "sha": "0349b2436851a14d3bb3793d5bcd549dbdfdef0b",
+      "size": 64667,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_dx9_helper.cpp?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_dx9_helper.cpp",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/0349b2436851a14d3bb3793d5bcd549dbdfdef0b",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_dx9_helper.cpp",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_dx9_helper.cpp?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/0349b2436851a14d3bb3793d5bcd549dbdfdef0b",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_dx9_helper.cpp"
+      }
+    },
+    {
+      "name": "vertexlitgeneric_dx9_helper.h",
+      "path": "src/materialsystem/stdshaders/vertexlitgeneric_dx9_helper.h",
+      "sha": "0279b331613b79f2ec32060029ed7106fc4d2239",
+      "size": 4184,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_dx9_helper.h?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_dx9_helper.h",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/0279b331613b79f2ec32060029ed7106fc4d2239",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_dx9_helper.h",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_dx9_helper.h?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/0279b331613b79f2ec32060029ed7106fc4d2239",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_dx9_helper.h"
+      }
+    },
+    {
+      "name": "vertexlitgeneric_envmap.psh",
+      "path": "src/materialsystem/stdshaders/vertexlitgeneric_envmap.psh",
+      "sha": "019f8c0a8e276a0d1de14c7b07e6f1c317d7d4e5",
+      "size": 528,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_envmap.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_envmap.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/019f8c0a8e276a0d1de14c7b07e6f1c317d7d4e5",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_envmap.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_envmap.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/019f8c0a8e276a0d1de14c7b07e6f1c317d7d4e5",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_envmap.psh"
+      }
+    },
+    {
+      "name": "vertexlitgeneric_flashlight_vs11.vsh",
+      "path": "src/materialsystem/stdshaders/vertexlitgeneric_flashlight_vs11.vsh",
+      "sha": "a5810b5e3b09e4ac53c00039ba04cd030e339e44",
+      "size": 3610,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_flashlight_vs11.vsh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_flashlight_vs11.vsh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/a5810b5e3b09e4ac53c00039ba04cd030e339e44",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_flashlight_vs11.vsh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_flashlight_vs11.vsh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/a5810b5e3b09e4ac53c00039ba04cd030e339e44",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_flashlight_vs11.vsh"
+      }
+    },
+    {
+      "name": "vertexlitgeneric_inc.vsh",
+      "path": "src/materialsystem/stdshaders/vertexlitgeneric_inc.vsh",
+      "sha": "da6b6bf948b6aa500cdb905f42a2bc8934f17626",
+      "size": 4236,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_inc.vsh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_inc.vsh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/da6b6bf948b6aa500cdb905f42a2bc8934f17626",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_inc.vsh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_inc.vsh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/da6b6bf948b6aa500cdb905f42a2bc8934f17626",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_inc.vsh"
+      }
+    },
+    {
+      "name": "vertexlitgeneric_lightingonly_overbright2.psh",
+      "path": "src/materialsystem/stdshaders/vertexlitgeneric_lightingonly_overbright2.psh",
+      "sha": "722e1418d5c9d115e3ee50d362b98cf59599d90a",
+      "size": 21,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_lightingonly_overbright2.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_lightingonly_overbright2.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/722e1418d5c9d115e3ee50d362b98cf59599d90a",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_lightingonly_overbright2.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_lightingonly_overbright2.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/722e1418d5c9d115e3ee50d362b98cf59599d90a",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_lightingonly_overbright2.psh"
+      }
+    },
+    {
+      "name": "vertexlitgeneric_lightingonly_overbright2_ps11.fxc",
+      "path": "src/materialsystem/stdshaders/vertexlitgeneric_lightingonly_overbright2_ps11.fxc",
+      "sha": "70ad70944add06c3521aaa0055d305831bb3b39a",
+      "size": 121,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_lightingonly_overbright2_ps11.fxc?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_lightingonly_overbright2_ps11.fxc",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/70ad70944add06c3521aaa0055d305831bb3b39a",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_lightingonly_overbright2_ps11.fxc",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_lightingonly_overbright2_ps11.fxc?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/70ad70944add06c3521aaa0055d305831bb3b39a",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_lightingonly_overbright2_ps11.fxc"
+      }
+    },
+    {
+      "name": "vertexlitgeneric_maskedenvmap.psh",
+      "path": "src/materialsystem/stdshaders/vertexlitgeneric_maskedenvmap.psh",
+      "sha": "afee48ada441744a53b0181ef9ece5ba4bfcdae0",
+      "size": 581,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_maskedenvmap.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_maskedenvmap.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/afee48ada441744a53b0181ef9ece5ba4bfcdae0",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_maskedenvmap.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_maskedenvmap.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/afee48ada441744a53b0181ef9ece5ba4bfcdae0",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_maskedenvmap.psh"
+      }
+    },
+    {
+      "name": "vertexlitgeneric_selfilluminatedenvmap.psh",
+      "path": "src/materialsystem/stdshaders/vertexlitgeneric_selfilluminatedenvmap.psh",
+      "sha": "4b479199372b5e0d6f744b62bbaa41eb9716aabc",
+      "size": 716,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_selfilluminatedenvmap.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_selfilluminatedenvmap.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/4b479199372b5e0d6f744b62bbaa41eb9716aabc",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_selfilluminatedenvmap.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_selfilluminatedenvmap.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/4b479199372b5e0d6f744b62bbaa41eb9716aabc",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_selfilluminatedenvmap.psh"
+      }
+    },
+    {
+      "name": "vertexlitgeneric_selfilluminatedmaskedenvmap.psh",
+      "path": "src/materialsystem/stdshaders/vertexlitgeneric_selfilluminatedmaskedenvmap.psh",
+      "sha": "38c80e4fbc87b70e532ed93fba96b868f648328c",
+      "size": 792,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_selfilluminatedmaskedenvmap.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_selfilluminatedmaskedenvmap.psh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/38c80e4fbc87b70e532ed93fba96b868f648328c",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_selfilluminatedmaskedenvmap.psh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_selfilluminatedmaskedenvmap.psh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/38c80e4fbc87b70e532ed93fba96b868f648328c",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_selfilluminatedmaskedenvmap.psh"
+      }
+    },
+    {
+      "name": "vertexlitgeneric_vs11.vsh",
+      "path": "src/materialsystem/stdshaders/vertexlitgeneric_vs11.vsh",
+      "sha": "c0ab27659451c93033bd5240473248052517b96f",
+      "size": 680,
+      "url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_vs11.vsh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+      "html_url": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_vs11.vsh",
+      "git_url": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/c0ab27659451c93033bd5240473248052517b96f",
+      "download_url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_vs11.vsh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/contents/src/materialsystem/stdshaders/vertexlitgeneric_vs11.vsh?ref=b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+        "git": "https://api.github.com/repos/ValveSoftware/source-sdk-2013/git/blobs/c0ab27659451c93033bd5240473248052517b96f",
+        "html": "https://github.com/ValveSoftware/source-sdk-2013/blob/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/materialsystem/stdshaders/vertexlitgeneric_vs11.vsh"
+      }
+    }
+  ]
+}

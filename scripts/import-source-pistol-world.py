@@ -1,0 +1,28 @@
+"""Private standalone original pistol world rigs, default plus bounded original
+simple sequences. Original 9way aim/autolayer metadata stays separate and is not
+flattened or claimed to be an integrated world-weapon animation graph.
+"""
+from pathlib import Path
+import argparse,ast,hashlib,importlib.util,json,struct,sys
+ROOT=Path(__file__).resolve().parents[1]
+parser=argparse.ArgumentParser();parser.add_argument('--weapon',choices=['glock','usp'],required=True);args=parser.parse_args(sys.argv[sys.argv.index('--')+1:]);weapon_id=args.weapon
+inventory=json.loads((ROOT/'.reference-assets/source-exports/pistol-candidates/inventory.json').read_text());item=next(w for w in inventory['weapons']if w['id']==('4'if weapon_id=='glock'else'61'));model=next(m for m in item['models']if m['role']=='model_world');OUT=ROOT/f'.reference-assets/source-exports/pistol-candidates/{weapon_id}-world';OUT.mkdir(parents=True,exist_ok=True)
+selected=[s['name']for s in model['sequences']if len(s['animationIndices'])==1 and not s['autoLayers']];mapping={name:name for name in selected};assert len(selected)==(7 if weapon_id=='glock'else 15)
+# Only reuse the independently audited delta reader/composition function; all
+# model/sequence choices below come from this pistol's original metadata.
+original_world=(ROOT/'scripts/import-source-m4a4-world.py').read_text();tree=ast.parse(original_world);fn=next(n for n in tree.body if isinstance(n,ast.FunctionDef)and n.name=='world_prepare');source=ast.unparse(fn).replace('for seq in primary.sequences:', 'for seq in [s for s in primary.sequences if s.name in selected]:').replace("seq.name == 'rifle_fire'","seq.name.startswith('pistol_fire')").replace('rifle_fire: original flags20','pistol_fire variants: original flags20');exec(compile(source,'bounded-original-pistol-delta','exec'),globals())
+sys.path.insert(0,str(ROOT/'.tools'));import SourceIO
+spec=importlib.util.spec_from_file_location('pistol_world_sections',ROOT/'scripts/source-section-decoder.py');sections=importlib.util.module_from_spec(spec);spec.loader.exec_module(sections);section_observations=[];sections.install_source_section_decoder(section_observations)
+original=ROOT/'scripts/import-source-weapon.py';tree=ast.parse(original.read_text());category=next(n for n in tree.body if isinstance(n,ast.FunctionDef)and n.name=='category');tree.body[tree.body.index(category)]=ast.parse(f'def category(sequence):\n    return {mapping!r}.get(sequence.name)').body[0];source=ast.unparse(tree)
+changes=[("for kind in ('idle', 'fire', 'reload', 'inspect'):",f'for kind in {tuple(selected)!r}:'),("len(gltf.get('animations', [])) == 4",f"len(gltf.get('animations', [])) == {len(selected)}"),('animation.frame_count > 1','animation.frame_count >= 1'),("    checkpoint('source_graph_and_sequences')","    checkpoint('source_graph_and_sequences')\n    world_prepare(primary,find,cm,model_path,animation_data,report)"),('    raw_find = cm.find_file\n','    raw_find = cm.find_file\n    raw_check = cm.check\n    cm.check = lambda path: raw_check(TinyPath(str(path).replace(chr(92), "/").lower()))\n'),('        path = TinyPath(path)\n','        path = TinyPath(path)\n        if not path.is_absolute(): path = TinyPath(str(path).replace(chr(92), "/").lower())\n')]
+for token,value in changes:assert source.count(token)==1,token;source=source.replace(token,value)
+sys.argv=[sys.argv[0],'--background','--factory-startup','--','--confirmed-complete','--model',model['path'],'--export-glb','--output-dir',str(OUT)]
+exec(compile(source,str(original),'exec'),{'__file__':str(original),'__name__':'__main__','world_prepare':world_prepare})
+# Independently encode each original IBM. All source units are preserved.
+import numpy as np
+audit=json.loads((OUT/'audit.json').read_text());path=Path(audit['glb']['path']);payload=bytearray(path.read_bytes());size=struct.unpack_from('<I',payload,12)[0];doc=json.loads(payload[20:20+size]);assert len(doc['skins'])==1;skin=doc['skins'][0];a=doc['accessors'][skin['inverseBindMatrices']];v=doc['bufferViews'][a['bufferView']];assert a['type']=='MAT4'and a['componentType']==5126 and not v.get('byteStride');offset=28+size+v.get('byteOffset',0)+a.get('byteOffset',0);bones={b['name']:b for b in model['bones']};ci=np.array([[1,0,0,0],[0,0,-1,0],[0,1,0,0],[0,0,0,1]],dtype=np.float64);maximum=0
+for i,n in enumerate(skin['joints']):
+ expected=np.asarray(np.asarray(bones[doc['nodes'][n]['name']]['inverseBind'])@ci,dtype='<f4').flatten(order='F');old=np.frombuffer(payload,dtype='<f4',count=16,offset=offset+i*64).copy();maximum=max(maximum,float(np.abs(old-expected).max()));assert maximum<.01;payload[offset+i*64:offset+(i+1)*64]=expected.tobytes()
+path.write_bytes(payload);audit['glb']['sha256']=hashlib.sha256(payload).hexdigest();audit['sectionDecoder']=section_observations;audit['exactInverseBind']=dict(count=len(skin['joints']),finalFloat32Difference=0,beforeMaximum=maximum);(OUT/'audit.json').write_text(json.dumps(audit,indent=2)+'\n')
+metadata=dict(weaponId=weapon_id,item=item,glb=audit['glb'],exactInverseBind=audit['exactInverseBind'],selectedSimpleSequences=selected,unflattenedAimSequences=[s for s in model['sequences']if s['name']not in selected],bodyparts=model['bodyparts'],limitations=['Source 9way pistol_aim_t layers flags16448 not yet composed; this is a standalone candidate','Delta fire clips are explicitly composed with original default and masks for this preview; raw delta arrays retained separately','No character bone merge or weapon switch integration'])
+(OUT/'metadata.json').write_text(json.dumps(metadata,indent=2)+'\n');print('PISTOL_WORLD',weapon_id,audit['glb']['sha256'],len(skin['joints']),len(selected))

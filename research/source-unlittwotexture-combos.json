@@ -1,0 +1,165 @@
+{
+  "format": "source-unlittwotexture-combos-v1",
+  "shader": {
+    "path": ".reference-assets/csgo-legacy/bin/linux64/stdshader_dx9_client.so",
+    "sha256": "0383c51766a4681b5de26aa79b67ade5d3a867a8622185abe8a090877bac7c2e"
+  },
+  "staticFlags": {
+    "at": "0x121e84",
+    "pairs": [
+      {
+        "flag": "bTranslucent",
+        "define": "TRANSLUCENT"
+      },
+      {
+        "flag": "nCustomMode",
+        "define": "CUSTOM_MODE"
+      }
+    ],
+    "orderReadFrom": "the inline table itself",
+    "shaderNames": [
+      "unlittwotexture_ps20b",
+      "unlittwotexture_ps20"
+    ]
+  },
+  "flagNameReferences": {
+    "bTranslucent": {
+      "address": "0x121e84",
+      "pointerSlots": 0,
+      "insideTheTable": true
+    },
+    "nCustomMode": {
+      "address": "0x121e9d",
+      "pointerSlots": 0,
+      "insideTheTable": true
+    },
+    "TRANSLUCENT": {
+      "address": "0x121e91",
+      "pointerSlots": 10,
+      "insideTheTable": true
+    },
+    "CUSTOM_MODE": {
+      "address": "0x121ea9",
+      "pointerSlots": 2,
+      "insideTheTable": true
+    }
+  },
+  "sharedComboTable": {
+    "at": "0x151fc0",
+    "entries": [
+      {
+        "name": "TRANSLUCENT",
+        "capability": 1
+      },
+      {
+        "name": "LIGHTING_PREVIEW",
+        "capability": 2
+      },
+      {
+        "name": "CUSTOM_MODE",
+        "capability": 5
+      }
+    ]
+  },
+  "constants": {
+    "0": [
+      {
+        "name": "BaseTextureSampler",
+        "set": "SAMPLER2D",
+        "register": 0,
+        "count": 1
+      },
+      {
+        "name": "BaseTextureSampler2",
+        "set": "SAMPLER2D",
+        "register": 1,
+        "count": 1
+      },
+      {
+        "name": "cLightScale",
+        "set": "FLOAT4",
+        "register": 30,
+        "count": 1
+      },
+      {
+        "name": "g_DiffuseModulation",
+        "set": "FLOAT4",
+        "register": 1,
+        "count": 1
+      },
+      {
+        "name": "g_EyePos_SpecExponent",
+        "set": "FLOAT4",
+        "register": 11,
+        "count": 1
+      },
+      {
+        "name": "g_FogParams",
+        "set": "FLOAT4",
+        "register": 12,
+        "count": 1
+      },
+      {
+        "name": "g_LinearFogColor",
+        "set": "FLOAT4",
+        "register": 29,
+        "count": 1
+      }
+    ],
+    "1": [
+      {
+        "name": "BaseTextureSampler",
+        "set": "SAMPLER2D",
+        "register": 0,
+        "count": 1
+      },
+      {
+        "name": "BaseTextureSampler2",
+        "set": "SAMPLER2D",
+        "register": 1,
+        "count": 1
+      },
+      {
+        "name": "cLightScale",
+        "set": "FLOAT4",
+        "register": 30,
+        "count": 1
+      },
+      {
+        "name": "g_DiffuseModulation",
+        "set": "FLOAT4",
+        "register": 1,
+        "count": 1
+      },
+      {
+        "name": "g_EyePos_SpecExponent",
+        "set": "FLOAT4",
+        "register": 11,
+        "count": 1
+      },
+      {
+        "name": "g_FogParams",
+        "set": "FLOAT4",
+        "register": 12,
+        "count": 1
+      },
+      {
+        "name": "g_LinearFogColor",
+        "set": "FLOAT4",
+        "register": 29,
+        "count": 1
+      }
+    ]
+  },
+  "alphaProductConstant": {
+    "register": "c1",
+    "name": "g_DiffuseModulation",
+    "registerSet": "FLOAT4"
+  },
+  "alphaBranches": {
+    "0": "Final alpha = local def c0.x = 1 (words181,184).",
+    "1": "Final alpha = texture0.a * texture1.a * external c1.a (words150,154,175)."
+  },
+  "reading": "The shader varies on exactly two static flags, a translucent flag and a custom-mode flag, and the cloud material sets $translucent 1. The static whose final alpha is texture0.a * texture1.a * c1.a reads c1 from the engine's own diffuse modulation; the other writes a constant alpha of 1.",
+  "boundary": "Which bit of the static index the translucent flag owns is NOT established here (the table order is readable, the index composition is not). The combo this build's cloud material draws is settled by scripts/probe-source-cloud-layer-branch.py, which needs no bit: of the shipped keys that leave exactly one flag set, only 0x1 reads both samplers."
+}

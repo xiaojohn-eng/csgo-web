@@ -1,0 +1,626 @@
+{
+  "format": "source-cloud-layer-branch-v1",
+  "shader": {
+    "path": ".reference-assets/csgo-legacy/bin/linux64/stdshader_dx9_client.so",
+    "sha256": "0383c51766a4681b5de26aa79b67ade5d3a867a8622185abe8a090877bac7c2e"
+  },
+  "container": {
+    "path": "shaders/fxc/unlittwotexture_ps20b.vcs",
+    "sha256": "e8a72b447e1ab7be7a5bba2b625c31b79e3ef2803d0789224e14643accf86df9",
+    "bytes": 5000,
+    "staticKeys": [
+      "0x0",
+      "0x1",
+      "0x2",
+      "0x4",
+      "0x6",
+      "0xc",
+      "0xe",
+      "0x12",
+      "0x18",
+      "0x1e",
+      "0xffffffff"
+    ],
+    "dynamicCombos": 4,
+    "sourceCRC32": "3fdf5964"
+  },
+  "staticFlags": {
+    "inlineTableAt": "0x121e84",
+    "order": [
+      {
+        "flag": "bTranslucent",
+        "define": "TRANSLUCENT"
+      },
+      {
+        "flag": "nLightingPreviewMode",
+        "define": "LIGHTING_PREVIEW"
+      },
+      {
+        "flag": "nCustomMode",
+        "define": "CUSTOM_MODE"
+      }
+    ],
+    "pointerSlots": {
+      "bTranslucent": {
+        "address": "0x121e84",
+        "pointerSlots": 0
+      },
+      "TRANSLUCENT": {
+        "address": "0x121e91",
+        "pointerSlots": 10
+      },
+      "nLightingPreviewMode": {
+        "address": "0x11aafe",
+        "pointerSlots": 0
+      },
+      "LIGHTING_PREVIEW": {
+        "address": "0x1167cc",
+        "pointerSlots": 42
+      },
+      "nCustomMode": {
+        "address": "0x121e9d",
+        "pointerSlots": 0
+      },
+      "CUSTOM_MODE": {
+        "address": "0x121ea9",
+        "pointerSlots": 2
+      }
+    },
+    "dataRelRoTable": [
+      {
+        "define": "TRANSLUCENT",
+        "value": 0,
+        "field": 1,
+        "at": "0x151fc0"
+      },
+      {
+        "define": "LIGHTING_PREVIEW",
+        "value": 0,
+        "field": 2,
+        "at": "0x151fd0"
+      },
+      {
+        "define": "CUSTOM_MODE",
+        "value": 0,
+        "field": 5,
+        "at": "0x151fe0"
+      }
+    ],
+    "debugWalkOrder": [
+      {
+        "flag": "bTranslucent",
+        "define": "TRANSLUCENT",
+        "valueSlot": "[rbp-0x78]",
+        "at": "0xc21da",
+        "bytes": "4c8d05a3fc0500488d15a9fc0500"
+      },
+      {
+        "flag": "nLightingPreviewMode",
+        "define": "LIGHTING_PREVIEW",
+        "valueSlot": "[rbp-0x88]",
+        "at": "0xc2211",
+        "bytes": "4c8d05e6880500488d15ad450500"
+      },
+      {
+        "flag": "nCustomMode",
+        "define": "CUSTOM_MODE",
+        "valueSlot": "[rbp-0x64]",
+        "at": "0xc2245",
+        "bytes": "4c8d0551fc0500488d1556fc0500"
+      }
+    ]
+  },
+  "combos": {
+    "0x0/0": {
+      "static": 0,
+      "dynamic": 0,
+      "programBytes": 752,
+      "programSha256": "1dd18922e8c13e33c3d485c3f061d3e25db7a0309c75aeffd592e2f2afff6e5a",
+      "textureLoads": 2,
+      "samplers": [
+        0,
+        1
+      ],
+      "usesFogConstants": true,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0x0/1": {
+      "static": 0,
+      "dynamic": 1,
+      "programBytes": 468,
+      "programSha256": "ba10c944b924cfd5e29685b050c571f648f492fa0eb256d58d561b8da4725285",
+      "textureLoads": 2,
+      "samplers": [
+        0,
+        1
+      ],
+      "usesFogConstants": false,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0x0/2": {
+      "static": 0,
+      "dynamic": 2,
+      "programBytes": 732,
+      "programSha256": "a07e0c67e33d1f8f8cf74d2216c21c49fdedacca6638d8bf407c23ad848ac233",
+      "textureLoads": 2,
+      "samplers": [
+        0,
+        1
+      ],
+      "usesFogConstants": true,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0x0/3": {
+      "static": 0,
+      "dynamic": 3,
+      "programBytes": 496,
+      "programSha256": "05d04276e8526b8915c82e2647013233d02291d606e7f5d54b42979be14583d3",
+      "textureLoads": 2,
+      "samplers": [
+        0,
+        1
+      ],
+      "usesFogConstants": true,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0x1/0": {
+      "static": 1,
+      "dynamic": 0,
+      "programBytes": 716,
+      "programSha256": "dae7739afe99726b32c9d586a5e045a2dd21c5ae26cb66edcf43e3572a4f9653",
+      "textureLoads": 2,
+      "samplers": [
+        0,
+        1
+      ],
+      "usesFogConstants": true,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0x1/1": {
+      "static": 1,
+      "dynamic": 1,
+      "programBytes": 432,
+      "programSha256": "06874eb3043bb95f3a5a88c3456aa19bf02d684775fa05a01d9e48e5195e194b",
+      "textureLoads": 2,
+      "samplers": [
+        0,
+        1
+      ],
+      "usesFogConstants": false,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0x1/2": {
+      "static": 1,
+      "dynamic": 2,
+      "programBytes": 732,
+      "programSha256": "a07e0c67e33d1f8f8cf74d2216c21c49fdedacca6638d8bf407c23ad848ac233",
+      "textureLoads": 2,
+      "samplers": [
+        0,
+        1
+      ],
+      "usesFogConstants": true,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0x1/3": {
+      "static": 1,
+      "dynamic": 3,
+      "programBytes": 496,
+      "programSha256": "05d04276e8526b8915c82e2647013233d02291d606e7f5d54b42979be14583d3",
+      "textureLoads": 2,
+      "samplers": [
+        0,
+        1
+      ],
+      "usesFogConstants": true,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0x2/0": {
+      "static": 2,
+      "dynamic": 0,
+      "programBytes": 128,
+      "programSha256": "81786c28c14595817570f51748500cdf905d1833088258b106508f08276b62ca",
+      "textureLoads": 0,
+      "samplers": [],
+      "usesFogConstants": false,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0x2/1": {
+      "static": 2,
+      "dynamic": 1,
+      "programBytes": 128,
+      "programSha256": "81786c28c14595817570f51748500cdf905d1833088258b106508f08276b62ca",
+      "textureLoads": 0,
+      "samplers": [],
+      "usesFogConstants": false,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0x2/2": {
+      "static": 2,
+      "dynamic": 2,
+      "programBytes": 128,
+      "programSha256": "81786c28c14595817570f51748500cdf905d1833088258b106508f08276b62ca",
+      "textureLoads": 0,
+      "samplers": [],
+      "usesFogConstants": false,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0x2/3": {
+      "static": 2,
+      "dynamic": 3,
+      "programBytes": 128,
+      "programSha256": "81786c28c14595817570f51748500cdf905d1833088258b106508f08276b62ca",
+      "textureLoads": 0,
+      "samplers": [],
+      "usesFogConstants": false,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0x4/0": {
+      "static": 4,
+      "dynamic": 0,
+      "programBytes": 236,
+      "programSha256": "422109c6001e2a4868cd0cd1408eb2d41c6372408caa20ffe17278d413201462",
+      "textureLoads": 0,
+      "samplers": [],
+      "usesFogConstants": false,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0x4/1": {
+      "static": 4,
+      "dynamic": 1,
+      "programBytes": 236,
+      "programSha256": "422109c6001e2a4868cd0cd1408eb2d41c6372408caa20ffe17278d413201462",
+      "textureLoads": 0,
+      "samplers": [],
+      "usesFogConstants": false,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0x4/2": {
+      "static": 4,
+      "dynamic": 2,
+      "programBytes": 236,
+      "programSha256": "422109c6001e2a4868cd0cd1408eb2d41c6372408caa20ffe17278d413201462",
+      "textureLoads": 0,
+      "samplers": [],
+      "usesFogConstants": false,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0x4/3": {
+      "static": 4,
+      "dynamic": 3,
+      "programBytes": 236,
+      "programSha256": "422109c6001e2a4868cd0cd1408eb2d41c6372408caa20ffe17278d413201462",
+      "textureLoads": 0,
+      "samplers": [],
+      "usesFogConstants": false,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0x6/0": {
+      "static": 6,
+      "dynamic": 0,
+      "programBytes": 560,
+      "programSha256": "42eaf4316f92f1a6b82a7ab9a875e905aaa1052de4b29ad46b26d00c200821d5",
+      "textureLoads": 2,
+      "samplers": [
+        0,
+        1
+      ],
+      "usesFogConstants": false,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0x6/1": {
+      "static": 6,
+      "dynamic": 1,
+      "programBytes": 560,
+      "programSha256": "42eaf4316f92f1a6b82a7ab9a875e905aaa1052de4b29ad46b26d00c200821d5",
+      "textureLoads": 2,
+      "samplers": [
+        0,
+        1
+      ],
+      "usesFogConstants": false,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0x6/2": {
+      "static": 6,
+      "dynamic": 2,
+      "programBytes": 560,
+      "programSha256": "42eaf4316f92f1a6b82a7ab9a875e905aaa1052de4b29ad46b26d00c200821d5",
+      "textureLoads": 2,
+      "samplers": [
+        0,
+        1
+      ],
+      "usesFogConstants": false,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0x6/3": {
+      "static": 6,
+      "dynamic": 3,
+      "programBytes": 560,
+      "programSha256": "42eaf4316f92f1a6b82a7ab9a875e905aaa1052de4b29ad46b26d00c200821d5",
+      "textureLoads": 2,
+      "samplers": [
+        0,
+        1
+      ],
+      "usesFogConstants": false,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0xc/0": {
+      "static": 12,
+      "dynamic": 0,
+      "programBytes": 2200,
+      "programSha256": "10cd82bc05dd2c8f4effbcd68c272a2aae24a84ac661bd0c6c45c3c146256ca1",
+      "textureLoads": 3,
+      "samplers": [
+        0
+      ],
+      "usesFogConstants": true,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0xc/1": {
+      "static": 12,
+      "dynamic": 1,
+      "programBytes": 1916,
+      "programSha256": "f8845ba017cddd13f7f3a3a91c9d19017895380b47498472da5b870c3c518a84",
+      "textureLoads": 3,
+      "samplers": [
+        0
+      ],
+      "usesFogConstants": false,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0xc/2": {
+      "static": 12,
+      "dynamic": 2,
+      "programBytes": 2216,
+      "programSha256": "2c22da6e708c0e202c97eafc1c59bf3b73206a462cde22aa38f9f8d469992b70",
+      "textureLoads": 3,
+      "samplers": [
+        0
+      ],
+      "usesFogConstants": true,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0xc/3": {
+      "static": 12,
+      "dynamic": 3,
+      "programBytes": 1980,
+      "programSha256": "3d934e64b687f8fb872ed29db3286776f47e72cfbcdd69b2ae3e2a7c728b66d3",
+      "textureLoads": 3,
+      "samplers": [
+        0
+      ],
+      "usesFogConstants": true,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0xe/0": {
+      "static": 14,
+      "dynamic": 0,
+      "programBytes": 252,
+      "programSha256": "3efeb4030665042bb879b286101d6db463dbd71c17d26026bc9707f8cbff4b01",
+      "textureLoads": 1,
+      "samplers": [
+        0
+      ],
+      "usesFogConstants": false,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0xe/1": {
+      "static": 14,
+      "dynamic": 1,
+      "programBytes": 252,
+      "programSha256": "3efeb4030665042bb879b286101d6db463dbd71c17d26026bc9707f8cbff4b01",
+      "textureLoads": 1,
+      "samplers": [
+        0
+      ],
+      "usesFogConstants": false,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0xe/2": {
+      "static": 14,
+      "dynamic": 2,
+      "programBytes": 252,
+      "programSha256": "3efeb4030665042bb879b286101d6db463dbd71c17d26026bc9707f8cbff4b01",
+      "textureLoads": 1,
+      "samplers": [
+        0
+      ],
+      "usesFogConstants": false,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0xe/3": {
+      "static": 14,
+      "dynamic": 3,
+      "programBytes": 252,
+      "programSha256": "3efeb4030665042bb879b286101d6db463dbd71c17d26026bc9707f8cbff4b01",
+      "textureLoads": 1,
+      "samplers": [
+        0
+      ],
+      "usesFogConstants": false,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0x12/0": {
+      "static": 18,
+      "dynamic": 0,
+      "programBytes": 780,
+      "programSha256": "fae4b62bf1b71a3d5b9972eda927357148504f5cb9359c343b92efd77c5ef27b",
+      "textureLoads": 2,
+      "samplers": [
+        0,
+        1
+      ],
+      "usesFogConstants": true,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0x12/1": {
+      "static": 18,
+      "dynamic": 1,
+      "programBytes": 548,
+      "programSha256": "445370a38b0490f35f25ee131945307ad464a7866405b5c4d6af7303b444c059",
+      "textureLoads": 2,
+      "samplers": [
+        0,
+        1
+      ],
+      "usesFogConstants": true,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0x12/2": {
+      "static": 18,
+      "dynamic": 2,
+      "programBytes": 796,
+      "programSha256": "ef9da06d765a471f4d096709d76edd6876835734d1d6e2d62018afa96146ffad",
+      "textureLoads": 2,
+      "samplers": [
+        0,
+        1
+      ],
+      "usesFogConstants": true,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0x12/3": {
+      "static": 18,
+      "dynamic": 3,
+      "programBytes": 604,
+      "programSha256": "3e6fea461d7e19957bf6fa7b45bc3019dad66f9cc204a47169ac83a58957e148",
+      "textureLoads": 2,
+      "samplers": [
+        0,
+        1
+      ],
+      "usesFogConstants": true,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0x18/0": {
+      "static": 24,
+      "dynamic": 0,
+      "programBytes": 1272,
+      "programSha256": "3ce42c832792849dc769a8fa502eed3344d3bd29e4e75907c9d44c3f75d65f6c",
+      "textureLoads": 2,
+      "samplers": [
+        0
+      ],
+      "usesFogConstants": true,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0x18/1": {
+      "static": 24,
+      "dynamic": 1,
+      "programBytes": 988,
+      "programSha256": "c79e50b442646c7f0f8cb03e54e6bd755e20d4731a752b0826e84aa74ccfa811",
+      "textureLoads": 2,
+      "samplers": [
+        0
+      ],
+      "usesFogConstants": false,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0x18/2": {
+      "static": 24,
+      "dynamic": 2,
+      "programBytes": 1276,
+      "programSha256": "2cca04bc4b393b7ab7324067aad66e9a5d00e08d37d4b32e9ab04b27085ef0e0",
+      "textureLoads": 2,
+      "samplers": [
+        0
+      ],
+      "usesFogConstants": true,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0x18/3": {
+      "static": 24,
+      "dynamic": 3,
+      "programBytes": 1040,
+      "programSha256": "d837ff74d588f69936112dd7271f627c32a16bd03e588dad2f66d586084ce160",
+      "textureLoads": 2,
+      "samplers": [
+        0
+      ],
+      "usesFogConstants": true,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0x1e/0": {
+      "static": 30,
+      "dynamic": 0,
+      "programBytes": 348,
+      "programSha256": "5f55abe2b4e5626ee30cd9c574ed184a8f18d94e9403313e29164c94a5da31d1",
+      "textureLoads": 0,
+      "samplers": [],
+      "usesFogConstants": false,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0x1e/1": {
+      "static": 30,
+      "dynamic": 1,
+      "programBytes": 348,
+      "programSha256": "5f55abe2b4e5626ee30cd9c574ed184a8f18d94e9403313e29164c94a5da31d1",
+      "textureLoads": 0,
+      "samplers": [],
+      "usesFogConstants": false,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0x1e/2": {
+      "static": 30,
+      "dynamic": 2,
+      "programBytes": 348,
+      "programSha256": "5f55abe2b4e5626ee30cd9c574ed184a8f18d94e9403313e29164c94a5da31d1",
+      "textureLoads": 0,
+      "samplers": [],
+      "usesFogConstants": false,
+      "instructions": "[omitted: private reference evidence]"
+    },
+    "0x1e/3": {
+      "static": 30,
+      "dynamic": 3,
+      "programBytes": 348,
+      "programSha256": "5f55abe2b4e5626ee30cd9c574ed184a8f18d94e9403313e29164c94a5da31d1",
+      "textureLoads": 0,
+      "samplers": [],
+      "usesFogConstants": false,
+      "instructions": "[omitted: private reference evidence]"
+    }
+  },
+  "singleFlagKeys": [
+    "0x1",
+    "0x2",
+    "0x4"
+  ],
+  "textureLoadsPerSingleFlagKey": {
+    "0x1": 2,
+    "0x2": 0,
+    "0x4": 0
+  },
+  "cloudCombo": {
+    "static": "0x1",
+    "dynamic": 1,
+    "program": [
+      "dcl usage=0 index=0 a0.xy",
+      "dcl usage=0 index=0 a1.xy",
+      "dcl usage=0 index=0 s0.xyzw",
+      "dcl usage=0 index=0 s1.xyzw",
+      "texld r0.xyzw a0.xyzw, s0.xyzw",
+      "texld r1.xyzw a1.xyzw, s1.xyzw",
+      "mul r0.xyzw r0.xyzw, r1.xyzw",
+      "mul r0.xyzw r0.xyzw, c1.xyzw",
+      "mul r0.xyz r0.xyzw, c30.xxxx",
+      "mov oc0.xyzw r0.xyzw"
+    ],
+    "constants": {
+      "30": "cLightScale",
+      "1": "g_DiffuseModulation",
+      "11": "g_EyePos_SpecExponent",
+      "12": "g_FogParams",
+      "29": "g_LinearFogColor"
+    },
+    "samplers": {
+      "0": "BaseTextureSampler",
+      "1": "BaseTextureSampler2"
+    }
+  },
+  "reading": "A material that declares only $translucent 1 sets one flag, so it draws one of the shipped combos that leave exactly one flag set: 0x1, 0x2 or 0x4. Of those, only 0x1 reads both samplers, and its own program is tex0 * tex1 * c1 with rgb scaled by c30. The material's alpha is therefore tex0.a * tex1.a * c1.a, and c1 is g_DiffuseModulation, the register the engine uploads the material's own colour and alpha into - which is where $alpha .35 enters.",
+  "boundary": "The runtime value of c30 (cLightScale) is not read here, so this build draws the product without that trailing factor and records the gap. The mapping from c1 to the material's $alpha is the modulation register's role, not a value read out of this build."
+}

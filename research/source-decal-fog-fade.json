@@ -1,0 +1,267 @@
+{
+  "format": "source-decal-fog-fade-v1",
+  "shader": {
+    "path": ".reference-assets/csgo-legacy/bin/linux64/stdshader_dx9_client.so",
+    "sha256": "0383c51766a4681b5de26aa79b67ade5d3a867a8622185abe8a090877bac7c2e",
+    "flagTableAt": "0x14a880",
+    "flags": [
+      {
+        "define": "VERTEXALPHA",
+        "value": 0,
+        "field": 1,
+        "at": "0x14a880"
+      },
+      {
+        "define": "FOGFADE",
+        "value": 0,
+        "field": 1,
+        "at": "0x14a890"
+      },
+      {
+        "define": "PIXELFOGTYPE",
+        "value": 0,
+        "field": 1,
+        "at": "0x14a8a0"
+      }
+    ],
+    "parameterBlockAt": "0x1167f0",
+    "parameters": [
+      {
+        "name": "$FOGEXPONENT",
+        "default": "0.4",
+        "description": "exponent to tweak fog fade",
+        "declarationAt": "0x2fd76",
+        "declarationBytes": "48 8d 05 d4 6a 0e 00 c7 05 49 30 33 00 07 00 00 00 48 89 05 32 30 33 00"
+      },
+      {
+        "name": "$FOGSCALE",
+        "default": "1.0",
+        "description": "scale to tweak fog fade",
+        "declarationAt": "0x2fdd9",
+        "declarationBytes": "48 8d 05 9d 6a 0e 00 c7 05 a6 2f 33 00 07 00 00 00 48 89 05 8f 2f 33 00"
+      },
+      {
+        "name": "$FOGFADESTART",
+        "default": null,
+        "description": "fog amount at which to start fading decal",
+        "declarationAt": "0x2fe3c",
+        "declarationBytes": "48 8d 05 5c 6a 0e 00 4c 89 2d 0e 2f 33 00 48 89 05 ef 2e 33 00 48 8d 05"
+      },
+      {
+        "name": "$FOGFADEEND",
+        "default": null,
+        "description": "fog amount at which to end fading decal",
+        "declarationAt": "0x2fe98",
+        "declarationBytes": "48 8d 05 0e 6a 0e 00 4c 89 2d 72 2e 33 00 48 89 05 53 2e 33 00 48 8d 05"
+      }
+    ]
+  },
+  "container": {
+    "path": "shaders/fxc/decalmodulate_ps20b.vcs",
+    "sha256": "b18ce521ec30446b4747c500e8caf85b0bf0061868f7002108fe74fbd662fb98",
+    "statics": [
+      "0x0",
+      "0x1",
+      "0x2",
+      "0x3"
+    ],
+    "dynamicCombos": 2,
+    "programs": {
+      "0x0/0": {
+        "static": 0,
+        "dynamic": 0,
+        "bytes": 552,
+        "sha256": "e273590c0b6907d902b199f9f066f241addf4b5ad24973ec39e60971d6fbc889",
+        "instructions": "[omitted: private reference evidence]"
+      },
+      "0x0/1": {
+        "static": 0,
+        "dynamic": 1,
+        "bytes": 200,
+        "sha256": "3fadde06d89bc87085ed684314c745f041389aa74def6048a730c7e8dfb3229e",
+        "instructions": "[omitted: private reference evidence]"
+      },
+      "0x1/0": {
+        "static": 1,
+        "dynamic": 0,
+        "bytes": 612,
+        "sha256": "d6c07b2762528eb4c86aaad4e702d0625ac132aac97e62eb0f896b163e320500",
+        "instructions": "[omitted: private reference evidence]"
+      },
+      "0x1/1": {
+        "static": 1,
+        "dynamic": 1,
+        "bytes": 272,
+        "sha256": "3fd39be33dc18db43b61b4bd941962ccba8adf5643bb48e97afd695ad59dfc0e",
+        "instructions": "[omitted: private reference evidence]"
+      },
+      "0x2/0": {
+        "static": 2,
+        "dynamic": 0,
+        "bytes": 644,
+        "sha256": "f59dbbb84e4e1b0202241ba9b0520cbcd83ee3aeb4803740515e3f08dc783be9",
+        "instructions": "[omitted: private reference evidence]"
+      },
+      "0x2/1": {
+        "static": 2,
+        "dynamic": 1,
+        "bytes": 556,
+        "sha256": "09fe7bd98afa47e74394b9df30b77ba06da3599dcfe808bdd40f760ac8d6397f",
+        "instructions": "[omitted: private reference evidence]"
+      },
+      "0x3/0": {
+        "static": 3,
+        "dynamic": 0,
+        "bytes": 692,
+        "sha256": "983be450d499b919f9ceb4bd6844e958a03272ba6cb2b7048586a5572631454f",
+        "instructions": "[omitted: private reference evidence]"
+      },
+      "0x3/1": {
+        "static": 3,
+        "dynamic": 1,
+        "bytes": 604,
+        "sha256": "c6c653ae0913df4949fbf4c6a1f2384d34c72a44aedd124efbd54c7e0058c8e3",
+        "instructions": "[omitted: private reference evidence]"
+      }
+    }
+  },
+  "ctabNames": [
+    "TexSampler",
+    "g_EyePos_SpecExponent",
+    "g_FogParams",
+    "g_FogTweakParams",
+    "g_LinearFogColor"
+  ],
+  "formula": {
+    "eyeToFragment": "c11.xyz - worldPosition.xyz",
+    "fogAmount": "min(saturate(distance * g_FogParams.w + g_FogParams.x), g_FogParams.z)",
+    "tint": "(saturate(fogAmount * $FOGSCALE) ^ $FOGEXPONENT) ^ 2",
+    "fade": "saturate((fogAmount - $FOGFADESTART) / ($FOGFADEEND - $FOGFADESTART))",
+    "shaded": "mix(mix(texel, 0.5, fade), g_LinearFogColor, tint)",
+    "written": "the shaded texel, blended as destination * source, so the doubling is the blend and not an instruction"
+  },
+  "fadeMaterials": [
+    {
+      "material": "materials/decals/blood1.vmt",
+      "stated": {
+        "fogfadeend": 0.5
+      }
+    },
+    {
+      "material": "materials/decals/blood2.vmt",
+      "stated": {
+        "fogfadeend": 0.5
+      }
+    },
+    {
+      "material": "materials/decals/blood3.vmt",
+      "stated": {
+        "fogfadeend": 0.5
+      }
+    },
+    {
+      "material": "materials/decals/blood4.vmt",
+      "stated": {
+        "fogfadeend": 0.5
+      }
+    },
+    {
+      "material": "materials/decals/blood5.vmt",
+      "stated": {
+        "fogfadeend": 0.5
+      }
+    },
+    {
+      "material": "materials/decals/blood7.vmt",
+      "stated": {
+        "fogfadeend": 0.5
+      }
+    },
+    {
+      "material": "materials/decals/blood8.vmt",
+      "stated": {
+        "fogfadeend": 0.5
+      }
+    },
+    {
+      "material": "materials/decals/decals_bulletsheet.vmt",
+      "stated": {
+        "fogfadeend": 0.5
+      }
+    },
+    {
+      "material": "materials/decals/flesh/blood1.vmt",
+      "stated": {
+        "fogfadeend": 0.5
+      }
+    },
+    {
+      "material": "materials/decals/flesh/blood2.vmt",
+      "stated": {
+        "fogfadeend": 0.5
+      }
+    },
+    {
+      "material": "materials/decals/flesh/blood3.vmt",
+      "stated": {
+        "fogfadeend": 0.5
+      }
+    },
+    {
+      "material": "materials/decals/flesh/blood4.vmt",
+      "stated": {
+        "fogfadeend": 0.5
+      }
+    },
+    {
+      "material": "materials/decals/flesh/blood5.vmt",
+      "stated": {
+        "fogfadeend": 0.5
+      }
+    },
+    {
+      "material": "materials/decals/flesh/blood9.vmt",
+      "stated": {
+        "fogfadeend": 0.5
+      }
+    }
+  ],
+  "reachableAtlases": {
+    "decals/decals_bulletsheet": {
+      "shader": "DecalModulate",
+      "stated": {
+        "fogfadeend": 0.5
+      },
+      "materials": 34
+    },
+    "decals/decals_mod2x": {
+      "shader": "DecalModulate",
+      "stated": {},
+      "materials": 8
+    }
+  },
+  "sources": {
+    "sheets": {
+      "decals/decals_bulletsheet": {
+        "path": "materials/decals/decals_bulletsheet.vtf",
+        "flags": "0x00000068",
+        "named": [
+          "clampt",
+          "hint_dxt5",
+          "sRGB"
+        ]
+      },
+      "decals/decals_mod2x": {
+        "path": "materials/decals/decals_mod2x.vtf",
+        "flags": "0x00000068",
+        "named": [
+          "clampt",
+          "hint_dxt5",
+          "sRGB"
+        ]
+      }
+    }
+  },
+  "reading": "The shipped DecalModulate fades a decal out of the fog rather than only tinting it: the fade lerps the texel toward the neutral 0.5 the atlas is authored around, so a decal returns the surface untouched instead of turning into a grey patch, and the fade is saturated. Its tint is the fog amount scaled, raised to the shader's own exponent and squared, and the fog amount is the same capped ramp the map states for the whole scene, measured as the distance from the eye - not the depth along the view axis. `$FOGSCALE` defaults to 1.0 and the two fade bounds default to nothing, which is why every shipped material that uses the fade states its own end value.",
+  "boundary": "The engine's static combo key was not read: the container states four combos and the probe reads which of them holds the fade arithmetic, so the port keys the fade off the material's own stated bound - the value the arithmetic requires - rather than off a bit it has not proved. The `VERTEXALPHA` variant scales the texel by the vertex alpha and is the identity on a decal quad that carries none, which is what this port draws. The port's own bullet decals name two atlas materials, and only one of them - the bullet sheet - states a fade bound."
+}

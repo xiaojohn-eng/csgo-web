@@ -1,0 +1,56 @@
+[
+  {
+    "key": "source_explosion_he_0",
+    "kind": "he",
+    "event": "basegrenade.explode",
+    "source": "sound/weapons/hegrenade/hegrenade_detonate_02.wav",
+    "url": "/source/csgo-12426148/explosion-audio/weapons/hegrenade/hegrenade_detonate_02.wav",
+    "bytes": 858008,
+    "sha256": "5b042db6556e9f45a4c25f78339f012d5a9a4badffad31aa253656421f916fd2",
+    "pitch": [
+      97.0,
+      103.0
+    ],
+    "volume": [
+      1.0,
+      1.0
+    ],
+    "soundlevel": "SNDLVL_140dB"
+  },
+  {
+    "key": "source_explosion_he_1",
+    "kind": "he",
+    "event": "basegrenade.explode",
+    "source": "sound/weapons/hegrenade/hegrenade_detonate_03.wav",
+    "url": "/source/csgo-12426148/explosion-audio/weapons/hegrenade/hegrenade_detonate_03.wav",
+    "bytes": 816328,
+    "sha256": "ce7bf5bd40b38993bc49635f64a7d7ff13bf0c87ff2489bb6f13d4854d6ab0e0",
+    "pitch": [
+      97.0,
+      103.0
+    ],
+    "volume": [
+      1.0,
+      1.0
+    ],
+    "soundlevel": "SNDLVL_140dB"
+  },
+  {
+    "key": "source_explosion_c4_0",
+    "kind": "c4",
+    "event": "c4.explode",
+    "source": "sound/weapons/c4/c4_explode1.wav",
+    "url": "/source/csgo-12426148/explosion-audio/weapons/c4/c4_explode1.wav",
+    "bytes": 1054768,
+    "sha256": "d83a02d8c05b1f6dd316b5595f00a74093b0d58cfaf24cd58160e543639b50b5",
+    "pitch": [
+      100,
+      100
+    ],
+    "volume": [
+      1.0,
+      1.0
+    ],
+    "soundlevel": "SNDLVL_NONE"
+  }
+]

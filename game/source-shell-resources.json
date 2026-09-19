@@ -1,0 +1,37 @@
+[
+  {
+    "kind": "model",
+    "name": "shell_50cal",
+    "path": "shell_50cal.glb",
+    "bytes": 11676,
+    "sha256": "f0552be03ac55cea29ec1c475fb5df0eb900f42be5937f6f7ad0b64a8d3c9772"
+  },
+  {
+    "kind": "model",
+    "name": "shell_762",
+    "path": "shell_762.glb",
+    "bytes": 11664,
+    "sha256": "66f0db37279ac38c41f3dc029970824e9d95f0326662b43228d84ff318369d4e"
+  },
+  {
+    "kind": "model",
+    "name": "shell_9mm",
+    "path": "shell_9mm.glb",
+    "bytes": 10084,
+    "sha256": "8db81117d5aeb5812d9b6641e730edbb256f292c44215a65da2d564afdde25d2"
+  },
+  {
+    "kind": "texture",
+    "name": "shells",
+    "path": "shells.png",
+    "bytes": 119858,
+    "sha256": "07360b8147993934edba4b031560715ef6d89c36c9a14daa1e582b2c40ecc7c5"
+  },
+  {
+    "kind": "provenance",
+    "name": "provenance.json",
+    "path": "provenance.json",
+    "bytes": 3686,
+    "sha256": "b2a39d86d2f92a727e2b40e711b2ca3ed96bd5fcb4bc37651d773a1c867cbb25"
+  }
+]

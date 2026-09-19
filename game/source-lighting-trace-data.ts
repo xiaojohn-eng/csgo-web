@@ -1,0 +1,2 @@
+// Generated from original BSP/MDL by export-source-lighting-trace.py.
+export const SOURCE_LIGHTING_TRACE_ASSET={"file":"trace.json","bytes":1559846,"sha256":"6a0ca648b5a8b2b8e86f4958fca6ee8ac7b60cd6472edea44c34b7930019c693","sourceBspSha256":"b91be410539fbbfc16300423f1e19c024f12addf1429c8cb2f72b53fe0fd6bcc","collisionSha256":"55184f994bc852dc229bbed0cb772cb843b1bc662054013c5076df98ce2a43cb","counts":{"brushes":881,"planes":20946,"nodes":3434,"leaves":3478,"displacements":101,"propModels":616}} as const;

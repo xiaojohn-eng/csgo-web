@@ -1,0 +1,221 @@
+{
+  "build": 12426148,
+  "directory": {
+    "path": ".reference-assets/csgo-legacy/csgo/pak01_dir.vpk",
+    "sha256": "a9ffaa07380d70e1b4362007cf50351c25844905e200c0e6c20c7d10cfe1364a",
+    "bytes": 15920251,
+    "entries": 133676,
+    "version": 2,
+    "treeBytes": 15238319,
+    "headerBytes": 28
+  },
+  "soundScript": {
+    "archiveBytes": 219339,
+    "archiveIndex": 203,
+    "archiveOffset": 98144949,
+    "bytes": 219339,
+    "container": "pak01",
+    "crc32": "8dc93bad",
+    "path": "scripts/game_sounds_weapons.txt",
+    "preloadBytes": 0,
+    "sha256": "24833a684bcc0908fe775db74b1dbda4815e6c7ed1a78a59237eab6d1cb34b4d"
+  },
+  "records": [
+    {
+      "record": {
+        "key": "source_explosion_he_0",
+        "kind": "he",
+        "event": "basegrenade.explode",
+        "source": "sound/weapons/hegrenade/hegrenade_detonate_02.wav",
+        "url": "/source/csgo-12426148/explosion-audio/weapons/hegrenade/hegrenade_detonate_02.wav",
+        "bytes": 858008,
+        "sha256": "5b042db6556e9f45a4c25f78339f012d5a9a4badffad31aa253656421f916fd2",
+        "pitch": [
+          97.0,
+          103.0
+        ],
+        "volume": [
+          1.0,
+          1.0
+        ],
+        "soundlevel": "SNDLVL_140dB"
+      },
+      "originalWave": "`)weapons/hegrenade/hegrenade_detonate_02.wav",
+      "file": {
+        "archiveBytes": 858008,
+        "archiveIndex": 138,
+        "archiveOffset": 4447598,
+        "bytes": 858008,
+        "container": "pak01",
+        "crc32": "18dd8c6d",
+        "path": "sound/weapons/hegrenade/hegrenade_detonate_02.wav",
+        "preloadBytes": 0,
+        "sha256": "5b042db6556e9f45a4c25f78339f012d5a9a4badffad31aa253656421f916fd2"
+      },
+      "definition": {
+        "channel": "CHAN_STATIC",
+        "operator_stacks": {
+          "start_stack": {
+            "import_stack": "CS_distance_weapon_start",
+            "play_distant_version_1": {
+              "entry_name": "BaseGrenade.ExplodeDistant"
+            }
+          },
+          "update_stack": {
+            "dsp_emitter": {
+              "apply": "set",
+              "input1": "0.1",
+              "operator": "math_float"
+            },
+            "import_stack": "CS_update_weapon",
+            "mixer": {
+              "mixgroup": "Explosions"
+            },
+            "volume_distance_xfade": {
+              "input_map_max": "1.0",
+              "input_map_min": "0.0"
+            },
+            "volume_xfade_end_dist": {
+              "apply": "mult",
+              "input1": "@volume_sound_falloff_multiplier.output",
+              "input2": "2800",
+              "operator": "math_float"
+            },
+            "volume_xfade_start_dist": {
+              "input2": "100"
+            }
+          }
+        },
+        "pitch": "97, 103",
+        "rndwave": {
+          "wave": [
+            "`)weapons/hegrenade/hegrenade_detonate_02.wav",
+            "`)weapons/hegrenade/hegrenade_detonate_03.wav"
+          ]
+        },
+        "soundentry_version": "2",
+        "soundlevel": "SNDLVL_140dB",
+        "volume": "1"
+      }
+    },
+    {
+      "record": {
+        "key": "source_explosion_he_1",
+        "kind": "he",
+        "event": "basegrenade.explode",
+        "source": "sound/weapons/hegrenade/hegrenade_detonate_03.wav",
+        "url": "/source/csgo-12426148/explosion-audio/weapons/hegrenade/hegrenade_detonate_03.wav",
+        "bytes": 816328,
+        "sha256": "ce7bf5bd40b38993bc49635f64a7d7ff13bf0c87ff2489bb6f13d4854d6ab0e0",
+        "pitch": [
+          97.0,
+          103.0
+        ],
+        "volume": [
+          1.0,
+          1.0
+        ],
+        "soundlevel": "SNDLVL_140dB"
+      },
+      "originalWave": "`)weapons/hegrenade/hegrenade_detonate_03.wav",
+      "file": {
+        "archiveBytes": 816328,
+        "archiveIndex": 138,
+        "archiveOffset": 5305606,
+        "bytes": 816328,
+        "container": "pak01",
+        "crc32": "7ed994ea",
+        "path": "sound/weapons/hegrenade/hegrenade_detonate_03.wav",
+        "preloadBytes": 0,
+        "sha256": "ce7bf5bd40b38993bc49635f64a7d7ff13bf0c87ff2489bb6f13d4854d6ab0e0"
+      },
+      "definition": {
+        "channel": "CHAN_STATIC",
+        "operator_stacks": {
+          "start_stack": {
+            "import_stack": "CS_distance_weapon_start",
+            "play_distant_version_1": {
+              "entry_name": "BaseGrenade.ExplodeDistant"
+            }
+          },
+          "update_stack": {
+            "dsp_emitter": {
+              "apply": "set",
+              "input1": "0.1",
+              "operator": "math_float"
+            },
+            "import_stack": "CS_update_weapon",
+            "mixer": {
+              "mixgroup": "Explosions"
+            },
+            "volume_distance_xfade": {
+              "input_map_max": "1.0",
+              "input_map_min": "0.0"
+            },
+            "volume_xfade_end_dist": {
+              "apply": "mult",
+              "input1": "@volume_sound_falloff_multiplier.output",
+              "input2": "2800",
+              "operator": "math_float"
+            },
+            "volume_xfade_start_dist": {
+              "input2": "100"
+            }
+          }
+        },
+        "pitch": "97, 103",
+        "rndwave": {
+          "wave": [
+            "`)weapons/hegrenade/hegrenade_detonate_02.wav",
+            "`)weapons/hegrenade/hegrenade_detonate_03.wav"
+          ]
+        },
+        "soundentry_version": "2",
+        "soundlevel": "SNDLVL_140dB",
+        "volume": "1"
+      }
+    },
+    {
+      "record": {
+        "key": "source_explosion_c4_0",
+        "kind": "c4",
+        "event": "c4.explode",
+        "source": "sound/weapons/c4/c4_explode1.wav",
+        "url": "/source/csgo-12426148/explosion-audio/weapons/c4/c4_explode1.wav",
+        "bytes": 1054768,
+        "sha256": "d83a02d8c05b1f6dd316b5595f00a74093b0d58cfaf24cd58160e543639b50b5",
+        "pitch": [
+          100,
+          100
+        ],
+        "volume": [
+          1.0,
+          1.0
+        ],
+        "soundlevel": "SNDLVL_NONE"
+      },
+      "originalWave": "weapons/c4/c4_explode1.wav",
+      "file": {
+        "archiveBytes": 1054768,
+        "archiveIndex": 134,
+        "archiveOffset": 84835491,
+        "bytes": 1054768,
+        "container": "pak01",
+        "crc32": "84f9e272",
+        "path": "sound/weapons/c4/c4_explode1.wav",
+        "preloadBytes": 0,
+        "sha256": "d83a02d8c05b1f6dd316b5595f00a74093b0d58cfaf24cd58160e543639b50b5"
+      },
+      "definition": {
+        "channel": "CHAN_STATIC",
+        "soundlevel": "SNDLVL_NONE",
+        "volume": "1.0",
+        "wave": "weapons/c4/c4_explode1.wav"
+      }
+    }
+  ],
+  "limits": [
+    "Original HE distant crossfade, operator stacks, DSP and soundlevel attenuation are not reproduced.",
+    "HE uses the existing browser positional audio; C4 SNDLVL_NONE remains non-positional."
+  ]
+}

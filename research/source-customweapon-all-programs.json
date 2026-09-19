@@ -1,0 +1,1233 @@
+{
+  "format": "source-customweapon-all-programs-native-v1",
+  "shader": {
+    "file": ".reference-assets/csgo-legacy/bin/linux64/stdshader_dx9_client.so",
+    "bytes": 1440902,
+    "sha256": "0383c51766a4681b5de26aa79b67ade5d3a867a8622185abe8a090877bac7c2e"
+  },
+  "vcsSha256": "7115c936b78fa3762e9a729b60b1b2123f761ac32a41bf044b3bb34bde5ac0ce",
+  "programs": [
+    {
+      "style": 1,
+      "lowAlbedo": false,
+      "pass": "color",
+      "nativeCombined": 5,
+      "static": 1,
+      "aliasResolvedStatic": 1,
+      "sha256": "b4c85db4a5ce2c506baca54f6486c216f1714c0320aabc10bb1543bd4b67760a",
+      "tokenCount": 67,
+      "samplers": [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "constants": [
+        {
+          "register": 0,
+          "name": "g_cCamo0_camo3r",
+          "count": 1
+        },
+        {
+          "register": 1,
+          "name": "g_cCamo1_camo3g",
+          "count": 1
+        },
+        {
+          "register": 2,
+          "name": "g_cCamo2_camo3b",
+          "count": 1
+        },
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "style": 1,
+      "lowAlbedo": false,
+      "pass": "exponent",
+      "nativeCombined": 55,
+      "static": 11,
+      "aliasResolvedStatic": 11,
+      "sha256": "fddbe8ae2532a9182222914ce2cdf00bd4c34021a38f2fca2d1378fd7284fcc8",
+      "tokenCount": 22,
+      "samplers": [
+        0,
+        1,
+        2
+      ],
+      "constants": [
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "style": 2,
+      "lowAlbedo": false,
+      "pass": "color",
+      "nativeCombined": 10,
+      "static": 2,
+      "aliasResolvedStatic": 2,
+      "sha256": "d1a07e45c2d5a986ce42ceb7b300d3a5efadd02d79f99822f6f5fa3cd6d8b951",
+      "tokenCount": 87,
+      "samplers": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        8
+      ],
+      "constants": [
+        {
+          "register": 0,
+          "name": "g_cCamo0_camo3r",
+          "count": 1
+        },
+        {
+          "register": 1,
+          "name": "g_cCamo1_camo3g",
+          "count": 1
+        },
+        {
+          "register": 2,
+          "name": "g_cCamo2_camo3b",
+          "count": 1
+        },
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "style": 2,
+      "lowAlbedo": false,
+      "pass": "exponent",
+      "nativeCombined": 60,
+      "static": 12,
+      "aliasResolvedStatic": 12,
+      "sha256": "38afcd242605c5d8b2388d8eb7b2394141721c3cbcdf0fc905002bbaf70e4127",
+      "tokenCount": 42,
+      "samplers": [
+        0,
+        1,
+        2,
+        4,
+        8
+      ],
+      "constants": [
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "style": 3,
+      "lowAlbedo": false,
+      "pass": "color",
+      "nativeCombined": 15,
+      "static": 3,
+      "aliasResolvedStatic": 3,
+      "sha256": "abf2fe592c456890340b5a51bca270f89631382782ed7d49168b2781fa14fbde",
+      "tokenCount": 163,
+      "samplers": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "constants": [
+        {
+          "register": 0,
+          "name": "g_cCamo0_camo3r",
+          "count": 1
+        },
+        {
+          "register": 1,
+          "name": "g_cCamo1_camo3g",
+          "count": 1
+        },
+        {
+          "register": 2,
+          "name": "g_cCamo2_camo3b",
+          "count": 1
+        },
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        },
+        {
+          "register": 10,
+          "name": "g_patternTexCoordTransform",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "style": 3,
+      "lowAlbedo": false,
+      "pass": "exponent",
+      "nativeCombined": 65,
+      "static": 13,
+      "aliasResolvedStatic": 11,
+      "sha256": "fddbe8ae2532a9182222914ce2cdf00bd4c34021a38f2fca2d1378fd7284fcc8",
+      "tokenCount": 22,
+      "samplers": [
+        0,
+        1,
+        2
+      ],
+      "constants": [
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "style": 4,
+      "lowAlbedo": false,
+      "pass": "color",
+      "nativeCombined": 20,
+      "static": 4,
+      "aliasResolvedStatic": 4,
+      "sha256": "a4a734182da7aa72298813ce4d929dc23de9dc0b2f14f3c995fe5222a8641a64",
+      "tokenCount": 59,
+      "samplers": [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "constants": [
+        {
+          "register": 0,
+          "name": "g_cCamo0_camo3r",
+          "count": 1
+        },
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "style": 4,
+      "lowAlbedo": false,
+      "pass": "exponent",
+      "nativeCombined": 70,
+      "static": 14,
+      "aliasResolvedStatic": 14,
+      "sha256": "4aa03f66fa89b5e7b69c2e49c2bf233165ba521d374a67fad496a066f71420da",
+      "tokenCount": 26,
+      "samplers": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "constants": [
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "style": 5,
+      "lowAlbedo": false,
+      "pass": "color",
+      "nativeCombined": 25,
+      "static": 5,
+      "aliasResolvedStatic": 5,
+      "sha256": "d6778d12af79b63b704eefc229756b8f3ec2be5b648ff45e2f2e7b8dffa81cfb",
+      "tokenCount": 78,
+      "samplers": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        8
+      ],
+      "constants": [
+        {
+          "register": 0,
+          "name": "g_cCamo0_camo3r",
+          "count": 1
+        },
+        {
+          "register": 1,
+          "name": "g_cCamo1_camo3g",
+          "count": 1
+        },
+        {
+          "register": 2,
+          "name": "g_cCamo2_camo3b",
+          "count": 1
+        },
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "style": 5,
+      "lowAlbedo": false,
+      "pass": "exponent",
+      "nativeCombined": 75,
+      "static": 15,
+      "aliasResolvedStatic": 15,
+      "sha256": "8c6f65d29fcc90cfd89475c34ffb1cc59b100504f3aca9528edc12d241fed1a7",
+      "tokenCount": 39,
+      "samplers": [
+        0,
+        1,
+        2,
+        4,
+        8
+      ],
+      "constants": [
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "style": 6,
+      "lowAlbedo": false,
+      "pass": "color",
+      "nativeCombined": 30,
+      "static": 6,
+      "aliasResolvedStatic": 6,
+      "sha256": "7ff75eb8ad96d2cf62a66cc0794549ff961203d61dd6595360bb6d6b2b419957",
+      "tokenCount": 146,
+      "samplers": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "constants": [
+        {
+          "register": 0,
+          "name": "g_cCamo0_camo3r",
+          "count": 1
+        },
+        {
+          "register": 1,
+          "name": "g_cCamo1_camo3g",
+          "count": 1
+        },
+        {
+          "register": 2,
+          "name": "g_cCamo2_camo3b",
+          "count": 1
+        },
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        },
+        {
+          "register": 10,
+          "name": "g_patternTexCoordTransform",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "style": 6,
+      "lowAlbedo": false,
+      "pass": "exponent",
+      "nativeCombined": 80,
+      "static": 16,
+      "aliasResolvedStatic": 14,
+      "sha256": "4aa03f66fa89b5e7b69c2e49c2bf233165ba521d374a67fad496a066f71420da",
+      "tokenCount": 26,
+      "samplers": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "constants": [
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "style": 7,
+      "lowAlbedo": false,
+      "pass": "color",
+      "nativeCombined": 35,
+      "static": 7,
+      "aliasResolvedStatic": 7,
+      "sha256": "fbd03afa4cc074434791bc3cd8078fea0c7d1933d7b7aa995cd7d7e538ee1ba3",
+      "tokenCount": 71,
+      "samplers": [
+        0,
+        1,
+        3,
+        5,
+        8
+      ],
+      "constants": [
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "style": 7,
+      "lowAlbedo": false,
+      "pass": "exponent",
+      "nativeCombined": 85,
+      "static": 17,
+      "aliasResolvedStatic": 17,
+      "sha256": "9fcf95e92c2694fdb89b80d3b5b6a64896b92bfd274b9df3f8d439e4a6fdeb21",
+      "tokenCount": 36,
+      "samplers": [
+        0,
+        1,
+        2,
+        8
+      ],
+      "constants": [
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "style": 8,
+      "lowAlbedo": false,
+      "pass": "color",
+      "nativeCombined": 40,
+      "static": 8,
+      "aliasResolvedStatic": 8,
+      "sha256": "a307edf37b2ed217c28b522f3872c99c11f382fe39113ed9fd41f2eff307e996",
+      "tokenCount": 79,
+      "samplers": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        8
+      ],
+      "constants": [
+        {
+          "register": 0,
+          "name": "g_cCamo0_camo3r",
+          "count": 1
+        },
+        {
+          "register": 1,
+          "name": "g_cCamo1_camo3g",
+          "count": 1
+        },
+        {
+          "register": 2,
+          "name": "g_cCamo2_camo3b",
+          "count": 1
+        },
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "style": 8,
+      "lowAlbedo": false,
+      "pass": "exponent",
+      "nativeCombined": 90,
+      "static": 18,
+      "aliasResolvedStatic": 18,
+      "sha256": "08c2e31f6ba90c57323d65f38c4ddedd043e5f020cfca369b34b51a654e3c4a7",
+      "tokenCount": 16,
+      "samplers": [
+        0,
+        2,
+        4
+      ],
+      "constants": [
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "style": 9,
+      "lowAlbedo": false,
+      "pass": "color",
+      "nativeCombined": 45,
+      "static": 9,
+      "aliasResolvedStatic": 9,
+      "sha256": "d6bcc641e71917517341f70d6c046ee4bf67599df6ecf771772cd9717732393f",
+      "tokenCount": 116,
+      "samplers": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        8
+      ],
+      "constants": [
+        {
+          "register": 0,
+          "name": "g_cCamo0_camo3r",
+          "count": 1
+        },
+        {
+          "register": 1,
+          "name": "g_cCamo1_camo3g",
+          "count": 1
+        },
+        {
+          "register": 2,
+          "name": "g_cCamo2_camo3b",
+          "count": 1
+        },
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "style": 9,
+      "lowAlbedo": false,
+      "pass": "exponent",
+      "nativeCombined": 95,
+      "static": 19,
+      "aliasResolvedStatic": 19,
+      "sha256": "b1e5cd25dd17aeb5999356819d6e7e700cdf1ab0cdb3f6afb4297273def098f1",
+      "tokenCount": 45,
+      "samplers": [
+        0,
+        1,
+        2,
+        4,
+        8
+      ],
+      "constants": [
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "style": 1,
+      "lowAlbedo": true,
+      "pass": "color",
+      "nativeCombined": 805,
+      "static": 161,
+      "aliasResolvedStatic": 1,
+      "sha256": "b4c85db4a5ce2c506baca54f6486c216f1714c0320aabc10bb1543bd4b67760a",
+      "tokenCount": 67,
+      "samplers": [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "constants": [
+        {
+          "register": 0,
+          "name": "g_cCamo0_camo3r",
+          "count": 1
+        },
+        {
+          "register": 1,
+          "name": "g_cCamo1_camo3g",
+          "count": 1
+        },
+        {
+          "register": 2,
+          "name": "g_cCamo2_camo3b",
+          "count": 1
+        },
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "style": 1,
+      "lowAlbedo": true,
+      "pass": "exponent",
+      "nativeCombined": 855,
+      "static": 171,
+      "aliasResolvedStatic": 11,
+      "sha256": "fddbe8ae2532a9182222914ce2cdf00bd4c34021a38f2fca2d1378fd7284fcc8",
+      "tokenCount": 22,
+      "samplers": [
+        0,
+        1,
+        2
+      ],
+      "constants": [
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "style": 2,
+      "lowAlbedo": true,
+      "pass": "color",
+      "nativeCombined": 810,
+      "static": 162,
+      "aliasResolvedStatic": 2,
+      "sha256": "d1a07e45c2d5a986ce42ceb7b300d3a5efadd02d79f99822f6f5fa3cd6d8b951",
+      "tokenCount": 87,
+      "samplers": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        8
+      ],
+      "constants": [
+        {
+          "register": 0,
+          "name": "g_cCamo0_camo3r",
+          "count": 1
+        },
+        {
+          "register": 1,
+          "name": "g_cCamo1_camo3g",
+          "count": 1
+        },
+        {
+          "register": 2,
+          "name": "g_cCamo2_camo3b",
+          "count": 1
+        },
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "style": 2,
+      "lowAlbedo": true,
+      "pass": "exponent",
+      "nativeCombined": 860,
+      "static": 172,
+      "aliasResolvedStatic": 12,
+      "sha256": "38afcd242605c5d8b2388d8eb7b2394141721c3cbcdf0fc905002bbaf70e4127",
+      "tokenCount": 42,
+      "samplers": [
+        0,
+        1,
+        2,
+        4,
+        8
+      ],
+      "constants": [
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "style": 3,
+      "lowAlbedo": true,
+      "pass": "color",
+      "nativeCombined": 815,
+      "static": 163,
+      "aliasResolvedStatic": 3,
+      "sha256": "abf2fe592c456890340b5a51bca270f89631382782ed7d49168b2781fa14fbde",
+      "tokenCount": 163,
+      "samplers": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "constants": [
+        {
+          "register": 0,
+          "name": "g_cCamo0_camo3r",
+          "count": 1
+        },
+        {
+          "register": 1,
+          "name": "g_cCamo1_camo3g",
+          "count": 1
+        },
+        {
+          "register": 2,
+          "name": "g_cCamo2_camo3b",
+          "count": 1
+        },
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        },
+        {
+          "register": 10,
+          "name": "g_patternTexCoordTransform",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "style": 3,
+      "lowAlbedo": true,
+      "pass": "exponent",
+      "nativeCombined": 865,
+      "static": 173,
+      "aliasResolvedStatic": 11,
+      "sha256": "fddbe8ae2532a9182222914ce2cdf00bd4c34021a38f2fca2d1378fd7284fcc8",
+      "tokenCount": 22,
+      "samplers": [
+        0,
+        1,
+        2
+      ],
+      "constants": [
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "style": 4,
+      "lowAlbedo": true,
+      "pass": "color",
+      "nativeCombined": 820,
+      "static": 164,
+      "aliasResolvedStatic": 164,
+      "sha256": "030b3b7d45c4dbd75576cbf66348172c091bea6d6a1ed988b1eb2ac2ed8705ea",
+      "tokenCount": 63,
+      "samplers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "constants": [
+        {
+          "register": 0,
+          "name": "g_cCamo0_camo3r",
+          "count": 1
+        },
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "style": 4,
+      "lowAlbedo": true,
+      "pass": "exponent",
+      "nativeCombined": 870,
+      "static": 174,
+      "aliasResolvedStatic": 14,
+      "sha256": "4aa03f66fa89b5e7b69c2e49c2bf233165ba521d374a67fad496a066f71420da",
+      "tokenCount": 26,
+      "samplers": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "constants": [
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "style": 5,
+      "lowAlbedo": true,
+      "pass": "color",
+      "nativeCombined": 825,
+      "static": 165,
+      "aliasResolvedStatic": 165,
+      "sha256": "241545d98a996dff21dcc75618af8bffa123f301a265d35bfa8aae77eb09ea94",
+      "tokenCount": 82,
+      "samplers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "constants": [
+        {
+          "register": 0,
+          "name": "g_cCamo0_camo3r",
+          "count": 1
+        },
+        {
+          "register": 1,
+          "name": "g_cCamo1_camo3g",
+          "count": 1
+        },
+        {
+          "register": 2,
+          "name": "g_cCamo2_camo3b",
+          "count": 1
+        },
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "style": 5,
+      "lowAlbedo": true,
+      "pass": "exponent",
+      "nativeCombined": 875,
+      "static": 175,
+      "aliasResolvedStatic": 15,
+      "sha256": "8c6f65d29fcc90cfd89475c34ffb1cc59b100504f3aca9528edc12d241fed1a7",
+      "tokenCount": 39,
+      "samplers": [
+        0,
+        1,
+        2,
+        4,
+        8
+      ],
+      "constants": [
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "style": 6,
+      "lowAlbedo": true,
+      "pass": "color",
+      "nativeCombined": 830,
+      "static": 166,
+      "aliasResolvedStatic": 166,
+      "sha256": "73dd43ad0ecb26cd1e21369ab7bb4b3c462640d16d907c43d246e139956b6728",
+      "tokenCount": 150,
+      "samplers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "constants": [
+        {
+          "register": 0,
+          "name": "g_cCamo0_camo3r",
+          "count": 1
+        },
+        {
+          "register": 1,
+          "name": "g_cCamo1_camo3g",
+          "count": 1
+        },
+        {
+          "register": 2,
+          "name": "g_cCamo2_camo3b",
+          "count": 1
+        },
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        },
+        {
+          "register": 10,
+          "name": "g_patternTexCoordTransform",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "style": 6,
+      "lowAlbedo": true,
+      "pass": "exponent",
+      "nativeCombined": 880,
+      "static": 176,
+      "aliasResolvedStatic": 14,
+      "sha256": "4aa03f66fa89b5e7b69c2e49c2bf233165ba521d374a67fad496a066f71420da",
+      "tokenCount": 26,
+      "samplers": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "constants": [
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "style": 7,
+      "lowAlbedo": true,
+      "pass": "color",
+      "nativeCombined": 835,
+      "static": 167,
+      "aliasResolvedStatic": 7,
+      "sha256": "fbd03afa4cc074434791bc3cd8078fea0c7d1933d7b7aa995cd7d7e538ee1ba3",
+      "tokenCount": 71,
+      "samplers": [
+        0,
+        1,
+        3,
+        5,
+        8
+      ],
+      "constants": [
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "style": 7,
+      "lowAlbedo": true,
+      "pass": "exponent",
+      "nativeCombined": 885,
+      "static": 177,
+      "aliasResolvedStatic": 17,
+      "sha256": "9fcf95e92c2694fdb89b80d3b5b6a64896b92bfd274b9df3f8d439e4a6fdeb21",
+      "tokenCount": 36,
+      "samplers": [
+        0,
+        1,
+        2,
+        8
+      ],
+      "constants": [
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "style": 8,
+      "lowAlbedo": true,
+      "pass": "color",
+      "nativeCombined": 840,
+      "static": 168,
+      "aliasResolvedStatic": 168,
+      "sha256": "c671a98f4f6305e3d08d5bd71cff09e512c337b592ecb3c8a593fbea35b74930",
+      "tokenCount": 83,
+      "samplers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "constants": [
+        {
+          "register": 0,
+          "name": "g_cCamo0_camo3r",
+          "count": 1
+        },
+        {
+          "register": 1,
+          "name": "g_cCamo1_camo3g",
+          "count": 1
+        },
+        {
+          "register": 2,
+          "name": "g_cCamo2_camo3b",
+          "count": 1
+        },
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "style": 8,
+      "lowAlbedo": true,
+      "pass": "exponent",
+      "nativeCombined": 890,
+      "static": 178,
+      "aliasResolvedStatic": 18,
+      "sha256": "08c2e31f6ba90c57323d65f38c4ddedd043e5f020cfca369b34b51a654e3c4a7",
+      "tokenCount": 16,
+      "samplers": [
+        0,
+        2,
+        4
+      ],
+      "constants": [
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "style": 9,
+      "lowAlbedo": true,
+      "pass": "color",
+      "nativeCombined": 845,
+      "static": 169,
+      "aliasResolvedStatic": 169,
+      "sha256": "c33e424e2d5f27589f90f267d5e6fd6a20770a78e6c0d761e82df1cc79a893fb",
+      "tokenCount": 121,
+      "samplers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "constants": [
+        {
+          "register": 0,
+          "name": "g_cCamo0_camo3r",
+          "count": 1
+        },
+        {
+          "register": 1,
+          "name": "g_cCamo1_camo3g",
+          "count": 1
+        },
+        {
+          "register": 2,
+          "name": "g_cCamo2_camo3b",
+          "count": 1
+        },
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "style": 9,
+      "lowAlbedo": true,
+      "pass": "exponent",
+      "nativeCombined": 895,
+      "static": 179,
+      "aliasResolvedStatic": 19,
+      "sha256": "b1e5cd25dd17aeb5999356819d6e7e700cdf1ab0cdb3f6afb4297273def098f1",
+      "tokenCount": 45,
+      "samplers": [
+        0,
+        1,
+        2,
+        4,
+        8
+      ],
+      "constants": [
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "patternMatrixCases": [
+    {
+      "matrixFirstTwoRows": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "commandWords": [
+        3,
+        10,
+        2
+      ],
+      "nativeC10C11": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "matrixFirstTwoRows": [
+        0.33,
+        -0.71,
+        0,
+        0.61,
+        0.71,
+        0.33,
+        0,
+        -0.23
+      ],
+      "commandWords": [
+        3,
+        10,
+        2
+      ],
+      "nativeC10C11": [
+        0.33000001311302185,
+        -0.7099999785423279,
+        0.0,
+        0.6100000143051147,
+        0.7099999785423279,
+        0.33000001311302185,
+        0.0,
+        -0.23000000417232513
+      ]
+    },
+    {
+      "matrixFirstTwoRows": [
+        -1.7,
+        0.42,
+        0,
+        4.1,
+        -0.42,
+        -1.7,
+        0,
+        -0.9
+      ],
+      "commandWords": [
+        3,
+        10,
+        2
+      ],
+      "nativeC10C11": [
+        -1.7000000476837158,
+        0.41999998688697815,
+        0.0,
+        4.099999904632568,
+        -0.41999998688697815,
+        -1.7000000476837158,
+        0.0,
+        -0.8999999761581421
+      ]
+    }
+  ],
+  "additionalSamplerBindings": [
+    {
+      "sampler": 4,
+      "nativeCommand": [
+        10,
+        4,
+        305419896
+      ],
+      "srgbRead": false
+    },
+    {
+      "sampler": 6,
+      "nativeCommand": [
+        10,
+        6,
+        305419896
+      ],
+      "srgbRead": false
+    },
+    {
+      "sampler": 7,
+      "nativeCommand": [
+        10,
+        7,
+        305419896
+      ],
+      "srgbRead": false
+    }
+  ],
+  "boundary": "Native non-preview selector executed; original VCS aliases and DX9 bytes extracted. Translation, GPU filtering and original-client output comparison remain distinct."
+}

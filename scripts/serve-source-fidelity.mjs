@@ -1,0 +1,15 @@
+import {build} from 'esbuild';
+import {mkdir,writeFile,readFile} from 'node:fs/promises';
+import {createServer} from 'node:http';
+import {resolve,extname,sep} from 'node:path';
+const out=resolve('output/fidelity-fixes-2026-09-13/preview');await mkdir(out,{recursive:true});
+await build({entryPoints:['scripts/preview-source-fidelity.ts'],bundle:true,format:'esm',platform:'browser',target:'es2022',outfile:out+'/preview.js'});
+await writeFile(out+'/index.html',`<!doctype html><html lang="zh-CN"><meta charset="UTF-8"><title>CSGO 修复验证</title><link rel="icon" href="data:,"><style>body{margin:0;background:#172027;color:#dde6e8;font:16px system-ui}h1,p,pre{margin:24px}canvas{width:100%;height:auto;display:block}pre{font-size:11px;white-space:pre-wrap}</style><h1>原投掷物修复 · 实际渲染</h1><p id="status">加载原包资源…</p><p>原模型、原纹理和原材质参数；此处为统一诊断光位，非原客户端截图。按实体真实尺寸排列。</p><canvas></canvas><details><summary>资源与 GPU 回读</summary><pre></pre></details><script type="module" src="/preview.js"></script></html>`);
+if(process.argv.includes('--build-only'))process.exit(0);
+const assets=resolve('public/source');
+const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.json':'application/json','.png':'image/png','.glb':'model/gltf-binary'};
+createServer(async(req,res)=>{try{const url=new URL(req.url,'http://127.0.0.1');const source=url.pathname.startsWith('/source/');const root=source?assets:out;
+ const path=resolve(root,decodeURIComponent(source?url.pathname.slice(8):url.pathname==='/'?'index.html':url.pathname.slice(1)));
+ if(!path.startsWith(root+sep)||req.method!=='GET')throw Error('Invalid preview path');
+ const bytes=await readFile(path);res.writeHead(200,{'Content-Type':mime[extname(path)]??'application/octet-stream','Cache-Control':'no-store'});res.end(bytes);
+}catch{res.writeHead(404);res.end('Preview resource unavailable');}}).listen(27031,'127.0.0.1',()=>console.log('Fidelity preview http://127.0.0.1:27031'));

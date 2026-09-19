@@ -1,0 +1,40 @@
+{
+  "path": ".reference-assets/workbench/workbench_materials.zip",
+  "sha256": "b6dfe90aca83ea32f1a4e3c5f488a6b1f3034440c52de65159a8c5c7aa05873e",
+  "download_bytes": 12675411,
+  "files": 76,
+  "uncompressed_bytes": 87559000,
+  "extensions": {
+    ".txt": 8,
+    ".obj": 34,
+    ".tga": 34
+  },
+  "m4": {
+    "OBJs/m4a4.obj": {
+      "v": 9570,
+      "vt": 11602,
+      "vn": 6601,
+      "f": 18154,
+      "materials": [],
+      "header": [
+        "# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware",
+        "# File Created: 16.10.2013 16:20:54",
+        "",
+        "#"
+      ]
+    },
+    "OBJs/m4a1_s.obj": {
+      "v": 12521,
+      "vt": 15200,
+      "vn": 16646,
+      "f": 17705,
+      "materials": [],
+      "header": [
+        "# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware",
+        "# File Created: 16.10.2013 16:21:31",
+        "",
+        "#"
+      ]
+    }
+  }
+}

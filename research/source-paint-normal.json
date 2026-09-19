@@ -1,0 +1,1326 @@
+{
+  "format": "source-paint-normal-native-v1",
+  "client": {
+    "file": ".reference-assets/csgo-legacy/csgo/bin/linux64/client_client.so",
+    "bytes": 35112006,
+    "sha256": "c47c64c38a066e02bdc006ac4db4fe6e9a318fdd896153accb7af9bd065b7fb5"
+  },
+  "entry": "0xf52710 virtual material clone; second argument esi -> r13d at 0xf52721",
+  "guard": "0xf528e9..0xf5291c; nonzero clone flag AND style 7/8/9 AND nonempty object+0x8b8 -> KeyValues::SetString($bumpmap,path)",
+  "cases": [
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 394,
+      "style": 8,
+      "cloneFlag": 0,
+      "normal": "workshop/AK47_CARTEL_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 394,
+      "style": 8,
+      "cloneFlag": 1,
+      "normal": "workshop/AK47_CARTEL_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/AK47_CARTEL_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 524,
+      "style": 9,
+      "cloneFlag": 0,
+      "normal": "workshop/ak47_supercharged_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 524,
+      "style": 9,
+      "cloneFlag": 1,
+      "normal": "workshop/ak47_supercharged_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/ak47_supercharged_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 707,
+      "style": 7,
+      "cloneFlag": 0,
+      "normal": "workshop/ak_neon_rider_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 707,
+      "style": 7,
+      "cloneFlag": 1,
+      "normal": "workshop/ak_neon_rider_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/ak_neon_rider_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 836,
+      "style": 7,
+      "cloneFlag": 0,
+      "normal": "workshop/ak47_aztec_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 836,
+      "style": 7,
+      "cloneFlag": 1,
+      "normal": "workshop/ak47_aztec_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/ak47_aztec_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 885,
+      "style": 9,
+      "cloneFlag": 0,
+      "normal": "workshop/ak47_nibbler_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 885,
+      "style": 9,
+      "cloneFlag": 1,
+      "normal": "workshop/ak47_nibbler_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/ak47_nibbler_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 921,
+      "style": 9,
+      "cloneFlag": 0,
+      "normal": "ak47_gold_arabesque_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 921,
+      "style": 9,
+      "cloneFlag": 1,
+      "normal": "ak47_gold_arabesque_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "ak47_gold_arabesque_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 941,
+      "style": 7,
+      "cloneFlag": 0,
+      "normal": "workshop/ak-47_phantom_disruptor_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 941,
+      "style": 7,
+      "cloneFlag": 1,
+      "normal": "workshop/ak-47_phantom_disruptor_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/ak-47_phantom_disruptor_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 959,
+      "style": 7,
+      "cloneFlag": 0,
+      "normal": "workshop/ak47_anubis_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 959,
+      "style": 7,
+      "cloneFlag": 1,
+      "normal": "workshop/ak47_anubis_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/ak47_anubis_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 1018,
+      "style": 7,
+      "cloneFlag": 0,
+      "normal": "jaguar_ak47_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 1018,
+      "style": 7,
+      "cloneFlag": 1,
+      "normal": "jaguar_ak47_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "jaguar_ak47_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 1035,
+      "style": 9,
+      "cloneFlag": 0,
+      "normal": "workshop/ak47_professional_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 1035,
+      "style": 9,
+      "cloneFlag": 1,
+      "normal": "workshop/ak47_professional_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/ak47_professional_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 1143,
+      "style": 7,
+      "cloneFlag": 0,
+      "normal": "workshop/ak47_cogthings_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 1143,
+      "style": 7,
+      "cloneFlag": 1,
+      "normal": "workshop/ak47_cogthings_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/ak47_cogthings_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 1238,
+      "style": 9,
+      "cloneFlag": 0,
+      "normal": "ak47_strone_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 1238,
+      "style": 9,
+      "cloneFlag": 1,
+      "normal": "ak47_strone_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "ak47_strone_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 512,
+      "style": 9,
+      "cloneFlag": 0,
+      "normal": "workshop/m4a4_royal_squire_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 512,
+      "style": 9,
+      "cloneFlag": 1,
+      "normal": "workshop/m4a4_royal_squire_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/m4a4_royal_squire_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 533,
+      "style": 9,
+      "cloneFlag": 0,
+      "normal": "workshop/m4a4_pioneer_n",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 533,
+      "style": 9,
+      "cloneFlag": 1,
+      "normal": "workshop/m4a4_pioneer_n",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/m4a4_pioneer_n"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 632,
+      "style": 9,
+      "cloneFlag": 0,
+      "normal": "workshop/m4a4_sector_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 632,
+      "style": 9,
+      "cloneFlag": 1,
+      "normal": "workshop/m4a4_sector_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/m4a4_sector_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 695,
+      "style": 7,
+      "cloneFlag": 0,
+      "normal": "workshop/m4a4_neo_noir_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 695,
+      "style": 7,
+      "cloneFlag": 1,
+      "normal": "workshop/m4a4_neo_noir_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/m4a4_neo_noir_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 811,
+      "style": 9,
+      "cloneFlag": 0,
+      "normal": "workshop/m4a4_chopper_ghost_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 811,
+      "style": 9,
+      "cloneFlag": 1,
+      "normal": "workshop/m4a4_chopper_ghost_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/m4a4_chopper_ghost_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 971,
+      "style": 7,
+      "cloneFlag": 0,
+      "normal": "workshop/m4a4_queenfairy_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 971,
+      "style": 7,
+      "cloneFlag": 1,
+      "normal": "workshop/m4a4_queenfairy_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/m4a4_queenfairy_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 985,
+      "style": 7,
+      "cloneFlag": 0,
+      "normal": "workshop/m4a4_cyberpunk_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 985,
+      "style": 7,
+      "cloneFlag": 1,
+      "normal": "workshop/m4a4_cyberpunk_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/m4a4_cyberpunk_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 1041,
+      "style": 7,
+      "cloneFlag": 0,
+      "normal": "workshop/m4a4_love_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 1041,
+      "style": 7,
+      "cloneFlag": 1,
+      "normal": "workshop/m4a4_love_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/m4a4_love_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 1063,
+      "style": 9,
+      "cloneFlag": 0,
+      "normal": "m4a4_coalition_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 1063,
+      "style": 9,
+      "cloneFlag": 1,
+      "normal": "m4a4_coalition_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "m4a4_coalition_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 1097,
+      "style": 9,
+      "cloneFlag": 0,
+      "normal": "workshop/m4_flowers_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 1097,
+      "style": 9,
+      "cloneFlag": 1,
+      "normal": "workshop/m4_flowers_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/m4_flowers_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 1149,
+      "style": 7,
+      "cloneFlag": 0,
+      "normal": "workshop/m4a4_elite_tactical_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 1149,
+      "style": 7,
+      "cloneFlag": 1,
+      "normal": "workshop/m4a4_elite_tactical_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/m4a4_elite_tactical_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 1228,
+      "style": 7,
+      "cloneFlag": 0,
+      "normal": "workshop/m4a4_temukau_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 1228,
+      "style": 7,
+      "cloneFlag": 1,
+      "normal": "workshop/m4a4_temukau_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/m4a4_temukau_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 1255,
+      "style": 9,
+      "cloneFlag": 0,
+      "normal": "m4a4_ra_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 1255,
+      "style": 9,
+      "cloneFlag": 1,
+      "normal": "m4a4_ra_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "m4a4_ra_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 495,
+      "style": 9,
+      "cloneFlag": 0,
+      "normal": "workshop/glock18_wrathys_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 495,
+      "style": 9,
+      "cloneFlag": 1,
+      "normal": "workshop/glock18_wrathys_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/glock18_wrathys_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 532,
+      "style": 9,
+      "cloneFlag": 0,
+      "normal": "workshop/glock18_award_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 532,
+      "style": 9,
+      "cloneFlag": 1,
+      "normal": "workshop/glock18_award_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/glock18_award_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 713,
+      "style": 9,
+      "cloneFlag": 0,
+      "normal": "workshop/glock_thunder_dust_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 713,
+      "style": 9,
+      "cloneFlag": 1,
+      "normal": "workshop/glock_thunder_dust_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/glock_thunder_dust_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 918,
+      "style": 7,
+      "cloneFlag": 0,
+      "normal": "workshop/glock_hero_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 918,
+      "style": 7,
+      "cloneFlag": 1,
+      "normal": "workshop/glock_hero_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/glock_hero_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 988,
+      "style": 7,
+      "cloneFlag": 0,
+      "normal": "workshop/glock_noir_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 988,
+      "style": 7,
+      "cloneFlag": 1,
+      "normal": "workshop/glock_noir_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/glock_noir_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1039,
+      "style": 9,
+      "cloneFlag": 0,
+      "normal": "workshop/glock_polymer_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1039,
+      "style": 9,
+      "cloneFlag": 1,
+      "normal": "workshop/glock_polymer_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/glock_polymer_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1100,
+      "style": 7,
+      "cloneFlag": 0,
+      "normal": "workshop/glock_snackattack_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1100,
+      "style": 7,
+      "cloneFlag": 1,
+      "normal": "workshop/glock_snackattack_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/glock_snackattack_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1158,
+      "style": 9,
+      "cloneFlag": 0,
+      "normal": "workshop/glock_elite_camo_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1158,
+      "style": 9,
+      "cloneFlag": 1,
+      "normal": "workshop/glock_elite_camo_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/glock_elite_camo_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1240,
+      "style": 7,
+      "cloneFlag": 0,
+      "normal": "glock_ramzes_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1240,
+      "style": 7,
+      "cloneFlag": 1,
+      "normal": "glock_ramzes_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "glock_ramzes_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 540,
+      "style": 9,
+      "cloneFlag": 0,
+      "normal": "workshop/usp_voltage_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 540,
+      "style": 9,
+      "cloneFlag": 1,
+      "normal": "workshop/usp_voltage_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/usp_voltage_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 1102,
+      "style": 7,
+      "cloneFlag": 0,
+      "normal": "workshop/usp_black_lotus_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 1102,
+      "style": 7,
+      "cloneFlag": 1,
+      "normal": "workshop/usp_black_lotus_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/usp_black_lotus_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 1142,
+      "style": 7,
+      "cloneFlag": 0,
+      "normal": "workshop/usp_printstream_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 1142,
+      "style": 7,
+      "cloneFlag": 1,
+      "normal": "workshop/usp_printstream_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/usp_printstream_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 1253,
+      "style": 9,
+      "cloneFlag": 0,
+      "normal": "usps_tactical_camo_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 1253,
+      "style": 9,
+      "cloneFlag": 1,
+      "normal": "usps_tactical_camo_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "usps_tactical_camo_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 397,
+      "style": 8,
+      "cloneFlag": 0,
+      "normal": "workshop/deagle_naga_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 397,
+      "style": 8,
+      "cloneFlag": 1,
+      "normal": "workshop/deagle_naga_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/deagle_naga_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 603,
+      "style": 8,
+      "cloneFlag": 0,
+      "normal": "workshop/de_constable_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 603,
+      "style": 8,
+      "cloneFlag": 1,
+      "normal": "workshop/de_constable_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/de_constable_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 711,
+      "style": 9,
+      "cloneFlag": 0,
+      "normal": "workshop/deagle_aggressor_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 711,
+      "style": 9,
+      "cloneFlag": 1,
+      "normal": "workshop/deagle_aggressor_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/deagle_aggressor_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 764,
+      "style": 9,
+      "cloneFlag": 0,
+      "normal": "deagle_fennec_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 764,
+      "style": 9,
+      "cloneFlag": 1,
+      "normal": "deagle_fennec_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "deagle_fennec_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 841,
+      "style": 9,
+      "cloneFlag": 0,
+      "normal": "workshop/deagle_exo_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 841,
+      "style": 9,
+      "cloneFlag": 1,
+      "normal": "workshop/deagle_exo_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/deagle_exo_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 945,
+      "style": 7,
+      "cloneFlag": 0,
+      "normal": "workshop/deagle_replica_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 945,
+      "style": 7,
+      "cloneFlag": 1,
+      "normal": "workshop/deagle_replica_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/deagle_replica_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 962,
+      "style": 7,
+      "cloneFlag": 0,
+      "normal": "workshop/deag_printstream_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 962,
+      "style": 7,
+      "cloneFlag": 1,
+      "normal": "workshop/deag_printstream_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/deag_printstream_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 1050,
+      "style": 7,
+      "cloneFlag": 0,
+      "normal": "workshop/deag_trigger_discipline_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 1050,
+      "style": 7,
+      "cloneFlag": 1,
+      "normal": "workshop/deag_trigger_discipline_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/deag_trigger_discipline_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 584,
+      "style": 9,
+      "cloneFlag": 0,
+      "normal": "workshop/awp-phobos_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 584,
+      "style": 9,
+      "cloneFlag": 1,
+      "normal": "workshop/awp-phobos_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/awp-phobos_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 736,
+      "style": 9,
+      "cloneFlag": 0,
+      "normal": "awp_enamel_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 736,
+      "style": 9,
+      "cloneFlag": 1,
+      "normal": "awp_enamel_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "awp_enamel_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 756,
+      "style": 9,
+      "cloneFlag": 0,
+      "normal": "awp_gungnir_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 756,
+      "style": 9,
+      "cloneFlag": 1,
+      "normal": "awp_gungnir_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "awp_gungnir_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 803,
+      "style": 7,
+      "cloneFlag": 0,
+      "normal": "workshop/awp_neonoir_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 803,
+      "style": 7,
+      "cloneFlag": 1,
+      "normal": "workshop/awp_neonoir_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/awp_neonoir_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 819,
+      "style": 9,
+      "cloneFlag": 0,
+      "normal": "awp_hydra_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 819,
+      "style": 9,
+      "cloneFlag": 1,
+      "normal": "awp_hydra_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "awp_hydra_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 887,
+      "style": 7,
+      "cloneFlag": 0,
+      "normal": "workshop/awp_virus_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 887,
+      "style": 7,
+      "cloneFlag": 1,
+      "normal": "workshop/awp_virus_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/awp_virus_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 917,
+      "style": 7,
+      "cloneFlag": 0,
+      "normal": "workshop/awp_wildfire_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 917,
+      "style": 7,
+      "cloneFlag": 1,
+      "normal": "workshop/awp_wildfire_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/awp_wildfire_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 975,
+      "style": 9,
+      "cloneFlag": 0,
+      "normal": "workshop/awp_exoskeleton_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 975,
+      "style": 9,
+      "cloneFlag": 1,
+      "normal": "workshop/awp_exoskeleton_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/awp_exoskeleton_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 1222,
+      "style": 9,
+      "cloneFlag": 0,
+      "normal": "workshop/awp_limbo_snake_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 1222,
+      "style": 9,
+      "cloneFlag": 1,
+      "normal": "workshop/awp_limbo_snake_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "workshop/awp_limbo_snake_normal"
+        }
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 1239,
+      "style": 9,
+      "cloneFlag": 0,
+      "normal": "awp_strone_normal",
+      "nativeSetString": []
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 1239,
+      "style": 9,
+      "cloneFlag": 1,
+      "normal": "awp_strone_normal",
+      "nativeSetString": [
+        {
+          "materialMatches": true,
+          "key": "$bumpmap",
+          "value": "awp_strone_normal"
+        }
+      ]
+    }
+  ],
+  "negativeControls": 3,
+  "weaponMaterials": {
+    "weapon_ak47": {
+      "path": "materials/models/weapons/v_models/rif_ak47/ak47.vmt",
+      "sha256": "dc01f61f77b650bf36a4115a9b5e2f2ebf1e4fcf7fb2c953c2fc5c28c04d0a30",
+      "bytes": 437,
+      "basemapAlphaPhongMask": 1,
+      "envmap": "env_cubemap",
+      "envmapFresnel": 1,
+      "envmapTint": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    "weapon_m4a1": {
+      "path": "materials/models/weapons/v_models/rif_m4a1/rif_m4a1.vmt",
+      "sha256": "7cbe8c9555593b927aa98b5c609196cb1a3eb27849e953e9c5223b970609df68",
+      "bytes": 452,
+      "basemapAlphaPhongMask": 1,
+      "envmap": "env_cubemap",
+      "envmapFresnel": 1,
+      "envmapTint": [
+        0.15,
+        0.15,
+        0.15
+      ]
+    },
+    "weapon_awp": {
+      "path": "materials/models/weapons/v_models/snip_awp/awp.vmt",
+      "sha256": "a8da3373f5baacc039f83a5f63e64a4bbcc7fc29b3e2d648aa0f3eac88b8fd83",
+      "bytes": 454,
+      "basemapAlphaPhongMask": 1,
+      "envmap": "env_cubemap",
+      "envmapFresnel": 1,
+      "envmapTint": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    "weapon_glock": {
+      "path": "materials/models/weapons/v_models/pist_glock18/pist_glock18.vmt",
+      "sha256": "15dad51c6ebd42404988f589c510d830e116e6b62cf13552e6ec676a764a7949",
+      "bytes": 472,
+      "basemapAlphaPhongMask": 1,
+      "envmap": "env_cubemap",
+      "envmapFresnel": 1,
+      "envmapTint": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "weapon_usp_silencer": {
+      "path": "materials/models/weapons/v_models/pist_223/pist_223.vmt",
+      "sha256": "644f6fab0ec8a61673670c5ab0be61bbc986c66f00cab6cbd372e8261d8129cb",
+      "bytes": 458,
+      "basemapAlphaPhongMask": 1,
+      "envmap": "env_cubemap",
+      "envmapFresnel": 1,
+      "envmapTint": [
+        0.2,
+        0.2,
+        0.2
+      ]
+    },
+    "weapon_deagle": {
+      "path": "materials/models/weapons/v_models/pist_deagle/pist_deagle.vmt",
+      "sha256": "ae88ee0beb230520bfa67bf41730dba2f699d6bee611f76600a2af0d374f0566",
+      "bytes": 478,
+      "basemapAlphaPhongMask": 1,
+      "envmap": "env_cubemap",
+      "envmapFresnel": 1,
+      "envmapTint": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  },
+  "boundary": "Original conditional and SetString arguments executed. Hook intercepts external KeyValues call. Native path formatting, actual client invocation and original rendered output are not emulated by this receipt."
+}

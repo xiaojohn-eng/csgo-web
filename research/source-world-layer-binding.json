@@ -1,0 +1,150 @@
+{
+  "sourceWorldSha256": "91b52e52b988e1b41b07b9cd365c159d615934fa49f07c3fa1e438d43269ffa8",
+  "scope": "CPU asset binding and shader injection; texture placeholders for original GLB, PNG header-only sidecars; no GPU/browser/frame-rate claim",
+  "displacements": 8324,
+  "matchedDisplacementVertices": 370750,
+  "nonzeroBlendVertices": 237531,
+  "maxGridPositionErrorSourceUnits": 0,
+  "vertices": 373369,
+  "environment": {
+    "installation": {
+      "appid": "740",
+      "name": "Counter-Strike Global Offensive - Dedicated Server",
+      "stateflags": "4",
+      "updateresult": "0",
+      "buildid": "12426148",
+      "installeddepots": {
+        "731": {
+          "manifest": "1224088799001669801",
+          "size": "32722411363"
+        },
+        "740": {
+          "manifest": "6998097922547485721",
+          "size": "1983335199"
+        }
+      },
+      "sizeondisk": "34705746562"
+    },
+    "manifestSha256": "66b82304a18cbb15707450eee259965b23a4813c19453edd190da0213c992bbd",
+    "sourceioCommit": "cfc2591d096628a35f570aa830ab75cc8665108b",
+    "blenderVersion": "5.2.1 LTS"
+  },
+  "attributeLayout": "float32 vertexAlpha, directionalLightmapPresent",
+  "alphaSource": "Original engine byte packing of BSP DISP_VERTS.alpha then UNORM8 normalization; grid ID from verified HDR UV and original positions",
+  "alphaPacking": {
+    "nativeUniqueValues": 27855,
+    "packedBytesSha256": "57d49e89012c31fcbd74501ae8dc3cee0890fc08bb86d2abc207536171f80b85",
+    "evidence": "tests/fixtures/source-world-alpha-native.json"
+  },
+  "textures": 91,
+  "unchanged": "Original world.glb and all original receipts; no geometry or UV edits",
+  "materials": 85,
+  "directionalAtlases": 3,
+  "inactiveAuthoredParameters": [
+    {
+      "source": "maps/de_dust2/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_02_wvt_patch",
+      "keys": [
+        "$blendtintbybasealpha"
+      ]
+    },
+    {
+      "source": "de_dust/hr_dust/hr_dust_blend_plaster01_rough01",
+      "keys": [
+        "$dropshadowopacity",
+        "$dropshadowscale",
+        "$dropshadowhighlightscale",
+        "$dropshadowdepthexaggeration"
+      ]
+    },
+    {
+      "source": "de_dust/hr_dust/hr_dust_blend_plaster01b_rough01",
+      "keys": [
+        "$dropshadowopacity",
+        "$dropshadowscale",
+        "$dropshadowhighlightscale",
+        "$dropshadowdepthexaggeration"
+      ]
+    },
+    {
+      "source": "de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_03",
+      "keys": [
+        "$blendtintbybasealpha"
+      ]
+    },
+    {
+      "source": "de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_02",
+      "keys": [
+        "$blendtintbybasealpha"
+      ]
+    },
+    {
+      "source": "de_dust/hr_dust/hr_dust_blend_plaster01b_rough01_bounce",
+      "keys": [
+        "$dropshadowopacity",
+        "$dropshadowscale",
+        "$dropshadowhighlightscale",
+        "$dropshadowdepthexaggeration"
+      ]
+    },
+    {
+      "source": "de_dust/hr_dust/hr_dust_blend_plaster01_rough01_bounce",
+      "keys": [
+        "$dropshadowopacity",
+        "$dropshadowscale",
+        "$dropshadowhighlightscale",
+        "$dropshadowdepthexaggeration"
+      ]
+    },
+    {
+      "source": "de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01",
+      "keys": [
+        "$blendtintbybasealpha"
+      ]
+    }
+  ],
+  "inactiveParameterEvidence": "tests/fixtures/source-world-layer-native.json: native shader registration, c26 command upload, NEWLAYER selectors and all valid dynamic programs",
+  "limitations": [
+    "Native zero-width blend-ramp NaN behavior is not claimed"
+  ],
+  "manifestSha256": "a7f8e617ca36cbbf30913f40ebef3c58af54ff45b131620799ab430758e779ba",
+  "checkedBytes": 119551025,
+  "decorated": 85,
+  "batch": {
+    "pvs": {
+      "sourceTriangles": 302202,
+      "submittedTriangles": 302202,
+      "indexBytesRetained": 3626424,
+      "changedGroups": 0,
+      "lastUpdateMs": 0.4035000000000082
+    },
+    "groups": 82,
+    "mergedMeshes": 82,
+    "sourceMeshes": 82,
+    "mergedTriangles": 302202,
+    "sourceTriangles": 302202,
+    "mergedVertices": 373174,
+    "vertexBytes": 19405048,
+    "indexBytes": 1813212,
+    "faceTextureSide": 99,
+    "faceCount": 9792,
+    "skipped": [
+      {
+        "mesh": "Dust2_world_faces_MESH_1",
+        "reason": "transparent material keeps per-object sort"
+      },
+      {
+        "mesh": "Dust2_world_faces_MESH_3",
+        "reason": "transparent material keeps per-object sort"
+      },
+      {
+        "mesh": "Dust2_world_faces_MESH_4",
+        "reason": "transparent material keeps per-object sort"
+      }
+    ]
+  },
+  "retainedLayerVertices": 373369,
+  "unchangedWorldTriangles": 302307,
+  "inspectedPNGs": 91,
+  "shaderCount": 85,
+  "closedPNGs": 91
+}

@@ -1,0 +1,33 @@
+{
+  "commit": "b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474",
+  "files": [
+    {
+      "source": "src/mathlib/color_conversion.cpp",
+      "url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/mathlib/color_conversion.cpp",
+      "file": ".reference-assets/shader-reference/color_conversion.cpp",
+      "sha256": "f70c7f0e14b59c4e1787b81c591d360faba01178ff8743648c48ea54b0242224",
+      "bytes": 21318
+    },
+    {
+      "source": "src/public/bspfile.h",
+      "url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/public/bspfile.h",
+      "file": ".reference-assets/shader-reference/bspfile.h",
+      "sha256": "4366e52f7f8b4a657dcb10e81d5a9239174629ca2959ec6e7479f10926230976",
+      "bytes": 32669
+    },
+    {
+      "source": "src/public/mathlib/mathlib.h",
+      "url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/public/mathlib/mathlib.h",
+      "file": ".reference-assets/shader-reference/mathlib.h",
+      "sha256": "0199cf33335b7ee5132d0d7ebe664593fb16e44ce2396e5a72bdd0f22edb96c0",
+      "bytes": 66542
+    },
+    {
+      "source": "src/utils/vrad/lightmap.cpp",
+      "url": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/utils/vrad/lightmap.cpp",
+      "file": ".reference-assets/shader-reference/lightmap.cpp",
+      "sha256": "cc67c6de01683fd03db3df9f8565fcdfc4c1a163cca3164b923bfc0420996173",
+      "bytes": 107202
+    }
+  ]
+}

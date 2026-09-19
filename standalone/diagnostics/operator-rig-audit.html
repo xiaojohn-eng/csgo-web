@@ -1,0 +1,26 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><link rel="icon" href="data:,"><title>BREACHLINE 角色骨骼诊断</title>
+<style>body{margin:0;background:#20242b;color:#eee;font:16px system-ui}canvas{display:block;width:100vw;height:100vh}aside{position:absolute;top:24px;left:28px;max-width:800px}h1{font-size:24px;margin:0 0 8px}p{color:#bdc5d0;margin:6px 0}footer{position:absolute;bottom:28px;left:20%;right:20%;display:flex;justify-content:space-between}</style>
+<canvas></canvas><aside><h1>v2 实际角色资源与动画代码 · 受控诊断</h1><p>相同模型、相同待机时间、相同地面高度。右侧只改变 crouch 状态。</p><p>这是诊断场景，不是游戏中的新地图或重构成品。</p></aside><footer><span>站立</span><span>当前蹲伏实现</span></footer>
+<script type="module">
+import * as T from 'three';
+import {GameAssets} from '../../game/assets.ts';
+const renderer = new T.WebGLRenderer({canvas:document.querySelector('canvas'),antialias:true});
+renderer.setSize(innerWidth,innerHeight);renderer.setPixelRatio(1);renderer.toneMapping=T.ACESFilmicToneMapping;
+renderer.shadowMap.enabled=true;
+const scene=new T.Scene();scene.background=new T.Color('#303a46');
+const camera=new T.PerspectiveCamera(38,innerWidth/innerHeight,.02,30);camera.position.set(.5,1.8,-4.9);camera.lookAt(0,.9,0);
+scene.add(new T.HemisphereLight(0xdce8ff,0x64705b,2));
+const light=new T.DirectionalLight(0xffffff,3);light.position.set(-3,6,-4);light.castShadow=true;light.shadow.mapSize.set(2048,2048);scene.add(light);
+const floor=new T.Mesh(new T.PlaneGeometry(10,10),new T.MeshStandardMaterial({color:0x59626c,roughness:.9}));floor.rotation.x=-Math.PI/2;floor.receiveShadow=true;scene.add(floor);
+scene.add(new T.GridHelper(10,20,0x98acb2,0x6c7883));
+const assets=new GameAssets();await assets.load();
+const samples=[];
+for (const [x,crouch] of [[.7,false],[-.7,true]]) {
+  const p={team:'blue',alive:true,grounded:true,vx:0,vz:0,yaw:0,pitch:0,crouch};
+  const actor=assets.operator(p);actor.position.x=x;scene.add(actor);assets.animateOperator(actor,p,.016);scene.updateMatrixWorld(true);
+  const feet=[];actor.traverse(o=>{if(o.isBone&&/Foot/.test(o.name))feet.push({name:o.name,y:o.getWorldPosition(new T.Vector3()).y});});
+  const body=actor.getObjectByName('OperatorBody'),gun=actor.getObjectByName('HeldWeapon');
+  samples.push({crouch,bodyY:body.position.y,feet,gunParent:gun.parent.name||'actor root'});
+}
+renderer.render(scene,camera);window.audit={ready:true,samples};
+</script></html>

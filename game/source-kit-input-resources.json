@@ -1,0 +1,5314 @@
+[
+  {
+    "weapon": "weapon_ak47",
+    "path": "inputs.json",
+    "bytes": 86733,
+    "sha256": "db9528c4b52d9026b464fcf8930290c0c88a7f8a178faf5344d852f56cb8d16c",
+    "rgba8Sha256": "",
+    "role": "receipt",
+    "sampler": -1,
+    "paintKitIds": [],
+    "width": 0,
+    "height": 0,
+    "vtfFlags": 0,
+    "sourceMaterial": "scripts/extract-source-kit-inputs.py"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/anodized_multi/bamboo_jungle.png",
+    "bytes": 601250,
+    "sha256": "941200d95106c47b6b09d699b2948767a59704ab025389e929f198186dbcf0dc",
+    "rgba8Sha256": "c276dac1446ea658d79f1c6ee8a401aa5a30131ff4975ed2c223f68ca1d3eb5d",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "456"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_multi/bamboo_jungle.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/antiqued/oiled.png",
+    "bytes": 488072,
+    "sha256": "000a90481ec5f9a700c75dc812f230d7085bd4edffd5eb11a8f63fe5f51e09de",
+    "rgba8Sha256": "4bdb1d78c9c10bae9dd0ddbbe62b95dd6415f56dafa2700ce4c8fa71acda914a",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "44"
+    ],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/antiqued/oiled.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/antiqued/workshop/ak47_cartel.png",
+    "bytes": 5739516,
+    "sha256": "db537915353b67d6510db99114cfbe8190ec9a323daf9822cba6e5935daf17dd",
+    "rgba8Sha256": "b1c43cc24d9b3479f78159859fb1f73c894e637e868c8bdca3903c07428d4680",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "394"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/antiqued/workshop/ak47_cartel.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/antiqued/workshop/ak47_cartel_normal.png",
+    "bytes": 389876,
+    "sha256": "0b3364e61314ccd763b0d5dbf913c0d83afd386da95064529df4a67f2242ab3a",
+    "rgba8Sha256": "d901878b3463b7b9a8610b10fc3fd4edf70cf414f935dc4f1acf6d86ce63dce5",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "394"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/antiqued/workshop/ak47_cartel_normal.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/custom/ak_island_floral.png",
+    "bytes": 5431458,
+    "sha256": "609329a7a6782ac380192242d9291f7b721d4c11fe1af9de759b513e5d1ab4bc",
+    "rgba8Sha256": "c28c1c20d55094dd328931e18c1f12116c58d694fdf8131bbacead556daea6de",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "724"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/ak_island_floral.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/custom/ak_xray.png",
+    "bytes": 1439163,
+    "sha256": "fb88e492ddd3694deef8a2eafaded5714b53d3f0bd6739f96762c0ce81d94802",
+    "rgba8Sha256": "effea47b035f9149e0fd6f238e3af4f565429836172db5255c6a86167e10da42",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1004"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 8208,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/ak_xray.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/custom/fireserpent_ak47.png",
+    "bytes": 1192673,
+    "sha256": "046bbc021a0d3f45697b714d048dfb3d24c5646399961db755aae9f70eac79ec",
+    "rgba8Sha256": "1e57a1e495c78ec83e98f595db3a86e72466253d4eaa9f6b6784f599ce90de72",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "180"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8208,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/fireserpent_ak47.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/custom/green_leather.png",
+    "bytes": 4154236,
+    "sha256": "e8586044d4e066b2f9e8ef936ada0355b805ac4539717f74d1244628744c3a30",
+    "rgba8Sha256": "0a427e13e5e585a58540a76703b192824e674c1058f53637dc4331055f2b399b",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "341"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8208,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/green_leather.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/custom/jaguar_ak47.png",
+    "bytes": 1351579,
+    "sha256": "401aa8d10ba7c913fe471372353ce3b010d84f14b8e06b343ff155824c7a225e",
+    "rgba8Sha256": "a5e5266dc067c056aa4e76162b03b00a34d48a63aa668d21f2df9a31a7b189b6",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1018"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 8208,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/jaguar_ak47.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/custom/jaguar_ak47_normal.png",
+    "bytes": 383778,
+    "sha256": "f9e564e62a74235d79442582c01ce2930c9707cb7ab7fa66aab43fbdefa1230b",
+    "rgba8Sha256": "476e721966235ae5ca8940b4cea521f93b4508a0901f6410c22275a85aeec6d0",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "1018"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 8336,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/jaguar_ak47_normal.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/custom/panther_ak47.png",
+    "bytes": 5274817,
+    "sha256": "ead636117d4b3dd45879bdd7b840480a586a217801643e19502052fd240d81e0",
+    "rgba8Sha256": "28688407400e3af1da4d5873eee3f19bef26d2ccf3e0fa95e2e7d6c7eb5f9b8c",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "316"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8208,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/panther_ak47.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/custom/pinstripe_ak47.png",
+    "bytes": 5491014,
+    "sha256": "bec7e6a6365e46bc517afb637789dcf0fe1e7fdfce372ca84d4e1b2b5d89e525",
+    "rgba8Sha256": "3d84f7e804d32cb7ab6996328c427a4c8fb8f20ef618f0cc26c6f0fb8cd9da29",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "300"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8208,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/pinstripe_ak47.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/custom/well_traveled.png",
+    "bytes": 4613639,
+    "sha256": "7e07a5c216f0860b53f948df114ed754e7129197738ef8509f0f9141ac9cf947",
+    "rgba8Sha256": "136b4ba45d2f77e876e37f5697b1f73d744385ba432590cf91739eea8376179e",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "340"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8208,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/well_traveled.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak-47_phantom_disruptor.png",
+    "bytes": 5527947,
+    "sha256": "71693431d708c0c812b5227084d0ecab6ba01a88a7cbc749c3edadf86c5edd04",
+    "rgba8Sha256": "b57e9109a6c5c56271df896205650a1e09aa6e25cec319d657d8f2838eb79e7b",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "941"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak-47_phantom_disruptor.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak-47_phantom_disruptor_normal.png",
+    "bytes": 2358755,
+    "sha256": "18acb0a9aefd64f200a68ffe2543a9d891c7c96fc5ba2fba1a33715694c7f3d7",
+    "rgba8Sha256": "c1aa836b57b888b454b19dd4f2003ead6fc696697e806c1816ab05d5e8fe936e",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "941"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak-47_phantom_disruptor_normal.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak47_anubis.png",
+    "bytes": 4969996,
+    "sha256": "2ec6bec772f250560e97adf0ebaa7908b0203dcc168f1af2ee38ed91e5dfead8",
+    "rgba8Sha256": "84abc9a675cc429973002700dd6a0b6455f4798ae2e3d20b17aade040bca912d",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "959"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak47_anubis.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak47_anubis_normal.png",
+    "bytes": 2314743,
+    "sha256": "7888413e6507d90b6333e4992e18cb8b7281e848149ba321579d21678af577c2",
+    "rgba8Sha256": "f250a9e05331f030798dce8999af7157baa30acb6b89b9b9a5fa6ccb82cc3fb3",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "959"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak47_anubis_normal.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak47_asiimov.png",
+    "bytes": 4238321,
+    "sha256": "f919f65637210f8af4c7005532e0491a834d4f7f23e434eba6d1c87a327722d2",
+    "rgba8Sha256": "7b0549e3792088b5649856ec2d20fff6250f77ba4ab1b83824f483089ce69e41",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "801"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak47_asiimov.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak47_aztec.png",
+    "bytes": 5069218,
+    "sha256": "f6ec4cc9b218fbf4a50a630d240454adbc875913ba492522a286f604d0e23d60",
+    "rgba8Sha256": "68248bcdb215092a65d06afe4eebad92bd80ee185e0e6972c50b56c48392b561",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "836"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak47_aztec.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak47_aztec_normal.png",
+    "bytes": 3355708,
+    "sha256": "4daead50c5732168f9daa6c741cf0cc6ac87f8d4fc73f19012c96554544f9e9f",
+    "rgba8Sha256": "ee6085318de86c9d22596b852e51091ed94fd9b7dc5d32696518b19b90bdbfba",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "836"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak47_aztec_normal.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak47_cogthings.png",
+    "bytes": 2628956,
+    "sha256": "757637cc212ebb918a54979d1dc3a3d59f55e6d0d7e700179fc495c0b2f6f262",
+    "rgba8Sha256": "772895ba51a25c1fd00e0f5243326ac5342527e9b488a6565d552ac0f8758c20",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1143"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak47_cogthings.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak47_cogthings_normal.png",
+    "bytes": 2661877,
+    "sha256": "24ada66ffef4f034d00015f630a0e8e964d4973adea583f1a1185b1e482e6e7a",
+    "rgba8Sha256": "55bef8eb42d2cdb727eb028ff923a40f845cc038b95188729cc7b8d0ee36aeae",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "1143"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak47_cogthings_normal.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak47_courage.png",
+    "bytes": 4939606,
+    "sha256": "865f45625c93dcf194d7c8522be0067eb8dc554b2bc848db978f61cca1a1c5a4",
+    "rgba8Sha256": "e372c2e7abe2d372fd50266073f8572080dc9bf52a4392b889c8a19c1b820633",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "474"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak47_courage.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak47_mastery.png",
+    "bytes": 2444228,
+    "sha256": "800283a0f50fd24244b6400db8fa53b095dbaa302b36f85cde94730b0ff00b95",
+    "rgba8Sha256": "339c5583e09100946de52e7232599fd853174295a15438056e45ce594653a253",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "422"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak47_mastery.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak47_nightwish.png",
+    "bytes": 6546845,
+    "sha256": "e7d35afeb319ddec71e7b2bde81715c75b8d6dbe080034187b498cceebe2c0fb",
+    "rgba8Sha256": "78f06c1eae7fd4d1883a63f2ebd201d9aa1448bbcbdc1e866204c4057f75871f",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1141"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak47_nightwish.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak47_point_disarray.png",
+    "bytes": 3685538,
+    "sha256": "15f62cc6507e8a1f4b2c934f44fbd4541193630e2447cd5253d2a43dd663381c",
+    "rgba8Sha256": "00bfdfff1ca1cca78f304c954966c49a490ae45d8370351b9484519cfc2badb4",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "506"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak47_point_disarray.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak47_winter_sport.png",
+    "bytes": 4775125,
+    "sha256": "25c1044ec19a1ef2a21212d2fb9f2fcbfbad0236a8439babf314f0355bc70e9e",
+    "rgba8Sha256": "a28494781f9e0aae1b79c5562e20fbb5dde7ba94eaecb2e3632fa4e8df688275",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "490"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak47_winter_sport.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak_head_shot_holo.png",
+    "bytes": 7483683,
+    "sha256": "6e080d2c63ff30347ba4e4cbf58a68fa310a3265ac71b9ab96cc789bacf41174",
+    "rgba8Sha256": "c267949aacefd92971ccc893f648fb595aae8fa44230e96434838f6384869c00",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1221"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak_head_shot_holo.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak_neon_rider.png",
+    "bytes": 2675522,
+    "sha256": "6682a1eb62139e7a7c3509fce90a5339087dcd8288a15fc6834bae998a9cef6e",
+    "rgba8Sha256": "5914c3e2645b6e1729411757c12b4ee90e91bb5e7ba0a727de0610e923a3a1f6",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "707"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak_neon_rider.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak_neon_rider_normal.png",
+    "bytes": 1220654,
+    "sha256": "dc237a57215a6935fc757301760e5bd868379c4fde2484a6560282d089571357",
+    "rgba8Sha256": "a48aae0d6d0359b6870f13022bd6279aec0881c3b29dbebabbb76e28936a083a",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "707"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak_neon_rider_normal.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/custom/workshop/anarchy_ak47.png",
+    "bytes": 7937173,
+    "sha256": "83244c41deb2f87942ce3a960e77b07fbff979b5d98142abe70ee2a9c7ce5f42",
+    "rgba8Sha256": "2eadc7e2cf6b9fc8784cbf7da5b7e2c5069687bd6ca57e21c952fb400f829d47",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "600"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/anarchy_ak47.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/custom/workshop/elegantredv1.1.png",
+    "bytes": 1094641,
+    "sha256": "bdf95c6fde648e7adbafbecb8d9409fa7e9cc3c81ed42f1e387a0919dc1213a0",
+    "rgba8Sha256": "080f38f28136956eccd05449dda4a82c78167c42e16fcff4b31a6e7001ed58ea",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "282"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/elegantredv1.1.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/custom/workshop/rubber_ak47.png",
+    "bytes": 4832057,
+    "sha256": "1e708143fab693b29bc9da0a820430b5974793b5574552a3296f4db2530388cb",
+    "rgba8Sha256": "c1b02e8178fab328497eba0084c71e4a43c6bcdb4bb13843afffe359a4105106",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "302"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/rubber_ak47.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/custom/workshop/tribute_ak47.png",
+    "bytes": 9266317,
+    "sha256": "f46088755d0b6545b2726a15de5b693c140ec01e09603500686e966ecdeb4a6a",
+    "rgba8Sha256": "7ced8b94288986d05eed5b8c98e63a494a20dd134b2ee0266dda8bcb21443b35",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "380"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/tribute_ak47.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/gunsmith/ak47_gold_arabesque.png",
+    "bytes": 4071911,
+    "sha256": "f62839b9cc29f47a36ccc33dbeec2f66acdfcfcf53061ce1214716483feaefc2",
+    "rgba8Sha256": "8411a3358adfc58d145a2af7bba3365b5b34590831b0febf1428a979aaf51327",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "921"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/ak47_gold_arabesque.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/gunsmith/ak47_gold_arabesque_normal.png",
+    "bytes": 954331,
+    "sha256": "6da81d0b3530e3044f85519c774bd2918592fe0e34af412167b7e385dd71239a",
+    "rgba8Sha256": "d6e7c80b98a62bd8819fa215e25e9403a5bcb0cc14ffdd995757e464e06b03bc",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "921"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/ak47_gold_arabesque_normal.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/gunsmith/ak47_strone.png",
+    "bytes": 6706650,
+    "sha256": "6709639de486126781c254db9272d548a6ea28d5e232b595ff8c01fc387c4cbf",
+    "rgba8Sha256": "1619ec60f50c9cd11083f9869c7e6e17835027238a5372200083c99bbd5133a1",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1238"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/ak47_strone.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/gunsmith/ak47_strone_normal.png",
+    "bytes": 3917649,
+    "sha256": "eeff3e2a5d6c0c58aba60043bb5d06e7eafb0facd83b61a7da5f6aa7b0a4cb18",
+    "rgba8Sha256": "be8ec213d57c13e4a291c4be73753a848dc67ac80126462ddf8d11829bd45c63",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "1238"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/ak47_strone_normal.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/ak47_abstract.png",
+    "bytes": 5049815,
+    "sha256": "8f79dcab8b5e6493955a1a96a721d685b59390ed23decd97447d7bd4b65663e9",
+    "rgba8Sha256": "c3290e651a3b9a4a66785da8c95778a8761af3cc8d42727f03d115ba4e0bd97d",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1087"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_abstract.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/ak47_bloodsport.png",
+    "bytes": 7244312,
+    "sha256": "78e2f70d78c621984b1ff973e6bfe57d2a2430adddca3802072cc1d83ae3b440",
+    "rgba8Sha256": "7d128e556a8d1b4c3f40b9b8f3b14128713300bc1afe91bfef5de4895f601604",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "639"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_bloodsport.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/ak47_empress.png",
+    "bytes": 4910603,
+    "sha256": "fe60dfb16ad9661a8d1f564fa5be7ae563339aee0d161ff2ea16233b23cd39cb",
+    "rgba8Sha256": "611c934a2b5d6824b263d9ff4ab3c6285e80427761b550cdd6cc7300ea543d51",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "675"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_empress.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/ak47_nibbler.png",
+    "bytes": 8235043,
+    "sha256": "6216b2c05c301b882329e8d5f6d07919a24fc0ae763d4a56dbdb8bffd26a5488",
+    "rgba8Sha256": "b601640842b9f11c0e7d25c5fb29dbb2e3a29ccb712fb3396a5b1a2834e23737",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "885"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_nibbler.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/ak47_nibbler_normal.png",
+    "bytes": 1814662,
+    "sha256": "65a581de485714bb5a7ebf6c16d23992036eb6bed848cede7ec59d7d6536054b",
+    "rgba8Sha256": "24b2e6428b9095542223481c899026803320c0f33a61e666366ce166252ad68e",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "885"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_nibbler_normal.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/ak47_professional.png",
+    "bytes": 7730086,
+    "sha256": "934977f3fced35b7f4561bec0a83ce272db3b572aeb834845cdef7505db49248",
+    "rgba8Sha256": "7288cdbda2fac34d7ec6c00aae70749e75d3ea5c20a61be3a441871ef51e6610",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1035"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_professional.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/ak47_professional_normal.png",
+    "bytes": 1853635,
+    "sha256": "8d5463338e06e4ea08700690bf899fc2ea85839eb6e92977a5cd49132ed58d50",
+    "rgba8Sha256": "ba8786f2c1bbcc2ccd19678c3c0f0facec0afb174d4f2bb3b70ff8d3bdac130c",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "1035"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_professional_normal.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/ak47_supercharged.png",
+    "bytes": 5207752,
+    "sha256": "afdd4a6df375965ce3fee17e14a232880e0aef290a2612d0ec523e1be0e16509",
+    "rgba8Sha256": "d64563d8199051d51c148e7b421a2e27b4b64142d0d0ab620550f6087b89d745",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "524"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_supercharged.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/ak47_supercharged_normal.png",
+    "bytes": 807574,
+    "sha256": "555bf63a15861624115c8b607a6bc679f8d4b2cc4c162a56dbb0bb04b1bc52be",
+    "rgba8Sha256": "25ea586e446d7a2168e3421dd1aa78b4a54b445ac02e1240e6a9ce1497151215",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "524"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 144,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/ak47_supercharged_normal.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/ak_colony01_red.png",
+    "bytes": 5750334,
+    "sha256": "312fc63e72619e3f6d96bd4e11b3005453a511014b78dba449fc5e6ea7feeff0",
+    "rgba8Sha256": "0aece9d39507ac0838c5f119ec2c3224c50861fc2af03a0de5302c7ab23e5bb5",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "656"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/ak_colony01_red.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/hydrographic/laminate_ak47.png",
+    "bytes": 1068810,
+    "sha256": "3dc7ee509675a7b7ad4c676220d3f003bd13c3a6b3647dc1ee2feca6940ab354",
+    "rgba8Sha256": "3764639b6195bde4df8a3edd41a410cb76593f8193d8497919e4e5f4e0687c5b",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "14",
+      "172",
+      "226",
+      "1070"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/hydrographic/laminate_ak47.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/hydrographic/mesh_fabric.png",
+    "bytes": 1630066,
+    "sha256": "6d849642618033854272e02e8977c56fc4741c71e1d1b223970f43bd6fb9596f",
+    "rgba8Sha256": "ed5caf0403a8bcfde6007c1910b947bbe33129c3b7ca4eb9cd820a5c66902f4c",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "795"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/hydrographic/mesh_fabric.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/hydrographic/veneto.png",
+    "bytes": 790280,
+    "sha256": "7d8d054bd6e6d9d114465e0496657441d2d954386a68d98bff81670248e278ea",
+    "rgba8Sha256": "ea9f1d80717d4f0e9740892f6ae10ec3dd4c3159453e0ab87831ebf0945033e6",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "745"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/hydrographic/veneto.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/spray/camo_daubs.png",
+    "bytes": 293726,
+    "sha256": "eb20ab868fc10bec1014a311865ac104d388b0ef90124facbaa1a4821c95e224",
+    "rgba8Sha256": "d954159dffc81bfea7a30dc930617045d71fefc98aed6eea8b1cf361bd39a808",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "122"
+    ],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 256,
+    "sourceMaterial": "materials/models/weapons/customization/paints/spray/camo_daubs.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/spray/chainlink.png",
+    "bytes": 268251,
+    "sha256": "d60f8fd247c01f2f3b939c326575aef21b5e5698f1576bfcfecc377ee3bbefc5",
+    "rgba8Sha256": "23c54357f1237cd2e03711069aac68424670dfac93a2f0d270f58eef48484511",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "72"
+    ],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 256,
+    "sourceMaterial": "materials/models/weapons/customization/paints/spray/chainlink.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/paints/spray/tiger.png",
+    "bytes": 597216,
+    "sha256": "2c6b1668d22e25c2ff9b70a3773b98cc9403c847e0d2c681dbb9ece70894ff24",
+    "rgba8Sha256": "0ced587610a249c68490e622f1602b9e3ac48ecc69eb438bdb50f27aa27a4dd1",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "170"
+    ],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/spray/tiger.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/rif_ak47/rif_ak47_ao.png",
+    "bytes": 1014580,
+    "sha256": "52ecf00f7be24db5823778e8715a458c469a0527f84980c787bf431fc116b9c2",
+    "rgba8Sha256": "a61f09a1654e67747830c3d9d8c1fb2d6984fe154294ad235810613942c1a533",
+    "role": "ao",
+    "sampler": 0,
+    "paintKitIds": [],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 8448,
+    "sourceMaterial": "materials/models/weapons/customization/rif_ak47/rif_ak47_ao.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/rif_ak47/rif_ak47_masks.png",
+    "bytes": 20898,
+    "sha256": "8a4d947e575c292cd744502d949bd4af93caed14ded9597d43421e8e0918f895",
+    "rgba8Sha256": "ae6601bd3dcac8ba0677581bf605acd6a74fcc0a302efd7ee1514823c6d27176",
+    "role": "mask",
+    "sampler": 4,
+    "paintKitIds": [],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 256,
+    "sourceMaterial": "materials/models/weapons/customization/rif_ak47/rif_ak47_masks.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/rif_ak47/rif_ak47_pos.png",
+    "bytes": 148552,
+    "sha256": "23600ebb299398c0e1af21bbc87388780fc5bb62248bec05637127e5caeb1fbe",
+    "rgba8Sha256": "735fbbf81e8bbed8eee74150c96cc0f677b9e027cf02612f106d3ad378883e66",
+    "role": "osPos",
+    "sampler": 7,
+    "paintKitIds": [],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 8448,
+    "sourceMaterial": "materials/models/weapons/customization/rif_ak47/rif_ak47_pos.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/rif_ak47/rif_ak47_surface.png",
+    "bytes": 46626,
+    "sha256": "752228fc4fcd5f88322c08df1c6cd84301eb9cb3a0dc3c1a37a5aaf51de574d8",
+    "rgba8Sha256": "dd6bca37570be66f875c04e2b8b402535f8d40401ce65d88abd38395236ff2dd",
+    "role": "surface",
+    "sampler": 6,
+    "paintKitIds": [],
+    "width": 256,
+    "height": 256,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/rif_ak47/rif_ak47_surface.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/shared/gun_grunge.png",
+    "bytes": 3655658,
+    "sha256": "36204a3bb3a4d710546fa70b3806edf836db5b178b0b55126ab566db81b165e7",
+    "rgba8Sha256": "4bf5bc5f311d0cd805b5118b8e48521c50b08afa7bc109c1ce7cafbaf134c8f8",
+    "role": "gunGrunge",
+    "sampler": 5,
+    "paintKitIds": [],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/shared/gun_grunge.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/shared/paint_wear.png",
+    "bytes": 6308473,
+    "sha256": "208155fd76beb355aaf8243143be2ad2c2460972d9cae19b633c2fde36689fb6",
+    "rgba8Sha256": "f092fb434b6d18fb5638408e97aad355a38e3ecca17fb35f542585f62823516d",
+    "role": "paintWear",
+    "sampler": 1,
+    "paintKitIds": [],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/shared/paint_wear.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/customization/uvs/weapon_ak47.png",
+    "bytes": 352317,
+    "sha256": "53fc21784b1df4f4a6a83a46c3eb63b3dd9bc0caf074df15f2c604be5cc2db88",
+    "rgba8Sha256": "ddd3ea376d4014e6d0fd46c82fdef822938b1897dae2dae94982501533e29ded",
+    "role": "uv",
+    "sampler": -1,
+    "paintKitIds": [],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/uvs/weapon_ak47.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/v_models/rif_ak47/ak47.png",
+    "bytes": 7687476,
+    "sha256": "99c883ac4d9c4a772f3d582d65529a0316d469acdf170ce073a8c1c309b5aee6",
+    "rgba8Sha256": "c88c2cdcc5e7ef04e048d2e9780bbd49f0f76e1e2813d8471f81f8e908006666",
+    "role": "weaponAlbedo",
+    "sampler": 3,
+    "paintKitIds": [],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8208,
+    "sourceMaterial": "materials/models/weapons/v_models/rif_ak47/ak47.vtf"
+  },
+  {
+    "weapon": "weapon_ak47",
+    "path": "png/models/weapons/v_models/rif_ak47/ak47_exponent.png",
+    "bytes": 183069,
+    "sha256": "77dd8ef04bf195e2e3046cbc912e2a705b3a2595129d902dab2692ed8787d5df",
+    "rgba8Sha256": "e876f9b2e0d6f25d348c93586f9c1d11e7a97d4c52336e2fe869801c00fdf3d1",
+    "role": "weaponExponent",
+    "sampler": 2,
+    "paintKitIds": [],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 16,
+    "sourceMaterial": "materials/models/weapons/v_models/rif_ak47/ak47_exponent.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "inputs.json",
+    "bytes": 78586,
+    "sha256": "b7324971e59e6ed1a8270cde651dff6a6ab436261a4af82e00ad9ab65bf2c569",
+    "rgba8Sha256": "",
+    "role": "receipt",
+    "sampler": -1,
+    "paintKitIds": [],
+    "width": 0,
+    "height": 0,
+    "vtfFlags": 0,
+    "sourceMaterial": "scripts/extract-source-kit-inputs.py"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/anodized_air/fade.png",
+    "bytes": 47797,
+    "sha256": "92621ebd9d99e7ed164a68cd0d9bf0e2a49bc51926b94779e2319cb717d0f6e4",
+    "rgba8Sha256": "b6007c8b04b5bd2ff91ca4932a9cbb0840bdd310b6ddc9b2ee0fe8bf1eefc327",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1026"
+    ],
+    "width": 256,
+    "height": 256,
+    "vtfFlags": 12,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_air/fade.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/anodized_multi/crumple.png",
+    "bytes": 234346,
+    "sha256": "20a9b44856a2c738038d17ec4cad12c807e5ed2f22388c62c5f93433fa227a5a",
+    "rgba8Sha256": "9634e2c6d26bc80838cf0ebc7f947bfa0073f9f3054cbaddd8a274a9f4034be0",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "212"
+    ],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_multi/crumple.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/anodized_multi/lightning_strike.png",
+    "bytes": 626709,
+    "sha256": "4ac277a7af6e7c3e93165aceb26cefc67bf33a599bc6e365fff4b049067deaac",
+    "rgba8Sha256": "41ca28f6427c36002095f3ca98594bf46c0cc574ac59df59432ef6d9c924cc09",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "51"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_multi/lightning_strike.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/anodized_multi/tigers.png",
+    "bytes": 1353584,
+    "sha256": "ec453fc81754d6e3b19ed6b7c3d5506dc87a4fa038b9b1a3edc037685646bf0d",
+    "rgba8Sha256": "50dfe9e59f96ccaa39bfb32dc276df1282fec040cb9e759a2da7791bf4a0d433",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1029"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_multi/tigers.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/anodized_multi/workshop/awp_pawpaw.png",
+    "bytes": 1935823,
+    "sha256": "00e83c2405a55f11ac4dd2590fd06681a81959882f172e7e86b3a20d5ae4d16e",
+    "rgba8Sha256": "cbac6fe6e2ee3d2f7a80f79e3dc9d95cab9da39b4a2187b6e942d985f733998d",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "718"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_multi/workshop/awp_pawpaw.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/anodized_multi/workshop/glory_awp.png",
+    "bytes": 3790988,
+    "sha256": "3f3f3251a1e335d7019e37516ebe03960bce351fd1ede5da400916afa9e45788",
+    "rgba8Sha256": "4b6621eaccee1236820bd08b82c8f648f837d33be4311b80dfbb89f5d6d3afdd",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "395"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_multi/workshop/glory_awp.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/antiqued/medusa_awp.png",
+    "bytes": 1004912,
+    "sha256": "ec0faa3be1756f7ad0852fdafc2d20d58d747f4501c71b9c200f2a027a24fad1",
+    "rgba8Sha256": "3fdaa5dbd8b634e56481f14c81e010ffdf60169b5eb93dee3087ddf16f82032e",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "446"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/antiqued/medusa_awp.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/antiqued/workshop/awp_twine.png",
+    "bytes": 8446233,
+    "sha256": "6672da32a416fda5c4a79a72c10b58a307a70b1c0775b2ee899feb0de28fb42d",
+    "rgba8Sha256": "03db4ccec3202ac764d27a0d3c2a77e0349549cd1ab767e1ebfe96ce89532538",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "424"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/antiqued/workshop/awp_twine.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/custom/dragon_awp.png",
+    "bytes": 3691593,
+    "sha256": "ac4297bd96a4a770cfefed6037dd15419ced7b9a4870acdf35b970fc7e057c7e",
+    "rgba8Sha256": "79e76670c5e3ef4369252496da54595f47de2079ef9befa1290ef452248eb2ac",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "344"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8208,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/dragon_awp.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/custom/favela_awp.png",
+    "bytes": 325073,
+    "sha256": "1f78749f2e6b81e65f93189b4831db4862b48f2eee8a61ed276eb569669a714f",
+    "rgba8Sha256": "0f569ace7b8e0808c03c9078443120fa327397a06618c56e00da3097922116bd",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "181"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 28,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/favela_awp.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/custom/workshop/awp_chroma_pink.png",
+    "bytes": 6119330,
+    "sha256": "d08a28fffabc05e5372fc779905f9ecb73d52849374c519f4efa8e4cd8184d9d",
+    "rgba8Sha256": "05ca59f9191987c5f212167f90c2a21feb1041ae22ecc355dde6d405072dba7f",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1144"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/awp_chroma_pink.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/custom/workshop/awp_hannya.png",
+    "bytes": 1664005,
+    "sha256": "1418035e217c3a68ddcf03d28cf3ea88089dc9b359f60614df9e99f8172fe825",
+    "rgba8Sha256": "aa6cd24283786c01a7d3301a3377c1d8f70cdc8fa8a9fc6ab69983ec82ea7e58",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "662"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/awp_hannya.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/custom/workshop/awp_hyper_beast.png",
+    "bytes": 2823415,
+    "sha256": "778bf50b6554a24f39c8550351bdabe8865e51bf1a4cb22d9b9bb5ad3daf24c3",
+    "rgba8Sha256": "ba00e09beec4da7daebb2e38e454d5f729ecb7223726005d5bd6d898700a305b",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "475"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/awp_hyper_beast.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/custom/workshop/awp_mastery.png",
+    "bytes": 1951568,
+    "sha256": "8a557d4f7b2872b516c1e9d4bf251d7a2ee93dcf027d5e756b437036b3b06626",
+    "rgba8Sha256": "36504a719a90575bc7d0a631c184f5bec6f93b3c1d3be71561a890f1f120458e",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "525"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/awp_mastery.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/custom/workshop/awp_neonoir.png",
+    "bytes": 3564559,
+    "sha256": "5d05751fc8c8f02d45347fa819043c82becd39cc03dc1e8576681db397bd6e3f",
+    "rgba8Sha256": "7ec51f8f8f41632333bbf53b377061e24113d14868b73a8d9034a65f77bf86fa",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "803"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/awp_neonoir.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/custom/workshop/awp_neonoir_normal.png",
+    "bytes": 1951369,
+    "sha256": "19396facc2be8e1db41d37b003ed909215560d61250f0d6809e210445b052a6b",
+    "rgba8Sha256": "48af09c9dc7a7e3a9c4b36b48997aba5d56c448d4e0b1ea3ff3bf0ddd92f767d",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "803"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/awp_neonoir_normal.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/custom/workshop/awp_psychopath.png",
+    "bytes": 1639074,
+    "sha256": "9792b77933e47acf0b95d4c24c977e7fe476acaa01128ffa6a99ae30c3d38b1c",
+    "rgba8Sha256": "75843cf253fe156d11691829b01faf145c43d1fca50f697d33e5a9b772fa45a0",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "640"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/awp_psychopath.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/custom/workshop/awp_vein.png",
+    "bytes": 5341765,
+    "sha256": "01bf216519c98e25ae7f118bac8b2e86d22e9b6e6656adbb94124b158d95c7ad",
+    "rgba8Sha256": "dbb708cf70a1512c2b6ebf3f466875ee01be6ede2e5d7b8b79931c492f4dc541",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "943"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/awp_vein.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/custom/workshop/awp_viper.png",
+    "bytes": 3348809,
+    "sha256": "6fc375f52fc2fad0d281b77236fe019df8616c52d5de08275eb7ba8e6a2fa7de",
+    "rgba8Sha256": "4d845b5c116602f74e0ec0364c96799a35aa1d930989c286f963bf223f173baa",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "838"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/awp_viper.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/custom/workshop/awp_virus.png",
+    "bytes": 4327012,
+    "sha256": "c370ab4540b20171cdb4ce429157fdb82816a17e1ad1c15eeee8e7adb5bea0f8",
+    "rgba8Sha256": "b6b87efc71d50b8e85a4350de9981c77b04ea481b931632eeb22ed34f7882d14",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "887"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/awp_virus.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/custom/workshop/awp_virus_normal.png",
+    "bytes": 602953,
+    "sha256": "6fd89c17ae768d736db6bdb370b5ad2ea101a257b1bf2eec5d0c9a51f4fb6ef7",
+    "rgba8Sha256": "52e6a6b3af6f6f2402c7ccd3040cf6054065e9c28200626e964573ed50749267",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "887"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/awp_virus_normal.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/custom/workshop/awp_wildfire.png",
+    "bytes": 4538328,
+    "sha256": "49f644b7a3c58a5481e181176d977407af752b8ea99662ff15a8e86a563fb0f6",
+    "rgba8Sha256": "760c67f717eb4e6530c244e82847fd362d78354f45484d27caa68c46902608f4",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "917"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/awp_wildfire.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/custom/workshop/awp_wildfire_normal.png",
+    "bytes": 3261916,
+    "sha256": "e48d4e7ae7cf243c356d4ad078d3563940d0e589bc69d053608b88e561990d23",
+    "rgba8Sha256": "544d254283959fc1a3abaf50f7a9be730e976dc4c8cd8e3fff3e5d6e62ef1902",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "917"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/awp_wildfire_normal.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/custom/workshop/elegantredawpend.png",
+    "bytes": 1405002,
+    "sha256": "9ad8df3e155f70c87de86fef24a126481139d3acd87c23d5d4de214b6e946c84",
+    "rgba8Sha256": "81114518b7a374c4448b621c69517293ff95d9be0685b8fb3634e4cd5a97f5eb",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "259"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/elegantredawpend.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/custom/workshop/zone9_awp.png",
+    "bytes": 4115952,
+    "sha256": "f11382a6c615833392f73fe14933eb48310acbfc4081288bc9f50c10f6bb5eaf",
+    "rgba8Sha256": "2f3a09b73c73f8835ed57a8b9a5b4a463030a44276c65bf254b2557aa13736c8",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "279"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/zone9_awp.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/gunsmith/awp_enamel.png",
+    "bytes": 3708579,
+    "sha256": "17032573ea156fe5384595ac4917e1dc67ba272c84f7fe3667d82afd19c5020f",
+    "rgba8Sha256": "e5841e07b5af585fa1e7da82a3b3859beca4487cc6cb5be74afec9a88c0b4c20",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "736"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/awp_enamel.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/gunsmith/awp_enamel_normal.png",
+    "bytes": 936906,
+    "sha256": "c97e16a2712bf150533dcb38164d1bb4a9bab2f327e440da08bf5685e1cb65f1",
+    "rgba8Sha256": "10960bfb11088f3c7dc36fdaa13a8a086841e6a3f8c452f10beecb7174ecc780",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "736"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/awp_enamel_normal.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/gunsmith/awp_gungnir.png",
+    "bytes": 5090312,
+    "sha256": "b7ba4be56050920af2b544411e3974af8534d787133439e7f7216c5b74f640b5",
+    "rgba8Sha256": "1c2dde4d456908ab22059192c06b3096ad3c48887a2287052dd57310aa94551d",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "756"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/awp_gungnir.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/gunsmith/awp_gungnir_normal.png",
+    "bytes": 2219482,
+    "sha256": "c5f9134d93a6bc7f1a60399e9f56159d4bc0032e6b5847b623228289c9c89d82",
+    "rgba8Sha256": "b2313506fac7121c224cb33a708e6ae044042ee19ab58806172912fb228a2d39",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "756"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/awp_gungnir_normal.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/gunsmith/awp_hydra.png",
+    "bytes": 5243101,
+    "sha256": "033482743e6afec92e3011a431394420cd7998ad3801aa20accbb62f8a63d09e",
+    "rgba8Sha256": "2a1682a19991b0f35babfd58474f6c3e93a86b22ba9f26988366d79c2d24da66",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "819"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/awp_hydra.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/gunsmith/awp_hydra_normal.png",
+    "bytes": 1471420,
+    "sha256": "f3c82a8be95f0c34669f96876189a66c928baa77ae7ba550db87785cb4028b89",
+    "rgba8Sha256": "4abbeae01b94ec3b90168b87cd1650610afe0fa3844d34bf9697cb88780e591e",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "819"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/awp_hydra_normal.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/gunsmith/awp_strone.png",
+    "bytes": 4749711,
+    "sha256": "d4193dba239cfaccea3a1958b8091b1ac65f1726cb0a255de15f4bba29646ac6",
+    "rgba8Sha256": "ed42e44bab26ad97f1136350143b498cef43604ee0ac9d65a8b73f5bbaac4a6b",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1239"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/awp_strone.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/gunsmith/awp_strone_normal.png",
+    "bytes": 4631022,
+    "sha256": "e92a4abcdb75d76a1635df7e8ef183c968da453d86b985390bf97bff7a86ef7b",
+    "rgba8Sha256": "ddd459dd1afb6a51beb533be36646ff64cf3b622b26c6e225eb3d73eb3217d58",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "1239"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/awp_strone_normal.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/awp-phobos.png",
+    "bytes": 5431456,
+    "sha256": "dba7d4e315efbc62ea056ff5283b3d73f1b36fa0e5e87118cc795c7c13097846",
+    "rgba8Sha256": "43a0ea8c69d0a796244c4f6660d41698b36a58a639bc90bf60696386dd564ebb",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "584"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/awp-phobos.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/awp-phobos_normal.png",
+    "bytes": 1442852,
+    "sha256": "b53ff3877b7c383a24fa674f4010b7533209b32dba1e12fb3bab6587d6e65df6",
+    "rgba8Sha256": "ca1f9df3f5c64109ff6c92946bb2a4a1ed36b5f8a50d10d87d583864e67f960d",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "584"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/awp-phobos_normal.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/awp_death.png",
+    "bytes": 1890631,
+    "sha256": "78d25b9e3b8ccbdfb184a158f7f212315a6abbbbd4ee9387713f09393a617ea9",
+    "rgba8Sha256": "c541f59235b3624c80b74c538b1c28a3141902baf1060d011db67ba86adb58c7",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "691"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/awp_death.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/awp_exoskeleton.png",
+    "bytes": 5288713,
+    "sha256": "5887fbc40cfc0c48faaeaf037f56a4a8df0aa0785583039cf57078732ccf7266",
+    "rgba8Sha256": "b7aecc634ddc6b0ddfeefbed2bc8d576668ca85fcae2ea49449a9330fac4deeb",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "975"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/awp_exoskeleton.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/awp_exoskeleton_normal.png",
+    "bytes": 3117042,
+    "sha256": "a69d13eba41ce3b69fb3ea76f1bc81b74f14f0aff958baf187aeab6b3a0e5e50",
+    "rgba8Sha256": "ec2b4cbc39a00a5aa698490c3f37eb44b0a943129984fe40244b0351eac5beaf",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "975"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/awp_exoskeleton_normal.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/awp_limbo_snake.png",
+    "bytes": 6260330,
+    "sha256": "fce9b475098487de515e934218bc01e743be44570a4aca963624e6462913079d",
+    "rgba8Sha256": "c6bcb7a1a4fa652e2140ac9178cc263ed0e53691f3472232c66891e7868308a1",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1222"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/awp_limbo_snake.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/awp_limbo_snake_normal.png",
+    "bytes": 3356517,
+    "sha256": "7f7594ec88dabb68fcda2e0dd3a3dfcf2f87190a8e5aa7ed7b3ee2dfeed4d92a",
+    "rgba8Sha256": "533b132be99637a2211416973dfb6cb6f8741983e96609974f9a4d715d2db3dd",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "1222"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/awp_limbo_snake_normal.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/hydrographic/blam.png",
+    "bytes": 202272,
+    "sha256": "71ce6854ccab5b03d6548929a41b446bd1f85dc2d214026d4ff47221ecf0a6c7",
+    "rgba8Sha256": "1031daacf657a76458eb1c26a71bed66b0db12eae605e50b17d983bfc5c311b4",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "174"
+    ],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/hydrographic/blam.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/hydrographic/ddpat.png",
+    "bytes": 24599,
+    "sha256": "75d62d8427051b556c4109f8034b1674f0e617b88f4139e301d8eb6bd62b99b1",
+    "rgba8Sha256": "11a7b1e4bed0e6d0a2d8fe4054695e580c3540901d46d8184c28c445a0b6319e",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "84"
+    ],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 1,
+    "sourceMaterial": "materials/models/weapons/customization/paints/hydrographic/ddpat.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/hydrographic/hive.png",
+    "bytes": 764815,
+    "sha256": "cc4a86f7f6bfa3ca550a62b3f1b989dc6e93182c62a0b540648aed4e71a17ed2",
+    "rgba8Sha256": "c2092950b03e66f04e63f334918bf7e61e7559ee223c8b70b65a06829b3a7798",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "227"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 16,
+    "sourceMaterial": "materials/models/weapons/customization/paints/hydrographic/hive.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/hydrographic/nuclear_skulls_02.png",
+    "bytes": 4835560,
+    "sha256": "7ff69d01ff439c18baa6ee84ab7d07582cb37b30065065f31f0ae39cc4295b14",
+    "rgba8Sha256": "3f8205528d7beb95d87a53216fa4d8c3a76476a1a84ccb96910f56df1c3d5f0a",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "788"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 768,
+    "sourceMaterial": "materials/models/weapons/customization/paints/hydrographic/nuclear_skulls_02.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/hydrographic/snakeskin.png",
+    "bytes": 1749856,
+    "sha256": "6b96b6bd1d0912b1d683ece945d7656718200e8a04f2e01bb530574a9fe3d822",
+    "rgba8Sha256": "067a0e8ea0786dfe67bdebc36b548e3ebcce8e730a05b2e770d7602f4537a7c5",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "251"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/hydrographic/snakeskin.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/hydrographic/technowar.png",
+    "bytes": 194989,
+    "sha256": "af3ced0b85c429ddcd46e68679589d80eae82d4d272277b13693538b38c17c36",
+    "rgba8Sha256": "4ee467da3e7c79ab20a04785318921c69f6e3bc8135a254515fecd05386c26b5",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1058"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/hydrographic/technowar.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/hydrographic/zodiac.png",
+    "bytes": 975368,
+    "sha256": "318ac14e7f41fa7aa90d77ab85862ce20def3dde7edcc8eaa9366b6cef17b3ae",
+    "rgba8Sha256": "eca57fc901626767c80dfa90c98f0bf7f0ae88689f7d1810dfb26d1b6f018a45",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "451"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/hydrographic/zodiac.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/spray/chainlink.png",
+    "bytes": 268251,
+    "sha256": "d60f8fd247c01f2f3b939c326575aef21b5e5698f1576bfcfecc377ee3bbefc5",
+    "rgba8Sha256": "23c54357f1237cd2e03711069aac68424670dfac93a2f0d270f58eef48484511",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "72"
+    ],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 256,
+    "sourceMaterial": "materials/models/weapons/customization/paints/spray/chainlink.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/paints/spray/snake.png",
+    "bytes": 188694,
+    "sha256": "fb870e14fc21579c3eb88f02accb4367cdc69b5ae52c567546af75ebedbfb952",
+    "rgba8Sha256": "0ae36d3b248bd71cd803b69b087159df14952158ebd735df7485f4933d9657b5",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "30"
+    ],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/spray/snake.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/shared/gun_grunge.png",
+    "bytes": 3655658,
+    "sha256": "36204a3bb3a4d710546fa70b3806edf836db5b178b0b55126ab566db81b165e7",
+    "rgba8Sha256": "4bf5bc5f311d0cd805b5118b8e48521c50b08afa7bc109c1ce7cafbaf134c8f8",
+    "role": "gunGrunge",
+    "sampler": 5,
+    "paintKitIds": [],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/shared/gun_grunge.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/shared/paint_wear.png",
+    "bytes": 6308473,
+    "sha256": "208155fd76beb355aaf8243143be2ad2c2460972d9cae19b633c2fde36689fb6",
+    "rgba8Sha256": "f092fb434b6d18fb5638408e97aad355a38e3ecca17fb35f542585f62823516d",
+    "role": "paintWear",
+    "sampler": 1,
+    "paintKitIds": [],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/shared/paint_wear.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/snip_awp/snip_awp_ao.png",
+    "bytes": 888757,
+    "sha256": "86d9e39ecdad1c56d50975686b1d06cc5ea42bbc243e4a6deee7a8aeef363e55",
+    "rgba8Sha256": "dbd52822c32937ed4a39bf3de5069568239571e7dfb40dd82ac62970293885ed",
+    "role": "ao",
+    "sampler": 0,
+    "paintKitIds": [],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 8448,
+    "sourceMaterial": "materials/models/weapons/customization/snip_awp/snip_awp_ao.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/snip_awp/snip_awp_masks.png",
+    "bytes": 8128,
+    "sha256": "1f5d6a48a8a95f1fa164402a6d679421c85f44bc87082a2279aca50e8b626072",
+    "rgba8Sha256": "253f1de47b2d77823d669fa3fc5b1a4934c860ea6469e58b69af6c59ff203d1f",
+    "role": "mask",
+    "sampler": 4,
+    "paintKitIds": [],
+    "width": 256,
+    "height": 256,
+    "vtfFlags": 256,
+    "sourceMaterial": "materials/models/weapons/customization/snip_awp/snip_awp_masks.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/snip_awp/snip_awp_pos.png",
+    "bytes": 144490,
+    "sha256": "ba4ce4a146e8249f1ba6448e425da6b407195d2cb66e020a5099722a4a8fe4cf",
+    "rgba8Sha256": "24603444857f38c860414949647b314bb49728fc0a7a92fe6e57c34b9b702519",
+    "role": "osPos",
+    "sampler": 7,
+    "paintKitIds": [],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 8448,
+    "sourceMaterial": "materials/models/weapons/customization/snip_awp/snip_awp_pos.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/snip_awp/snip_awp_surface.png",
+    "bytes": 71410,
+    "sha256": "43ab480213b5a53b474b9b64fce274e93a637273ab573647c93f8a9c23557ea7",
+    "rgba8Sha256": "a326877a3c9c6d390066ac2071a90abf0c8da35e5630af7d68f6886d73aa8af2",
+    "role": "surface",
+    "sampler": 6,
+    "paintKitIds": [],
+    "width": 256,
+    "height": 256,
+    "vtfFlags": 256,
+    "sourceMaterial": "materials/models/weapons/customization/snip_awp/snip_awp_surface.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/customization/uvs/weapon_awp.png",
+    "bytes": 414031,
+    "sha256": "c82c291a3171b8f4f7029ebf2b32c26d772b017f597ef83a7386031289b6ddf6",
+    "rgba8Sha256": "3230b0ba575766599a9715297d41bd2b3b5cf97b3069da0140f83aa4e65a3312",
+    "role": "uv",
+    "sampler": -1,
+    "paintKitIds": [],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/uvs/weapon_awp.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/v_models/snip_awp/awp.png",
+    "bytes": 5241981,
+    "sha256": "7b15561dce06273b11c1705350b9e7b60fbe73f4dd6b4409b411b610c3e94752",
+    "rgba8Sha256": "8cb60784ee6f81cbeaeb4ec74b6abb63cbc69ba8b7624ed01927b88b86877d96",
+    "role": "weaponAlbedo",
+    "sampler": 3,
+    "paintKitIds": [],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8208,
+    "sourceMaterial": "materials/models/weapons/v_models/snip_awp/awp.vtf"
+  },
+  {
+    "weapon": "weapon_awp",
+    "path": "png/models/weapons/v_models/snip_awp/awp_exponent.png",
+    "bytes": 65027,
+    "sha256": "19d37ce086d5ac75e97719ffb76714a15e3df5336d29b3bbefb6a5413e0e804a",
+    "rgba8Sha256": "9bf4c0b26ddecb749a81dfab2847185af2834985fd8fb025f58ee5baff1ed180",
+    "role": "weaponExponent",
+    "sampler": 2,
+    "paintKitIds": [],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 16,
+    "sourceMaterial": "materials/models/weapons/v_models/snip_awp/awp_exponent.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "inputs.json",
+    "bytes": 70352,
+    "sha256": "0136e3ddee096d93dc2d7295c86bb6375781d02b04e77c1cea4db28ad8c59873",
+    "rgba8Sha256": "",
+    "role": "receipt",
+    "sampler": -1,
+    "paintKitIds": [],
+    "width": 0,
+    "height": 0,
+    "vtfFlags": 0,
+    "sourceMaterial": "scripts/extract-source-kit-inputs.py"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/anodized_air/flamegraphic.png",
+    "bytes": 559464,
+    "sha256": "ae27c88bcad5d199c84f039ba56c48a084323291e9b248734f7e4811a252ef13",
+    "rgba8Sha256": "936125ae187058187eea44b03da4bfc7097669e718d5f92b7f20ac8a6ac07ce3",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "37"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 4,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_air/flamegraphic.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/anodized_air/vertigo.png",
+    "bytes": 162151,
+    "sha256": "d1fc615307de936a3afc0d56a3fd15ea3ac82fab35095696932d9619fa76803b",
+    "rgba8Sha256": "20516293bb7d40bdfe0a24a30b4f0ea3224a68c9164d1a6b4c02102b613705ac",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "61"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_air/vertigo.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/anodized_multi/crystallized.png",
+    "bytes": 384925,
+    "sha256": "9af4f52cdba02e9242abb24a5da01b73122c5a0a746c0a206acadb74c40cd058",
+    "rgba8Sha256": "ea352d6933dec1777ee34f5568df343792acc0e4da091f1950682800625730eb",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "296"
+    ],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_multi/crystallized.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/anodized_multi/ddpat_dense.png",
+    "bytes": 86982,
+    "sha256": "ecae3f373944486f7e189beaa3da5fa94399b8bf31001acbe090a16749017207",
+    "rgba8Sha256": "21d9c69fdd509789854d7160e914f89b2eef4278b1f05dede57fd35b469f1771",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "231"
+    ],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 8449,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_multi/ddpat_dense.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/anodized_multi/heist.png",
+    "bytes": 1516794,
+    "sha256": "630deaa45fb499fc409cbf6ab5177db4ba87391dbc6154ce94363691c7a8df24",
+    "rgba8Sha256": "54f2ecfd30e57175feafa9d6e4c3e46d4e023e533027b69a2860083ee11ecea6",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1006"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_multi/heist.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/anodized_multi/jormungandr.png",
+    "bytes": 1921289,
+    "sha256": "9ecf928adec9b463a07529fde52684a3f7f510e75a8f97655bf7ae2af42fd8d0",
+    "rgba8Sha256": "8527989369e77c721a23ea18e1e83a1b0aea99f9a3f4425f62ac06feedeaaa12",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "757"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_multi/jormungandr.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/anodized_multi/numbers.png",
+    "bytes": 567031,
+    "sha256": "b4b0fed4ce7d354c070525686df60110df8c29fd1ab63ee022391e788068bc0c",
+    "rgba8Sha256": "a8defa29ddc6208cfa8178cd8b3bde9d61b3598f5ca0d86fcf3f838e739775ca",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "992"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_multi/numbers.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/anodized_multi/scales.png",
+    "bytes": 63213,
+    "sha256": "7261b6f5051c428d6c0df8346d1e1b26c8222236966a497c1dc867623db44da0",
+    "rgba8Sha256": "c07154d388090d2390215c3838aebf47cb1fe6bbd0120933defa8fb179b48cb2",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "185"
+    ],
+    "width": 256,
+    "height": 256,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_multi/scales.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/anodized_multi/sea_storm.png",
+    "bytes": 1224118,
+    "sha256": "fe274c440e81a34210ec081c90311025717adb765ff07407060ccb724c1f9887",
+    "rgba8Sha256": "b5934090af2d1bf4a9482af33b293112ed4bdd2d20cfae19e1dd3d5b3dcc89b3",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "468"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_multi/sea_storm.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/anodized_multi/sea_storm_blood.png",
+    "bytes": 1312515,
+    "sha256": "b9ac6dd38b7852865d94d6de3ebb157c84fbe6e00a81d5bca6af06b4f389bbd1",
+    "rgba8Sha256": "d467a596f82167f973c9ba24662fd3c283cecbb7fd1a8feacead9617e0e2bb13",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "469"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_multi/sea_storm_blood.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/anodized_multi/sea_storm_shojo.png",
+    "bytes": 1319180,
+    "sha256": "55e88eac07cfc69a82bcbb17966ce27b0feea9ce44df9f3e3c419395b911b25e",
+    "rgba8Sha256": "a4f25e7d84b4e9b808ca9ef1d67f429a972895bdff47fbbdd262e92ace54b34c",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "470"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_multi/sea_storm_shojo.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/anodized_multi/workshop/bronze_flakes.png",
+    "bytes": 6067386,
+    "sha256": "f65130d07f99ff035da85f8b20c5553ff0935d7e6a58801c7031bbee6eaddc8c",
+    "rgba8Sha256": "d4c35236843925d2f56c3483529082d693bbf480d845906a874b9fe0a3cd1ec6",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "425"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_multi/workshop/bronze_flakes.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/antiqued/etched_deagle.png",
+    "bytes": 1134491,
+    "sha256": "ddb4d275945cee9ff5a18c35bd6aa4e7e90cbb8d7f3b51aeb54c4e53350ec9db",
+    "rgba8Sha256": "82028998402c3f2d3748b0d59e6d649fab2ab0912b329f594caa71e5390e0eae",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "273"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 16,
+    "sourceMaterial": "materials/models/weapons/customization/paints/antiqued/etched_deagle.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/antiqued/handcannon.png",
+    "bytes": 1954220,
+    "sha256": "250f3bb7ed158d92a37c1245ec0b38256165a579573511075b576f6b1e56dfdb",
+    "rgba8Sha256": "efaee40a3a0d1fc0c45ccc585650d8f7f94a571191e7d0f5ecc179768ecb77e9",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "328"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/antiqued/handcannon.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/antiqued/pilot_deagle.png",
+    "bytes": 1782467,
+    "sha256": "6c7af45c9fde9f478e4ea896e74ffc9e350927faf5fd1097c2775841dc6b0333",
+    "rgba8Sha256": "207fd153d108e356159c6859bbc6cafe2b12f717e2243fa9c4030d4cbae38c7a",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "347"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 8208,
+    "sourceMaterial": "materials/models/weapons/customization/paints/antiqued/pilot_deagle.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/antiqued/workshop/de_constable.png",
+    "bytes": 5413636,
+    "sha256": "2c8763586bd81d3f5b2fc16b6f94c0aae4bad6c610a619c081df849f11555490",
+    "rgba8Sha256": "bdc3bffa72e2360502bfc155100f6f85af8295a0ede7b676dc9e7ec754f5be71",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "603"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/antiqued/workshop/de_constable.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/antiqued/workshop/de_constable_normal.png",
+    "bytes": 621780,
+    "sha256": "febc019e56415b6c84567b5f8a270f83f1c3210b97b5fa44b1cdc6294811af9b",
+    "rgba8Sha256": "d373905452ad0085efcd023604c64b7c8397da42b63ee1d554f69c555f7ed4fd",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "603"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 144,
+    "sourceMaterial": "materials/models/weapons/customization/paints/antiqued/workshop/de_constable_normal.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/antiqued/workshop/deagle_corinthian.png",
+    "bytes": 495948,
+    "sha256": "e5a9f814cff9a799c2544312e7ca5510ad3fcc219f2129cf7605ea4f245f46ef",
+    "rgba8Sha256": "6917cbd5f3c50747865c6a761aa1ea7241ac996f34649e8b0438a2ad20dc6c9c",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "509"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/antiqued/workshop/deagle_corinthian.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/antiqued/workshop/deagle_naga.png",
+    "bytes": 7576944,
+    "sha256": "451d19f82ebb8105a38bc499c57c71a2d7630019168bbe996038bd19c8066987",
+    "rgba8Sha256": "47d4c4095c81298c4883697ac5566c3ca079a7dc26b1d4aeb1c8b8c613443c03",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "397"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/antiqued/workshop/deagle_naga.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/antiqued/workshop/deagle_naga_normal.png",
+    "bytes": 991616,
+    "sha256": "3be010dcec40bf286329d4863a87d5aceacfb5e27863354236faad4482dc2435",
+    "rgba8Sha256": "089dc5c41c80d60f547a4d8bd3d75372f91ac136333b4e1d3df6deb305bb829b",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "397"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/antiqued/workshop/deagle_naga_normal.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/antiqued/workshop/deserteagle_kumichodragon.png",
+    "bytes": 3878193,
+    "sha256": "7a5c8d50efd676fe265ad158c848964cbd60051712d7d1bde292596ced8181f5",
+    "rgba8Sha256": "f862613421f9cba7342c0b76ebafe554dad97bfc242be6f10cba00a9946b8e59",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "527"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/antiqued/workshop/deserteagle_kumichodragon.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/custom/workshop/deag_printstream.png",
+    "bytes": 433071,
+    "sha256": "e6a86cc27025fbdc5428ed28c539953b2fc3ef0f48f74327ff65ec34aa8d3705",
+    "rgba8Sha256": "fdfe31aedcc0cd4ee7620650a4b69f6ce796119bafab06b5a1b0be469746a4e4",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "962"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/deag_printstream.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/custom/workshop/deag_printstream_normal.png",
+    "bytes": 543003,
+    "sha256": "4fde7aa9d837ce9cd8accff9b380c00c796526b78d77f8acc168dcffa047194a",
+    "rgba8Sha256": "3d74e42571fe68ea9b9209cdbefbf0166cbae31fd0e85ac2cd86006c4b8ec328",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "962"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/deag_printstream_normal.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/custom/workshop/deag_trigger_discipline.png",
+    "bytes": 6290712,
+    "sha256": "45a5a0ec235930b2ebf20229ac5441eb77cd1295bbaf62e2489d30c5198ef3c0",
+    "rgba8Sha256": "87023a6ee51cfbcff4f2112d87401e3aa3c4be4fda224a450cb43887159987f4",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1050"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/deag_trigger_discipline.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/custom/workshop/deag_trigger_discipline_normal.png",
+    "bytes": 640713,
+    "sha256": "ab546dc1aab910d25d853eb3fe8573c38e4f9eb0f3e211942ef2070a55cd3102",
+    "rgba8Sha256": "2d590cc06dc3f4a7958c1c0cb41dc3bd85b6a03995467c1674e6e0f98b32062f",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "1050"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 9088,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/deag_trigger_discipline_normal.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/custom/workshop/deagle_aureus.png",
+    "bytes": 455522,
+    "sha256": "d6575b64c674d0a9de206b614ee82230fbb7430c1d07e86488ec963f2ee1d1d5",
+    "rgba8Sha256": "7cd6bce9e3afa1c50b6aca7a117143f57bb2f9461049e31044cf5342dd3ea1d0",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "351"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/deagle_aureus.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/custom/workshop/deagle_kitch.png",
+    "bytes": 3601173,
+    "sha256": "4421605dabf26f54945e0625f9f3f81bdc89f4590b4fe66460ad98d7fb4d7c1d",
+    "rgba8Sha256": "5dc4eeaaea2f2bc42db5351ab89ff889a2ac09122fff6403a50c092739bb09dc",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1090"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/deagle_kitch.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/custom/workshop/deagle_replica.png",
+    "bytes": 8954968,
+    "sha256": "8f1e2d74db5bd38c0ef0bb181947231b9626da41dee6e4070e83c6ab4a4a191a",
+    "rgba8Sha256": "df41b484f716acf904991c7e8b62d95dc390da9515f0bf352060c77a35edce8e",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "945"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/deagle_replica.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/custom/workshop/deagle_replica_normal.png",
+    "bytes": 2450935,
+    "sha256": "cd991c3c1526256347f24a98bd85308cfa8466a391bf38dc0620fa977637356b",
+    "rgba8Sha256": "4dea4ec0dbefdfd0f2def821fc62851912f405575e3091800b746315b8e065d7",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "945"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/deagle_replica_normal.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/custom/workshop/desert_eagle_corroden.png",
+    "bytes": 5523188,
+    "sha256": "feb906472ea6d3dee5fd7474e4edecef57e07184926c07fadc019354e2e9410d",
+    "rgba8Sha256": "8ab15829e8ec94304b1ffc9bb2af64025c5edea66201a32b87a186c1d2116417",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "645"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/desert_eagle_corroden.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/gunsmith/deagle_fennec.png",
+    "bytes": 2875260,
+    "sha256": "96b916e40c5e5fef120d0b06e42be7f9fc66b54e1b33d7eb45b88b79af6681a5",
+    "rgba8Sha256": "ea1b25b205f2cfad3c9c578a2fe5a3f231404f781d6a39f10484a3fbd8248612",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "764"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/deagle_fennec.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/gunsmith/deagle_fennec_normal.png",
+    "bytes": 1949890,
+    "sha256": "af02ac496040f4a3c2b261934c1348272e97616f9da8159117f66739d0721548",
+    "rgba8Sha256": "b9131f53a0b054c455b1e02ecce9ce62a652bc5215c1ce6326152a156ecce99c",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "764"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/deagle_fennec_normal.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/deagle_aggressor.png",
+    "bytes": 5303097,
+    "sha256": "07322cf300362791fc6c1bdf1cf6866cda3249ba771b20cf3e7bc2920dae928e",
+    "rgba8Sha256": "5f83e595c7e8e28ba9679aca969ea6461785ed98dfb8d7cffa7ce0a615a96fa6",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "711"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/deagle_aggressor.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/deagle_aggressor_normal.png",
+    "bytes": 543881,
+    "sha256": "b35d58dcf300d375f24508eebc2c414c1a0299103cc5502b456b924bd391827c",
+    "rgba8Sha256": "7b87335d25fb1845edc2585f4115162aded071cafbfd0dcfd929690fc2f1ab20",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "711"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/deagle_aggressor_normal.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/deagle_exo.png",
+    "bytes": 2245748,
+    "sha256": "210cc44a2e4ccdba16b5d85d6735305bccddbc61391afe0f0a6dd5da1c3fab23",
+    "rgba8Sha256": "1d5fbd0658e0bb164af034a2219cc0c83a82cf2e7bc8b0e41272fc16577ecab3",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "841"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/deagle_exo.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/deagle_exo_normal.png",
+    "bytes": 1794379,
+    "sha256": "322628860d07f7c78d069df69e399f25a52b2ae1308d33d16e57140ed2612ae6",
+    "rgba8Sha256": "a64e0eb785ede3c8fa3074bbb8deaf10d85ecee2bfe899d4b94b4feb0d5e6c87",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "841"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/deagle_exo_normal.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/deagle_mecha.png",
+    "bytes": 3150185,
+    "sha256": "54b881ed71ab4b66da5650fbe42511ec5339345635dc6030aff0cd3bdb67c55b",
+    "rgba8Sha256": "eb85b6ccd5ffd1fe3fba5e62a1e6fb3f7e5d44ed9a72a933c2e33be8a558b032",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "805"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/deagle_mecha.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/hydrographic/ddpat.png",
+    "bytes": 24599,
+    "sha256": "75d62d8427051b556c4109f8034b1674f0e617b88f4139e301d8eb6bd62b99b1",
+    "rgba8Sha256": "11a7b1e4bed0e6d0a2d8fe4054695e580c3540901d46d8184c28c445a0b6319e",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "17"
+    ],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 1,
+    "sourceMaterial": "materials/models/weapons/customization/paints/hydrographic/ddpat.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/hydrographic/marbleized.png",
+    "bytes": 452892,
+    "sha256": "b85cfcb19069280f57504cbb61105a03891ac553509aa05892f2e6898faf555b",
+    "rgba8Sha256": "345bc49f4038e91c3f11878ef940c79bc1537e4e8e0610ee153f4c7d012142ef",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "90"
+    ],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/hydrographic/marbleized.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/hydrographic/varicamo.png",
+    "bytes": 1725972,
+    "sha256": "01cf0b4f3b4489863b1956c8eb8e78b973edbf147b5a9a2cf75ad8ce5ba77de9",
+    "rgba8Sha256": "9d4c997db3a9737c9eeb843485f23f225a18ecd0a618eab3786caf8c86687603",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "237"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/hydrographic/varicamo.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/hydrographic/webs.png",
+    "bytes": 132520,
+    "sha256": "2d29931223c356e146ee4c853ebbb1af86957d3b1f97d27ffafd41c612f8e060",
+    "rgba8Sha256": "842e7f53c8788227e5c2580c1ad63e0cd9c2790d146e7d6fe4fd7b53bb536dc7",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "232"
+    ],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/hydrographic/webs.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/paints/spray/spacerace.png",
+    "bytes": 435558,
+    "sha256": "8bda8542889cb7ad13415318e7b7488bfa19110fa7267452f74b6592fb64c065",
+    "rgba8Sha256": "ebbf0bd5f3e01f8a85467246c010e7d36a91f8f1fe84c8d7d5450c87585e4c5a",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1056"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/spray/spacerace.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/pist_deagle/pist_deagle_ao.png",
+    "bytes": 1186355,
+    "sha256": "3db6066bc87a290f4b2b578cbcfe3894756622e3b0c5511b01b52d7b71661738",
+    "rgba8Sha256": "eef0f94f93acf68f8020cc56ef6a9946029ed2d60121bfc4043e251b557a99c6",
+    "role": "ao",
+    "sampler": 0,
+    "paintKitIds": [],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 8448,
+    "sourceMaterial": "materials/models/weapons/customization/pist_deagle/pist_deagle_ao.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/pist_deagle/pist_deagle_masks.png",
+    "bytes": 15377,
+    "sha256": "c081a75d78182fe26f63d7c1304bd8647d64e9ba64c09d13defb524aea90b300",
+    "rgba8Sha256": "44daf03d2d4019f124d71e1c2ef7d94238ad8d011f9dd9346a27fcb0e1d47c20",
+    "role": "mask",
+    "sampler": 4,
+    "paintKitIds": [],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 256,
+    "sourceMaterial": "materials/models/weapons/customization/pist_deagle/pist_deagle_masks.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/pist_deagle/pist_deagle_pos.png",
+    "bytes": 156873,
+    "sha256": "384829aea489d1f6415de738682287a32236af3166e3f5770fb73c1869d570eb",
+    "rgba8Sha256": "1953005970811419886a52e8828788ba8b71d5285c44f179b11425031e8a84e0",
+    "role": "osPos",
+    "sampler": 7,
+    "paintKitIds": [],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 8448,
+    "sourceMaterial": "materials/models/weapons/customization/pist_deagle/pist_deagle_pos.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/pist_deagle/pist_deagle_surface.png",
+    "bytes": 71664,
+    "sha256": "e00c46ff4ec562c27bc869eaaa86d4f99a58bb510ce9c8f532f463ba2f2e3b8d",
+    "rgba8Sha256": "12d1c466180e14e5c1779c16cb0906e4cded4b9b5fab2fea7f921d99ee5f54fe",
+    "role": "surface",
+    "sampler": 6,
+    "paintKitIds": [],
+    "width": 256,
+    "height": 256,
+    "vtfFlags": 256,
+    "sourceMaterial": "materials/models/weapons/customization/pist_deagle/pist_deagle_surface.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/shared/gun_grunge.png",
+    "bytes": 3655658,
+    "sha256": "36204a3bb3a4d710546fa70b3806edf836db5b178b0b55126ab566db81b165e7",
+    "rgba8Sha256": "4bf5bc5f311d0cd805b5118b8e48521c50b08afa7bc109c1ce7cafbaf134c8f8",
+    "role": "gunGrunge",
+    "sampler": 5,
+    "paintKitIds": [],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/shared/gun_grunge.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/shared/paint_wear.png",
+    "bytes": 6308473,
+    "sha256": "208155fd76beb355aaf8243143be2ad2c2460972d9cae19b633c2fde36689fb6",
+    "rgba8Sha256": "f092fb434b6d18fb5638408e97aad355a38e3ecca17fb35f542585f62823516d",
+    "role": "paintWear",
+    "sampler": 1,
+    "paintKitIds": [],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/shared/paint_wear.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/customization/uvs/weapon_deagle.png",
+    "bytes": 418672,
+    "sha256": "e0019e1007ce31093b162c3d070061406d5222efd736b078b1be964e50edc708",
+    "rgba8Sha256": "fa75940d2166866470738bc3f40bbf5ac11b9f39c9593a7f62a3708ec377516d",
+    "role": "uv",
+    "sampler": -1,
+    "paintKitIds": [],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/uvs/weapon_deagle.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/v_models/pist_deagle/pist_deagle.png",
+    "bytes": 1791221,
+    "sha256": "14f4cadb71e872dd92cc46eb409260998ed205ba8ade8109c18fbc991abf9a89",
+    "rgba8Sha256": "8f9dd0075e2abb80ac60c688209a1239328deb9cf491cfdb85840a21425d8c3f",
+    "role": "weaponAlbedo",
+    "sampler": 3,
+    "paintKitIds": [],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 8208,
+    "sourceMaterial": "materials/models/weapons/v_models/pist_deagle/pist_deagle.vtf"
+  },
+  {
+    "weapon": "weapon_deagle",
+    "path": "png/models/weapons/v_models/pist_deagle/pist_deagle_exponent.png",
+    "bytes": 99415,
+    "sha256": "0dcb3cfa5740aa45abbe5a92c32240ec10e69be680768741eff6b627a56f3928",
+    "rgba8Sha256": "8513687e54df783dad43f282033bff186781f3ec3e38f740ba133c2df0d929c5",
+    "role": "weaponExponent",
+    "sampler": 2,
+    "paintKitIds": [],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 16,
+    "sourceMaterial": "materials/models/weapons/v_models/pist_deagle/pist_deagle_exponent.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "inputs.json",
+    "bytes": 77448,
+    "sha256": "1f6c41cff31e32e3c8b43a30b266fd1f31aa36edfe96fffe0a4484c3f5406041",
+    "rgba8Sha256": "",
+    "role": "receipt",
+    "sampler": -1,
+    "paintKitIds": [],
+    "width": 0,
+    "height": 0,
+    "vtfFlags": 0,
+    "sourceMaterial": "scripts/extract-source-kit-inputs.py"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/anodized_air/fade.png",
+    "bytes": 47797,
+    "sha256": "92621ebd9d99e7ed164a68cd0d9bf0e2a49bc51926b94779e2319cb717d0f6e4",
+    "rgba8Sha256": "b6007c8b04b5bd2ff91ca4932a9cbb0840bdd310b6ddc9b2ee0fe8bf1eefc327",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "38"
+    ],
+    "width": 256,
+    "height": 256,
+    "vtfFlags": 12,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_air/fade.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/anodized_air/vertigo.png",
+    "bytes": 162151,
+    "sha256": "d1fc615307de936a3afc0d56a3fd15ea3ac82fab35095696932d9619fa76803b",
+    "rgba8Sha256": "20516293bb7d40bdfe0a24a30b4f0ea3224a68c9164d1a6b4c02102b613705ac",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "799"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_air/vertigo.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/anodized_air/workshop/glock_18_urban_moon_fever.png",
+    "bytes": 472982,
+    "sha256": "7d8bad249540c060a777938db399975515a1a4373835facfa62aba92155d5309",
+    "rgba8Sha256": "8034a083a84cddf75cf7e0c8f18f9d0d53a697af831d80a3ff2aa5c4b5914b82",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "694"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_air/workshop/glock_18_urban_moon_fever.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/anodized_multi/ddpat_dense.png",
+    "bytes": 86982,
+    "sha256": "ecae3f373944486f7e189beaa3da5fa94399b8bf31001acbe090a16749017207",
+    "rgba8Sha256": "21d9c69fdd509789854d7160e914f89b2eef4278b1f05dede57fd35b469f1771",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "230"
+    ],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 8449,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_multi/ddpat_dense.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/anodized_multi/dragon_glock.png",
+    "bytes": 52287,
+    "sha256": "f3b20109b1e1b7f153a86a5658cb2496f2e5dcd882c5624af5733927348bc1a9",
+    "rgba8Sha256": "03442d4491a7b520f18b3a12dd0a2066851cd1396eb76afb340abf94e7aebdff",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "48"
+    ],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 24,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_multi/dragon_glock.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/anodized_multi/noise.png",
+    "bytes": 836562,
+    "sha256": "2af45e0b49dbd753b96e890754e674e9a821737ff26b2366067ce4516f773ac0",
+    "rgba8Sha256": "2412d326e31287665f22241b635a7dde959acfc116827d0dbb32844884d47410",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "437"
+    ],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_multi/noise.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/anodized_multi/nuclear_pattern.png",
+    "bytes": 7087638,
+    "sha256": "37631ecd53948f67689a75a7756a91fd17978064e321cf35375ff93413e94d2f",
+    "rgba8Sha256": "7bf6350222684b61269e3b0313929f4e635c50f744c79ed6e12100ede0b8be54",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "367"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 16,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_multi/nuclear_pattern.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/anodized_multi/nuclear_skulls_02.png",
+    "bytes": 4835560,
+    "sha256": "7ff69d01ff439c18baa6ee84ab7d07582cb37b30065065f31f0ae39cc4295b14",
+    "rgba8Sha256": "3f8205528d7beb95d87a53216fa4d8c3a76476a1a84ccb96910f56df1c3d5f0a",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "789"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 768,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_multi/nuclear_skulls_02.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/anodized_multi/smoke2.png",
+    "bytes": 1758278,
+    "sha256": "90912b124884a24b47d5a4067bb7b3285d140d00c84d0c57b2fa6a6c0ebacaeb",
+    "rgba8Sha256": "20ba87e6f155adf132734f4ded8dfbc8d14d41b307fa634ccb05c4fa4bda402d",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1119",
+      "1120",
+      "1121",
+      "1122",
+      "1123"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_multi/smoke2.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/anodized_multi/workshop/skull.png",
+    "bytes": 6702020,
+    "sha256": "b795d87e22a14da73d2bb7f2717c8e84dd62233f8eb55096ecd42854669636ef",
+    "rgba8Sha256": "fcfd786c5d181eb4541062a6110d2f33399527503e709df973bc560fc1c8d7b9",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "399"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_multi/workshop/skull.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/antiqued/aged.png",
+    "bytes": 1749190,
+    "sha256": "580383543536738a89f90e1f649c6d3963d3ff769638a6e549f219ed62e5dad5",
+    "rgba8Sha256": "5707cbc53a38a2c281218247fa91c475f3719c7571892f94309920970ceb080d",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "159"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/antiqued/aged.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/antiqued/workshop/167-miracle.png",
+    "bytes": 1404195,
+    "sha256": "0c104bec20ba649be956fa1c5b786534debc910a4df2bac78dfb353c917093f2",
+    "rgba8Sha256": "671e6660e734b33548fd5d62863ffc8eba067a55effaad71662c0f54c6ae00f9",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "381"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/antiqued/workshop/167-miracle.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/antiqued/workshop/glock_dark_fall.png",
+    "bytes": 1271028,
+    "sha256": "5b73bf696966d7e614c9da0f90baf845d0c4c4f92d918b670508de8fce89c6a7",
+    "rgba8Sha256": "cee228a65eea8c9bb712a14ed16df0a5757040ddc5577e5aac98d85e5598c3bd",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "623"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/antiqued/workshop/glock_dark_fall.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/antiqued/workshop/glock_flames_blue_green.png",
+    "bytes": 11597753,
+    "sha256": "2b8bcada309128200ec01b6eec18de57f0d95aa3ba1adf481257dd4780167737",
+    "rgba8Sha256": "2a366d510eff6817d87a532066cf969a778b42eaf582ef0fb8de1cd036433e57",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "479"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/antiqued/workshop/glock_flames_blue_green.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/custom/glock_ramzes.png",
+    "bytes": 3062396,
+    "sha256": "966aa195e32068edcaa22e6f7e32ae0acf41751246d2364b48f55edf6cc26bd6",
+    "rgba8Sha256": "e769909de9f0c615431ee1c51ca250d4b0c5508f1abcecd3fa059cb709d3fa34",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1240"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/glock_ramzes.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/custom/glock_ramzes_normal.png",
+    "bytes": 2729558,
+    "sha256": "8f00929190e607c0be7c8a8094b023efd2cdc81000bcf7a3dd156fcbecc47c59",
+    "rgba8Sha256": "33cbd639c7304a9346f2367a2c31ef39b8b43e1280a596bda63e49dd59dd2603",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "1240"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/glock_ramzes_normal.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/custom/money.png",
+    "bytes": 2100464,
+    "sha256": "4f547e05232ec03239351e37ccf6f328c50c68c9056028e609ca84188b77b987",
+    "rgba8Sha256": "0c3fe084f616d1b581c4b1a344b9e3d088f4632028c27d612988282b72d916c7",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1016"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/money.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/custom/workshop/glock18_corroden.png",
+    "bytes": 4147524,
+    "sha256": "43653819578e43eb9604ab0c97a1e325b74f74f90695515592566465a002bb17",
+    "rgba8Sha256": "fb46484da4ce9d83daba157090eca33a658720806e71ec1673ef2b11762aba0a",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "808"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/glock18_corroden.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/custom/workshop/glock18_warmaiden.png",
+    "bytes": 3311848,
+    "sha256": "d9f26e0d3d60775493d0c23ffae741d0f9082df6c37bd33973fe9e6be4ffd7bb",
+    "rgba8Sha256": "c9791492f502d500eb0940c1aacef3825a9fd7b75ead74db2be7e3246614c0ce",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "957"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/glock18_warmaiden.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/custom/workshop/glock18_weasel1j.png",
+    "bytes": 4032900,
+    "sha256": "a7a3e0fb930ab5650b1074ef8c188334cd143b389460e901a17f156677aabb97",
+    "rgba8Sha256": "b3e0681f12744997424e2a6163ecf0a2ee5785dbf0d2dca1c3ecfa8f6ce9b46b",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "607"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/glock18_weasel1j.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/custom/workshop/glock_eyecontact.png",
+    "bytes": 10294094,
+    "sha256": "08b0055ded8e307a5d158576c7db520da5dff5af625f41f2406c90fe687e7be9",
+    "rgba8Sha256": "7dc1adeacc3aa70dfc89d6a5d88dcd9cd05d0b1d4333b7067980aba09ecc2535",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "963"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/glock_eyecontact.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/custom/workshop/glock_hero.png",
+    "bytes": 3785009,
+    "sha256": "57494f44349eb4c075f66a8e8d251a6958872f8b0d8b4e5db45c5924afe5e0ed",
+    "rgba8Sha256": "5ee6fe1733bd3deba6a2661125f4b6dc44456e49167f26a0b18b5343fade700b",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "918"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/glock_hero.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/custom/workshop/glock_hero_normal.png",
+    "bytes": 5823197,
+    "sha256": "3e4e26d8f26658efd9fe6ea41310712d2b55466ea771e3cd9ea761b548b80a11",
+    "rgba8Sha256": "4564fafede88fec5ca749af46dbd4c8b9cea6fb96d0051d03ae31d46c1f8b55f",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "918"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/glock_hero_normal.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/custom/workshop/glock_indigo.png",
+    "bytes": 3227958,
+    "sha256": "f8119a86db1fd12ca28f1dd92fc31f89c9cea9fe1e33f6f1572b336b81a1c012",
+    "rgba8Sha256": "256256333ad6682c3ca36ca5ba050c9aeba6321bea8a14b639d735bd0ff584bb",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "680"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/glock_indigo.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/custom/workshop/glock_moon_rabbit.png",
+    "bytes": 3188027,
+    "sha256": "d3e7c3b976d71cbf3619bdbf5ebdfd00ddf58330df33be228790f966eeefb5a1",
+    "rgba8Sha256": "fe3f65571faef50dc20e2c1f5b64bf2e797717aa0c83e833c944ea23ef14f4e5",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1227"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/glock_moon_rabbit.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/custom/workshop/glock_noir.png",
+    "bytes": 3259444,
+    "sha256": "bbcc6bcff0c6217bfcfd450cd6844f5e1b52ecc39ccbd39260e4dbffb561ac7d",
+    "rgba8Sha256": "904dea89f03369b33631dd2de74d57634210d072bae381002c003899d9b6e5a8",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "988"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/glock_noir.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/custom/workshop/glock_noir_normal.png",
+    "bytes": 1137204,
+    "sha256": "9eca1a7b44f1246d56530d45b68c25d73186822fe6de592f8badda3b1c8fe2ef",
+    "rgba8Sha256": "9f2c5ed44f511e00150d2ba8aced1d9a71a497c189bba9e3aaaf1ff8a2f28bf3",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "988"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/glock_noir_normal.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/custom/workshop/glock_snackattack.png",
+    "bytes": 4798436,
+    "sha256": "942d43223724a886a1d629d7bbcd6adb325dab939581df8e61fe991c6d0dbffe",
+    "rgba8Sha256": "080134cba2963d6fef63d4e7fd25daae9ba003924772c8623b30768ebf2b36d4",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1100"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/glock_snackattack.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/custom/workshop/glock_snackattack_normal.png",
+    "bytes": 2957972,
+    "sha256": "9e3dde46a45b12ecc2647c43f63968bfc53cc4554a9486430e1e891ef12e2b49",
+    "rgba8Sha256": "751833d91c263adce0abc111aebf6da00cd8d8a3f5cd45bdec97946b0536051d",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "1100"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/glock_snackattack_normal.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/custom/workshop/glock_wasteland_rebel.png",
+    "bytes": 6360966,
+    "sha256": "16e20ffeaf3365af0704e3caee66a092bee425b808d331103cdeccd102df5667",
+    "rgba8Sha256": "bafe2d88aca3cf19f90089ad8c4a2e7b7f8f46181e5b2a162b67df9bd28c2b24",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "586"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/glock_wasteland_rebel.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/custom/workshop/liquescent.png",
+    "bytes": 2335758,
+    "sha256": "d75d3bad7f941d226664585ba33523d5295a8194d186bb36be00074641713a54",
+    "rgba8Sha256": "c64e04fcf6af9badd4cd7d1aad11d3170d3e7faf321d33fa0baf541e26335b6d",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "353"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/liquescent.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/glock18_award.png",
+    "bytes": 3341578,
+    "sha256": "edfe707aebb7f22f1fc370fd4095a3d3275c9fe956f60204bc1f9aef4dd0e872",
+    "rgba8Sha256": "f81bcf032f086233d45aefcb904a19c9a6352b3bbbc4092a0336a9105fe30550",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "532"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/glock18_award.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/glock18_award_normal.png",
+    "bytes": 480964,
+    "sha256": "b8e496abc5f6a9fac2a3a30fd3ba92dc20e5feca69ae3540388fc837cc04f7d3",
+    "rgba8Sha256": "e9f1c14aecd04fb5be0ee7eab6ddbacb8366522eb7ba4deacb4665a0359323b2",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "532"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 144,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/glock18_award_normal.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/glock18_wrathys.png",
+    "bytes": 8774675,
+    "sha256": "46a24818c9777e9deaad972279856ba13c3afdaac09a5d24d747d4d163ca0bb7",
+    "rgba8Sha256": "15c8e0bb14d54df21e51cf4d178c8a6e7e2bb5fd2c8e2d583080e6f2ba06b8e8",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "495"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8208,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/glock18_wrathys.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/glock18_wrathys_normal.png",
+    "bytes": 826404,
+    "sha256": "a6bd6fffe408fcde1d8dcb822bd7cde07268c137382d26c91bbeae8f32bcd973",
+    "rgba8Sha256": "7f454ed17bb335765d562b026a4879100b5845a45b130a6e635bc38041b96de9",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "495"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 144,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/glock18_wrathys_normal.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/glock_elite_camo.png",
+    "bytes": 4180297,
+    "sha256": "fd3476e107c3b7a242ea71f63614c4f1e9e528485ed148b03d70c79f8b50d289",
+    "rgba8Sha256": "ee54b406e4b471e0d29f5c3c0dc5295a3c8aa54493ff8f983b99be63dc093d38",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1158"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/glock_elite_camo.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/glock_elite_camo_normal.png",
+    "bytes": 3513519,
+    "sha256": "26924fa598d31685eba6e5949ecb3a0ea40e28e34098dfd0b81bb8b2b5f25dcd",
+    "rgba8Sha256": "4d523772f3088d13c1de0396170321bb236ac8aa2aa317ae0a0a4e1e91c0eb09",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "1158"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/glock_elite_camo_normal.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/glock_polymer.png",
+    "bytes": 4745628,
+    "sha256": "e8f458f700be0b5166bdf34255ce80f4a3fbc7f7cfb6dccfda257450d95f0d15",
+    "rgba8Sha256": "5f0d943e32fffc4a162997ae08bdf04277f03e077a1f1d117375c3608e508ed7",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1039"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/glock_polymer.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/glock_polymer_normal.png",
+    "bytes": 3254903,
+    "sha256": "5a8963184bc41848ad9ec3b05da4004a5b6fcefbe974d79aa0f73dc32d99b5e4",
+    "rgba8Sha256": "76c8811ec4b9cb38bd2577e28778a90046df3e054d52b8fe85ee475526e7465b",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "1039"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/glock_polymer_normal.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/glock_thunder_dust.png",
+    "bytes": 4948519,
+    "sha256": "fdd3c191c0dd0a0efd2f6107d1765a31410eb5febaf25b2b75722b28b738ecc4",
+    "rgba8Sha256": "76a241ea52cb27c409553e9801654755bc2ada8c8b3f4469cb70a3c718edcf60",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "713"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/glock_thunder_dust.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/glock_thunder_dust_normal.png",
+    "bytes": 1159285,
+    "sha256": "a97dff5fd6d2f84cd2ba3e6a36a28a147a856310f3f47fb2ad7bec213891f4dd",
+    "rgba8Sha256": "5e2a5405f696f57ee55b88a83c2c40715c7dde4cfbfb15408c3a9673f49af53c",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "713"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/glock_thunder_dust_normal.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/hydrographic/craquelure.png",
+    "bytes": 921399,
+    "sha256": "a73400a76c0b1055793dfa9e29e27b4242a56b3b5b74dadedd5299e1d36645ff",
+    "rgba8Sha256": "92a83358b5f5ac148388b7826325d22332cc57a1b81d315aec897e6d2e72ada4",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "278"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/hydrographic/craquelure.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/hydrographic/ddpat.png",
+    "bytes": 24599,
+    "sha256": "75d62d8427051b556c4109f8034b1674f0e617b88f4139e301d8eb6bd62b99b1",
+    "rgba8Sha256": "11a7b1e4bed0e6d0a2d8fe4054695e580c3540901d46d8184c28c445a0b6319e",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "84"
+    ],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 1,
+    "sourceMaterial": "materials/models/weapons/customization/paints/hydrographic/ddpat.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/hydrographic/island_leaf.png",
+    "bytes": 1090445,
+    "sha256": "ae90cda3b157c66c34bed0b8f929b2d549f56a120ca3c54b5b5e20af514a953a",
+    "rgba8Sha256": "b013d16e581720dc8c7be522186357faf73e5c8b492254ef279961a879975db5",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "732"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/hydrographic/island_leaf.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/hydrographic/snakeskin.png",
+    "bytes": 1749856,
+    "sha256": "6b96b6bd1d0912b1d683ece945d7656718200e8a04f2e01bb530574a9fe3d822",
+    "rgba8Sha256": "067a0e8ea0786dfe67bdebc36b548e3ebcce8e730a05b2e770d7602f4537a7c5",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "293"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/hydrographic/snakeskin.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/paints/spray/tire_tread.png",
+    "bytes": 845042,
+    "sha256": "ed4b16e5e13d802afce30ced6830a90e77e0eda3c3bdd08fa053e61bb383b869",
+    "rgba8Sha256": "6ea4556fbe25ea69ed16d3967ff5e726f479217bab255d9d27db47dcb24f771b",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1079"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/spray/tire_tread.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/pist_glock18/pist_glock18_ao.png",
+    "bytes": 1061366,
+    "sha256": "996743e287f98c12375d2606ca453f7776b3e997f03d650794d8a5677d09ab55",
+    "rgba8Sha256": "500da7f06f87ba1ccd23a7ae9122e3c2e352323b8d209b66133e37ce2cc6ac35",
+    "role": "ao",
+    "sampler": 0,
+    "paintKitIds": [],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 8448,
+    "sourceMaterial": "materials/models/weapons/customization/pist_glock18/pist_glock18_ao.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/pist_glock18/pist_glock18_masks.png",
+    "bytes": 8228,
+    "sha256": "6a28657a7cb0146c1a4c4eb7626839a5e48df19cac7239624d20cfeaa96e8a64",
+    "rgba8Sha256": "b9f65edbb68e93857cdc0b879cf60d66fcd3546c379b10feb373021a55cdc78f",
+    "role": "mask",
+    "sampler": 4,
+    "paintKitIds": [],
+    "width": 256,
+    "height": 256,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/pist_glock18/pist_glock18_masks.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/pist_glock18/pist_glock18_pos.png",
+    "bytes": 381051,
+    "sha256": "f13c92a468c0d54ed32cbb61efe62469cc1106e5fadf4bd016c5e28bd1e70379",
+    "rgba8Sha256": "1acd320468fb80f348d60897b067720b96d56c071892a3d11e5dafacab038854",
+    "role": "osPos",
+    "sampler": 7,
+    "paintKitIds": [],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 8448,
+    "sourceMaterial": "materials/models/weapons/customization/pist_glock18/pist_glock18_pos.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/pist_glock18/pist_glock18_surface.png",
+    "bytes": 64236,
+    "sha256": "2ecc5fe9634f340b8e6a4d00f91a646aaa8a12424a24fc891144fc555788d402",
+    "rgba8Sha256": "be05ba4b95a7feccd0424b22ae1ddda4b9122c8dde0b1aecbde82987c3675938",
+    "role": "surface",
+    "sampler": 6,
+    "paintKitIds": [],
+    "width": 256,
+    "height": 256,
+    "vtfFlags": 256,
+    "sourceMaterial": "materials/models/weapons/customization/pist_glock18/pist_glock18_surface.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/shared/gun_grunge.png",
+    "bytes": 3655658,
+    "sha256": "36204a3bb3a4d710546fa70b3806edf836db5b178b0b55126ab566db81b165e7",
+    "rgba8Sha256": "4bf5bc5f311d0cd805b5118b8e48521c50b08afa7bc109c1ce7cafbaf134c8f8",
+    "role": "gunGrunge",
+    "sampler": 5,
+    "paintKitIds": [],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/shared/gun_grunge.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/shared/paint_wear.png",
+    "bytes": 6308473,
+    "sha256": "208155fd76beb355aaf8243143be2ad2c2460972d9cae19b633c2fde36689fb6",
+    "rgba8Sha256": "f092fb434b6d18fb5638408e97aad355a38e3ecca17fb35f542585f62823516d",
+    "role": "paintWear",
+    "sampler": 1,
+    "paintKitIds": [],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/shared/paint_wear.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/customization/uvs/weapon_glock.png",
+    "bytes": 306899,
+    "sha256": "2153ec121909d1560c4a28c1220ba271604f750bdfb59887d959231633cbe823",
+    "rgba8Sha256": "42afa204b9d1e9fd3f1738b7b513d80f4c3e448c3f9e8aada7bfb414138cac9b",
+    "role": "uv",
+    "sampler": -1,
+    "paintKitIds": [],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/uvs/weapon_glock.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/v_models/pist_glock18/pist_glock18.png",
+    "bytes": 5005986,
+    "sha256": "2768cc100af146f42826e3ea66b86bcfe0bfbb820e27ad5a894ee6c0003b88ca",
+    "rgba8Sha256": "d3cc648439e3bb7c6e72524812962407a0f0e9114f86d7ff68b6723443ca321e",
+    "role": "weaponAlbedo",
+    "sampler": 3,
+    "paintKitIds": [],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8208,
+    "sourceMaterial": "materials/models/weapons/v_models/pist_glock18/pist_glock18.vtf"
+  },
+  {
+    "weapon": "weapon_glock",
+    "path": "png/models/weapons/v_models/pist_glock18/pist_glock18_exponent.png",
+    "bytes": 186329,
+    "sha256": "9fdf72c858424495970d4ddd520c5a93f9631d243cffcbee2ac0ae0a4efa450a",
+    "rgba8Sha256": "bb136e81e1fb60696648611861a4d5f18847403068f2cf175d54b45fafe62dc6",
+    "role": "weaponExponent",
+    "sampler": 2,
+    "paintKitIds": [],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 16,
+    "sourceMaterial": "materials/models/weapons/v_models/pist_glock18/pist_glock18_exponent.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "inputs.json",
+    "bytes": 80549,
+    "sha256": "b40246d6175eb0b2c6e9f71b02708011498a0ce0712b70d114c4267b8cdc88cd",
+    "rgba8Sha256": "",
+    "role": "receipt",
+    "sampler": -1,
+    "paintKitIds": [],
+    "width": 0,
+    "height": 0,
+    "vtfFlags": 0,
+    "sourceMaterial": "scripts/extract-source-kit-inputs.py"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/anodized_multi/circuitboard.png",
+    "bytes": 409689,
+    "sha256": "b8d6c4c3634aa77233f1e8ee7c8ee70c43eec939a034e3096ed7c4b54e728ee5",
+    "rgba8Sha256": "02935345b2c085949ce8497c10f2d2aea441fd027927dd8ed5a3764176073f84",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "780"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_multi/circuitboard.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/anodized_multi/kimono_sunrise.png",
+    "bytes": 429331,
+    "sha256": "933c65f924c65dc6e7af235862826c551a8143e9957e42c1e9fb6fd6a94e81b3",
+    "rgba8Sha256": "f771a8d74fa8c150ae67590f28d140da4db55567a097a61b53ede61665fb2ba5",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "471"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_multi/kimono_sunrise.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/custom/bullet_rain_m4.png",
+    "bytes": 540529,
+    "sha256": "cd4dc19738507842be6ed09b51c49b490b06bdc546aec274e91e5f2d013ac4b8",
+    "rgba8Sha256": "3e13f0c58b9776b03ebf35e21a29afc6c6ee41082608974564b893be4ebadc68",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "155"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/bullet_rain_m4.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/custom/cs_camo.png",
+    "bytes": 3173087,
+    "sha256": "a2a0bb2f4bff668ac4dfac9a271a3dd9e822d766d623af8c7a352905794ca174",
+    "rgba8Sha256": "6a29d86b769fdb2a98c18b0617dd7a301474973c3622a2dd83cabe936bf0d1ce",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "993"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/cs_camo.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/custom/poseidon_m4.png",
+    "bytes": 2693104,
+    "sha256": "92df97f9274b805e8b4bd2e030f736c2aa9694216b78af3573046a52d0e97c17",
+    "rgba8Sha256": "918b55085c6e6ed84677f152e1d1df59c5f8f7bf89aa7f7eebb0d383adb17c1d",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "449"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/poseidon_m4.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/custom/workshop/daimyo_evil_greyred.png",
+    "bytes": 5154028,
+    "sha256": "65c4bb2203192296201f7b91de57889947093cf063925287894b8049199b6986",
+    "rgba8Sha256": "a61ec059baca562a73b4a3a4774f14532769bee95026fc077f5dfa54ad096eb7",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "480"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/daimyo_evil_greyred.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/custom/workshop/howling_m4a1.png",
+    "bytes": 6180419,
+    "sha256": "86aaf6b4238f51e8031d41f1aa20e1a41d7f7699204aafbfdffe16bf01363e90",
+    "rgba8Sha256": "b0f6a703225f1d9441d6edcfc316e369c67d4d058850b0ef5e4eaeb7ca21e667",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "309"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/howling_m4a1.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/custom/workshop/m4a4_ancestral.png",
+    "bytes": 1585449,
+    "sha256": "78edfe0c7e3d1bc9ba51e848c7f4fceda75e7c0d05a09338c6ee76eb5370f04c",
+    "rgba8Sha256": "1d54f7410edc35ffac769621bb54154e7afaa6d57715d92c33c39098311dc645",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "400"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/m4a4_ancestral.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/custom/workshop/m4a4_cyberpunk.png",
+    "bytes": 5987686,
+    "sha256": "71e497f2935fa9cdf2dbdb9508e4c546779f1291a8481add77151a53f0892632",
+    "rgba8Sha256": "bd32bfcba9b164bd215a35ca976b00684ec089cb5de7c623a0ba4918f44e36bc",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "985"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/m4a4_cyberpunk.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/custom/workshop/m4a4_cyberpunk_normal.png",
+    "bytes": 4113842,
+    "sha256": "a59e0ed895852966c54ff07d4b63b9780464254c1c0a7c98702cb3086c75d15b",
+    "rgba8Sha256": "6dd0b6de82f9f7a203e76a01b2f534a7f20a6e3aff8d784f1af8ce7a7948bb3c",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "985"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/m4a4_cyberpunk_normal.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/custom/workshop/m4a4_desolatespace2.png",
+    "bytes": 4880062,
+    "sha256": "5ca0d8487ea199f78d5055a5b186ced6eab592455e54c75c5fde869f074825bc",
+    "rgba8Sha256": "41440e6a5b92ef96636243b447f2772bfd572c7fdff45ad7e142b39382a1624b",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "588"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/m4a4_desolatespace2.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/custom/workshop/m4a4_elite_tactical.png",
+    "bytes": 4770383,
+    "sha256": "c76483f7b1e98fcdc96d6ed4d32e4d753c61d623e5c4d990121044493e44d828",
+    "rgba8Sha256": "09e275e3891602c57aeeaa0e3b365a1ef1983577d67345eb7aeea232c4816c63",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1149"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/m4a4_elite_tactical.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/custom/workshop/m4a4_elite_tactical_normal.png",
+    "bytes": 3463775,
+    "sha256": "5bac15ec862aa10559558a9f0cc2045ce5c4b4c9acc48868c1a27c17c7efd29b",
+    "rgba8Sha256": "8974a21ff4b5189ab99f33758bc43c889f20959a8c31af7a7eac87ca708372a9",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "1149"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/m4a4_elite_tactical_normal.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/custom/workshop/m4a4_griffin.png",
+    "bytes": 5563788,
+    "sha256": "70fde765c27f69a8af0e531ac57c0c218c17e0903321f7684d6619ca6dddc2aa",
+    "rgba8Sha256": "1eee238a1c2109935d7f4a929cbceb0d6b4df0a50dc3c5d5e43638255ff6172c",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "384"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/m4a4_griffin.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/custom/workshop/m4a4_hellfire.png",
+    "bytes": 3445384,
+    "sha256": "97fd8020dce327b8c2e06d3ea4f7b820d0ed6ac5df300754f6916d5f8e7cabdd",
+    "rgba8Sha256": "5a79d286e329f877733ded89b067665533f7e24e541d0f2d2b48898c9d5ad8ab",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "664"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/m4a4_hellfire.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/custom/workshop/m4a4_love.png",
+    "bytes": 6158813,
+    "sha256": "96cb54280a44e538a859d0f73ea421b1243cba8299ec5b09f28095599f2189b0",
+    "rgba8Sha256": "8094724f8141f7c3b18661cf5ed4c61eeb7cc76e95bb3e52d2120e93407ac0bb",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1041"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/m4a4_love.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/custom/workshop/m4a4_love_normal.png",
+    "bytes": 3089655,
+    "sha256": "a20cb68b04a8127a231e03149af5dc76a04adb3799caa50bdd36cd25e9bdf6f4",
+    "rgba8Sha256": "113f7d184ee4794ef642cd1cc03a2fc4d650527761ba11319963732a59ac449d",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "1041"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/m4a4_love_normal.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/custom/workshop/m4a4_neo_noir.png",
+    "bytes": 3902189,
+    "sha256": "02ed10b9e84f53f9d39e498f057082bc6621fb5d05e65c3268afa9e170236776",
+    "rgba8Sha256": "9c3943c674b9f1190e599d6dc1d2e1e7d9528050e7c04f3083687f529f752aa5",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "695"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/m4a4_neo_noir.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/custom/workshop/m4a4_neo_noir_normal.png",
+    "bytes": 1658877,
+    "sha256": "97e7e3b113bcc248a72a1ffa54c27220a0e0007069ebd66568ba18b940d1af59",
+    "rgba8Sha256": "e2c3e7a321a541a34b5c0f042288957d89126fa458d7d79b4aa18b30f91931e0",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "695"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/m4a4_neo_noir_normal.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/custom/workshop/m4a4_queenfairy.png",
+    "bytes": 6318840,
+    "sha256": "676e828108b69ebdcce91ad8457a72432d89626eb5959a1d3e1c66bde450f7fe",
+    "rgba8Sha256": "6b88f27ef9e05ffcf0411106594cb63b899da6229c1240b52b64a06c96aef432",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "971"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/m4a4_queenfairy.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/custom/workshop/m4a4_queenfairy_normal.png",
+    "bytes": 5541291,
+    "sha256": "5f80015edcadc0fde8fa94409f99146de9c94294ec2b06da96f527f5207a198e",
+    "rgba8Sha256": "7aac4c99c8ca7273024eaa920a3400088a00103c5a5ff292ce7fa34126ba117d",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "971"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/m4a4_queenfairy_normal.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/custom/workshop/m4a4_temukau.png",
+    "bytes": 3052208,
+    "sha256": "77dfa1f95d9554a60702394c8d36d440421724aef3115de5df77aac725795f1d",
+    "rgba8Sha256": "cc56afe28e825e1345c3edf3059ff5f1ab63badce991fd46276608a8e4f1558b",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1228"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/m4a4_temukau.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/custom/workshop/m4a4_temukau_normal.png",
+    "bytes": 2998181,
+    "sha256": "a80ab088a042fb29ce2c967b90c3259a77cd325498e81f56fe1239d2984b5b0b",
+    "rgba8Sha256": "5a1bb6ce4ae72573b22d816fd9df8035ab50563db44ce0c0af186f04b62d58a0",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "1228"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/m4a4_temukau_normal.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/custom/workshop/m4a4_titanstorm.png",
+    "bytes": 2768430,
+    "sha256": "3e5b4f2a509ad6fb3a4dab251dfd9f39acb24dd895c066a4e8086f470902338f",
+    "rgba8Sha256": "fb70653ea682d0736d2661952dadb6f9ecd35d3517ace39f47820619760b6f69",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "336"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/m4a4_titanstorm.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/custom/workshop/zone9_m4.png",
+    "bytes": 3647805,
+    "sha256": "b187d05cbec0ddd6fd22f77b1c4fd91fc50c04ed0511db7353ce92cf41289bef",
+    "rgba8Sha256": "ee14b8d60f5d7f4fa6bdddb4ae8f11f16eb68e23c533dab1f9fcfe4a4ef9b53d",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "255"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/zone9_m4.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/custom/xray_m4.png",
+    "bytes": 2738304,
+    "sha256": "3510e33e0b1eb6c43a794c1f6fcee025e57f0eadfcfb645de18bf645c8767ccb",
+    "rgba8Sha256": "dd08488b3662609f43c53b5ee16efc1e37180b42b3c03792d68aae3029539e98",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "215"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/xray_m4.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/gunsmith/m4a4_coalition.png",
+    "bytes": 8308804,
+    "sha256": "b113e02a12740610f1c7b610802af3d03db9619e9a055de904abf2fcb6af6544",
+    "rgba8Sha256": "3841db5bb900acfbebdebcf7706b14451b933e5d4e74d520b19d04fb853b0312",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1063"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/m4a4_coalition.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/gunsmith/m4a4_coalition_normal.png",
+    "bytes": 2106661,
+    "sha256": "e971a6d5f7592c9fbe93b5207596b0475afc9eab0241188709dcb7c96c67834c",
+    "rgba8Sha256": "62e29b965b754cfa3b8ca5939fc83f7652ef9061306d301b88c4a1f7a3b51560",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "1063"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/m4a4_coalition_normal.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/gunsmith/m4a4_ra.png",
+    "bytes": 8554920,
+    "sha256": "9eef4745d98ddaeffb3eb4c4101b2060d16b5187f59f50f4eb10a4ce7329b994",
+    "rgba8Sha256": "fd0009cdddb07008d195fcfb2417cf02a47ed9e1058aec62edfdf426be47c5fc",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1255"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/m4a4_ra.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/gunsmith/m4a4_ra_normal.png",
+    "bytes": 919767,
+    "sha256": "c85182a252c0e3b0adcefbb16da709f3c61593e7b38f39f98cb21917ddd74577",
+    "rgba8Sha256": "46606138bc2adfce05b0e350e0a406b01d710c1bff93917152704cbcaa81f9aa",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "1255"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/m4a4_ra_normal.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/m4_flowers.png",
+    "bytes": 7274510,
+    "sha256": "701530e7141b3d4fcf89ec943c9e9a8d14d044d40fef125ac81578642ef93174",
+    "rgba8Sha256": "68510954c827a0045c137d6b03b2c175981f71d9945f8f59ad1e80808ef21bb0",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1097"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/m4_flowers.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/m4_flowers_normal.png",
+    "bytes": 4838932,
+    "sha256": "7ba7f691fd440b06f4bbccaa5ecc22bf39a7231fa6085c2b87a8956695b1fc16",
+    "rgba8Sha256": "9223e71eea019bd8b330210c1e947566c481a95dab2dfbdc783e4d62e21be585",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "1097"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/m4_flowers_normal.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/m4a4_chopper_ghost.png",
+    "bytes": 8232891,
+    "sha256": "cb730aafad7083c25eacac410073fed1b99ecf1b662c2a7639aedb05a5c1e2be",
+    "rgba8Sha256": "379ec9728db4c6a307252d298d2800506b2708f1c75f483f3725f3bfece4a27d",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "811"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_chopper_ghost.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/m4a4_chopper_ghost_normal.png",
+    "bytes": 1550273,
+    "sha256": "95333a7e40f43129de6ed949b4025b66a571e1f2bd47cd19a5b4f272cd2fcb35",
+    "rgba8Sha256": "eecb9958109b80843246db48d50a5d4355547e2336a60952554b8d6472c24ede",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "811"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_chopper_ghost_normal.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/m4a4_emperor.png",
+    "bytes": 7076859,
+    "sha256": "2822097aa549598bd45bfeedce069c374962910f382104feb5d09b2ea313e388",
+    "rgba8Sha256": "c9b5938f9f10c40e8b7932a3bfaa3d2e792e9fbf666bc6755342503772b390ca",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "844"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_emperor.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/m4a4_pioneer.png",
+    "bytes": 8513478,
+    "sha256": "cb57084140c80aa0388ba34d905d490c5c43c9c7103fc8e4b7d9625df8d69447",
+    "rgba8Sha256": "bf94aa8a5a71e41f2c1200c705a84fbce708576f034bec7274459e793fd019e0",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "533"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_pioneer.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/m4a4_pioneer_n.png",
+    "bytes": 1170088,
+    "sha256": "22a9e519dcc547d5fb73a5fd1353a3acb42da2053fa44cb59ad892c09d06e32a",
+    "rgba8Sha256": "a901e196ac1011352ab92a1920c666df73f11c9104a687092e232aa313e9fbc4",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "533"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 144,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_pioneer_n.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/m4a4_royal_squire.png",
+    "bytes": 4807103,
+    "sha256": "8c1cdd143323dde37de82aced4e694035f09876184021e12e04be49acd912d1d",
+    "rgba8Sha256": "5a12a1826f336c540e8cc7e6dc671a4d395c3de06e99ccd4f289cf4a025c8bfb",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "512"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_royal_squire.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/m4a4_royal_squire_normal.png",
+    "bytes": 630095,
+    "sha256": "f86f0f6084e9faa1a4aef5f01ba8d7fe929a62c91faeaeb5f5aab4bc315b9c73",
+    "rgba8Sha256": "5043514df73a618a6aafa0dff0f47bd49240f284b3a9d204590f97fc2cb3e85e",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "512"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 144,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_royal_squire_normal.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/m4a4_sector.png",
+    "bytes": 5881225,
+    "sha256": "5cfcf135cc51c1cb3540a1a3be8b855e52471c5eb56f023d6b26baee9a0df85c",
+    "rgba8Sha256": "9969df858a68c9c1d7323188badfde0196c0b25ad9c0936e8064cd55892a3d4f",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "632"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_sector.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/m4a4_sector_normal.png",
+    "bytes": 456810,
+    "sha256": "bb5b28ba1eb35561aa6e6fa3f85dd6e0e3fd311ee774b501abc59c430b514850",
+    "rgba8Sha256": "cb242a05e427a1565574df113fba48e7c9dd779cc7c968737a382ffdb373f16b",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "632"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 144,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/m4a4_sector_normal.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/hydrographic/ddpat.png",
+    "bytes": 24599,
+    "sha256": "75d62d8427051b556c4109f8034b1674f0e617b88f4139e301d8eb6bd62b99b1",
+    "rgba8Sha256": "11a7b1e4bed0e6d0a2d8fe4054695e580c3540901d46d8184c28c445a0b6319e",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "17",
+      "926"
+    ],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 1,
+    "sourceMaterial": "materials/models/weapons/customization/paints/hydrographic/ddpat.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/hydrographic/desert_spots.png",
+    "bytes": 45236,
+    "sha256": "0e7b4cd33470d5bb6b7df7d8c3cd5bf6d2286310e52ec33b5b0925d31f04831c",
+    "rgba8Sha256": "bf3c89528d97a17b863d66982910407d4f3c55cf4865df83e1a4eeb1a43aaffc",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "8"
+    ],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/hydrographic/desert_spots.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/hydrographic/hive.png",
+    "bytes": 764815,
+    "sha256": "cc4a86f7f6bfa3ca550a62b3f1b989dc6e93182c62a0b540648aed4e71a17ed2",
+    "rgba8Sha256": "c2092950b03e66f04e63f334918bf7e61e7559ee223c8b70b65a06829b3a7798",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "793"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 16,
+    "sourceMaterial": "materials/models/weapons/customization/paints/hydrographic/hive.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/hydrographic/hunter_modern.png",
+    "bytes": 1062283,
+    "sha256": "6226bc48109c2b0fad9ec312e991f9fbcc905ac2f7a777aa55d3a31f9e83afe8",
+    "rgba8Sha256": "d0a62791b958434047ee4ec9b18c25839b1a0b187973b9220a59dbccc45270f2",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "164"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/hydrographic/hunter_modern.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/hydrographic/v_tiger.png",
+    "bytes": 510836,
+    "sha256": "8884d0033093816db42996120f4eecb6a2f6d4f0d6d37338166a60cd7d096d4c",
+    "rgba8Sha256": "1744038a9c53b692aadb910f67afe20a3174f2d852bd6de3134ea42e5fbb5d51",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "16"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/hydrographic/v_tiger.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/spray/island_flower_bud.png",
+    "bytes": 190409,
+    "sha256": "9b3322d0e24ef072a9df79ac7b7791cc019cf2c0c9ae6cb9af6baddbe55ca0bf",
+    "rgba8Sha256": "b8f31e835fb6a78cdb9cc3fa2d42258992387f06241cada5c98b05d57d5958c7",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "730"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/spray/island_flower_bud.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/spray/nukestripe.png",
+    "bytes": 252127,
+    "sha256": "3c88a3cf96a5b69bca6a2ab31c721ff4a62985ef20083613cb56ba1bef324ff9",
+    "rgba8Sha256": "688df9043e188a29d8865f8c1e04d86fd882ff58ffdd2b9a1207ad6b58824392",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "167"
+    ],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/spray/nukestripe.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/spray/star.png",
+    "bytes": 133603,
+    "sha256": "d6722bb3006ef5fcb4e5c7992d2732ba49b17688a46293277db9935c0982fccc",
+    "rgba8Sha256": "d1e71e8e1a82dd0da149a504befcb2dba2ada01cec87f08e90599b61871df495",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "187"
+    ],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 12,
+    "sourceMaterial": "materials/models/weapons/customization/paints/spray/star.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/paints/spray/tiger.png",
+    "bytes": 597216,
+    "sha256": "2c6b1668d22e25c2ff9b70a3773b98cc9403c847e0d2c681dbb9ece70894ff24",
+    "rgba8Sha256": "0ced587610a249c68490e622f1602b9e3ac48ecc69eb438bdb50f27aa27a4dd1",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "176"
+    ],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/spray/tiger.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/rif_m4a1/rif_m4a1_ao.png",
+    "bytes": 1623733,
+    "sha256": "e9545a336117b90fcf23a5e6d7f98a7730fa26ad09bc2364cf61cb2baabb25b7",
+    "rgba8Sha256": "4d9fdf1fd6b3ead86f05ae6bedfe65d7a914e5dfd921823f6d8774826dc53ad3",
+    "role": "ao",
+    "sampler": 0,
+    "paintKitIds": [],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 8448,
+    "sourceMaterial": "materials/models/weapons/customization/rif_m4a1/rif_m4a1_ao.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/rif_m4a1/rif_m4a1_masks.png",
+    "bytes": 9277,
+    "sha256": "0fe4d0401ae378361e936bf04e2ebc4a4842f4a5733ece5bd2e7d73c39bdffc4",
+    "rgba8Sha256": "21e4d7c39d484bd0cd6313ce77889ff3d06e73e1e5b3ad39ce1d8eaadf86b1cb",
+    "role": "mask",
+    "sampler": 4,
+    "paintKitIds": [],
+    "width": 256,
+    "height": 256,
+    "vtfFlags": 256,
+    "sourceMaterial": "materials/models/weapons/customization/rif_m4a1/rif_m4a1_masks.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/rif_m4a1/rif_m4a1_pos.png",
+    "bytes": 200044,
+    "sha256": "993710819a0dcb3880b8f1c0dff5f0328ee4914cb81185bb06ea8338719822f4",
+    "rgba8Sha256": "eb47bf4c2a3e19f12a2fefde8e59369bd7da39eb994541c2d4fb2dbdf8a87a03",
+    "role": "osPos",
+    "sampler": 7,
+    "paintKitIds": [],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 8448,
+    "sourceMaterial": "materials/models/weapons/customization/rif_m4a1/rif_m4a1_pos.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/rif_m4a1/rif_m4a1_surface.png",
+    "bytes": 70482,
+    "sha256": "4adbe75725d2b534bae29b37a74300495b424c01a1bc66efc556736c12c763cc",
+    "rgba8Sha256": "8159fcf944a2e153f3f0d8e80a597aa6c2d849a5674e34338d6c5bc5062ecb10",
+    "role": "surface",
+    "sampler": 6,
+    "paintKitIds": [],
+    "width": 256,
+    "height": 256,
+    "vtfFlags": 256,
+    "sourceMaterial": "materials/models/weapons/customization/rif_m4a1/rif_m4a1_surface.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/shared/gun_grunge.png",
+    "bytes": 3655658,
+    "sha256": "36204a3bb3a4d710546fa70b3806edf836db5b178b0b55126ab566db81b165e7",
+    "rgba8Sha256": "4bf5bc5f311d0cd805b5118b8e48521c50b08afa7bc109c1ce7cafbaf134c8f8",
+    "role": "gunGrunge",
+    "sampler": 5,
+    "paintKitIds": [],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/shared/gun_grunge.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/shared/paint_wear.png",
+    "bytes": 6308473,
+    "sha256": "208155fd76beb355aaf8243143be2ad2c2460972d9cae19b633c2fde36689fb6",
+    "rgba8Sha256": "f092fb434b6d18fb5638408e97aad355a38e3ecca17fb35f542585f62823516d",
+    "role": "paintWear",
+    "sampler": 1,
+    "paintKitIds": [],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/shared/paint_wear.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/customization/uvs/weapon_m4a1.png",
+    "bytes": 597286,
+    "sha256": "27816211ebfcc4ca107bcdd6f12ce58b313788f0e3e1ebf713dbd5051978c5e7",
+    "rgba8Sha256": "097e537fc4e640a1acf436c6502fd979195510fac62d72286337a3e8cd73024e",
+    "role": "uv",
+    "sampler": -1,
+    "paintKitIds": [],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/uvs/weapon_m4a1.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/v_models/rif_m4a1/rif_m4a1.png",
+    "bytes": 5463719,
+    "sha256": "1bb4460d116f70f3c4f94295197180203ba291e430efb8afad89017b9aa7a207",
+    "rgba8Sha256": "51fc3ab0b293722dc5f9350d81e5622ef04dc9c38de2de28ed7234730ee5c301",
+    "role": "weaponAlbedo",
+    "sampler": 3,
+    "paintKitIds": [],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8208,
+    "sourceMaterial": "materials/models/weapons/v_models/rif_m4a1/rif_m4a1.vtf"
+  },
+  {
+    "weapon": "weapon_m4a1",
+    "path": "png/models/weapons/v_models/rif_m4a1/rif_m4a1_exponent.png",
+    "bytes": 199839,
+    "sha256": "886542b3dfc3b17f89c9583dd9e8f8308924fc6573d4de9aa8e92bd069872168",
+    "rgba8Sha256": "6a7918360bbd38ae15de6deacb27545acf3c716dc6e5907a357e4e5457ab4583",
+    "role": "weaponExponent",
+    "sampler": 2,
+    "paintKitIds": [],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 16,
+    "sourceMaterial": "materials/models/weapons/v_models/rif_m4a1/rif_m4a1_exponent.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "inputs.json",
+    "bytes": 65570,
+    "sha256": "2028a4521ea4497942dd669f949954c3bd8a3bb170d202dc5a9185e9081c7e1a",
+    "rgba8Sha256": "",
+    "role": "receipt",
+    "sampler": -1,
+    "paintKitIds": [],
+    "width": 0,
+    "height": 0,
+    "vtfFlags": 0,
+    "sourceMaterial": "scripts/extract-source-kit-inputs.py"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/anodized_multi/ddpat.png",
+    "bytes": 20666,
+    "sha256": "5b8e002752788de9286d428a287607c416b393fdc5a1a446723d82414c826211",
+    "rgba8Sha256": "488b9b5191a182f4b68414f8c74484b632cd9f93b0538275de5f7baa4bfc9cc3",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "818"
+    ],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 8449,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_multi/ddpat.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/anodized_multi/electric.png",
+    "bytes": 108241,
+    "sha256": "6d47138c89386e31841132f4e527c3d2912c672d83def298f01bf892cd586c1f",
+    "rgba8Sha256": "34edf15e7492d71062488ec6a8436c583b6ab2f2e093793c9f4e0c868678d1f1",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "221"
+    ],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 256,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_multi/electric.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/anodized_multi/iguana_skin.png",
+    "bytes": 1984520,
+    "sha256": "83fa8126069fc54c2a8a8e84eb8eedaa440f95a0eb68628e555372f8c93506c8",
+    "rgba8Sha256": "fb89018b3f48284d1fe97beac475ec4f75988578a34da749070ca7a94a09eaa2",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "922"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_multi/iguana_skin.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/anodized_multi/intelligence.png",
+    "bytes": 1013902,
+    "sha256": "bcdfa48f6f56e49d613b88263a12d623e1ef57d463737a37f7b0ac98b8c0c2e6",
+    "rgba8Sha256": "ec7afdc5675e7eecde7e1799ecc01bc86763ff789eb36ba60897182a66fffdfa",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1027"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_multi/intelligence.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/anodized_multi/zebra.png",
+    "bytes": 302638,
+    "sha256": "35e328444534e40f89a811c880292cce9c6a3b2fa81ae7f8877201134b59e15a",
+    "rgba8Sha256": "5a1856f4118df61b1324e705521d8f4dc3ac4b389f7421955b47e75c3d669739",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "60"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 8448,
+    "sourceMaterial": "materials/models/weapons/customization/paints/anodized_multi/zebra.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/antiqued/silver_usp.png",
+    "bytes": 3377648,
+    "sha256": "96ce954f42fbf080ef82ab5b806ac95df119b94e2e5bb0fd11400f16713c638f",
+    "rgba8Sha256": "55ff4b95a2809e87d93802501a2af86f8d6ca1ff4e5642a25b877788945c5650",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "277"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 16,
+    "sourceMaterial": "materials/models/weapons/customization/paints/antiqued/silver_usp.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/custom/luggage_usp-s.png",
+    "bytes": 3440988,
+    "sha256": "fdfa25555a873af2b055ae2b6f62d0315b3447c8bc1e5ffebdee0c660097a14a",
+    "rgba8Sha256": "17d66e6df54672a65a82029d8218e35b3758d4e39a06043197a54acf0595fd83",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "364"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8208,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/luggage_usp-s.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/custom/usp-s_sandpapered.png",
+    "bytes": 7702330,
+    "sha256": "9623d19051c9b5cc39636059af6770272be357d47e573d875c622bc346c8681f",
+    "rgba8Sha256": "25e9d01a1c71cae3b03259fe2dcaeb495a73a2c9678a1fdcc9e071528f1815fc",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "318"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/usp-s_sandpapered.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/custom/workshop/spitfire_usp.png",
+    "bytes": 2407459,
+    "sha256": "4f15780ff53220d33c24c7b0fa5b163854eae999b1b795c57ded6de950ce1d7a",
+    "rgba8Sha256": "4e2fd42113871deaa177fe597116a1cac8a139eaea18e78b7b2807eb5bd3d873",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "313"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/spitfire_usp.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/custom/workshop/usp-s_ct_elegant_update.png",
+    "bytes": 1503151,
+    "sha256": "84df82585ae22648132e8c0b47b0af3fe76e0b83d0d66ea07c54e381425cde69",
+    "rgba8Sha256": "70a57bf996953924df3ba409a676598a3a3d7eaea094f69163d2d0a1e8c0094d",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "290"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/usp-s_ct_elegant_update.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/custom/workshop/usp_black_lotus.png",
+    "bytes": 5478109,
+    "sha256": "c4d32daaedafc1925005445cc28617dda620a4e39cf7c64bd4dea898b03228b7",
+    "rgba8Sha256": "d066899f052ce3f21709894aec7bfae50c806e8aa66b08433a9e42e85add54d5",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1102"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/usp_black_lotus.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/custom/workshop/usp_black_lotus_normal.png",
+    "bytes": 1526773,
+    "sha256": "ba5981f8ed2ffec594f9b73b9b83c5b0cdf2a088e7a39501621cdf0dfded0399",
+    "rgba8Sha256": "1d8db7e88976f650dc322689108a5ed3a0d7f1fa98506ec62fa906b9dbc1f21f",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "1102"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/usp_black_lotus_normal.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/custom/workshop/usp_cut.png",
+    "bytes": 6582277,
+    "sha256": "41d6bd14d19265a9a53c5398f851b7a42e71fd1b39b58341719ec01193591439",
+    "rgba8Sha256": "7246bef4a93039a6be3810d02aaa7d5e6a29e2cbde010786f45566b169df22e4",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "705"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/usp_cut.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/custom/workshop/usp_cyrex.png",
+    "bytes": 4501891,
+    "sha256": "c15f987f233b280c2f0d1e06bf0badda8917c518dab3aa490a62d50b81283167",
+    "rgba8Sha256": "d7b867652f60661876ff769c8514be5174677bc94c1d81076a39c91fd9f5121e",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "637"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/usp_cyrex.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/custom/workshop/usp_flashback.png",
+    "bytes": 6107299,
+    "sha256": "ef9cf73caa1b867bb6d50d878d57cc4260edfc096fb86620888659ef76a9c5b0",
+    "rgba8Sha256": "6c3a329d3b01e7ed5fd52fd98c32ea0c2b4cc05b63afb13db630f9dc0db4e66e",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "817"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/usp_flashback.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/custom/workshop/usp_kaiman.png",
+    "bytes": 1834260,
+    "sha256": "6a046141230026e234ebbdabdd553b9392a5b84dcc44bd38bd1e26db9f632b34",
+    "rgba8Sha256": "0aca101f85886eeee111d330c3aed8171de91fb29e3aa20ffb56c93cdb8ecf4b",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "339"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/usp_kaiman.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/custom/workshop/usp_kill_confirmed.png",
+    "bytes": 4467416,
+    "sha256": "983f1ff8ec31c2f680fb036ff442361bf73ca7f577b812b992c9ce52955d7d4c",
+    "rgba8Sha256": "8a601d722052d5d48f79b23a47403e68c9ed8ea6bca96c88e902d8267826a465",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "504"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/usp_kill_confirmed.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/custom/workshop/usp_krokos.png",
+    "bytes": 5140222,
+    "sha256": "e43e7c1542cf6afd1839f936739a84571c136d6a67cef800a2a67ab7f6c57eae",
+    "rgba8Sha256": "a25b655133e8341db028aad7680137b411271b22a476e6b8f68733ea3ab34b7a",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "991"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/usp_krokos.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/custom/workshop/usp_printstream.png",
+    "bytes": 376295,
+    "sha256": "79bf2fa6b3b2d70eca458c7b4da3d1bd25ccc035e394eb49294c2fbf12d0d309",
+    "rgba8Sha256": "6a76b44c86fd0e64e74d53c6b9b63827abf952388db74483ed3dea3c9f599055",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1142"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/usp_printstream.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/custom/workshop/usp_printstream_normal.png",
+    "bytes": 631203,
+    "sha256": "64d584b7fc9777aa88c56f53d0c149f2f0ecf8e480387c5bade76816004e07ab",
+    "rgba8Sha256": "a13e633e3b19ba4fc94c41c7db19dc841096925af6892e31324d144bf927e4c4",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "1142"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/usp_printstream_normal.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/custom/workshop/usp_to_hell.png",
+    "bytes": 912145,
+    "sha256": "d1a8502bc30ffa3d8481877db6d1997a23770a6522b1c1d6951a450a8802c31f",
+    "rgba8Sha256": "a0fee06d03e0251f0a92b38cf631f2fecd01a20dc8348d12efbbe6407bdae5d5",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1136"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/usp_to_hell.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/custom/workshop/usps_blueprint.png",
+    "bytes": 5373231,
+    "sha256": "de3c4964bc490d91fe681b8e6ecc1bd8c73456c2fb53ea7f0a3c5448885ea715",
+    "rgba8Sha256": "0397edee05278775b03262e07486e89061c39b340adfc749cf558101994c954a",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "657"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/usps_blueprint.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/custom/workshop/usps_noir.png",
+    "bytes": 4907994,
+    "sha256": "ce2b5880155fc0c9f37f98fb05d1d080bc693c1fe7c65ac5d2ebeac39e90bcea",
+    "rgba8Sha256": "7b56dfa3e5741e6f6342fbf5f927f18d35f882a8e4c2ad3f8cff93e7f0e6985f",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "653"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/usps_noir.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/custom/workshop/usps_progressiv.png",
+    "bytes": 3598957,
+    "sha256": "7a32f6ee463dfb3344852222e278528021845f38c7f825f7f5c3a62cdb19ea59",
+    "rgba8Sha256": "60b9fbd1c4e21b7fb914d30d20167b2feb820ced28833677dcdb958cc2d05d94",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "489"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/usps_progressiv.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/gunsmith/usps_tactical_camo.png",
+    "bytes": 6190778,
+    "sha256": "4f4b7866ae69c7067ecd697c184eba3d6ae3d57ed0902ab6fe07517cf92420b5",
+    "rgba8Sha256": "9b87c9a28847614a82ad8c7703d1ed223b54a800d487d904813cbf45bc91b16e",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1253"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/usps_tactical_camo.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/gunsmith/usps_tactical_camo_normal.png",
+    "bytes": 4317660,
+    "sha256": "1571208a99b7dee1130f5808fef45cf0b0d2f5b5659bd9c8fe72328f326aca8f",
+    "rgba8Sha256": "242be6867117b6cc399c7740dad09cbc5ecedc67eea14494c04e1b238dd391b9",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "1253"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 128,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/usps_tactical_camo_normal.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/usp_voltage.png",
+    "bytes": 5273770,
+    "sha256": "a9fb6107b416d8e78646bcc9fb3c258ea9ed66309db027b2ef86865a83aa4ccb",
+    "rgba8Sha256": "af658d677ecbb1f5aa292103c210a1da800282e9c90e770cb7325def0d69feb0",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "540"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/usp_voltage.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/usp_voltage_normal.png",
+    "bytes": 1591771,
+    "sha256": "e45267c81920d35fdcfe03de1985c5b37c415d9a0d97047fd6f82e6bfe149cfb",
+    "rgba8Sha256": "0c6f69ef8c70b17e2ea2273da2419d9d48616837c276e0e70f213b319639f026",
+    "role": "normal",
+    "sampler": -1,
+    "paintKitIds": [
+      "540"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 144,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/usp_voltage_normal.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/gunsmith/workshop/usps_hangedman.png",
+    "bytes": 3161358,
+    "sha256": "bfda0636bb58968567e6eb0d57be519560a49c22cae4a81c06dc6e95be7aa723",
+    "rgba8Sha256": "6c6874fb6bde750660fb80ad68a24f84de836e6b8584fb580774edda023ddf40",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1040"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/paints/gunsmith/workshop/usps_hangedman.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/hydrographic/camo_arctic.png",
+    "bytes": 78474,
+    "sha256": "14760ff87d9e23f3f11675960cf753e8887d76c743e0c67fb92e87f7d528b275",
+    "rgba8Sha256": "bd2f847ccff101e90f1c13f56bca99b76e46340a52e9032daef1f81256b41c0c",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "183"
+    ],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 256,
+    "sourceMaterial": "materials/models/weapons/customization/paints/hydrographic/camo_arctic.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/hydrographic/usp_solid.png",
+    "bytes": 49317,
+    "sha256": "a7b1d9733fc42a6b511501beb614b5d08f31170841ea31778501acdc3df95c50",
+    "rgba8Sha256": "b10da85810cdd9bc82198df609b44cbb63ccf4d49419e0447fae80a2c406cdd0",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "454"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/hydrographic/usp_solid.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/hydrographic/usp_solid_colors.png",
+    "bytes": 20358,
+    "sha256": "f93451d9e2254ed3fe7e9cb4084875ef5b2b2fc75f0612f3851b0ed82f9369e4",
+    "rgba8Sha256": "af919f75f888b962b663a7c1960e5bacc422e7c003968b63ed84ce37cc612450",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "332"
+    ],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/hydrographic/usp_solid_colors.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/hydrographic/v_tiger.png",
+    "bytes": 510836,
+    "sha256": "8884d0033093816db42996120f4eecb6a2f6d4f0d6d37338166a60cd7d096d4c",
+    "rgba8Sha256": "1744038a9c53b692aadb910f67afe20a3174f2d852bd6de3134ea42e5fbb5d51",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "217"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/hydrographic/v_tiger.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/hydrographic/varicamo.png",
+    "bytes": 1725972,
+    "sha256": "01cf0b4f3b4489863b1956c8eb8e78b973edbf147b5a9a2cf75ad8ce5ba77de9",
+    "rgba8Sha256": "9d4c997db3a9737c9eeb843485f23f225a18ecd0a618eab3786caf8c86687603",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "236"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/hydrographic/varicamo.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/spray/ancient_pattern.png",
+    "bytes": 836982,
+    "sha256": "f11175efa0b88abd8fa812f13a2f1dfb873009b7d1549a05d568b0b6797051a7",
+    "rgba8Sha256": "6592e7177c5349b6ec19aaca863d0e1dfc8733ccdeca2cde989449025d242d62",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "1031"
+    ],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/spray/ancient_pattern.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/spray/camo_leaves.png",
+    "bytes": 454453,
+    "sha256": "7232e0e8fa50c317f3d7504c5ec8e0337580131cd83332d651fed43f8bc45090",
+    "rgba8Sha256": "e2ce23153c60ad0702508c2db9dcf7d44927cad52b8ecfde345bc0d9d8453066",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "25"
+    ],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 256,
+    "sourceMaterial": "materials/models/weapons/customization/paints/spray/camo_leaves.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/spray/labyrinth_basic.png",
+    "bytes": 1129663,
+    "sha256": "aac3b77d113f9c11543e2d304ffcfcf49d76a610df71ffa6cc86be4eb1fa25de",
+    "rgba8Sha256": "82e17385846b0d219fdbed180033f16b80011837901efbe2b3eaff84dd5539f1",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "443"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/spray/labyrinth_basic.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/paints/spray/mesh_fabric.png",
+    "bytes": 1630066,
+    "sha256": "6d849642618033854272e02e8977c56fc4741c71e1d1b223970f43bd6fb9596f",
+    "rgba8Sha256": "ed5caf0403a8bcfde6007c1910b947bbe33129c3b7ca4eb9cd820a5c66902f4c",
+    "role": "pattern",
+    "sampler": 8,
+    "paintKitIds": [
+      "796"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/paints/spray/mesh_fabric.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/pist_223/pist_223_ao.png",
+    "bytes": 959003,
+    "sha256": "05597dbcb1ec6c9355195e23b93f1ed30c815aa507525df8324da60a3470e697",
+    "rgba8Sha256": "0bbcd4dcbe327f316fcdd57bbc4469ec593e9b3ab013767f22f77b88a32a77a2",
+    "role": "ao",
+    "sampler": 0,
+    "paintKitIds": [],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 8448,
+    "sourceMaterial": "materials/models/weapons/customization/pist_223/pist_223_ao.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/pist_223/pist_223_masks.png",
+    "bytes": 3071,
+    "sha256": "6abfbbd54d48714b62fce530d1f765a57c676c13d7931cb8e2bfca5b0def3ef9",
+    "rgba8Sha256": "466c2a818fc52cc0083f125a21ab20cb8d2266032904cd23f3cad136f09efb3b",
+    "role": "mask",
+    "sampler": 4,
+    "paintKitIds": [],
+    "width": 256,
+    "height": 256,
+    "vtfFlags": 256,
+    "sourceMaterial": "materials/models/weapons/customization/pist_223/pist_223_masks.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/pist_223/pist_223_pos.png",
+    "bytes": 169008,
+    "sha256": "ddc1130285adba635dd08eaa3a49892e6465931b80819c23f7dcc11fcbd42f28",
+    "rgba8Sha256": "6445850f7be847ce1c3047eff856def265672851810a13ec19c5fef1f411e3ad",
+    "role": "osPos",
+    "sampler": 7,
+    "paintKitIds": [],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 8448,
+    "sourceMaterial": "materials/models/weapons/customization/pist_223/pist_223_pos.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/pist_223/pist_223_surface.png",
+    "bytes": 70570,
+    "sha256": "ae1f8696e9e29ec7b446e720ce7eb0b596842abe660225f692817e7f73547d3a",
+    "rgba8Sha256": "d7860fe0f6cf50a9f6147447eeac924fd8933c65a885c5ce6b609f069d35ae78",
+    "role": "surface",
+    "sampler": 6,
+    "paintKitIds": [],
+    "width": 256,
+    "height": 256,
+    "vtfFlags": 256,
+    "sourceMaterial": "materials/models/weapons/customization/pist_223/pist_223_surface.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/shared/gun_grunge.png",
+    "bytes": 3655658,
+    "sha256": "36204a3bb3a4d710546fa70b3806edf836db5b178b0b55126ab566db81b165e7",
+    "rgba8Sha256": "4bf5bc5f311d0cd805b5118b8e48521c50b08afa7bc109c1ce7cafbaf134c8f8",
+    "role": "gunGrunge",
+    "sampler": 5,
+    "paintKitIds": [],
+    "width": 1024,
+    "height": 1024,
+    "vtfFlags": 8192,
+    "sourceMaterial": "materials/models/weapons/customization/shared/gun_grunge.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/shared/paint_wear.png",
+    "bytes": 6308473,
+    "sha256": "208155fd76beb355aaf8243143be2ad2c2460972d9cae19b633c2fde36689fb6",
+    "rgba8Sha256": "f092fb434b6d18fb5638408e97aad355a38e3ecca17fb35f542585f62823516d",
+    "role": "paintWear",
+    "sampler": 1,
+    "paintKitIds": [],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/shared/paint_wear.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/customization/uvs/weapon_usp_silencer.png",
+    "bytes": 444531,
+    "sha256": "0722945f9d70e71f076a30de70e18ff192e00d95c16a5e2dfe602bfab0e4a355",
+    "rgba8Sha256": "9780ec0aa502b3ed323e36107edd764c7b4cd7e72826cd6cd84adb751cff163b",
+    "role": "uv",
+    "sampler": -1,
+    "paintKitIds": [],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/customization/uvs/weapon_usp_silencer.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/v_models/pist_223/pist_223.png",
+    "bytes": 6927517,
+    "sha256": "8f1a637b07c4c3f90702d8a339b03d622ea4594ab238e93a9d01ef56fe92577c",
+    "rgba8Sha256": "33b550d4f59e050a274e972f609d5f40fbcbcf3d03784021e52d9820d546c176",
+    "role": "weaponAlbedo",
+    "sampler": 3,
+    "paintKitIds": [],
+    "width": 2048,
+    "height": 2048,
+    "vtfFlags": 8208,
+    "sourceMaterial": "materials/models/weapons/v_models/pist_223/pist_223.vtf"
+  },
+  {
+    "weapon": "weapon_usp_silencer",
+    "path": "png/models/weapons/v_models/pist_223/pist_223_exponent.png",
+    "bytes": 261955,
+    "sha256": "a762b9dab7729abb996ac526cea89bafa2520bf10991bf0b03556648ffb9b6e4",
+    "rgba8Sha256": "e84d246356f59ff726b132d513874ba17ae03d3034e9408665fc56a75e81b210",
+    "role": "weaponExponent",
+    "sampler": 2,
+    "paintKitIds": [],
+    "width": 512,
+    "height": 512,
+    "vtfFlags": 0,
+    "sourceMaterial": "materials/models/weapons/v_models/pist_223/pist_223_exponent.vtf"
+  }
+]

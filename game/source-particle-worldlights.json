@@ -1,0 +1,993 @@
+{
+  "format": "source-particle-worldlights-v1",
+  "build": 12426148,
+  "bspSHA256": "b91be410539fbbfc16300423f1e19c024f12addf1429c8cb2f72b53fe0fd6bcc",
+  "lump": 54,
+  "lumpVersion": 1,
+  "stride": 100,
+  "lumpSHA256": "cbe51d1bea1878124fff980065cb9f69aea06b9d1ffd74951a91ac9fbdbd47b4",
+  "engineSHA256": "34a96aefd9357a20e7e81f1525f13363e2561c88001d73d24c2b06b0655671f1",
+  "units": "original Source coordinates; linear HDR light intensity",
+  "worldlights": [
+    {
+      "id": 0,
+      "origin": [
+        325.06201171875,
+        2373.35009765625,
+        8.0
+      ],
+      "intensity": [
+        16004.21484375,
+        15129.9892578125,
+        12151.9931640625
+      ],
+      "normal": [
+        6.123234262925839e-17,
+        0.0,
+        -1.0
+      ],
+      "shadowCastOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster": 449,
+      "type": 2,
+      "style": 0,
+      "stopDot": 0.8660253882408142,
+      "stopDot2": 0.25881898403167725,
+      "exponent": 1.0,
+      "radius": 1294.9639892578125,
+      "constantAttenuation": 0.0,
+      "linearAttenuation": 0.0,
+      "quadraticAttenuation": 1.0,
+      "flags": 2,
+      "texinfo": 0,
+      "owner": 0,
+      "sourceRadius": 0.0
+    },
+    {
+      "id": 1,
+      "origin": [
+        1440.0,
+        2168.0,
+        40.0
+      ],
+      "intensity": [
+        0.6333720684051514,
+        0.7366752624511719,
+        0.9037144780158997
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "shadowCastOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster": 126,
+      "type": 5,
+      "style": 0,
+      "stopDot": 0.0,
+      "stopDot2": 0.0,
+      "exponent": 0.0,
+      "radius": 2000.0,
+      "constantAttenuation": 0.0,
+      "linearAttenuation": 0.0,
+      "quadraticAttenuation": 0.0,
+      "flags": 0,
+      "texinfo": 0,
+      "owner": 0,
+      "sourceRadius": 0.0
+    },
+    {
+      "id": 2,
+      "origin": [
+        1440.0,
+        2168.0,
+        40.0
+      ],
+      "intensity": [
+        2.2354936599731445,
+        1.796968698501587,
+        1.2781003713607788
+      ],
+      "normal": [
+        0.4701050817966461,
+        0.43838009238243103,
+        -0.7660444974899292
+      ],
+      "shadowCastOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster": 126,
+      "type": 3,
+      "style": 0,
+      "stopDot": 0.0,
+      "stopDot2": 0.0,
+      "exponent": 0.0,
+      "radius": 2000.0,
+      "constantAttenuation": 0.0,
+      "linearAttenuation": 0.0,
+      "quadraticAttenuation": 0.0,
+      "flags": 0,
+      "texinfo": 0,
+      "owner": 0,
+      "sourceRadius": 0.0
+    },
+    {
+      "id": 3,
+      "origin": [
+        -674.1320190429688,
+        -1154.719970703125,
+        278.27301025390625
+      ],
+      "intensity": [
+        352.6998291015625,
+        346.34503173828125,
+        306.56890869140625
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "shadowCastOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster": 1603,
+      "type": 1,
+      "style": 0,
+      "stopDot": 0.0,
+      "stopDot2": 0.0,
+      "exponent": 0.0,
+      "radius": 196.92080688476562,
+      "constantAttenuation": 0.0,
+      "linearAttenuation": 0.0,
+      "quadraticAttenuation": 1.0,
+      "flags": 2,
+      "texinfo": 0,
+      "owner": 0,
+      "sourceRadius": 0.0
+    },
+    {
+      "id": 4,
+      "origin": [
+        823.0,
+        1597.77001953125,
+        335.5199890136719
+      ],
+      "intensity": [
+        3887.8154296875,
+        3526.99853515625,
+        2777.638671875
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "shadowCastOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster": 560,
+      "type": 1,
+      "style": 0,
+      "stopDot": 0.0,
+      "stopDot2": 0.0,
+      "exponent": 0.0,
+      "radius": 629.22509765625,
+      "constantAttenuation": 0.0,
+      "linearAttenuation": 0.0,
+      "quadraticAttenuation": 1.0,
+      "flags": 2,
+      "texinfo": 0,
+      "owner": 0,
+      "sourceRadius": 0.0
+    },
+    {
+      "id": 5,
+      "origin": [
+        -705.364013671875,
+        1424.9200439453125,
+        79.00019836425781
+      ],
+      "intensity": [
+        9170.1953125,
+        8679.4296875,
+        7970.7919921875
+      ],
+      "normal": [
+        6.123234262925839e-17,
+        0.0,
+        -1.0
+      ],
+      "shadowCastOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster": 788,
+      "type": 2,
+      "style": 0,
+      "stopDot": 0.8660253882408142,
+      "stopDot2": 0.3420201241970062,
+      "exponent": 1.0,
+      "radius": 997.7239379882812,
+      "constantAttenuation": 0.0,
+      "linearAttenuation": 0.0,
+      "quadraticAttenuation": 1.0,
+      "flags": 2,
+      "texinfo": 0,
+      "owner": 0,
+      "sourceRadius": 0.0
+    },
+    {
+      "id": 6,
+      "origin": [
+        -705.364013671875,
+        1424.9200439453125,
+        67.00019836425781
+      ],
+      "intensity": [
+        176.34991455078125,
+        166.912109375,
+        153.28445434570312
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "shadowCastOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster": 788,
+      "type": 1,
+      "style": 0,
+      "stopDot": 0.0,
+      "stopDot2": 0.0,
+      "exponent": 0.0,
+      "radius": 138.3594207763672,
+      "constantAttenuation": 0.0,
+      "linearAttenuation": 0.0,
+      "quadraticAttenuation": 1.0,
+      "flags": 2,
+      "texinfo": 0,
+      "owner": 0,
+      "sourceRadius": 0.0
+    },
+    {
+      "id": 7,
+      "origin": [
+        -1041.3599853515625,
+        1424.9200439453125,
+        67.00019836425781
+      ],
+      "intensity": [
+        176.34991455078125,
+        166.912109375,
+        153.28445434570312
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "shadowCastOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster": 999,
+      "type": 1,
+      "style": 0,
+      "stopDot": 0.0,
+      "stopDot2": 0.0,
+      "exponent": 0.0,
+      "radius": 138.3594207763672,
+      "constantAttenuation": 0.0,
+      "linearAttenuation": 0.0,
+      "quadraticAttenuation": 1.0,
+      "flags": 2,
+      "texinfo": 0,
+      "owner": 0,
+      "sourceRadius": 0.0
+    },
+    {
+      "id": 8,
+      "origin": [
+        -1073.3599853515625,
+        1424.9200439453125,
+        79.00019836425781
+      ],
+      "intensity": [
+        9170.1953125,
+        8679.4296875,
+        7970.7919921875
+      ],
+      "normal": [
+        6.123234262925839e-17,
+        0.0,
+        -1.0
+      ],
+      "shadowCastOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster": 999,
+      "type": 2,
+      "style": 0,
+      "stopDot": 0.8660253882408142,
+      "stopDot2": 0.3420201241970062,
+      "exponent": 1.0,
+      "radius": 997.7239379882812,
+      "constantAttenuation": 0.0,
+      "linearAttenuation": 0.0,
+      "quadraticAttenuation": 1.0,
+      "flags": 2,
+      "texinfo": 0,
+      "owner": 0,
+      "sourceRadius": 0.0
+    },
+    {
+      "id": 9,
+      "origin": [
+        307.80999755859375,
+        2758.949951171875,
+        19.410499572753906
+      ],
+      "intensity": [
+        336.93084716796875,
+        318.526123046875,
+        255.83143615722656
+      ],
+      "normal": [
+        0.28401532769203186,
+        -0.10022380948066711,
+        -0.9535672068595886
+      ],
+      "shadowCastOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster": 448,
+      "type": 2,
+      "style": 0,
+      "stopDot": 0.5735764503479004,
+      "stopDot2": 0.3420201241970062,
+      "exponent": 1.0,
+      "radius": 187.8931121826172,
+      "constantAttenuation": 0.0,
+      "linearAttenuation": 0.0,
+      "quadraticAttenuation": 1.0,
+      "flags": 2,
+      "texinfo": 0,
+      "owner": 0,
+      "sourceRadius": 0.0
+    },
+    {
+      "id": 10,
+      "origin": [
+        325.06201171875,
+        2365.35009765625,
+        10.0
+      ],
+      "intensity": [
+        35040.80859375,
+        33126.71484375,
+        26606.46875
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "shadowCastOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster": 449,
+      "type": 1,
+      "style": 0,
+      "stopDot": 0.0,
+      "stopDot2": 0.0,
+      "exponent": 0.0,
+      "radius": 1876.592041015625,
+      "constantAttenuation": 150000.0,
+      "linearAttenuation": 0.0,
+      "quadraticAttenuation": 1.0,
+      "flags": 2,
+      "texinfo": 0,
+      "owner": 0,
+      "sourceRadius": 0.0
+    },
+    {
+      "id": 11,
+      "origin": [
+        1429.4599609375,
+        294.3630065917969,
+        -81.27410125732422
+      ],
+      "intensity": [
+        12741.0439453125,
+        11110.5546875,
+        9395.166015625
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "shadowCastOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster": 1227,
+      "type": 1,
+      "style": 0,
+      "stopDot": 0.0,
+      "stopDot2": 0.0,
+      "exponent": 0.0,
+      "radius": 1067.4053955078125,
+      "constantAttenuation": 150000.0,
+      "linearAttenuation": 0.0,
+      "quadraticAttenuation": 1.0,
+      "flags": 2,
+      "texinfo": 0,
+      "owner": 0,
+      "sourceRadius": 0.0
+    },
+    {
+      "id": 12,
+      "origin": [
+        512.0,
+        2184.0,
+        30.5216007232666
+      ],
+      "intensity": [
+        679.4063110351562,
+        1128.7491455078125,
+        2041.4134521484375
+      ],
+      "normal": [
+        -0.7071067690849304,
+        8.659560603426554e-17,
+        -0.7071067690849304
+      ],
+      "shadowCastOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster": 450,
+      "type": 2,
+      "style": 0,
+      "stopDot": 0.7660444378852844,
+      "stopDot2": 0.5735764503479004,
+      "exponent": 1.0,
+      "radius": 402.4604797363281,
+      "constantAttenuation": 0.0,
+      "linearAttenuation": 0.0,
+      "quadraticAttenuation": 1.0,
+      "flags": 2,
+      "texinfo": 0,
+      "owner": 0,
+      "sourceRadius": 0.0
+    },
+    {
+      "id": 13,
+      "origin": [
+        -206.60299682617188,
+        2104.090087890625,
+        28.243900299072266
+      ],
+      "intensity": [
+        11274.6640625,
+        9062.97265625,
+        6446.072265625
+      ],
+      "normal": [
+        0.5849370360374451,
+        0.2724648714065552,
+        -0.7639447450637817
+      ],
+      "shadowCastOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster": 508,
+      "type": 2,
+      "style": 0,
+      "stopDot": 0.7660444378852844,
+      "stopDot2": 0.6427875757217407,
+      "exponent": 1.0,
+      "radius": 1027.5179443359375,
+      "constantAttenuation": 0.0,
+      "linearAttenuation": 0.0,
+      "quadraticAttenuation": 1.0,
+      "flags": 2,
+      "texinfo": 0,
+      "owner": 0,
+      "sourceRadius": 0.0
+    },
+    {
+      "id": 14,
+      "origin": [
+        -104.0,
+        2144.0,
+        10.435799598693848
+      ],
+      "intensity": [
+        1163.3365478515625,
+        1353.0770263671875,
+        1659.8836669921875
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "shadowCastOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster": 465,
+      "type": 1,
+      "style": 0,
+      "stopDot": 0.0,
+      "stopDot2": 0.0,
+      "exponent": 0.0,
+      "radius": 377.455078125,
+      "constantAttenuation": 20000.0,
+      "linearAttenuation": 0.0,
+      "quadraticAttenuation": 1.0,
+      "flags": 2,
+      "texinfo": 0,
+      "owner": 0,
+      "sourceRadius": 0.0
+    },
+    {
+      "id": 15,
+      "origin": [
+        384.0,
+        2624.530029296875,
+        -14.35669994354248
+      ],
+      "intensity": [
+        33.693084716796875,
+        31.852611541748047,
+        25.58314323425293
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "shadowCastOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster": 448,
+      "type": 1,
+      "style": 0,
+      "stopDot": 0.0,
+      "stopDot2": 0.0,
+      "exponent": 0.0,
+      "radius": 59.417022705078125,
+      "constantAttenuation": 0.0,
+      "linearAttenuation": 0.0,
+      "quadraticAttenuation": 1.0,
+      "flags": 2,
+      "texinfo": 0,
+      "owner": 0,
+      "sourceRadius": 0.0
+    },
+    {
+      "id": 16,
+      "origin": [
+        308.0,
+        2740.0,
+        -19.461299896240234
+      ],
+      "intensity": [
+        168.46542358398438,
+        159.2630615234375,
+        127.91571807861328
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "shadowCastOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster": 448,
+      "type": 1,
+      "style": 0,
+      "stopDot": 0.0,
+      "stopDot2": 0.0,
+      "exponent": 0.0,
+      "radius": 132.86050415039062,
+      "constantAttenuation": 0.0,
+      "linearAttenuation": 0.0,
+      "quadraticAttenuation": 1.0,
+      "flags": 2,
+      "texinfo": 0,
+      "owner": 0,
+      "sourceRadius": 0.0
+    },
+    {
+      "id": 17,
+      "origin": [
+        167.36399841308594,
+        3125.080078125,
+        709.0
+      ],
+      "intensity": [
+        679.4063110351562,
+        1128.7490234375,
+        2041.41357421875
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "shadowCastOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster": 304,
+      "type": 1,
+      "style": 0,
+      "stopDot": 0.0,
+      "stopDot2": 0.0,
+      "exponent": 0.0,
+      "radius": 376.79498291015625,
+      "constantAttenuation": 20000.0,
+      "linearAttenuation": 0.0,
+      "quadraticAttenuation": 1.0,
+      "flags": 2,
+      "texinfo": 0,
+      "owner": 0,
+      "sourceRadius": 0.0
+    },
+    {
+      "id": 18,
+      "origin": [
+        65.0,
+        2644.374755859375,
+        259.010009765625
+      ],
+      "intensity": [
+        6626.513671875,
+        11400.8759765625,
+        18851.55078125
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        -0.9999998807907104
+      ],
+      "shadowCastOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster": 427,
+      "type": 0,
+      "style": 0,
+      "stopDot": 0.0,
+      "stopDot2": 0.0,
+      "exponent": 0.0,
+      "radius": 2000.0,
+      "constantAttenuation": 0.0,
+      "linearAttenuation": 0.0,
+      "quadraticAttenuation": 0.0,
+      "flags": 0,
+      "texinfo": 0,
+      "owner": 0,
+      "sourceRadius": 0.0
+    },
+    {
+      "id": 19,
+      "origin": [
+        107.0,
+        2644.374755859375,
+        259.010009765625
+      ],
+      "intensity": [
+        6626.513671875,
+        11400.8759765625,
+        18851.55078125
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        -0.9999998807907104
+      ],
+      "shadowCastOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster": 427,
+      "type": 0,
+      "style": 0,
+      "stopDot": 0.0,
+      "stopDot2": 0.0,
+      "exponent": 0.0,
+      "radius": 2000.0,
+      "constantAttenuation": 0.0,
+      "linearAttenuation": 0.0,
+      "quadraticAttenuation": 0.0,
+      "flags": 0,
+      "texinfo": 0,
+      "owner": 0,
+      "sourceRadius": 0.0
+    },
+    {
+      "id": 20,
+      "origin": [
+        65.0,
+        2707.125,
+        259.010009765625
+      ],
+      "intensity": [
+        6626.513671875,
+        11400.8759765625,
+        18851.55078125
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        -0.9999998807907104
+      ],
+      "shadowCastOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster": 427,
+      "type": 0,
+      "style": 0,
+      "stopDot": 0.0,
+      "stopDot2": 0.0,
+      "exponent": 0.0,
+      "radius": 2000.0,
+      "constantAttenuation": 0.0,
+      "linearAttenuation": 0.0,
+      "quadraticAttenuation": 0.0,
+      "flags": 0,
+      "texinfo": 0,
+      "owner": 0,
+      "sourceRadius": 0.0
+    },
+    {
+      "id": 21,
+      "origin": [
+        107.0,
+        2707.125,
+        259.010009765625
+      ],
+      "intensity": [
+        6626.513671875,
+        11400.8759765625,
+        18851.55078125
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        -0.9999998807907104
+      ],
+      "shadowCastOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster": 427,
+      "type": 0,
+      "style": 0,
+      "stopDot": 0.0,
+      "stopDot2": 0.0,
+      "exponent": 0.0,
+      "radius": 2000.0,
+      "constantAttenuation": 0.0,
+      "linearAttenuation": 0.0,
+      "quadraticAttenuation": 0.0,
+      "flags": 0,
+      "texinfo": 0,
+      "owner": 0,
+      "sourceRadius": 0.0
+    },
+    {
+      "id": 22,
+      "origin": [
+        65.0,
+        2769.875,
+        259.010009765625
+      ],
+      "intensity": [
+        6626.513671875,
+        11400.8759765625,
+        18851.55078125
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        -0.9999998807907104
+      ],
+      "shadowCastOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster": 427,
+      "type": 0,
+      "style": 0,
+      "stopDot": 0.0,
+      "stopDot2": 0.0,
+      "exponent": 0.0,
+      "radius": 2000.0,
+      "constantAttenuation": 0.0,
+      "linearAttenuation": 0.0,
+      "quadraticAttenuation": 0.0,
+      "flags": 0,
+      "texinfo": 0,
+      "owner": 0,
+      "sourceRadius": 0.0
+    },
+    {
+      "id": 23,
+      "origin": [
+        107.0,
+        2769.874755859375,
+        259.010009765625
+      ],
+      "intensity": [
+        6626.513671875,
+        11400.8759765625,
+        18851.55078125
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        -0.9999998807907104
+      ],
+      "shadowCastOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster": 427,
+      "type": 0,
+      "style": 0,
+      "stopDot": 0.0,
+      "stopDot2": 0.0,
+      "exponent": 0.0,
+      "radius": 2000.0,
+      "constantAttenuation": 0.0,
+      "linearAttenuation": 0.0,
+      "quadraticAttenuation": 0.0,
+      "flags": 0,
+      "texinfo": 0,
+      "owner": 0,
+      "sourceRadius": 0.0
+    },
+    {
+      "id": 24,
+      "origin": [
+        65.0,
+        2832.625,
+        259.010009765625
+      ],
+      "intensity": [
+        6626.513671875,
+        11400.8759765625,
+        18851.55078125
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        -0.9999998807907104
+      ],
+      "shadowCastOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster": 424,
+      "type": 0,
+      "style": 0,
+      "stopDot": 0.0,
+      "stopDot2": 0.0,
+      "exponent": 0.0,
+      "radius": 2000.0,
+      "constantAttenuation": 0.0,
+      "linearAttenuation": 0.0,
+      "quadraticAttenuation": 0.0,
+      "flags": 0,
+      "texinfo": 0,
+      "owner": 0,
+      "sourceRadius": 0.0
+    },
+    {
+      "id": 25,
+      "origin": [
+        107.0,
+        2832.625,
+        259.010009765625
+      ],
+      "intensity": [
+        6626.513671875,
+        11400.8759765625,
+        18851.55078125
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        -0.9999998807907104
+      ],
+      "shadowCastOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster": 424,
+      "type": 0,
+      "style": 0,
+      "stopDot": 0.0,
+      "stopDot2": 0.0,
+      "exponent": 0.0,
+      "radius": 2000.0,
+      "constantAttenuation": 0.0,
+      "linearAttenuation": 0.0,
+      "quadraticAttenuation": 0.0,
+      "flags": 0,
+      "texinfo": 0,
+      "owner": 0,
+      "sourceRadius": 0.0
+    }
+  ],
+  "runtimePreparation": {
+    "loader": "0x354260",
+    "hdrLumpCall": "0x35b658 lump54 / 0x35b665 HDR=true",
+    "radius": "0x35441d -> 0x320a60 -> 0x31fc60 executed",
+    "radiusEpsilonHDR": 0.015,
+    "runtimeBytesSHA256": "2a09e190352de184ef4afec5634f5134168c2d17dd1aa340242494ff0259be9c"
+  },
+  "defaults": {
+    "r_radiosity": 4,
+    "r_worldlightmin": 0.0002,
+    "r_worldlights": 2,
+    "r_lightcachecenter": 1,
+    "r_lightcache_radiusfactor": 1000,
+    "r_ambientlightingonly": 0,
+    "r_oldlightselection": 0,
+    "r_lightcache_zbuffercache": 0
+  },
+  "boundary": "Original immutable static worldlights and compiler defaults. Not original transient Lightcache state or live engine cvars."
+}

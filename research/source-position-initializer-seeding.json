@@ -1,0 +1,410 @@
+{
+  "format": "source-position-initializer-seeding-v1",
+  "finding": "The shipped chain runs (the pistol main system's own emitter and new-particle init both return), and it creates nothing this probe can read: every field pointer the collection ends up holding is empty, and every buffer the probe supplied stays at zero across both runs. The particles an emitter makes come from the collection's own allocator and its system definition, neither of which a synthetic collection has.",
+  "initializerApply": {
+    "address": "0xd02980",
+    "collectionOffsets": [
+      "0x68",
+      "0x6c",
+      "0x74",
+      "0x78"
+    ],
+    "virtualCalls": [
+      "[eax+0x98]"
+    ],
+    "note": "The initializer reads its new particles through these four collection fields and calls a virtual on the object it finds, so driving it by hand means building that object rather than only the buffers."
+  },
+  "next": "Reproducing the client's particle system definition — its element and per-field tables and the new-particle plumbing a collection gets from it — is what stands between this and the seeding rule. It is a scaffolding job, not another operator measurement.",
+  "chain": {
+    "postUnpack": "0xd03f80",
+    "initNew": "0xd04af0",
+    "emit": "0xd037a0",
+    "tick": 0.0075
+  },
+  "system": "weapon_muzzle_flash_pistol_main",
+  "systemSphereInitializer": {
+    "child": {
+      "ref": "0bfc671d-ca3e-432f-bbd3-0ff679296eff",
+      "name": "weapon_muzzle_flash_pistol_main"
+    }
+  },
+  "runs": [
+    {
+      "run": 0,
+      "particles": 4,
+      "sample": [
+        {
+          "particle": 0,
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "previous": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "particle": 1,
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "previous": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "particle": 2,
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "previous": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "particle": 3,
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "previous": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "liveFields": {
+        "0": {
+          "pointer": "0x21010000",
+          "count": 4,
+          "floats": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "1": {
+          "pointer": "0x21010400",
+          "count": 4,
+          "floats": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "2": {
+          "pointer": "0x21010800",
+          "count": 4,
+          "floats": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "3": {
+          "pointer": "0x21010c00",
+          "count": 4,
+          "floats": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "4": null,
+        "5": null,
+        "6": {
+          "pointer": "0x21011800",
+          "count": 4,
+          "floats": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "7": {
+          "pointer": "0x21011c00",
+          "count": 4,
+          "floats": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "8": {
+          "pointer": "0x21012000",
+          "count": 4,
+          "floats": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    {
+      "run": 1,
+      "particles": 4,
+      "sample": [
+        {
+          "particle": 0,
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "previous": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "particle": 1,
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "previous": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "particle": 2,
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "previous": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "particle": 3,
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "previous": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "liveFields": {
+        "0": {
+          "pointer": "0x21010000",
+          "count": 4,
+          "floats": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "1": {
+          "pointer": "0x21010400",
+          "count": 4,
+          "floats": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "2": {
+          "pointer": "0x21010800",
+          "count": 4,
+          "floats": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "3": {
+          "pointer": "0x21010c00",
+          "count": 4,
+          "floats": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "4": null,
+        "5": null,
+        "6": {
+          "pointer": "0x21011800",
+          "count": 4,
+          "floats": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "7": {
+          "pointer": "0x21011c00",
+          "count": 4,
+          "floats": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "8": {
+          "pointer": "0x21012000",
+          "count": 4,
+          "floats": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    }
+  ],
+  "boundary": "Executes the shipped chain over a synthetic collection. It reports the position slots of the particles it created, not the meaning of every field."
+}

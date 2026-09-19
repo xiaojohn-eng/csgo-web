@@ -1,0 +1,876 @@
+{
+  "format": "source-paint-zero-albedo-native-v1",
+  "status": "native-clone-material-parser-selector-and-c3-executed",
+  "client": {
+    "file": ".reference-assets/csgo-legacy/csgo/bin/linux64/client_client.so",
+    "bytes": 35112006,
+    "sha256": "c47c64c38a066e02bdc006ac4db4fe6e9a318fdd896153accb7af9bd065b7fb5"
+  },
+  "shader": {
+    "file": ".reference-assets/csgo-legacy/bin/linux64/stdshader_dx9_client.so",
+    "bytes": 1440902,
+    "sha256": "0383c51766a4681b5de26aa79b67ade5d3a867a8622185abe8a090877bac7c2e"
+  },
+  "catalogueSha256": "96ff52baa3153c6b702972d82e0c23aa65e11a39206ae6f912e7424c4b6e7503",
+  "cases": [
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 471,
+      "kit": {
+        "id": "471",
+        "name": "am_kimono_sunrise",
+        "englishName": "Daybreak",
+        "chineseName": "破晓",
+        "rarity": "rare",
+        "rarityValue": 3,
+        "rarityColorKey": "desc_rare",
+        "style": 5,
+        "pattern": "kimono_sunrise",
+        "patternScale": 1.5,
+        "patternOffsetX": [
+          0.14,
+          0.9
+        ],
+        "patternOffsetY": [
+          0.23,
+          0.23
+        ],
+        "patternRotate": [
+          0.0,
+          0.0
+        ],
+        "seed": 0,
+        "wearMinimum": 0.0,
+        "wearMaximum": 0.6,
+        "wearDefault": 0.1,
+        "colours": [
+          [
+            254,
+            236,
+            116
+          ],
+          [
+            163,
+            119,
+            55
+          ],
+          [
+            134,
+            146,
+            148
+          ],
+          [
+            64,
+            42,
+            17
+          ]
+        ],
+        "phongExponent": 220.0,
+        "phongIntensity": 255.0,
+        "phongAlbedoBoost": 0.0,
+        "onlyFirstMaterial": 0,
+        "ignoreWeaponSizeScale": 1,
+        "textureReferences": [
+          {
+            "field": "pattern",
+            "sourceValue": "kimono_sunrise",
+            "resolution": "unique",
+            "candidates": [
+              "materials/models/weapons/customization/paints/anodized_multi/kimono_sunrise.vtf"
+            ]
+          }
+        ]
+      },
+      "materialSource": "materials/models/weapons/v_models/rif_m4a1/rif_m4a1.vmt",
+      "materialSha256": "7cbe8c9555593b927aa98b5c609196cb1a3eb27849e953e9c5223b970609df68",
+      "originalMaterial": {
+        "$basetexture": "models\\weapons\\v_models\\rif_m4a1\\rif_m4a1",
+        "$phongexponenttexture": "models\\weapons\\v_models\\rif_m4a1\\rif_m4a1_exponent",
+        "$phong": "1",
+        "$phongboost": "2",
+        "$phongalbedoboost": "25",
+        "$phongfresnelranges": "[.83 .83 1]",
+        "$basemapalphaphongmask": "1",
+        "$phongalbedotint": "1",
+        "$phongdisablehalflambert": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[.15 .15 .15]"
+      },
+      "phong": {
+        "phongBoost": 2,
+        "phongAlbedoBoost": 25,
+        "phongFresnelRanges": [
+          0.83,
+          0.83,
+          1.0
+        ],
+        "baseTexture": "models\\weapons\\v_models\\rif_m4a1\\rif_m4a1",
+        "exponentTexture": "models\\weapons\\v_models\\rif_m4a1\\rif_m4a1_exponent"
+      },
+      "nativeCompositeAlbedoFactor": "Infinity",
+      "nativeCompositeIntensityInteger": 255,
+      "materialAfterBranch": {
+        "$basetexture": "models\\weapons\\v_models\\rif_m4a1\\rif_m4a1",
+        "$phongexponenttexture": "models\\weapons\\v_models\\rif_m4a1\\rif_m4a1_exponent",
+        "$phong": "1",
+        "$phongboost": "2",
+        "$phongalbedoboost": 25.0,
+        "$phongfresnelranges": "[.83 .83 1]",
+        "$basemapalphaphongmask": "1",
+        "$phongalbedotint": 1,
+        "$phongdisablehalflambert": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[0 0 0]"
+      },
+      "keyValuesABIEvents": [
+        {
+          "at": "0xd140d8",
+          "operation": "getSchemaInt",
+          "name": "phongexponent",
+          "value": 220
+        },
+        {
+          "at": "0xd140f8",
+          "operation": "getSchemaInt",
+          "name": "phongalbedoboost",
+          "value": 0
+        },
+        {
+          "at": "0xd14118",
+          "operation": "getSchemaInt",
+          "name": "phongintensity",
+          "value": 255
+        },
+        {
+          "at": "0xf527b2",
+          "operation": "getMaterialFloat",
+          "name": "$phongalbedoboost",
+          "value": 25.0
+        },
+        {
+          "at": "0xf52807",
+          "operation": "getMaterialFloat",
+          "name": "$phongboost",
+          "value": 2.0
+        },
+        {
+          "at": "0xf52968",
+          "operation": "setMaterialValue",
+          "name": "$phongalbedotint",
+          "value": 1
+        },
+        {
+          "at": "0xf5297d",
+          "operation": "setMaterialValue",
+          "name": "$phongalbedoboost",
+          "value": 25.0
+        },
+        {
+          "at": "0xf528e4",
+          "operation": "setMaterialValue",
+          "name": "$envmaptint",
+          "value": "[0 0 0]"
+        }
+      ],
+      "laterCompositeScalarArguments": {
+        "phongIntensity": {
+          "nativeDoubleArgument": 1.0,
+          "originalFormat": "%f",
+          "hostFormattedText": "1.000000",
+          "hostParsedFloat32": 1.0
+        },
+        "phongExponent": {
+          "nativeDoubleArgument": 0.8627451658248901,
+          "originalFormat": "%f",
+          "hostFormattedText": "0.862745",
+          "hostParsedFloat32": 0.8627449870109558
+        },
+        "phongAlbedoFactor": {
+          "nativeDoubleArgument": "Infinity",
+          "originalFormat": "%f",
+          "hostFormattedText": "inf",
+          "hostParsedFloat32": "Infinity"
+        }
+      },
+      "selectors": {
+        "color": {
+          "nativeCombined": 25,
+          "static": 5,
+          "dynamic": 0
+        },
+        "exponent": {
+          "nativeCombined": 75,
+          "static": 15,
+          "dynamic": 0
+        }
+      }
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 468,
+      "kit": {
+        "id": "468",
+        "name": "am_seastorm",
+        "englishName": "Midnight Storm",
+        "chineseName": "午夜风暴",
+        "rarity": "common",
+        "rarityValue": 1,
+        "rarityColorKey": "desc_common",
+        "style": 5,
+        "pattern": "sea_storm",
+        "patternScale": 1.4,
+        "patternOffsetX": [
+          0.0,
+          1.0
+        ],
+        "patternOffsetY": [
+          0.0,
+          1.0
+        ],
+        "patternRotate": [
+          0.0,
+          10.0
+        ],
+        "seed": 0,
+        "wearMinimum": 0.0,
+        "wearMaximum": 0.75,
+        "wearDefault": 0.1,
+        "colours": [
+          [
+            22,
+            39,
+            35
+          ],
+          [
+            105,
+            154,
+            173
+          ],
+          [
+            74,
+            162,
+            172
+          ],
+          [
+            10,
+            2,
+            25
+          ]
+        ],
+        "phongExponent": 140.0,
+        "phongIntensity": 255.0,
+        "phongAlbedoBoost": 0.0,
+        "onlyFirstMaterial": 0,
+        "ignoreWeaponSizeScale": 1,
+        "textureReferences": [
+          {
+            "field": "pattern",
+            "sourceValue": "sea_storm",
+            "resolution": "unique",
+            "candidates": [
+              "materials/models/weapons/customization/paints/anodized_multi/sea_storm.vtf"
+            ]
+          }
+        ]
+      },
+      "materialSource": "materials/models/weapons/v_models/pist_deagle/pist_deagle.vmt",
+      "materialSha256": "ae88ee0beb230520bfa67bf41730dba2f699d6bee611f76600a2af0d374f0566",
+      "originalMaterial": {
+        "$basetexture": "models\\weapons\\v_models\\pist_deagle\\pist_deagle",
+        "$phong": "1",
+        "$phongboost": "1",
+        "$phongalbedoboost": "40",
+        "$phongfresnelranges": "[.8 .8 1]",
+        "$phongexponenttexture": "models\\weapons\\v_models\\pist_deagle\\pist_deagle_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[.4 .4 .4]",
+        "$phongalbedotint": "1",
+        "$phongdisablehalflambert": "1"
+      },
+      "phong": {
+        "phongBoost": 1,
+        "phongAlbedoBoost": 40,
+        "phongFresnelRanges": [
+          0.8,
+          0.8,
+          1.0
+        ],
+        "baseTexture": "models\\weapons\\v_models\\pist_deagle\\pist_deagle",
+        "exponentTexture": "models\\weapons\\v_models\\pist_deagle\\pist_deagle_exponent"
+      },
+      "nativeCompositeAlbedoFactor": "Infinity",
+      "nativeCompositeIntensityInteger": 255,
+      "materialAfterBranch": {
+        "$basetexture": "models\\weapons\\v_models\\pist_deagle\\pist_deagle",
+        "$phong": "1",
+        "$phongboost": "1",
+        "$phongalbedoboost": 40.0,
+        "$phongfresnelranges": "[.8 .8 1]",
+        "$phongexponenttexture": "models\\weapons\\v_models\\pist_deagle\\pist_deagle_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[0 0 0]",
+        "$phongalbedotint": 1,
+        "$phongdisablehalflambert": "1"
+      },
+      "keyValuesABIEvents": [
+        {
+          "at": "0xd140d8",
+          "operation": "getSchemaInt",
+          "name": "phongexponent",
+          "value": 140
+        },
+        {
+          "at": "0xd140f8",
+          "operation": "getSchemaInt",
+          "name": "phongalbedoboost",
+          "value": 0
+        },
+        {
+          "at": "0xd14118",
+          "operation": "getSchemaInt",
+          "name": "phongintensity",
+          "value": 255
+        },
+        {
+          "at": "0xf527b2",
+          "operation": "getMaterialFloat",
+          "name": "$phongalbedoboost",
+          "value": 40.0
+        },
+        {
+          "at": "0xf52807",
+          "operation": "getMaterialFloat",
+          "name": "$phongboost",
+          "value": 1.0
+        },
+        {
+          "at": "0xf52968",
+          "operation": "setMaterialValue",
+          "name": "$phongalbedotint",
+          "value": 1
+        },
+        {
+          "at": "0xf5297d",
+          "operation": "setMaterialValue",
+          "name": "$phongalbedoboost",
+          "value": 40.0
+        },
+        {
+          "at": "0xf528e4",
+          "operation": "setMaterialValue",
+          "name": "$envmaptint",
+          "value": "[0 0 0]"
+        }
+      ],
+      "laterCompositeScalarArguments": {
+        "phongIntensity": {
+          "nativeDoubleArgument": 1.0,
+          "originalFormat": "%f",
+          "hostFormattedText": "1.000000",
+          "hostParsedFloat32": 1.0
+        },
+        "phongExponent": {
+          "nativeDoubleArgument": 0.5490196347236633,
+          "originalFormat": "%f",
+          "hostFormattedText": "0.549020",
+          "hostParsedFloat32": 0.549019992351532
+        },
+        "phongAlbedoFactor": {
+          "nativeDoubleArgument": "Infinity",
+          "originalFormat": "%f",
+          "hostFormattedText": "inf",
+          "hostParsedFloat32": "Infinity"
+        }
+      },
+      "selectors": {
+        "color": {
+          "nativeCombined": 25,
+          "static": 5,
+          "dynamic": 0
+        },
+        "exponent": {
+          "nativeCombined": 75,
+          "static": 15,
+          "dynamic": 0
+        }
+      }
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 469,
+      "kit": {
+        "id": "469",
+        "name": "am_seastorm_blood",
+        "englishName": "Sunset Storm 壱",
+        "chineseName": "日落风暴 壱",
+        "rarity": "rare",
+        "rarityValue": 3,
+        "rarityColorKey": "desc_rare",
+        "style": 5,
+        "pattern": "sea_storm_blood",
+        "patternScale": 1.6,
+        "patternOffsetX": [
+          0.45,
+          0.55
+        ],
+        "patternOffsetY": [
+          0.5,
+          0.6
+        ],
+        "patternRotate": [
+          0.0,
+          1.0
+        ],
+        "seed": 0,
+        "wearMinimum": 0.0,
+        "wearMaximum": 0.75,
+        "wearDefault": 0.1,
+        "colours": [
+          [
+            56,
+            6,
+            6
+          ],
+          [
+            143,
+            43,
+            8
+          ],
+          [
+            188,
+            97,
+            65
+          ],
+          [
+            7,
+            0,
+            0
+          ]
+        ],
+        "phongExponent": 160.0,
+        "phongIntensity": 255.0,
+        "phongAlbedoBoost": 0.0,
+        "onlyFirstMaterial": 0,
+        "ignoreWeaponSizeScale": 1,
+        "textureReferences": [
+          {
+            "field": "pattern",
+            "sourceValue": "sea_storm_blood",
+            "resolution": "unique",
+            "candidates": [
+              "materials/models/weapons/customization/paints/anodized_multi/sea_storm_blood.vtf"
+            ]
+          }
+        ]
+      },
+      "materialSource": "materials/models/weapons/v_models/pist_deagle/pist_deagle.vmt",
+      "materialSha256": "ae88ee0beb230520bfa67bf41730dba2f699d6bee611f76600a2af0d374f0566",
+      "originalMaterial": {
+        "$basetexture": "models\\weapons\\v_models\\pist_deagle\\pist_deagle",
+        "$phong": "1",
+        "$phongboost": "1",
+        "$phongalbedoboost": "40",
+        "$phongfresnelranges": "[.8 .8 1]",
+        "$phongexponenttexture": "models\\weapons\\v_models\\pist_deagle\\pist_deagle_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[.4 .4 .4]",
+        "$phongalbedotint": "1",
+        "$phongdisablehalflambert": "1"
+      },
+      "phong": {
+        "phongBoost": 1,
+        "phongAlbedoBoost": 40,
+        "phongFresnelRanges": [
+          0.8,
+          0.8,
+          1.0
+        ],
+        "baseTexture": "models\\weapons\\v_models\\pist_deagle\\pist_deagle",
+        "exponentTexture": "models\\weapons\\v_models\\pist_deagle\\pist_deagle_exponent"
+      },
+      "nativeCompositeAlbedoFactor": "Infinity",
+      "nativeCompositeIntensityInteger": 255,
+      "materialAfterBranch": {
+        "$basetexture": "models\\weapons\\v_models\\pist_deagle\\pist_deagle",
+        "$phong": "1",
+        "$phongboost": "1",
+        "$phongalbedoboost": 40.0,
+        "$phongfresnelranges": "[.8 .8 1]",
+        "$phongexponenttexture": "models\\weapons\\v_models\\pist_deagle\\pist_deagle_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[0 0 0]",
+        "$phongalbedotint": 1,
+        "$phongdisablehalflambert": "1"
+      },
+      "keyValuesABIEvents": [
+        {
+          "at": "0xd140d8",
+          "operation": "getSchemaInt",
+          "name": "phongexponent",
+          "value": 160
+        },
+        {
+          "at": "0xd140f8",
+          "operation": "getSchemaInt",
+          "name": "phongalbedoboost",
+          "value": 0
+        },
+        {
+          "at": "0xd14118",
+          "operation": "getSchemaInt",
+          "name": "phongintensity",
+          "value": 255
+        },
+        {
+          "at": "0xf527b2",
+          "operation": "getMaterialFloat",
+          "name": "$phongalbedoboost",
+          "value": 40.0
+        },
+        {
+          "at": "0xf52807",
+          "operation": "getMaterialFloat",
+          "name": "$phongboost",
+          "value": 1.0
+        },
+        {
+          "at": "0xf52968",
+          "operation": "setMaterialValue",
+          "name": "$phongalbedotint",
+          "value": 1
+        },
+        {
+          "at": "0xf5297d",
+          "operation": "setMaterialValue",
+          "name": "$phongalbedoboost",
+          "value": 40.0
+        },
+        {
+          "at": "0xf528e4",
+          "operation": "setMaterialValue",
+          "name": "$envmaptint",
+          "value": "[0 0 0]"
+        }
+      ],
+      "laterCompositeScalarArguments": {
+        "phongIntensity": {
+          "nativeDoubleArgument": 1.0,
+          "originalFormat": "%f",
+          "hostFormattedText": "1.000000",
+          "hostParsedFloat32": 1.0
+        },
+        "phongExponent": {
+          "nativeDoubleArgument": 0.6274510025978088,
+          "originalFormat": "%f",
+          "hostFormattedText": "0.627451",
+          "hostParsedFloat32": 0.6274510025978088
+        },
+        "phongAlbedoFactor": {
+          "nativeDoubleArgument": "Infinity",
+          "originalFormat": "%f",
+          "hostFormattedText": "inf",
+          "hostParsedFloat32": "Infinity"
+        }
+      },
+      "selectors": {
+        "color": {
+          "nativeCombined": 25,
+          "static": 5,
+          "dynamic": 0
+        },
+        "exponent": {
+          "nativeCombined": 75,
+          "static": 15,
+          "dynamic": 0
+        }
+      }
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 470,
+      "kit": {
+        "id": "470",
+        "name": "am_seastorm_shojo",
+        "englishName": "Sunset Storm 弐",
+        "chineseName": "日落风暴 弐",
+        "rarity": "rare",
+        "rarityValue": 3,
+        "rarityColorKey": "desc_rare",
+        "style": 5,
+        "pattern": "sea_storm_shojo",
+        "patternScale": 1.6,
+        "patternOffsetX": [
+          0.45,
+          0.55
+        ],
+        "patternOffsetY": [
+          0.5,
+          0.6
+        ],
+        "patternRotate": [
+          0.0,
+          1.0
+        ],
+        "seed": 0,
+        "wearMinimum": 0.0,
+        "wearMaximum": 0.75,
+        "wearDefault": 0.1,
+        "colours": [
+          [
+            56,
+            6,
+            6
+          ],
+          [
+            143,
+            43,
+            8
+          ],
+          [
+            188,
+            97,
+            65
+          ],
+          [
+            7,
+            0,
+            0
+          ]
+        ],
+        "phongExponent": 160.0,
+        "phongIntensity": 255.0,
+        "phongAlbedoBoost": 0.0,
+        "onlyFirstMaterial": 0,
+        "ignoreWeaponSizeScale": 1,
+        "textureReferences": [
+          {
+            "field": "pattern",
+            "sourceValue": "sea_storm_shojo",
+            "resolution": "unique",
+            "candidates": [
+              "materials/models/weapons/customization/paints/anodized_multi/sea_storm_shojo.vtf"
+            ]
+          }
+        ]
+      },
+      "materialSource": "materials/models/weapons/v_models/pist_deagle/pist_deagle.vmt",
+      "materialSha256": "ae88ee0beb230520bfa67bf41730dba2f699d6bee611f76600a2af0d374f0566",
+      "originalMaterial": {
+        "$basetexture": "models\\weapons\\v_models\\pist_deagle\\pist_deagle",
+        "$phong": "1",
+        "$phongboost": "1",
+        "$phongalbedoboost": "40",
+        "$phongfresnelranges": "[.8 .8 1]",
+        "$phongexponenttexture": "models\\weapons\\v_models\\pist_deagle\\pist_deagle_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[.4 .4 .4]",
+        "$phongalbedotint": "1",
+        "$phongdisablehalflambert": "1"
+      },
+      "phong": {
+        "phongBoost": 1,
+        "phongAlbedoBoost": 40,
+        "phongFresnelRanges": [
+          0.8,
+          0.8,
+          1.0
+        ],
+        "baseTexture": "models\\weapons\\v_models\\pist_deagle\\pist_deagle",
+        "exponentTexture": "models\\weapons\\v_models\\pist_deagle\\pist_deagle_exponent"
+      },
+      "nativeCompositeAlbedoFactor": "Infinity",
+      "nativeCompositeIntensityInteger": 255,
+      "materialAfterBranch": {
+        "$basetexture": "models\\weapons\\v_models\\pist_deagle\\pist_deagle",
+        "$phong": "1",
+        "$phongboost": "1",
+        "$phongalbedoboost": 40.0,
+        "$phongfresnelranges": "[.8 .8 1]",
+        "$phongexponenttexture": "models\\weapons\\v_models\\pist_deagle\\pist_deagle_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[0 0 0]",
+        "$phongalbedotint": 1,
+        "$phongdisablehalflambert": "1"
+      },
+      "keyValuesABIEvents": [
+        {
+          "at": "0xd140d8",
+          "operation": "getSchemaInt",
+          "name": "phongexponent",
+          "value": 160
+        },
+        {
+          "at": "0xd140f8",
+          "operation": "getSchemaInt",
+          "name": "phongalbedoboost",
+          "value": 0
+        },
+        {
+          "at": "0xd14118",
+          "operation": "getSchemaInt",
+          "name": "phongintensity",
+          "value": 255
+        },
+        {
+          "at": "0xf527b2",
+          "operation": "getMaterialFloat",
+          "name": "$phongalbedoboost",
+          "value": 40.0
+        },
+        {
+          "at": "0xf52807",
+          "operation": "getMaterialFloat",
+          "name": "$phongboost",
+          "value": 1.0
+        },
+        {
+          "at": "0xf52968",
+          "operation": "setMaterialValue",
+          "name": "$phongalbedotint",
+          "value": 1
+        },
+        {
+          "at": "0xf5297d",
+          "operation": "setMaterialValue",
+          "name": "$phongalbedoboost",
+          "value": 40.0
+        },
+        {
+          "at": "0xf528e4",
+          "operation": "setMaterialValue",
+          "name": "$envmaptint",
+          "value": "[0 0 0]"
+        }
+      ],
+      "laterCompositeScalarArguments": {
+        "phongIntensity": {
+          "nativeDoubleArgument": 1.0,
+          "originalFormat": "%f",
+          "hostFormattedText": "1.000000",
+          "hostParsedFloat32": 1.0
+        },
+        "phongExponent": {
+          "nativeDoubleArgument": 0.6274510025978088,
+          "originalFormat": "%f",
+          "hostFormattedText": "0.627451",
+          "hostParsedFloat32": 0.6274510025978088
+        },
+        "phongAlbedoFactor": {
+          "nativeDoubleArgument": "Infinity",
+          "originalFormat": "%f",
+          "hostFormattedText": "inf",
+          "hostParsedFloat32": "Infinity"
+        }
+      },
+      "selectors": {
+        "color": {
+          "nativeCombined": 25,
+          "static": 5,
+          "dynamic": 0
+        },
+        "exponent": {
+          "nativeCombined": 75,
+          "static": 15,
+          "dynamic": 0
+        }
+      }
+    }
+  ],
+  "materialParser": {
+    "materialSystem": {
+      "file": ".reference-assets/csgo-legacy/bin/linux64/materialsystem_client.so",
+      "bytes": 1592917,
+      "sha256": "7dfca3caa8ea59bf7b9188a370683f3f1dec6a382dd5f572277be3a55286767d"
+    },
+    "importName": "strtod",
+    "importPLT": "0x259c0",
+    "originalText": "inf",
+    "hostLibcConsumedBytes": 3,
+    "nativeFloatTypeSelectionSpan": [
+      "0x3cb9e",
+      "0x3d107"
+    ],
+    "nativeStringStorageSpan": [
+      "0x3ec43",
+      "0x3ec62"
+    ],
+    "nativeFloat32Bits": "0x7f800000",
+    "nativeFloat32": "Infinity"
+  },
+  "shaderUpload": {
+    "materialReadSpan": [
+      "0x65abf",
+      "0x65ae4"
+    ],
+    "commandSpan": [
+      "0x66633",
+      "0x667d6"
+    ],
+    "formula": "float32(1.0 / +Infinity) = +0",
+    "cases": [
+      {
+        "weapon": "weapon_m4a1",
+        "paintKitId": 471,
+        "nativeMaterialFactor": "Infinity",
+        "nativeC3": [
+          0.0,
+          0.8627449870109558,
+          1.0,
+          0.0
+        ],
+        "factorBits": "0x00000000"
+      },
+      {
+        "weapon": "weapon_deagle",
+        "paintKitId": 468,
+        "nativeMaterialFactor": "Infinity",
+        "nativeC3": [
+          0.0,
+          0.549019992351532,
+          1.0,
+          0.0
+        ],
+        "factorBits": "0x00000000"
+      },
+      {
+        "weapon": "weapon_deagle",
+        "paintKitId": 469,
+        "nativeMaterialFactor": "Infinity",
+        "nativeC3": [
+          0.0,
+          0.6274510025978088,
+          1.0,
+          0.0
+        ],
+        "factorBits": "0x00000000"
+      },
+      {
+        "weapon": "weapon_deagle",
+        "paintKitId": 470,
+        "nativeMaterialFactor": "Infinity",
+        "nativeC3": [
+          0.0,
+          0.6274510025978088,
+          1.0,
+          0.0
+        ],
+        "factorBits": "0x00000000"
+      }
+    ]
+  },
+  "boundary": "Original installed x86 code executes with explicit schema/KeyValues fixtures. Original %f argument is formatted by host; original material-system strtod import is supplied by host libc, and native float-type selection and storage execute. Infinity is encoded as a string only in this JSON receipt; GPU c3 is finite zero. Original-client GPU output and compressed texture bytes are not compared."
+}

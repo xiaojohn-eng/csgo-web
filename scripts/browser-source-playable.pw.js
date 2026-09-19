@@ -1,0 +1,31 @@
+async(page)=>{
+  const errors=[];page.on('pageerror',e=>errors.push(String(e)));page.on('console',m=>{if(m.type()==='error')errors.push(m.text());});
+  await page.goto('http://127.0.0.1:27019/?map=de_dust2');
+  const start=page.getByRole('button',{name:/^开始人机训练/});
+  await start.waitFor({state:'visible',timeout:120000});
+  await page.waitForFunction(()=>window.__BREACHLINE__?.assetAudit()?.character?.id?.startsWith('csgo-t-ak-12426148'),null,{timeout:120000});
+  await page.getByRole('textbox',{name:'呼号',exact:true}).fill('Source Route');await start.click();
+  await page.waitForFunction(()=>window.__BREACHLINE__?.snapshot()?.players.some(p=>p.name==='Source Route'&&p.sourcePose));
+  const read=()=>page.evaluate(()=>({snapshot:window.__BREACHLINE__.snapshot(),audit:window.__BREACHLINE__.assetAudit(),metrics:window.__BREACHLINE__.metrics(),locked:!!document.pointerLockElement}));
+  await page.waitForTimeout(700);const spawn=await read();
+  await page.screenshot({path:'output/playwright/source-r4-spawn.png'});
+  await page.keyboard.down('KeyW');await page.waitForTimeout(1700);await page.keyboard.up('KeyW');
+  const moved=await read();await page.screenshot({path:'output/playwright/source-r4-moving.png'});
+  await page.keyboard.down('ControlLeft');await page.waitForTimeout(600);const crouch=await read();
+  await page.screenshot({path:'output/playwright/source-r4-crouch.png'});await page.keyboard.up('ControlLeft');
+  await page.keyboard.press('Space');await page.waitForTimeout(150);const airborne=await read();
+  await page.waitForTimeout(1000);await page.mouse.down();await page.waitForTimeout(300);await page.mouse.up();
+  const fired=await read();await page.keyboard.press('Escape');
+  await page.getByRole('button',{name:'继续行动',exact:true}).waitFor({state:'visible'});
+  const unlocked=await page.evaluate(()=>!document.pointerLockElement);
+  await page.getByRole('button',{name:'继续行动',exact:true}).click();await page.waitForTimeout(200);
+  const resumed=await page.evaluate(()=>!!document.pointerLockElement);await page.keyboard.press('Escape');
+  const evidence={spawn,moved,crouch,airborne,fired,unlocked,resumed,errors,scope:'Original Dust2 movement/animation/render integration; exact hitboxes and CT not accepted'};
+  await page.evaluate(e=>window.__CSGO_SOURCE_PLAYABLE_EVIDENCE__=e,evidence);
+  if(errors.length)throw Error(errors.join('\n'));
+  const own=s=>s.snapshot.players.find(p=>p.name==='Source Route');
+  if(!spawn.locked||!unlocked||!resumed)throw Error('Actual pointer-lock lifecycle failed');
+  if(Math.hypot(own(moved).x-own(spawn).x,own(moved).z-own(spawn).z)<.5)throw Error('Original player did not move through rendered map');
+  if(!own(crouch).crouch||own(airborne).grounded||own(fired).ammo>=own(spawn).ammo)throw Error('Crouch/jump/fire input did not reach original simulation');
+  if(spawn.audit.map.id!=='de_dust2'||spawn.snapshot.mapId!=='de_dust2-source-12426148')throw Error('Visual/physical map selection differs');
+}

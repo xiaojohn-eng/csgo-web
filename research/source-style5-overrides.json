@@ -1,0 +1,2083 @@
+{
+  "format": "source-style5-overrides-native-v1",
+  "status": "native-clone-scalars-and-selector-executed",
+  "client": {
+    "file": ".reference-assets/csgo-legacy/csgo/bin/linux64/client_client.so",
+    "bytes": 35112006,
+    "sha256": "c47c64c38a066e02bdc006ac4db4fe6e9a318fdd896153accb7af9bd065b7fb5"
+  },
+  "shader": {
+    "file": ".reference-assets/csgo-legacy/bin/linux64/stdshader_dx9_client.so",
+    "bytes": 1440902,
+    "sha256": "0383c51766a4681b5de26aa79b67ade5d3a867a8622185abe8a090877bac7c2e"
+  },
+  "catalogueSha256": "c72e610fe723a6b49790fe4af848fc8e2fd15f52bdd137cec9b46219de152fff",
+  "vcsSha256": "7115c936b78fa3762e9a729b60b1b2123f761ac32a41bf044b3bb34bde5ac0ce",
+  "cloneSpan": [
+    "0xf5277c",
+    "0xf5291c"
+  ],
+  "selectorSpan": [
+    "0x65c3e",
+    "0x65cb1"
+  ],
+  "cases": [
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 780,
+      "kit": {
+        "id": "780",
+        "name": "am_circuitboard_silver",
+        "englishName": "Mainframe",
+        "chineseName": "主机",
+        "rarity": "common",
+        "rarityValue": 1,
+        "rarityColorKey": "desc_common",
+        "style": 5,
+        "pattern": "circuitboard",
+        "patternScale": 4.5,
+        "patternOffsetX": [
+          0.0,
+          1.0
+        ],
+        "patternOffsetY": [
+          0.0,
+          1.0
+        ],
+        "patternRotate": [
+          0.0,
+          0.0
+        ],
+        "seed": 0,
+        "wearMinimum": 0.0,
+        "wearMaximum": 0.5,
+        "wearDefault": 0.1,
+        "colours": [
+          [
+            15,
+            15,
+            15
+          ],
+          [
+            53,
+            52,
+            48
+          ],
+          [
+            108,
+            105,
+            96
+          ],
+          [
+            206,
+            193,
+            153
+          ]
+        ],
+        "phongExponent": 255.0,
+        "phongIntensity": 255.0,
+        "phongAlbedoBoost": 12.0,
+        "onlyFirstMaterial": 0,
+        "ignoreWeaponSizeScale": 1,
+        "textureReferences": [
+          {
+            "field": "pattern",
+            "sourceValue": "circuitboard",
+            "resolution": "unique",
+            "candidates": [
+              "materials/models/weapons/customization/paints/anodized_multi/circuitboard.vtf"
+            ]
+          }
+        ]
+      },
+      "materialSource": "materials/models/weapons/v_models/rif_m4a1/rif_m4a1.vmt",
+      "materialSha256": "7cbe8c9555593b927aa98b5c609196cb1a3eb27849e953e9c5223b970609df68",
+      "originalMaterial": {
+        "$basetexture": "models\\weapons\\v_models\\rif_m4a1\\rif_m4a1",
+        "$phongexponenttexture": "models\\weapons\\v_models\\rif_m4a1\\rif_m4a1_exponent",
+        "$phong": "1",
+        "$phongboost": "2",
+        "$phongalbedoboost": "25",
+        "$phongfresnelranges": "[.83 .83 1]",
+        "$basemapalphaphongmask": "1",
+        "$phongalbedotint": "1",
+        "$phongdisablehalflambert": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[.15 .15 .15]"
+      },
+      "phong": {
+        "phongBoost": 2,
+        "phongAlbedoBoost": 25,
+        "phongFresnelRanges": [
+          0.83,
+          0.83,
+          1.0
+        ],
+        "baseTexture": "models\\weapons\\v_models\\rif_m4a1\\rif_m4a1",
+        "exponentTexture": "models\\weapons\\v_models\\rif_m4a1\\rif_m4a1_exponent"
+      },
+      "nativeCompositeAlbedoFactor": 2.0833332538604736,
+      "nativeCompositeIntensityInteger": 255,
+      "materialAfterBranch": {
+        "$basetexture": "models\\weapons\\v_models\\rif_m4a1\\rif_m4a1",
+        "$phongexponenttexture": "models\\weapons\\v_models\\rif_m4a1\\rif_m4a1_exponent",
+        "$phong": "1",
+        "$phongboost": "2",
+        "$phongalbedoboost": 25.0,
+        "$phongfresnelranges": "[.83 .83 1]",
+        "$basemapalphaphongmask": "1",
+        "$phongalbedotint": 1,
+        "$phongdisablehalflambert": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[0 0 0]"
+      },
+      "keyValuesABIEvents": [
+        {
+          "at": "0xd140d8",
+          "operation": "getSchemaInt",
+          "name": "phongexponent",
+          "value": 255
+        },
+        {
+          "at": "0xd140f8",
+          "operation": "getSchemaInt",
+          "name": "phongalbedoboost",
+          "value": 12
+        },
+        {
+          "at": "0xd14118",
+          "operation": "getSchemaInt",
+          "name": "phongintensity",
+          "value": 255
+        },
+        {
+          "at": "0xf527b2",
+          "operation": "getMaterialFloat",
+          "name": "$phongalbedoboost",
+          "value": 25.0
+        },
+        {
+          "at": "0xf52807",
+          "operation": "getMaterialFloat",
+          "name": "$phongboost",
+          "value": 2.0
+        },
+        {
+          "at": "0xf52968",
+          "operation": "setMaterialValue",
+          "name": "$phongalbedotint",
+          "value": 1
+        },
+        {
+          "at": "0xf5297d",
+          "operation": "setMaterialValue",
+          "name": "$phongalbedoboost",
+          "value": 25.0
+        },
+        {
+          "at": "0xf528e4",
+          "operation": "setMaterialValue",
+          "name": "$envmaptint",
+          "value": "[0 0 0]"
+        }
+      ],
+      "laterCompositeScalarArguments": {
+        "phongIntensity": {
+          "nativeDoubleArgument": 1.0,
+          "originalFormat": "%f",
+          "hostFormattedText": "1.000000",
+          "hostParsedFloat32": 1.0
+        },
+        "phongExponent": {
+          "nativeDoubleArgument": 1.0,
+          "originalFormat": "%f",
+          "hostFormattedText": "1.000000",
+          "hostParsedFloat32": 1.0
+        },
+        "phongAlbedoFactor": {
+          "nativeDoubleArgument": 2.0833332538604736,
+          "originalFormat": "%f",
+          "hostFormattedText": "2.083333",
+          "hostParsedFloat32": 2.0833330154418945
+        }
+      },
+      "selectors": {
+        "color": {
+          "nativeCombined": 25,
+          "static": 5,
+          "dynamic": 0
+        },
+        "exponent": {
+          "nativeCombined": 75,
+          "static": 15,
+          "dynamic": 0
+        }
+      }
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 51,
+      "kit": {
+        "id": "51",
+        "name": "am_lightning_awp",
+        "englishName": "Lightning Strike",
+        "chineseName": "雷击",
+        "rarity": "legendary",
+        "rarityValue": 5,
+        "rarityColorKey": "desc_legendary",
+        "style": 5,
+        "pattern": "lightning_strike",
+        "patternScale": 1.0,
+        "patternOffsetX": [
+          0.0,
+          0.0
+        ],
+        "patternOffsetY": [
+          0.0,
+          0.0
+        ],
+        "patternRotate": [
+          0.0,
+          0.0
+        ],
+        "seed": 0,
+        "wearMinimum": 0.0,
+        "wearMaximum": 0.08,
+        "wearDefault": 0.0,
+        "colours": [
+          [
+            7,
+            5,
+            6
+          ],
+          [
+            65,
+            7,
+            99
+          ],
+          [
+            100,
+            36,
+            38
+          ],
+          [
+            108,
+            108,
+            142
+          ]
+        ],
+        "phongExponent": 8.0,
+        "phongIntensity": 255.0,
+        "phongAlbedoBoost": 40.0,
+        "onlyFirstMaterial": 0,
+        "ignoreWeaponSizeScale": 1,
+        "textureReferences": [
+          {
+            "field": "pattern",
+            "sourceValue": "lightning_strike",
+            "resolution": "unique",
+            "candidates": [
+              "materials/models/weapons/customization/paints/anodized_multi/lightning_strike.vtf"
+            ]
+          }
+        ]
+      },
+      "materialSource": "materials/models/weapons/v_models/snip_awp/awp.vmt",
+      "materialSha256": "a8da3373f5baacc039f83a5f63e64a4bbcc7fc29b3e2d648aa0f3eac88b8fd83",
+      "originalMaterial": {
+        "$basetexture": "models\\weapons\\v_models\\snip_awp\\awp",
+        "$phong": "1",
+        "$phongboost": "2",
+        "$phongalbedoboost": "40",
+        "$phongfresnelranges": "[.8 .8 1]",
+        "$phongexponenttexture": "models\\weapons\\v_models\\snip_awp\\awp_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[.1 .1 .1]",
+        "$phongalbedotint": "1",
+        "$phongdisablehalflambert": "1"
+      },
+      "phong": {
+        "phongBoost": 2,
+        "phongAlbedoBoost": 40,
+        "phongFresnelRanges": [
+          0.8,
+          0.8,
+          1.0
+        ],
+        "baseTexture": "models\\weapons\\v_models\\snip_awp\\awp",
+        "exponentTexture": "models\\weapons\\v_models\\snip_awp\\awp_exponent"
+      },
+      "nativeCompositeAlbedoFactor": 1.0,
+      "nativeCompositeIntensityInteger": 255,
+      "materialAfterBranch": {
+        "$basetexture": "models\\weapons\\v_models\\snip_awp\\awp",
+        "$phong": "1",
+        "$phongboost": "2",
+        "$phongalbedoboost": 40.0,
+        "$phongfresnelranges": "[.8 .8 1]",
+        "$phongexponenttexture": "models\\weapons\\v_models\\snip_awp\\awp_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[0 0 0]",
+        "$phongalbedotint": 1,
+        "$phongdisablehalflambert": "1"
+      },
+      "keyValuesABIEvents": [
+        {
+          "at": "0xd140d8",
+          "operation": "getSchemaInt",
+          "name": "phongexponent",
+          "value": 8
+        },
+        {
+          "at": "0xd140f8",
+          "operation": "getSchemaInt",
+          "name": "phongalbedoboost",
+          "value": 40
+        },
+        {
+          "at": "0xd14118",
+          "operation": "getSchemaInt",
+          "name": "phongintensity",
+          "value": 255
+        },
+        {
+          "at": "0xf527b2",
+          "operation": "getMaterialFloat",
+          "name": "$phongalbedoboost",
+          "value": 40.0
+        },
+        {
+          "at": "0xf52807",
+          "operation": "getMaterialFloat",
+          "name": "$phongboost",
+          "value": 2.0
+        },
+        {
+          "at": "0xf52968",
+          "operation": "setMaterialValue",
+          "name": "$phongalbedotint",
+          "value": 1
+        },
+        {
+          "at": "0xf5297d",
+          "operation": "setMaterialValue",
+          "name": "$phongalbedoboost",
+          "value": 40.0
+        },
+        {
+          "at": "0xf528e4",
+          "operation": "setMaterialValue",
+          "name": "$envmaptint",
+          "value": "[0 0 0]"
+        }
+      ],
+      "laterCompositeScalarArguments": {
+        "phongIntensity": {
+          "nativeDoubleArgument": 1.0,
+          "originalFormat": "%f",
+          "hostFormattedText": "1.000000",
+          "hostParsedFloat32": 1.0
+        },
+        "phongExponent": {
+          "nativeDoubleArgument": 0.0313725508749485,
+          "originalFormat": "%f",
+          "hostFormattedText": "0.031373",
+          "hostParsedFloat32": 0.031373001635074615
+        },
+        "phongAlbedoFactor": {
+          "nativeDoubleArgument": 1.0,
+          "originalFormat": "%f",
+          "hostFormattedText": "1.000000",
+          "hostParsedFloat32": 1.0
+        }
+      },
+      "selectors": {
+        "color": {
+          "nativeCombined": 25,
+          "static": 5,
+          "dynamic": 0
+        },
+        "exponent": {
+          "nativeCombined": 75,
+          "static": 15,
+          "dynamic": 0
+        }
+      }
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 395,
+      "kit": {
+        "id": "395",
+        "name": "am_awp_glory",
+        "englishName": "Man-o'-war",
+        "chineseName": "无畏战神",
+        "rarity": "legendary",
+        "rarityValue": 5,
+        "rarityColorKey": "desc_legendary",
+        "style": 5,
+        "pattern": "workshop/glory_awp",
+        "patternScale": 1.0,
+        "patternOffsetX": [
+          0.0,
+          0.0
+        ],
+        "patternOffsetY": [
+          0.0,
+          0.0
+        ],
+        "patternRotate": [
+          0.0,
+          0.0
+        ],
+        "seed": 0,
+        "wearMinimum": 0.1,
+        "wearMaximum": 0.2,
+        "wearDefault": 0.1,
+        "colours": [
+          [
+            162,
+            131,
+            43
+          ],
+          [
+            157,
+            126,
+            71
+          ],
+          [
+            24,
+            32,
+            54,
+            255
+          ],
+          [
+            4,
+            7,
+            26
+          ]
+        ],
+        "phongExponent": 255.0,
+        "phongIntensity": 255.0,
+        "phongAlbedoBoost": 60.0,
+        "onlyFirstMaterial": 0,
+        "ignoreWeaponSizeScale": 1,
+        "textureReferences": [
+          {
+            "field": "pattern",
+            "sourceValue": "workshop/glory_awp",
+            "resolution": "unique",
+            "candidates": [
+              "materials/models/weapons/customization/paints/anodized_multi/workshop/glory_awp.vtf"
+            ]
+          }
+        ]
+      },
+      "materialSource": "materials/models/weapons/v_models/snip_awp/awp.vmt",
+      "materialSha256": "a8da3373f5baacc039f83a5f63e64a4bbcc7fc29b3e2d648aa0f3eac88b8fd83",
+      "originalMaterial": {
+        "$basetexture": "models\\weapons\\v_models\\snip_awp\\awp",
+        "$phong": "1",
+        "$phongboost": "2",
+        "$phongalbedoboost": "40",
+        "$phongfresnelranges": "[.8 .8 1]",
+        "$phongexponenttexture": "models\\weapons\\v_models\\snip_awp\\awp_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[.1 .1 .1]",
+        "$phongalbedotint": "1",
+        "$phongdisablehalflambert": "1"
+      },
+      "phong": {
+        "phongBoost": 2,
+        "phongAlbedoBoost": 40,
+        "phongFresnelRanges": [
+          0.8,
+          0.8,
+          1.0
+        ],
+        "baseTexture": "models\\weapons\\v_models\\snip_awp\\awp",
+        "exponentTexture": "models\\weapons\\v_models\\snip_awp\\awp_exponent"
+      },
+      "nativeCompositeAlbedoFactor": 0.6666666865348816,
+      "nativeCompositeIntensityInteger": 255,
+      "materialAfterBranch": {
+        "$basetexture": "models\\weapons\\v_models\\snip_awp\\awp",
+        "$phong": "1",
+        "$phongboost": "2",
+        "$phongalbedoboost": 60.0,
+        "$phongfresnelranges": "[.8 .8 1]",
+        "$phongexponenttexture": "models\\weapons\\v_models\\snip_awp\\awp_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[0 0 0]",
+        "$phongalbedotint": 1,
+        "$phongdisablehalflambert": "1"
+      },
+      "keyValuesABIEvents": [
+        {
+          "at": "0xd140d8",
+          "operation": "getSchemaInt",
+          "name": "phongexponent",
+          "value": 255
+        },
+        {
+          "at": "0xd140f8",
+          "operation": "getSchemaInt",
+          "name": "phongalbedoboost",
+          "value": 60
+        },
+        {
+          "at": "0xd14118",
+          "operation": "getSchemaInt",
+          "name": "phongintensity",
+          "value": 255
+        },
+        {
+          "at": "0xf527b2",
+          "operation": "getMaterialFloat",
+          "name": "$phongalbedoboost",
+          "value": 40.0
+        },
+        {
+          "at": "0xf52807",
+          "operation": "getMaterialFloat",
+          "name": "$phongboost",
+          "value": 2.0
+        },
+        {
+          "at": "0xf52968",
+          "operation": "setMaterialValue",
+          "name": "$phongalbedotint",
+          "value": 1
+        },
+        {
+          "at": "0xf5297d",
+          "operation": "setMaterialValue",
+          "name": "$phongalbedoboost",
+          "value": 60.0
+        },
+        {
+          "at": "0xf528e4",
+          "operation": "setMaterialValue",
+          "name": "$envmaptint",
+          "value": "[0 0 0]"
+        }
+      ],
+      "laterCompositeScalarArguments": {
+        "phongIntensity": {
+          "nativeDoubleArgument": 1.0,
+          "originalFormat": "%f",
+          "hostFormattedText": "1.000000",
+          "hostParsedFloat32": 1.0
+        },
+        "phongExponent": {
+          "nativeDoubleArgument": 1.0,
+          "originalFormat": "%f",
+          "hostFormattedText": "1.000000",
+          "hostParsedFloat32": 1.0
+        },
+        "phongAlbedoFactor": {
+          "nativeDoubleArgument": 0.6666666865348816,
+          "originalFormat": "%f",
+          "hostFormattedText": "0.666667",
+          "hostParsedFloat32": 0.6666669845581055
+        }
+      },
+      "selectors": {
+        "color": {
+          "nativeCombined": 825,
+          "static": 165,
+          "dynamic": 0
+        },
+        "exponent": {
+          "nativeCombined": 875,
+          "static": 175,
+          "dynamic": 0
+        }
+      }
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 48,
+      "kit": {
+        "id": "48",
+        "name": "am_dragon_glock",
+        "englishName": "Dragon Tattoo",
+        "chineseName": "黑龙纹身",
+        "rarity": "rare",
+        "rarityValue": 3,
+        "rarityColorKey": "desc_rare",
+        "style": 5,
+        "pattern": "dragon_glock",
+        "patternScale": 3.37,
+        "patternOffsetX": [
+          -0.31,
+          -0.31
+        ],
+        "patternOffsetY": [
+          -1.47,
+          -1.8
+        ],
+        "patternRotate": [
+          0.0,
+          0.0
+        ],
+        "seed": 0,
+        "wearMinimum": 0.0,
+        "wearMaximum": 0.08,
+        "wearDefault": 0.04,
+        "colours": [
+          [
+            58,
+            58,
+            60
+          ],
+          [
+            60,
+            60,
+            60
+          ],
+          [
+            7,
+            7,
+            8
+          ],
+          [
+            60,
+            60,
+            60
+          ]
+        ],
+        "phongExponent": 16.0,
+        "phongIntensity": 255.0,
+        "phongAlbedoBoost": 30.0,
+        "onlyFirstMaterial": 0,
+        "ignoreWeaponSizeScale": 1,
+        "textureReferences": [
+          {
+            "field": "pattern",
+            "sourceValue": "dragon_glock",
+            "resolution": "unique",
+            "candidates": [
+              "materials/models/weapons/customization/paints/anodized_multi/dragon_glock.vtf"
+            ]
+          }
+        ]
+      },
+      "materialSource": "materials/models/weapons/v_models/pist_glock18/pist_glock18.vmt",
+      "materialSha256": "15dad51c6ebd42404988f589c510d830e116e6b62cf13552e6ec676a764a7949",
+      "originalMaterial": {
+        "$basetexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18",
+        "$phong": "1",
+        "$phongboost": "1",
+        "$phongalbedoboost": "35",
+        "$phongfresnelranges": "[.83 .83 1]",
+        "$phongexponenttexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[.25 .25 .25]",
+        "$phongalbedotint": "1",
+        "$phongdisablehalflambert": "1"
+      },
+      "phong": {
+        "phongBoost": 1,
+        "phongAlbedoBoost": 35,
+        "phongFresnelRanges": [
+          0.83,
+          0.83,
+          1.0
+        ],
+        "baseTexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18",
+        "exponentTexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18_exponent"
+      },
+      "nativeCompositeAlbedoFactor": 1.1666666269302368,
+      "nativeCompositeIntensityInteger": 255,
+      "materialAfterBranch": {
+        "$basetexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18",
+        "$phong": "1",
+        "$phongboost": "1",
+        "$phongalbedoboost": 35.0,
+        "$phongfresnelranges": "[.83 .83 1]",
+        "$phongexponenttexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[0 0 0]",
+        "$phongalbedotint": 1,
+        "$phongdisablehalflambert": "1"
+      },
+      "keyValuesABIEvents": [
+        {
+          "at": "0xd140d8",
+          "operation": "getSchemaInt",
+          "name": "phongexponent",
+          "value": 16
+        },
+        {
+          "at": "0xd140f8",
+          "operation": "getSchemaInt",
+          "name": "phongalbedoboost",
+          "value": 30
+        },
+        {
+          "at": "0xd14118",
+          "operation": "getSchemaInt",
+          "name": "phongintensity",
+          "value": 255
+        },
+        {
+          "at": "0xf527b2",
+          "operation": "getMaterialFloat",
+          "name": "$phongalbedoboost",
+          "value": 35.0
+        },
+        {
+          "at": "0xf52807",
+          "operation": "getMaterialFloat",
+          "name": "$phongboost",
+          "value": 1.0
+        },
+        {
+          "at": "0xf52968",
+          "operation": "setMaterialValue",
+          "name": "$phongalbedotint",
+          "value": 1
+        },
+        {
+          "at": "0xf5297d",
+          "operation": "setMaterialValue",
+          "name": "$phongalbedoboost",
+          "value": 35.0
+        },
+        {
+          "at": "0xf528e4",
+          "operation": "setMaterialValue",
+          "name": "$envmaptint",
+          "value": "[0 0 0]"
+        }
+      ],
+      "laterCompositeScalarArguments": {
+        "phongIntensity": {
+          "nativeDoubleArgument": 1.0,
+          "originalFormat": "%f",
+          "hostFormattedText": "1.000000",
+          "hostParsedFloat32": 1.0
+        },
+        "phongExponent": {
+          "nativeDoubleArgument": 0.062745101749897,
+          "originalFormat": "%f",
+          "hostFormattedText": "0.062745",
+          "hostParsedFloat32": 0.06274499744176865
+        },
+        "phongAlbedoFactor": {
+          "nativeDoubleArgument": 1.1666666269302368,
+          "originalFormat": "%f",
+          "hostFormattedText": "1.166667",
+          "hostParsedFloat32": 1.1666669845581055
+        }
+      },
+      "selectors": {
+        "color": {
+          "nativeCombined": 25,
+          "static": 5,
+          "dynamic": 0
+        },
+        "exponent": {
+          "nativeCombined": 75,
+          "static": 15,
+          "dynamic": 0
+        }
+      }
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1119,
+      "kit": {
+        "id": "1119",
+        "name": "am_emerald_marbleized_glock",
+        "englishName": "Gamma Doppler",
+        "chineseName": "伽玛多普勒",
+        "rarity": "legendary",
+        "rarityValue": 5,
+        "rarityColorKey": "desc_legendary",
+        "style": 5,
+        "pattern": "smoke2",
+        "patternScale": 3.0,
+        "patternOffsetX": [
+          0.0,
+          1.0
+        ],
+        "patternOffsetY": [
+          0.0,
+          1.0
+        ],
+        "patternRotate": [
+          0.0,
+          360.0
+        ],
+        "seed": 0,
+        "wearMinimum": 0.0,
+        "wearMaximum": 0.5,
+        "wearDefault": 0.1,
+        "colours": [
+          [
+            2,
+            69,
+            34
+          ],
+          [
+            15,
+            15,
+            1
+          ],
+          [
+            1,
+            13,
+            17,
+            255
+          ],
+          [
+            8,
+            2,
+            22,
+            255
+          ]
+        ],
+        "phongExponent": 180.0,
+        "phongIntensity": 255.0,
+        "phongAlbedoBoost": 30.0,
+        "onlyFirstMaterial": 0,
+        "ignoreWeaponSizeScale": 1,
+        "textureReferences": [
+          {
+            "field": "pattern",
+            "sourceValue": "smoke2",
+            "resolution": "unique",
+            "candidates": [
+              "materials/models/weapons/customization/paints/anodized_multi/smoke2.vtf"
+            ]
+          }
+        ]
+      },
+      "materialSource": "materials/models/weapons/v_models/pist_glock18/pist_glock18.vmt",
+      "materialSha256": "15dad51c6ebd42404988f589c510d830e116e6b62cf13552e6ec676a764a7949",
+      "originalMaterial": {
+        "$basetexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18",
+        "$phong": "1",
+        "$phongboost": "1",
+        "$phongalbedoboost": "35",
+        "$phongfresnelranges": "[.83 .83 1]",
+        "$phongexponenttexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[.25 .25 .25]",
+        "$phongalbedotint": "1",
+        "$phongdisablehalflambert": "1"
+      },
+      "phong": {
+        "phongBoost": 1,
+        "phongAlbedoBoost": 35,
+        "phongFresnelRanges": [
+          0.83,
+          0.83,
+          1.0
+        ],
+        "baseTexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18",
+        "exponentTexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18_exponent"
+      },
+      "nativeCompositeAlbedoFactor": 1.1666666269302368,
+      "nativeCompositeIntensityInteger": 255,
+      "materialAfterBranch": {
+        "$basetexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18",
+        "$phong": "1",
+        "$phongboost": "1",
+        "$phongalbedoboost": 35.0,
+        "$phongfresnelranges": "[.83 .83 1]",
+        "$phongexponenttexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[0 0 0]",
+        "$phongalbedotint": 1,
+        "$phongdisablehalflambert": "1"
+      },
+      "keyValuesABIEvents": [
+        {
+          "at": "0xd140d8",
+          "operation": "getSchemaInt",
+          "name": "phongexponent",
+          "value": 180
+        },
+        {
+          "at": "0xd140f8",
+          "operation": "getSchemaInt",
+          "name": "phongalbedoboost",
+          "value": 30
+        },
+        {
+          "at": "0xd14118",
+          "operation": "getSchemaInt",
+          "name": "phongintensity",
+          "value": 255
+        },
+        {
+          "at": "0xf527b2",
+          "operation": "getMaterialFloat",
+          "name": "$phongalbedoboost",
+          "value": 35.0
+        },
+        {
+          "at": "0xf52807",
+          "operation": "getMaterialFloat",
+          "name": "$phongboost",
+          "value": 1.0
+        },
+        {
+          "at": "0xf52968",
+          "operation": "setMaterialValue",
+          "name": "$phongalbedotint",
+          "value": 1
+        },
+        {
+          "at": "0xf5297d",
+          "operation": "setMaterialValue",
+          "name": "$phongalbedoboost",
+          "value": 35.0
+        },
+        {
+          "at": "0xf528e4",
+          "operation": "setMaterialValue",
+          "name": "$envmaptint",
+          "value": "[0 0 0]"
+        }
+      ],
+      "laterCompositeScalarArguments": {
+        "phongIntensity": {
+          "nativeDoubleArgument": 1.0,
+          "originalFormat": "%f",
+          "hostFormattedText": "1.000000",
+          "hostParsedFloat32": 1.0
+        },
+        "phongExponent": {
+          "nativeDoubleArgument": 0.7058823704719543,
+          "originalFormat": "%f",
+          "hostFormattedText": "0.705882",
+          "hostParsedFloat32": 0.7058820128440857
+        },
+        "phongAlbedoFactor": {
+          "nativeDoubleArgument": 1.1666666269302368,
+          "originalFormat": "%f",
+          "hostFormattedText": "1.166667",
+          "hostParsedFloat32": 1.1666669845581055
+        }
+      },
+      "selectors": {
+        "color": {
+          "nativeCombined": 25,
+          "static": 5,
+          "dynamic": 0
+        },
+        "exponent": {
+          "nativeCombined": 75,
+          "static": 15,
+          "dynamic": 0
+        }
+      }
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1120,
+      "kit": {
+        "id": "1120",
+        "name": "am_gamma_doppler_phase1_glock",
+        "englishName": "Gamma Doppler",
+        "chineseName": "伽玛多普勒",
+        "rarity": "legendary",
+        "rarityValue": 5,
+        "rarityColorKey": "desc_legendary",
+        "style": 5,
+        "pattern": "smoke2",
+        "patternScale": 3.0,
+        "patternOffsetX": [
+          0.0,
+          0.0
+        ],
+        "patternOffsetY": [
+          0.0,
+          1.0
+        ],
+        "patternRotate": [
+          -50.0,
+          -70.0
+        ],
+        "seed": 0,
+        "wearMinimum": 0.0,
+        "wearMaximum": 0.5,
+        "wearDefault": 0.1,
+        "colours": [
+          [
+            11,
+            14,
+            27,
+            255
+          ],
+          [
+            30,
+            22,
+            12,
+            255
+          ],
+          [
+            13,
+            98,
+            45
+          ],
+          [
+            11,
+            14,
+            27,
+            255
+          ]
+        ],
+        "phongExponent": 180.0,
+        "phongIntensity": 255.0,
+        "phongAlbedoBoost": 30.0,
+        "onlyFirstMaterial": 0,
+        "ignoreWeaponSizeScale": 1,
+        "textureReferences": [
+          {
+            "field": "pattern",
+            "sourceValue": "smoke2",
+            "resolution": "unique",
+            "candidates": [
+              "materials/models/weapons/customization/paints/anodized_multi/smoke2.vtf"
+            ]
+          }
+        ]
+      },
+      "materialSource": "materials/models/weapons/v_models/pist_glock18/pist_glock18.vmt",
+      "materialSha256": "15dad51c6ebd42404988f589c510d830e116e6b62cf13552e6ec676a764a7949",
+      "originalMaterial": {
+        "$basetexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18",
+        "$phong": "1",
+        "$phongboost": "1",
+        "$phongalbedoboost": "35",
+        "$phongfresnelranges": "[.83 .83 1]",
+        "$phongexponenttexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[.25 .25 .25]",
+        "$phongalbedotint": "1",
+        "$phongdisablehalflambert": "1"
+      },
+      "phong": {
+        "phongBoost": 1,
+        "phongAlbedoBoost": 35,
+        "phongFresnelRanges": [
+          0.83,
+          0.83,
+          1.0
+        ],
+        "baseTexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18",
+        "exponentTexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18_exponent"
+      },
+      "nativeCompositeAlbedoFactor": 1.1666666269302368,
+      "nativeCompositeIntensityInteger": 255,
+      "materialAfterBranch": {
+        "$basetexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18",
+        "$phong": "1",
+        "$phongboost": "1",
+        "$phongalbedoboost": 35.0,
+        "$phongfresnelranges": "[.83 .83 1]",
+        "$phongexponenttexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[0 0 0]",
+        "$phongalbedotint": 1,
+        "$phongdisablehalflambert": "1"
+      },
+      "keyValuesABIEvents": [
+        {
+          "at": "0xd140d8",
+          "operation": "getSchemaInt",
+          "name": "phongexponent",
+          "value": 180
+        },
+        {
+          "at": "0xd140f8",
+          "operation": "getSchemaInt",
+          "name": "phongalbedoboost",
+          "value": 30
+        },
+        {
+          "at": "0xd14118",
+          "operation": "getSchemaInt",
+          "name": "phongintensity",
+          "value": 255
+        },
+        {
+          "at": "0xf527b2",
+          "operation": "getMaterialFloat",
+          "name": "$phongalbedoboost",
+          "value": 35.0
+        },
+        {
+          "at": "0xf52807",
+          "operation": "getMaterialFloat",
+          "name": "$phongboost",
+          "value": 1.0
+        },
+        {
+          "at": "0xf52968",
+          "operation": "setMaterialValue",
+          "name": "$phongalbedotint",
+          "value": 1
+        },
+        {
+          "at": "0xf5297d",
+          "operation": "setMaterialValue",
+          "name": "$phongalbedoboost",
+          "value": 35.0
+        },
+        {
+          "at": "0xf528e4",
+          "operation": "setMaterialValue",
+          "name": "$envmaptint",
+          "value": "[0 0 0]"
+        }
+      ],
+      "laterCompositeScalarArguments": {
+        "phongIntensity": {
+          "nativeDoubleArgument": 1.0,
+          "originalFormat": "%f",
+          "hostFormattedText": "1.000000",
+          "hostParsedFloat32": 1.0
+        },
+        "phongExponent": {
+          "nativeDoubleArgument": 0.7058823704719543,
+          "originalFormat": "%f",
+          "hostFormattedText": "0.705882",
+          "hostParsedFloat32": 0.7058820128440857
+        },
+        "phongAlbedoFactor": {
+          "nativeDoubleArgument": 1.1666666269302368,
+          "originalFormat": "%f",
+          "hostFormattedText": "1.166667",
+          "hostParsedFloat32": 1.1666669845581055
+        }
+      },
+      "selectors": {
+        "color": {
+          "nativeCombined": 25,
+          "static": 5,
+          "dynamic": 0
+        },
+        "exponent": {
+          "nativeCombined": 75,
+          "static": 15,
+          "dynamic": 0
+        }
+      }
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1121,
+      "kit": {
+        "id": "1121",
+        "name": "am_gamma_doppler_phase2_glock",
+        "englishName": "Gamma Doppler",
+        "chineseName": "伽玛多普勒",
+        "rarity": "legendary",
+        "rarityValue": 5,
+        "rarityColorKey": "desc_legendary",
+        "style": 5,
+        "pattern": "smoke2",
+        "patternScale": 3.0,
+        "patternOffsetX": [
+          0.0,
+          0.0
+        ],
+        "patternOffsetY": [
+          0.0,
+          1.0
+        ],
+        "patternRotate": [
+          -50.0,
+          -70.0
+        ],
+        "seed": 0,
+        "wearMinimum": 0.0,
+        "wearMaximum": 0.5,
+        "wearDefault": 0.1,
+        "colours": [
+          [
+            9,
+            15,
+            18
+          ],
+          [
+            9,
+            99,
+            45
+          ],
+          [
+            23,
+            30,
+            12
+          ],
+          [
+            9,
+            99,
+            49
+          ]
+        ],
+        "phongExponent": 180.0,
+        "phongIntensity": 255.0,
+        "phongAlbedoBoost": 30.0,
+        "onlyFirstMaterial": 0,
+        "ignoreWeaponSizeScale": 1,
+        "textureReferences": [
+          {
+            "field": "pattern",
+            "sourceValue": "smoke2",
+            "resolution": "unique",
+            "candidates": [
+              "materials/models/weapons/customization/paints/anodized_multi/smoke2.vtf"
+            ]
+          }
+        ]
+      },
+      "materialSource": "materials/models/weapons/v_models/pist_glock18/pist_glock18.vmt",
+      "materialSha256": "15dad51c6ebd42404988f589c510d830e116e6b62cf13552e6ec676a764a7949",
+      "originalMaterial": {
+        "$basetexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18",
+        "$phong": "1",
+        "$phongboost": "1",
+        "$phongalbedoboost": "35",
+        "$phongfresnelranges": "[.83 .83 1]",
+        "$phongexponenttexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[.25 .25 .25]",
+        "$phongalbedotint": "1",
+        "$phongdisablehalflambert": "1"
+      },
+      "phong": {
+        "phongBoost": 1,
+        "phongAlbedoBoost": 35,
+        "phongFresnelRanges": [
+          0.83,
+          0.83,
+          1.0
+        ],
+        "baseTexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18",
+        "exponentTexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18_exponent"
+      },
+      "nativeCompositeAlbedoFactor": 1.1666666269302368,
+      "nativeCompositeIntensityInteger": 255,
+      "materialAfterBranch": {
+        "$basetexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18",
+        "$phong": "1",
+        "$phongboost": "1",
+        "$phongalbedoboost": 35.0,
+        "$phongfresnelranges": "[.83 .83 1]",
+        "$phongexponenttexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[0 0 0]",
+        "$phongalbedotint": 1,
+        "$phongdisablehalflambert": "1"
+      },
+      "keyValuesABIEvents": [
+        {
+          "at": "0xd140d8",
+          "operation": "getSchemaInt",
+          "name": "phongexponent",
+          "value": 180
+        },
+        {
+          "at": "0xd140f8",
+          "operation": "getSchemaInt",
+          "name": "phongalbedoboost",
+          "value": 30
+        },
+        {
+          "at": "0xd14118",
+          "operation": "getSchemaInt",
+          "name": "phongintensity",
+          "value": 255
+        },
+        {
+          "at": "0xf527b2",
+          "operation": "getMaterialFloat",
+          "name": "$phongalbedoboost",
+          "value": 35.0
+        },
+        {
+          "at": "0xf52807",
+          "operation": "getMaterialFloat",
+          "name": "$phongboost",
+          "value": 1.0
+        },
+        {
+          "at": "0xf52968",
+          "operation": "setMaterialValue",
+          "name": "$phongalbedotint",
+          "value": 1
+        },
+        {
+          "at": "0xf5297d",
+          "operation": "setMaterialValue",
+          "name": "$phongalbedoboost",
+          "value": 35.0
+        },
+        {
+          "at": "0xf528e4",
+          "operation": "setMaterialValue",
+          "name": "$envmaptint",
+          "value": "[0 0 0]"
+        }
+      ],
+      "laterCompositeScalarArguments": {
+        "phongIntensity": {
+          "nativeDoubleArgument": 1.0,
+          "originalFormat": "%f",
+          "hostFormattedText": "1.000000",
+          "hostParsedFloat32": 1.0
+        },
+        "phongExponent": {
+          "nativeDoubleArgument": 0.7058823704719543,
+          "originalFormat": "%f",
+          "hostFormattedText": "0.705882",
+          "hostParsedFloat32": 0.7058820128440857
+        },
+        "phongAlbedoFactor": {
+          "nativeDoubleArgument": 1.1666666269302368,
+          "originalFormat": "%f",
+          "hostFormattedText": "1.166667",
+          "hostParsedFloat32": 1.1666669845581055
+        }
+      },
+      "selectors": {
+        "color": {
+          "nativeCombined": 25,
+          "static": 5,
+          "dynamic": 0
+        },
+        "exponent": {
+          "nativeCombined": 75,
+          "static": 15,
+          "dynamic": 0
+        }
+      }
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1122,
+      "kit": {
+        "id": "1122",
+        "name": "am_gamma_doppler_phase3_glock",
+        "englishName": "Gamma Doppler",
+        "chineseName": "伽玛多普勒",
+        "rarity": "legendary",
+        "rarityValue": 5,
+        "rarityColorKey": "desc_legendary",
+        "style": 5,
+        "pattern": "smoke2",
+        "patternScale": 3.0,
+        "patternOffsetX": [
+          0.0,
+          0.0
+        ],
+        "patternOffsetY": [
+          0.0,
+          1.0
+        ],
+        "patternRotate": [
+          -50.0,
+          -70.0
+        ],
+        "seed": 0,
+        "wearMinimum": 0.0,
+        "wearMaximum": 0.5,
+        "wearDefault": 0.1,
+        "colours": [
+          [
+            6,
+            8,
+            15,
+            255
+          ],
+          [
+            23,
+            105,
+            117
+          ],
+          [
+            6,
+            63,
+            13
+          ],
+          [
+            20,
+            28,
+            9
+          ]
+        ],
+        "phongExponent": 180.0,
+        "phongIntensity": 255.0,
+        "phongAlbedoBoost": 30.0,
+        "onlyFirstMaterial": 0,
+        "ignoreWeaponSizeScale": 1,
+        "textureReferences": [
+          {
+            "field": "pattern",
+            "sourceValue": "smoke2",
+            "resolution": "unique",
+            "candidates": [
+              "materials/models/weapons/customization/paints/anodized_multi/smoke2.vtf"
+            ]
+          }
+        ]
+      },
+      "materialSource": "materials/models/weapons/v_models/pist_glock18/pist_glock18.vmt",
+      "materialSha256": "15dad51c6ebd42404988f589c510d830e116e6b62cf13552e6ec676a764a7949",
+      "originalMaterial": {
+        "$basetexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18",
+        "$phong": "1",
+        "$phongboost": "1",
+        "$phongalbedoboost": "35",
+        "$phongfresnelranges": "[.83 .83 1]",
+        "$phongexponenttexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[.25 .25 .25]",
+        "$phongalbedotint": "1",
+        "$phongdisablehalflambert": "1"
+      },
+      "phong": {
+        "phongBoost": 1,
+        "phongAlbedoBoost": 35,
+        "phongFresnelRanges": [
+          0.83,
+          0.83,
+          1.0
+        ],
+        "baseTexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18",
+        "exponentTexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18_exponent"
+      },
+      "nativeCompositeAlbedoFactor": 1.1666666269302368,
+      "nativeCompositeIntensityInteger": 255,
+      "materialAfterBranch": {
+        "$basetexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18",
+        "$phong": "1",
+        "$phongboost": "1",
+        "$phongalbedoboost": 35.0,
+        "$phongfresnelranges": "[.83 .83 1]",
+        "$phongexponenttexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[0 0 0]",
+        "$phongalbedotint": 1,
+        "$phongdisablehalflambert": "1"
+      },
+      "keyValuesABIEvents": [
+        {
+          "at": "0xd140d8",
+          "operation": "getSchemaInt",
+          "name": "phongexponent",
+          "value": 180
+        },
+        {
+          "at": "0xd140f8",
+          "operation": "getSchemaInt",
+          "name": "phongalbedoboost",
+          "value": 30
+        },
+        {
+          "at": "0xd14118",
+          "operation": "getSchemaInt",
+          "name": "phongintensity",
+          "value": 255
+        },
+        {
+          "at": "0xf527b2",
+          "operation": "getMaterialFloat",
+          "name": "$phongalbedoboost",
+          "value": 35.0
+        },
+        {
+          "at": "0xf52807",
+          "operation": "getMaterialFloat",
+          "name": "$phongboost",
+          "value": 1.0
+        },
+        {
+          "at": "0xf52968",
+          "operation": "setMaterialValue",
+          "name": "$phongalbedotint",
+          "value": 1
+        },
+        {
+          "at": "0xf5297d",
+          "operation": "setMaterialValue",
+          "name": "$phongalbedoboost",
+          "value": 35.0
+        },
+        {
+          "at": "0xf528e4",
+          "operation": "setMaterialValue",
+          "name": "$envmaptint",
+          "value": "[0 0 0]"
+        }
+      ],
+      "laterCompositeScalarArguments": {
+        "phongIntensity": {
+          "nativeDoubleArgument": 1.0,
+          "originalFormat": "%f",
+          "hostFormattedText": "1.000000",
+          "hostParsedFloat32": 1.0
+        },
+        "phongExponent": {
+          "nativeDoubleArgument": 0.7058823704719543,
+          "originalFormat": "%f",
+          "hostFormattedText": "0.705882",
+          "hostParsedFloat32": 0.7058820128440857
+        },
+        "phongAlbedoFactor": {
+          "nativeDoubleArgument": 1.1666666269302368,
+          "originalFormat": "%f",
+          "hostFormattedText": "1.166667",
+          "hostParsedFloat32": 1.1666669845581055
+        }
+      },
+      "selectors": {
+        "color": {
+          "nativeCombined": 25,
+          "static": 5,
+          "dynamic": 0
+        },
+        "exponent": {
+          "nativeCombined": 75,
+          "static": 15,
+          "dynamic": 0
+        }
+      }
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1123,
+      "kit": {
+        "id": "1123",
+        "name": "am_gamma_doppler_phase4_glock",
+        "englishName": "Gamma Doppler",
+        "chineseName": "伽玛多普勒",
+        "rarity": "legendary",
+        "rarityValue": 5,
+        "rarityColorKey": "desc_legendary",
+        "style": 5,
+        "pattern": "smoke2",
+        "patternScale": 3.0,
+        "patternOffsetX": [
+          0.0,
+          0.0
+        ],
+        "patternOffsetY": [
+          0.0,
+          1.0
+        ],
+        "patternRotate": [
+          -50.0,
+          -70.0
+        ],
+        "seed": 0,
+        "wearMinimum": 0.0,
+        "wearMaximum": 0.5,
+        "wearDefault": 0.1,
+        "colours": [
+          [
+            7,
+            9,
+            18
+          ],
+          [
+            23,
+            117,
+            103
+          ],
+          [
+            97,
+            165,
+            43
+          ],
+          [
+            28,
+            26,
+            9
+          ]
+        ],
+        "phongExponent": 180.0,
+        "phongIntensity": 255.0,
+        "phongAlbedoBoost": 30.0,
+        "onlyFirstMaterial": 0,
+        "ignoreWeaponSizeScale": 1,
+        "textureReferences": [
+          {
+            "field": "pattern",
+            "sourceValue": "smoke2",
+            "resolution": "unique",
+            "candidates": [
+              "materials/models/weapons/customization/paints/anodized_multi/smoke2.vtf"
+            ]
+          }
+        ]
+      },
+      "materialSource": "materials/models/weapons/v_models/pist_glock18/pist_glock18.vmt",
+      "materialSha256": "15dad51c6ebd42404988f589c510d830e116e6b62cf13552e6ec676a764a7949",
+      "originalMaterial": {
+        "$basetexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18",
+        "$phong": "1",
+        "$phongboost": "1",
+        "$phongalbedoboost": "35",
+        "$phongfresnelranges": "[.83 .83 1]",
+        "$phongexponenttexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[.25 .25 .25]",
+        "$phongalbedotint": "1",
+        "$phongdisablehalflambert": "1"
+      },
+      "phong": {
+        "phongBoost": 1,
+        "phongAlbedoBoost": 35,
+        "phongFresnelRanges": [
+          0.83,
+          0.83,
+          1.0
+        ],
+        "baseTexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18",
+        "exponentTexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18_exponent"
+      },
+      "nativeCompositeAlbedoFactor": 1.1666666269302368,
+      "nativeCompositeIntensityInteger": 255,
+      "materialAfterBranch": {
+        "$basetexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18",
+        "$phong": "1",
+        "$phongboost": "1",
+        "$phongalbedoboost": 35.0,
+        "$phongfresnelranges": "[.83 .83 1]",
+        "$phongexponenttexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[0 0 0]",
+        "$phongalbedotint": 1,
+        "$phongdisablehalflambert": "1"
+      },
+      "keyValuesABIEvents": [
+        {
+          "at": "0xd140d8",
+          "operation": "getSchemaInt",
+          "name": "phongexponent",
+          "value": 180
+        },
+        {
+          "at": "0xd140f8",
+          "operation": "getSchemaInt",
+          "name": "phongalbedoboost",
+          "value": 30
+        },
+        {
+          "at": "0xd14118",
+          "operation": "getSchemaInt",
+          "name": "phongintensity",
+          "value": 255
+        },
+        {
+          "at": "0xf527b2",
+          "operation": "getMaterialFloat",
+          "name": "$phongalbedoboost",
+          "value": 35.0
+        },
+        {
+          "at": "0xf52807",
+          "operation": "getMaterialFloat",
+          "name": "$phongboost",
+          "value": 1.0
+        },
+        {
+          "at": "0xf52968",
+          "operation": "setMaterialValue",
+          "name": "$phongalbedotint",
+          "value": 1
+        },
+        {
+          "at": "0xf5297d",
+          "operation": "setMaterialValue",
+          "name": "$phongalbedoboost",
+          "value": 35.0
+        },
+        {
+          "at": "0xf528e4",
+          "operation": "setMaterialValue",
+          "name": "$envmaptint",
+          "value": "[0 0 0]"
+        }
+      ],
+      "laterCompositeScalarArguments": {
+        "phongIntensity": {
+          "nativeDoubleArgument": 1.0,
+          "originalFormat": "%f",
+          "hostFormattedText": "1.000000",
+          "hostParsedFloat32": 1.0
+        },
+        "phongExponent": {
+          "nativeDoubleArgument": 0.7058823704719543,
+          "originalFormat": "%f",
+          "hostFormattedText": "0.705882",
+          "hostParsedFloat32": 0.7058820128440857
+        },
+        "phongAlbedoFactor": {
+          "nativeDoubleArgument": 1.1666666269302368,
+          "originalFormat": "%f",
+          "hostFormattedText": "1.166667",
+          "hostParsedFloat32": 1.1666669845581055
+        }
+      },
+      "selectors": {
+        "color": {
+          "nativeCombined": 25,
+          "static": 5,
+          "dynamic": 0
+        },
+        "exponent": {
+          "nativeCombined": 75,
+          "static": 15,
+          "dynamic": 0
+        }
+      }
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 425,
+      "kit": {
+        "id": "425",
+        "name": "am_bronze_sparkle",
+        "englishName": "Bronze Deco",
+        "chineseName": "青铜装饰",
+        "rarity": "uncommon",
+        "rarityValue": 2,
+        "rarityColorKey": "desc_uncommon",
+        "style": 5,
+        "pattern": "workshop/bronze_flakes",
+        "patternScale": 1.5,
+        "patternOffsetX": [
+          0.0,
+          1.0
+        ],
+        "patternOffsetY": [
+          0.0,
+          1.0
+        ],
+        "patternRotate": [
+          -20.0,
+          20.0
+        ],
+        "seed": 0,
+        "wearMinimum": 0.0,
+        "wearMaximum": 0.46,
+        "wearDefault": 0.1,
+        "colours": [
+          [
+            45,
+            45,
+            45
+          ],
+          [
+            48,
+            39,
+            24
+          ],
+          [
+            70,
+            56,
+            35
+          ],
+          [
+            151,
+            121,
+            76
+          ]
+        ],
+        "phongExponent": 4.0,
+        "phongIntensity": 255.0,
+        "phongAlbedoBoost": 70.0,
+        "onlyFirstMaterial": 0,
+        "ignoreWeaponSizeScale": 1,
+        "textureReferences": [
+          {
+            "field": "pattern",
+            "sourceValue": "workshop/bronze_flakes",
+            "resolution": "unique",
+            "candidates": [
+              "materials/models/weapons/customization/paints/anodized_multi/workshop/bronze_flakes.vtf"
+            ]
+          }
+        ]
+      },
+      "materialSource": "materials/models/weapons/v_models/pist_deagle/pist_deagle.vmt",
+      "materialSha256": "ae88ee0beb230520bfa67bf41730dba2f699d6bee611f76600a2af0d374f0566",
+      "originalMaterial": {
+        "$basetexture": "models\\weapons\\v_models\\pist_deagle\\pist_deagle",
+        "$phong": "1",
+        "$phongboost": "1",
+        "$phongalbedoboost": "40",
+        "$phongfresnelranges": "[.8 .8 1]",
+        "$phongexponenttexture": "models\\weapons\\v_models\\pist_deagle\\pist_deagle_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[.4 .4 .4]",
+        "$phongalbedotint": "1",
+        "$phongdisablehalflambert": "1"
+      },
+      "phong": {
+        "phongBoost": 1,
+        "phongAlbedoBoost": 40,
+        "phongFresnelRanges": [
+          0.8,
+          0.8,
+          1.0
+        ],
+        "baseTexture": "models\\weapons\\v_models\\pist_deagle\\pist_deagle",
+        "exponentTexture": "models\\weapons\\v_models\\pist_deagle\\pist_deagle_exponent"
+      },
+      "nativeCompositeAlbedoFactor": 0.5714285969734192,
+      "nativeCompositeIntensityInteger": 255,
+      "materialAfterBranch": {
+        "$basetexture": "models\\weapons\\v_models\\pist_deagle\\pist_deagle",
+        "$phong": "1",
+        "$phongboost": "1",
+        "$phongalbedoboost": 70.0,
+        "$phongfresnelranges": "[.8 .8 1]",
+        "$phongexponenttexture": "models\\weapons\\v_models\\pist_deagle\\pist_deagle_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[0 0 0]",
+        "$phongalbedotint": 1,
+        "$phongdisablehalflambert": "1"
+      },
+      "keyValuesABIEvents": [
+        {
+          "at": "0xd140d8",
+          "operation": "getSchemaInt",
+          "name": "phongexponent",
+          "value": 4
+        },
+        {
+          "at": "0xd140f8",
+          "operation": "getSchemaInt",
+          "name": "phongalbedoboost",
+          "value": 70
+        },
+        {
+          "at": "0xd14118",
+          "operation": "getSchemaInt",
+          "name": "phongintensity",
+          "value": 255
+        },
+        {
+          "at": "0xf527b2",
+          "operation": "getMaterialFloat",
+          "name": "$phongalbedoboost",
+          "value": 40.0
+        },
+        {
+          "at": "0xf52807",
+          "operation": "getMaterialFloat",
+          "name": "$phongboost",
+          "value": 1.0
+        },
+        {
+          "at": "0xf52968",
+          "operation": "setMaterialValue",
+          "name": "$phongalbedotint",
+          "value": 1
+        },
+        {
+          "at": "0xf5297d",
+          "operation": "setMaterialValue",
+          "name": "$phongalbedoboost",
+          "value": 70.0
+        },
+        {
+          "at": "0xf528e4",
+          "operation": "setMaterialValue",
+          "name": "$envmaptint",
+          "value": "[0 0 0]"
+        }
+      ],
+      "laterCompositeScalarArguments": {
+        "phongIntensity": {
+          "nativeDoubleArgument": 1.0,
+          "originalFormat": "%f",
+          "hostFormattedText": "1.000000",
+          "hostParsedFloat32": 1.0
+        },
+        "phongExponent": {
+          "nativeDoubleArgument": 0.01568627543747425,
+          "originalFormat": "%f",
+          "hostFormattedText": "0.015686",
+          "hostParsedFloat32": 0.015685999765992165
+        },
+        "phongAlbedoFactor": {
+          "nativeDoubleArgument": 0.5714285969734192,
+          "originalFormat": "%f",
+          "hostFormattedText": "0.571429",
+          "hostParsedFloat32": 0.5714290142059326
+        }
+      },
+      "selectors": {
+        "color": {
+          "nativeCombined": 825,
+          "static": 165,
+          "dynamic": 0
+        },
+        "exponent": {
+          "nativeCombined": 875,
+          "static": 175,
+          "dynamic": 0
+        }
+      }
+    }
+  ],
+  "programs": {
+    "5": {
+      "static": 5,
+      "aliasResolvedStatic": 5,
+      "dynamic": 0,
+      "sha256": "d6778d12af79b63b704eefc229756b8f3ec2be5b648ff45e2f2e7b8dffa81cfb",
+      "tokenCount": 78,
+      "samplers": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        8
+      ],
+      "constants": [
+        {
+          "register": 0,
+          "name": "g_cCamo0_camo3r"
+        },
+        {
+          "register": 1,
+          "name": "g_cCamo1_camo3g"
+        },
+        {
+          "register": 2,
+          "name": "g_cCamo2_camo3b"
+        },
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear"
+        }
+      ]
+    },
+    "15": {
+      "static": 15,
+      "aliasResolvedStatic": 15,
+      "dynamic": 0,
+      "sha256": "8c6f65d29fcc90cfd89475c34ffb1cc59b100504f3aca9528edc12d241fed1a7",
+      "tokenCount": 39,
+      "samplers": [
+        0,
+        1,
+        2,
+        4,
+        8
+      ],
+      "constants": [
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear"
+        }
+      ]
+    },
+    "165": {
+      "static": 165,
+      "aliasResolvedStatic": 165,
+      "dynamic": 0,
+      "sha256": "241545d98a996dff21dcc75618af8bffa123f301a265d35bfa8aae77eb09ea94",
+      "tokenCount": 82,
+      "samplers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "constants": [
+        {
+          "register": 0,
+          "name": "g_cCamo0_camo3r"
+        },
+        {
+          "register": 1,
+          "name": "g_cCamo1_camo3g"
+        },
+        {
+          "register": 2,
+          "name": "g_cCamo2_camo3b"
+        },
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear"
+        }
+      ]
+    },
+    "175": {
+      "static": 175,
+      "aliasResolvedStatic": 15,
+      "dynamic": 0,
+      "sha256": "8c6f65d29fcc90cfd89475c34ffb1cc59b100504f3aca9528edc12d241fed1a7",
+      "tokenCount": 39,
+      "samplers": [
+        0,
+        1,
+        2,
+        4,
+        8
+      ],
+      "constants": [
+        {
+          "register": 3,
+          "name": "g_fvPhongSettings_wear"
+        }
+      ]
+    }
+  },
+  "boundary": "Original machine-code arithmetic with original catalogue/VMT values at explicit schema/KeyValues ABI fixtures. The original scalar format is %f; host formatting/parsing supplies that ABI. VCS extraction is byte-verified against existing static5/15 controls. Original client GPU output is not executed."
+}

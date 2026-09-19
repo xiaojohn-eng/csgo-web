@@ -1,0 +1,122 @@
+[
+  {
+    "path": "vandal/mesh.bin",
+    "bytes": 178168,
+    "sha256": "6f04c1c59914dcbd55163e1cee8c41d7cd1b75cdb7c70c5754b8f8a5f6260d4d"
+  },
+  {
+    "path": "textures/models/weapons/w_models/w_rif_ak47/ak47.png",
+    "bytes": 547754,
+    "sha256": "1d3036845b563169c6ae2aa722aae2a420911874cd4ceda54f7d8fef6946bcec"
+  },
+  {
+    "path": "textures/models/weapons/w_models/w_rif_ak47/ak47_exponent.png",
+    "bytes": 60708,
+    "sha256": "d0ce03cd27d794f654458620e49e2187351be964d1182598cdf223c08805b84b"
+  },
+  {
+    "path": "textures/models/weapons/shared/holsterstrap/holsterstrap.png",
+    "bytes": 464475,
+    "sha256": "ce00623b00c056d92cf51b2e6100cb4854b5c4774d3df9c30eb759aac10b80bf"
+  },
+  {
+    "path": "m4a4/mesh.bin",
+    "bytes": 132704,
+    "sha256": "31202a2cda2e2de32b2b03f47cc3345f716009001bb4f5bc7c70a814824abc68"
+  },
+  {
+    "path": "textures/models/weapons/w_models/w_rif_m4a1/rif_m4a1.png",
+    "bytes": 451768,
+    "sha256": "d586f96dac5e41a03f9f4c31172c7c8a9c4935e0943984645f2fc901d7119ff3"
+  },
+  {
+    "path": "textures/models/weapons/w_models/w_rif_m4a1/rif_m4a1_exponent.png",
+    "bytes": 71635,
+    "sha256": "865494eac1251ba0caa99276128bbbcc9377634c00d707a0468793e46461913f"
+  },
+  {
+    "path": "awp/mesh.bin",
+    "bytes": 160888,
+    "sha256": "e0aae1f9f544c24c396930d4bee8dbb94ef1cce96aa2a6e06c7d20c5c53a00da"
+  },
+  {
+    "path": "textures/models/weapons/w_models/w_snip_awp/awp.png",
+    "bytes": 415693,
+    "sha256": "9e0a613a368ed9e309b02f0e7976e8458a52308e3b1be5b1240d95d88285dc62"
+  },
+  {
+    "path": "textures/models/weapons/w_models/w_snip_awp/awp_exponent.png",
+    "bytes": 33657,
+    "sha256": "bb252e5595dbc232bc28f93b1a4fbe41b86def56229e00ddeea290e52b6871f0"
+  },
+  {
+    "path": "textures/models/weapons/shared/scope/scope.png",
+    "bytes": 510825,
+    "sha256": "7c703fd61a31d1ee1a6fb02818c6f1ceed0e257b42b02ae8e62910d79f1f8d57"
+  },
+  {
+    "path": "textures/models/weapons/shared/scope/scope_normal.png",
+    "bytes": 644724,
+    "sha256": "8d0bcee5dc1d11fcf9874a1398e48f43fdd2b32f1f0d0213dc9781a0f0cfaca6"
+  },
+  {
+    "path": "glock/mesh.bin",
+    "bytes": 118484,
+    "sha256": "d06329d9894e7ab8a703c59d5d6b672936d8b56443bd6a5b3dbf8195cb116b48"
+  },
+  {
+    "path": "textures/models/weapons/v_models/pist_glock18/pist_glock18.png",
+    "bytes": 5005986,
+    "sha256": "2768cc100af146f42826e3ea66b86bcfe0bfbb820e27ad5a894ee6c0003b88ca"
+  },
+  {
+    "path": "textures/models/weapons/v_models/pist_glock18/pist_glock18_exponent.png",
+    "bytes": 186329,
+    "sha256": "9fdf72c858424495970d4ddd520c5a93f9631d243cffcbee2ac0ae0a4efa450a"
+  },
+  {
+    "path": "usp/mesh.bin",
+    "bytes": 124004,
+    "sha256": "a339ca0e64402b32ebb0d6738e19aebc5adb2b89dd2b1b746646ad604411bb38"
+  },
+  {
+    "path": "textures/models/weapons/w_models/w_pist_223/pist_223.png",
+    "bytes": 423543,
+    "sha256": "e83bdee60703acde5bbaf2cb4b83872798247eee7ef974fdcffb0b8e8198cfd9"
+  },
+  {
+    "path": "textures/models/weapons/w_models/w_pist_223/pist_223_exponent.png",
+    "bytes": 58343,
+    "sha256": "050cad7f5aadae2e697f6d6192c8d300a716b08f5de135625c659b133f285a65"
+  },
+  {
+    "path": "deagle/mesh.bin",
+    "bytes": 91204,
+    "sha256": "837f8bcd8f908dcc929d8faa9ba30d4c8968d7328b840d7fc43e8d8efec969a7"
+  },
+  {
+    "path": "textures/models/weapons/w_models/w_pist_deagle/pist_deagle.png",
+    "bytes": 521917,
+    "sha256": "55d0dd0b7f6cba5acebc6a109c0d829c9ce9f35d61be0e7bae2ef99ef1b4e3ca"
+  },
+  {
+    "path": "textures/models/weapons/w_models/w_pist_deagle/pist_deagle_exponent.png",
+    "bytes": 2823,
+    "sha256": "72673ad0d0f8205d6d1edc6543c4cd89fa7a4989852d4c5b7873b81463c514ef"
+  },
+  {
+    "path": "physics.json",
+    "bytes": 21029,
+    "sha256": "7f1d090e43970ceb265e70918975b9fb1db333ed1979b5ace8fba74ecce6cc7d"
+  },
+  {
+    "path": "models.json",
+    "bytes": 30182,
+    "sha256": "3037867ebe99fa711f2c867a576c994d9cc79b27f96c5a6da1e7218495bd04d2"
+  },
+  {
+    "path": "receipt.json",
+    "bytes": 36744,
+    "sha256": "2b39cc60d535d37e2bb13697c5170a39c7d17f3e19f44c2bcd378a183663c1d6"
+  }
+]

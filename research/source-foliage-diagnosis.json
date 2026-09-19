@@ -1,0 +1,2795 @@
+{
+  "format": "source-foliage-diagnosis-v1",
+  "propsGlbSha256": "55937fce28a53461520fa2c531384f65f0f8b69df1a8205245466b6064ab5232",
+  "screenshot": "output/playwright/source-r4-ak-native-audio-inspect.png",
+  "screenshotSha256": "50553a6b3a870af797dbe876179e442b4e3e09115239c09751ac1d8857c686c7",
+  "receiptSha256": "3c8dc025b67bd455757317681163e68b1d9d31c36358db27016df632a1d5e653",
+  "skyDescriptorSha256": "349903a0c805111713830da297f6ed0ccfefb83b017fa1457535e8d64b0f5a7f",
+  "camera": {
+    "main": [
+      -20.888070999999997,
+      4.604088560391119,
+      20.209306800000007
+    ],
+    "sky": [
+      -1.9955538389739989,
+      -208.77964446497555,
+      13.407380710644532
+    ],
+    "yaw": 0.29670597283903594,
+    "pitch": 0,
+    "fov": 78,
+    "source": "inspect receipt sky.position/visibilityOrigin gives exact position; yaw/pitch borrowed from stationary earlier reload snapshot; FOV78 is runtime settings default, not private preview FOV75",
+    "boundary": "Earlier orientation and nominal FOV, not a stored inspect projection matrix; CPU rays are candidate identity evidence, not GPU object-ID or full scene occlusion proof."
+  },
+  "codeSnapshotHashes": {
+    "game/scene.ts": "580184682bf061a8ac4c8cbe0ad47fef44ecf04766cba33f89011c8c4636633e",
+    "game/runtime.ts": "f112d09c1b7419fe47b22416fc77509c48193b338398fb196fecd5ff2fdf8251",
+    "game/source-sky-render.ts": "fe60fb00d62bf0ffbe63457e8e9e7429549d83ce721183dcb2d4d61c01da759c",
+    "game/source-prop-lighting.ts": "99bc19f8c9ca5403d52852ee42f83f320fbb8997b1f78ebd5e5190097fb7a7a4",
+    "scripts/convert-source-map.py": "cc6f3c9cda4e3d61ca8b8915fb9774fe603e538937aaff228be1015e16370d59",
+    "scripts/asset-preview.html": "f37ea4b7df36effadf6d4edb9825243348ba69029e4e0af86e45936df7861fd2"
+  },
+  "materials": {
+    "models/props/de_dust/hr_dust/foliage/olive_branch_01": {
+      "original": {
+        "name": "models/props/de_dust/hr_dust/foliage/olive_branch_01",
+        "source": "models/props/de_dust/hr_dust/foliage/olive_branch_01",
+        "shader": "vertexlitgeneric",
+        "mapped": [
+          "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+          "base texture alpha"
+        ],
+        "unmapped": [
+          "$vertexcolorpower",
+          "$model",
+          "$surfaceprop",
+          "$treesway",
+          "$treeswayheight",
+          "$treeswaystartheight",
+          "$treeswayradius",
+          "$treeswaystartradius",
+          "$treeswayspeed",
+          "$treeswaystrength",
+          "$treeswayscrumblespeed",
+          "$treeswayscrumblestrength",
+          "$treeswayscrumblefrequency",
+          "$treeswayfalloffexp",
+          "$treeswayscrumblefalloffexp",
+          "$treeswayspeedhighwindmultiplier",
+          "$treeswayspeedlerpstart",
+          "$treeswayspeedlerpend"
+        ],
+        "parameters": {
+          "$basetexture": "models\\props\\de_dust\\hr_dust\\foliage\\olive_branch_01",
+          "$alphatest": "1",
+          "$alphatestreference": ".3",
+          "$vertexcolorpower": "0.7",
+          "$nocull": "1",
+          "$model": "1",
+          "$surfaceprop": "wood",
+          "$treesway": "1",
+          "$treeswayheight": "10",
+          "$treeswaystartheight": ".5",
+          "$treeswayradius": "100",
+          "$treeswaystartradius": "0.0",
+          "$treeswayspeed": ".2",
+          "$treeswaystrength": "0.15",
+          "$treeswayscrumblespeed": "1.2",
+          "$treeswayscrumblestrength": "0.15",
+          "$treeswayscrumblefrequency": "2",
+          "$treeswayfalloffexp": "2",
+          "$treeswayscrumblefalloffexp": "3",
+          "$treeswayspeedhighwindmultiplier": "0",
+          "$treeswayspeedlerpstart": "200.0",
+          "$treeswayspeedlerpend": "800.0"
+        },
+        "rawVmtSha256": "14f38cc79d5d1b7cc7680c0c526d10a7bc7780c9afa131e62a1f58f4b6032662",
+        "alphaTest": 1,
+        "alphaCutoff": 0.3,
+        "group": "non_bump",
+        "reasons": [
+          "missing $bumpmap",
+          "$vertexcolorpower",
+          "$treesway",
+          "$treeswayheight",
+          "$treeswaystartheight",
+          "$treeswayradius",
+          "$treeswaystartradius",
+          "$treeswayspeed",
+          "$treeswaystrength",
+          "$treeswayscrumblespeed",
+          "$treeswayscrumblestrength",
+          "$treeswayscrumblefrequency",
+          "$treeswayfalloffexp",
+          "$treeswayscrumblefalloffexp",
+          "$treeswayspeedhighwindmultiplier",
+          "$treeswayspeedlerpstart",
+          "$treeswayspeedlerpend"
+        ],
+        "meshInstances": 64,
+        "triangles": 10016,
+        "eligibleMeshes": 0,
+        "eligibleTriangles": 0,
+        "ambiguousMeshes": 0,
+        "ambiguousTriangles": 0,
+        "modelVariants": [
+          "models/props/de_dust/hr_dust/dust_skybox_bush_card01.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_olive_branch_01_2.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_olive_branch_01_3.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_olive_branch_01_4.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_olive_branch_01_5.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_olive_branch_01_6.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_olive_branch_01_7.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_olive_branch_01_8.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_olive_branch_01_9.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_olive_branch_01_10.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_olive_branch_01_11.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_olive_branch_01_12.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_olive_branch_01_13.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_olive_branch_01_14.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_olive_branch_01_15.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_olive_branch_01_16.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_olive_branch_01_17.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_olive_branch_01_18.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/olive_tree_skybox_03.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_olive_branch_01_40.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/olive_tree_skybox_02.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_olive_branch_01_41.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_olive_branch_01_42.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_olive_branch_01_43.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_olive_branch_01_44.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/olive_hedge_skybox.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_olive_branch_01_51.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/olive_tree_01b.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/olive_hedge_01.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/olive_hedge_03.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/olive_tree_01.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/olive_tree_small_01.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/olive_tree_02.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/olive_tree_small_02.mdl|skin 0"
+        ]
+      },
+      "gltfMaterial": {
+        "alphaMode": "MASK",
+        "doubleSided": true,
+        "extras": {
+          "full_path": "models/props/de_dust/hr_dust/foliage/olive_branch_01"
+        },
+        "name": "models/props/de_dust/hr_dust/foliage/olive_branch_01",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 4
+          },
+          "metallicFactor": 0,
+          "roughnessFactor": 0.8999999761581421
+        },
+        "alphaCutoff": 0.3
+      },
+      "materialIndex": 3,
+      "embeddedImage": {
+        "file": "olive_branch_01.png",
+        "sha256": "89f04c56b1a706ec7fcb07bc284f9e6d4403429d4439c1b9b7abf8a99bb16961",
+        "size": [
+          1024,
+          1024
+        ],
+        "alphaZeroTexels": 759797,
+        "alphaPartialTexels": 86424,
+        "cutoffPassedTexels": 265433,
+        "passedMeanEncodedRGB": [
+          113.49620808264233,
+          123.47836177114375,
+          109.69647707707783
+        ],
+        "passedRGBQuantiles": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            69.0,
+            80.0,
+            64.0
+          ],
+          [
+            112.0,
+            120.0,
+            107.0
+          ],
+          [
+            168.0,
+            175.0,
+            163.0
+          ],
+          [
+            248.0,
+            252.0,
+            248.0
+          ]
+        ]
+      },
+      "instances": [
+        26,
+        35,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        151,
+        169,
+        170,
+        171,
+        172,
+        1218,
+        1238,
+        1239,
+        1240,
+        1241,
+        1363,
+        1621,
+        1628,
+        1660,
+        1703,
+        1716,
+        2089,
+        2332,
+        2382,
+        2420,
+        3084
+      ],
+      "primitives": 64,
+      "triangles": 10016,
+      "skyInstances": [
+        26,
+        35,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        151,
+        169,
+        170,
+        171,
+        172
+      ]
+    },
+    "models/props/de_dust/hr_dust/foliage/palm_treecard_01": {
+      "original": {
+        "name": "models/props/de_dust/hr_dust/foliage/palm_treecard_01",
+        "source": "models/props/de_dust/hr_dust/foliage/palm_treecard_01",
+        "shader": "vertexlitgeneric",
+        "mapped": [
+          "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+          "base texture alpha"
+        ],
+        "unmapped": [
+          "$model",
+          "$surfaceprop"
+        ],
+        "parameters": {
+          "$basetexture": "models\\props\\de_dust\\hr_dust\\foliage\\palm_treecard_01",
+          "$alphatest": "1",
+          "$alphatestreference": ".3",
+          "$nocull": "1",
+          "$model": "1",
+          "$surfaceprop": "wood"
+        },
+        "rawVmtSha256": "4d90b14333ce788376bfb9e4970a4e4429facf80cf4310431cd6e6abc84400ef",
+        "alphaTest": 1,
+        "alphaCutoff": 0.3,
+        "group": "non_bump",
+        "reasons": [
+          "missing $bumpmap"
+        ],
+        "meshInstances": 5,
+        "triangles": 456,
+        "eligibleMeshes": 0,
+        "eligibleTriangles": 0,
+        "ambiguousMeshes": 0,
+        "ambiguousTriangles": 0,
+        "modelVariants": [
+          "models/props/de_dust/hr_dust/foliage/palm_tree_skybox_01.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_palm_treecard_01_45.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_palm_treecard_01_46.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_palm_treecard_01_47.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_palm_treecard_01_48.mdl|skin 0"
+        ]
+      },
+      "gltfMaterial": {
+        "alphaMode": "MASK",
+        "doubleSided": true,
+        "extras": {
+          "full_path": "models/props/de_dust/hr_dust/foliage/palm_treecard_01"
+        },
+        "name": "models/props/de_dust/hr_dust/foliage/palm_treecard_01",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 8
+          },
+          "metallicFactor": 0,
+          "roughnessFactor": 0.8999999761581421
+        },
+        "alphaCutoff": 0.3
+      },
+      "materialIndex": 6,
+      "embeddedImage": {
+        "file": "palm_treecard_01.png",
+        "sha256": "fe16666a6627e4491bb9ab219ef4630c73dc17ba6cf25e053bcf9cc0d7cb3e61",
+        "size": [
+          512,
+          512
+        ],
+        "alphaZeroTexels": 184281,
+        "alphaPartialTexels": 37963,
+        "cutoffPassedTexels": 67843,
+        "passedMeanEncodedRGB": [
+          96.36675854546526,
+          94.31304629807055,
+          79.4374806538626
+        ],
+        "passedRGBQuantiles": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            40.0,
+            37.0,
+            27.0
+          ],
+          [
+            96.0,
+            96.0,
+            80.0
+          ],
+          [
+            152.0,
+            147.0,
+            128.0
+          ],
+          [
+            248.0,
+            248.0,
+            232.0
+          ]
+        ]
+      },
+      "instances": [
+        124,
+        136,
+        137,
+        138,
+        139
+      ],
+      "primitives": 5,
+      "triangles": 456,
+      "skyInstances": [
+        124,
+        136,
+        137,
+        138,
+        139
+      ]
+    },
+    "models/props/de_dust/hr_dust/foliage/palm_bark_01": {
+      "original": {
+        "name": "models/props/de_dust/hr_dust/foliage/palm_bark_01",
+        "source": "models/props/de_dust/hr_dust/foliage/palm_bark_01",
+        "shader": "vertexlitgeneric",
+        "mapped": [
+          "$basetexture original VTF full-resolution RGB -> glTF baseColor"
+        ],
+        "unmapped": [
+          "$model",
+          "$surfaceprop"
+        ],
+        "parameters": {
+          "$basetexture": "models\\props\\de_dust\\hr_dust\\foliage\\palm_bark_01",
+          "$model": "1",
+          "$surfaceprop": "wood"
+        },
+        "rawVmtSha256": "a4d24a553eb43f7335dcc724842e6a5ab4f36dd99415982f97053154294668af",
+        "group": "non_bump",
+        "reasons": [
+          "missing $bumpmap"
+        ],
+        "meshInstances": 32,
+        "triangles": 44156,
+        "eligibleMeshes": 0,
+        "eligibleTriangles": 0,
+        "ambiguousMeshes": 0,
+        "ambiguousTriangles": 0,
+        "modelVariants": [
+          "models/props/de_dust/hr_dust/foliage/palm_tree_02.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/palm_tree_03.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/palm_tree_small_02.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/palm_tree_04.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/palm_tree_01.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/palm_tree_small_06.mdl|skin 0"
+        ]
+      },
+      "gltfMaterial": {
+        "extras": {
+          "full_path": "models/props/de_dust/hr_dust/foliage/palm_bark_01"
+        },
+        "name": "models/props/de_dust/hr_dust/foliage/palm_bark_01",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 33
+          },
+          "metallicFactor": 0,
+          "roughnessFactor": 0.8999999761581421
+        }
+      },
+      "materialIndex": 25,
+      "embeddedImage": {
+        "file": "palm_bark_01.png",
+        "sha256": "ac4b8f6ba500d9ac5c66745fbbb6640f02513a6906816b7b90d5cf18d84901ca",
+        "size": [
+          1024,
+          1024
+        ],
+        "alphaZeroTexels": 0,
+        "alphaPartialTexels": 0,
+        "cutoffPassedTexels": 1048576,
+        "passedMeanEncodedRGB": [
+          126.9239730834961,
+          115.2010850906372,
+          97.71343612670898
+        ],
+        "passedRGBQuantiles": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            64.0,
+            45.0,
+            24.0
+          ],
+          [
+            131.0,
+            120.0,
+            104.0
+          ],
+          [
+            184.0,
+            172.0,
+            152.0
+          ],
+          [
+            248.0,
+            252.0,
+            248.0
+          ]
+        ]
+      },
+      "instances": [
+        302,
+        486,
+        855,
+        1012,
+        1192,
+        1335,
+        1542,
+        1596,
+        1677,
+        1692,
+        1697,
+        1844,
+        1855,
+        1886,
+        1888,
+        1926,
+        1971,
+        1974,
+        2048,
+        2112,
+        2164,
+        2200,
+        2275,
+        2327,
+        2336,
+        2340,
+        2368,
+        2451,
+        2489,
+        2696,
+        2940,
+        3053
+      ],
+      "primitives": 32,
+      "triangles": 44156,
+      "skyInstances": []
+    },
+    "models/props/de_dust/hr_dust/foliage/palm_frond_01": {
+      "original": {
+        "name": "models/props/de_dust/hr_dust/foliage/palm_frond_01",
+        "source": "models/props/de_dust/hr_dust/foliage/palm_frond_01",
+        "shader": "vertexlitgeneric",
+        "mapped": [
+          "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+          "base texture alpha"
+        ],
+        "unmapped": [
+          "$model",
+          "$surfaceprop",
+          "$treesway",
+          "$treeswayheight",
+          "$treeswaystartheight",
+          "$treeswayradius",
+          "$treeswaystartradius",
+          "$treeswayspeed",
+          "$treeswaystrength",
+          "$treeswayscrumblespeed",
+          "$treeswayscrumblestrength",
+          "$treeswayscrumblefrequency",
+          "$treeswayfalloffexp",
+          "$treeswayscrumblefalloffexp",
+          "$treeswayspeedhighwindmultiplier",
+          "$treeswayspeedlerpstart",
+          "$treeswayspeedlerpend"
+        ],
+        "parameters": {
+          "$basetexture": "models\\props\\de_dust\\hr_dust\\foliage\\palm_frond_01",
+          "$alphatest": "1",
+          "$alphatestreference": ".3",
+          "$nocull": "1",
+          "$model": "1",
+          "$surfaceprop": "wood",
+          "$treesway": "1",
+          "$treeswayheight": "100",
+          "$treeswaystartheight": ".5",
+          "$treeswayradius": "200",
+          "$treeswaystartradius": "0.0",
+          "$treeswayspeed": ".2",
+          "$treeswaystrength": "0.25",
+          "$treeswayscrumblespeed": "1.2",
+          "$treeswayscrumblestrength": "0.5",
+          "$treeswayscrumblefrequency": "2",
+          "$treeswayfalloffexp": "2",
+          "$treeswayscrumblefalloffexp": "3",
+          "$treeswayspeedhighwindmultiplier": "0",
+          "$treeswayspeedlerpstart": "200.0",
+          "$treeswayspeedlerpend": "600.0"
+        },
+        "rawVmtSha256": "e1ef4d3a4e2461232943da577cec81838cf799d15b11bd9b2ff9ec89e28ecd4d",
+        "alphaTest": 1,
+        "alphaCutoff": 0.3,
+        "group": "non_bump",
+        "reasons": [
+          "missing $bumpmap",
+          "$treesway",
+          "$treeswayheight",
+          "$treeswaystartheight",
+          "$treeswayradius",
+          "$treeswaystartradius",
+          "$treeswayspeed",
+          "$treeswaystrength",
+          "$treeswayscrumblespeed",
+          "$treeswayscrumblestrength",
+          "$treeswayscrumblefrequency",
+          "$treeswayfalloffexp",
+          "$treeswayscrumblefalloffexp",
+          "$treeswayspeedhighwindmultiplier",
+          "$treeswayspeedlerpstart",
+          "$treeswayspeedlerpend"
+        ],
+        "meshInstances": 37,
+        "triangles": 100258,
+        "eligibleMeshes": 0,
+        "eligibleTriangles": 0,
+        "ambiguousMeshes": 0,
+        "ambiguousTriangles": 0,
+        "modelVariants": [
+          "models/props/de_dust/hr_dust/foliage/palm_tree_02.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/palm_tree_03.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/palm_tree_small_02.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/palm_tree_04.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/palm_tree_small_05.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/palm_tree_01.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/potted_plant_03.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/palm_tree_small_06.mdl|skin 0"
+        ]
+      },
+      "gltfMaterial": {
+        "alphaMode": "MASK",
+        "doubleSided": true,
+        "extras": {
+          "full_path": "models/props/de_dust/hr_dust/foliage/palm_frond_01"
+        },
+        "name": "models/props/de_dust/hr_dust/foliage/palm_frond_01",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 34
+          },
+          "metallicFactor": 0,
+          "roughnessFactor": 0.8999999761581421
+        },
+        "alphaCutoff": 0.3
+      },
+      "materialIndex": 26,
+      "embeddedImage": {
+        "file": "palm_frond_01.png",
+        "sha256": "a78af830bcf56c624bc9a2409c64a441a3a2d51ec18a31395c95b0c71c2ea3f4",
+        "size": [
+          1024,
+          1024
+        ],
+        "alphaZeroTexels": 32174,
+        "alphaPartialTexels": 533048,
+        "cutoffPassedTexels": 537614,
+        "passedMeanEncodedRGB": [
+          126.65605248375228,
+          123.50528632066873,
+          88.4979334615542
+        ],
+        "passedRGBQuantiles": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            77.0,
+            72.0,
+            45.0
+          ],
+          [
+            128.0,
+            124.0,
+            83.0
+          ],
+          [
+            176.0,
+            173.0,
+            144.0
+          ],
+          [
+            240.0,
+            232.0,
+            224.0
+          ]
+        ]
+      },
+      "instances": [
+        302,
+        486,
+        855,
+        1012,
+        1192,
+        1335,
+        1542,
+        1596,
+        1677,
+        1692,
+        1697,
+        1844,
+        1855,
+        1886,
+        1888,
+        1926,
+        1971,
+        1974,
+        2048,
+        2112,
+        2119,
+        2122,
+        2124,
+        2125,
+        2164,
+        2200,
+        2275,
+        2327,
+        2336,
+        2340,
+        2368,
+        2451,
+        2489,
+        2696,
+        2871,
+        2940,
+        3053
+      ],
+      "primitives": 37,
+      "triangles": 100258,
+      "skyInstances": []
+    },
+    "models/props/de_dust/hr_dust/foliage/sumac_01": {
+      "original": {
+        "name": "models/props/de_dust/hr_dust/foliage/sumac_01",
+        "source": "models/props/de_dust/hr_dust/foliage/sumac_01",
+        "shader": "vertexlitgeneric",
+        "mapped": [
+          "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+          "base texture alpha"
+        ],
+        "unmapped": [
+          "$model",
+          "$surfaceprop",
+          "$treesway",
+          "$treeswayheight",
+          "$treeswaystartheight",
+          "$treeswayradius",
+          "$treeswaystartradius",
+          "$treeswayspeed",
+          "$treeswaystrength",
+          "$treeswayscrumblespeed",
+          "$treeswayscrumblestrength",
+          "$treeswayscrumblefrequency",
+          "$treeswayfalloffexp",
+          "$treeswayscrumblefalloffexp",
+          "$treeswayspeedhighwindmultiplier",
+          "$treeswayspeedlerpstart",
+          "$treeswayspeedlerpend"
+        ],
+        "parameters": {
+          "$basetexture": "models\\props\\de_dust\\hr_dust\\foliage\\sumac_01",
+          "$alphatest": "1",
+          "$alphatestreference": ".3",
+          "$nocull": "1",
+          "$model": "1",
+          "$surfaceprop": "wood",
+          "$treesway": "1",
+          "$treeswayheight": "100",
+          "$treeswaystartheight": ".5",
+          "$treeswayradius": "200",
+          "$treeswaystartradius": "0.0",
+          "$treeswayspeed": ".2",
+          "$treeswaystrength": "0.25",
+          "$treeswayscrumblespeed": "1.2",
+          "$treeswayscrumblestrength": "0.5",
+          "$treeswayscrumblefrequency": "2",
+          "$treeswayfalloffexp": "2",
+          "$treeswayscrumblefalloffexp": "3",
+          "$treeswayspeedhighwindmultiplier": "0",
+          "$treeswayspeedlerpstart": "200.0",
+          "$treeswayspeedlerpend": "600.0"
+        },
+        "rawVmtSha256": "c1ed5b2112fc5fc0c835bec21abe84bf8dd02e5452c822c26dda6b9c43dbbf42",
+        "alphaTest": 1,
+        "alphaCutoff": 0.3,
+        "group": "non_bump",
+        "reasons": [
+          "missing $bumpmap",
+          "$treesway",
+          "$treeswayheight",
+          "$treeswaystartheight",
+          "$treeswayradius",
+          "$treeswaystartradius",
+          "$treeswayspeed",
+          "$treeswaystrength",
+          "$treeswayscrumblespeed",
+          "$treeswayscrumblestrength",
+          "$treeswayscrumblefrequency",
+          "$treeswayfalloffexp",
+          "$treeswayscrumblefalloffexp",
+          "$treeswayspeedhighwindmultiplier",
+          "$treeswayspeedlerpstart",
+          "$treeswayspeedlerpend"
+        ],
+        "meshInstances": 33,
+        "triangles": 69860,
+        "eligibleMeshes": 0,
+        "eligibleTriangles": 0,
+        "ambiguousMeshes": 0,
+        "ambiguousTriangles": 0,
+        "modelVariants": [
+          "models/props/de_dust/hr_dust/foliage/bush_sumac_02.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_sumac_01_582.mdl|skin 0"
+        ]
+      },
+      "gltfMaterial": {
+        "alphaMode": "MASK",
+        "doubleSided": true,
+        "extras": {
+          "full_path": "models/props/de_dust/hr_dust/foliage/sumac_01"
+        },
+        "name": "models/props/de_dust/hr_dust/foliage/sumac_01",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 44
+          },
+          "metallicFactor": 0,
+          "roughnessFactor": 0.8999999761581421
+        },
+        "alphaCutoff": 0.3
+      },
+      "materialIndex": 33,
+      "embeddedImage": {
+        "file": "sumac_01.png",
+        "sha256": "79e1bbcfaf178a0fae64ec116423f56f36237c3d2d20a7c88ad02315f4051155",
+        "size": [
+          1024,
+          1024
+        ],
+        "alphaZeroTexels": 704102,
+        "alphaPartialTexels": 44212,
+        "cutoffPassedTexels": 324229,
+        "passedMeanEncodedRGB": [
+          100.7215209003513,
+          104.57690397836097,
+          75.41413013641593
+        ],
+        "passedRGBQuantiles": [
+          [
+            16.0,
+            12.0,
+            0.0
+          ],
+          [
+            72.0,
+            72.0,
+            48.0
+          ],
+          [
+            96.0,
+            104.0,
+            72.0
+          ],
+          [
+            136.0,
+            140.0,
+            109.0
+          ],
+          [
+            224.0,
+            220.0,
+            216.0
+          ]
+        ]
+      },
+      "instances": [
+        409,
+        410,
+        411,
+        412,
+        413,
+        414,
+        415,
+        416,
+        417,
+        418,
+        419,
+        420,
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428,
+        429,
+        430,
+        431,
+        433,
+        434,
+        435,
+        436,
+        437,
+        438,
+        439,
+        440,
+        441,
+        2328
+      ],
+      "primitives": 33,
+      "triangles": 69860,
+      "skyInstances": []
+    },
+    "models/props/de_dust/hr_dust/foliage/dust_weeds_01": {
+      "original": {
+        "name": "models/props/de_dust/hr_dust/foliage/dust_weeds_01",
+        "source": "models/props/de_dust/hr_dust/foliage/dust_weeds_01",
+        "shader": "vertexlitgeneric",
+        "mapped": [
+          "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+          "base texture alpha"
+        ],
+        "unmapped": [
+          "$model",
+          "$surfaceprop"
+        ],
+        "parameters": {
+          "$basetexture": "models\\props\\de_dust\\hr_dust\\foliage\\dust_weeds_01",
+          "$alphatest": "1",
+          "$alphatestreference": ".2",
+          "$nocull": "1",
+          "$model": "1",
+          "$surfaceprop": "wood"
+        },
+        "rawVmtSha256": "0c08d1968ef45eac6eb83d607db808b6c7dc884634b2805e79a7cb8eed92e2c5",
+        "alphaTest": 1,
+        "alphaCutoff": 0.2,
+        "group": "non_bump",
+        "reasons": [
+          "missing $bumpmap"
+        ],
+        "meshInstances": 86,
+        "triangles": 21618,
+        "eligibleMeshes": 0,
+        "eligibleTriangles": 0,
+        "ambiguousMeshes": 0,
+        "ambiguousTriangles": 0,
+        "modelVariants": [
+          "models/props/autocombine/de_dust2/_autocombine_dust_weeds_01_217.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/short_grass_03.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/short_grass_04.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_dust_weeds_01_218.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_dust_weeds_01_219.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_dust_weeds_01_220.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_dust_weeds_01_221.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_dust_weeds_01_222.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_dust_weeds_01_223.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_dust_weeds_01_224.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/short_grass_02.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_dust_weeds_01_225.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_dust_weeds_01_226.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_dust_weeds_01_227.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_dust_weeds_01_228.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_dust_weeds_01_229.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_dust_weeds_01_230.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_dust_weeds_01_231.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_dust_weeds_01_232.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_dust_weeds_01_233.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_dust_weeds_01_234.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_dust_weeds_01_235.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_dust_weeds_01_236.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_dust_weeds_01_237.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_dust_weeds_01_238.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_dust_weeds_01_239.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/dusty_weed_plant_02.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/weed_plant_15.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/dusty_weed_plant_01.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/weed_plant_14.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/weed_grass_02.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/weed_plant_13.mdl|skin 0"
+        ]
+      },
+      "gltfMaterial": {
+        "alphaMode": "MASK",
+        "doubleSided": true,
+        "extras": {
+          "full_path": "models/props/de_dust/hr_dust/foliage/dust_weeds_01"
+        },
+        "name": "models/props/de_dust/hr_dust/foliage/dust_weeds_01",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 77
+          },
+          "metallicFactor": 0,
+          "roughnessFactor": 0.8999999761581421
+        },
+        "alphaCutoff": 0.2
+      },
+      "materialIndex": 53,
+      "embeddedImage": {
+        "file": "dust_weeds_01.png",
+        "sha256": "5a3258b91283b5b89ae90af466575a5789c8643aaf3f74b68aa97f165a7cb1d8",
+        "size": [
+          512,
+          512
+        ],
+        "alphaZeroTexels": 188287,
+        "alphaPartialTexels": 44523,
+        "cutoffPassedTexels": 61175,
+        "passedMeanEncodedRGB": [
+          104.26584389047814,
+          101.39092766653044,
+          86.34522272170004
+        ],
+        "passedRGBQuantiles": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            61.0,
+            59.0,
+            48.0
+          ],
+          [
+            104.0,
+            103.0,
+            88.0
+          ],
+          [
+            144.0,
+            141.0,
+            123.0
+          ],
+          [
+            248.0,
+            252.0,
+            240.0
+          ]
+        ]
+      },
+      "instances": [
+        660,
+        661,
+        662,
+        663,
+        664,
+        665,
+        666,
+        667,
+        668,
+        669,
+        670,
+        671,
+        672,
+        673,
+        674,
+        675,
+        676,
+        677,
+        678,
+        679,
+        680,
+        681,
+        682,
+        683,
+        684,
+        685,
+        686,
+        687,
+        688,
+        689,
+        691,
+        692,
+        693,
+        694,
+        695,
+        696,
+        697,
+        698,
+        699,
+        701,
+        702,
+        703,
+        705,
+        706,
+        707,
+        708,
+        709,
+        710,
+        711,
+        712,
+        1200,
+        1201,
+        1425,
+        1469,
+        1630,
+        1632,
+        1645,
+        1658,
+        1664,
+        1668,
+        2223,
+        2370,
+        2376,
+        2407,
+        2441,
+        2443,
+        2523,
+        2546,
+        2684,
+        2706,
+        2712,
+        2713,
+        2714,
+        2735,
+        2738,
+        2751,
+        2796,
+        2808,
+        2893,
+        2896,
+        2917,
+        2967,
+        3117,
+        3140,
+        3142,
+        3157
+      ],
+      "primitives": 86,
+      "triangles": 21618,
+      "skyInstances": []
+    },
+    "models/props/de_dust/hr_dust/foliage/sagebrush_01": {
+      "original": {
+        "name": "models/props/de_dust/hr_dust/foliage/sagebrush_01",
+        "source": "models/props/de_dust/hr_dust/foliage/sagebrush_01",
+        "shader": "vertexlitgeneric",
+        "mapped": [
+          "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+          "base texture alpha"
+        ],
+        "unmapped": [
+          "$model",
+          "$surfaceprop"
+        ],
+        "parameters": {
+          "$basetexture": "models\\props\\de_dust\\hr_dust\\foliage\\sagebrush_01",
+          "$alphatest": "1",
+          "$alphatestreference": ".3",
+          "$nocull": "1",
+          "$model": "1",
+          "$surfaceprop": "wood"
+        },
+        "rawVmtSha256": "7c865bb7747740e1905459cc2482265d5a81d7afc88bd52f0a17a94aaf9dae2f",
+        "alphaTest": 1,
+        "alphaCutoff": 0.3,
+        "group": "non_bump",
+        "reasons": [
+          "missing $bumpmap"
+        ],
+        "meshInstances": 43,
+        "triangles": 10284,
+        "eligibleMeshes": 0,
+        "eligibleTriangles": 0,
+        "ambiguousMeshes": 0,
+        "ambiguousTriangles": 0,
+        "modelVariants": [
+          "models/props/de_dust/hr_dust/foliage/sage_bush_03.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/sage_bush_02.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_sagebrush_01_284.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_sagebrush_01_285.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_sagebrush_01_416.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_sagebrush_01_417.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/sage_bush_01.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_sagebrush_01_599.mdl|skin 0"
+        ]
+      },
+      "gltfMaterial": {
+        "alphaMode": "MASK",
+        "doubleSided": true,
+        "extras": {
+          "full_path": "models/props/de_dust/hr_dust/foliage/sagebrush_01"
+        },
+        "name": "models/props/de_dust/hr_dust/foliage/sagebrush_01",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 111
+          },
+          "metallicFactor": 0,
+          "roughnessFactor": 0.8999999761581421
+        },
+        "alphaCutoff": 0.3
+      },
+      "materialIndex": 76,
+      "embeddedImage": {
+        "file": "sagebrush_01.png",
+        "sha256": "2c6b4c99b94516613d666e929d36b6cfab0a9a224c710cba2c0136732d52185e",
+        "size": [
+          256,
+          256
+        ],
+        "alphaZeroTexels": 47111,
+        "alphaPartialTexels": 15697,
+        "cutoffPassedTexels": 13320,
+        "passedMeanEncodedRGB": [
+          124.29166666666667,
+          133.44632132132134,
+          114.84962462462462
+        ],
+        "passedRGBQuantiles": [
+          [
+            24.0,
+            12.0,
+            16.0
+          ],
+          [
+            93.0,
+            99.0,
+            88.0
+          ],
+          [
+            125.0,
+            133.0,
+            115.0
+          ],
+          [
+            160.0,
+            169.0,
+            144.0
+          ],
+          [
+            248.0,
+            248.0,
+            216.0
+          ]
+        ]
+      },
+      "instances": [
+        974,
+        975,
+        976,
+        977,
+        978,
+        979,
+        980,
+        981,
+        982,
+        983,
+        984,
+        985,
+        986,
+        987,
+        988,
+        989,
+        990,
+        991,
+        992,
+        993,
+        994,
+        995,
+        996,
+        1310,
+        1446,
+        1585,
+        1586,
+        1587,
+        1588,
+        1589,
+        1590,
+        1591,
+        1592,
+        1593,
+        1594,
+        2436,
+        2437,
+        2801,
+        2935,
+        2936,
+        2993,
+        3026,
+        3027
+      ],
+      "primitives": 43,
+      "triangles": 10284,
+      "skyInstances": []
+    },
+    "models/props/de_dust/hr_dust/foliage/zebra_grass_01": {
+      "original": {
+        "name": "models/props/de_dust/hr_dust/foliage/zebra_grass_01",
+        "source": "models/props/de_dust/hr_dust/foliage/zebra_grass_01",
+        "shader": "vertexlitgeneric",
+        "mapped": [
+          "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+          "base texture alpha"
+        ],
+        "unmapped": [
+          "$model",
+          "$surfaceprop",
+          "$treesway",
+          "$treeswayheight",
+          "$treeswaystartheight",
+          "$treeswayradius",
+          "$treeswaystartradius",
+          "$treeswayspeed",
+          "$treeswaystrength",
+          "$treeswayscrumblespeed",
+          "$treeswayscrumblestrength",
+          "$treeswayscrumblefrequency",
+          "$treeswayfalloffexp",
+          "$treeswayscrumblefalloffexp",
+          "$treeswayspeedhighwindmultiplier",
+          "$treeswayspeedlerpstart",
+          "$treeswayspeedlerpend"
+        ],
+        "parameters": {
+          "$basetexture": "models\\props\\de_dust\\hr_dust\\foliage\\zebra_grass_01",
+          "$alphatest": "1",
+          "$alphatestreference": ".3",
+          "$nocull": "1",
+          "$model": "1",
+          "$surfaceprop": "wood",
+          "$treesway": "1",
+          "$treeswayheight": "100",
+          "$treeswaystartheight": ".5",
+          "$treeswayradius": "200",
+          "$treeswaystartradius": "0.0",
+          "$treeswayspeed": ".5",
+          "$treeswaystrength": "0.55",
+          "$treeswayscrumblespeed": "1.2",
+          "$treeswayscrumblestrength": "0.5",
+          "$treeswayscrumblefrequency": "2",
+          "$treeswayfalloffexp": "2",
+          "$treeswayscrumblefalloffexp": "3",
+          "$treeswayspeedhighwindmultiplier": "0",
+          "$treeswayspeedlerpstart": "200.0",
+          "$treeswayspeedlerpend": "600.0"
+        },
+        "rawVmtSha256": "5de09533365965d3ff5f8e23b97e06421dc6943854e39778f478ed24941e7da6",
+        "alphaTest": 1,
+        "alphaCutoff": 0.3,
+        "group": "non_bump",
+        "reasons": [
+          "missing $bumpmap",
+          "$treesway",
+          "$treeswayheight",
+          "$treeswaystartheight",
+          "$treeswayradius",
+          "$treeswaystartradius",
+          "$treeswayspeed",
+          "$treeswaystrength",
+          "$treeswayscrumblespeed",
+          "$treeswayscrumblestrength",
+          "$treeswayscrumblefrequency",
+          "$treeswayfalloffexp",
+          "$treeswayscrumblefalloffexp",
+          "$treeswayspeedhighwindmultiplier",
+          "$treeswayspeedlerpstart",
+          "$treeswayspeedlerpend"
+        ],
+        "meshInstances": 14,
+        "triangles": 5376,
+        "eligibleMeshes": 0,
+        "eligibleTriangles": 0,
+        "ambiguousMeshes": 0,
+        "ambiguousTriangles": 0,
+        "modelVariants": [
+          "models/props/de_dust/hr_dust/foliage/tall_zebra_grass_01.mdl|skin 0"
+        ]
+      },
+      "gltfMaterial": {
+        "alphaMode": "MASK",
+        "doubleSided": true,
+        "extras": {
+          "full_path": "models/props/de_dust/hr_dust/foliage/zebra_grass_01"
+        },
+        "name": "models/props/de_dust/hr_dust/foliage/zebra_grass_01",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 125
+          },
+          "metallicFactor": 0,
+          "roughnessFactor": 0.8999999761581421
+        },
+        "alphaCutoff": 0.3
+      },
+      "materialIndex": 85,
+      "embeddedImage": {
+        "file": "zebra_grass_01.png",
+        "sha256": "61e33436c602d07496495c95d39a3ecae2d4d95d40e47ec0c77ec1ec8941aad4",
+        "size": [
+          1024,
+          1024
+        ],
+        "alphaZeroTexels": 821574,
+        "alphaPartialTexels": 165504,
+        "cutoffPassedTexels": 170418,
+        "passedMeanEncodedRGB": [
+          104.82748301235785,
+          109.22362074428757,
+          90.39410156204157
+        ],
+        "passedRGBQuantiles": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            64.0,
+            68.0,
+            56.0
+          ],
+          [
+            96.0,
+            104.0,
+            85.0
+          ],
+          [
+            160.0,
+            163.30000000001746,
+            136.0
+          ],
+          [
+            248.0,
+            252.0,
+            248.0
+          ]
+        ]
+      },
+      "instances": [
+        1134,
+        1135,
+        1136,
+        1137,
+        1138,
+        1139,
+        1140,
+        1141,
+        1142,
+        1143,
+        1144,
+        1145,
+        1146,
+        1147
+      ],
+      "primitives": 14,
+      "triangles": 5376,
+      "skyInstances": []
+    },
+    "models/props/de_dust/hr_dust/foliage/weeds_cressa_01": {
+      "original": {
+        "name": "models/props/de_dust/hr_dust/foliage/weeds_cressa_01",
+        "source": "models/props/de_dust/hr_dust/foliage/weeds_cressa_01",
+        "shader": "vertexlitgeneric",
+        "mapped": [
+          "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+          "base texture alpha"
+        ],
+        "unmapped": [
+          "$model",
+          "$surfaceprop"
+        ],
+        "parameters": {
+          "$basetexture": "models\\props\\de_dust\\hr_dust\\foliage\\weeds_cressa_01",
+          "$alphatest": "1",
+          "$alphatestreference": ".9",
+          "$nocull": "1",
+          "$model": "1",
+          "$surfaceprop": "wood"
+        },
+        "rawVmtSha256": "fe1630c79a88ec95db34041295ca5c2c70dff9331f53c3686641110b1fcbd52a",
+        "alphaTest": 1,
+        "alphaCutoff": 0.9,
+        "group": "non_bump",
+        "reasons": [
+          "missing $bumpmap"
+        ],
+        "meshInstances": 14,
+        "triangles": 7308,
+        "eligibleMeshes": 0,
+        "eligibleTriangles": 0,
+        "ambiguousMeshes": 0,
+        "ambiguousTriangles": 0,
+        "modelVariants": [
+          "models/props/autocombine/de_dust2/_autocombine_weeds_cressa_01_327.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/weed_plant_04.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/weed_plant_02.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_weeds_cressa_01_328.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_weeds_cressa_01_329.mdl|skin 0"
+        ]
+      },
+      "gltfMaterial": {
+        "alphaMode": "MASK",
+        "doubleSided": true,
+        "extras": {
+          "full_path": "models/props/de_dust/hr_dust/foliage/weeds_cressa_01"
+        },
+        "name": "models/props/de_dust/hr_dust/foliage/weeds_cressa_01",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 129
+          },
+          "metallicFactor": 0,
+          "roughnessFactor": 0.8999999761581421
+        },
+        "alphaCutoff": 0.9
+      },
+      "materialIndex": 88,
+      "embeddedImage": {
+        "file": "weeds_cressa_01.png",
+        "sha256": "fc994c8e2e8face2549bcca375302862a7bde2b92108be9debfd7c834dc47775",
+        "size": [
+          512,
+          512
+        ],
+        "alphaZeroTexels": 158307,
+        "alphaPartialTexels": 27066,
+        "cutoffPassedTexels": 83177,
+        "passedMeanEncodedRGB": [
+          112.80480180819217,
+          117.24854226528969,
+          104.19332267333517
+        ],
+        "passedRGBQuantiles": [
+          [
+            16.0,
+            16.0,
+            0.0
+          ],
+          [
+            72.0,
+            76.0,
+            64.0
+          ],
+          [
+            109.0,
+            113.0,
+            101.0
+          ],
+          [
+            160.0,
+            164.0,
+            144.0
+          ],
+          [
+            248.0,
+            252.0,
+            248.0
+          ]
+        ]
+      },
+      "instances": [
+        1164,
+        1165,
+        1166,
+        1167,
+        1168,
+        1169,
+        1170,
+        1171,
+        1172,
+        1173,
+        1175,
+        1176,
+        1177,
+        1178
+      ],
+      "primitives": 14,
+      "triangles": 7308,
+      "skyInstances": []
+    },
+    "models/props/de_dust/hr_dust/foliage/dust_weeds_02a": {
+      "original": {
+        "name": "models/props/de_dust/hr_dust/foliage/dust_weeds_02a",
+        "source": "models/props/de_dust/hr_dust/foliage/dust_weeds_02a",
+        "shader": "vertexlitgeneric",
+        "mapped": [
+          "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+          "base texture alpha"
+        ],
+        "unmapped": [
+          "$model",
+          "$surfaceprop"
+        ],
+        "parameters": {
+          "$basetexture": "models\\props\\de_dust\\hr_dust\\foliage\\dust_weeds_02a",
+          "$alphatest": "1",
+          "$alphatestreference": ".3",
+          "$nocull": "1",
+          "$model": "1",
+          "$surfaceprop": "wood"
+        },
+        "rawVmtSha256": "47cc03afcf8bb9ad3c6d19b2a950ea7e0bfa79a829a523084ac7e7ffa9aed30a",
+        "alphaTest": 1,
+        "alphaCutoff": 0.3,
+        "group": "non_bump",
+        "reasons": [
+          "missing $bumpmap"
+        ],
+        "meshInstances": 21,
+        "triangles": 16944,
+        "eligibleMeshes": 0,
+        "eligibleTriangles": 0,
+        "ambiguousMeshes": 0,
+        "ambiguousTriangles": 0,
+        "modelVariants": [
+          "models/props/de_dust/hr_dust/foliage/dusty_weed_plant_02.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/dusty_weed_plant_01.mdl|skin 0"
+        ]
+      },
+      "gltfMaterial": {
+        "alphaMode": "MASK",
+        "doubleSided": true,
+        "extras": {
+          "full_path": "models/props/de_dust/hr_dust/foliage/dust_weeds_02a"
+        },
+        "name": "models/props/de_dust/hr_dust/foliage/dust_weeds_02a",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 130
+          },
+          "metallicFactor": 0,
+          "roughnessFactor": 0.8999999761581421
+        },
+        "alphaCutoff": 0.3
+      },
+      "materialIndex": 89,
+      "embeddedImage": {
+        "file": "dust_weeds_02a.png",
+        "sha256": "c06b314f0931be80bb8e2c8aeb74d040a9719972ba3654cc8a2ffd076abe608d",
+        "size": [
+          1024,
+          1024
+        ],
+        "alphaZeroTexels": 674113,
+        "alphaPartialTexels": 112276,
+        "cutoffPassedTexels": 333859,
+        "passedMeanEncodedRGB": [
+          134.3473532239658,
+          124.9580212005667,
+          103.44466676051866
+        ],
+        "passedRGBQuantiles": [
+          [
+            16.0,
+            8.0,
+            0.0
+          ],
+          [
+            93.0,
+            83.0,
+            59.0
+          ],
+          [
+            136.0,
+            128.0,
+            109.0
+          ],
+          [
+            168.0,
+            161.0,
+            139.0
+          ],
+          [
+            248.0,
+            248.0,
+            232.0
+          ]
+        ]
+      },
+      "instances": [
+        1200,
+        1201,
+        1425,
+        1469,
+        1630,
+        1632,
+        1645,
+        1658,
+        1664,
+        1668,
+        2370,
+        2376,
+        2441,
+        2684,
+        2735,
+        2796,
+        2808,
+        2893,
+        2967,
+        3140,
+        3157
+      ],
+      "primitives": 21,
+      "triangles": 16944,
+      "skyInstances": []
+    },
+    "models/props/de_dust/hr_dust/foliage/olive_bark_01": {
+      "original": {
+        "name": "models/props/de_dust/hr_dust/foliage/olive_bark_01",
+        "source": "models/props/de_dust/hr_dust/foliage/olive_bark_01",
+        "shader": "vertexlitgeneric",
+        "mapped": [
+          "$basetexture original VTF full-resolution RGB -> glTF baseColor"
+        ],
+        "unmapped": [
+          "$model",
+          "$surfaceprop",
+          "$treesway",
+          "$treeswayheight",
+          "$treeswaystartheight",
+          "$treeswayradius",
+          "$treeswaystartradius",
+          "$treeswayspeed",
+          "$treeswaystrength",
+          "$treeswayscrumblespeed",
+          "$treeswayscrumblestrength",
+          "$treeswayscrumblefrequency",
+          "$treeswayfalloffexp",
+          "$treeswayscrumblefalloffexp",
+          "$treeswayspeedhighwindmultiplier",
+          "$treeswayspeedlerpstart",
+          "$treeswayspeedlerpend"
+        ],
+        "parameters": {
+          "$basetexture": "models\\props\\de_dust\\hr_dust\\foliage\\olive_bark_01",
+          "$model": "1",
+          "$surfaceprop": "wood",
+          "$treesway": "1",
+          "$treeswayheight": "10",
+          "$treeswaystartheight": ".5",
+          "$treeswayradius": "100",
+          "$treeswaystartradius": "0.0",
+          "$treeswayspeed": ".2",
+          "$treeswaystrength": "0.0015",
+          "$treeswayscrumblespeed": "1.2",
+          "$treeswayscrumblestrength": "0.15",
+          "$treeswayscrumblefrequency": "2",
+          "$treeswayfalloffexp": "2000",
+          "$treeswayscrumblefalloffexp": "3",
+          "$treeswayspeedhighwindmultiplier": "0",
+          "$treeswayspeedlerpstart": "200.0",
+          "$treeswayspeedlerpend": "800.0"
+        },
+        "rawVmtSha256": "0c91e51e06ac8780b070be8bba6ff5bbc722fc5b292bdc7fec300631f8d43c46",
+        "group": "non_bump",
+        "reasons": [
+          "missing $bumpmap",
+          "$treesway",
+          "$treeswayheight",
+          "$treeswaystartheight",
+          "$treeswayradius",
+          "$treeswaystartradius",
+          "$treeswayspeed",
+          "$treeswaystrength",
+          "$treeswayscrumblespeed",
+          "$treeswayscrumblestrength",
+          "$treeswayscrumblefrequency",
+          "$treeswayfalloffexp",
+          "$treeswayscrumblefalloffexp",
+          "$treeswayspeedhighwindmultiplier",
+          "$treeswayspeedlerpstart",
+          "$treeswayspeedlerpend"
+        ],
+        "meshInstances": 12,
+        "triangles": 6809,
+        "eligibleMeshes": 0,
+        "eligibleTriangles": 0,
+        "ambiguousMeshes": 0,
+        "ambiguousTriangles": 0,
+        "modelVariants": [
+          "models/props/de_dust/hr_dust/foliage/olive_tree_01b.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/olive_tree_01.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/olive_tree_small_01.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/olive_tree_02.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/olive_tree_small_02.mdl|skin 0"
+        ]
+      },
+      "gltfMaterial": {
+        "extras": {
+          "full_path": "models/props/de_dust/hr_dust/foliage/olive_bark_01"
+        },
+        "name": "models/props/de_dust/hr_dust/foliage/olive_bark_01",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 135
+          },
+          "metallicFactor": 0,
+          "roughnessFactor": 0.8999999761581421
+        }
+      },
+      "materialIndex": 92,
+      "embeddedImage": {
+        "file": "olive_bark_01.png",
+        "sha256": "b2a6eb15bb5489ee489ab3154f13b1878e54df31e15e09c892b186f17c79ccac",
+        "size": [
+          512,
+          512
+        ],
+        "alphaZeroTexels": 0,
+        "alphaPartialTexels": 0,
+        "cutoffPassedTexels": 262144,
+        "passedMeanEncodedRGB": [
+          141.95084762573242,
+          142.65719604492188,
+          136.3052864074707
+        ],
+        "passedRGBQuantiles": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            80.0,
+            84.0,
+            80.0
+          ],
+          [
+            141.0,
+            141.0,
+            136.0
+          ],
+          [
+            200.0,
+            204.0,
+            197.0
+          ],
+          [
+            248.0,
+            252.0,
+            248.0
+          ]
+        ]
+      },
+      "instances": [
+        1218,
+        1363,
+        1621,
+        1628,
+        1660,
+        1703,
+        1716,
+        2089,
+        2332,
+        2382,
+        2420,
+        3084
+      ],
+      "primitives": 12,
+      "triangles": 6809,
+      "skyInstances": []
+    },
+    "models/props/de_dust/hr_dust/foliage/agave_plant_01": {
+      "original": {
+        "name": "models/props/de_dust/hr_dust/foliage/agave_plant_01",
+        "source": "models/props/de_dust/hr_dust/foliage/agave_plant_01",
+        "shader": "vertexlitgeneric",
+        "mapped": [
+          "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+          "base texture alpha"
+        ],
+        "unmapped": [
+          "$model",
+          "$surfaceprop"
+        ],
+        "parameters": {
+          "$basetexture": "models\\props\\de_dust\\hr_dust\\foliage\\agave_plant_01",
+          "$alphatest": "1",
+          "$alphatestreference": ".3",
+          "$nocull": "1",
+          "$model": "1",
+          "$surfaceprop": "wood"
+        },
+        "rawVmtSha256": "0492064fddf83ca43a211df1236c44e36d9803504801cf880a305c6f4fa0b42e",
+        "alphaTest": 1,
+        "alphaCutoff": 0.3,
+        "group": "non_bump",
+        "reasons": [
+          "missing $bumpmap"
+        ],
+        "meshInstances": 11,
+        "triangles": 4434,
+        "eligibleMeshes": 0,
+        "eligibleTriangles": 0,
+        "ambiguousMeshes": 0,
+        "ambiguousTriangles": 0,
+        "modelVariants": [
+          "models/props/de_dust/hr_dust/foliage/agave_plant_03.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/agave_plant_01.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/agave_plant_04.mdl|skin 0"
+        ]
+      },
+      "gltfMaterial": {
+        "alphaMode": "MASK",
+        "doubleSided": true,
+        "extras": {
+          "full_path": "models/props/de_dust/hr_dust/foliage/agave_plant_01"
+        },
+        "name": "models/props/de_dust/hr_dust/foliage/agave_plant_01",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 145
+          },
+          "metallicFactor": 0,
+          "roughnessFactor": 0.8999999761581421
+        },
+        "alphaCutoff": 0.3
+      },
+      "materialIndex": 100,
+      "embeddedImage": {
+        "file": "agave_plant_01.png",
+        "sha256": "da9b8bdde215b4411be03853d90993cc910de96cdfd46f21a5594d6075b89edd",
+        "size": [
+          256,
+          256
+        ],
+        "alphaZeroTexels": 1288,
+        "alphaPartialTexels": 39942,
+        "cutoffPassedTexels": 25365,
+        "passedMeanEncodedRGB": [
+          119.66560220776661,
+          134.96203429923122,
+          119.33045535186281
+        ],
+        "passedRGBQuantiles": [
+          [
+            0.0,
+            4.0,
+            0.0
+          ],
+          [
+            80.0,
+            96.0,
+            83.0
+          ],
+          [
+            117.0,
+            132.0,
+            115.0
+          ],
+          [
+            168.0,
+            176.0,
+            160.0
+          ],
+          [
+            248.0,
+            252.0,
+            248.0
+          ]
+        ]
+      },
+      "instances": [
+        1292,
+        1445,
+        1447,
+        1448,
+        1449,
+        1450,
+        1451,
+        1452,
+        1453,
+        1455,
+        1457
+      ],
+      "primitives": 11,
+      "triangles": 4434,
+      "skyInstances": []
+    },
+    "models/props/de_dust/hr_dust/foliage/yarrow_weed_01": {
+      "original": {
+        "name": "models/props/de_dust/hr_dust/foliage/yarrow_weed_01",
+        "source": "models/props/de_dust/hr_dust/foliage/yarrow_weed_01",
+        "shader": "vertexlitgeneric",
+        "mapped": [
+          "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+          "base texture alpha"
+        ],
+        "unmapped": [
+          "$model",
+          "$surfaceprop"
+        ],
+        "parameters": {
+          "$basetexture": "models\\props\\de_dust\\hr_dust\\foliage\\yarrow_weed_01",
+          "$alphatest": "1",
+          "$alphatestreference": ".3",
+          "$nocull": "1",
+          "$model": "1",
+          "$surfaceprop": "wood"
+        },
+        "rawVmtSha256": "a570919674d97bdb08cc9e7d9d939f6c1b407ed810b79d623bcf5a8745425e0c",
+        "alphaTest": 1,
+        "alphaCutoff": 0.3,
+        "group": "non_bump",
+        "reasons": [
+          "missing $bumpmap"
+        ],
+        "meshInstances": 10,
+        "triangles": 11328,
+        "eligibleMeshes": 0,
+        "eligibleTriangles": 0,
+        "ambiguousMeshes": 0,
+        "ambiguousTriangles": 0,
+        "modelVariants": [
+          "models/props/de_dust/hr_dust/foliage/plant_small_02.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_yarrow_weed_01_484.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/plant_small_01.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_yarrow_weed_01_608.mdl|skin 0"
+        ]
+      },
+      "gltfMaterial": {
+        "alphaMode": "MASK",
+        "doubleSided": true,
+        "extras": {
+          "full_path": "models/props/de_dust/hr_dust/foliage/yarrow_weed_01"
+        },
+        "name": "models/props/de_dust/hr_dust/foliage/yarrow_weed_01",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 202
+          },
+          "metallicFactor": 0,
+          "roughnessFactor": 0.8999999761581421
+        },
+        "alphaCutoff": 0.3
+      },
+      "materialIndex": 134,
+      "embeddedImage": {
+        "file": "yarrow_weed_01.png",
+        "sha256": "a3db3dc46e80e4fba608d3d845af8e4f5ec7b01bade3f10e9965ebc277d4be9b",
+        "size": [
+          256,
+          256
+        ],
+        "alphaZeroTexels": 42037,
+        "alphaPartialTexels": 12439,
+        "cutoffPassedTexels": 20136,
+        "passedMeanEncodedRGB": [
+          103.20455899880811,
+          107.73574692093763,
+          101.62430472785061
+        ],
+        "passedRGBQuantiles": [
+          [
+            40.0,
+            36.0,
+            32.0
+          ],
+          [
+            64.0,
+            68.0,
+            64.0
+          ],
+          [
+            104.0,
+            108.0,
+            104.0
+          ],
+          [
+            136.0,
+            143.0,
+            133.0
+          ],
+          [
+            208.0,
+            212.0,
+            200.0
+          ]
+        ]
+      },
+      "instances": [
+        1944,
+        1945,
+        1946,
+        1947,
+        1948,
+        1949,
+        2528,
+        2529,
+        2530,
+        2531
+      ],
+      "primitives": 10,
+      "triangles": 11328,
+      "skyInstances": []
+    },
+    "models/props/de_dust/hr_dust/foliage/dust_weeds_02": {
+      "original": {
+        "name": "models/props/de_dust/hr_dust/foliage/dust_weeds_02",
+        "source": "models/props/de_dust/hr_dust/foliage/dust_weeds_02",
+        "shader": "vertexlitgeneric",
+        "mapped": [
+          "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+          "base texture alpha"
+        ],
+        "unmapped": [
+          "$model",
+          "$surfaceprop"
+        ],
+        "parameters": {
+          "$basetexture": "models\\props\\de_dust\\hr_dust\\foliage\\dust_weeds_02",
+          "$alphatest": "1",
+          "$alphatestreference": ".3",
+          "$nocull": "1",
+          "$model": "1",
+          "$surfaceprop": "wood"
+        },
+        "rawVmtSha256": "1608008e364edeaaea7ad49bed91c81d2ed3b3c4bd83fa010db1d88d8e858647",
+        "alphaTest": 1,
+        "alphaCutoff": 0.3,
+        "group": "non_bump",
+        "reasons": [
+          "missing $bumpmap"
+        ],
+        "meshInstances": 13,
+        "triangles": 9120,
+        "eligibleMeshes": 0,
+        "eligibleTriangles": 0,
+        "ambiguousMeshes": 0,
+        "ambiguousTriangles": 0,
+        "modelVariants": [
+          "models/props/de_dust/hr_dust/foliage/weed_plant_15.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/weed_plant_14.mdl|skin 0",
+          "models/props/de_dust/hr_dust/foliage/weed_plant_13.mdl|skin 0"
+        ]
+      },
+      "gltfMaterial": {
+        "alphaMode": "MASK",
+        "doubleSided": true,
+        "extras": {
+          "full_path": "models/props/de_dust/hr_dust/foliage/dust_weeds_02"
+        },
+        "name": "models/props/de_dust/hr_dust/foliage/dust_weeds_02",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 241
+          },
+          "metallicFactor": 0,
+          "roughnessFactor": 0.8999999761581421
+        },
+        "alphaCutoff": 0.3
+      },
+      "materialIndex": 155,
+      "embeddedImage": {
+        "file": "dust_weeds_02.png",
+        "sha256": "9204fabeec2cbd7127b43b46a1f605d9ce3825d46d8f4bfc2f2cef69259e4255",
+        "size": [
+          512,
+          512
+        ],
+        "alphaZeroTexels": 167359,
+        "alphaPartialTexels": 32480,
+        "cutoffPassedTexels": 84734,
+        "passedMeanEncodedRGB": [
+          116.18385771945145,
+          109.74317275237803,
+          86.1174499020464
+        ],
+        "passedRGBQuantiles": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            72.0,
+            68.0,
+            48.0
+          ],
+          [
+            117.0,
+            109.0,
+            85.0
+          ],
+          [
+            155.0,
+            152.0,
+            125.0
+          ],
+          [
+            248.0,
+            252.0,
+            248.0
+          ]
+        ]
+      },
+      "instances": [
+        2223,
+        2407,
+        2523,
+        2546,
+        2706,
+        2712,
+        2713,
+        2714,
+        2738,
+        2751,
+        2917,
+        3117,
+        3142
+      ],
+      "primitives": 13,
+      "triangles": 9120,
+      "skyInstances": []
+    },
+    "models/props/de_dust/hr_dust/foliage/grape_leaves_01": {
+      "original": {
+        "name": "models/props/de_dust/hr_dust/foliage/grape_leaves_01",
+        "source": "models/props/de_dust/hr_dust/foliage/grape_leaves_01",
+        "shader": "vertexlitgeneric",
+        "mapped": [
+          "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+          "base texture alpha"
+        ],
+        "unmapped": [
+          "$model",
+          "$surfaceprop"
+        ],
+        "parameters": {
+          "$basetexture": "models\\props\\de_dust\\hr_dust\\foliage\\grape_leaves_01",
+          "$alphatest": "1",
+          "$alphatestreference": ".3",
+          "$nocull": "1",
+          "$model": "1",
+          "$surfaceprop": "wood"
+        },
+        "rawVmtSha256": "d0b961253b31aa22a71f6ce88ae588d1275ead27a583c2d1b66aefbbf0e49427",
+        "alphaTest": 1,
+        "alphaCutoff": 0.3,
+        "group": "non_bump",
+        "reasons": [
+          "missing $bumpmap"
+        ],
+        "meshInstances": 2,
+        "triangles": 6554,
+        "eligibleMeshes": 0,
+        "eligibleTriangles": 0,
+        "ambiguousMeshes": 0,
+        "ambiguousTriangles": 0,
+        "modelVariants": [
+          "models/props/autocombine/de_dust2/_autocombine_grape_leaves_01_565.mdl|skin 0",
+          "models/props/autocombine/de_dust2/_autocombine_grape_leaves_01_566.mdl|skin 0"
+        ]
+      },
+      "gltfMaterial": {
+        "alphaMode": "MASK",
+        "doubleSided": true,
+        "extras": {
+          "full_path": "models/props/de_dust/hr_dust/foliage/grape_leaves_01"
+        },
+        "name": "models/props/de_dust/hr_dust/foliage/grape_leaves_01",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 252
+          },
+          "metallicFactor": 0,
+          "roughnessFactor": 0.8999999761581421
+        },
+        "alphaCutoff": 0.3
+      },
+      "materialIndex": 161,
+      "embeddedImage": {
+        "file": "grape_leaves_01.png",
+        "sha256": "75707123ac63d7c1703205f59218e9e3402fe48c553e6ad3ffba4c19f3998d32",
+        "size": [
+          512,
+          512
+        ],
+        "alphaZeroTexels": 194109,
+        "alphaPartialTexels": 16783,
+        "cutoffPassedTexels": 61998,
+        "passedMeanEncodedRGB": [
+          78.69723216877964,
+          82.70510339043194,
+          61.51209716442466
+        ],
+        "passedRGBQuantiles": [
+          [
+            24.0,
+            8.0,
+            0.0
+          ],
+          [
+            64.0,
+            68.0,
+            48.0
+          ],
+          [
+            77.0,
+            80.0,
+            59.0
+          ],
+          [
+            96.0,
+            100.0,
+            85.0
+          ],
+          [
+            152.0,
+            156.0,
+            128.0
+          ]
+        ]
+      },
+      "instances": [
+        2251,
+        2252
+      ],
+      "primitives": 2,
+      "triangles": 6554,
+      "skyInstances": []
+    }
+  },
+  "pixelProbes": [
+    {
+      "pixel": [
+        206,
+        195
+      ],
+      "hits": [],
+      "screenshotRGB": [
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "pixel": [
+        243,
+        204
+      ],
+      "hits": [
+        {
+          "node": "static_prop_65_mesh_0",
+          "propId": 65,
+          "primitive": 0,
+          "material": "models/props/de_dust/hr_dust/foliage/olive_branch_01",
+          "sky": true,
+          "triangleIndex": 25,
+          "distanceInPass": 34.976658988158796,
+          "uv": [
+            0.8607539724073014,
+            0.8664938244459319
+          ],
+          "bilinearLOD0RGBA": [
+            90.1103741181596,
+            94.93450960831296,
+            84.5827805886197,
+            254.85204605497253
+          ],
+          "alphaPassAtLOD0": true
+        },
+        {
+          "node": "static_prop_65_mesh_0",
+          "propId": 65,
+          "primitive": 0,
+          "material": "models/props/de_dust/hr_dust/foliage/olive_branch_01",
+          "sky": true,
+          "triangleIndex": 23,
+          "distanceInPass": 35.1536578944539,
+          "uv": [
+            1.0253442573946492,
+            0.8894537599475087
+          ],
+          "bilinearLOD0RGBA": [
+            112.0,
+            121.0,
+            109.0,
+            0.0
+          ],
+          "alphaPassAtLOD0": false
+        }
+      ],
+      "screenshotRGB": [
+        4,
+        6,
+        4
+      ]
+    },
+    {
+      "pixel": [
+        218,
+        219
+      ],
+      "hits": [
+        {
+          "node": "static_prop_65_mesh_0",
+          "propId": 65,
+          "primitive": 0,
+          "material": "models/props/de_dust/hr_dust/foliage/olive_branch_01",
+          "sky": true,
+          "triangleIndex": 49,
+          "distanceInPass": 32.24941813138198,
+          "uv": [
+            0.9104377819826414,
+            0.8289071882784692
+          ],
+          "bilinearLOD0RGBA": [
+            86.4017693029671,
+            100.96091233509983,
+            84.96091233509982,
+            253.306310001798
+          ],
+          "alphaPassAtLOD0": true
+        },
+        {
+          "node": "static_prop_65_mesh_0",
+          "propId": 65,
+          "primitive": 0,
+          "material": "models/props/de_dust/hr_dust/foliage/olive_branch_01",
+          "sky": true,
+          "triangleIndex": 47,
+          "distanceInPass": 32.42201227017404,
+          "uv": [
+            0.9866897992041466,
+            0.8558703318986548
+          ],
+          "bilinearLOD0RGBA": [
+            100.82243972844503,
+            109.0,
+            99.0,
+            0.0
+          ],
+          "alphaPassAtLOD0": false
+        }
+      ],
+      "screenshotRGB": [
+        4,
+        6,
+        4
+      ]
+    },
+    {
+      "pixel": [
+        166,
+        240
+      ],
+      "hits": [
+        {
+          "node": "static_prop_65_mesh_0",
+          "propId": 65,
+          "primitive": 0,
+          "material": "models/props/de_dust/hr_dust/foliage/olive_branch_01",
+          "sky": true,
+          "triangleIndex": 87,
+          "distanceInPass": 28.921131802770045,
+          "uv": [
+            0.8455409885663372,
+            0.8767061799448943
+          ],
+          "bilinearLOD0RGBA": [
+            78.10332416430596,
+            95.3303648596577,
+            70.10332416430596,
+            231.9559118568793
+          ],
+          "alphaPassAtLOD0": true
+        },
+        {
+          "node": "static_prop_65_mesh_0",
+          "propId": 65,
+          "primitive": 0,
+          "material": "models/props/de_dust/hr_dust/foliage/olive_branch_01",
+          "sky": true,
+          "triangleIndex": 1,
+          "distanceInPass": 29.087004214617,
+          "uv": [
+            1.0453622717116462,
+            0.8923424687535667
+          ],
+          "bilinearLOD0RGBA": [
+            112.0,
+            121.0,
+            109.0,
+            0.0
+          ],
+          "alphaPassAtLOD0": false
+        }
+      ],
+      "screenshotRGB": [
+        4,
+        7,
+        5
+      ]
+    },
+    {
+      "pixel": [
+        78,
+        288
+      ],
+      "hits": [
+        {
+          "node": "static_prop_2368_mesh_0",
+          "propId": 2368,
+          "primitive": 0,
+          "material": "models/props/de_dust/hr_dust/foliage/palm_frond_01",
+          "sky": false,
+          "triangleIndex": 2132,
+          "distanceInPass": 37.00632728966431,
+          "uv": [
+            0.7819099126456828,
+            0.5470371577482942
+          ],
+          "bilinearLOD0RGBA": [
+            103.09778448700392,
+            93.07718182807537,
+            74.84001265890728,
+            255.0
+          ],
+          "alphaPassAtLOD0": true
+        },
+        {
+          "node": "static_prop_2368_mesh_0",
+          "propId": 2368,
+          "primitive": 0,
+          "material": "models/props/de_dust/hr_dust/foliage/palm_frond_01",
+          "sky": false,
+          "triangleIndex": 624,
+          "distanceInPass": 37.61743168562621,
+          "uv": [
+            0.7300542567802065,
+            0.6481551221907457
+          ],
+          "bilinearLOD0RGBA": [
+            119.39552845654816,
+            104.477419783006,
+            87.39552845654816,
+            255.0
+          ],
+          "alphaPassAtLOD0": true
+        },
+        {
+          "node": "static_prop_2368_mesh_0",
+          "propId": 2368,
+          "primitive": 0,
+          "material": "models/props/de_dust/hr_dust/foliage/palm_frond_01",
+          "sky": false,
+          "triangleIndex": 1789,
+          "distanceInPass": 37.66486958770768,
+          "uv": [
+            0.7553246700568099,
+            0.6536593794365145
+          ],
+          "bilinearLOD0RGBA": [
+            101.0,
+            88.0,
+            72.0,
+            255.0
+          ],
+          "alphaPassAtLOD0": true
+        },
+        {
+          "node": "static_prop_2368_mesh_0",
+          "propId": 2368,
+          "primitive": 0,
+          "material": "models/props/de_dust/hr_dust/foliage/palm_frond_01",
+          "sky": false,
+          "triangleIndex": 2012,
+          "distanceInPass": 38.4383443553638,
+          "uv": [
+            0.9779047082017052,
+            0.8153328064894205
+          ],
+          "bilinearLOD0RGBA": [
+            131.0,
+            113.0,
+            91.0,
+            5.0
+          ],
+          "alphaPassAtLOD0": false
+        },
+        {
+          "node": "static_prop_2368_mesh_0",
+          "propId": 2368,
+          "primitive": 0,
+          "material": "models/props/de_dust/hr_dust/foliage/palm_frond_01",
+          "sky": false,
+          "triangleIndex": 2105,
+          "distanceInPass": 39.07064672431674,
+          "uv": [
+            0.9926099763889192,
+            0.46566634514666677
+          ],
+          "bilinearLOD0RGBA": [
+            144.0,
+            129.0,
+            104.0,
+            5.0
+          ],
+          "alphaPassAtLOD0": false
+        },
+        {
+          "node": "static_prop_55_mesh_0",
+          "propId": 55,
+          "primitive": 0,
+          "material": "models/props/de_dust/hr_dust/foliage/olive_branch_01",
+          "sky": true,
+          "triangleIndex": 27,
+          "distanceInPass": 11.985386880529086,
+          "uv": [
+            0.9228214796718086,
+            0.8796339816662757
+          ],
+          "bilinearLOD0RGBA": [
+            103.10435191120197,
+            103.7502020849476,
+            93.16680138996507,
+            238.9857541141755
+          ],
+          "alphaPassAtLOD0": true
+        }
+      ],
+      "screenshotRGB": [
+        93,
+        81,
+        62
+      ]
+    },
+    {
+      "pixel": [
+        102,
+        322
+      ],
+      "hits": [
+        {
+          "node": "static_prop_2368_mesh_0",
+          "propId": 2368,
+          "primitive": 0,
+          "material": "models/props/de_dust/hr_dust/foliage/palm_frond_01",
+          "sky": false,
+          "triangleIndex": 2069,
+          "distanceInPass": 38.53396706605307,
+          "uv": [
+            0.739775958174931,
+            0.2857508057458947
+          ],
+          "bilinearLOD0RGBA": [
+            155.0,
+            139.0,
+            109.0,
+            5.0
+          ],
+          "alphaPassAtLOD0": false
+        },
+        {
+          "node": "static_prop_2368_mesh_0",
+          "propId": 2368,
+          "primitive": 0,
+          "material": "models/props/de_dust/hr_dust/foliage/palm_frond_01",
+          "sky": false,
+          "triangleIndex": 2308,
+          "distanceInPass": 38.890190906932744,
+          "uv": [
+            0.9550555215277357,
+            0.4353535545582437
+          ],
+          "bilinearLOD0RGBA": [
+            152.0,
+            136.0,
+            112.0,
+            3.4238842701787586
+          ],
+          "alphaPassAtLOD0": false
+        }
+      ],
+      "screenshotRGB": [
+        29,
+        17,
+        5
+      ]
+    },
+    {
+      "pixel": [
+        137,
+        306
+      ],
+      "hits": [
+        {
+          "node": "static_prop_2368_mesh_0",
+          "propId": 2368,
+          "primitive": 0,
+          "material": "models/props/de_dust/hr_dust/foliage/palm_frond_01",
+          "sky": false,
+          "triangleIndex": 2056,
+          "distanceInPass": 36.757252951181364,
+          "uv": [
+            0.8757521697144373,
+            0.364905812640545
+          ],
+          "bilinearLOD0RGBA": [
+            191.07189759345331,
+            178.98350688806792,
+            151.07189759345331,
+            255.0
+          ],
+          "alphaPassAtLOD0": true
+        },
+        {
+          "node": "static_prop_2368_mesh_0",
+          "propId": 2368,
+          "primitive": 0,
+          "material": "models/props/de_dust/hr_dust/foliage/palm_frond_01",
+          "sky": false,
+          "triangleIndex": 1809,
+          "distanceInPass": 38.61191322142132,
+          "uv": [
+            0.7398285930733697,
+            0.1314901726877124
+          ],
+          "bilinearLOD0RGBA": [
+            152.0,
+            140.0,
+            112.0,
+            10.792271783278752
+          ],
+          "alphaPassAtLOD0": false
+        },
+        {
+          "node": "static_prop_2368_mesh_0",
+          "propId": 2368,
+          "primitive": 0,
+          "material": "models/props/de_dust/hr_dust/foliage/palm_frond_01",
+          "sky": false,
+          "triangleIndex": 1131,
+          "distanceInPass": 39.00981267709501,
+          "uv": [
+            0.935211512001809,
+            0.45919554027762144
+          ],
+          "bilinearLOD0RGBA": [
+            152.0,
+            136.0,
+            112.0,
+            255.0
+          ],
+          "alphaPassAtLOD0": true
+        }
+      ],
+      "screenshotRGB": [
+        125,
+        113,
+        89
+      ]
+    }
+  ],
+  "boundary": "Exact embedded PNG bytes and GLB geometry, original material inventory. RGB statistics are encoded texture values, not linear light or original rendered brightness. Ray intersections include only palm/olive geometry; LOD0 alpha does not reproduce GPU mipmapping."
+}

@@ -1,0 +1,4041 @@
+{
+  "format": "source-ropes-v1",
+  "sources": {
+    "sourceBspSha256": "b91be410539fbbfc16300423f1e19c024f12addf1429c8cb2f72b53fe0fd6bcc",
+    "client64Sha256": "c47c64c38a066e02bdc006ac4db4fe6e9a318fdd896153accb7af9bd065b7fb5",
+    "server64Sha256": "5dc259006b3251e48c39cf30a86aae149da36c975fda054d0314907b7391845c",
+    "entitiesJsonSha256": "f0fd42a47dd4dd9f1eb8c79130b084475cf0f4402e1e6f21dfc70b65a55caf30"
+  },
+  "structure": {
+    "spans": 120,
+    "ends": 22,
+    "chains": 33,
+    "ropesReached": 142,
+    "hopsWalked": 148,
+    "chainRopes": 181,
+    "sharedLinks": 8,
+    "sharedLinksExtra": 11,
+    "longestChain": 9,
+    "hopMetres": {
+      "min": 2.443,
+      "median": 18.712,
+      "max": 40.475
+    },
+    "reading": "A rope that names a next key hangs from its own origin to that rope's origin; a rope nothing names as its next ends a chain. Following the movers that way reaches all 142 ropes, in 33 chains that overlap - they walk 181 ropes between them, and the eleven links two ropes share are what makes the ends fewer than the movers."
+  },
+  "map": {
+    "ropes": 142,
+    "classes": {
+      "keyframe_rope": 109,
+      "move_rope": 33
+    },
+    "materials": {
+      "cable/nuke_cable": 142
+    },
+    "chained": 120,
+    "movers": 33,
+    "widths": {
+      "1": 66,
+      "1.4": 17,
+      "1.2": 14,
+      "1.5": 11,
+      "1.7": 8,
+      ".8": 7,
+      ".7": 6,
+      "1.3": 5,
+      "1.6": 4,
+      "1.1": 2,
+      ".9": 1,
+      "2": 1
+    },
+    "slacks": {
+      "111": 32,
+      "95": 9,
+      "101": 8,
+      "97": 8,
+      "104": 7,
+      "88": 7,
+      "75": 7,
+      "87": 6,
+      "109": 4,
+      "120": 4,
+      "105": 3,
+      "125": 3,
+      "90": 3,
+      "78": 3,
+      "80": 3,
+      "71": 3,
+      "85": 3,
+      "99": 2,
+      "102": 2,
+      "110": 2,
+      "91": 2,
+      "89": 2,
+      "68": 2,
+      "98": 2,
+      "121": 1,
+      "106": 1,
+      "115": 1,
+      "96": 1,
+      "86": 1,
+      "100": 1,
+      "94": 1,
+      "93": 1,
+      "70": 1,
+      "83": 1,
+      "147": 1,
+      "117": 1,
+      "92": 1,
+      "118": 1,
+      "25": 1
+    },
+    "ropeSet": [
+      {
+        "hammerId": "9207250",
+        "classname": "keyframe_rope",
+        "origin": [
+          2333.0,
+          3017.02,
+          266.491
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 101,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "AutoInstance1-elec_wire_bg_03a2",
+        "nextKey": null,
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "9207253",
+        "classname": "keyframe_rope",
+        "origin": [
+          2333.0,
+          3017.02,
+          312.491
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 111,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "AutoInstance1-elec_wire_bg_01a2",
+        "nextKey": null,
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "9207256",
+        "classname": "keyframe_rope",
+        "origin": [
+          2333.0,
+          3017.02,
+          298.491
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 97,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "AutoInstance1-elec_wire_bg_02a2",
+        "nextKey": null,
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "9207263",
+        "classname": "keyframe_rope",
+        "origin": [
+          2333.0,
+          2313.02,
+          324.491
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 111,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "AutoInstance1-elec_wire_bg_01a1",
+        "nextKey": "AutoInstance1-elec_wire_bg_01a2",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "9207266",
+        "classname": "keyframe_rope",
+        "origin": [
+          2333.0,
+          2313.02,
+          310.491
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.7,
+        "slack": 97,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "AutoInstance1-elec_wire_bg_02a1",
+        "nextKey": "AutoInstance1-elec_wire_bg_02a2",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "9207269",
+        "classname": "keyframe_rope",
+        "origin": [
+          2333.0,
+          2313.02,
+          278.491
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.2,
+        "slack": 101,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "AutoInstance1-elec_wire_bg_03a1",
+        "nextKey": "AutoInstance1-elec_wire_bg_03a2",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "9207273",
+        "classname": "keyframe_rope",
+        "origin": [
+          2369.0,
+          1545.02,
+          303.491
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.2,
+        "slack": 101,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "AutoInstance1-elec_wire_bg_03a",
+        "nextKey": "AutoInstance1-elec_wire_bg_03a1",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "9207276",
+        "classname": "keyframe_rope",
+        "origin": [
+          2369.0,
+          1545.02,
+          335.491
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 109,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "AutoInstance1-elec_wire_bg_02a",
+        "nextKey": "AutoInstance1-elec_wire_bg_02a1",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "9207279",
+        "classname": "keyframe_rope",
+        "origin": [
+          2369.0,
+          1545.02,
+          349.491
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.7,
+        "slack": 111,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "AutoInstance1-elec_wire_bg_01a",
+        "nextKey": "AutoInstance1-elec_wire_bg_01a1",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "9207282",
+        "classname": "move_rope",
+        "origin": [
+          2384.0,
+          1119.7,
+          354.753
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.2,
+        "slack": 101,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "AutoInstance1-elec_wire_bg_03a",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "9207285",
+        "classname": "move_rope",
+        "origin": [
+          2384.0,
+          1119.7,
+          359.753
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 101,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "AutoInstance1-elec_wire_bg_02a",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "9207288",
+        "classname": "move_rope",
+        "origin": [
+          2384.0,
+          1119.7,
+          364.753
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.7,
+        "slack": 101,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "AutoInstance1-elec_wire_bg_01a",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "7696639",
+        "classname": "move_rope",
+        "origin": [
+          -2615.0,
+          2120.0,
+          482.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.4,
+        "slack": 111,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "elec_wire_18a_01",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "7696675",
+        "classname": "keyframe_rope",
+        "origin": [
+          -2312.53,
+          1728.0,
+          561.538
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.4,
+        "slack": 111,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_18a_01",
+        "nextKey": "elec_wire_18a_2",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "7697233",
+        "classname": "keyframe_rope",
+        "origin": [
+          -1338.53,
+          2072.0,
+          422.538
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.4,
+        "slack": 111,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_18a_2",
+        "nextKey": "elec_wire_18a_3",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "7697413",
+        "classname": "keyframe_rope",
+        "origin": [
+          -1031.53,
+          2104.0,
+          279.538
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.4,
+        "slack": 111,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_18a_3",
+        "nextKey": "elec_wire_18a_4",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "7697542",
+        "classname": "keyframe_rope",
+        "origin": [
+          -599.525,
+          2103.0,
+          265.538
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.4,
+        "slack": 111,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_18a_4",
+        "nextKey": "elec_wire_18a_5",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "7697696",
+        "classname": "keyframe_rope",
+        "origin": [
+          -341.525,
+          2338.0,
+          157.538
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.4,
+        "slack": 111,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_18a_5",
+        "nextKey": null,
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "7657875",
+        "classname": "move_rope",
+        "origin": [
+          -1031.25,
+          2104.0,
+          281.868
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.4,
+        "slack": 111,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "elec_wire_17a_5",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "6699662",
+        "classname": "move_rope",
+        "origin": [
+          -2688.0,
+          1703.0,
+          573.409
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.4,
+        "slack": 111,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "elec_wire_17a_01",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "6699672",
+        "classname": "keyframe_rope",
+        "origin": [
+          -2615.24,
+          2122.14,
+          474.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.4,
+        "slack": 111,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_17a_01",
+        "nextKey": "elec_wire_17a_2",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "6700033",
+        "classname": "keyframe_rope",
+        "origin": [
+          -2127.0,
+          2689.0,
+          426.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.4,
+        "slack": 111,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_17a_2",
+        "nextKey": "elec_wire_17a_3",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "6700126",
+        "classname": "keyframe_rope",
+        "origin": [
+          -1857.0,
+          2996.0,
+          422.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.4,
+        "slack": 111,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_17a_3",
+        "nextKey": "elec_wire_17a_4",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "6700144",
+        "classname": "keyframe_rope",
+        "origin": [
+          -1290.0,
+          2729.0,
+          355.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.4,
+        "slack": 111,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_17a_4",
+        "nextKey": "elec_wire_17a_5",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "6700357",
+        "classname": "keyframe_rope",
+        "origin": [
+          -1043.0,
+          2554.0,
+          346.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.4,
+        "slack": 111,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_17a_5",
+        "nextKey": "elec_wire_17a_6",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "6700543",
+        "classname": "keyframe_rope",
+        "origin": [
+          -249.0,
+          2568.0,
+          307.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.4,
+        "slack": 111,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_17a_6",
+        "nextKey": null,
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "6204898",
+        "classname": "move_rope",
+        "origin": [
+          -150.0,
+          1270.0,
+          287.613
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 111,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "elec_wire_16a_1",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "6204914",
+        "classname": "keyframe_rope",
+        "origin": [
+          -339.0,
+          1545.0,
+          271.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 95,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_16a_1",
+        "nextKey": "elec_wire_16a_2",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "6205228",
+        "classname": "keyframe_rope",
+        "origin": [
+          -340.0,
+          1943.0,
+          154.204
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 111,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_16a_2",
+        "nextKey": "elec_wire_16a_3",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "6205792",
+        "classname": "keyframe_rope",
+        "origin": [
+          -257.73,
+          2127.0,
+          96.204
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 111,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_16a_3",
+        "nextKey": "elec_wire_16a_4",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "6206786",
+        "classname": "keyframe_rope",
+        "origin": [
+          -340.719,
+          2338.0,
+          156.798
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 101,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_16a_4",
+        "nextKey": "elec_wire_16a_5",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "6207045",
+        "classname": "keyframe_rope",
+        "origin": [
+          -310.0,
+          2986.0,
+          256.204
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 111,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_16a_5",
+        "nextKey": null,
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "5576175",
+        "classname": "move_rope",
+        "origin": [
+          -1942.04,
+          626.523,
+          331.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 121,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "elec_wire_04a_5",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "5576420",
+        "classname": "move_rope",
+        "origin": [
+          -1942.04,
+          626.523,
+          330.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.4,
+        "slack": 105,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "elec_wire_04a_5",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "4977510",
+        "classname": "keyframe_rope",
+        "origin": [
+          1518.0,
+          3722.0,
+          584.211
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.7,
+        "slack": 111,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_12a_5",
+        "nextKey": "elec_wire_12a_6",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "4977513",
+        "classname": "keyframe_rope",
+        "origin": [
+          1518.0,
+          3722.0,
+          570.211
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 0.7,
+        "slack": 97,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_14a_5",
+        "nextKey": null,
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "4977762",
+        "classname": "keyframe_rope",
+        "origin": [
+          1518.0,
+          3722.0,
+          554.211
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.2,
+        "slack": 104,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_15a_5",
+        "nextKey": "elec_wire_15a_6",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "4977891",
+        "classname": "keyframe_rope",
+        "origin": [
+          3020.0,
+          4158.0,
+          414.211
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 111,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_12a_6",
+        "nextKey": null,
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "4978167",
+        "classname": "keyframe_rope",
+        "origin": [
+          3021.0,
+          4168.0,
+          415.211
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.3,
+        "slack": 104,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_15a_6",
+        "nextKey": null,
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "4893414",
+        "classname": "move_rope",
+        "origin": [
+          1593.0,
+          1258.0,
+          323.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 0.8,
+        "slack": 105,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "elec_wire_15a_1",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "4879640",
+        "classname": "move_rope",
+        "origin": [
+          1722.0,
+          1580.11,
+          355.852
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 0.9,
+        "slack": 111,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "elec_wire_14a_2",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "4879707",
+        "classname": "move_rope",
+        "origin": [
+          1544.0,
+          3102.61,
+          573.903
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.5,
+        "slack": 111,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "elec_wire_13a_4",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "4880061",
+        "classname": "move_rope",
+        "origin": [
+          1960.63,
+          950.0,
+          356.182
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.2,
+        "slack": 111,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "elec_wire_12a_1",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "4880269",
+        "classname": "move_rope",
+        "origin": [
+          498.0,
+          1173.17,
+          417.797
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.4,
+        "slack": 101,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "elec_wire_13a_1",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "4880291",
+        "classname": "move_rope",
+        "origin": [
+          498.0,
+          1173.17,
+          416.797
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 0.8,
+        "slack": 111,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "elec_wire_13a_1",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "4863946",
+        "classname": "keyframe_rope",
+        "origin": [
+          309.0,
+          1921.0,
+          401.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.6,
+        "slack": 125,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_09a_6",
+        "nextKey": "elec_wire_09a_7",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "4863949",
+        "classname": "keyframe_rope",
+        "origin": [
+          301.0,
+          1921.0,
+          400.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 109,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_11a_6",
+        "nextKey": "elec_wire_11a_7",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "4863952",
+        "classname": "keyframe_rope",
+        "origin": [
+          293.0,
+          1921.0,
+          400.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.2,
+        "slack": 120,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_10a_6",
+        "nextKey": "elec_wire_10a_7",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "4864620",
+        "classname": "keyframe_rope",
+        "origin": [
+          287.0,
+          2970.0,
+          800.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.2,
+        "slack": 120,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_10a_7",
+        "nextKey": null,
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "4864623",
+        "classname": "keyframe_rope",
+        "origin": [
+          902.0,
+          2971.0,
+          534.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 109,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_11a_7",
+        "nextKey": null,
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "4864626",
+        "classname": "keyframe_rope",
+        "origin": [
+          902.0,
+          2971.0,
+          545.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.6,
+        "slack": 125,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_09a_7",
+        "nextKey": null,
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "4865210",
+        "classname": "move_rope",
+        "origin": [
+          496.0,
+          2035.72,
+          439.447
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 0.8,
+        "slack": 106,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "elec_wire_09a_6",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "4866038",
+        "classname": "keyframe_rope",
+        "origin": [
+          1341.0,
+          3094.0,
+          622.211
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 111,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_12a_4",
+        "nextKey": "elec_wire_12a_5",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "4866041",
+        "classname": "keyframe_rope",
+        "origin": [
+          1353.0,
+          3094.0,
+          601.211
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.7,
+        "slack": 87,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_13a_4",
+        "nextKey": null,
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "4866044",
+        "classname": "keyframe_rope",
+        "origin": [
+          1341.0,
+          3094.0,
+          601.211
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 0.7,
+        "slack": 97,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_14a_4",
+        "nextKey": "elec_wire_14a_5",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "4866047",
+        "classname": "keyframe_rope",
+        "origin": [
+          1317.0,
+          3094.0,
+          557.211
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.3,
+        "slack": 88,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_15a_4",
+        "nextKey": "elec_wire_15a_5",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "4436945",
+        "classname": "move_rope",
+        "origin": [
+          1593.0,
+          1258.0,
+          324.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.2,
+        "slack": 95,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "elec_wire_15a_1",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "4264770",
+        "classname": "move_rope",
+        "origin": [
+          1243.0,
+          313.296,
+          473.211
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 111,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "elec_wire_12a_1",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "4264783",
+        "classname": "move_rope",
+        "origin": [
+          1243.0,
+          313.296,
+          462.211
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 0.7,
+        "slack": 99,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "elec_wire_13a_1",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "4264786",
+        "classname": "move_rope",
+        "origin": [
+          1243.0,
+          313.296,
+          451.211
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.4,
+        "slack": 87,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "elec_wire_14a_1",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "4264792",
+        "classname": "move_rope",
+        "origin": [
+          1243.0,
+          313.296,
+          440.211
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 102,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "elec_wire_15a_1",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "4264795",
+        "classname": "keyframe_rope",
+        "origin": [
+          1329.44,
+          776.212,
+          488.211
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 111,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_12a_1",
+        "nextKey": "elec_wire_12a_2",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "4264798",
+        "classname": "keyframe_rope",
+        "origin": [
+          1307.44,
+          776.212,
+          468.211
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.7,
+        "slack": 87,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_13a_1",
+        "nextKey": "elec_wire_13a_2",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "4264801",
+        "classname": "keyframe_rope",
+        "origin": [
+          1329.44,
+          776.212,
+          445.211
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 0.7,
+        "slack": 97,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_14a_1",
+        "nextKey": "elec_wire_14a_2",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "4264804",
+        "classname": "keyframe_rope",
+        "origin": [
+          1329.44,
+          776.212,
+          424.211
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.3,
+        "slack": 104,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_15a_1",
+        "nextKey": "elec_wire_15a_2",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "4265300",
+        "classname": "keyframe_rope",
+        "origin": [
+          1304.0,
+          1540.3,
+          392.211
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.3,
+        "slack": 104,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_15a_2",
+        "nextKey": "elec_wire_15a_3",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "4265303",
+        "classname": "keyframe_rope",
+        "origin": [
+          1304.0,
+          1540.3,
+          408.211
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 0.7,
+        "slack": 97,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_14a_2",
+        "nextKey": "elec_wire_14a_3",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "4265306",
+        "classname": "keyframe_rope",
+        "origin": [
+          1304.0,
+          1540.3,
+          424.211
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.7,
+        "slack": 87,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_13a_2",
+        "nextKey": "elec_wire_13a_3",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "4265309",
+        "classname": "keyframe_rope",
+        "origin": [
+          1304.0,
+          1540.3,
+          438.211
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 111,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_12a_2",
+        "nextKey": "elec_wire_12a_3",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "4266371",
+        "classname": "keyframe_rope",
+        "origin": [
+          1756.0,
+          2278.3,
+          485.211
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 111,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_12a_3",
+        "nextKey": "elec_wire_12a_4",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "4266374",
+        "classname": "keyframe_rope",
+        "origin": [
+          1744.0,
+          2278.3,
+          465.211
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.7,
+        "slack": 87,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_13a_3",
+        "nextKey": "elec_wire_13a_4",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "4266377",
+        "classname": "keyframe_rope",
+        "origin": [
+          1756.0,
+          2278.3,
+          442.211
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 0.7,
+        "slack": 97,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_14a_3",
+        "nextKey": "elec_wire_14a_4",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "4266380",
+        "classname": "keyframe_rope",
+        "origin": [
+          1744.0,
+          2278.3,
+          421.211
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.3,
+        "slack": 104,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_15a_3",
+        "nextKey": "elec_wire_15a_4",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "4101789",
+        "classname": "keyframe_rope",
+        "origin": [
+          454.0,
+          1660.0,
+          401.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.2,
+        "slack": 120,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_10a_5",
+        "nextKey": "elec_wire_10a_6",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "4101792",
+        "classname": "keyframe_rope",
+        "origin": [
+          454.0,
+          1660.0,
+          371.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 109,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_11a_5",
+        "nextKey": "elec_wire_11a_6",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "4101795",
+        "classname": "keyframe_rope",
+        "origin": [
+          454.0,
+          1660.0,
+          355.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.6,
+        "slack": 125,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_09a_5",
+        "nextKey": "elec_wire_09a_6",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3906063",
+        "classname": "move_rope",
+        "origin": [
+          -518.947,
+          185.714,
+          548.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.1,
+        "slack": 115,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "elec_wire_09a_1",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "3906163",
+        "classname": "move_rope",
+        "origin": [
+          -518.947,
+          185.714,
+          548.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 0.8,
+        "slack": 110,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "elec_wire_10a_1",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "3906166",
+        "classname": "move_rope",
+        "origin": [
+          -518.947,
+          185.714,
+          548.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.2,
+        "slack": 99,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "elec_wire_11a_1",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "3906169",
+        "classname": "keyframe_rope",
+        "origin": [
+          -274.15,
+          757.698,
+          417.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.1,
+        "slack": 105,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_09a_1",
+        "nextKey": "elec_wire_09a_2",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3906278",
+        "classname": "keyframe_rope",
+        "origin": [
+          -266.15,
+          757.698,
+          417.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 96,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_10a_1",
+        "nextKey": "elec_wire_10a_2",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3906302",
+        "classname": "keyframe_rope",
+        "origin": [
+          -258.15,
+          757.698,
+          417.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 0.8,
+        "slack": 91,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_11a_1",
+        "nextKey": "elec_wire_11a_2",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3906666",
+        "classname": "keyframe_rope",
+        "origin": [
+          -150.0,
+          1270.0,
+          288.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.2,
+        "slack": 95,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_09a_2",
+        "nextKey": "elec_wire_09a_3",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3906669",
+        "classname": "keyframe_rope",
+        "origin": [
+          -142.0,
+          1268.0,
+          288.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 0.8,
+        "slack": 97,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_10a_2",
+        "nextKey": "elec_wire_10a_3",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3906672",
+        "classname": "keyframe_rope",
+        "origin": [
+          -134.0,
+          1266.0,
+          288.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 88,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_11a_2",
+        "nextKey": "elec_wire_11a_3",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3915295",
+        "classname": "keyframe_rope",
+        "origin": [
+          -66.0,
+          1334.0,
+          288.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 90,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_11a_3",
+        "nextKey": "elec_wire_11a_4",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3915298",
+        "classname": "keyframe_rope",
+        "origin": [
+          -68.0,
+          1342.0,
+          288.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 0.8,
+        "slack": 87,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_10a_3",
+        "nextKey": "elec_wire_10a_4",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3915301",
+        "classname": "keyframe_rope",
+        "origin": [
+          -71.0,
+          1349.0,
+          288.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.2,
+        "slack": 86,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_09a_3",
+        "nextKey": "elec_wire_09a_4",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3915564",
+        "classname": "keyframe_rope",
+        "origin": [
+          460.0,
+          1360.0,
+          289.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 89,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_11a_4",
+        "nextKey": "elec_wire_11a_5",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3915567",
+        "classname": "keyframe_rope",
+        "origin": [
+          460.0,
+          1352.0,
+          289.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.2,
+        "slack": 100,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_10a_4",
+        "nextKey": "elec_wire_10a_5",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3915570",
+        "classname": "keyframe_rope",
+        "origin": [
+          460.0,
+          1368.0,
+          289.0
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.6,
+        "slack": 94,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_09a_4",
+        "nextKey": "elec_wire_09a_5",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3699625",
+        "classname": "move_rope",
+        "origin": [
+          -4183.0,
+          -199.979,
+          598.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 75,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "elec_wire_01a_",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "3699633",
+        "classname": "move_rope",
+        "origin": [
+          -4183.0,
+          -199.979,
+          574.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 93,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "elec_wire_02a_",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "3699645",
+        "classname": "move_rope",
+        "origin": [
+          -4183.0,
+          -199.979,
+          550.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 75,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "elec_wire_03a_",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "3699657",
+        "classname": "move_rope",
+        "origin": [
+          -4183.0,
+          -199.979,
+          526.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 70,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "elec_wire_04a_",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "3699717",
+        "classname": "keyframe_rope",
+        "origin": [
+          -4142.0,
+          -692.979,
+          517.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 83,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_04a_",
+        "nextKey": "elec_wire_04a_3",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3699720",
+        "classname": "keyframe_rope",
+        "origin": [
+          -4142.0,
+          -692.979,
+          533.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 78,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_03a_",
+        "nextKey": "elec_wire_03a_3",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3699723",
+        "classname": "keyframe_rope",
+        "origin": [
+          -4142.0,
+          -692.979,
+          548.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 80,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_02a_",
+        "nextKey": "elec_wire_02a_3",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3699726",
+        "classname": "keyframe_rope",
+        "origin": [
+          -4142.0,
+          -692.979,
+          564.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.5,
+        "slack": 75,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_01a_",
+        "nextKey": "elec_wire_01a_3",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3702963",
+        "classname": "keyframe_rope",
+        "origin": [
+          -4142.0,
+          -692.979,
+          502.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 71,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_05a_",
+        "nextKey": "elec_wire_05a_1",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3703023",
+        "classname": "move_rope",
+        "origin": [
+          -4183.0,
+          -199.979,
+          502.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 89,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "elec_wire_05a_",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "3703139",
+        "classname": "keyframe_rope",
+        "origin": [
+          -3433.0,
+          -1010.98,
+          545.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.5,
+        "slack": 75,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_01a_3",
+        "nextKey": "elec_wire_01a_4",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3703142",
+        "classname": "keyframe_rope",
+        "origin": [
+          -3433.0,
+          -1010.98,
+          529.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 80,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_02a_3",
+        "nextKey": "elec_wire_02a_4",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3703145",
+        "classname": "keyframe_rope",
+        "origin": [
+          -3433.0,
+          -1010.98,
+          514.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 88,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_03a_3",
+        "nextKey": "elec_wire_03a_4",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3703148",
+        "classname": "keyframe_rope",
+        "origin": [
+          -3433.0,
+          -1010.98,
+          498.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 68,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_04a_3",
+        "nextKey": "elec_wire_04a_4",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3703151",
+        "classname": "keyframe_rope",
+        "origin": [
+          -3433.0,
+          -1010.98,
+          483.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 71,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_05a_1",
+        "nextKey": "elec_wire_05a_2",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3704195",
+        "classname": "keyframe_rope",
+        "origin": [
+          -2272.0,
+          -963.979,
+          500.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.5,
+        "slack": 95,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_01a_4",
+        "nextKey": "elec_wire_01a_5",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3704198",
+        "classname": "keyframe_rope",
+        "origin": [
+          -2272.0,
+          -963.979,
+          484.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 120,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_02a_4",
+        "nextKey": "elec_wire_02a_5",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3704201",
+        "classname": "keyframe_rope",
+        "origin": [
+          -2272.0,
+          -963.979,
+          469.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 98,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_03a_4",
+        "nextKey": "elec_wire_03a_5",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3704204",
+        "classname": "keyframe_rope",
+        "origin": [
+          -2272.0,
+          -963.979,
+          453.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 88,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_04a_4",
+        "nextKey": "elec_wire_04a_5",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3704207",
+        "classname": "keyframe_rope",
+        "origin": [
+          -2272.0,
+          -963.979,
+          438.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 91,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_05a_2",
+        "nextKey": "elec_wire_05a_3",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3705395",
+        "classname": "keyframe_rope",
+        "origin": [
+          -1813.0,
+          -983.979,
+          423.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.5,
+        "slack": 95,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_01a_5",
+        "nextKey": "elec_wire_01a_6",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3705398",
+        "classname": "keyframe_rope",
+        "origin": [
+          -1813.0,
+          -983.979,
+          409.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 110,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_02a_5",
+        "nextKey": "elec_wire_02a_6",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3705401",
+        "classname": "keyframe_rope",
+        "origin": [
+          -1813.0,
+          -983.979,
+          377.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 98,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_03a_5",
+        "nextKey": "elec_wire_03a_6",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3705404",
+        "classname": "keyframe_rope",
+        "origin": [
+          -1759.0,
+          -115.979,
+          502.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 147,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 83.0,
+        "targetname": "elec_wire_04a_5",
+        "nextKey": "elec_wire_04a_6",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3705407",
+        "classname": "keyframe_rope",
+        "origin": [
+          -1759.0,
+          -116.0,
+          516.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 104,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_05a_3",
+        "nextKey": "elec_wire_05a_4",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3705959",
+        "classname": "keyframe_rope",
+        "origin": [
+          -925.0,
+          -711.979,
+          428.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.5,
+        "slack": 85,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_01a_6",
+        "nextKey": "elec_wire_01a_7",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3705962",
+        "classname": "keyframe_rope",
+        "origin": [
+          -925.0,
+          -711.979,
+          398.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 90,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_02a_6",
+        "nextKey": "elec_wire_02a_7",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3705965",
+        "classname": "keyframe_rope",
+        "origin": [
+          -925.0,
+          -711.979,
+          382.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 88,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_03a_6",
+        "nextKey": "elec_wire_03a_7",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3707167",
+        "classname": "keyframe_rope",
+        "origin": [
+          -322.0,
+          -1034.98,
+          425.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.5,
+        "slack": 85,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_01a_7",
+        "nextKey": "elec_wire_01a_8",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3707170",
+        "classname": "keyframe_rope",
+        "origin": [
+          -322.0,
+          -1034.98,
+          392.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 90,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_02a_7",
+        "nextKey": "elec_wire_02a_8",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3707173",
+        "classname": "keyframe_rope",
+        "origin": [
+          -322.0,
+          -1034.98,
+          403.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 88,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_03a_7",
+        "nextKey": "elec_wire_03a_8",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3707991",
+        "classname": "keyframe_rope",
+        "origin": [
+          1268.0,
+          -963.979,
+          372.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.5,
+        "slack": 75,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_01a_8",
+        "nextKey": "elec_wire_01a_9",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3707994",
+        "classname": "keyframe_rope",
+        "origin": [
+          1268.0,
+          -963.979,
+          340.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 88,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_02a_8",
+        "nextKey": "elec_wire_02a_9",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3707997",
+        "classname": "keyframe_rope",
+        "origin": [
+          1268.0,
+          -963.979,
+          325.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 78,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_03a_8",
+        "nextKey": "elec_wire_03a_9",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3709367",
+        "classname": "keyframe_rope",
+        "origin": [
+          1620.0,
+          -323.979,
+          276.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.5,
+        "slack": 75,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_01a_9",
+        "nextKey": null,
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3709370",
+        "classname": "keyframe_rope",
+        "origin": [
+          1620.0,
+          -323.979,
+          260.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 80,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_02a_9",
+        "nextKey": null,
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3709373",
+        "classname": "keyframe_rope",
+        "origin": [
+          1620.0,
+          -323.979,
+          243.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 78,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_03a_9",
+        "nextKey": null,
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3710527",
+        "classname": "keyframe_rope",
+        "origin": [
+          -1304.0,
+          247.0,
+          389.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 71,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_05a_4",
+        "nextKey": null,
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3710602",
+        "classname": "keyframe_rope",
+        "origin": [
+          -2010.0,
+          118.0,
+          339.232
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 68,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_04a_6",
+        "nextKey": null,
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3711910",
+        "classname": "move_rope",
+        "origin": [
+          494.0,
+          -1057.34,
+          647.149
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.2,
+        "slack": 117,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "elec_wire_06a_",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "3711920",
+        "classname": "move_rope",
+        "origin": [
+          494.0,
+          -1058.34,
+          647.149
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 92,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "elec_wire_07a_",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "3711923",
+        "classname": "move_rope",
+        "origin": [
+          494.0,
+          -1059.34,
+          647.149
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.5,
+        "slack": 85,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "elec_wire_08a_",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "3711926",
+        "classname": "keyframe_rope",
+        "origin": [
+          711.386,
+          -341.531,
+          419.825
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 102,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_06a_",
+        "nextKey": "elec_wire_06a_1",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3712113",
+        "classname": "keyframe_rope",
+        "origin": [
+          703.386,
+          -343.531,
+          419.825
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 104,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_07a_",
+        "nextKey": "elec_wire_07a_1",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3712119",
+        "classname": "keyframe_rope",
+        "origin": [
+          696.386,
+          -345.531,
+          419.825
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.5,
+        "slack": 95,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_08a_",
+        "nextKey": "elec_wire_08a_1",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3712491",
+        "classname": "keyframe_rope",
+        "origin": [
+          -173.0,
+          277.0,
+          315.825
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 95,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_08a_1",
+        "nextKey": null,
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3712584",
+        "classname": "keyframe_rope",
+        "origin": [
+          924.0,
+          -430.0,
+          324.825
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 95,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_06a_1",
+        "nextKey": null,
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3712656",
+        "classname": "keyframe_rope",
+        "origin": [
+          90.0,
+          432.0,
+          318.825
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 118,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_07a_1",
+        "nextKey": "elec_wire_07a_2",
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "3713160",
+        "classname": "keyframe_rope",
+        "origin": [
+          -796.0,
+          502.0,
+          479.825
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 95,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_07a_2",
+        "nextKey": null,
+        "positionInterpolator": null
+      },
+      {
+        "hammerId": "2971261",
+        "classname": "move_rope",
+        "origin": [
+          -1248.2,
+          47.0,
+          313.655
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 1.0,
+        "slack": 75,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": null,
+        "nextKey": "elec_wire_01",
+        "positionInterpolator": "2"
+      },
+      {
+        "hammerId": "2971275",
+        "classname": "keyframe_rope",
+        "origin": [
+          -1150.59,
+          225.0,
+          322.324
+        ],
+        "angles": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": "cable/nuke_cable",
+        "width": 2.0,
+        "slack": 25,
+        "subdiv": 2,
+        "type": 0,
+        "textureScale": 1.0,
+        "moveSpeed": 64.0,
+        "targetname": "elec_wire_01",
+        "nextKey": null,
+        "positionInterpolator": null
+      }
+    ]
+  },
+  "class": {
+    "members": [
+      {
+        "name": "m_nChangeCount",
+        "offset": 4796,
+        "type": 4
+      },
+      {
+        "name": "m_iRopeMaterialModelIndex",
+        "offset": 4004,
+        "type": 4
+      },
+      {
+        "name": "m_hStartPoint",
+        "offset": 4764,
+        "type": 4
+      },
+      {
+        "name": "m_hEndPoint",
+        "offset": 4768,
+        "type": 4
+      },
+      {
+        "name": "m_iStartAttachment",
+        "offset": 4772,
+        "type": 2
+      },
+      {
+        "name": "m_iEndAttachment",
+        "offset": 4774,
+        "type": 2
+      },
+      {
+        "name": "m_fLockedPoints",
+        "offset": 4792,
+        "type": 4
+      },
+      {
+        "name": "m_Slack",
+        "offset": 4784,
+        "type": 4
+      },
+      {
+        "name": "m_RopeLength",
+        "offset": 4780,
+        "type": 4
+      },
+      {
+        "name": "m_RopeFlags",
+        "offset": 4000,
+        "type": 4
+      },
+      {
+        "name": "m_TextureScale",
+        "offset": 4788,
+        "type": 4
+      },
+      {
+        "name": "m_nSegments",
+        "offset": 4760,
+        "type": 4
+      },
+      {
+        "name": "m_bConstrainBetweenEndpoints",
+        "offset": 4944,
+        "type": 1
+      },
+      {
+        "name": "m_Subdiv",
+        "offset": 4776,
+        "type": 4
+      },
+      {
+        "name": "m_Width",
+        "offset": 4800,
+        "type": 4
+      },
+      {
+        "name": "m_flScrollSpeed",
+        "offset": 3996,
+        "type": 4
+      }
+    ],
+    "tableAt": "0x85cc42",
+    "serverMembers": [
+      {
+        "name": "m_RopeFlags",
+        "offset": 1248,
+        "type": 4
+      },
+      {
+        "name": "m_Slack",
+        "offset": 1264,
+        "type": 4
+      },
+      {
+        "name": "m_Width",
+        "offset": 1268,
+        "type": 4
+      },
+      {
+        "name": "m_TextureScale",
+        "offset": 1272,
+        "type": 4
+      },
+      {
+        "name": "m_nSegments",
+        "offset": 1276,
+        "type": 4
+      },
+      {
+        "name": "m_bConstrainBetweenEndpoints",
+        "offset": 1280,
+        "type": 1
+      },
+      {
+        "name": "m_iRopeMaterialModelIndex",
+        "offset": 1296,
+        "type": 4
+      },
+      {
+        "name": "m_Subdiv",
+        "offset": 1300,
+        "type": 4
+      },
+      {
+        "name": "m_nChangeCount",
+        "offset": 1304,
+        "type": 1
+      },
+      {
+        "name": "m_RopeLength",
+        "offset": 1308,
+        "type": 4
+      },
+      {
+        "name": "m_fLockedPoints",
+        "offset": 1312,
+        "type": 4
+      },
+      {
+        "name": "m_flScrollSpeed",
+        "offset": 1320,
+        "type": 4
+      }
+    ],
+    "serverRegistrationOrder": [
+      "m_Slack",
+      "m_RopeLength",
+      "m_fLockedPoints",
+      "m_nChangeCount",
+      "m_RopeFlags",
+      "m_nSegments",
+      "m_bConstrainBetweenEndpoints",
+      "m_iRopeMaterialModelIndex",
+      "m_Subdiv",
+      "m_TextureScale",
+      "m_Width",
+      "m_flScrollSpeed"
+    ],
+    "serverMeaning": "The server's own copy of the class is laid out differently from the client's - the same keys land at different offsets, e.g. m_Slack at 0x4f0 there against 0x12b0 here - so what the port acts on is the map's keys, not either build's member numbers.",
+    "datamap": {
+      "at": "0x1c0dd00",
+      "entryBytes": 104,
+      "root": "0x1c0dc28",
+      "fields": 23,
+      "builtBy": "0x9cc430",
+      "linkage": "The class's registration stores `CRopeKeyframe` as its name and calls the network table builder (0x5a5fb0 -> 0x9cbd90) and then this one (0x5a5fbd -> 0x9cc430), which records the field count and the root the entries sit inside - so the table read here is this class's, not one matched to it by offsets.",
+      "rows": [
+        {
+          "field": "m_Slack",
+          "offset": 1264,
+          "typeCode": 393217,
+          "key": "Slack"
+        },
+        {
+          "field": "m_Width",
+          "offset": 1268,
+          "typeCode": 393217,
+          "key": "Width"
+        },
+        {
+          "field": "m_TextureScale",
+          "offset": 1272,
+          "typeCode": 393217,
+          "key": "TextureScale"
+        },
+        {
+          "field": "m_nSegments",
+          "offset": 1276,
+          "typeCode": 131073,
+          "key": null
+        },
+        {
+          "field": "m_bConstrainBetweenEndpoints",
+          "offset": 1280,
+          "typeCode": 131073,
+          "key": null
+        },
+        {
+          "field": "m_strRopeMaterialModel",
+          "offset": 1288,
+          "typeCode": 131073,
+          "key": null
+        },
+        {
+          "field": "m_iRopeMaterialModelIndex",
+          "offset": 1296,
+          "typeCode": 131073,
+          "key": null
+        },
+        {
+          "field": "m_Subdiv",
+          "offset": 1300,
+          "typeCode": 393217,
+          "key": "Subdiv"
+        },
+        {
+          "field": "m_RopeLength",
+          "offset": 1308,
+          "typeCode": 131073,
+          "key": null
+        },
+        {
+          "field": "m_fLockedPoints",
+          "offset": 1312,
+          "typeCode": 131073,
+          "key": null
+        },
+        {
+          "field": "m_bCreatedFromMapFile",
+          "offset": 1316,
+          "typeCode": 131073,
+          "key": null
+        },
+        {
+          "field": "m_flScrollSpeed",
+          "offset": 1320,
+          "typeCode": 393217,
+          "key": "ScrollSpeed"
+        },
+        {
+          "field": "m_bStartPointValid",
+          "offset": 1328,
+          "typeCode": 131073,
+          "key": null
+        },
+        {
+          "field": "m_bEndPointValid",
+          "offset": 1329,
+          "typeCode": 131073,
+          "key": null
+        },
+        {
+          "field": "m_hStartPoint",
+          "offset": 1332,
+          "typeCode": 131073,
+          "key": null
+        },
+        {
+          "field": "m_hEndPoint",
+          "offset": 1336,
+          "typeCode": 131073,
+          "key": null
+        },
+        {
+          "field": "m_iStartAttachment",
+          "offset": 1340,
+          "typeCode": 131073,
+          "key": null
+        },
+        {
+          "field": "m_iEndAttachment",
+          "offset": 1342,
+          "typeCode": 131073,
+          "key": null
+        }
+      ],
+      "keyed": {
+        "Slack": "m_Slack",
+        "Width": "m_Width",
+        "TextureScale": "m_TextureScale",
+        "Subdiv": "m_Subdiv",
+        "ScrollSpeed": "m_flScrollSpeed"
+      },
+      "derived": [
+        "m_nSegments",
+        "m_bConstrainBetweenEndpoints",
+        "m_strRopeMaterialModel",
+        "m_iRopeMaterialModelIndex",
+        "m_RopeLength",
+        "m_fLockedPoints",
+        "m_bCreatedFromMapFile",
+        "m_bStartPointValid",
+        "m_bEndPointValid",
+        "m_hStartPoint",
+        "m_hEndPoint",
+        "m_iStartAttachment",
+        "m_iEndAttachment"
+      ],
+      "meaning": "This is what the map's keys land on. `Slack`, `Width`, `TextureScale` and `Subdiv` reach the fields at 0x4f0, 0x4f4, 0x4f8 and 0x514 directly - the offsets the network table states, read here from the table's own bytes - and the scroll-speed key is `ScrollSpeed`, not the `MoveSpeed` the map writes. `m_nSegments` and `m_RopeLength` carry no key at all, so a rope's segment count and length are derived rather than set, and a port that reads only the map has to derive them too. It also carries `m_bCreatedFromMapFile` and its own start/end validity flags and handles."
+    },
+    "meaning": "The client stores each of the map's rope keys in its own member and nets them; the port reads the keys off the map, so these are the members its keys become."
+  },
+  "drawing": {
+    "methods": [
+      "C_RopeKeyframe::DrawModel",
+      "CRopeManager::DrawRenderCache",
+      "C_RopeKeyframe::CalculateEndPointAttachment",
+      "CPhysicsDelegate::ApplyConstraints"
+    ],
+    "solver": "CRopePhysicsILi10EE (ten constraint passes)",
+    "materials": [
+      "cable/cable",
+      "cable/rope_shadowdepth",
+      "missing_rope_material"
+    ],
+    "materialFlags": [
+      "$no_fullbright",
+      "$alphatest",
+      "$nocull",
+      "__DepthWrite01"
+    ],
+    "serverKeys": [
+      "RopeMaterial",
+      "RopeShader",
+      "Slack",
+      "Subdiv",
+      "NextKey",
+      "MoveSpeed",
+      "Type",
+      "Dangling",
+      "Barbed",
+      "UseWind",
+      "Width",
+      "TextureScale"
+    ],
+    "serverMaterials": [
+      "cable/cable.vmt",
+      "cable/rope.vmt",
+      "cable/chain.vmt"
+    ],
+    "materialRule": "The server resolves `RopeMaterial` as written plus `.vmt`, so all 142 ropes use `cable/nuke_cable.vmt`; a rope that states none takes `RopeShader`, whose default is `cable/cable.vmt` and which picks `cable/rope.vmt` or `cable/chain.vmt` by value.",
+    "mesh": {
+      "at": "0x860fb5",
+      "vertices": "2 + sum over the rope's segments of 3 * (m_Subdiv + 1)",
+      "indices": "sum over the rope's segments of 6 * (m_Subdiv + 1)",
+      "textureAlong": "(m_Slack + m_RopeLength - 100) / m_TextureScale",
+      "segments": "m_nSegments is clamped into 2..10 where a rope is built (0x863f4c-0x863f5c); the restore path writes the same members (0x8640c9, 0x8640d4)",
+      "meaning": "The rope is drawn as a tube of three vertices per centreline point with m_Subdiv + 1 points per simulated segment, so this map's Subdiv 2 gives three vertices and two triangles per sub-segment; m_Width is what the tube is sized by, and the simulated segments themselves are between two and ten. How a rope's length is turned into that segment count is not read, nor is the field the renderer reads its point count from ([rope + 0xfc8])."
+    },
+    "physics": {
+      "gravityAt": "0x19358c0",
+      "gravity": -1293.0,
+      "setup": "The client's rope init hands `this + 0x378` two whole vectors - (-10, -10, -10) and (10, 10, 10), three floats each - through 0x8d0980, and then hands the entity itself the -1293.0 at 0x19358c0 through the virtual at [vtable + 0x528] (0x85d9fb, 0x85da03; also called from 0x86427f). An earlier note here said \"two scalars of 10\"; the listing shows a second vector, and this corrects it.",
+      "meaning": "These are the rope physics' own numbers. What the two vectors and the single float each configure has not been read - the setter they go to compares two vec3s and stores them, which says it takes two vectors and not what they mean - so no rope shape may be built from them."
+    },
+    "clientInit": {
+      "at": "0x85d930",
+      "segments": "The rope clamps its own segment count into 2..10 where it initialises, reading m_nSegments (0x1298) and writing it back (0x85d98b-0x85d9a5), so whatever the server networks is used between those bounds.",
+      "simulation": "It then initialises the simulation object at `this + 0xfb0` (0xaa9340) and hands it the two vectors through 0x8d0980.",
+      "material": "The material comes off the *model* the server resolved the map's `RopeMaterial` into: it is looked up through the interface call at 0x85d958 with the string `Other textures`, stored at `this + 0x12d8`, and the rope takes its flags from it (0x12e0). The shadow-depth material `cable/rope_shadowdepth` is looked up the same way on the path taken when that first lookup fails (0x85da38-0x85da78).",
+      "meaning": "This is the client's side of a rope: the count it clamps, the object it simulates with, and where its material actually comes from. It does not give the derivation the port needs, because the client is handed the length and the count over the network."
+    },
+    "nSegmentsProxy": {
+      "function": "0x72a820",
+      "slot": "0x1bab8c0",
+      "slotStrings": [
+        "InputFadeIn",
+        "FadeIn"
+      ],
+      "whatItIs": "Its address is patched into a `.data` slot inside a 36-byte record whose other two relocated fields point at `InputFadeIn` and `FadeIn`, so it is the handler an entity input is registered with; the value and type it reads come out of that input's own argument.",
+      "whatItIsNot": "It is not a receive proxy for the rope. The rope's own m_nSegments registration pushes a null proxy (0x9cbfdd) and the helper reads that argument as a pointer compared against a default proxy (0xabcf81, 0xabcfa8, 0xabd02b), so it cannot be that prop's proxy - the two offsets it writes are that other class's fields. Matching a raw offset across classes proves nothing, which is why the port acts on the map's keys.",
+      "expression": "25600 / (5 * n), with n clamped to at most 100",
+      "neighbours": {
+        "at": "0x72a890",
+        "slot": "0x1bab928",
+        "slotStrings": [
+          "InputFadeOut",
+          "FadeOut"
+        ]
+      },
+      "region": "The class whose input handlers these are also owns the update function at 0x72ab60, which nothing points at, so its owner cannot be read off it; the map's rope keeps its own key handling at 0x9d1850. The whole 0x72a7xx-0x72b6xx region is therefore that other class's until shown otherwise, and its use of the same offsets is not evidence about the rope in either direction.",
+      "meaning": "Recorded because it was read, and kept apart from the rope. What a rope's segment count is computed from remains unread; the only thing read about it is the client's own clamp into 2..10 where it builds a rope (0x863f4c)."
+    },
+    "derivation": {
+      "frameBounds": "Where each function begins is not guessed: the binary ships its own frame information and this probe walks it, so the functions named here are named as whole functions.",
+      "classTable": {
+        "at": "0x1a8d3e8",
+        "entries": 203,
+        "anchor": "Every entry of a virtual table is a relocation and the slot before the table points at the class's type information, whose name is a string - so the rope's table is found by name, and membership in it is what says a function is the class's own. Offsets cannot say that: another class in this binary keeps members at the same numbers."
+      },
+      "typeKey": {
+        "handledAt": "0x9d16d0",
+        "keys": [
+          "Breakable",
+          "Collide",
+          "Barbed",
+          "UseWind",
+          "Dangling",
+          "Type",
+          "RopeShader",
+          "RopeMaterial"
+        ],
+        "segments": {
+          "0": 10,
+          "1": 4,
+          "other": 2
+        },
+        "at0": "`Type 0` sets m_nSegments to 10, `Type 1` to 4, anything else to 2 - the count is derived from a key rather than stored under one, which is why the datamap gives m_nSegments no key at all.",
+        "map": "All 142 of the map's ropes write `Type 0`, so their segment count is 10; the client then uses it between 2 and 10."
+      },
+      "spawnValidation": {
+        "at": "0x9d2520",
+        "segments": [
+          2,
+          10
+        ],
+        "textureScale": [
+          0.1,
+          10.0
+        ],
+        "says": "move_rope has TextureScale less than 0.1 at (%2.2f, %2.2f, %2.2f)"
+      },
+      "length": {
+        "at": "0x9cfda0",
+        "calledFrom": "0x9d2520",
+        "rule": "m_RopeLength = trunc(|endPointPos - startPointPos|), the three-component distance between the two resolved endpoints in source units, and 0 while the end point is not valid.",
+        "withSlack": {
+          "at": "0x9d2c00",
+          "rule": "The tracked update - a virtual of the same class, which bumps m_nChangeCount - sets the same member to trunc(distance) + m_Slack."
+        },
+        "open": "Both formulas are read and both are reachable; which one a static map rope ends up with is not, so the port does not pick one. The renderer's own texture coordinate adds `m_Slack` to `m_RopeLength`, which reads as two separate parts of one length - the opposite of folding the slack into the member - and that disagreement is not resolved here."
+      },
+      "runtimeCreate": {
+        "at": "0x9cf500",
+        "calledBy": {
+          "at": "0x6ab080",
+          "class": "CRopeAnchor"
+        },
+        "length": "The vertical distance between the anchor and the entity it is attached to, or 384 when it is attached to nothing.",
+        "className": "keyframe_rope",
+        "material": "cable/cable.vmt"
+      },
+      "deadCode": {
+        "at": "0x9ce1a0",
+        "why": "A function that computes both numbers for itself - the distance and its own slack - is in no virtual table, is called from nowhere and is pointed at by no relocation in the file. It is left in the build and reached by nothing, so it is not the rule the game follows, however right it looks."
+      }
+    },
+    "convars": {
+      "r_drawropes": {
+        "default": "1",
+        "help": null
+      },
+      "r_queued_ropes": {
+        "default": "1",
+        "help": null
+      },
+      "r_rope_holiday_light_scale": {
+        "default": "0.14",
+        "help": null
+      },
+      "r_ropes_holiday_lights_type": {
+        "default": "0",
+        "help": "0 == sprites, 1 == models"
+      },
+      "r_ropetranslucent": {
+        "default": "1",
+        "help": null
+      },
+      "rope_averagelight": {
+        "default": "1",
+        "help": "Makes ropes use average of cubemap lighting instead of max intensity."
+      },
+      "rope_collide": {
+        "default": "1",
+        "help": "Collide rope with the world"
+      },
+      "rope_rendersolid": {
+        "default": "1",
+        "help": null
+      },
+      "rope_shake": {
+        "default": "0",
+        "help": null
+      },
+      "rope_smooth": {
+        "default": "1",
+        "help": "Do an antialiasing effect on ropes"
+      },
+      "rope_smooth_enlarge": {
+        "default": "1.4",
+        "help": "How much to enlarge ropes in screen space for antialiasing effect"
+      },
+      "rope_smooth_maxalpha": {
+        "default": "0.5",
+        "help": "Alpha for rope antialiasing effect"
+      },
+      "rope_smooth_maxalphawidth": {
+        "default": "1.75",
+        "help": null
+      },
+      "rope_smooth_minalpha": {
+        "default": "0.2",
+        "help": "Alpha for rope antialiasing effect"
+      },
+      "rope_smooth_minwidth": {
+        "default": "0.3",
+        "help": "When using smoothing, this is the min screenspace width it lets a rope shrink to"
+      },
+      "rope_solid_maxalpha": {
+        "default": "1",
+        "help": null
+      },
+      "rope_solid_maxwidth": {
+        "default": "1",
+        "help": null
+      },
+      "rope_solid_minalpha": {
+        "default": "0.0",
+        "help": null
+      },
+      "rope_solid_minwidth": {
+        "default": "0.3",
+        "help": null
+      },
+      "rope_subdiv": {
+        "default": "2",
+        "help": "Rope subdivision amount"
+      },
+      "rope_wind_dist": {
+        "default": "1000",
+        "help": "Don't use CPU applying small wind gusts to ropes when they're past this distance."
+      }
+    }
+  },
+  "reading": "Dust2 hangs 142 ropes in chains of `keyframe_rope` segments with `move_rope` movers, all of them the same `cable/nuke_cable` material, each with its own width and slack. The map's own links say what the network is: 120 of them name a next key and hang from their own origin to that rope's origin, 22 end a chain, and following the 33 movers reaches all 142 in chains whose hops are 7.7 to 26.5 m. The client draws them with `CRopeKeyframe::DrawModel` through `CRopeManager`, simulates them with a ten-pass `CRopePhysics` whose own numbers are in this report, and builds their material chain from `cable/cable` plus `cable/rope_shadowdepth`.",
+  "boundary": "The keys, the links and the two numbers a rope is made of are read; the sag they are hung on is not. The map's `Type 0` gives every one of the 142 ropes 10 simulated points, and the length is the three-component distance between its two resolved endpoints truncated to whole units - either on its own (the calculation the spawn calls, 0x9cfda0) or with `m_Slack` added (the tracked update, 0x9d2c00) - and which of those two a static map rope ends up with is not read. Whether `Slack` is a length or a percentage of one is likewise not read; it is added to the distance, which is all that is known. The tube the renderer builds is in this report, but not the offsets its vertices sit on around the centre line (only how many there are), and not the solver: the ten constraint passes and the -1293.0 are named without being attributed. No renderer may assume a rope shape yet."
+}

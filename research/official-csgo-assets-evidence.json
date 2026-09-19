@@ -1,0 +1,80 @@
+{
+  "observed_at_utc": "2026-09-08T14:43:51.271627+00:00",
+  "method": "Unauthenticated HTTPS GET public Steam Store API; HEAD official Steam installer URLs. No game content downloaded by research agent.",
+  "apps": [
+    {
+      "url": "https://store.steampowered.com/api/appdetails?appids=730&l=english",
+      "success": true,
+      "data": {
+        "steam_appid": 730,
+        "name": "Counter-Strike 2",
+        "type": "game",
+        "is_free": true,
+        "developers": [
+          "Valve"
+        ],
+        "publishers": [
+          "Valve"
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": true
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "21 Aug, 2012"
+        },
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows® 10<br></li><li><strong>Processor:</strong> 4 hardware CPU threads - Intel® Core™ i5 750 or higher<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Video card must be 1 GB or more and should be a DirectX 11-compatible with support for Shader Model 5.0<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 85 GB available space</li></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 20.04<br></li><li><strong>Processor:</strong> 4 hardware CPU threads - Intel® Core™ i5 750 or higher<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> AMD GCN+ or NVIDIA Kepler+ with up-to-date Vulkan drivers.  Support for VK_EXT_graphics_pipeline_library highly recommended.<br></li><li><strong>Storage:</strong> 85 GB available space<br></li><li><strong>Sound Card:</strong> Highly recommended</li></ul>"
+        }
+      }
+    },
+    {
+      "url": "https://store.steampowered.com/api/appdetails?appids=4465480&l=english",
+      "success": true,
+      "data": {
+        "steam_appid": 4465480,
+        "name": "Counter-Strike:Global Offensive",
+        "type": "game",
+        "is_free": true,
+        "developers": [
+          "Valve"
+        ],
+        "publishers": [
+          "Valve"
+        ],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": true
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 21, 2012"
+        },
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows® 7/Vista/XP<br></li><li><strong>Processor:</strong> Intel® Core™ 2 Duo E6600 or AMD Phenom™ X3 8750 processor or better<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Video card must be 256 MB or more and should be a DirectX 9-compatible with support for Pixel Shader 3.0<br></li><li><strong>DirectX:</strong> Version 9.0c<br></li><li><strong>Storage:</strong> 15 GB available space</li></ul>"
+        },
+        "linux_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 12.04<br></li><li><strong>Processor:</strong> 64-bit Dual core from Intel or AMD at 2.8 GHz<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600 (Graphic Drivers: NVIDIA 310, AMD 12.11), OpenGL 2.1<br></li><li><strong>Storage:</strong> 15 GB available space<br></li><li><strong>Sound Card:</strong> OpenAL Compatible Sound Card</li></ul>"
+        }
+      }
+    }
+  ],
+  "steamcmd_head": {
+    "urls": [
+      "https://media.steampowered.com/client/installer/steamcmd_osx.tar.gz",
+      "https://steamcdn-a.akamaihd.net/client/installer/steamcmd_osx.tar.gz"
+    ],
+    "status": 200,
+    "content_length": 2523751,
+    "last_modified": "Thu, 02 Apr 2020 20:21:43 GMT",
+    "etag": "\"5e864957-268267\"",
+    "body_downloaded": false
+  },
+  "third_party_metadata_note": "SteamDB numbers quoted in report are mirrors of app/depot metadata, not Valve API receipts or successful install evidence."
+}

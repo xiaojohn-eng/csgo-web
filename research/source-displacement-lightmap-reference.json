@@ -1,0 +1,37 @@
+[
+  {
+    "source": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/public/disp_common.cpp",
+    "file": ".reference-assets/shader-reference/disp_common.cpp",
+    "sha256": "a509d70dd259c3b9ddfbf7c6d762c7ba421843ff1a540cd48e580334fb4b7a79"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/public/disp_common.h",
+    "file": ".reference-assets/shader-reference/disp_common.h",
+    "sha256": "8a00915cd760be014470b1d69c282f69cff76a52cf2c9cb8490c3c837729c81c"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/utils/vbsp/disp_vbsp.cpp",
+    "file": ".reference-assets/shader-reference/disp_vbsp.cpp",
+    "sha256": "c8dbcbabb0f719f60b5b8a23d66dcdc7c4a88072bb4305f168f2701aaec69c25"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/utils/vrad/disp_vrad.cpp",
+    "file": ".reference-assets/shader-reference/disp_vrad.cpp",
+    "sha256": "990555ed3adf6098a854751a31e875a60c9902c972d683ae3d87f1c65482c36a"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/utils/vrad/vraddisps.cpp",
+    "file": ".reference-assets/shader-reference/vraddisps.cpp",
+    "sha256": "cf6cecc7b370d5ba09882a49a19f49338e4f59cb3772f74b22f7aca1795368f6"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/public/builddisp.cpp",
+    "file": ".reference-assets/shader-reference/builddisp.cpp",
+    "sha256": "68f3b4f2ea878a54d06c5aaf65e03e07a97b02bf9503a53723b67444c2148b7d"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/ValveSoftware/source-sdk-2013/b8cfb12c0e083a2ef5b2f9f9b50f3902fa034474/src/public/builddisp.h",
+    "file": ".reference-assets/shader-reference/builddisp.h",
+    "sha256": "926428efd1f8edaf56c3e84ecddca3a3c9cc2af200201451ce666c83aa12c397"
+  }
+]

@@ -1,0 +1,569 @@
+[
+  {
+    "format": "TrueType",
+    "tables": [
+      "FFTM",
+      "GDEF",
+      "GPOS",
+      "GSUB",
+      "OS/2",
+      "cmap",
+      "gasp",
+      "glyf",
+      "head",
+      "hhea",
+      "hmtx",
+      "loca",
+      "maxp",
+      "name",
+      "post"
+    ],
+    "glyphs": 381,
+    "names": [
+      {
+        "id": 0,
+        "platform": 1,
+        "encoding": 0,
+        "language": 0,
+        "value": "Copyright (c) 2008 by Process Type Foundry. All rights reserved."
+      },
+      {
+        "id": 1,
+        "platform": 1,
+        "encoding": 0,
+        "language": 0,
+        "value": "Stratum2 Regular"
+      },
+      {
+        "id": 2,
+        "platform": 1,
+        "encoding": 0,
+        "language": 0,
+        "value": "Regular"
+      },
+      {
+        "id": 4,
+        "platform": 1,
+        "encoding": 0,
+        "language": 0,
+        "value": "Stratum2-Regular"
+      },
+      {
+        "id": 6,
+        "platform": 1,
+        "encoding": 0,
+        "language": 0,
+        "value": "Stratum2-Regular"
+      },
+      {
+        "id": 14,
+        "platform": 1,
+        "encoding": 0,
+        "language": 0,
+        "value": "http://www.processtypefoundry.com/help/ptflicense.html"
+      },
+      {
+        "id": 0,
+        "platform": 3,
+        "encoding": 1,
+        "language": 1033,
+        "value": "Copyright (c) 2008 by Process Type Foundry. All rights reserved."
+      },
+      {
+        "id": 1,
+        "platform": 3,
+        "encoding": 1,
+        "language": 1033,
+        "value": "Stratum2 Regular"
+      },
+      {
+        "id": 2,
+        "platform": 3,
+        "encoding": 1,
+        "language": 1033,
+        "value": "Regular"
+      },
+      {
+        "id": 4,
+        "platform": 3,
+        "encoding": 1,
+        "language": 1033,
+        "value": "Stratum2-Regular"
+      },
+      {
+        "id": 6,
+        "platform": 3,
+        "encoding": 1,
+        "language": 1033,
+        "value": "Stratum2-Regular"
+      },
+      {
+        "id": 14,
+        "platform": 3,
+        "encoding": 1,
+        "language": 1033,
+        "value": "http://www.processtypefoundry.com/help/ptflicense.html"
+      }
+    ],
+    "tableChecksums": true,
+    "wholeFontChecksum": "b1b0afba",
+    "source": ".reference-assets/csgo-legacy/csgo/panorama/fonts/stratum2regular.vfont",
+    "output": ".reference-assets/source-ui/fonts/stratum2regular.ttf",
+    "sourceSha256": "680225e401dbbe06458ae3edbd346836026cf736c0271d247402d2f33e6b7643",
+    "outputSha256": "240706f1143f65e7b419aa8efdb6d7a19631e86d1b051769fac4982f24c6959f",
+    "bytes": 59260
+  },
+  {
+    "format": "TrueType",
+    "tables": [
+      "FFTM",
+      "GDEF",
+      "GPOS",
+      "GSUB",
+      "OS/2",
+      "cmap",
+      "gasp",
+      "glyf",
+      "head",
+      "hhea",
+      "hmtx",
+      "loca",
+      "maxp",
+      "name",
+      "post"
+    ],
+    "glyphs": 381,
+    "names": [
+      {
+        "id": 0,
+        "platform": 1,
+        "encoding": 0,
+        "language": 0,
+        "value": "Copyright (c) 2008 by Process Type Foundry. All rights reserved."
+      },
+      {
+        "id": 1,
+        "platform": 1,
+        "encoding": 0,
+        "language": 0,
+        "value": "Stratum2 Medium"
+      },
+      {
+        "id": 2,
+        "platform": 1,
+        "encoding": 0,
+        "language": 0,
+        "value": "Regular"
+      },
+      {
+        "id": 4,
+        "platform": 1,
+        "encoding": 0,
+        "language": 0,
+        "value": "Stratum2-Medium"
+      },
+      {
+        "id": 6,
+        "platform": 1,
+        "encoding": 0,
+        "language": 0,
+        "value": "Stratum2-Medium"
+      },
+      {
+        "id": 14,
+        "platform": 1,
+        "encoding": 0,
+        "language": 0,
+        "value": "http://www.processtypefoundry.com/help/ptflicense.html"
+      },
+      {
+        "id": 0,
+        "platform": 3,
+        "encoding": 1,
+        "language": 1033,
+        "value": "Copyright (c) 2008 by Process Type Foundry. All rights reserved."
+      },
+      {
+        "id": 1,
+        "platform": 3,
+        "encoding": 1,
+        "language": 1033,
+        "value": "Stratum2 Medium"
+      },
+      {
+        "id": 2,
+        "platform": 3,
+        "encoding": 1,
+        "language": 1033,
+        "value": "Regular"
+      },
+      {
+        "id": 4,
+        "platform": 3,
+        "encoding": 1,
+        "language": 1033,
+        "value": "Stratum2-Medium"
+      },
+      {
+        "id": 6,
+        "platform": 3,
+        "encoding": 1,
+        "language": 1033,
+        "value": "Stratum2-Medium"
+      },
+      {
+        "id": 14,
+        "platform": 3,
+        "encoding": 1,
+        "language": 1033,
+        "value": "http://www.processtypefoundry.com/help/ptflicense.html"
+      }
+    ],
+    "tableChecksums": true,
+    "wholeFontChecksum": "b1b0afba",
+    "source": ".reference-assets/csgo-legacy/csgo/panorama/fonts/stratum2medium.vfont",
+    "output": ".reference-assets/source-ui/fonts/stratum2medium.ttf",
+    "sourceSha256": "18fd259ac6efced57ada9603f0a125c998f5abd41c66523534fe3f5e16d3a76f",
+    "outputSha256": "188c7c9ff12e183ddeabe5d95699e38d0329d021c1cbd811bc2345a88ee037aa",
+    "bytes": 57776
+  },
+  {
+    "format": "TrueType",
+    "tables": [
+      "FFTM",
+      "GDEF",
+      "GPOS",
+      "GSUB",
+      "OS/2",
+      "cmap",
+      "gasp",
+      "glyf",
+      "head",
+      "hhea",
+      "hmtx",
+      "loca",
+      "maxp",
+      "name",
+      "post"
+    ],
+    "glyphs": 381,
+    "names": [
+      {
+        "id": 0,
+        "platform": 1,
+        "encoding": 0,
+        "language": 0,
+        "value": "Copyright (c) 2008 by Process Type Foundry. All rights reserved."
+      },
+      {
+        "id": 1,
+        "platform": 1,
+        "encoding": 0,
+        "language": 0,
+        "value": "Stratum2 Bold"
+      },
+      {
+        "id": 2,
+        "platform": 1,
+        "encoding": 0,
+        "language": 0,
+        "value": "Regular"
+      },
+      {
+        "id": 4,
+        "platform": 1,
+        "encoding": 0,
+        "language": 0,
+        "value": "Stratum2-Bold"
+      },
+      {
+        "id": 6,
+        "platform": 1,
+        "encoding": 0,
+        "language": 0,
+        "value": "Stratum2-Bold"
+      },
+      {
+        "id": 14,
+        "platform": 1,
+        "encoding": 0,
+        "language": 0,
+        "value": "http://www.processtypefoundry.com/help/ptflicense.html"
+      },
+      {
+        "id": 0,
+        "platform": 3,
+        "encoding": 1,
+        "language": 1033,
+        "value": "Copyright (c) 2008 by Process Type Foundry. All rights reserved."
+      },
+      {
+        "id": 1,
+        "platform": 3,
+        "encoding": 1,
+        "language": 1033,
+        "value": "Stratum2 Bold"
+      },
+      {
+        "id": 2,
+        "platform": 3,
+        "encoding": 1,
+        "language": 1033,
+        "value": "Regular"
+      },
+      {
+        "id": 4,
+        "platform": 3,
+        "encoding": 1,
+        "language": 1033,
+        "value": "Stratum2-Bold"
+      },
+      {
+        "id": 6,
+        "platform": 3,
+        "encoding": 1,
+        "language": 1033,
+        "value": "Stratum2-Bold"
+      },
+      {
+        "id": 14,
+        "platform": 3,
+        "encoding": 1,
+        "language": 1033,
+        "value": "http://www.processtypefoundry.com/help/ptflicense.html"
+      }
+    ],
+    "tableChecksums": true,
+    "wholeFontChecksum": "b1b0afba",
+    "source": ".reference-assets/csgo-legacy/csgo/panorama/fonts/stratum2bold.vfont",
+    "output": ".reference-assets/source-ui/fonts/stratum2bold.ttf",
+    "sourceSha256": "e1e25738a39bc6f9631ca7ed081f1354fa9bf955b00ca101596150890894e9d7",
+    "outputSha256": "09517b9856b0b03255964e95b7557ef36e568e641ae45f8dde7f86dd5be8a7f0",
+    "bytes": 56692
+  },
+  {
+    "format": "TrueType",
+    "tables": [
+      "OS/2",
+      "cmap",
+      "gasp",
+      "glyf",
+      "head",
+      "hhea",
+      "hmtx",
+      "loca",
+      "maxp",
+      "name",
+      "post"
+    ],
+    "glyphs": 13,
+    "names": [
+      {
+        "id": 0,
+        "platform": 1,
+        "encoding": 0,
+        "language": 0,
+        "value": "Copyright (c) 2008 by Process Type Foundry. All rights reserved."
+      },
+      {
+        "id": 1,
+        "platform": 1,
+        "encoding": 0,
+        "language": 0,
+        "value": "Stratum2 Bold Monodigit"
+      },
+      {
+        "id": 2,
+        "platform": 1,
+        "encoding": 0,
+        "language": 0,
+        "value": "Regular"
+      },
+      {
+        "id": 4,
+        "platform": 1,
+        "encoding": 0,
+        "language": 0,
+        "value": "Stratum2 Monodigit Bold"
+      },
+      {
+        "id": 6,
+        "platform": 1,
+        "encoding": 0,
+        "language": 0,
+        "value": "Stratum2Monodigit-Bold"
+      },
+      {
+        "id": 0,
+        "platform": 3,
+        "encoding": 1,
+        "language": 1033,
+        "value": "Copyright (c) 2008 by Process Type Foundry. All rights reserved."
+      },
+      {
+        "id": 1,
+        "platform": 3,
+        "encoding": 1,
+        "language": 1033,
+        "value": "Stratum2 Bold Monodigit"
+      },
+      {
+        "id": 2,
+        "platform": 3,
+        "encoding": 1,
+        "language": 1033,
+        "value": "Regular"
+      },
+      {
+        "id": 4,
+        "platform": 3,
+        "encoding": 1,
+        "language": 1033,
+        "value": "Stratum2 Monodigit Bold"
+      },
+      {
+        "id": 6,
+        "platform": 3,
+        "encoding": 1,
+        "language": 1033,
+        "value": "Stratum2Monodigit-Bold"
+      }
+    ],
+    "tableChecksums": true,
+    "wholeFontChecksum": "b1b0afba",
+    "source": ".reference-assets/csgo-legacy/csgo/panorama/fonts/stratum2bold_monodigit.vfont",
+    "output": ".reference-assets/source-ui/fonts/stratum2bold_monodigit.ttf",
+    "sourceSha256": "3a805170e579080853fdedecc0b3b129dc39cf7137ac5a5066744e72b571a5e7",
+    "outputSha256": "a261f7a5b6fde8e6639aea3a6d42f6b710566b90b38e27ba0a0022fcb9f29e6f",
+    "bytes": 3184
+  },
+  {
+    "format": "OpenType CFF",
+    "tables": [
+      "BASE",
+      "CFF ",
+      "DSIG",
+      "GPOS",
+      "GSUB",
+      "OS/2",
+      "VORG",
+      "cmap",
+      "head",
+      "hhea",
+      "hmtx",
+      "maxp",
+      "name",
+      "post",
+      "vhea",
+      "vmtx"
+    ],
+    "glyphs": 30907,
+    "names": [
+      {
+        "id": 0,
+        "platform": 1,
+        "encoding": 0,
+        "language": 0,
+        "value": "Copyright © 2014, 2015 Adobe Systems Incorporated (http://www.adobe.com/)."
+      },
+      {
+        "id": 1,
+        "platform": 1,
+        "encoding": 0,
+        "language": 0,
+        "value": "Noto Sans SC Regular"
+      },
+      {
+        "id": 2,
+        "platform": 1,
+        "encoding": 0,
+        "language": 0,
+        "value": "Regular"
+      },
+      {
+        "id": 4,
+        "platform": 1,
+        "encoding": 0,
+        "language": 0,
+        "value": "Noto Sans SC Regular"
+      },
+      {
+        "id": 6,
+        "platform": 1,
+        "encoding": 0,
+        "language": 0,
+        "value": "NotoSansSC-Regular"
+      },
+      {
+        "id": 13,
+        "platform": 1,
+        "encoding": 0,
+        "language": 0,
+        "value": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+      },
+      {
+        "id": 14,
+        "platform": 1,
+        "encoding": 0,
+        "language": 0,
+        "value": "http://scripts.sil.org/OFL"
+      },
+      {
+        "id": 0,
+        "platform": 3,
+        "encoding": 1,
+        "language": 1033,
+        "value": "Copyright © 2014, 2015 Adobe Systems Incorporated (http://www.adobe.com/)."
+      },
+      {
+        "id": 1,
+        "platform": 3,
+        "encoding": 1,
+        "language": 1033,
+        "value": "Noto Sans SC Regular"
+      },
+      {
+        "id": 2,
+        "platform": 3,
+        "encoding": 1,
+        "language": 1033,
+        "value": "Regular"
+      },
+      {
+        "id": 4,
+        "platform": 3,
+        "encoding": 1,
+        "language": 1033,
+        "value": "Noto Sans SC Regular"
+      },
+      {
+        "id": 6,
+        "platform": 3,
+        "encoding": 1,
+        "language": 1033,
+        "value": "NotoSansSC-Regular"
+      },
+      {
+        "id": 13,
+        "platform": 3,
+        "encoding": 1,
+        "language": 1033,
+        "value": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+      },
+      {
+        "id": 14,
+        "platform": 3,
+        "encoding": 1,
+        "language": 1033,
+        "value": "http://scripts.sil.org/OFL"
+      }
+    ],
+    "tableChecksums": true,
+    "wholeFontChecksum": "b1b0afba",
+    "source": ".reference-assets/csgo-legacy/csgo/panorama/fonts/notosanssc-regular.vfont",
+    "output": ".reference-assets/source-ui/fonts/notosanssc-regular.otf",
+    "sourceSha256": "35f0fe0925252cba01b7f32f7ed6d812c582cb452af8f3606108048266a6162f",
+    "outputSha256": "8c37936063c7c8ab747a939e13833894f9edc80dd41b98874ca8f3938a33c32f",
+    "bytes": 8368828
+  }
+]

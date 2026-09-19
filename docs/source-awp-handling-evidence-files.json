@@ -1,0 +1,186 @@
+{
+  "schema": "source-awp-handling-evidence-v1",
+  "base": "ad73df1359a313872f8d2332d9bedf99ed7fc706",
+  "fileCount": 25,
+  "totalBytes": 4282101,
+  "files": [
+    {
+      "path": "output/source-awp-handling-discovery.json",
+      "bytes": 4461,
+      "sha256": "65d83296cd6ba4d3fdc41a9ce3a3b9e422339c9bac97089ade634440cdec80a4"
+    },
+    {
+      "path": "output/awp-handling-tests.log",
+      "bytes": 233,
+      "sha256": "f02215b8da3acbf900caa2fcf1225e0f62dec8478c1ef2309dbba80a052317c2"
+    },
+    {
+      "path": "output/awp-handling-typecheck.log",
+      "bytes": 48,
+      "sha256": "02ec7138020cd0446002278042bb2b67990c197fc1ccd4ed0f06a42830a704c2"
+    },
+    {
+      "path": "output/tests/source-awp-handling-native.json",
+      "bytes": 1126253,
+      "sha256": "612af3e6ffcfdc472db7adc946b709648024a10bdc990c75e6ea32ec26efe5af"
+    },
+    {
+      "path": "output/tests/source-awp-spread-native.json",
+      "bytes": 491839,
+      "sha256": "7c9841c0612c01512eb20067c88023024011bd1ebc040ea30f888be012a4b296"
+    },
+    {
+      "path": "output/tests/source-awp-landing-native.json",
+      "bytes": 25582,
+      "sha256": "6839cbc6b9b7877f468f79e5ab59a3a4796219825bcba771b1ba337537722eae"
+    },
+    {
+      "path": "output/tests/source-awp-damage-native.json",
+      "bytes": 301447,
+      "sha256": "479bcf51d1774a4982c9e1cedb973e79b3153d9f0c198cd8029370004450527a"
+    },
+    {
+      "path": "output/tests/source-awp-runtime-handling-native.json",
+      "bytes": 2251791,
+      "sha256": "49660fed4458f351e8b9fa694b341f1c1e99b18f6fa637b900644085a4e7b583"
+    },
+    {
+      "path": "output/tests/source-awp-damage-validation.json",
+      "bytes": 181,
+      "sha256": "aa62edeecdd34e995715bc801efd13939253bd0b0c25a44072e2e90a0e59f9de"
+    },
+    {
+      "path": "output/source-awp-handling-712520.asm",
+      "bytes": 4900,
+      "sha256": "e6e59f069e9726e2b2e6c30b263a112993b1111b7a57ed1a1330bbdc1a07cbbc"
+    },
+    {
+      "path": "output/source-awp-handling-ba6f20.asm",
+      "bytes": 12609,
+      "sha256": "c0c2a65d5698ed5cd9dad5f29aa432a1ffbe2d07e9b1c680833a2756838625ff"
+    },
+    {
+      "path": "output/source-awp-handling-ba9e80.asm",
+      "bytes": 680,
+      "sha256": "a0d679b1f9d1c12f2fec841f8340befd5fc31b7c3b9dbb29353e6168035837aa"
+    },
+    {
+      "path": "output/source-awp-handling-c70850.asm",
+      "bytes": 4468,
+      "sha256": "8b37f7de567e6bd9d38e6f3dfed9ac29a01a19f0d20c50f28b44698e368a3e9e"
+    },
+    {
+      "path": "output/source-awp-handling-ca30e0.asm",
+      "bytes": 1996,
+      "sha256": "afbf6df8974cdf0b84f64030a44fb494319b38d0c756db3fde291befbf33a120"
+    },
+    {
+      "path": "output/source-awp-handling-d34540.asm",
+      "bytes": 634,
+      "sha256": "9f0a9bdd5215e50fd0338676e6f77346ec97d29ae10236c75a15003a77d9146d"
+    },
+    {
+      "path": "output/source-awp-handling-d3ed90.asm",
+      "bytes": 3775,
+      "sha256": "de09d7b3cbc1af3e4a9328167c526de8a5f9a2870809b718098fece3569f39c8"
+    },
+    {
+      "path": "output/source-awp-handling-d3ff60.asm",
+      "bytes": 11988,
+      "sha256": "30b48825c224ded0a3478c35b059a95c8143146625fd6d7bdb901baf2794adde"
+    },
+    {
+      "path": "output/source-awp-handling-d40580.asm",
+      "bytes": 2366,
+      "sha256": "4431028cf3af708e18f277eefb2d985771c7b62bbd7cc418a656e0f9fabbb8a0"
+    },
+    {
+      "path": "output/source-awp-handling-d41e70.asm",
+      "bytes": 3901,
+      "sha256": "712b6576f2c7cbf66c8b472d4efe5fa7a182fa638bfb875e3cc6ba3bcfc6dba4"
+    },
+    {
+      "path": "output/source-awp-handling-d42060.asm",
+      "bytes": 7843,
+      "sha256": "a72317b128c5a8cef28c6b9a9752cf1e9a1bb78ea85c0e5f72c28c7060b53e57"
+    },
+    {
+      "path": "output/source-awp-handling-d42490.asm",
+      "bytes": 4725,
+      "sha256": "deabfa53c6a6e741e73b4d0b5e9bda5e1bb3b87f889f53047912d859890ae14d"
+    },
+    {
+      "path": "output/source-awp-handling-d44d10.asm",
+      "bytes": 6936,
+      "sha256": "f067002937676220645baffcb517c704ee40f5c1af8e0e4d2607bb5fa6baa988"
+    },
+    {
+      "path": "output/source-awp-handling-d47710.asm",
+      "bytes": 862,
+      "sha256": "a03fe8554f4f1d3d2d51a2ab9caa7bbe94455b963151ec686ba1689abbfbbacf"
+    },
+    {
+      "path": "output/source-awp-handling-d4b1f0.asm",
+      "bytes": 12192,
+      "sha256": "e735ea5b87d6a83708a64aa7459228dcff215922d9311996197cb2cb73a66238"
+    },
+    {
+      "path": "output/source-awp-handling-d4e890.asm",
+      "bytes": 391,
+      "sha256": "220034b1be2f68215bda92eec713a71af8dd6604a389c3d8f42d2c135ed785d1"
+    }
+  ],
+  "existingDependencies": [
+    {
+      "path": "output/tests/source-awp-runtime-native.json",
+      "bytes": 10104149,
+      "sha256": "aae4f509f7e721e8e9eebdda37cb83f0f7b35a7bba002a5ff1ff456257cd9077"
+    },
+    {
+      "path": "output/source-hitbox-fdes.json",
+      "bytes": 959892,
+      "sha256": "7ac080c3b0255a3619bb38271125769fb987d2006fd78d9c9c8e04f1fb9e7705"
+    },
+    {
+      "path": "research/source-items-catalog.json",
+      "bytes": 5338066,
+      "sha256": "52d5aeb92982f2890942c692362afbee3dd722cdca7d8fbec34593f2d60bc294"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/inventory.json",
+      "bytes": 252633,
+      "sha256": "0cd9588e26391b6938ec354b9a6c4c04d675d5c12de50adee9113f173a380ead"
+    },
+    {
+      "path": "scripts/probe-source-accuracy.py",
+      "bytes": 16875,
+      "sha256": "71bc1d48f0efd360c1088587bbeb4683e4941ea6233ccad5347cceeaa6e9daa2"
+    },
+    {
+      "path": "scripts/probe-source-recoil.py",
+      "bytes": 4871,
+      "sha256": "39c0d9413cd38ab4d0f28e27883a378468461c4d187c32311c3293568cca5781"
+    },
+    {
+      "path": "scripts/probe-source-spread.py",
+      "bytes": 6511,
+      "sha256": "218bda072b73ea901cb132c45ae7caa21ece838c01300b225b8d25c5f774d523"
+    },
+    {
+      "path": "scripts/probe-source-damage.py",
+      "bytes": 10510,
+      "sha256": "a34f4db621fd1aa098ab5410515a83965fc559a34b3bb83ec298d39e8f820ca8"
+    },
+    {
+      "path": "scripts/probe-source-landing.py",
+      "bytes": 6832,
+      "sha256": "12e50af1b47d80b4b6c186dfde1a831ac5602e7f7402bf056da2dd4f90c53172"
+    },
+    {
+      "path": "scripts/inspect-source-glock-command.py",
+      "bytes": 2633,
+      "sha256": "ecb4eecfb2e05e987bc0dcc52d99ea9ee645e80b0dcce1b1c62dc46bc45f8c06"
+    }
+  ],
+  "sourceServerSha256": "7de235c31b2d645c5106cbd7358da3f3ac7964e87f870c4fe6ea31d93a714386"
+}

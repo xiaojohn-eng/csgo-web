@@ -1,0 +1,27 @@
+[
+  {
+    "path": "graph.json",
+    "bytes": 90770,
+    "sha256": "ce97439d2cee9aebd186a13925a75498f254dad6a7fb3dd634d401c19418187b"
+  },
+  {
+    "path": "native-defaults.json",
+    "bytes": 210786,
+    "sha256": "8f741bc4078d3943b5a55990dd05e1dbbbd2cc0212c3fc243585f1ad0bda4b62"
+  },
+  {
+    "path": "sheets/fire_particle_4.bin",
+    "bytes": 5528,
+    "sha256": "e1d2ec27966a617c959f2b6d4638fd1db764b936410e7ff27fb23b6d236f23fd"
+  },
+  {
+    "path": "textures/fire_particle_4-frame-0.png",
+    "bytes": 179982,
+    "sha256": "cd2ca41707ad1e8ac2fcee2c0d4e17e7aa0c75d7d4f1f7f1614839dd4a07068a"
+  },
+  {
+    "path": "textures/muzzleflash4-frame-0.png",
+    "bytes": 36873,
+    "sha256": "53b8a4a308863b46d8236dccc63ae7c218df2144e5ad69bd7db146defa577476"
+  }
+]

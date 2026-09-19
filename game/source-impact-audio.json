@@ -1,0 +1,1330 @@
+[
+  {
+    "key": "source_impact_carpet_bulletimpact_1",
+    "event": "Carpet.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/surfaces/sand_impact_bullet1.wav",
+    "sha256": "1eedc657bdf5b9da3ec3c7cd087e6381294a861656e4c8b77c1853f8e4acceb0",
+    "bytes": 102580,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/surfaces/sand_impact_bullet1.wav"
+  },
+  {
+    "key": "source_impact_carpet_bulletimpact_2",
+    "event": "Carpet.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/surfaces/sand_impact_bullet2.wav",
+    "sha256": "7cc1d921383b81835c7b01a8ba39a4ad2823b68918a2a93c926897ff3ccb21b5",
+    "bytes": 113128,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/surfaces/sand_impact_bullet2.wav"
+  },
+  {
+    "key": "source_impact_carpet_bulletimpact_3",
+    "event": "Carpet.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/surfaces/sand_impact_bullet3.wav",
+    "sha256": "fbf9025f67ca4c32dcc325e549a76e7b5d068ab1f9b7db2a34dc4e62d4261897",
+    "bytes": 87742,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/surfaces/sand_impact_bullet3.wav"
+  },
+  {
+    "key": "source_impact_carpet_bulletimpact_4",
+    "event": "Carpet.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/surfaces/sand_impact_bullet4.wav",
+    "sha256": "2ab06e35b499b442e6c3bc6e07aa08bdf39aa98f0e79fc0e3cf5963fa63803c3",
+    "bytes": 69836,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/surfaces/sand_impact_bullet4.wav"
+  },
+  {
+    "key": "source_impact_chainlink_bulletimpact_1",
+    "event": "ChainLink.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/metal/metal_chainlink_impact_hard2.wav",
+    "sha256": "208b35c76de452ec4bbd0f841fc0934640282b15c5e2e272fb39514b93b7d136",
+    "bytes": 94138,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/metal/metal_chainlink_impact_hard2.wav"
+  },
+  {
+    "key": "source_impact_chainlink_bulletimpact_2",
+    "event": "ChainLink.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/metal/metal_chainlink_impact_hard3.wav",
+    "sha256": "930fa6f189a4f10398b9dec4af8808336bf9bb6fd4b4a21aa86c88f6a1e33cc4",
+    "bytes": 97356,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/metal/metal_chainlink_impact_hard3.wav"
+  },
+  {
+    "key": "source_impact_chainlink_bulletimpact_3",
+    "event": "ChainLink.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/player/footsteps/chainlink1.wav",
+    "sha256": "27a60f59f83829a02977a3ed97e3fc249c00808133fa57a6e44c541b3ba66dca",
+    "bytes": 67944,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/player/footsteps/chainlink1.wav"
+  },
+  {
+    "key": "source_impact_chainlink_bulletimpact_4",
+    "event": "ChainLink.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/player/footsteps/chainlink3.wav",
+    "sha256": "e4328f77ac3be6d6c82289cf48c154530bbab1ce788793a90282a4e517c789e0",
+    "bytes": 75086,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/player/footsteps/chainlink3.wav"
+  },
+  {
+    "key": "source_impact_concrete_bulletimpact_1",
+    "event": "Concrete.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/concrete/concrete_impact_bullet1.wav",
+    "sha256": "68af2ab7349cb73acedce62e8e7e896b6227e491e5edf1d1fed90f93aad82b63",
+    "bytes": 67932,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/concrete/concrete_impact_bullet1.wav"
+  },
+  {
+    "key": "source_impact_concrete_bulletimpact_2",
+    "event": "Concrete.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/concrete/concrete_impact_bullet2.wav",
+    "sha256": "2a9982eea497ef79680bfb454b1696fc2cc9f4e52a08c4069efdcacf95dd3b3b",
+    "bytes": 144042,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/concrete/concrete_impact_bullet2.wav"
+  },
+  {
+    "key": "source_impact_concrete_bulletimpact_3",
+    "event": "Concrete.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/concrete/concrete_impact_bullet3.wav",
+    "sha256": "71e2fca5047606dc02bb48cdea1fbcf249cfd80e348f9802a8827b7f1949816b",
+    "bytes": 149326,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/concrete/concrete_impact_bullet3.wav"
+  },
+  {
+    "key": "source_impact_concrete_bulletimpact_4",
+    "event": "Concrete.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/concrete/concrete_impact_bullet4.wav",
+    "sha256": "b2f6f85b8e1aa03d1b7b766915cb04e46e44953eec5cff14a556243f77380713",
+    "bytes": 113750,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/concrete/concrete_impact_bullet4.wav"
+  },
+  {
+    "key": "source_impact_default_bulletimpact_1",
+    "event": "Default.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/surfaces/default_impact_bullet1.wav",
+    "sha256": "81957045970adec9bb91db902d6068ee42a5842da4ba4d085f7c1509cdce3d3e",
+    "bytes": 23704,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.5,
+      0.5
+    ],
+    "source": "sound/physics/surfaces/default_impact_bullet1.wav"
+  },
+  {
+    "key": "source_impact_default_bulletimpact_2",
+    "event": "Default.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/surfaces/default_impact_bullet2.wav",
+    "sha256": "d7bef9908a510c6752d10ce9edf8aed94d2c7a38a4b555a535d4399682b50b53",
+    "bytes": 23704,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.5,
+      0.5
+    ],
+    "source": "sound/physics/surfaces/default_impact_bullet2.wav"
+  },
+  {
+    "key": "source_impact_default_bulletimpact_3",
+    "event": "Default.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/surfaces/default_impact_bullet3.wav",
+    "sha256": "73b69ac1bcf3c6b2079c04aca4da2c5500467f24f895e3b1b4d48526348c9a34",
+    "bytes": 23756,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.5,
+      0.5
+    ],
+    "source": "sound/physics/surfaces/default_impact_bullet3.wav"
+  },
+  {
+    "key": "source_impact_default_bulletimpact_4",
+    "event": "Default.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/surfaces/default_impact_bullet4.wav",
+    "sha256": "3cdf336c895468b34a01d12221e99c8c8e3cdb89340715c8318a98043b20a3c0",
+    "bytes": 29010,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.5,
+      0.5
+    ],
+    "source": "sound/physics/surfaces/default_impact_bullet4.wav"
+  },
+  {
+    "key": "source_impact_dirt_bulletimpact_1",
+    "event": "Dirt.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/surfaces/sand_impact_bullet1.wav",
+    "sha256": "1eedc657bdf5b9da3ec3c7cd087e6381294a861656e4c8b77c1853f8e4acceb0",
+    "bytes": 102580,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/surfaces/sand_impact_bullet1.wav"
+  },
+  {
+    "key": "source_impact_dirt_bulletimpact_2",
+    "event": "Dirt.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/surfaces/sand_impact_bullet2.wav",
+    "sha256": "7cc1d921383b81835c7b01a8ba39a4ad2823b68918a2a93c926897ff3ccb21b5",
+    "bytes": 113128,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/surfaces/sand_impact_bullet2.wav"
+  },
+  {
+    "key": "source_impact_dirt_bulletimpact_3",
+    "event": "Dirt.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/surfaces/sand_impact_bullet3.wav",
+    "sha256": "fbf9025f67ca4c32dcc325e549a76e7b5d068ab1f9b7db2a34dc4e62d4261897",
+    "bytes": 87742,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/surfaces/sand_impact_bullet3.wav"
+  },
+  {
+    "key": "source_impact_dirt_bulletimpact_4",
+    "event": "Dirt.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/surfaces/sand_impact_bullet4.wav",
+    "sha256": "2ab06e35b499b442e6c3bc6e07aa08bdf39aa98f0e79fc0e3cf5963fa63803c3",
+    "bytes": 69836,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/surfaces/sand_impact_bullet4.wav"
+  },
+  {
+    "key": "source_impact_glass_bulletimpact_1",
+    "event": "Glass.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/glass/glass_impact_bullet1.wav",
+    "sha256": "c4cdb7cb5e1fa5899c80d973df2eb766067a61b6b62a28e7db5d93eafcb0b2fd",
+    "bytes": 85014,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/glass/glass_impact_bullet1.wav"
+  },
+  {
+    "key": "source_impact_glass_bulletimpact_2",
+    "event": "Glass.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/glass/glass_impact_bullet2.wav",
+    "sha256": "73736bb3e55c2a8169db5d8749b1d9f62426a977d1a6947b31214d7c8f114ca6",
+    "bytes": 96644,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/glass/glass_impact_bullet2.wav"
+  },
+  {
+    "key": "source_impact_glass_bulletimpact_3",
+    "event": "Glass.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/glass/glass_impact_bullet3.wav",
+    "sha256": "4879ee2e18accaa51e8f956ad641de5882a607b077a8b4364d52fbb3db513a8f",
+    "bytes": 99114,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/glass/glass_impact_bullet3.wav"
+  },
+  {
+    "key": "source_impact_glass_bulletimpact_4",
+    "event": "Glass.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/glass/glass_impact_bullet4.wav",
+    "sha256": "0f56bd5895e9c6b36d97e5d4adb26e26afb5b2c742f0016842d729329833b15b",
+    "bytes": 122404,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/glass/glass_impact_bullet4.wav"
+  },
+  {
+    "key": "source_impact_metalbarrel_bulletimpact_1",
+    "event": "MetalBarrel.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/metal/bullet_metal_barrel_01.wav",
+    "sha256": "32e019ef5dfa74935600262e12610c2a772c9dbafb657fda97df13e038df49e3",
+    "bytes": 125796,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.8,
+      0.8
+    ],
+    "source": "sound/physics/metal/bullet_metal_barrel_01.wav"
+  },
+  {
+    "key": "source_impact_metalbarrel_bulletimpact_2",
+    "event": "MetalBarrel.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/metal/bullet_metal_barrel_02.wav",
+    "sha256": "978a77e651ed1507ac694a47547407424296f7ae889b7dd79fc1b54acb924b9a",
+    "bytes": 148594,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.8,
+      0.8
+    ],
+    "source": "sound/physics/metal/bullet_metal_barrel_02.wav"
+  },
+  {
+    "key": "source_impact_metalbarrel_bulletimpact_3",
+    "event": "MetalBarrel.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/metal/bullet_metal_barrel_03.wav",
+    "sha256": "8a7efc803afc45b31be508207145cc39c7c6a8149aa9fcdef49ea80953de8c1f",
+    "bytes": 144362,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.8,
+      0.8
+    ],
+    "source": "sound/physics/metal/bullet_metal_barrel_03.wav"
+  },
+  {
+    "key": "source_impact_metalbarrel_bulletimpact_4",
+    "event": "MetalBarrel.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/metal/bullet_metal_barrel_04.wav",
+    "sha256": "40c813f89d5c1cb8099e796ed9fd521178878ca7528311fbbb0471c71dd806dc",
+    "bytes": 193838,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.8,
+      0.8
+    ],
+    "source": "sound/physics/metal/bullet_metal_barrel_04.wav"
+  },
+  {
+    "key": "source_impact_metalbarrel_bulletimpact_5",
+    "event": "MetalBarrel.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/metal/bullet_metal_barrel_05.wav",
+    "sha256": "f0820b05956bd9d72c70254342880c0042eff17a48ff78d2eb6843d4b80dd0fb",
+    "bytes": 113586,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.8,
+      0.8
+    ],
+    "source": "sound/physics/metal/bullet_metal_barrel_05.wav"
+  },
+  {
+    "key": "source_impact_metalvehicle_bulletimpact_1",
+    "event": "MetalVehicle.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/metal/bullet_metal_auto_01.wav",
+    "sha256": "1f5bfb67f704e76d1bfebc846e06235f56b31df0d883737e88afbff0d6893e01",
+    "bytes": 90964,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.8,
+      0.8
+    ],
+    "source": "sound/physics/metal/bullet_metal_auto_01.wav"
+  },
+  {
+    "key": "source_impact_metalvehicle_bulletimpact_2",
+    "event": "MetalVehicle.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/metal/bullet_metal_auto_02.wav",
+    "sha256": "cfd6ed0feb8a2203072a242b7076c8f20d618f1866c84ea4af00951d7033e12a",
+    "bytes": 116388,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.8,
+      0.8
+    ],
+    "source": "sound/physics/metal/bullet_metal_auto_02.wav"
+  },
+  {
+    "key": "source_impact_metalvehicle_bulletimpact_3",
+    "event": "MetalVehicle.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/metal/bullet_metal_auto_03.wav",
+    "sha256": "312dee24321f5d1b446d50eac9c74a4c4c45c57a38db7f0859c7da42997d55c8",
+    "bytes": 122654,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.8,
+      0.8
+    ],
+    "source": "sound/physics/metal/bullet_metal_auto_03.wav"
+  },
+  {
+    "key": "source_impact_metalvehicle_bulletimpact_4",
+    "event": "MetalVehicle.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/metal/bullet_metal_auto_04.wav",
+    "sha256": "d8adc66466f6be15c9aabea331e22bbf40c2fd0bb6dddabae1f665a7d1f2775a",
+    "bytes": 122462,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.8,
+      0.8
+    ],
+    "source": "sound/physics/metal/bullet_metal_auto_04.wav"
+  },
+  {
+    "key": "source_impact_metalvehicle_bulletimpact_5",
+    "event": "MetalVehicle.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/metal/bullet_metal_auto_05.wav",
+    "sha256": "67d4a7ea29591f867e7d57cace75879e5f7b1f514dc6b82e7c22f40d643197fe",
+    "bytes": 138692,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.8,
+      0.8
+    ],
+    "source": "sound/physics/metal/bullet_metal_auto_05.wav"
+  },
+  {
+    "key": "source_impact_plastic_box_impacthard_1",
+    "event": "Plastic_Box.ImpactHard",
+    "url": "/source/csgo-12426148/impact/sounds/physics/plastic/plastic_box_impact_hard1.wav",
+    "sha256": "0d91c0fe130296619039ae905d0a6bbae5e71a6122d3db670b35ead2c0edde09",
+    "bytes": 17772,
+    "pitch": [
+      96.0,
+      104.0
+    ],
+    "volume": [
+      0.8,
+      0.8
+    ],
+    "source": "sound/physics/plastic/plastic_box_impact_hard1.wav"
+  },
+  {
+    "key": "source_impact_plastic_box_impacthard_2",
+    "event": "Plastic_Box.ImpactHard",
+    "url": "/source/csgo-12426148/impact/sounds/physics/plastic/plastic_box_impact_hard2.wav",
+    "sha256": "d69a01e65d0ff043c26274fa43747f2a8621986d1c232ab643ebe0601a18abc2",
+    "bytes": 18540,
+    "pitch": [
+      96.0,
+      104.0
+    ],
+    "volume": [
+      0.8,
+      0.8
+    ],
+    "source": "sound/physics/plastic/plastic_box_impact_hard2.wav"
+  },
+  {
+    "key": "source_impact_plastic_box_impacthard_3",
+    "event": "Plastic_Box.ImpactHard",
+    "url": "/source/csgo-12426148/impact/sounds/physics/plastic/plastic_box_impact_hard3.wav",
+    "sha256": "bb9e93edfce1639c760c22ac7e681de1d1c37a0c2e290930e48f8d43b3d91800",
+    "bytes": 21996,
+    "pitch": [
+      96.0,
+      104.0
+    ],
+    "volume": [
+      0.8,
+      0.8
+    ],
+    "source": "sound/physics/plastic/plastic_box_impact_hard3.wav"
+  },
+  {
+    "key": "source_impact_plastic_box_impacthard_4",
+    "event": "Plastic_Box.ImpactHard",
+    "url": "/source/csgo-12426148/impact/sounds/physics/plastic/plastic_box_impact_hard4.wav",
+    "sha256": "eae3b7e19fd0e93412611bbe9dff1309d43f7246f57e80520dfc68173cfefedf",
+    "bytes": 26412,
+    "pitch": [
+      96.0,
+      104.0
+    ],
+    "volume": [
+      0.8,
+      0.8
+    ],
+    "source": "sound/physics/plastic/plastic_box_impact_hard4.wav"
+  },
+  {
+    "key": "source_impact_pottery_bulletimpact_1",
+    "event": "Pottery.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/glass/glass_pottery_break1.wav",
+    "sha256": "b678c4afc7f6ac1690b109ca7afb0f67262b65aa3be0deb1703e01c8f1551835",
+    "bytes": 93914,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/glass/glass_pottery_break1.wav"
+  },
+  {
+    "key": "source_impact_pottery_bulletimpact_2",
+    "event": "Pottery.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/glass/glass_pottery_break2.wav",
+    "sha256": "9d093f6cc7d91b10f4f354750b75b59273f0d6a21e6fc475be43ce67c1975743",
+    "bytes": 86702,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/glass/glass_pottery_break2.wav"
+  },
+  {
+    "key": "source_impact_pottery_bulletimpact_3",
+    "event": "Pottery.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/glass/glass_pottery_break3.wav",
+    "sha256": "e3d5296149fd742a6bee4cab1786b8c77e6c75f2a38ab6a15d4741d9424f5cd5",
+    "bytes": 128330,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/glass/glass_pottery_break3.wav"
+  },
+  {
+    "key": "source_impact_rubber_tire_bulletimpact_1",
+    "event": "Rubber_Tire.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/rubber/rubber_tire_impact_bullet1.wav",
+    "sha256": "433bac94ade34fe36951eec6e046a58a66bbf269bf2093faea48f4202bb25fa7",
+    "bytes": 19992,
+    "pitch": [
+      96.0,
+      104.0
+    ],
+    "volume": [
+      1.0,
+      1.0
+    ],
+    "source": "sound/physics/rubber/rubber_tire_impact_bullet1.wav"
+  },
+  {
+    "key": "source_impact_rubber_tire_bulletimpact_2",
+    "event": "Rubber_Tire.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/rubber/rubber_tire_impact_bullet2.wav",
+    "sha256": "7e858d13069050358a0a7975aacc71e9558c12e673a9f776bfcf287291443e8c",
+    "bytes": 31738,
+    "pitch": [
+      96.0,
+      104.0
+    ],
+    "volume": [
+      1.0,
+      1.0
+    ],
+    "source": "sound/physics/rubber/rubber_tire_impact_bullet2.wav"
+  },
+  {
+    "key": "source_impact_rubber_tire_bulletimpact_3",
+    "event": "Rubber_Tire.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/rubber/rubber_tire_impact_bullet3.wav",
+    "sha256": "59053668af0ee8506b007a1cec762139771e4c7565eb276bcac3939eaec9d579",
+    "bytes": 29744,
+    "pitch": [
+      96.0,
+      104.0
+    ],
+    "volume": [
+      1.0,
+      1.0
+    ],
+    "source": "sound/physics/rubber/rubber_tire_impact_bullet3.wav"
+  },
+  {
+    "key": "source_impact_sand_bulletimpact_1",
+    "event": "Sand.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/surfaces/sand_impact_bullet1.wav",
+    "sha256": "1eedc657bdf5b9da3ec3c7cd087e6381294a861656e4c8b77c1853f8e4acceb0",
+    "bytes": 102580,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/surfaces/sand_impact_bullet1.wav"
+  },
+  {
+    "key": "source_impact_sand_bulletimpact_2",
+    "event": "Sand.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/surfaces/sand_impact_bullet2.wav",
+    "sha256": "7cc1d921383b81835c7b01a8ba39a4ad2823b68918a2a93c926897ff3ccb21b5",
+    "bytes": 113128,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/surfaces/sand_impact_bullet2.wav"
+  },
+  {
+    "key": "source_impact_sand_bulletimpact_3",
+    "event": "Sand.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/surfaces/sand_impact_bullet3.wav",
+    "sha256": "fbf9025f67ca4c32dcc325e549a76e7b5d068ab1f9b7db2a34dc4e62d4261897",
+    "bytes": 87742,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/surfaces/sand_impact_bullet3.wav"
+  },
+  {
+    "key": "source_impact_sand_bulletimpact_4",
+    "event": "Sand.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/surfaces/sand_impact_bullet4.wav",
+    "sha256": "2ab06e35b499b442e6c3bc6e07aa08bdf39aa98f0e79fc0e3cf5963fa63803c3",
+    "bytes": 69836,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/surfaces/sand_impact_bullet4.wav"
+  },
+  {
+    "key": "source_impact_solidmetal_bulletimpact_1",
+    "event": "SolidMetal.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/metal/bullet_metal_solid_01.wav",
+    "sha256": "6dfc38f443c722b7227cd4768b374188e1dbdfc8988afc24161d50a353d2ad75",
+    "bytes": 70758,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.5,
+      0.5
+    ],
+    "source": "sound/physics/metal/bullet_metal_solid_01.wav"
+  },
+  {
+    "key": "source_impact_solidmetal_bulletimpact_2",
+    "event": "SolidMetal.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/metal/bullet_metal_solid_02.wav",
+    "sha256": "6f9b0fbf52df0d946358c8ea46bc0cd9c0ee8b0f8c99e66c11c89b7f200d5173",
+    "bytes": 81740,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.5,
+      0.5
+    ],
+    "source": "sound/physics/metal/bullet_metal_solid_02.wav"
+  },
+  {
+    "key": "source_impact_solidmetal_bulletimpact_3",
+    "event": "SolidMetal.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/metal/bullet_metal_solid_03.wav",
+    "sha256": "007f8b49aaf730a270ffacba717a91b7f0e8d7040a0ea5961ae08b90b9044011",
+    "bytes": 90662,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.5,
+      0.5
+    ],
+    "source": "sound/physics/metal/bullet_metal_solid_03.wav"
+  },
+  {
+    "key": "source_impact_solidmetal_bulletimpact_4",
+    "event": "SolidMetal.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/metal/bullet_metal_solid_04.wav",
+    "sha256": "ab51c2593489d956475037e0e65bc0503fdc13d9412261665d7bb18eeea798dd",
+    "bytes": 93616,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.5,
+      0.5
+    ],
+    "source": "sound/physics/metal/bullet_metal_solid_04.wav"
+  },
+  {
+    "key": "source_impact_solidmetal_bulletimpact_5",
+    "event": "SolidMetal.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/metal/bullet_metal_solid_05.wav",
+    "sha256": "55033e66fc42653972ec0193c7d10a1b295215e38f5ccd9673e1476c39e9e471",
+    "bytes": 86032,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.5,
+      0.5
+    ],
+    "source": "sound/physics/metal/bullet_metal_solid_05.wav"
+  },
+  {
+    "key": "source_impact_solidmetal_bulletimpact_6",
+    "event": "SolidMetal.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/metal/bullet_metal_solid_06.wav",
+    "sha256": "dcc2c9e060b3d32b1a332cb1d76798dd4b5533d4ca2369c05beb99df3a22f879",
+    "bytes": 77564,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.5,
+      0.5
+    ],
+    "source": "sound/physics/metal/bullet_metal_solid_06.wav"
+  },
+  {
+    "key": "source_impact_tile_bulletimpact_1",
+    "event": "Tile.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/surfaces/tile_impact_bullet1.wav",
+    "sha256": "d930955d031f86835e4195299e4fae568bcfde40cbfe3fb918f685f1b739aa39",
+    "bytes": 17294,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/surfaces/tile_impact_bullet1.wav"
+  },
+  {
+    "key": "source_impact_tile_bulletimpact_2",
+    "event": "Tile.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/surfaces/tile_impact_bullet2.wav",
+    "sha256": "d97c51f7db75160a1797b08cd8f53d350e00cf93800ea918f8ac3611397f77d7",
+    "bytes": 18566,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/surfaces/tile_impact_bullet2.wav"
+  },
+  {
+    "key": "source_impact_tile_bulletimpact_3",
+    "event": "Tile.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/surfaces/tile_impact_bullet3.wav",
+    "sha256": "54717414b86d2b5f1ca17b8adeae13dc414c16a5c249dd434d63475441d54fc5",
+    "bytes": 17804,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/surfaces/tile_impact_bullet3.wav"
+  },
+  {
+    "key": "source_impact_tile_bulletimpact_4",
+    "event": "Tile.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/surfaces/tile_impact_bullet4.wav",
+    "sha256": "2749f9dbcc4032ad701e53029d93efa021be276d7af5e8e08143ff8bed005e94",
+    "bytes": 20864,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/surfaces/tile_impact_bullet4.wav"
+  },
+  {
+    "key": "source_impact_wood_bulletimpact_1",
+    "event": "Wood.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/wood/wood_solid_impact_bullet1.wav",
+    "sha256": "a5462e6e35ba45ea519c3e24436b5e2b3167d55bba1383e1c1985c02756fafeb",
+    "bytes": 23866,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/wood/wood_solid_impact_bullet1.wav"
+  },
+  {
+    "key": "source_impact_wood_bulletimpact_2",
+    "event": "Wood.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/wood/wood_solid_impact_bullet2.wav",
+    "sha256": "eddd5fca6e31e90ba8203bb005ea28ae7bf5e2cf4b91fedf1eaa18fa8a8b916e",
+    "bytes": 36410,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/wood/wood_solid_impact_bullet2.wav"
+  },
+  {
+    "key": "source_impact_wood_bulletimpact_3",
+    "event": "Wood.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/wood/wood_solid_impact_bullet3.wav",
+    "sha256": "0b8867a33c09d26acde71362ce5dd2faad9e819842a25ac0815480a6e9e7bab5",
+    "bytes": 67620,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/wood/wood_solid_impact_bullet3.wav"
+  },
+  {
+    "key": "source_impact_wood_bulletimpact_4",
+    "event": "Wood.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/wood/wood_solid_impact_bullet4.wav",
+    "sha256": "1b78da157fb10a2e4b2339f34c853fdc2138386dce1afbdf7ff684b140e3d653",
+    "bytes": 27410,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/wood/wood_solid_impact_bullet4.wav"
+  },
+  {
+    "key": "source_impact_wood_bulletimpact_5",
+    "event": "Wood.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/wood/wood_solid_impact_bullet5.wav",
+    "sha256": "d663b5c07a6a7b21be083b9ff57e2673654cf1ef6469def652c2ab6cb8a330a7",
+    "bytes": 39328,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/wood/wood_solid_impact_bullet5.wav"
+  },
+  {
+    "key": "source_impact_wood_box_bulletimpact_1",
+    "event": "Wood_Box.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/wood/wood_box_impact_bullet1.wav",
+    "sha256": "faa274012a0d06ed544e4ed21b3993bb315ebd9a3f0852180939a7df2f258568",
+    "bytes": 45848,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/wood/wood_box_impact_bullet1.wav"
+  },
+  {
+    "key": "source_impact_wood_box_bulletimpact_2",
+    "event": "Wood_Box.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/wood/wood_box_impact_bullet2.wav",
+    "sha256": "64694ce7ff05609635a772fec2b5c8a7e101104bae5a758e5caf02de8f423c5a",
+    "bytes": 29546,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/wood/wood_box_impact_bullet2.wav"
+  },
+  {
+    "key": "source_impact_wood_box_bulletimpact_3",
+    "event": "Wood_Box.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/wood/wood_box_impact_bullet3.wav",
+    "sha256": "da8e45ce095a863941104a74e3ac49b02c7a2060470d7fb66f0e1bf591bf4a39",
+    "bytes": 36192,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/wood/wood_box_impact_bullet3.wav"
+  },
+  {
+    "key": "source_impact_wood_box_bulletimpact_4",
+    "event": "Wood_Box.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/wood/wood_box_impact_bullet4.wav",
+    "sha256": "599ed95983965d141bd18f104c434d65d0231a27065657f2245fc366f560ccf6",
+    "bytes": 30092,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/wood/wood_box_impact_bullet4.wav"
+  },
+  {
+    "key": "source_impact_wood_panel_bulletimpact_1",
+    "event": "Wood_Panel.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/wood/wood_box_impact_bullet1.wav",
+    "sha256": "faa274012a0d06ed544e4ed21b3993bb315ebd9a3f0852180939a7df2f258568",
+    "bytes": 45848,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/wood/wood_box_impact_bullet1.wav"
+  },
+  {
+    "key": "source_impact_wood_panel_bulletimpact_2",
+    "event": "Wood_Panel.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/wood/wood_box_impact_bullet2.wav",
+    "sha256": "64694ce7ff05609635a772fec2b5c8a7e101104bae5a758e5caf02de8f423c5a",
+    "bytes": 29546,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/wood/wood_box_impact_bullet2.wav"
+  },
+  {
+    "key": "source_impact_wood_panel_bulletimpact_3",
+    "event": "Wood_Panel.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/wood/wood_box_impact_bullet3.wav",
+    "sha256": "da8e45ce095a863941104a74e3ac49b02c7a2060470d7fb66f0e1bf591bf4a39",
+    "bytes": 36192,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/wood/wood_box_impact_bullet3.wav"
+  },
+  {
+    "key": "source_impact_wood_panel_bulletimpact_4",
+    "event": "Wood_Panel.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/wood/wood_box_impact_bullet4.wav",
+    "sha256": "599ed95983965d141bd18f104c434d65d0231a27065657f2245fc366f560ccf6",
+    "bytes": 30092,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/wood/wood_box_impact_bullet4.wav"
+  },
+  {
+    "key": "source_impact_wood_plank_bulletimpact_1",
+    "event": "Wood_Plank.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/wood/wood_box_impact_bullet1.wav",
+    "sha256": "faa274012a0d06ed544e4ed21b3993bb315ebd9a3f0852180939a7df2f258568",
+    "bytes": 45848,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/wood/wood_box_impact_bullet1.wav"
+  },
+  {
+    "key": "source_impact_wood_plank_bulletimpact_2",
+    "event": "Wood_Plank.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/wood/wood_box_impact_bullet2.wav",
+    "sha256": "64694ce7ff05609635a772fec2b5c8a7e101104bae5a758e5caf02de8f423c5a",
+    "bytes": 29546,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/wood/wood_box_impact_bullet2.wav"
+  },
+  {
+    "key": "source_impact_wood_plank_bulletimpact_3",
+    "event": "Wood_Plank.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/wood/wood_box_impact_bullet3.wav",
+    "sha256": "da8e45ce095a863941104a74e3ac49b02c7a2060470d7fb66f0e1bf591bf4a39",
+    "bytes": 36192,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/wood/wood_box_impact_bullet3.wav"
+  },
+  {
+    "key": "source_impact_wood_plank_bulletimpact_4",
+    "event": "Wood_Plank.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/wood/wood_box_impact_bullet4.wav",
+    "sha256": "599ed95983965d141bd18f104c434d65d0231a27065657f2245fc366f560ccf6",
+    "bytes": 30092,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/wood/wood_box_impact_bullet4.wav"
+  },
+  {
+    "key": "source_impact_wood_solid_bulletimpact_1",
+    "event": "Wood_Solid.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/wood/wood_solid_impact_bullet1.wav",
+    "sha256": "a5462e6e35ba45ea519c3e24436b5e2b3167d55bba1383e1c1985c02756fafeb",
+    "bytes": 23866,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/wood/wood_solid_impact_bullet1.wav"
+  },
+  {
+    "key": "source_impact_wood_solid_bulletimpact_2",
+    "event": "Wood_Solid.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/wood/wood_solid_impact_bullet2.wav",
+    "sha256": "eddd5fca6e31e90ba8203bb005ea28ae7bf5e2cf4b91fedf1eaa18fa8a8b916e",
+    "bytes": 36410,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/wood/wood_solid_impact_bullet2.wav"
+  },
+  {
+    "key": "source_impact_wood_solid_bulletimpact_3",
+    "event": "Wood_Solid.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/wood/wood_solid_impact_bullet3.wav",
+    "sha256": "0b8867a33c09d26acde71362ce5dd2faad9e819842a25ac0815480a6e9e7bab5",
+    "bytes": 67620,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/wood/wood_solid_impact_bullet3.wav"
+  },
+  {
+    "key": "source_impact_wood_solid_bulletimpact_4",
+    "event": "Wood_Solid.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/wood/wood_solid_impact_bullet4.wav",
+    "sha256": "1b78da157fb10a2e4b2339f34c853fdc2138386dce1afbdf7ff684b140e3d653",
+    "bytes": 27410,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/wood/wood_solid_impact_bullet4.wav"
+  },
+  {
+    "key": "source_impact_wood_solid_bulletimpact_5",
+    "event": "Wood_Solid.BulletImpact",
+    "url": "/source/csgo-12426148/impact/sounds/physics/wood/wood_solid_impact_bullet5.wav",
+    "sha256": "d663b5c07a6a7b21be083b9ff57e2673654cf1ef6469def652c2ab6cb8a330a7",
+    "bytes": 39328,
+    "pitch": [
+      100.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/wood/wood_solid_impact_bullet5.wav"
+  },
+  {
+    "key": "source_impact_drywall_impacthard_1",
+    "event": "drywall.ImpactHard",
+    "url": "/source/csgo-12426148/impact/sounds/physics/plaster/drywall_impact_hard1.wav",
+    "sha256": "e37f7647cea7035f28a6d5a2beb1962ba1d13c1741ff896031c70aad4080e81d",
+    "bytes": 69158,
+    "pitch": [
+      98.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/plaster/drywall_impact_hard1.wav"
+  },
+  {
+    "key": "source_impact_drywall_impacthard_2",
+    "event": "drywall.ImpactHard",
+    "url": "/source/csgo-12426148/impact/sounds/physics/plaster/drywall_impact_hard2.wav",
+    "sha256": "a0f7298b03d1fcaa3da93cd458fbdd32c15a6cc9b7939aa387dd7c4f075011ed",
+    "bytes": 43678,
+    "pitch": [
+      98.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/plaster/drywall_impact_hard2.wav"
+  },
+  {
+    "key": "source_impact_drywall_impacthard_3",
+    "event": "drywall.ImpactHard",
+    "url": "/source/csgo-12426148/impact/sounds/physics/plaster/drywall_impact_hard3.wav",
+    "sha256": "e32cabc14a2f4406d33b32d2e3695e274d0d1a5a418986ff69e19a1c7bb254d1",
+    "bytes": 38828,
+    "pitch": [
+      98.0,
+      100.0
+    ],
+    "volume": [
+      0.7,
+      0.7
+    ],
+    "source": "sound/physics/plaster/drywall_impact_hard3.wav"
+  }
+]

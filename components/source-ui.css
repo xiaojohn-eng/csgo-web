@@ -1,0 +1,17 @@
+@font-face {font-family:'Source Stratum';src:url('/source/csgo-12426148/ui/fonts/stratum2regular.ttf') format('truetype');font-weight:400;font-display:swap;}
+@font-face {font-family:'Source Stratum';src:url('/source/csgo-12426148/ui/fonts/stratum2medium.ttf') format('truetype');font-weight:500 600;font-display:swap;}
+@font-face {font-family:'Source Stratum';src:url('/source/csgo-12426148/ui/fonts/stratum2bold.ttf') format('truetype');font-weight:700 900;font-display:swap;}
+@font-face {font-family:'Source Digits';src:url('/source/csgo-12426148/ui/fonts/stratum2bold_monodigit.ttf') format('truetype');font-weight:700;font-display:swap;unicode-range:U+0030-0039;}
+@font-face {font-family:'Source Noto SC';src:url('/source/csgo-12426148/ui/fonts/notosanssc-regular.otf') format('opentype');font-weight:400;font-display:swap;}
+.game-shell {font-family:'Source Stratum','Source Noto SC',sans-serif;}
+.game-shell .team-score b,.game-shell .round-time b,.game-shell .vitals strong,.game-shell .ammo strong {font-family:'Source Digits','Source Stratum','Source Noto SC',sans-serif;font-weight:700;}
+.game-shell .ammo > small,.game-shell .ammo > div > span,.game-shell .credits {font-family:'Source Stratum','Source Noto SC',sans-serif;}
+.source-team {display:flex;align-items:center;gap:8px;white-space:nowrap;}
+.source-team img {width:30px;height:30px;object-fit:contain;}
+.vitals .source-health {display:flex;align-items:center;gap:8px;}
+.source-health img,.armor .source-armor {width:27px;height:27px;object-fit:contain;}
+.game-shell .source-utilities {display:flex;align-items:center;justify-content:flex-end;gap:13px;min-height:31px;}
+.source-utilities > span {display:inline-flex;align-items:center;gap:5px;}
+.source-utilities img {width:24px;height:27px;object-fit:contain;opacity:.88;}
+.source-utilities kbd {font-size:10px;opacity:.7;}
+.source-headshot {height:18px;width:23px;object-fit:contain;}

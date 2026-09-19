@@ -1,0 +1,219 @@
+{
+  "format": "source-position-initializer-apply-v1",
+  "status": "initializer-located-but-not-driven",
+  "operator": "Position Within Sphere Random",
+  "instance": {
+    "factory": "0xcff480",
+    "apply": "0xd02980",
+    "definitionVTable": "0x110ad88"
+  },
+  "fields": {
+    "operator start fadein": [
+      4,
+      3
+    ],
+    "operator end fadein": [
+      8,
+      3
+    ],
+    "operator start fadeout": [
+      12,
+      3
+    ],
+    "operator end fadeout": [
+      16,
+      3
+    ],
+    "operator fade oscillate": [
+      20,
+      3
+    ],
+    "operator time offset seed": [
+      32,
+      2
+    ],
+    "operator time offset min": [
+      24,
+      3
+    ],
+    "operator time offset max": [
+      28,
+      3
+    ],
+    "operator time scale seed": [
+      48,
+      2
+    ],
+    "operator time scale min": [
+      52,
+      3
+    ],
+    "operator time scale max": [
+      56,
+      3
+    ],
+    "operator time strength random scale max": [
+      44,
+      3
+    ],
+    "operator strength scale seed": [
+      36,
+      2
+    ],
+    "operator strength random scale min": [
+      40,
+      3
+    ],
+    "operator strength random scale max": [
+      44,
+      3
+    ],
+    "operator end cap state": [
+      64,
+      2
+    ],
+    "run for killed parent particles": [
+      88,
+      4
+    ],
+    "distance_min": [
+      92,
+      3
+    ],
+    "distance_max": [
+      96,
+      3
+    ],
+    "distance_bias": [
+      100,
+      10
+    ],
+    "distance_bias_absolute_value": [
+      112,
+      10
+    ],
+    "bias in local system": [
+      144,
+      4
+    ],
+    "control_point_number": [
+      124,
+      2
+    ],
+    "speed_min": [
+      132,
+      3
+    ],
+    "speed_max": [
+      136,
+      3
+    ],
+    "speed_random_exponent": [
+      140,
+      3
+    ],
+    "speed_in_local_coordinate_system_min": [
+      152,
+      10
+    ],
+    "speed_in_local_coordinate_system_max": [
+      164,
+      10
+    ],
+    "randomly distribute to highest supplied Control Point": [
+      146,
+      4
+    ],
+    "randomly distribution growth time": [
+      148,
+      3
+    ],
+    "scale cp (distance/speed/local speed)": [
+      128,
+      2
+    ]
+  },
+  "values": {
+    "control_point_number": 0,
+    "distance_min": 0.0,
+    "distance_max": 0.5,
+    "speed_min": 0.0,
+    "speed_max": 0.0,
+    "speed_random_exponent": 1.0,
+    "speed_in_local_coordinate_system_min": [
+      100.0,
+      0.0,
+      0.0
+    ],
+    "speed_in_local_coordinate_system_max": [
+      120.0,
+      0.0,
+      0.0
+    ]
+  },
+  "writes": [
+    {
+      "address": "0x2100006c",
+      "size": 4,
+      "value": "0x3f000000",
+      "eip": "0xd2c0e3"
+    },
+    {
+      "address": "0x21000070",
+      "size": 8,
+      "value": "0x0",
+      "eip": "0xd2c108"
+    },
+    {
+      "address": "0x21000078",
+      "size": 8,
+      "value": "0x0",
+      "eip": "0xd2c108"
+    }
+  ],
+  "newParticleArea": {
+    "0x21006000": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "0x21006100": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  "finding": "The initializer's apply method was located and called over a synthetic collection, and it wrote nothing: every write in the log comes from the post-unpack call. An initializer fills the particles an emitter has just created, so it needs the emitter's new-particle context — the count and the per-element pointer tables the emitter builds — before it does anything.",
+  "next": "Drive it the way the already-verified operator executor drives the pistol emitters (`scripts/probe-source-pistol-particle-operators.py`): call `emit_instantaneously`'s own two entry points (that file records them as 0xd04af0 and 0xd037a0) and then read the created particles' position slots. Two things are needed first, and both were measured while trying: the collection has to be given the emitter's new-particle pointers and a maximum count (`COL+0x11c`), and the emitter is preceded by a per-system post-unpack — the same file uses 0xd03f80 for one pistol system and 0xd04120 for the other — so the smoke systems' own post-unpack entries have to be found first, by enumerating the definitions this client built from the particle files rather than by name.",
+  "boundary": "Executed over a synthetic collection. It reports that the initializer did not run, not what it would write once an emitter has made particles for it."
+}

@@ -1,0 +1,26 @@
+{
+  "sourceCommit": "f2837e3bd3aba588eacfa633871fbc2ed628792d",
+  "excludedTrackedFiles": [
+    "PROGRESS.md",
+    "WORKTREES.md",
+    "output/goal-objective-timers-20260913/economy-round-end-receipt.json",
+    "output/goal-objective-timers-20260913/receipt.json",
+    "research/csgo-install-receipt.json",
+    "research/source-items-catalog.json",
+    "research/source-redline-official-fragments/wf_custompaint.html",
+    "research/source-redline-official-fragments/wf_durabilityb.html",
+    "research/source-redline-official-fragments/wf_patternapplication.html",
+    "research/source-redline-official-fragments/wf_patternscale.html",
+    "research/source-redline-official-fragments/wf_phong.html",
+    "research/source-redline-official-fragments/wf_randomization.html",
+    "research/source-redline-official-guide.html",
+    "research/world-layer-shaders/1161.tokens.txt",
+    "research/world-layer-shaders/579.tokens.txt",
+    "scripts/.DS_Store"
+  ],
+  "notes": [
+    "Fresh history; personal paths and LAN addresses replaced.",
+    "Raw disassembly arrays in research JSON omitted.",
+    "Game resources and private test fixtures not distributed."
+  ]
+}

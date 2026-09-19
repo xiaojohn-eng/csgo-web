@@ -1,0 +1,952 @@
+{
+  "format": "source-kill-awards-v1",
+  "sourceApp": 740,
+  "build": 12426148,
+  "source": "scripts/items/items_game.txt",
+  "receipt": {
+    "path": "scripts/items/items_game.txt",
+    "container": "loose",
+    "bytes": 6791631,
+    "sha256": "510e09b68a01d88edba2342972960025fd6484aaaa58365fcf47d8513de79623"
+  },
+  "defaultAward": {
+    "owner": "statted_item_base",
+    "award": 300
+  },
+  "prefabAwards": {
+    "statted_item_base": 300,
+    "melee": 1500,
+    "weapon_cz75a_prefab": 100,
+    "weapon_bizon_prefab": 600,
+    "weapon_mac10_prefab": 600,
+    "weapon_mp7_prefab": 600,
+    "weapon_mp5sd_prefab": 600,
+    "weapon_mp9_prefab": 600,
+    "weapon_ump45_prefab": 600,
+    "weapon_awp_prefab": 100,
+    "weapon_mag7_prefab": 900,
+    "weapon_nova_prefab": 900,
+    "weapon_sawedoff_prefab": 900,
+    "weapon_xm1014_prefab": 900,
+    "weapon_taser_prefab": 0
+  },
+  "weapons": {
+    "weapon_ak47": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_ak47",
+        "weapon_ak47_prefab",
+        "rifle",
+        "primary",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_ak47_prefab"
+    },
+    "weapon_aug": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_aug",
+        "weapon_aug_prefab",
+        "rifle",
+        "primary",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_aug_prefab"
+    },
+    "weapon_awp": {
+      "award": 100,
+      "owner": "weapon_awp_prefab",
+      "chain": [
+        "weapon_awp",
+        "weapon_awp_prefab"
+      ],
+      "prefab": "weapon_awp_prefab"
+    },
+    "weapon_axe": {
+      "award": 1500,
+      "owner": "melee",
+      "chain": [
+        "weapon_axe",
+        "weapon_melee_prefab_noncustomizable",
+        "weapon_melee_prefab",
+        "melee"
+      ],
+      "prefab": "weapon_melee_prefab_noncustomizable"
+    },
+    "weapon_bayonet": {
+      "award": 1500,
+      "owner": "melee",
+      "chain": [
+        "weapon_bayonet",
+        "melee_unusual",
+        "melee"
+      ],
+      "prefab": "melee_unusual"
+    },
+    "weapon_bizon": {
+      "award": 600,
+      "owner": "weapon_bizon_prefab",
+      "chain": [
+        "weapon_bizon",
+        "weapon_bizon_prefab"
+      ],
+      "prefab": "weapon_bizon_prefab"
+    },
+    "weapon_breachcharge": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_breachcharge",
+        "weapon_breachcharge_prefab",
+        "equipment",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_breachcharge_prefab"
+    },
+    "weapon_bumpmine": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_bumpmine",
+        "weapon_bumpmine_prefab",
+        "equipment",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_bumpmine_prefab"
+    },
+    "weapon_c4": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_c4",
+        "c4",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "c4"
+    },
+    "weapon_cz75a": {
+      "award": 100,
+      "owner": "weapon_cz75a_prefab",
+      "chain": [
+        "weapon_cz75a",
+        "weapon_cz75a_prefab"
+      ],
+      "prefab": "weapon_cz75a_prefab"
+    },
+    "weapon_deagle": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_deagle",
+        "weapon_deagle_prefab",
+        "secondary",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_deagle_prefab"
+    },
+    "weapon_decoy": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_decoy",
+        "weapon_decoy_prefab",
+        "grenade",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_decoy_prefab"
+    },
+    "weapon_diversion": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_diversion",
+        "weapon_diversion_prefab",
+        "weapon_decoy_prefab",
+        "grenade",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_diversion_prefab"
+    },
+    "weapon_elite": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_elite",
+        "weapon_elite_prefab",
+        "secondary",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_elite_prefab"
+    },
+    "weapon_famas": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_famas",
+        "weapon_famas_prefab",
+        "rifle",
+        "primary",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_famas_prefab"
+    },
+    "weapon_firebomb": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_firebomb",
+        "weapon_firebomb_prefab",
+        "weapon_molotov_prefab",
+        "weapon_fire_grenade_prefab",
+        "grenade",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_firebomb_prefab"
+    },
+    "weapon_fists": {
+      "award": 1500,
+      "owner": "melee",
+      "chain": [
+        "weapon_fists",
+        "weapon_fists_prefab",
+        "melee"
+      ],
+      "prefab": "weapon_fists_prefab"
+    },
+    "weapon_fiveseven": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_fiveseven",
+        "weapon_fiveseven_prefab",
+        "secondary",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_fiveseven_prefab"
+    },
+    "weapon_flashbang": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_flashbang",
+        "weapon_flashbang_prefab",
+        "grenade",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_flashbang_prefab"
+    },
+    "weapon_frag_grenade": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_frag_grenade",
+        "weapon_frag_grenade_prefab",
+        "weapon_hegrenade_prefab",
+        "explosive_grenade",
+        "grenade",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_frag_grenade_prefab"
+    },
+    "weapon_g3sg1": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_g3sg1",
+        "weapon_g3sg1_prefab",
+        "sniper_rifle",
+        "primary",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_g3sg1_prefab"
+    },
+    "weapon_galilar": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_galilar",
+        "weapon_galilar_prefab",
+        "rifle",
+        "primary",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_galilar_prefab"
+    },
+    "weapon_glock": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_glock",
+        "weapon_glock_prefab",
+        "secondary",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_glock_prefab"
+    },
+    "weapon_hammer": {
+      "award": 1500,
+      "owner": "melee",
+      "chain": [
+        "weapon_hammer",
+        "weapon_melee_prefab_noncustomizable",
+        "weapon_melee_prefab",
+        "melee"
+      ],
+      "prefab": "weapon_melee_prefab_noncustomizable"
+    },
+    "weapon_healthshot": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_healthshot",
+        "weapon_healthshot_prefab",
+        "equipment",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_healthshot_prefab"
+    },
+    "weapon_hegrenade": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_hegrenade",
+        "weapon_hegrenade_prefab",
+        "explosive_grenade",
+        "grenade",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_hegrenade_prefab"
+    },
+    "weapon_hkp2000": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_hkp2000",
+        "weapon_hkp2000_prefab",
+        "secondary",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_hkp2000_prefab"
+    },
+    "weapon_incgrenade": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_incgrenade",
+        "weapon_incgrenade_prefab",
+        "weapon_fire_grenade_prefab",
+        "grenade",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_incgrenade_prefab"
+    },
+    "weapon_knife": {
+      "award": 1500,
+      "owner": "melee",
+      "chain": [
+        "weapon_knife",
+        "melee"
+      ],
+      "prefab": "melee"
+    },
+    "weapon_knife_butterfly": {
+      "award": 1500,
+      "owner": "melee",
+      "chain": [
+        "weapon_knife_butterfly",
+        "melee_unusual",
+        "melee"
+      ],
+      "prefab": "melee_unusual"
+    },
+    "weapon_knife_canis": {
+      "award": 1500,
+      "owner": "melee",
+      "chain": [
+        "weapon_knife_canis",
+        "melee_unusual",
+        "melee"
+      ],
+      "prefab": "melee_unusual"
+    },
+    "weapon_knife_cord": {
+      "award": 1500,
+      "owner": "melee",
+      "chain": [
+        "weapon_knife_cord",
+        "melee_unusual",
+        "melee"
+      ],
+      "prefab": "melee_unusual"
+    },
+    "weapon_knife_css": {
+      "award": 1500,
+      "owner": "melee",
+      "chain": [
+        "weapon_knife_css",
+        "melee_unusual",
+        "melee"
+      ],
+      "prefab": "melee_unusual"
+    },
+    "weapon_knife_falchion": {
+      "award": 1500,
+      "owner": "melee",
+      "chain": [
+        "weapon_knife_falchion",
+        "melee_unusual",
+        "melee"
+      ],
+      "prefab": "melee_unusual"
+    },
+    "weapon_knife_flip": {
+      "award": 1500,
+      "owner": "melee",
+      "chain": [
+        "weapon_knife_flip",
+        "melee_unusual",
+        "melee"
+      ],
+      "prefab": "melee_unusual"
+    },
+    "weapon_knife_ghost": {
+      "award": 1500,
+      "owner": "melee",
+      "chain": [
+        "weapon_knife_ghost",
+        "melee"
+      ],
+      "prefab": "melee"
+    },
+    "weapon_knife_gut": {
+      "award": 1500,
+      "owner": "melee",
+      "chain": [
+        "weapon_knife_gut",
+        "melee_unusual",
+        "melee"
+      ],
+      "prefab": "melee_unusual"
+    },
+    "weapon_knife_gypsy_jackknife": {
+      "award": 1500,
+      "owner": "melee",
+      "chain": [
+        "weapon_knife_gypsy_jackknife",
+        "melee_unusual",
+        "melee"
+      ],
+      "prefab": "melee_unusual"
+    },
+    "weapon_knife_karambit": {
+      "award": 1500,
+      "owner": "melee",
+      "chain": [
+        "weapon_knife_karambit",
+        "melee_unusual",
+        "melee"
+      ],
+      "prefab": "melee_unusual"
+    },
+    "weapon_knife_m9_bayonet": {
+      "award": 1500,
+      "owner": "melee",
+      "chain": [
+        "weapon_knife_m9_bayonet",
+        "melee_unusual",
+        "melee"
+      ],
+      "prefab": "melee_unusual"
+    },
+    "weapon_knife_outdoor": {
+      "award": 1500,
+      "owner": "melee",
+      "chain": [
+        "weapon_knife_outdoor",
+        "melee_unusual",
+        "melee"
+      ],
+      "prefab": "melee_unusual"
+    },
+    "weapon_knife_push": {
+      "award": 1500,
+      "owner": "melee",
+      "chain": [
+        "weapon_knife_push",
+        "melee_unusual",
+        "melee"
+      ],
+      "prefab": "melee_unusual"
+    },
+    "weapon_knife_skeleton": {
+      "award": 1500,
+      "owner": "melee",
+      "chain": [
+        "weapon_knife_skeleton",
+        "melee_unusual",
+        "melee"
+      ],
+      "prefab": "melee_unusual"
+    },
+    "weapon_knife_stiletto": {
+      "award": 1500,
+      "owner": "melee",
+      "chain": [
+        "weapon_knife_stiletto",
+        "melee_unusual",
+        "melee"
+      ],
+      "prefab": "melee_unusual"
+    },
+    "weapon_knife_survival_bowie": {
+      "award": 1500,
+      "owner": "melee",
+      "chain": [
+        "weapon_knife_survival_bowie",
+        "melee_unusual",
+        "melee"
+      ],
+      "prefab": "melee_unusual"
+    },
+    "weapon_knife_t": {
+      "award": 1500,
+      "owner": "melee",
+      "chain": [
+        "weapon_knife_t",
+        "melee"
+      ],
+      "prefab": "melee"
+    },
+    "weapon_knife_tactical": {
+      "award": 1500,
+      "owner": "melee",
+      "chain": [
+        "weapon_knife_tactical",
+        "melee_unusual",
+        "melee"
+      ],
+      "prefab": "melee_unusual"
+    },
+    "weapon_knife_ursus": {
+      "award": 1500,
+      "owner": "melee",
+      "chain": [
+        "weapon_knife_ursus",
+        "melee_unusual",
+        "melee"
+      ],
+      "prefab": "melee_unusual"
+    },
+    "weapon_knife_widowmaker": {
+      "award": 1500,
+      "owner": "melee",
+      "chain": [
+        "weapon_knife_widowmaker",
+        "melee_unusual",
+        "melee"
+      ],
+      "prefab": "melee_unusual"
+    },
+    "weapon_knifegg": {
+      "award": 1500,
+      "owner": "melee",
+      "chain": [
+        "weapon_knifegg",
+        "melee"
+      ],
+      "prefab": "melee"
+    },
+    "weapon_m249": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_m249",
+        "weapon_m249_prefab",
+        "machinegun",
+        "primary",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_m249_prefab"
+    },
+    "weapon_m4a1": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_m4a1",
+        "weapon_m4a1_prefab",
+        "rifle",
+        "primary",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_m4a1_prefab"
+    },
+    "weapon_m4a1_silencer": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_m4a1_silencer",
+        "weapon_m4a1_silencer_prefab",
+        "rifle",
+        "primary",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_m4a1_silencer_prefab"
+    },
+    "weapon_mac10": {
+      "award": 600,
+      "owner": "weapon_mac10_prefab",
+      "chain": [
+        "weapon_mac10",
+        "weapon_mac10_prefab"
+      ],
+      "prefab": "weapon_mac10_prefab"
+    },
+    "weapon_mag7": {
+      "award": 900,
+      "owner": "weapon_mag7_prefab",
+      "chain": [
+        "weapon_mag7",
+        "weapon_mag7_prefab"
+      ],
+      "prefab": "weapon_mag7_prefab"
+    },
+    "weapon_melee": {
+      "award": 1500,
+      "owner": "melee",
+      "chain": [
+        "weapon_melee",
+        "weapon_melee_prefab_noncustomizable",
+        "weapon_melee_prefab",
+        "melee"
+      ],
+      "prefab": "weapon_melee_prefab_noncustomizable"
+    },
+    "weapon_molotov": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_molotov",
+        "weapon_molotov_prefab",
+        "weapon_fire_grenade_prefab",
+        "grenade",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_molotov_prefab"
+    },
+    "weapon_mp5sd": {
+      "award": 600,
+      "owner": "weapon_mp5sd_prefab",
+      "chain": [
+        "weapon_mp5sd",
+        "weapon_mp5sd_prefab"
+      ],
+      "prefab": "weapon_mp5sd_prefab"
+    },
+    "weapon_mp7": {
+      "award": 600,
+      "owner": "weapon_mp7_prefab",
+      "chain": [
+        "weapon_mp7",
+        "weapon_mp7_prefab"
+      ],
+      "prefab": "weapon_mp7_prefab"
+    },
+    "weapon_mp9": {
+      "award": 600,
+      "owner": "weapon_mp9_prefab",
+      "chain": [
+        "weapon_mp9",
+        "weapon_mp9_prefab"
+      ],
+      "prefab": "weapon_mp9_prefab"
+    },
+    "weapon_negev": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_negev",
+        "weapon_negev_prefab",
+        "machinegun",
+        "primary",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_negev_prefab"
+    },
+    "weapon_nova": {
+      "award": 900,
+      "owner": "weapon_nova_prefab",
+      "chain": [
+        "weapon_nova",
+        "weapon_nova_prefab"
+      ],
+      "prefab": "weapon_nova_prefab"
+    },
+    "weapon_p250": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_p250",
+        "weapon_p250_prefab",
+        "secondary",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_p250_prefab"
+    },
+    "weapon_p90": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_p90",
+        "weapon_p90_prefab",
+        "smg",
+        "primary",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_p90_prefab"
+    },
+    "weapon_revolver": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_revolver",
+        "weapon_revolver_prefab",
+        "secondary",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_revolver_prefab"
+    },
+    "weapon_sawedoff": {
+      "award": 900,
+      "owner": "weapon_sawedoff_prefab",
+      "chain": [
+        "weapon_sawedoff",
+        "weapon_sawedoff_prefab"
+      ],
+      "prefab": "weapon_sawedoff_prefab"
+    },
+    "weapon_scar20": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_scar20",
+        "weapon_scar20_prefab",
+        "sniper_rifle",
+        "primary",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_scar20_prefab"
+    },
+    "weapon_sg556": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_sg556",
+        "weapon_sg556_prefab",
+        "rifle",
+        "primary",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_sg556_prefab"
+    },
+    "weapon_shield": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_shield",
+        "weapon_shield_prefab",
+        "equipment",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_shield_prefab"
+    },
+    "weapon_smokegrenade": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_smokegrenade",
+        "weapon_smokegrenade_prefab",
+        "grenade",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_smokegrenade_prefab"
+    },
+    "weapon_snowball": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_snowball",
+        "weapon_snowball_prefab",
+        "grenade",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_snowball_prefab"
+    },
+    "weapon_spanner": {
+      "award": 1500,
+      "owner": "melee",
+      "chain": [
+        "weapon_spanner",
+        "weapon_melee_prefab_noncustomizable",
+        "weapon_melee_prefab",
+        "melee"
+      ],
+      "prefab": "weapon_melee_prefab_noncustomizable"
+    },
+    "weapon_ssg08": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_ssg08",
+        "weapon_ssg08_prefab",
+        "sniper_rifle",
+        "primary",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_ssg08_prefab"
+    },
+    "weapon_tablet": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_tablet",
+        "weapon_tablet_prefab",
+        "equipment",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_tablet_prefab"
+    },
+    "weapon_tagrenade": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_tagrenade",
+        "weapon_tagrenade_prefab",
+        "grenade",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_tagrenade_prefab"
+    },
+    "weapon_taser": {
+      "award": 0,
+      "owner": "weapon_taser_prefab",
+      "chain": [
+        "weapon_taser",
+        "weapon_taser_prefab"
+      ],
+      "prefab": "weapon_taser_prefab"
+    },
+    "weapon_tec9": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_tec9",
+        "weapon_tec9_prefab",
+        "secondary",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_tec9_prefab"
+    },
+    "weapon_ump45": {
+      "award": 600,
+      "owner": "weapon_ump45_prefab",
+      "chain": [
+        "weapon_ump45",
+        "weapon_ump45_prefab"
+      ],
+      "prefab": "weapon_ump45_prefab"
+    },
+    "weapon_usp_silencer": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_usp_silencer",
+        "weapon_usp_silencer_prefab",
+        "secondary",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_usp_silencer_prefab"
+    },
+    "weapon_xm1014": {
+      "award": 900,
+      "owner": "weapon_xm1014_prefab",
+      "chain": [
+        "weapon_xm1014",
+        "weapon_xm1014_prefab"
+      ],
+      "prefab": "weapon_xm1014_prefab"
+    },
+    "weapon_zone_repulsor": {
+      "award": 300,
+      "owner": "statted_item_base",
+      "chain": [
+        "weapon_zone_repulsor",
+        "weapon_zone_repulsor_prefab",
+        "equipment",
+        "weapon_base",
+        "statted_item_base"
+      ],
+      "prefab": "weapon_zone_repulsor_prefab"
+    }
+  },
+  "notWeapons": [],
+  "modeConfigCrossCheck": [
+    {
+      "file": "csgo/cfg/gamemode_competitive.cfg",
+      "bytes": 4542,
+      "sha256": "f76ccb9f1eee99a66a6ee0a9e1debf2b31d7d0bc3f4516b4b52f1b7985912fd5",
+      "killDefault": 300,
+      "killFactor": 1.0,
+      "restates": true
+    },
+    {
+      "file": "csgo/cfg/gamemode_competitive_short.cfg",
+      "bytes": 116,
+      "sha256": "e7bb7fd3f35ae3b3fb1ad34fffd9ec53c16fbdd6acd56ddebff60d52311d28ad",
+      "killDefault": null,
+      "killFactor": null,
+      "restates": false
+    }
+  ],
+  "note": "The award is the value the shipped file states for the weapon, or the `kill award` of the prefab its own chain reaches. Nothing here is a default chosen by this port: a weapon whose chain states no award inherits `statted_item_base`'s 300, which is also what both shipped competitive configs set `cash_player_killed_enemy_default` to."
+}

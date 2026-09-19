@@ -1,0 +1,703 @@
+{
+  "format": "source-pistol-audio-v1",
+  "sourceApp": 740,
+  "build": 12426148,
+  "weapons": {
+    "glock": {
+      "records": [
+        {
+          "key": "source_glock_0",
+          "event": "default.nearlyempty",
+          "url": "/source/csgo-12426148/glock-t/sounds/weapons/lowammo_01.wav",
+          "sha256": "be7421385f4c64e2570d2bafdb0a98ffaf6a803b655a27792b31909660eb7636",
+          "bytes": 45700,
+          "pitch": [
+            100.0,
+            100.0
+          ],
+          "volume": [
+            0.3,
+            0.3
+          ]
+        },
+        {
+          "key": "source_glock_1",
+          "event": "weapon.weaponmove1",
+          "url": "/source/csgo-12426148/glock-t/sounds/weapons/movement1.wav",
+          "sha256": "999130b5319c838ccc9cbdf342b3e3f95175b9e56aa631af04ef8632bc2b1840",
+          "bytes": 48398,
+          "pitch": [
+            98.0,
+            101.0
+          ],
+          "volume": [
+            0.05,
+            0.1
+          ]
+        },
+        {
+          "key": "source_glock_2",
+          "event": "weapon.weaponmove3",
+          "url": "/source/csgo-12426148/glock-t/sounds/weapons/movement3.wav",
+          "sha256": "aae8b21d1899d44a587354ff953df83f252ff4090d1840b173936dc4f565e931",
+          "bytes": 70670,
+          "pitch": [
+            98.0,
+            101.0
+          ],
+          "volume": [
+            0.05,
+            0.1
+          ]
+        },
+        {
+          "key": "source_glock_3",
+          "event": "weapon_glock.clipin",
+          "url": "/source/csgo-12426148/glock-t/sounds/weapons/glock18/glock_clipin.wav",
+          "sha256": "c92fb13e153ea91594fc63733c5d2950da45021d7eff609da6ac3e32ef9bca51",
+          "bytes": 26616,
+          "pitch": [
+            98.0,
+            101.0
+          ],
+          "volume": [
+            0.5,
+            0.7
+          ]
+        },
+        {
+          "key": "source_glock_4",
+          "event": "weapon_glock.clipout",
+          "url": "/source/csgo-12426148/glock-t/sounds/weapons/glock18/glock_clipout.wav",
+          "sha256": "092f655ba5f88d52da4195458ad6778952184c8a1d328582c1ff02043300e72e",
+          "bytes": 26616,
+          "pitch": [
+            98.0,
+            101.0
+          ],
+          "volume": [
+            0.5,
+            0.7
+          ]
+        },
+        {
+          "key": "source_glock_5",
+          "event": "weapon_glock.draw",
+          "url": "/source/csgo-12426148/glock-t/sounds/weapons/glock18/glock_draw.wav",
+          "sha256": "d0bfc71b2f4540efe73184c93010b67ffca9455237a8ac2aa7d74a8cc22126a4",
+          "bytes": 87350,
+          "pitch": [
+            98.0,
+            101.0
+          ],
+          "volume": [
+            0.15,
+            0.25
+          ]
+        },
+        {
+          "key": "source_glock_6",
+          "event": "weapon_glock.single",
+          "url": "/source/csgo-12426148/glock-t/sounds/weapons/glock18/glock_01.wav",
+          "sha256": "3b865d45d9b8461fd571fa8af1a24c7c5b3bc66c22057729cd471f4190daa87e",
+          "bytes": 292492,
+          "pitch": [
+            98.0,
+            101.0
+          ],
+          "volume": [
+            0.8,
+            0.8
+          ]
+        },
+        {
+          "key": "source_glock_7",
+          "event": "weapon_glock.single",
+          "url": "/source/csgo-12426148/glock-t/sounds/weapons/glock18/glock_02.wav",
+          "sha256": "bf206b187625e09ef4c68cae609c1e6b96770f0f1259d9f015f2c59b09d8266c",
+          "bytes": 294130,
+          "pitch": [
+            98.0,
+            101.0
+          ],
+          "volume": [
+            0.8,
+            0.8
+          ]
+        },
+        {
+          "key": "source_glock_8",
+          "event": "weapon_glock.singledistant",
+          "url": "/source/csgo-12426148/glock-t/sounds/weapons/glock18/glock18-1-distant.wav",
+          "sha256": "46f5909a39f11930199429969b5f14148d0590b0815d8817acd5935cd198c75f",
+          "bytes": 202972,
+          "pitch": [
+            99.0,
+            101.0
+          ],
+          "volume": [
+            0.7,
+            0.7
+          ]
+        },
+        {
+          "key": "source_glock_9",
+          "event": "weapon_glock.slideback",
+          "url": "/source/csgo-12426148/glock-t/sounds/weapons/glock18/glock_slideback.wav",
+          "sha256": "7cc666bb91cb688ca686f8289c85048dbf4cdcdb434b896cd9598716312f4988",
+          "bytes": 22094,
+          "pitch": [
+            98.0,
+            101.0
+          ],
+          "volume": [
+            0.5,
+            0.7
+          ]
+        },
+        {
+          "key": "source_glock_10",
+          "event": "weapon_glock.sliderelease",
+          "url": "/source/csgo-12426148/glock-t/sounds/weapons/glock18/glock_sliderelease.wav",
+          "sha256": "415174b884ef70dc565e5ac114795fb37bfd47ea97e978c687a8c99b437facb4",
+          "bytes": 29762,
+          "pitch": [
+            98.0,
+            101.0
+          ],
+          "volume": [
+            0.5,
+            0.7
+          ]
+        }
+      ],
+      "timeline": {
+        "glock_idle": [],
+        "glock_firesingle": [],
+        "glock_firelast": [],
+        "glock_draw": [
+          {
+            "time": 0.0,
+            "event": "weapon_glock.draw"
+          },
+          {
+            "time": 0.400000011920929,
+            "event": "weapon_glock.slideback"
+          },
+          {
+            "time": 0.5666666507720948,
+            "event": "weapon_glock.sliderelease"
+          }
+        ],
+        "glock_reload": [
+          {
+            "time": 0.40000000993410745,
+            "event": "weapon_glock.clipout"
+          },
+          {
+            "time": 0.8333333174387614,
+            "event": "weapon_glock.clipin"
+          },
+          {
+            "time": 1.4666667143503824,
+            "event": "weapon_glock.slideback"
+          },
+          {
+            "time": 1.6666666348775228,
+            "event": "weapon_glock.sliderelease"
+          }
+        ],
+        "lookat01": [
+          {
+            "time": 0.06666666499028603,
+            "event": "weapon.weaponmove1"
+          },
+          {
+            "time": 5.833333504199982,
+            "event": "weapon.weaponmove3"
+          }
+        ]
+      }
+    },
+    "usp": {
+      "records": [
+        {
+          "key": "source_usp_0",
+          "event": "default.nearlyempty",
+          "url": "/source/csgo-12426148/usp-t/sounds/weapons/lowammo_01.wav",
+          "sha256": "be7421385f4c64e2570d2bafdb0a98ffaf6a803b655a27792b31909660eb7636",
+          "bytes": 45700,
+          "pitch": [
+            100.0,
+            100.0
+          ],
+          "volume": [
+            0.3,
+            0.3
+          ]
+        },
+        {
+          "key": "source_usp_1",
+          "event": "weapon.weaponmove1",
+          "url": "/source/csgo-12426148/usp-t/sounds/weapons/movement1.wav",
+          "sha256": "999130b5319c838ccc9cbdf342b3e3f95175b9e56aa631af04ef8632bc2b1840",
+          "bytes": 48398,
+          "pitch": [
+            98.0,
+            101.0
+          ],
+          "volume": [
+            0.05,
+            0.1
+          ]
+        },
+        {
+          "key": "source_usp_2",
+          "event": "weapon.weaponmove3",
+          "url": "/source/csgo-12426148/usp-t/sounds/weapons/movement3.wav",
+          "sha256": "aae8b21d1899d44a587354ff953df83f252ff4090d1840b173936dc4f565e931",
+          "bytes": 70670,
+          "pitch": [
+            98.0,
+            101.0
+          ],
+          "volume": [
+            0.05,
+            0.1
+          ]
+        },
+        {
+          "key": "source_usp_3",
+          "event": "weapon_hkp2000.clipin",
+          "url": "/source/csgo-12426148/usp-t/sounds/weapons/hkp2000/hkp2000_clipin.wav",
+          "sha256": "3f2db1c867d9a3dcbb7ab7d5984002e01a3c6a20ed52676a13513e9858e97d04",
+          "bytes": 22954,
+          "pitch": [
+            97.0,
+            105.0
+          ],
+          "volume": [
+            0.5,
+            0.7
+          ]
+        },
+        {
+          "key": "source_usp_4",
+          "event": "weapon_hkp2000.clipout",
+          "url": "/source/csgo-12426148/usp-t/sounds/weapons/hkp2000/hkp2000_clipout.wav",
+          "sha256": "634bcd4629f6f2d0969e1859472043c5ec5812fd7a3ca87a600f6b2733a5d65f",
+          "bytes": 22732,
+          "pitch": [
+            97.0,
+            105.0
+          ],
+          "volume": [
+            0.5,
+            0.7
+          ]
+        },
+        {
+          "key": "source_usp_5",
+          "event": "weapon_hkp2000.draw",
+          "url": "/source/csgo-12426148/usp-t/sounds/weapons/hkp2000/hkp2000_draw.wav",
+          "sha256": "d0bfc71b2f4540efe73184c93010b67ffca9455237a8ac2aa7d74a8cc22126a4",
+          "bytes": 87350,
+          "pitch": [
+            97.0,
+            105.0
+          ],
+          "volume": [
+            0.3,
+            0.3
+          ]
+        },
+        {
+          "key": "source_usp_6",
+          "event": "weapon_hkp2000.slideback",
+          "url": "/source/csgo-12426148/usp-t/sounds/weapons/hkp2000/hkp2000_slideback.wav",
+          "sha256": "193c30e5373f9367c8b4808ced2fff31edaa03a68e4fc124406e21358eb7f420",
+          "bytes": 28880,
+          "pitch": [
+            97.0,
+            105.0
+          ],
+          "volume": [
+            0.5,
+            0.7
+          ]
+        },
+        {
+          "key": "source_usp_7",
+          "event": "weapon_hkp2000.sliderelease",
+          "url": "/source/csgo-12426148/usp-t/sounds/weapons/hkp2000/hkp2000_sliderelease.wav",
+          "sha256": "78fcd53de9cb37818777570261926a7045cf9f7b22b0b61dfa2656b15db42956",
+          "bytes": 13840,
+          "pitch": [
+            97.0,
+            105.0
+          ],
+          "volume": [
+            0.5,
+            0.7
+          ]
+        },
+        {
+          "key": "source_usp_8",
+          "event": "weapon_usp.silencedshot",
+          "url": "/source/csgo-12426148/usp-t/sounds/weapons/usp/usp_01.wav",
+          "sha256": "39779e6c80fbd1ecbbcc2a9bf2cf379a72917538c4c41beb9cc4de64cba89f6e",
+          "bytes": 286390,
+          "pitch": [
+            100,
+            100
+          ],
+          "volume": [
+            0.7,
+            0.7
+          ]
+        },
+        {
+          "key": "source_usp_9",
+          "event": "weapon_usp.silencedshot",
+          "url": "/source/csgo-12426148/usp-t/sounds/weapons/usp/usp_02.wav",
+          "sha256": "c289655ba36406b64021115c1cdd1f9a5e43f1dc7f042aad831f833a82479fd6",
+          "bytes": 286466,
+          "pitch": [
+            100,
+            100
+          ],
+          "volume": [
+            0.7,
+            0.7
+          ]
+        },
+        {
+          "key": "source_usp_10",
+          "event": "weapon_usp.silencedshot",
+          "url": "/source/csgo-12426148/usp-t/sounds/weapons/usp/usp_03.wav",
+          "sha256": "b7db2b7d8cc0efeebb12951df86ee4bf8842b7a5abd31369f1ba6e021bd07a39",
+          "bytes": 286466,
+          "pitch": [
+            100,
+            100
+          ],
+          "volume": [
+            0.7,
+            0.7
+          ]
+        },
+        {
+          "key": "source_usp_11",
+          "event": "weapon_usp.silencerscrew1",
+          "url": "/source/csgo-12426148/usp-t/sounds/weapons/usp/usp_silencer_screw1.wav",
+          "sha256": "4c98f0c980f5fba07d226c04c32afcea641da7d95d8e4e57e3865365953e9abb",
+          "bytes": 28570,
+          "pitch": [
+            100,
+            100
+          ],
+          "volume": [
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "key": "source_usp_12",
+          "event": "weapon_usp.silencerscrew2",
+          "url": "/source/csgo-12426148/usp-t/sounds/weapons/usp/usp_silencer_screw2.wav",
+          "sha256": "9ae6523bbb547744d4324f017dcd256c313c68d0efa8aff1e8f2c9c0036690cc",
+          "bytes": 27622,
+          "pitch": [
+            100,
+            100
+          ],
+          "volume": [
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "key": "source_usp_13",
+          "event": "weapon_usp.silencerscrew3",
+          "url": "/source/csgo-12426148/usp-t/sounds/weapons/usp/usp_silencer_screw3.wav",
+          "sha256": "4a9282f4c8dad38b10a391ab2e6d80415c64821cd9eca800e689955fa2413d28",
+          "bytes": 29518,
+          "pitch": [
+            100,
+            100
+          ],
+          "volume": [
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "key": "source_usp_14",
+          "event": "weapon_usp.silencerscrew4",
+          "url": "/source/csgo-12426148/usp-t/sounds/weapons/usp/usp_silencer_screw4.wav",
+          "sha256": "2f07092eb31115cb2d578982e16de2155fd35aa5d998d048a2f75265d3481eba",
+          "bytes": 32046,
+          "pitch": [
+            100,
+            100
+          ],
+          "volume": [
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "key": "source_usp_15",
+          "event": "weapon_usp.silencerscrew5",
+          "url": "/source/csgo-12426148/usp-t/sounds/weapons/usp/usp_silencer_screw5.wav",
+          "sha256": "e775fe532d0d10830944bb922f30c10bab355863fc6ebf00f30f74a81a3351bf",
+          "bytes": 28562,
+          "pitch": [
+            100,
+            100
+          ],
+          "volume": [
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "key": "source_usp_16",
+          "event": "weapon_usp.silencerscrewonstart",
+          "url": "/source/csgo-12426148/usp-t/sounds/weapons/usp/usp_silencer_screw_on_start.wav",
+          "sha256": "56a3743a87008626eeaae5f267463c1898a5910d7e88ac1b086396b402887b72",
+          "bytes": 50310,
+          "pitch": [
+            100,
+            100
+          ],
+          "volume": [
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "key": "source_usp_17",
+          "event": "weapon_usp.silencerweaponmove1",
+          "url": "/source/csgo-12426148/usp-t/sounds/weapons/movement1.wav",
+          "sha256": "999130b5319c838ccc9cbdf342b3e3f95175b9e56aa631af04ef8632bc2b1840",
+          "bytes": 48398,
+          "pitch": [
+            98.0,
+            101.0
+          ],
+          "volume": [
+            0.05,
+            0.1
+          ]
+        },
+        {
+          "key": "source_usp_18",
+          "event": "weapon_usp.silencerweaponmove3",
+          "url": "/source/csgo-12426148/usp-t/sounds/weapons/movement3.wav",
+          "sha256": "aae8b21d1899d44a587354ff953df83f252ff4090d1840b173936dc4f565e931",
+          "bytes": 70670,
+          "pitch": [
+            98.0,
+            101.0
+          ],
+          "volume": [
+            0.05,
+            0.1
+          ]
+        },
+        {
+          "key": "source_usp_19",
+          "event": "weapon_usp.single",
+          "url": "/source/csgo-12426148/usp-t/sounds/weapons/usp/usp_unsilenced_01.wav",
+          "sha256": "5c540332524856ac0935d18fdcb54b9552becc3705d8d1ee1bc5cdcd466a063f",
+          "bytes": 370680,
+          "pitch": [
+            100.0,
+            100.0
+          ],
+          "volume": [
+            0.8,
+            0.8
+          ]
+        },
+        {
+          "key": "source_usp_20",
+          "event": "weapon_usp.single",
+          "url": "/source/csgo-12426148/usp-t/sounds/weapons/usp/usp_unsilenced_02.wav",
+          "sha256": "fc96dc9651c0e27706d96ccf5b2b110d4d1d2e0a8883f279a3de67a37dcdf756",
+          "bytes": 407160,
+          "pitch": [
+            100.0,
+            100.0
+          ],
+          "volume": [
+            0.8,
+            0.8
+          ]
+        },
+        {
+          "key": "source_usp_21",
+          "event": "weapon_usp.single",
+          "url": "/source/csgo-12426148/usp-t/sounds/weapons/usp/usp_unsilenced_03.wav",
+          "sha256": "74014641c026966b4e2498c58ee79c6816803b4fa70eee74662cf9110edad96e",
+          "bytes": 395640,
+          "pitch": [
+            100.0,
+            100.0
+          ],
+          "volume": [
+            0.8,
+            0.8
+          ]
+        },
+        {
+          "key": "source_usp_22",
+          "event": "weapon_usp.singledistant",
+          "url": "/source/csgo-12426148/usp-t/sounds/weapons/usp/usp_unsil-1-distant.wav",
+          "sha256": "a4605b061f28a9101a0d3f265377d35dee290808135c2ae8b9e7f03884689cfb",
+          "bytes": 173596,
+          "pitch": [
+            100,
+            100
+          ],
+          "volume": [
+            0.8,
+            0.8
+          ]
+        }
+      ],
+      "timeline": {
+        "idle": [],
+        "attach": [
+          {
+            "time": 0.06666666641831398,
+            "event": "weapon_usp.silencerweaponmove1"
+          },
+          {
+            "time": 1.0666666626930237,
+            "event": "weapon_usp.silencerscrewonstart"
+          },
+          {
+            "time": 1.8333333084980645,
+            "event": "weapon_usp.silencerscrew1"
+          },
+          {
+            "time": 2.299999937415123,
+            "event": "weapon_usp.silencerscrew2"
+          },
+          {
+            "time": 2.666666656732559,
+            "event": "weapon_usp.silencerscrew3"
+          },
+          {
+            "time": 3.033333232005437,
+            "event": "weapon_usp.silencerscrew4"
+          },
+          {
+            "time": 3.3000000417232513,
+            "event": "weapon_usp.silencerscrew5"
+          },
+          {
+            "time": 3.7333333194255824,
+            "event": "weapon_usp.silencerweaponmove3"
+          }
+        ],
+        "detach": [
+          {
+            "time": 0.2999999988824129,
+            "event": "weapon_usp.silencerweaponmove1"
+          },
+          {
+            "time": 0.9333333298563956,
+            "event": "weapon_usp.silencerscrew1"
+          },
+          {
+            "time": 1.5999999940395355,
+            "event": "weapon_usp.silencerscrew2"
+          },
+          {
+            "time": 2.000000064571698,
+            "event": "weapon_usp.silencerscrew3"
+          },
+          {
+            "time": 2.3333332886298495,
+            "event": "weapon_usp.silencerscrew4"
+          },
+          {
+            "time": 2.666666656732559,
+            "event": "weapon_usp.silencerscrew5"
+          },
+          {
+            "time": 3.0999999344348907,
+            "event": "weapon_usp.silencerscrew1"
+          },
+          {
+            "time": 3.8000000218550363,
+            "event": "weapon_usp.silencerweaponmove3"
+          }
+        ],
+        "shoot1": [],
+        "shoot2": [],
+        "shoot3": [],
+        "shoot_empty": [],
+        "reload": [
+          {
+            "time": 0.4000000084439913,
+            "event": "weapon_hkp2000.clipout"
+          },
+          {
+            "time": 0.8333333482344945,
+            "event": "weapon_hkp2000.clipin"
+          },
+          {
+            "time": 1.4666667083899179,
+            "event": "weapon_hkp2000.slideback"
+          },
+          {
+            "time": 1.666666696468989,
+            "event": "weapon_hkp2000.sliderelease"
+          }
+        ],
+        "draw": [
+          {
+            "time": 0.0,
+            "event": "weapon_hkp2000.draw"
+          },
+          {
+            "time": 0.2666666805744171,
+            "event": "weapon_hkp2000.slideback"
+          },
+          {
+            "time": 0.46666666865348816,
+            "event": "weapon_hkp2000.sliderelease"
+          }
+        ],
+        "draw_silenced": [
+          {
+            "time": 0.0,
+            "event": "weapon_hkp2000.draw"
+          },
+          {
+            "time": 0.2666666805744171,
+            "event": "weapon_hkp2000.slideback"
+          },
+          {
+            "time": 0.46666666865348816,
+            "event": "weapon_hkp2000.sliderelease"
+          }
+        ],
+        "lookat01": [
+          {
+            "time": 0.06666666499028603,
+            "event": "weapon.weaponmove1"
+          },
+          {
+            "time": 5.833333504199982,
+            "event": "weapon.weaponmove3"
+          }
+        ]
+      }
+    }
+  }
+}

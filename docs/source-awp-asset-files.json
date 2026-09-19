@@ -1,0 +1,860 @@
+{
+  "format": "source-awp-asset-handoff-v1",
+  "sourceApp": 740,
+  "sourceBuild": 12426148,
+  "baseCheckpoint": "156ab6cb6897a93d89b3bd34bb9cd0b24fe350fa",
+  "assetRoots": [
+    "public/source/csgo-12426148/awp-t",
+    "public/source/csgo-12426148/awp-ct",
+    "public/source/csgo-12426148/awp-world",
+    ".reference-assets/source-exports/awp-candidates"
+  ],
+  "files": [
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/audit.json",
+      "bytes": 6847507,
+      "sha256": "29be7033f28116e604d8ff7591de7ea7dfc91c019c085cc3ce2ea0b66ef1697c"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/gltf-structure.json",
+      "bytes": 712326,
+      "sha256": "c1438c442a305938c8eed5349afa5c893f21ac35e1cbda7d721e43223adbe486"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/materials/ct_arms.vmt",
+      "bytes": 446,
+      "sha256": "4538ec6e78a3b24229aa3a9982f0c07189126125ba3ae62f912b8ef12889281e"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/materials/ct_arms_idf.vmt",
+      "bytes": 374,
+      "sha256": "f8b076d12b38921887e144b2e75a6ad94f8c6e30784d9495847c206b3130a0f6"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/materials/ct_base_glove.vmt",
+      "bytes": 692,
+      "sha256": "feff3dd059c1d785817f49cb619fdc001ebc78d4c5b60a78b5e5f73f708e2656"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/metadata.json",
+      "bytes": 320157,
+      "sha256": "6ce66300b5473c79cf545e99c456e3cc0ca89a9c344b96743aa636e60f80a206"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/original-frames.json",
+      "bytes": 3232375,
+      "sha256": "9151e22bffab6715e51c90c6756d483922e7739e9e41a745a48e4345dcd84da4"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/sounds/weapons/awp/awp_01.wav",
+      "bytes": 728408,
+      "sha256": "4bccb603bea8bcd39e287a7959b5bb7e8ed7c0aabe74755715b169482d6fa8b0"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/sounds/weapons/awp/awp_02.wav",
+      "bytes": 728484,
+      "sha256": "ccb3d3b19d48efa5e81cd1bf436fc90df8247cb8fc0df7cb6050d5354bdee081"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/sounds/weapons/awp/awp_boltback.wav",
+      "bytes": 29408,
+      "sha256": "2ee1d6f1cc4e2b4e3933ef09e285c0b1a09f1f8130d9f4b8afe94281e989f2b8"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/sounds/weapons/awp/awp_boltforward.wav",
+      "bytes": 18978,
+      "sha256": "8a9ec313fdd18eb719c3b87fe6d2cdd0387acc2fea03d8358cb19cee718fd11b"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/sounds/weapons/awp/awp_cliphit.wav",
+      "bytes": 23544,
+      "sha256": "584cc4dacca962c55f924b87ec3c8713379a95bb00d8dabd113eaa68358221e3"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/sounds/weapons/awp/awp_clipin.wav",
+      "bytes": 26558,
+      "sha256": "eca44d8ca1da8c1c3b3a8e109d2932d07dd6277aeaa6f9f0d96d615c3c88a5af"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/sounds/weapons/awp/awp_clipout.wav",
+      "bytes": 12752,
+      "sha256": "83673ef2f05053d155664307bd73a372a151460489aa3b88e284b1063e01b123"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/sounds/weapons/awp/awp_distant.wav",
+      "bytes": 890128,
+      "sha256": "eb4abcaa93d8d9f998ab2499b5c88872db319853040c29225f3090f692f0359b"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/sounds/weapons/awp/awp_draw.wav",
+      "bytes": 64994,
+      "sha256": "1a8bf18c3171df1d2c2a62f1f8b1935717acf5d2149abce1beb5d2dba9649897"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/sounds/weapons/awp/zoom.wav",
+      "bytes": 31610,
+      "sha256": "d95e891904e65d97f8b30e27a766f44bd2b61f6d8c1a9af489a3186bf3e8521b"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/sounds/weapons/clipempty_rifle.wav",
+      "bytes": 11480,
+      "sha256": "c265a1b30ac073153bf196a8546e7de5dcf7c8d8f2c055ec4f9f6963200a4d81"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/sounds/weapons/lowammo_01.wav",
+      "bytes": 45700,
+      "sha256": "be7421385f4c64e2570d2bafdb0a98ffaf6a803b655a27792b31909660eb7636"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/sounds/weapons/movement1.wav",
+      "bytes": 48398,
+      "sha256": "999130b5319c838ccc9cbdf342b3e3f95175b9e56aa631af04ef8632bc2b1840"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/sounds/weapons/movement2.wav",
+      "bytes": 51214,
+      "sha256": "939f3232142544d2a914436429b1c2c118c77f0cb0667ff9d7d9a744080ac881"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/sounds/weapons/movement3.wav",
+      "bytes": 70670,
+      "sha256": "aae8b21d1899d44a587354ff953df83f252ff4090d1840b173936dc4f565e931"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/textures/awp-rgba.png",
+      "bytes": 5241981,
+      "sha256": "7b15561dce06273b11c1705350b9e7b60fbe73f4dd6b4409b411b610c3e94752"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/textures/awp_exponent-rgba.png",
+      "bytes": 65027,
+      "sha256": "19d37ce086d5ac75e97719ffb76714a15e3df5336d29b3bbefb6a5413e0e804a"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/textures/ct_arms-rgba.png",
+      "bytes": 3073070,
+      "sha256": "8079c96383ce0b6437d256037c4ea375b3eb77c7d5df766879a23ce99d180f5b"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/textures/ct_arms_idf-rgba.png",
+      "bytes": 2671033,
+      "sha256": "931fe8bdc5fc7879a66430a786ec706bc7a119e5868eb315104ae6398369dc14"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/textures/ct_arms_normal-rgba.png",
+      "bytes": 2443767,
+      "sha256": "da3967e612b1eef5e602fb2de2c90775c0fd3adb985edeff385471ca4bfa25f1"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/textures/ct_base_glove_color-rgba.png",
+      "bytes": 2101764,
+      "sha256": "025c4f541318670cec61aa2739a5832769d6aa99562eaad6290060330ff23727"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/textures/ct_base_glove_exp-rgba.png",
+      "bytes": 1720007,
+      "sha256": "335b519b92c9bddef787e5ddafd5a50babf4ca781cadec2349120881c802e34c"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/textures/ct_base_glove_normal-rgba.png",
+      "bytes": 2510347,
+      "sha256": "c3760a0df0eb6d9e479a096845d3e7371e60cfd65a74aca1d87d4ea50363d636"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/textures/scope-rgba.png",
+      "bytes": 510825,
+      "sha256": "7c703fd61a31d1ee1a6fb02818c6f1ceed0e257b42b02ae8e62910d79f1f8d57"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/textures/scope_normal-rgba.png",
+      "bytes": 644724,
+      "sha256": "8d0bcee5dc1d11fcf9874a1398e48f43fdd2b32f1f0d0213dc9781a0f0cfaca6"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/three-readback.json",
+      "bytes": 5534,
+      "sha256": "47ff7c1b1901a62bec36c55c3200827f9c4d945a627b0e6b193f61728bfb2836"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-ct/v_snip_awp-with-arms-source-unit.glb",
+      "bytes": 23881128,
+      "sha256": "96db9de332b95c840fb35e9b20e22ba6410ca5a6f2adb5fd4cfeb34f45ea5a03"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/audit.json",
+      "bytes": 4853918,
+      "sha256": "19c84df4ae32bb4fda45498d62bf1e5008e01e522645e954bb5f1654c5f3e1c1"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/gltf-structure.json",
+      "bytes": 712977,
+      "sha256": "f3e5abe4f904f2d68f78bfe70af3db73111ce70ab4e4249bd5ac6c8bac0045af"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/materials/t_base_fingerless_glove.vmt",
+      "bytes": 722,
+      "sha256": "0c9336113c82de6cd35d0e5e7ecba74515259aa998da09f3907e271d4734aaf3"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/materials/v_model_base_arms.vmt",
+      "bytes": 732,
+      "sha256": "b5a64134d282115119b9e550d253ee33579d985232d7cab153e3f81aef149232"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/metadata.json",
+      "bytes": 320663,
+      "sha256": "afbbe019574fed4f6bb30323b61fa58fe7f533939f7671e1cc0ea1c8b25ac909"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/original-frames.json",
+      "bytes": 3232375,
+      "sha256": "9151e22bffab6715e51c90c6756d483922e7739e9e41a745a48e4345dcd84da4"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/sounds/weapons/awp/awp_01.wav",
+      "bytes": 728408,
+      "sha256": "4bccb603bea8bcd39e287a7959b5bb7e8ed7c0aabe74755715b169482d6fa8b0"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/sounds/weapons/awp/awp_02.wav",
+      "bytes": 728484,
+      "sha256": "ccb3d3b19d48efa5e81cd1bf436fc90df8247cb8fc0df7cb6050d5354bdee081"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/sounds/weapons/awp/awp_boltback.wav",
+      "bytes": 29408,
+      "sha256": "2ee1d6f1cc4e2b4e3933ef09e285c0b1a09f1f8130d9f4b8afe94281e989f2b8"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/sounds/weapons/awp/awp_boltforward.wav",
+      "bytes": 18978,
+      "sha256": "8a9ec313fdd18eb719c3b87fe6d2cdd0387acc2fea03d8358cb19cee718fd11b"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/sounds/weapons/awp/awp_cliphit.wav",
+      "bytes": 23544,
+      "sha256": "584cc4dacca962c55f924b87ec3c8713379a95bb00d8dabd113eaa68358221e3"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/sounds/weapons/awp/awp_clipin.wav",
+      "bytes": 26558,
+      "sha256": "eca44d8ca1da8c1c3b3a8e109d2932d07dd6277aeaa6f9f0d96d615c3c88a5af"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/sounds/weapons/awp/awp_clipout.wav",
+      "bytes": 12752,
+      "sha256": "83673ef2f05053d155664307bd73a372a151460489aa3b88e284b1063e01b123"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/sounds/weapons/awp/awp_distant.wav",
+      "bytes": 890128,
+      "sha256": "eb4abcaa93d8d9f998ab2499b5c88872db319853040c29225f3090f692f0359b"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/sounds/weapons/awp/awp_draw.wav",
+      "bytes": 64994,
+      "sha256": "1a8bf18c3171df1d2c2a62f1f8b1935717acf5d2149abce1beb5d2dba9649897"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/sounds/weapons/awp/zoom.wav",
+      "bytes": 31610,
+      "sha256": "d95e891904e65d97f8b30e27a766f44bd2b61f6d8c1a9af489a3186bf3e8521b"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/sounds/weapons/clipempty_rifle.wav",
+      "bytes": 11480,
+      "sha256": "c265a1b30ac073153bf196a8546e7de5dcf7c8d8f2c055ec4f9f6963200a4d81"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/sounds/weapons/lowammo_01.wav",
+      "bytes": 45700,
+      "sha256": "be7421385f4c64e2570d2bafdb0a98ffaf6a803b655a27792b31909660eb7636"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/sounds/weapons/movement1.wav",
+      "bytes": 48398,
+      "sha256": "999130b5319c838ccc9cbdf342b3e3f95175b9e56aa631af04ef8632bc2b1840"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/sounds/weapons/movement2.wav",
+      "bytes": 51214,
+      "sha256": "939f3232142544d2a914436429b1c2c118c77f0cb0667ff9d7d9a744080ac881"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/sounds/weapons/movement3.wav",
+      "bytes": 70670,
+      "sha256": "aae8b21d1899d44a587354ff953df83f252ff4090d1840b173936dc4f565e931"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/textures/awp-rgba.png",
+      "bytes": 5241981,
+      "sha256": "7b15561dce06273b11c1705350b9e7b60fbe73f4dd6b4409b411b610c3e94752"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/textures/awp_exponent-rgba.png",
+      "bytes": 65027,
+      "sha256": "19d37ce086d5ac75e97719ffb76714a15e3df5336d29b3bbefb6a5413e0e804a"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/textures/scope-rgba.png",
+      "bytes": 510825,
+      "sha256": "7c703fd61a31d1ee1a6fb02818c6f1ceed0e257b42b02ae8e62910d79f1f8d57"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/textures/scope_normal-rgba.png",
+      "bytes": 644724,
+      "sha256": "8d0bcee5dc1d11fcf9874a1398e48f43fdd2b32f1f0d0213dc9781a0f0cfaca6"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/textures/skin_gradient-rgba.png",
+      "bytes": 4697,
+      "sha256": "89dfb384d22c57fbbdf2acbb7dd7ff2406b1d62316449f888831a97da6cf7cb1"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/textures/t_base_fingerless_glove_color-rgba.png",
+      "bytes": 1330174,
+      "sha256": "a7b2d6c7b1d678de991eb9e2cdd918522d912e9d8355e6947724793160f30226"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/textures/t_base_fingerless_glove_exp-rgba.png",
+      "bytes": 1077329,
+      "sha256": "fb92dda6cc70719cd196b6af94fedd905af8734692f781164084c18bf7cad152"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/textures/t_base_fingerless_glove_normal-rgba.png",
+      "bytes": 1863798,
+      "sha256": "0757956b007aefe2bf1ca32c9cf027849f4014829983c1ff56f1503401f26474"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/textures/v_model_base_arms_color-rgba.png",
+      "bytes": 2892203,
+      "sha256": "5357e8375326a28aa5d6fd85e06fc0b01e823180dd514a57e06c6eaa0343f1f2"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/textures/v_model_base_arms_exp-rgba.png",
+      "bytes": 99757,
+      "sha256": "c73ff813c885bef3aa020c45d4de2cab8b50c0732f79b187bae266ab8b65b4a2"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/textures/v_model_base_arms_normal-rgba.png",
+      "bytes": 3164085,
+      "sha256": "f26a422a6575f2d952956e37404614c49a724779889763c764efe5b5f45c7ee6"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/three-readback.json",
+      "bytes": 5530,
+      "sha256": "d89b842ce370b90425acbb8501768223fe574686406fb201798a7cdee4602819"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-t/v_snip_awp-with-arms-source-unit.glb",
+      "bytes": 23110288,
+      "sha256": "f72bde4765ca4640d7bbf63b6befc400e38ea73ca81e2c71eefd160c37599cf0"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-world/audit.json",
+      "bytes": 2257302,
+      "sha256": "039a4ac2e9ae4769ff044e86345cfc86dc9580364404d4bc453622b16c7dc10d"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-world/continuous/frames.f64.bin",
+      "bytes": 2342480,
+      "sha256": "b58e2b0c73212072178bce11309e4499dab376b4fa125c0dd5c7d649c7dde6d2"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-world/continuous/manifest.json",
+      "bytes": 54697,
+      "sha256": "1f558a9d447578470e2517233681127fa3b42c6798c5016f844657699ba0574f"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-world/continuous/original-frames.json",
+      "bytes": 5659326,
+      "sha256": "813b0b4f7e7ee7b4cae4b6c6ba232e4f670e86d381506ab774e1771bf5bdbe3a"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-world/continuous/original-frames.npz",
+      "bytes": 834128,
+      "sha256": "df157fd108ab76b101eaafb251220dad3fa3b3ca724b235867e636a478528032"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-world/continuous/pose-data.json",
+      "bytes": 85441,
+      "sha256": "99bf22ea3cbb558aa3eabb2fd5eca19aeb100dd6b0e78a52fe084ebaeebd2155"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-world/continuous/python-reference.json",
+      "bytes": 1106616,
+      "sha256": "52db90bc862dee6ef0240762978c223c2735aab1679214525f138156e2280a79"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-world/continuous/verification.json",
+      "bytes": 257,
+      "sha256": "68219cbd59e17cb3427598ccb9e282462d51c1b17659d22e0c159af854f07fd9"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-world/dense-readback.json",
+      "bytes": 1589,
+      "sha256": "a33808c941d63930ff3879476373b403efba357090cd4f6847f0d872a5bbc1ce"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-world/gltf-structure.json",
+      "bytes": 475464,
+      "sha256": "ecd81e519813a41fa7d7e265e4f614caa3ff2ff7b1b56f1ae7c95987290ebd1a"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-world/metadata.json",
+      "bytes": 234434,
+      "sha256": "008e1617af85e28819876060d5c79d3dfeb83eb8682447418b2ed3253ae5e65c"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-world/textures/awp-rgba.png",
+      "bytes": 415693,
+      "sha256": "9e0a613a368ed9e309b02f0e7976e8458a52308e3b1be5b1240d95d88285dc62"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-world/textures/awp_exponent-rgba.png",
+      "bytes": 33657,
+      "sha256": "bb252e5595dbc232bc28f93b1a4fbe41b86def56229e00ddeea290e52b6871f0"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-world/textures/scope-rgba.png",
+      "bytes": 510825,
+      "sha256": "7c703fd61a31d1ee1a6fb02818c6f1ceed0e257b42b02ae8e62910d79f1f8d57"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-world/textures/scope_normal-rgba.png",
+      "bytes": 644724,
+      "sha256": "8d0bcee5dc1d11fcf9874a1398e48f43fdd2b32f1f0d0213dc9781a0f0cfaca6"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-world/three-readback.json",
+      "bytes": 4272,
+      "sha256": "563247a89b579ec2ccfd4a04475d02483c15730ab41c1fdd83fb65952d4f451a"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-world/w_snip_awp-source-unit.glb",
+      "bytes": 3723776,
+      "sha256": "eb409aa9e1238d46d9b052b8f5cbcc7d4529762ac3b792b8868c0f33ffb7403e"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/awp-world/world-original-frames.npz",
+      "bytes": 834456,
+      "sha256": "b408d0b85acc039f11a23a816d3380770eef93b6b0eb1191e20557d81bf23cb5"
+    },
+    {
+      "path": ".reference-assets/source-exports/awp-candidates/inventory.json",
+      "bytes": 252633,
+      "sha256": "0cd9588e26391b6938ec354b9a6c4c04d675d5c12de50adee9113f173a380ead"
+    },
+    {
+      "path": "output/awp-audio-extend.log",
+      "bytes": 7483,
+      "sha256": "db5e2bd20b5aaeafb4ef36ec87736f76079a79970e818677e7cee0dbff7beb43"
+    },
+    {
+      "path": "output/awp-fp-ct-validation.log",
+      "bytes": 5534,
+      "sha256": "47ff7c1b1901a62bec36c55c3200827f9c4d945a627b0e6b193f61728bfb2836"
+    },
+    {
+      "path": "output/awp-fp-t-validation.log",
+      "bytes": 5530,
+      "sha256": "d89b842ce370b90425acbb8501768223fe574686406fb201798a7cdee4602819"
+    },
+    {
+      "path": "output/awp-tests.log",
+      "bytes": 230,
+      "sha256": "0666b77bd0b0ac5ade28f00f3cbedbe3ea7f9af2716dbf5db446c62772b25089"
+    },
+    {
+      "path": "output/awp-typecheck.log",
+      "bytes": 48,
+      "sha256": "02ec7138020cd0446002278042bb2b67990c197fc1ccd4ed0f06a42830a704c2"
+    },
+    {
+      "path": "output/awp-world-dense-validation.log",
+      "bytes": 1589,
+      "sha256": "a33808c941d63930ff3879476373b403efba357090cd4f6847f0d872a5bbc1ce"
+    },
+    {
+      "path": "output/awp-world-reference.log",
+      "bytes": 105,
+      "sha256": "2f6ce96990f188378720c78554e48e686b04678b59d024edce3cd0cb9c91bae4"
+    },
+    {
+      "path": "output/awp-world-validation.log",
+      "bytes": 4272,
+      "sha256": "563247a89b579ec2ccfd4a04475d02483c15730ab41c1fdd83fb65952d4f451a"
+    },
+    {
+      "path": "output/source-awp-audio-stage.json",
+      "bytes": 6448,
+      "sha256": "4611fd35d01ca13324f12f24ad0d0ab966318fbaaee8eb712bfc13d4306c6943"
+    },
+    {
+      "path": "output/source-awp-staged.json",
+      "bytes": 981,
+      "sha256": "85f2b6d280b3a1b14c5d1bd617e6a6fef6eabeec8509ebf36648e547dfaf0b71"
+    },
+    {
+      "path": "output/source-awp-world-staged.json",
+      "bytes": 607,
+      "sha256": "0bedd827697765f18e2deb84d8926eff357888d619e44afcff2269f6eb179993"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-ct/manifest.json",
+      "bytes": 51470,
+      "sha256": "8f233aa9c763172bb4e1ae4c2e8a8ce6af4f0948d3a3acd23ba6dfb910f4aa75"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-ct/material-inputs.json",
+      "bytes": 5875,
+      "sha256": "81c6849ea66c28830bce67a76ca8a11641567de6efc2d8cf1c4fba024ef98b96"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-ct/rig.json",
+      "bytes": 53330,
+      "sha256": "bdec1c2cc9bd6bffa634a5b4bf13471d6dd53afe88ec336a260806b79c06ea46"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-ct/sounds/weapons/awp/awp_01.wav",
+      "bytes": 728408,
+      "sha256": "4bccb603bea8bcd39e287a7959b5bb7e8ed7c0aabe74755715b169482d6fa8b0"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-ct/sounds/weapons/awp/awp_02.wav",
+      "bytes": 728484,
+      "sha256": "ccb3d3b19d48efa5e81cd1bf436fc90df8247cb8fc0df7cb6050d5354bdee081"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-ct/sounds/weapons/awp/awp_boltback.wav",
+      "bytes": 29408,
+      "sha256": "2ee1d6f1cc4e2b4e3933ef09e285c0b1a09f1f8130d9f4b8afe94281e989f2b8"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-ct/sounds/weapons/awp/awp_boltforward.wav",
+      "bytes": 18978,
+      "sha256": "8a9ec313fdd18eb719c3b87fe6d2cdd0387acc2fea03d8358cb19cee718fd11b"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-ct/sounds/weapons/awp/awp_cliphit.wav",
+      "bytes": 23544,
+      "sha256": "584cc4dacca962c55f924b87ec3c8713379a95bb00d8dabd113eaa68358221e3"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-ct/sounds/weapons/awp/awp_clipin.wav",
+      "bytes": 26558,
+      "sha256": "eca44d8ca1da8c1c3b3a8e109d2932d07dd6277aeaa6f9f0d96d615c3c88a5af"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-ct/sounds/weapons/awp/awp_clipout.wav",
+      "bytes": 12752,
+      "sha256": "83673ef2f05053d155664307bd73a372a151460489aa3b88e284b1063e01b123"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-ct/sounds/weapons/awp/awp_distant.wav",
+      "bytes": 890128,
+      "sha256": "eb4abcaa93d8d9f998ab2499b5c88872db319853040c29225f3090f692f0359b"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-ct/sounds/weapons/awp/awp_draw.wav",
+      "bytes": 64994,
+      "sha256": "1a8bf18c3171df1d2c2a62f1f8b1935717acf5d2149abce1beb5d2dba9649897"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-ct/sounds/weapons/awp/zoom.wav",
+      "bytes": 31610,
+      "sha256": "d95e891904e65d97f8b30e27a766f44bd2b61f6d8c1a9af489a3186bf3e8521b"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-ct/sounds/weapons/clipempty_rifle.wav",
+      "bytes": 11480,
+      "sha256": "c265a1b30ac073153bf196a8546e7de5dcf7c8d8f2c055ec4f9f6963200a4d81"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-ct/sounds/weapons/lowammo_01.wav",
+      "bytes": 45700,
+      "sha256": "be7421385f4c64e2570d2bafdb0a98ffaf6a803b655a27792b31909660eb7636"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-ct/sounds/weapons/movement1.wav",
+      "bytes": 48398,
+      "sha256": "999130b5319c838ccc9cbdf342b3e3f95175b9e56aa631af04ef8632bc2b1840"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-ct/sounds/weapons/movement2.wav",
+      "bytes": 51214,
+      "sha256": "939f3232142544d2a914436429b1c2c118c77f0cb0667ff9d7d9a744080ac881"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-ct/sounds/weapons/movement3.wav",
+      "bytes": 70670,
+      "sha256": "aae8b21d1899d44a587354ff953df83f252ff4090d1840b173936dc4f565e931"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-ct/textures/awp-rgba.png",
+      "bytes": 5241981,
+      "sha256": "7b15561dce06273b11c1705350b9e7b60fbe73f4dd6b4409b411b610c3e94752"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-ct/textures/awp_exponent-rgba.png",
+      "bytes": 65027,
+      "sha256": "19d37ce086d5ac75e97719ffb76714a15e3df5336d29b3bbefb6a5413e0e804a"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-ct/textures/ct_arms_idf-rgba.png",
+      "bytes": 2671033,
+      "sha256": "931fe8bdc5fc7879a66430a786ec706bc7a119e5868eb315104ae6398369dc14"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-ct/textures/ct_arms_normal-rgba.png",
+      "bytes": 2443767,
+      "sha256": "da3967e612b1eef5e602fb2de2c90775c0fd3adb985edeff385471ca4bfa25f1"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-ct/textures/ct_base_glove_color-rgba.png",
+      "bytes": 2101764,
+      "sha256": "025c4f541318670cec61aa2739a5832769d6aa99562eaad6290060330ff23727"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-ct/textures/ct_base_glove_exp-rgba.png",
+      "bytes": 1720007,
+      "sha256": "335b519b92c9bddef787e5ddafd5a50babf4ca781cadec2349120881c802e34c"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-ct/textures/ct_base_glove_normal-rgba.png",
+      "bytes": 2510347,
+      "sha256": "c3760a0df0eb6d9e479a096845d3e7371e60cfd65a74aca1d87d4ea50363d636"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-ct/textures/scope-rgba.png",
+      "bytes": 510825,
+      "sha256": "7c703fd61a31d1ee1a6fb02818c6f1ceed0e257b42b02ae8e62910d79f1f8d57"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-ct/textures/scope_normal-rgba.png",
+      "bytes": 644724,
+      "sha256": "8d0bcee5dc1d11fcf9874a1398e48f43fdd2b32f1f0d0213dc9781a0f0cfaca6"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-ct/viewmodel.glb",
+      "bytes": 23881128,
+      "sha256": "96db9de332b95c840fb35e9b20e22ba6410ca5a6f2adb5fd4cfeb34f45ea5a03"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-t/manifest.json",
+      "bytes": 51852,
+      "sha256": "85042f5aa873cfb0af4dea7cc260d01f34394fd1f5dc41d54a354cf5556a0945"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-t/material-inputs.json",
+      "bytes": 5281,
+      "sha256": "a2447fbf32693f38fccc6c36c7d9ce872a23c7ef84bfc4224c655ada26ba4084"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-t/rig.json",
+      "bytes": 53330,
+      "sha256": "bdec1c2cc9bd6bffa634a5b4bf13471d6dd53afe88ec336a260806b79c06ea46"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-t/sounds/weapons/awp/awp_01.wav",
+      "bytes": 728408,
+      "sha256": "4bccb603bea8bcd39e287a7959b5bb7e8ed7c0aabe74755715b169482d6fa8b0"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-t/sounds/weapons/awp/awp_02.wav",
+      "bytes": 728484,
+      "sha256": "ccb3d3b19d48efa5e81cd1bf436fc90df8247cb8fc0df7cb6050d5354bdee081"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-t/sounds/weapons/awp/awp_boltback.wav",
+      "bytes": 29408,
+      "sha256": "2ee1d6f1cc4e2b4e3933ef09e285c0b1a09f1f8130d9f4b8afe94281e989f2b8"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-t/sounds/weapons/awp/awp_boltforward.wav",
+      "bytes": 18978,
+      "sha256": "8a9ec313fdd18eb719c3b87fe6d2cdd0387acc2fea03d8358cb19cee718fd11b"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-t/sounds/weapons/awp/awp_cliphit.wav",
+      "bytes": 23544,
+      "sha256": "584cc4dacca962c55f924b87ec3c8713379a95bb00d8dabd113eaa68358221e3"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-t/sounds/weapons/awp/awp_clipin.wav",
+      "bytes": 26558,
+      "sha256": "eca44d8ca1da8c1c3b3a8e109d2932d07dd6277aeaa6f9f0d96d615c3c88a5af"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-t/sounds/weapons/awp/awp_clipout.wav",
+      "bytes": 12752,
+      "sha256": "83673ef2f05053d155664307bd73a372a151460489aa3b88e284b1063e01b123"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-t/sounds/weapons/awp/awp_distant.wav",
+      "bytes": 890128,
+      "sha256": "eb4abcaa93d8d9f998ab2499b5c88872db319853040c29225f3090f692f0359b"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-t/sounds/weapons/awp/awp_draw.wav",
+      "bytes": 64994,
+      "sha256": "1a8bf18c3171df1d2c2a62f1f8b1935717acf5d2149abce1beb5d2dba9649897"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-t/sounds/weapons/awp/zoom.wav",
+      "bytes": 31610,
+      "sha256": "d95e891904e65d97f8b30e27a766f44bd2b61f6d8c1a9af489a3186bf3e8521b"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-t/sounds/weapons/clipempty_rifle.wav",
+      "bytes": 11480,
+      "sha256": "c265a1b30ac073153bf196a8546e7de5dcf7c8d8f2c055ec4f9f6963200a4d81"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-t/sounds/weapons/lowammo_01.wav",
+      "bytes": 45700,
+      "sha256": "be7421385f4c64e2570d2bafdb0a98ffaf6a803b655a27792b31909660eb7636"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-t/sounds/weapons/movement1.wav",
+      "bytes": 48398,
+      "sha256": "999130b5319c838ccc9cbdf342b3e3f95175b9e56aa631af04ef8632bc2b1840"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-t/sounds/weapons/movement2.wav",
+      "bytes": 51214,
+      "sha256": "939f3232142544d2a914436429b1c2c118c77f0cb0667ff9d7d9a744080ac881"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-t/sounds/weapons/movement3.wav",
+      "bytes": 70670,
+      "sha256": "aae8b21d1899d44a587354ff953df83f252ff4090d1840b173936dc4f565e931"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-t/textures/awp-rgba.png",
+      "bytes": 5241981,
+      "sha256": "7b15561dce06273b11c1705350b9e7b60fbe73f4dd6b4409b411b610c3e94752"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-t/textures/awp_exponent-rgba.png",
+      "bytes": 65027,
+      "sha256": "19d37ce086d5ac75e97719ffb76714a15e3df5336d29b3bbefb6a5413e0e804a"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-t/textures/scope-rgba.png",
+      "bytes": 510825,
+      "sha256": "7c703fd61a31d1ee1a6fb02818c6f1ceed0e257b42b02ae8e62910d79f1f8d57"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-t/textures/scope_normal-rgba.png",
+      "bytes": 644724,
+      "sha256": "8d0bcee5dc1d11fcf9874a1398e48f43fdd2b32f1f0d0213dc9781a0f0cfaca6"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-t/textures/skin_gradient-rgba.png",
+      "bytes": 4697,
+      "sha256": "89dfb384d22c57fbbdf2acbb7dd7ff2406b1d62316449f888831a97da6cf7cb1"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-t/textures/t_base_fingerless_glove_color-rgba.png",
+      "bytes": 1330174,
+      "sha256": "a7b2d6c7b1d678de991eb9e2cdd918522d912e9d8355e6947724793160f30226"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-t/textures/t_base_fingerless_glove_exp-rgba.png",
+      "bytes": 1077329,
+      "sha256": "fb92dda6cc70719cd196b6af94fedd905af8734692f781164084c18bf7cad152"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-t/textures/t_base_fingerless_glove_normal-rgba.png",
+      "bytes": 1863798,
+      "sha256": "0757956b007aefe2bf1ca32c9cf027849f4014829983c1ff56f1503401f26474"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-t/textures/v_model_base_arms_color-rgba.png",
+      "bytes": 2892203,
+      "sha256": "5357e8375326a28aa5d6fd85e06fc0b01e823180dd514a57e06c6eaa0343f1f2"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-t/textures/v_model_base_arms_exp-rgba.png",
+      "bytes": 99757,
+      "sha256": "c73ff813c885bef3aa020c45d4de2cab8b50c0732f79b187bae266ab8b65b4a2"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-t/textures/v_model_base_arms_normal-rgba.png",
+      "bytes": 3164085,
+      "sha256": "f26a422a6575f2d952956e37404614c49a724779889763c764efe5b5f45c7ee6"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-t/viewmodel.glb",
+      "bytes": 23110288,
+      "sha256": "f72bde4765ca4640d7bbf63b6befc400e38ea73ca81e2c71eefd160c37599cf0"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-world/frames.f64.bin",
+      "bytes": 2342480,
+      "sha256": "b58e2b0c73212072178bce11309e4499dab376b4fa125c0dd5c7d649c7dde6d2"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-world/manifest.json",
+      "bytes": 6462,
+      "sha256": "8ca05c11f0e4ef6f084b4ff3295ac61fbfb8f3293501debbca6b61d09b1e4683"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-world/material-inputs.json",
+      "bytes": 2548,
+      "sha256": "5e936ff9f3b987d23c22fa69f66157f64c20bb6fbacaebbada6ba1f648896513"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-world/model.glb",
+      "bytes": 3723776,
+      "sha256": "eb409aa9e1238d46d9b052b8f5cbcc7d4529762ac3b792b8868c0f33ffb7403e"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-world/pose-data.json",
+      "bytes": 85441,
+      "sha256": "99bf22ea3cbb558aa3eabb2fd5eca19aeb100dd6b0e78a52fe084ebaeebd2155"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-world/rig.json",
+      "bytes": 84404,
+      "sha256": "64f62f0ea2e14bfba2104a5a7b5882d988e4203c12acef2ea1212382407239cc"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-world/textures/awp-rgba.png",
+      "bytes": 415693,
+      "sha256": "9e0a613a368ed9e309b02f0e7976e8458a52308e3b1be5b1240d95d88285dc62"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-world/textures/awp_exponent-rgba.png",
+      "bytes": 33657,
+      "sha256": "bb252e5595dbc232bc28f93b1a4fbe41b86def56229e00ddeea290e52b6871f0"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-world/textures/scope-rgba.png",
+      "bytes": 510825,
+      "sha256": "7c703fd61a31d1ee1a6fb02818c6f1ceed0e257b42b02ae8e62910d79f1f8d57"
+    },
+    {
+      "path": "public/source/csgo-12426148/awp-world/textures/scope_normal-rgba.png",
+      "bytes": 644724,
+      "sha256": "8d0bcee5dc1d11fcf9874a1398e48f43fdd2b32f1f0d0213dc9781a0f0cfaca6"
+    }
+  ],
+  "fileCount": 166,
+  "totalBytes": 225615429,
+  "verification": {
+    "tests": 13,
+    "testFiles": 4,
+    "typecheck": "passed",
+    "fpFramesPerTeam": 435,
+    "fpInverseBindsPerTeam": 105,
+    "worldFrames": 445,
+    "worldInverseBinds": 94,
+    "worldAttachmentMatrices": 6230,
+    "independentPythonCases": 30
+  },
+  "limitations": [
+    "Asset and CPU verification only. No GPU/original-client visual equivalence, scope optics, gameplay or LAN acceptance claim."
+  ]
+}

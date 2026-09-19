@@ -1,0 +1,614 @@
+{
+  "format": "source-material-environment-v1",
+  "materials": [
+    {
+      "path": "materials/models/weapons/v_models/snip_awp/awp.vmt",
+      "sha256": "a8da3373f5baacc039f83a5f63e64a4bbcc7fc29b3e2d648aa0f3eac88b8fd83",
+      "bytes": 454,
+      "text": "VertexLitGeneric\r\n{\r\n\t\"$basetexture\"\t\"models\\weapons\\v_models\\snip_awp\\awp\"\r\n\r\n\t\"$phong\" \"1\"\r\n\t\"$phongboost\" \"2\"\r\n\t\"$phongalbedoboost\" \"40\"\r\n\t\"$phongfresnelranges\" \"[.8 .8 1]\"\r\n//\t\"$phongexponent\" 12\r\n\t\"$phongexponenttexture\" \"models\\weapons\\v_models\\snip_awp\\awp_exponent\"\r\n\r\n\t\"$basemapalphaphongmask\" \"1\"\r\n\t\r\n\t\"$envmap\" \"env_cubemap\"\r\n\t\"$envmapfresnel\" \"1\"\r\n\t\"$envmaptint\" \t\t\"[.1 .1 .1]\"\r\n\r\n\t\"$phongalbedotint\" \"1\"\r\n\t\"$phongdisablehalflambert\" \"1\"\r\n\r\n}"
+    },
+    {
+      "path": "materials/models/weapons/w_models/w_snip_awp/awp.vmt",
+      "sha256": "f83967403ffe90bf88fbac5e14dbda09486331f3fea3b1be0d761025fac3ee0a",
+      "bytes": 470,
+      "text": "VertexLitGeneric\r\n{\r\n\t\"$basetexture\"\t\"models\\weapons\\w_models\\w_snip_awp\\awp\"\r\n\r\n\t\"$phong\" \"1\"\r\n\t\"$phongboost\" \"1\"\r\n\t\"$phongalbedoboost\" \"40\"\r\n\t\"$phongfresnelranges\" \"[.8 .8 1]\"\r\n//\t\"$phongexponent\" 12\r\n\t\"$phongexponenttexture\" \"models\\weapons\\w_models\\w_snip_awp\\awp_exponent\"\r\n\r\n\t\"$basemapalphaphongmask\" \"1\"\r\n\t\r\n\t\"$envmap\" \"env_cubemap\"\r\n\t\"$envmapfresnel\" \"1\"\r\n\t\"$envmaptint\" \t\t\"[.1 .1 .1]\"\r\n\r\n\t\"$phongalbedotint\" \"1\"\r\n\t\"$phongdisablehalflambert\" \"1\"\r\n\r\n}\r\n\r\n\r\n\t\r\n\t\r\n"
+    },
+    {
+      "path": "materials/models/weapons/shared/scope/scope_awp.vmt",
+      "sha256": "068241bb4e2657856218b482bf78fcaecbb5776c018f4ffd47daf3a9a0000f7c",
+      "bytes": 409,
+      "text": "\"VertexLitGeneric\"\r\n{\r\n    \"$phongdisablehalflambert\" \"1\"\r\n\t\"$baseTexture\" \"models/weapons/shared/scope/scope\"\r\n\t\"$bumpMap\" \"models/weapons/shared/scope/scope_normal\"\r\n\t\"$phong\" \"1\"\r\n\t\"$phongBoost\" \"1\"\r\n\t\"$phongExponent\" \"200\"\r\n\t\"$phongTint\" \"[ .8 1 .9 ]\"\r\n\t\"$phongFresnelRanges\" \"[.2 .2 1]\"\t\r\n\t\"$envmap\" \"env_cubemap\"\r\n\t\"$envmapfresnel\" \"1\"\r\n\t\"$envmaptint\" \t\t\"[ .16 .2 .16 ]\"\r\n\t\"$basealphaenvmapmask\" \"1\"\t\r\n}"
+    }
+  ],
+  "program": {
+    "path": ".reference-assets/source-exports/ak47-redline-programs/phong_ps30-static2-dynamic16.dx9",
+    "sha256": "1afefbe01b7291f0f08404fe7f6aecfabf419d130ebd7e54f04eca5bb1bf9b95",
+    "static": 2,
+    "dynamic": 16,
+    "sliceOffsets": [
+      732,
+      736,
+      755,
+      817,
+      822,
+      827,
+      832,
+      837,
+      841,
+      845,
+      850,
+      855,
+      859
+    ],
+    "exactFinalAWPSelectorVerified": false
+  },
+  "cases": [
+    {
+      "baseRGBA": [
+        0.02,
+        0.12,
+        0.5,
+        0.15
+      ],
+      "cubeRGB": [
+        0.3,
+        0.8,
+        1.4
+      ],
+      "phongMask": 0.8,
+      "fresnel": 0.6,
+      "fresnelEnabled": false,
+      "tint": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "albedoTint": true,
+      "albedoBoost": 40,
+      "exponentRG": [
+        0.45,
+        0.7
+      ],
+      "maskSource": "baseAlpha",
+      "invert": false,
+      "scale": 1,
+      "nativeTokenResult": [
+        0.0017414999892935157,
+        0.019764000549912453,
+        0.1351349949836731
+      ]
+    },
+    {
+      "baseRGBA": [
+        0.02,
+        0.12,
+        0.5,
+        0.15
+      ],
+      "cubeRGB": [
+        0.3,
+        0.8,
+        1.4
+      ],
+      "phongMask": 0.8,
+      "fresnel": 0.6,
+      "fresnelEnabled": true,
+      "tint": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "albedoTint": true,
+      "albedoBoost": 40,
+      "exponentRG": [
+        0.45,
+        0.7
+      ],
+      "maskSource": "baseAlpha",
+      "invert": false,
+      "scale": 1,
+      "nativeTokenResult": [
+        0.0010449000401422381,
+        0.011858399957418442,
+        0.08108101040124893
+      ]
+    },
+    {
+      "baseRGBA": [
+        0.02,
+        0.12,
+        0.5,
+        0.15
+      ],
+      "cubeRGB": [
+        0.3,
+        0.8,
+        1.4
+      ],
+      "phongMask": 0.8,
+      "fresnel": 0.6,
+      "fresnelEnabled": false,
+      "tint": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "albedoTint": true,
+      "albedoBoost": 40,
+      "exponentRG": [
+        0.45,
+        0.7
+      ],
+      "maskSource": "baseAlpha",
+      "invert": true,
+      "scale": 1,
+      "nativeTokenResult": [
+        0.009868500754237175,
+        0.11199600249528885,
+        0.7657650113105774
+      ]
+    },
+    {
+      "baseRGBA": [
+        0.02,
+        0.12,
+        0.5,
+        0.15
+      ],
+      "cubeRGB": [
+        0.3,
+        0.8,
+        1.4
+      ],
+      "phongMask": 0.8,
+      "fresnel": 0.6,
+      "fresnelEnabled": true,
+      "tint": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "albedoTint": true,
+      "albedoBoost": 40,
+      "exponentRG": [
+        0.45,
+        0.7
+      ],
+      "maskSource": "baseAlpha",
+      "invert": true,
+      "scale": 1,
+      "nativeTokenResult": [
+        0.005921099800616503,
+        0.06719759851694107,
+        0.4594590663909912
+      ]
+    },
+    {
+      "baseRGBA": [
+        0.02,
+        0.12,
+        0.5,
+        0.15
+      ],
+      "cubeRGB": [
+        0.3,
+        0.8,
+        1.4
+      ],
+      "phongMask": 0.8,
+      "fresnel": 0.6,
+      "fresnelEnabled": false,
+      "tint": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "albedoTint": true,
+      "albedoBoost": 40,
+      "exponentRG": [
+        0.45,
+        0.7
+      ],
+      "maskSource": "phongMask",
+      "invert": false,
+      "scale": 1,
+      "nativeTokenResult": [
+        0.00928799994289875,
+        0.10540799796581268,
+        0.7207199335098267
+      ]
+    },
+    {
+      "baseRGBA": [
+        0.02,
+        0.12,
+        0.5,
+        0.15
+      ],
+      "cubeRGB": [
+        0.3,
+        0.8,
+        1.4
+      ],
+      "phongMask": 0.8,
+      "fresnel": 0.6,
+      "fresnelEnabled": true,
+      "tint": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "albedoTint": true,
+      "albedoBoost": 40,
+      "exponentRG": [
+        0.45,
+        0.7
+      ],
+      "maskSource": "phongMask",
+      "invert": false,
+      "scale": 1,
+      "nativeTokenResult": [
+        0.005572800058871508,
+        0.06324481219053268,
+        0.43243202567100525
+      ]
+    },
+    {
+      "baseRGBA": [
+        0.02,
+        0.12,
+        0.5,
+        0.15
+      ],
+      "cubeRGB": [
+        0.3,
+        0.8,
+        1.4
+      ],
+      "phongMask": 0.8,
+      "fresnel": 0.6,
+      "fresnelEnabled": false,
+      "tint": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "albedoTint": true,
+      "albedoBoost": 40,
+      "exponentRG": [
+        0.45,
+        0.7
+      ],
+      "maskSource": "phongMask",
+      "invert": true,
+      "scale": 1,
+      "nativeTokenResult": [
+        0.002321999752894044,
+        0.02635199949145317,
+        0.18017998337745667
+      ]
+    },
+    {
+      "baseRGBA": [
+        0.02,
+        0.12,
+        0.5,
+        0.15
+      ],
+      "cubeRGB": [
+        0.3,
+        0.8,
+        1.4
+      ],
+      "phongMask": 0.8,
+      "fresnel": 0.6,
+      "fresnelEnabled": true,
+      "tint": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "albedoTint": true,
+      "albedoBoost": 40,
+      "exponentRG": [
+        0.45,
+        0.7
+      ],
+      "maskSource": "phongMask",
+      "invert": true,
+      "scale": 1,
+      "nativeTokenResult": [
+        0.001393199898302555,
+        0.015811199322342873,
+        0.10810799896717072
+      ]
+    },
+    {
+      "baseRGBA": [
+        0.02,
+        0.12,
+        0.5,
+        0.15
+      ],
+      "cubeRGB": [
+        0.3,
+        0.8,
+        1.4
+      ],
+      "phongMask": 0.8,
+      "fresnel": 0.6,
+      "fresnelEnabled": false,
+      "tint": [
+        0.16,
+        0.2,
+        0.16
+      ],
+      "albedoTint": false,
+      "albedoBoost": 40,
+      "exponentRG": [
+        0.45,
+        0.7
+      ],
+      "maskSource": "baseAlpha",
+      "invert": false,
+      "scale": 1,
+      "nativeTokenResult": [
+        0.007200000341981649,
+        0.024000002071261406,
+        0.03359999880194664
+      ]
+    },
+    {
+      "baseRGBA": [
+        0.02,
+        0.12,
+        0.5,
+        0.15
+      ],
+      "cubeRGB": [
+        0.3,
+        0.8,
+        1.4
+      ],
+      "phongMask": 0.8,
+      "fresnel": 0.6,
+      "fresnelEnabled": true,
+      "tint": [
+        0.16,
+        0.2,
+        0.16
+      ],
+      "albedoTint": false,
+      "albedoBoost": 40,
+      "exponentRG": [
+        0.45,
+        0.7
+      ],
+      "maskSource": "baseAlpha",
+      "invert": false,
+      "scale": 1,
+      "nativeTokenResult": [
+        0.004320000298321247,
+        0.014400001615285873,
+        0.020160000771284103
+      ]
+    },
+    {
+      "baseRGBA": [
+        0.02,
+        0.12,
+        0.5,
+        0.15
+      ],
+      "cubeRGB": [
+        0.3,
+        0.8,
+        1.4
+      ],
+      "phongMask": 0.8,
+      "fresnel": 0.6,
+      "fresnelEnabled": false,
+      "tint": [
+        0.16,
+        0.2,
+        0.16
+      ],
+      "albedoTint": false,
+      "albedoBoost": 40,
+      "exponentRG": [
+        0.45,
+        0.7
+      ],
+      "maskSource": "baseAlpha",
+      "invert": true,
+      "scale": 1,
+      "nativeTokenResult": [
+        0.040800001472234726,
+        0.13600000739097595,
+        0.19040000438690186
+      ]
+    },
+    {
+      "baseRGBA": [
+        0.02,
+        0.12,
+        0.5,
+        0.15
+      ],
+      "cubeRGB": [
+        0.3,
+        0.8,
+        1.4
+      ],
+      "phongMask": 0.8,
+      "fresnel": 0.6,
+      "fresnelEnabled": true,
+      "tint": [
+        0.16,
+        0.2,
+        0.16
+      ],
+      "albedoTint": false,
+      "albedoBoost": 40,
+      "exponentRG": [
+        0.45,
+        0.7
+      ],
+      "maskSource": "baseAlpha",
+      "invert": true,
+      "scale": 1,
+      "nativeTokenResult": [
+        0.024480002000927925,
+        0.08160001039505005,
+        0.11423999816179276
+      ]
+    },
+    {
+      "baseRGBA": [
+        0.02,
+        0.12,
+        0.5,
+        0.15
+      ],
+      "cubeRGB": [
+        0.3,
+        0.8,
+        1.4
+      ],
+      "phongMask": 0.8,
+      "fresnel": 0.6,
+      "fresnelEnabled": false,
+      "tint": [
+        0.16,
+        0.2,
+        0.16
+      ],
+      "albedoTint": false,
+      "albedoBoost": 40,
+      "exponentRG": [
+        0.45,
+        0.7
+      ],
+      "maskSource": "phongMask",
+      "invert": false,
+      "scale": 1,
+      "nativeTokenResult": [
+        0.03840000182390213,
+        0.12800000607967377,
+        0.17919999361038208
+      ]
+    },
+    {
+      "baseRGBA": [
+        0.02,
+        0.12,
+        0.5,
+        0.15
+      ],
+      "cubeRGB": [
+        0.3,
+        0.8,
+        1.4
+      ],
+      "phongMask": 0.8,
+      "fresnel": 0.6,
+      "fresnelEnabled": true,
+      "tint": [
+        0.16,
+        0.2,
+        0.16
+      ],
+      "albedoTint": false,
+      "albedoBoost": 40,
+      "exponentRG": [
+        0.45,
+        0.7
+      ],
+      "maskSource": "phongMask",
+      "invert": false,
+      "scale": 1,
+      "nativeTokenResult": [
+        0.023040002211928368,
+        0.07680001109838486,
+        0.10751999914646149
+      ]
+    },
+    {
+      "baseRGBA": [
+        0.02,
+        0.12,
+        0.5,
+        0.15
+      ],
+      "cubeRGB": [
+        0.3,
+        0.8,
+        1.4
+      ],
+      "phongMask": 0.8,
+      "fresnel": 0.6,
+      "fresnelEnabled": false,
+      "tint": [
+        0.16,
+        0.2,
+        0.16
+      ],
+      "albedoTint": false,
+      "albedoBoost": 40,
+      "exponentRG": [
+        0.45,
+        0.7
+      ],
+      "maskSource": "phongMask",
+      "invert": true,
+      "scale": 1,
+      "nativeTokenResult": [
+        0.009599999524652958,
+        0.03200000151991844,
+        0.04479999467730522
+      ]
+    },
+    {
+      "baseRGBA": [
+        0.02,
+        0.12,
+        0.5,
+        0.15
+      ],
+      "cubeRGB": [
+        0.3,
+        0.8,
+        1.4
+      ],
+      "phongMask": 0.8,
+      "fresnel": 0.6,
+      "fresnelEnabled": true,
+      "tint": [
+        0.16,
+        0.2,
+        0.16
+      ],
+      "albedoTint": false,
+      "albedoBoost": 40,
+      "exponentRG": [
+        0.45,
+        0.7
+      ],
+      "maskSource": "phongMask",
+      "invert": true,
+      "scale": 1,
+      "nativeTokenResult": [
+        0.005760000087320805,
+        0.019200000911951065,
+        0.026879997923970222
+      ]
+    }
+  ],
+  "formulas": {
+    "mask": "mix(baseAlpha,phongMask,c2.w), optionally inverted by c27.w",
+    "fresnel": "mix(1,phongFresnel,c10.x)",
+    "environment": "cubeRGB*cLightScale.z*envTint*mask*fresnel",
+    "albedoTintEnvironment": "environment*mix(1,baseRGB*albedoBoost,exponent.G)*exponent.R"
+  },
+  "boundary": "Original VMT bytes and installed diagnostic DX9 token slices. Host f32 interpretation with supplied sampler values; not original-client GPU/lighting/filter/selector parity."
+}

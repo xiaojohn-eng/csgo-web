@@ -1,0 +1,432 @@
+{
+  "format": "source-pistol-audio-v1",
+  "sourceApp": 740,
+  "build": 12426148,
+  "weapons": {
+    "deagle": {
+      "records": [
+        {
+          "key": "source_deagle_0",
+          "event": "default.nearlyempty",
+          "url": "/source/csgo-12426148/deagle-t/sounds/weapons/lowammo_01.wav",
+          "sha256": "be7421385f4c64e2570d2bafdb0a98ffaf6a803b655a27792b31909660eb7636",
+          "bytes": 45700,
+          "pitch": [
+            100.0,
+            100.0
+          ],
+          "volume": [
+            0.3,
+            0.3
+          ]
+        },
+        {
+          "key": "source_deagle_1",
+          "event": "weapon_deagle.clipin",
+          "url": "/source/csgo-12426148/deagle-t/sounds/weapons/deagle/de_clipin.wav",
+          "sha256": "08fb1ce7081c662057fc1de00ce6ed90dc9aa4edbef3a0b1570725da6a36ff63",
+          "bytes": 26854,
+          "pitch": [
+            100.0,
+            100.0
+          ],
+          "volume": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "key": "source_deagle_2",
+          "event": "weapon_deagle.clipout",
+          "url": "/source/csgo-12426148/deagle-t/sounds/weapons/deagle/de_clipout.wav",
+          "sha256": "bbc80360af0d6c37c5751fd7fb98061bf34d6c89610a0a239bb603ee63fc5816",
+          "bytes": 26136,
+          "pitch": [
+            100.0,
+            100.0
+          ],
+          "volume": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "key": "source_deagle_3",
+          "event": "weapon_deagle.draw",
+          "url": "/source/csgo-12426148/deagle-t/sounds/weapons/deagle/de_draw.wav",
+          "sha256": "d0bfc71b2f4540efe73184c93010b67ffca9455237a8ac2aa7d74a8cc22126a4",
+          "bytes": 87350,
+          "pitch": [
+            100,
+            100
+          ],
+          "volume": [
+            0.3,
+            0.3
+          ]
+        },
+        {
+          "key": "source_deagle_4",
+          "event": "weapon_deagle.lookat009",
+          "url": "/source/csgo-12426148/deagle-t/sounds/weapons/deagle/deagle_special_lookat_f009.wav",
+          "sha256": "4890d3cc19ff3592e617a57663e34d92853755f21f490e1fe60ccfc6ea0ff221",
+          "bytes": 157228,
+          "pitch": [
+            100,
+            100
+          ],
+          "volume": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "key": "source_deagle_5",
+          "event": "weapon_deagle.lookat036",
+          "url": "/source/csgo-12426148/deagle-t/sounds/weapons/deagle/deagle_special_lookat_f036.wav",
+          "sha256": "3e67ead5bebe679f0aa694d31eb27635ad48937966cf8aaa642bd9bdf8b61846",
+          "bytes": 121856,
+          "pitch": [
+            100,
+            100
+          ],
+          "volume": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "key": "source_deagle_6",
+          "event": "weapon_deagle.lookat057",
+          "url": "/source/csgo-12426148/deagle-t/sounds/weapons/deagle/deagle_special_lookat_f057.wav",
+          "sha256": "1be11dda631b34681e14f8d16430959e868310f9f11aaf9c56cc29cd8552504b",
+          "bytes": 142984,
+          "pitch": [
+            100,
+            100
+          ],
+          "volume": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "key": "source_deagle_7",
+          "event": "weapon_deagle.lookat081",
+          "url": "/source/csgo-12426148/deagle-t/sounds/weapons/deagle/deagle_special_lookat_f081.wav",
+          "sha256": "a2c3f00f9cb756b1b22dceaef42fcb1479b7e223a5a58678edf91cafc1c6f4fc",
+          "bytes": 180844,
+          "pitch": [
+            100,
+            100
+          ],
+          "volume": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "key": "source_deagle_8",
+          "event": "weapon_deagle.lookat111",
+          "url": "/source/csgo-12426148/deagle-t/sounds/weapons/deagle/deagle_special_lookat_f111.wav",
+          "sha256": "d42f6d0c1cb4df66b68be27e3e627ffcc7c31b08361e87fa64aa5ffd515b4d36",
+          "bytes": 39896,
+          "pitch": [
+            100,
+            100
+          ],
+          "volume": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "key": "source_deagle_9",
+          "event": "weapon_deagle.lookat133",
+          "url": "/source/csgo-12426148/deagle-t/sounds/weapons/deagle/deagle_special_lookat_f133.wav",
+          "sha256": "64ee95e2b494ce017846239ba086a88fc7b42048e9492ce5db6b1dc3e120cff6",
+          "bytes": 194320,
+          "pitch": [
+            100,
+            100
+          ],
+          "volume": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "key": "source_deagle_10",
+          "event": "weapon_deagle.lookat166",
+          "url": "/source/csgo-12426148/deagle-t/sounds/weapons/deagle/deagle_special_lookat_f166.wav",
+          "sha256": "69ceb5e9184b5ca4735f0d1bb1af5c494b4946ebf941389e59f6cb950a1bc1d8",
+          "bytes": 161820,
+          "pitch": [
+            100,
+            100
+          ],
+          "volume": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "key": "source_deagle_11",
+          "event": "weapon_deagle.lookat193",
+          "url": "/source/csgo-12426148/deagle-t/sounds/weapons/deagle/deagle_special_lookat_f193.wav",
+          "sha256": "ecdedffcda17ec7bdc02f8ffa65f6f94e7d5d8aea5d6d32202544a4bf0949722",
+          "bytes": 205288,
+          "pitch": [
+            100,
+            100
+          ],
+          "volume": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "key": "source_deagle_12",
+          "event": "weapon_deagle.lookat228",
+          "url": "/source/csgo-12426148/deagle-t/sounds/weapons/deagle/deagle_special_lookat_f228.wav",
+          "sha256": "21b82153df94a25d9227ef7886563b9a96782389b268725b9d412ac2cc830cc0",
+          "bytes": 59552,
+          "pitch": [
+            100,
+            100
+          ],
+          "volume": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "key": "source_deagle_13",
+          "event": "weapon_deagle.single",
+          "url": "/source/csgo-12426148/deagle-t/sounds/weapons/deagle/deagle_01.wav",
+          "sha256": "1ac43b5cb6391cf33cd81d35e0b12d8ed7cebee4aa8f70f706522fffb5f9ef59",
+          "bytes": 543472,
+          "pitch": [
+            100,
+            100
+          ],
+          "volume": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "key": "source_deagle_14",
+          "event": "weapon_deagle.single",
+          "url": "/source/csgo-12426148/deagle-t/sounds/weapons/deagle/deagle_02.wav",
+          "sha256": "b110c6206c8dfba1c8519229c8260ff82798928b425282a3674b9d2611a23381",
+          "bytes": 545546,
+          "pitch": [
+            100,
+            100
+          ],
+          "volume": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "key": "source_deagle_15",
+          "event": "weapon_deagle.singledistant",
+          "url": "/source/csgo-12426148/deagle-t/sounds/weapons/deagle/deagle-1-distant.wav",
+          "sha256": "fb4ddf1c90471a5b7a39ac6da3e63387e6419643de45babd539c922d15d271ff",
+          "bytes": 247540,
+          "pitch": [
+            100,
+            100
+          ],
+          "volume": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "key": "source_deagle_16",
+          "event": "weapon_deagle.slideback",
+          "url": "/source/csgo-12426148/deagle-t/sounds/weapons/deagle/de_slideback.wav",
+          "sha256": "da0e82dd2736ea91cd4274a5b9372c57316db9b7015cc38e8a6abc8d47da3e56",
+          "bytes": 18666,
+          "pitch": [
+            100.0,
+            100.0
+          ],
+          "volume": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "key": "source_deagle_17",
+          "event": "weapon_deagle.slideforward",
+          "url": "/source/csgo-12426148/deagle-t/sounds/weapons/deagle/de_slideforward.wav",
+          "sha256": "dcb1b4e483baaf631195a4ce669fd31ca941e40ab452381bd16b298e71e34f1c",
+          "bytes": 13844,
+          "pitch": [
+            100.0,
+            100.0
+          ],
+          "volume": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "key": "source_deagle_18",
+          "event": "weapon_deagle.weaponmove1",
+          "url": "/source/csgo-12426148/deagle-t/sounds/weapons/movement1.wav",
+          "sha256": "999130b5319c838ccc9cbdf342b3e3f95175b9e56aa631af04ef8632bc2b1840",
+          "bytes": 48398,
+          "pitch": [
+            98.0,
+            101.0
+          ],
+          "volume": [
+            0.05,
+            0.1
+          ]
+        },
+        {
+          "key": "source_deagle_19",
+          "event": "weapon_deagle.weaponmove2",
+          "url": "/source/csgo-12426148/deagle-t/sounds/weapons/movement2.wav",
+          "sha256": "939f3232142544d2a914436429b1c2c118c77f0cb0667ff9d7d9a744080ac881",
+          "bytes": 51214,
+          "pitch": [
+            98.0,
+            101.0
+          ],
+          "volume": [
+            0.05,
+            0.1
+          ]
+        },
+        {
+          "key": "source_deagle_20",
+          "event": "weapon_deagle.weaponmove3",
+          "url": "/source/csgo-12426148/deagle-t/sounds/weapons/movement3.wav",
+          "sha256": "aae8b21d1899d44a587354ff953df83f252ff4090d1840b173936dc4f565e931",
+          "bytes": 70670,
+          "pitch": [
+            98.0,
+            101.0
+          ],
+          "volume": [
+            0.05,
+            0.1
+          ]
+        },
+        {
+          "key": "source_deagle_21",
+          "event": "weapon_deagle.weaponmove4",
+          "url": "/source/csgo-12426148/deagle-t/sounds/weapons/deagle/de_draw.wav",
+          "sha256": "d0bfc71b2f4540efe73184c93010b67ffca9455237a8ac2aa7d74a8cc22126a4",
+          "bytes": 87350,
+          "pitch": [
+            98.0,
+            101.0
+          ],
+          "volume": [
+            0.05,
+            0.1
+          ]
+        }
+      ],
+      "timeline": {
+        "idle1": [],
+        "shoot1": [],
+        "shoot2": [],
+        "shoot3": [],
+        "shoot_empty": [],
+        "reload": [
+          {
+            "time": 0.26666667461395266,
+            "event": "weapon_deagle.clipout"
+          },
+          {
+            "time": 0.6333333194255829,
+            "event": "weapon_deagle.clipin"
+          },
+          {
+            "time": 1.3666666746139526,
+            "event": "weapon_deagle.slideback"
+          },
+          {
+            "time": 1.566666615009308,
+            "event": "weapon_deagle.slideforward"
+          }
+        ],
+        "draw": [
+          {
+            "time": 0.0,
+            "event": "weapon_deagle.draw"
+          }
+        ],
+        "lookat01": [
+          {
+            "time": 0.06666666797051828,
+            "event": "weapon_deagle.weaponmove1"
+          },
+          {
+            "time": 1.2666666756073635,
+            "event": "weapon_deagle.weaponmove3"
+          },
+          {
+            "time": 1.4333334167798362,
+            "event": "weapon_deagle.weaponmove4"
+          },
+          {
+            "time": 4.366666575272879,
+            "event": "weapon_deagle.weaponmove2"
+          },
+          {
+            "time": 4.56666656335195,
+            "event": "weapon_deagle.weaponmove4"
+          }
+        ],
+        "lookat02": [
+          {
+            "time": 0.3000000137835741,
+            "event": "weapon_deagle.lookat009"
+          },
+          {
+            "time": 1.2000000551342964,
+            "event": "weapon_deagle.lookat036"
+          },
+          {
+            "time": 1.900000013411045,
+            "event": "weapon_deagle.lookat057"
+          },
+          {
+            "time": 2.7000000923871994,
+            "event": "weapon_deagle.lookat081"
+          },
+          {
+            "time": 3.7000000327825546,
+            "event": "weapon_deagle.lookat111"
+          },
+          {
+            "time": 4.433333575725555,
+            "event": "weapon_deagle.lookat133"
+          },
+          {
+            "time": 5.533333510160446,
+            "event": "weapon_deagle.lookat166"
+          },
+          {
+            "time": 6.433333456516266,
+            "event": "weapon_deagle.lookat193"
+          },
+          {
+            "time": 7.60000005364418,
+            "event": "weapon_deagle.lookat228"
+          }
+        ]
+      }
+    }
+  }
+}

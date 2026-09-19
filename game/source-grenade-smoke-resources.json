@@ -1,0 +1,27 @@
+[
+  {
+    "path": "graph.json",
+    "bytes": 315741,
+    "sha256": "e27e12ecf4de7657668db986fb6f1fdae4c330686f6c2a4311e44c989e68931e"
+  },
+  {
+    "path": "native-defaults.json",
+    "bytes": 158640,
+    "sha256": "2ce0eea0688fe5e34d30cb4d1cbba77675753107f24f691e854e619aacbf0176"
+  },
+  {
+    "path": "sheets/vistasmokev1_emods.bin",
+    "bytes": 17960,
+    "sha256": "ff902284d68de6fb897898256e42b8ba69f3a2e7a808233eec3fd539be60c4d1"
+  },
+  {
+    "path": "textures/vistasmokev1_emods-frame-0.png",
+    "bytes": 1077397,
+    "sha256": "e4eae792fa784d92f6f33ffd4944653c7504cf47b1f4ea008c659542d659d55b"
+  },
+  {
+    "path": "textures/warp5_explosion-frame-0.png",
+    "bytes": 74474,
+    "sha256": "9b4c5cb6b5bac315d57a71eb6feef6f6bf5ebfa50b098a029f81e45b0e968e27"
+  }
+]

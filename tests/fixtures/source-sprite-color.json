@@ -1,0 +1,96 @@
+{
+  "format": "source-spritecard-colour-v1",
+  "build": 12426148,
+  "path": "shaders/fxc/spritecard_vs20.vcs",
+  "sha256": "a7929f9d52d7c9a3612d0160e4a460284da7cc8f0ceb63b838bd6204d5a6bb16",
+  "formula": "COLOR0.rgb ^ float32(2.2); alpha unchanged before visibility/size/orientation fades",
+  "exponent": 2.200000047683716,
+  "storedStaticProgramsChecked": 480,
+  "cases": [
+    {
+      "input": [
+        0,
+        0,
+        0,
+        0.5
+      ],
+      "output": [
+        0,
+        0,
+        0,
+        0.5
+      ]
+    },
+    {
+      "input": [
+        0.5,
+        0.5,
+        0.5,
+        0.23
+      ],
+      "output": [
+        0.21763763363070815,
+        0.21763763363070815,
+        0.21763763363070815,
+        0.23
+      ]
+    },
+    {
+      "input": [
+        0.2549019607843137,
+        0.30196078431372547,
+        0.35294117647058826,
+        0.8
+      ],
+      "output": [
+        0.049433454333947045,
+        0.07176144474871408,
+        0.10114515918669166,
+        0.8
+      ]
+    },
+    {
+      "input": [
+        0.38823529411764707,
+        0.6627450980392157,
+        0.6509803921568628,
+        1
+      ],
+      "output": [
+        0.12474093975928296,
+        0.4045408146327304,
+        0.38891024857827483,
+        1
+      ]
+    },
+    {
+      "input": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "output": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ]
+    },
+    {
+      "input": [
+        0.04,
+        0.15,
+        0.8,
+        0
+      ],
+      "output": [
+        0.0008404887684042894,
+        0.015395745757943353,
+        0.6120655933530538,
+        0
+      ]
+    }
+  ],
+  "boundary": "Original compiled build tokens decoded and asserted; numeric slice evaluated on CPU. This is not native GPU execution."
+}

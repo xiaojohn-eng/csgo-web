@@ -1,0 +1,429 @@
+{
+  "format": "source-muzzle-flash-map-v1",
+  "sourceApp": 740,
+  "build": 12426148,
+  "receipt": {
+    "path": "scripts/items/items_game.txt",
+    "container": "loose",
+    "bytes": 6791631,
+    "sha256": "510e09b68a01d88edba2342972960025fd6484aaaa58365fcf47d8513de79623"
+  },
+  "keys": [
+    "muzzle_flash_effect_1st_person",
+    "muzzle_flash_effect_3rd_person",
+    "heat_effect",
+    "eject_brass_effect",
+    "tracer_effect",
+    "weapon_type",
+    "player_animation_extension"
+  ],
+  "weapons": {
+    "equipment": {
+      "weapon_type": "Equipment"
+    },
+    "grenade": {
+      "weapon_type": "Grenade"
+    },
+    "explosive_grenade": {
+      "weapon_type": "Grenade",
+      "player_animation_extension": "gren"
+    },
+    "c4": {
+      "weapon_type": "C4",
+      "player_animation_extension": "c4"
+    },
+    "melee": {
+      "weapon_type": "Knife",
+      "player_animation_extension": "knife"
+    },
+    "secondary": {
+      "weapon_type": "Pistol"
+    },
+    "smg": {
+      "weapon_type": "SubMachinegun"
+    },
+    "rifle": {
+      "weapon_type": "Rifle"
+    },
+    "sniper_rifle": {
+      "weapon_type": "SniperRifle"
+    },
+    "shotgun": {
+      "weapon_type": "Shotgun"
+    },
+    "machinegun": {
+      "weapon_type": "Machinegun"
+    },
+    "weapon_deagle_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_pistol",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_pistol",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_9mm",
+      "tracer_effect": "weapon_tracers_pistol",
+      "weapon_type": "Pistol",
+      "player_animation_extension": "pistol"
+    },
+    "weapon_elite_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_pistol_elite_FP",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_pistol_elite",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_9mm",
+      "tracer_effect": "weapon_tracers_pistol",
+      "weapon_type": "Pistol",
+      "player_animation_extension": "elites"
+    },
+    "weapon_fiveseven_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_pistol",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_pistol",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_9mm",
+      "tracer_effect": "weapon_tracers_pistol",
+      "weapon_type": "Pistol",
+      "player_animation_extension": "pistol"
+    },
+    "weapon_glock_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_pistol",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_pistol",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_9mm",
+      "tracer_effect": "weapon_tracers_pistol",
+      "weapon_type": "Pistol",
+      "player_animation_extension": "pistol"
+    },
+    "weapon_hkp2000_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_pistol",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_pistol",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_9mm",
+      "tracer_effect": "weapon_tracers_pistol",
+      "weapon_type": "Pistol",
+      "player_animation_extension": "pistol"
+    },
+    "weapon_p250_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_pistol",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_pistol",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_9mm",
+      "tracer_effect": "weapon_tracers_pistol",
+      "weapon_type": "Pistol",
+      "player_animation_extension": "pistol"
+    },
+    "weapon_cz75a_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_pistol",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_pistol",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_9mm",
+      "tracer_effect": "weapon_tracers_pistol",
+      "weapon_type": "Pistol",
+      "player_animation_extension": "pistol"
+    },
+    "weapon_tec9_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_pistol",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_pistol",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_9mm",
+      "tracer_effect": "weapon_tracers_pistol",
+      "weapon_type": "Pistol",
+      "player_animation_extension": "tec9"
+    },
+    "weapon_bizon_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_smg",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_smg",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_9mm",
+      "tracer_effect": "weapon_tracers_smg",
+      "weapon_type": "SubMachinegun",
+      "player_animation_extension": "bizon"
+    },
+    "weapon_mac10_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_smg",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_smg",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_9mm",
+      "tracer_effect": "weapon_tracers_smg",
+      "weapon_type": "SubMachinegun",
+      "player_animation_extension": "mac10"
+    },
+    "weapon_mp7_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_smg",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_smg",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_9mm",
+      "tracer_effect": "weapon_tracers_smg",
+      "weapon_type": "SubMachinegun",
+      "player_animation_extension": "mp7"
+    },
+    "weapon_mp5sd_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_assaultrifle_silenced",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_assaultrifle_silenced",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_9mm",
+      "tracer_effect": "weapon_tracers_smg",
+      "weapon_type": "SubMachinegun",
+      "player_animation_extension": "mp5sd"
+    },
+    "weapon_mp9_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_smg",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_smg",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_9mm",
+      "tracer_effect": "weapon_tracers_smg",
+      "weapon_type": "SubMachinegun",
+      "player_animation_extension": "mp9"
+    },
+    "weapon_p90_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_smg",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_smg",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_9mm",
+      "tracer_effect": "weapon_tracers_smg",
+      "weapon_type": "SubMachinegun",
+      "player_animation_extension": "p90"
+    },
+    "weapon_ump45_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_smg",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_smg",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_9mm",
+      "tracer_effect": "weapon_tracers_smg",
+      "weapon_type": "SubMachinegun",
+      "player_animation_extension": "ump45"
+    },
+    "weapon_ak47_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_assaultrifle",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_assaultrifle",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_rifle",
+      "tracer_effect": "weapon_tracers_assrifle",
+      "weapon_type": "Rifle",
+      "player_animation_extension": "ak"
+    },
+    "weapon_aug_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_assaultrifle",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_assaultrifle",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_rifle",
+      "tracer_effect": "weapon_tracers_assrifle",
+      "weapon_type": "Rifle",
+      "player_animation_extension": "aug"
+    },
+    "weapon_famas_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_assaultrifle",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_assaultrifle",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_rifle",
+      "tracer_effect": "weapon_tracers_assrifle",
+      "weapon_type": "Rifle",
+      "player_animation_extension": "famas"
+    },
+    "weapon_galilar_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_assaultrifle",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_assaultrifle",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_rifle",
+      "tracer_effect": "weapon_tracers_assrifle",
+      "weapon_type": "Rifle",
+      "player_animation_extension": "galilar"
+    },
+    "weapon_m4a1_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_assaultrifle",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_assaultrifle",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_rifle",
+      "tracer_effect": "weapon_tracers_assrifle",
+      "weapon_type": "Rifle",
+      "player_animation_extension": "m4"
+    },
+    "weapon_sg556_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_assaultrifle",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_assaultrifle",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_rifle",
+      "tracer_effect": "weapon_tracers_assrifle",
+      "weapon_type": "Rifle",
+      "player_animation_extension": "sg556"
+    },
+    "weapon_awp_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_awp",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_awp",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_50cal",
+      "tracer_effect": "weapon_tracers_rifle",
+      "weapon_type": "SniperRifle",
+      "player_animation_extension": "awp"
+    },
+    "weapon_g3sg1_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_huntingrifle",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_huntingrifle",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_rifle",
+      "tracer_effect": "weapon_tracers_rifle",
+      "weapon_type": "SniperRifle",
+      "player_animation_extension": "g3"
+    },
+    "weapon_scar20_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_huntingrifle",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_huntingrifle",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_rifle",
+      "tracer_effect": "weapon_tracers_rifle",
+      "weapon_type": "SniperRifle",
+      "player_animation_extension": "scar20"
+    },
+    "weapon_ssg08_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_huntingrifle_FP",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_huntingrifle",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_rifle",
+      "tracer_effect": "weapon_tracers_assrifle",
+      "weapon_type": "SniperRifle",
+      "player_animation_extension": "ssg08"
+    },
+    "weapon_mag7_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_autoshotgun",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_autoshotgun",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_shotgun",
+      "tracer_effect": "weapon_tracers_shot",
+      "weapon_type": "Shotgun",
+      "player_animation_extension": "mag7"
+    },
+    "weapon_nova_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_autoshotgun",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_autoshotgun",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_shotgun",
+      "tracer_effect": "weapon_tracers_shot",
+      "weapon_type": "Shotgun",
+      "player_animation_extension": "nova"
+    },
+    "weapon_sawedoff_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_autoshotgun",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_autoshotgun",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_shotgun",
+      "tracer_effect": "weapon_tracers_shot",
+      "weapon_type": "Shotgun",
+      "player_animation_extension": "Sawedoff"
+    },
+    "weapon_xm1014_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_autoshotgun",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_autoshotgun",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_shotgun",
+      "tracer_effect": "weapon_tracers_shot",
+      "weapon_type": "Shotgun",
+      "player_animation_extension": "xm1014"
+    },
+    "weapon_m249_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_para_FP",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_para",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_rifle",
+      "tracer_effect": "weapon_tracers_mach",
+      "weapon_type": "Machinegun",
+      "player_animation_extension": "m249"
+    },
+    "weapon_negev_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_para_FP",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_para",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_rifle",
+      "tracer_effect": "weapon_tracers_mach",
+      "weapon_type": "Machinegun",
+      "player_animation_extension": "negev"
+    },
+    "weapon_decoy_prefab": {
+      "weapon_type": "Grenade",
+      "player_animation_extension": "gren"
+    },
+    "weapon_flashbang_prefab": {
+      "weapon_type": "Grenade",
+      "player_animation_extension": "gren"
+    },
+    "weapon_incgrenade_prefab": {
+      "weapon_type": "Grenade",
+      "player_animation_extension": "gren"
+    },
+    "weapon_molotov_prefab": {
+      "weapon_type": "Grenade",
+      "player_animation_extension": "gren"
+    },
+    "weapon_smokegrenade_prefab": {
+      "weapon_type": "Grenade",
+      "player_animation_extension": "gren"
+    },
+    "weapon_tagrenade_prefab": {
+      "weapon_type": "Grenade",
+      "player_animation_extension": "gren"
+    },
+    "weapon_snowball_prefab": {
+      "weapon_type": "Grenade",
+      "player_animation_extension": "gren"
+    },
+    "weapon_m4a1_silencer_prefab": {
+      "weapon_type": "Rifle",
+      "eject_brass_effect": "weapon_shell_casing_rifle",
+      "tracer_effect": "weapon_tracers_assrifle",
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_assaultrifle",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_assaultrifle",
+      "heat_effect": "weapon_muzzle_smoke",
+      "player_animation_extension": "m4_s"
+    },
+    "weapon_usp_silencer_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_pistol",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_pistol",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_9mm",
+      "tracer_effect": "weapon_tracers_pistol",
+      "weapon_type": "Pistol",
+      "player_animation_extension": "pistol"
+    },
+    "weapon_revolver_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_assaultrifle",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_assaultrifle",
+      "heat_effect": "weapon_muzzle_smoke",
+      "eject_brass_effect": "weapon_shell_casing_9mm",
+      "tracer_effect": "weapon_tracers_pistol",
+      "weapon_type": "Pistol",
+      "player_animation_extension": "pistol"
+    },
+    "weapon_taser_prefab": {
+      "muzzle_flash_effect_1st_person": "weapon_muzzle_flash_taser",
+      "muzzle_flash_effect_3rd_person": "weapon_muzzle_flash_taser",
+      "eject_brass_effect": "weapon_shell_casing_9mm",
+      "tracer_effect": "weapon_tracers_taser",
+      "weapon_type": "Knife",
+      "player_animation_extension": "pistol"
+    },
+    "weapon_zone_repulsor_prefab": {
+      "weapon_type": "ZoneRepulsor"
+    },
+    "weapon_shield_prefab": {
+      "weapon_type": "Shield"
+    },
+    "weapon_breachcharge_prefab": {
+      "weapon_type": "Breach Charge",
+      "player_animation_extension": "gren"
+    },
+    "weapon_bumpmine_prefab": {
+      "weapon_type": "Bump Mine",
+      "player_animation_extension": "gren"
+    },
+    "weapon_healthshot_prefab": {
+      "weapon_type": "StackableItem",
+      "player_animation_extension": "c4"
+    },
+    "weapon_fists_prefab": {
+      "weapon_type": "Fists"
+    },
+    "weapon_tablet_prefab": {
+      "weapon_type": "Tablet",
+      "player_animation_extension": "c4"
+    },
+    "weapon_melee_prefab": {
+      "weapon_type": "Melee"
+    }
+  },
+  "unattributed": []
+}

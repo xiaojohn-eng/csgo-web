@@ -1,0 +1,4123 @@
+{
+  "status": "original_prop_texture_uv_and_vhv_readback_passed",
+  "environment": {
+    "installation": {
+      "appid": "740",
+      "name": "Counter-Strike Global Offensive - Dedicated Server",
+      "stateflags": "4",
+      "updateresult": "0",
+      "buildid": "12426148",
+      "installeddepots": {
+        "731": {
+          "manifest": "1224088799001669801",
+          "size": "32722411363"
+        },
+        "740": {
+          "manifest": "6998097922547485721",
+          "size": "1983335199"
+        }
+      },
+      "sizeondisk": "34705746562"
+    },
+    "manifestSha256": "66b82304a18cbb15707450eee259965b23a4813c19453edd190da0213c992bbd",
+    "sourceioCommit": "cfc2591d096628a35f570aa830ab75cc8665108b",
+    "blenderVersion": "5.2.1 LTS"
+  },
+  "scope": "Read-only original asset and numerical branch audit. No browser render, GPU mip inspection, same-camera original capture or pixel score.",
+  "originalGLBSha256": "55937fce28a53461520fa2c531384f65f0f8b69df1a8205245466b6064ab5232",
+  "sourceBspSha256": "b91be410539fbbfc16300423f1e19c024f12addf1429c8cb2f72b53fe0fd6bcc",
+  "materials": [
+    {
+      "name": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_01",
+      "source": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_01",
+      "shader": "vertexlitgeneric",
+      "mapped": [
+        "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+        "base texture alpha",
+        "tangent normal with green inversion"
+      ],
+      "unmapped": [
+        "$allowalphatocoverage",
+        "$surfaceprop"
+      ],
+      "parameters": {
+        "$basetexture": "models\\props\\de_dust\\hr_dust\\dust_kasbah\\dust_kasbah_rooftrim_01_color",
+        "$bumpmap": "models\\props\\de_dust\\hr_dust\\dust_kasbah\\dust_kasbah_rooftrim_01_normal",
+        "$allowalphatocoverage": "1",
+        "$surfaceprop": "grass",
+        "$alphatest": "1"
+      },
+      "rawVmtSha256": "07ab89c2812176d590deb8e386cae73654a28bf1f227fc2cde0ddf34ef8abed4",
+      "alphaTest": 1,
+      "alphaCutoff": 0.5
+    },
+    {
+      "name": "models/props/de_dust/hr_dust/dust_trims/hr_dust_stone_ground_01_color",
+      "source": "models/props/de_dust/hr_dust/dust_trims/hr_dust_stone_ground_01_color",
+      "shader": "vertexlitgeneric",
+      "mapped": [
+        "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+        "tangent normal with green inversion"
+      ],
+      "unmapped": [],
+      "parameters": {
+        "$basetexture": "models/props/de_dust/hr_dust/dust_trims/hr_dust_stone_ground_01_color.vtf",
+        "$bumpmap": "models\\props\\de_dust\\hr_dust\\dust_trims\\hr_dust_stone_ground_01_normal.vtf"
+      },
+      "rawVmtSha256": "9103aa6fc1edf945f1c8fadf2e820c0f12cdda8e8d692b74308396f85663612a"
+    },
+    {
+      "name": "models/props/de_dust/hr_dust/dust_trims/hr_dust_stone_ground_02_color",
+      "source": "models/props/de_dust/hr_dust/dust_trims/hr_dust_stone_ground_02_color",
+      "shader": "vertexlitgeneric",
+      "mapped": [
+        "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+        "tangent normal with green inversion"
+      ],
+      "unmapped": [],
+      "parameters": {
+        "$basetexture": "models/props/de_dust/hr_dust/dust_trims/hr_dust_stone_ground_02_color.vtf",
+        "$bumpmap": "models\\props\\de_dust\\hr_dust\\dust_trims\\hr_dust_stone_ground_02_normal.vtf"
+      },
+      "rawVmtSha256": "b8aa4dbf5a7e85db6187155c1e65c11f352976733b7a092abd43559234c27384"
+    }
+  ],
+  "textures": [
+    {
+      "path": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_01_color.vtf",
+      "key": "$basetexture",
+      "sourceSha256": "84546e0a13910907541938543c72cb5ddb1bb4fc149a151e3f8f5aaf4461345e",
+      "format": 15,
+      "flags": "0x2000",
+      "width": 1024,
+      "height": 1024,
+      "authoredMipCount": 11,
+      "originalPNGExact": true,
+      "embeddedGLBPixelsExact": true,
+      "gltfSampler": {
+        "magFilter": 9729,
+        "minFilter": 9987
+      },
+      "normalGreenInverted": false,
+      "mip0": {
+        "minRGBA": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxRGBA": [
+          248,
+          252,
+          248,
+          255
+        ],
+        "alphaBelowHalfFraction": 0.23067188262939453,
+        "rgbAllBelow8Fraction": 0.00012493133544921875,
+        "meanRGB": [
+          113.38521957397461,
+          107.03029441833496,
+          95.82226753234863
+        ]
+      },
+      "lowerMips": [
+        {
+          "level": 1,
+          "width": 512,
+          "height": 512,
+          "rgbaSha256": "08e86b86a9b8224be6ab0fa759a64192102401fd508a3b213d43e1e03fb19263",
+          "minRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "maxRGBA": [
+            248,
+            252,
+            248,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.233123779296875,
+          "rgbAllBelow8Fraction": 0.001186370849609375,
+          "meanRGB": [
+            113.32552719116211,
+            107.00796890258789,
+            95.79946517944336
+          ],
+          "referenceBoxMeanAbsoluteDelta": 8.407225370407104
+        },
+        {
+          "level": 2,
+          "width": 256,
+          "height": 256,
+          "rgbaSha256": "bafd058deb7c4138e07842968260cc6215fb1ae1ed6b04ae642a161b230a4f4d",
+          "minRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "maxRGBA": [
+            248,
+            252,
+            240,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.2271270751953125,
+          "rgbAllBelow8Fraction": 0.001312255859375,
+          "meanRGB": [
+            113.36184692382812,
+            107.00003051757812,
+            95.78236389160156
+          ],
+          "referenceBoxMeanAbsoluteDelta": 6.089250564575195
+        },
+        {
+          "level": 3,
+          "width": 128,
+          "height": 128,
+          "rgbaSha256": "075fd7fa6da34fb4281b65dada72c349e7f96fb1e3e86a93c4da570a822c2602",
+          "minRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "maxRGBA": [
+            224,
+            216,
+            192,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.224609375,
+          "rgbAllBelow8Fraction": 0.00054931640625,
+          "meanRGB": [
+            113.3525390625,
+            107.00347900390625,
+            95.736572265625
+          ],
+          "referenceBoxMeanAbsoluteDelta": 5.674583435058594
+        },
+        {
+          "level": 4,
+          "width": 64,
+          "height": 64,
+          "rgbaSha256": "29dfb4becc188d51c70524011bf23fe6e89cfc12b510294a8b7248065c6ab901",
+          "minRGBA": [
+            16,
+            12,
+            16,
+            0
+          ],
+          "maxRGBA": [
+            200,
+            188,
+            160,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.237060546875,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            113.496337890625,
+            107.06689453125,
+            95.8330078125
+          ],
+          "referenceBoxMeanAbsoluteDelta": 4.7578277587890625
+        },
+        {
+          "level": 5,
+          "width": 32,
+          "height": 32,
+          "rgbaSha256": "2342c774a902a73beef6b0229eda6b09149bb6cc2f7e2d2b9b267453c8728baa",
+          "minRGBA": [
+            40,
+            44,
+            40,
+            0
+          ],
+          "maxRGBA": [
+            168,
+            160,
+            152,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.2509765625,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            113.3818359375,
+            107.2783203125,
+            96.0205078125
+          ],
+          "referenceBoxMeanAbsoluteDelta": 4.91400146484375
+        },
+        {
+          "level": 6,
+          "width": 16,
+          "height": 16,
+          "rgbaSha256": "f33dc90b8f2364c842a041c2d5b1a65981e5c1d3d4022e84bde016575f8d78fa",
+          "minRGBA": [
+            72,
+            60,
+            56,
+            0
+          ],
+          "maxRGBA": [
+            160,
+            152,
+            136,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.25390625,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            113.43359375,
+            107.06640625,
+            96.3515625
+          ],
+          "referenceBoxMeanAbsoluteDelta": 4.563720703125
+        },
+        {
+          "level": 7,
+          "width": 8,
+          "height": 8,
+          "rgbaSha256": "efaf28c911dd8ff9e50bbcff8998b0dcc173229968a400c3e7bfa8ac9743766b",
+          "minRGBA": [
+            72,
+            68,
+            64,
+            0
+          ],
+          "maxRGBA": [
+            144,
+            132,
+            112,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.265625,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            112.71875,
+            106.5625,
+            94.0
+          ],
+          "referenceBoxMeanAbsoluteDelta": 4.345703125
+        },
+        {
+          "level": 8,
+          "width": 4,
+          "height": 4,
+          "rgbaSha256": "9bc56c090b0fe927083c10d759642ec1d958b89b8658eb1d8ff39f206646379c",
+          "minRGBA": [
+            88,
+            84,
+            80,
+            131
+          ],
+          "maxRGBA": [
+            144,
+            136,
+            120,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            112.4375,
+            106.8125,
+            97.5625
+          ],
+          "referenceBoxMeanAbsoluteDelta": 7.86328125
+        },
+        {
+          "level": 9,
+          "width": 2,
+          "height": 2,
+          "rgbaSha256": "2bead6cbb45b8d495c22ea0d33ccf6e1a3a452f1f3bfaafc58475f6af824bd0a",
+          "minRGBA": [
+            96,
+            92,
+            80,
+            182
+          ],
+          "maxRGBA": [
+            128,
+            124,
+            112,
+            210
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            112.0,
+            108.0,
+            96.0
+          ],
+          "referenceBoxMeanAbsoluteDelta": 2.546875
+        },
+        {
+          "level": 10,
+          "width": 1,
+          "height": 1,
+          "rgbaSha256": "74592f061462a89fa8b935ccc3f33802bd50af32131f0e80d7df756f33856a23",
+          "minRGBA": [
+            112,
+            108,
+            96,
+            196
+          ],
+          "maxRGBA": [
+            112,
+            108,
+            96,
+            196
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            112.0,
+            108.0,
+            96.0
+          ],
+          "referenceBoxMeanAbsoluteDelta": 0.0
+        }
+      ]
+    },
+    {
+      "path": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_01_normal.vtf",
+      "key": "$bumpmap",
+      "sourceSha256": "6d2cc4d6163378647bcabe60c0357a2700dcdb214edf2036e0e22543a5d38cd9",
+      "format": 13,
+      "flags": "0x82",
+      "width": 512,
+      "height": 512,
+      "authoredMipCount": 10,
+      "originalPNGExact": true,
+      "embeddedGLBPixelsExact": true,
+      "gltfSampler": {
+        "magFilter": 9729,
+        "minFilter": 9987
+      },
+      "normalGreenInverted": true,
+      "mip0": {
+        "minRGBA": [
+          0,
+          0,
+          72,
+          255
+        ],
+        "maxRGBA": [
+          248,
+          252,
+          248,
+          255
+        ],
+        "alphaBelowHalfFraction": 0.0,
+        "rgbAllBelow8Fraction": 0.0,
+        "meanRGB": [
+          123.6638412475586,
+          123.01563262939453,
+          224.57384872436523
+        ]
+      },
+      "lowerMips": [
+        {
+          "level": 1,
+          "width": 256,
+          "height": 256,
+          "rgbaSha256": "a30eb755f7a4469c8174bef565ffedbc4d0512e2b12befcdfbc944f5afe943e9",
+          "minRGBA": [
+            0,
+            0,
+            80,
+            255
+          ],
+          "maxRGBA": [
+            248,
+            252,
+            248,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            123.64999389648438,
+            123.02862548828125,
+            222.5508575439453
+          ],
+          "referenceBoxMeanAbsoluteDelta": 9.386311531066895
+        },
+        {
+          "level": 2,
+          "width": 128,
+          "height": 128,
+          "rgbaSha256": "1337abf070270cd6c722bf3b627915b7d2f16bd29bc3b9dea2de859f786da95d",
+          "minRGBA": [
+            0,
+            0,
+            96,
+            255
+          ],
+          "maxRGBA": [
+            248,
+            252,
+            248,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            123.6805419921875,
+            123.0047607421875,
+            222.85009765625
+          ],
+          "referenceBoxMeanAbsoluteDelta": 7.151065826416016
+        },
+        {
+          "level": 3,
+          "width": 64,
+          "height": 64,
+          "rgbaSha256": "e68f3d9348ef309ecb26be334cdc3af60ca3d22437e99a6c72cedf7459a91844",
+          "minRGBA": [
+            0,
+            36,
+            160,
+            255
+          ],
+          "maxRGBA": [
+            248,
+            220,
+            248,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            123.769287109375,
+            122.939453125,
+            223.649169921875
+          ],
+          "referenceBoxMeanAbsoluteDelta": 5.148895263671875
+        },
+        {
+          "level": 4,
+          "width": 32,
+          "height": 32,
+          "rgbaSha256": "8b0d0392190c1b87afe581e9de762f018b20f28fac85562d53acfc6dbfb6e692",
+          "minRGBA": [
+            80,
+            72,
+            192,
+            255
+          ],
+          "maxRGBA": [
+            168,
+            172,
+            248,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            123.6220703125,
+            123.015625,
+            223.876953125
+          ],
+          "referenceBoxMeanAbsoluteDelta": 3.8946533203125
+        },
+        {
+          "level": 5,
+          "width": 16,
+          "height": 16,
+          "rgbaSha256": "deec0c957cc758bd43ae8db685bfa0cba4b470e5101c6c8e5449110382ec1c4f",
+          "minRGBA": [
+            112,
+            88,
+            192,
+            255
+          ],
+          "maxRGBA": [
+            144,
+            148,
+            248,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            123.74609375,
+            122.7421875,
+            223.33203125
+          ],
+          "referenceBoxMeanAbsoluteDelta": 3.555908203125
+        },
+        {
+          "level": 6,
+          "width": 8,
+          "height": 8,
+          "rgbaSha256": "1168c5c29d4aea05ee23bb44663c7ce99cc725079ea9c1a86058035f3236b5b6",
+          "minRGBA": [
+            120,
+            92,
+            208,
+            255
+          ],
+          "maxRGBA": [
+            136,
+            144,
+            232,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            124.03125,
+            122.8125,
+            222.734375
+          ],
+          "referenceBoxMeanAbsoluteDelta": 2.525390625
+        },
+        {
+          "level": 7,
+          "width": 4,
+          "height": 4,
+          "rgbaSha256": "74c587f218c13a12254e3c6e709e734bec74d39136f97d714836c5c861fe4a4b",
+          "minRGBA": [
+            120,
+            112,
+            224,
+            255
+          ],
+          "maxRGBA": [
+            128,
+            132,
+            224,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            123.75,
+            122.75,
+            224.0
+          ],
+          "referenceBoxMeanAbsoluteDelta": 2.16796875
+        },
+        {
+          "level": 8,
+          "width": 2,
+          "height": 2,
+          "rgbaSha256": "1f86caf8875089e358becd8fbdba1f30779f45b4abd92bd15cb6df2ec8b68c76",
+          "minRGBA": [
+            123,
+            121,
+            219,
+            255
+          ],
+          "maxRGBA": [
+            125,
+            123,
+            221,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            124.5,
+            122.5,
+            220.5
+          ],
+          "referenceBoxMeanAbsoluteDelta": 1.375
+        },
+        {
+          "level": 9,
+          "width": 1,
+          "height": 1,
+          "rgbaSha256": "d6a4c51ca92b84b81cff11a8cd6ee8a2e8cec3b9313f94d804ad43b5f821b1b3",
+          "minRGBA": [
+            123,
+            123,
+            224,
+            255
+          ],
+          "maxRGBA": [
+            123,
+            123,
+            224,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            123.0,
+            123.0,
+            224.0
+          ],
+          "referenceBoxMeanAbsoluteDelta": 1.375
+        }
+      ]
+    },
+    {
+      "path": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_stone_ground_01_color.vtf",
+      "key": "$basetexture",
+      "sourceSha256": "24ba149d0bcaf52a313f474b0120705a74e664a112fa408bd366e6d8f777192c",
+      "format": 13,
+      "flags": "0x0",
+      "width": 1024,
+      "height": 1024,
+      "authoredMipCount": 11,
+      "originalPNGExact": true,
+      "embeddedGLBPixelsExact": true,
+      "gltfSampler": {
+        "magFilter": 9729,
+        "minFilter": 9987
+      },
+      "normalGreenInverted": false,
+      "mip0": {
+        "minRGBA": [
+          16,
+          8,
+          0,
+          255
+        ],
+        "maxRGBA": [
+          224,
+          228,
+          224,
+          255
+        ],
+        "alphaBelowHalfFraction": 0.0,
+        "rgbAllBelow8Fraction": 0.0,
+        "meanRGB": [
+          111.6366720199585,
+          104.98221969604492,
+          93.31622505187988
+        ]
+      },
+      "lowerMips": [
+        {
+          "level": 1,
+          "width": 512,
+          "height": 512,
+          "rgbaSha256": "8b74f5ab09da47e2d661d335f1fe8a02ccbbaa17a95f1228c97ae5cc4cd13c28",
+          "minRGBA": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "maxRGBA": [
+            248,
+            252,
+            248,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 1.9073486328125e-05,
+          "meanRGB": [
+            111.61634063720703,
+            104.95993423461914,
+            93.30050277709961
+          ],
+          "referenceBoxMeanAbsoluteDelta": 5.5282580852508545
+        },
+        {
+          "level": 2,
+          "width": 256,
+          "height": 256,
+          "rgbaSha256": "3cd67dc5e50e7cf9f8669d8d017ace377f976b3f642b0487e4b531df313cfee9",
+          "minRGBA": [
+            8,
+            8,
+            0,
+            255
+          ],
+          "maxRGBA": [
+            216,
+            216,
+            208,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            111.64239501953125,
+            104.973876953125,
+            93.31088256835938
+          ],
+          "referenceBoxMeanAbsoluteDelta": 3.264749526977539
+        },
+        {
+          "level": 3,
+          "width": 128,
+          "height": 128,
+          "rgbaSha256": "3f8c7bb40091e55aafc47f14d7dca4128101fc730626f6dba8cedab0c668860a",
+          "minRGBA": [
+            48,
+            48,
+            32,
+            255
+          ],
+          "maxRGBA": [
+            168,
+            168,
+            152,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            111.76824951171875,
+            105.033203125,
+            93.37396240234375
+          ],
+          "referenceBoxMeanAbsoluteDelta": 2.733917236328125
+        },
+        {
+          "level": 4,
+          "width": 64,
+          "height": 64,
+          "rgbaSha256": "dd892d8530789154ebf9fa51c0f25b474d68087c73a160c82e1d0ddfdb630041",
+          "minRGBA": [
+            56,
+            48,
+            40,
+            255
+          ],
+          "maxRGBA": [
+            168,
+            156,
+            144,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            111.943115234375,
+            105.19970703125,
+            93.63134765625
+          ],
+          "referenceBoxMeanAbsoluteDelta": 2.787994384765625
+        },
+        {
+          "level": 5,
+          "width": 32,
+          "height": 32,
+          "rgbaSha256": "963b08f3cb5f8071fdeb762cce8fe88238fc357a82ac21e6b9d029e7486af770",
+          "minRGBA": [
+            72,
+            64,
+            56,
+            255
+          ],
+          "maxRGBA": [
+            160,
+            148,
+            136,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            112.4267578125,
+            105.572265625,
+            93.896484375
+          ],
+          "referenceBoxMeanAbsoluteDelta": 3.25750732421875
+        },
+        {
+          "level": 6,
+          "width": 16,
+          "height": 16,
+          "rgbaSha256": "526d57e51bcaf21b6aaa7ff9c677075cc39692bb1746ddc717108d38800e069e",
+          "minRGBA": [
+            80,
+            72,
+            64,
+            255
+          ],
+          "maxRGBA": [
+            144,
+            136,
+            120,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            112.42578125,
+            105.64453125,
+            94.125
+          ],
+          "referenceBoxMeanAbsoluteDelta": 3.100830078125
+        },
+        {
+          "level": 7,
+          "width": 8,
+          "height": 8,
+          "rgbaSha256": "99a453f950f636e6e7fda1e1eeff5581032963b7c3c49bf4ea8972b9253b5c11",
+          "minRGBA": [
+            96,
+            88,
+            80,
+            255
+          ],
+          "maxRGBA": [
+            144,
+            132,
+            120,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            113.125,
+            106.359375,
+            94.015625
+          ],
+          "referenceBoxMeanAbsoluteDelta": 3.21484375
+        },
+        {
+          "level": 8,
+          "width": 4,
+          "height": 4,
+          "rgbaSha256": "c4ea5cf9ca6fc7fe420ff0c618b90338e6f855298006e7ff0fa4e7d33aa4f005",
+          "minRGBA": [
+            96,
+            88,
+            80,
+            255
+          ],
+          "maxRGBA": [
+            120,
+            116,
+            104,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            112.0,
+            106.75,
+            96.0
+          ],
+          "referenceBoxMeanAbsoluteDelta": 2.4140625
+        },
+        {
+          "level": 9,
+          "width": 2,
+          "height": 2,
+          "rgbaSha256": "4793696714d0c773461336a562036075b32a87b4dea40791ace4b524adab23d0",
+          "minRGBA": [
+            104,
+            96,
+            88,
+            255
+          ],
+          "maxRGBA": [
+            120,
+            112,
+            104,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            112.0,
+            104.0,
+            96.0
+          ],
+          "referenceBoxMeanAbsoluteDelta": 1.4375
+        },
+        {
+          "level": 10,
+          "width": 1,
+          "height": 1,
+          "rgbaSha256": "caffa9fa3bf1b97ba9f0f0c55b50933a464aca36d7b85dcabaf28c4ad644f6a3",
+          "minRGBA": [
+            112,
+            105,
+            93,
+            255
+          ],
+          "maxRGBA": [
+            112,
+            105,
+            93,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            112.0,
+            105.0,
+            93.0
+          ],
+          "referenceBoxMeanAbsoluteDelta": 1.0
+        }
+      ]
+    },
+    {
+      "path": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_stone_ground_01_normal.vtf",
+      "key": "$bumpmap",
+      "sourceSha256": "b83dd45410cef9400620ebdf343da6153421dfac472bf518807955b4ab1339a1",
+      "format": 13,
+      "flags": "0x0",
+      "width": 512,
+      "height": 512,
+      "authoredMipCount": 10,
+      "originalPNGExact": true,
+      "embeddedGLBPixelsExact": true,
+      "gltfSampler": {
+        "magFilter": 9729,
+        "minFilter": 9987
+      },
+      "normalGreenInverted": true,
+      "mip0": {
+        "minRGBA": [
+          0,
+          0,
+          40,
+          255
+        ],
+        "maxRGBA": [
+          248,
+          252,
+          248,
+          255
+        ],
+        "alphaBelowHalfFraction": 0.0,
+        "rgbAllBelow8Fraction": 0.0,
+        "meanRGB": [
+          123.30234909057617,
+          126.66635513305664,
+          245.13245010375977
+        ]
+      },
+      "lowerMips": [
+        {
+          "level": 1,
+          "width": 256,
+          "height": 256,
+          "rgbaSha256": "db3c65c1f905f20382399d4ee3aa419b78fb18324d374bf9b9aa758815a70b9f",
+          "minRGBA": [
+            0,
+            0,
+            32,
+            255
+          ],
+          "maxRGBA": [
+            248,
+            252,
+            248,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            123.3499755859375,
+            126.59645080566406,
+            243.33944702148438
+          ],
+          "referenceBoxMeanAbsoluteDelta": 4.5337629318237305
+        },
+        {
+          "level": 2,
+          "width": 128,
+          "height": 128,
+          "rgbaSha256": "55ed90a5261f23ddd3b6aabdf2120be52a0f58fba0253a56c6e27c1eab07b87d",
+          "minRGBA": [
+            0,
+            0,
+            64,
+            255
+          ],
+          "maxRGBA": [
+            248,
+            252,
+            248,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            123.20965576171875,
+            126.73760986328125,
+            243.1533203125
+          ],
+          "referenceBoxMeanAbsoluteDelta": 4.459011077880859
+        },
+        {
+          "level": 3,
+          "width": 64,
+          "height": 64,
+          "rgbaSha256": "5c69c9a6a9c994f12f6962962fc0f071b7d1708fc4c3af34a8549afb1247b229",
+          "minRGBA": [
+            0,
+            0,
+            136,
+            255
+          ],
+          "maxRGBA": [
+            248,
+            252,
+            248,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            123.208740234375,
+            126.616455078125,
+            243.389892578125
+          ],
+          "referenceBoxMeanAbsoluteDelta": 4.829071044921875
+        },
+        {
+          "level": 4,
+          "width": 32,
+          "height": 32,
+          "rgbaSha256": "c7fbddac57446fe927d4ff48a9b9cbcac4280991bc3798edf9b6e34878f6fb63",
+          "minRGBA": [
+            40,
+            0,
+            184,
+            255
+          ],
+          "maxRGBA": [
+            192,
+            244,
+            248,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            123.7509765625,
+            126.435546875,
+            243.2666015625
+          ],
+          "referenceBoxMeanAbsoluteDelta": 5.08245849609375
+        },
+        {
+          "level": 5,
+          "width": 16,
+          "height": 16,
+          "rgbaSha256": "2342abab94222a9b0ffe0eabc6bf724bddfb596ac76e2f906d29b09c5fffbe55",
+          "minRGBA": [
+            72,
+            88,
+            232,
+            255
+          ],
+          "maxRGBA": [
+            160,
+            164,
+            248,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            123.5546875,
+            126.4296875,
+            244.35546875
+          ],
+          "referenceBoxMeanAbsoluteDelta": 3.5087890625
+        },
+        {
+          "level": 6,
+          "width": 8,
+          "height": 8,
+          "rgbaSha256": "b9e055917c8644ad68b97404405e58015aaf4f1114656a3bf8717aab82e09cdf",
+          "minRGBA": [
+            104,
+            92,
+            240,
+            255
+          ],
+          "maxRGBA": [
+            136,
+            144,
+            248,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            123.5625,
+            125.90625,
+            244.46875
+          ],
+          "referenceBoxMeanAbsoluteDelta": 2.4580078125
+        },
+        {
+          "level": 7,
+          "width": 4,
+          "height": 4,
+          "rgbaSha256": "b494fcf726837d5cacb7a534411c87f86a307c48451012dbbfbce8158f520bf0",
+          "minRGBA": [
+            120,
+            124,
+            240,
+            255
+          ],
+          "maxRGBA": [
+            128,
+            128,
+            248,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            123.25,
+            126.75,
+            244.75
+          ],
+          "referenceBoxMeanAbsoluteDelta": 1.2265625
+        },
+        {
+          "level": 8,
+          "width": 2,
+          "height": 2,
+          "rgbaSha256": "263c31a510d333026fcf1e7e499e864b7941f8b0c4583a2aaca5e43a17faa896",
+          "minRGBA": [
+            123,
+            127,
+            245,
+            255
+          ],
+          "maxRGBA": [
+            123,
+            127,
+            245,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            123.0,
+            127.0,
+            245.0
+          ],
+          "referenceBoxMeanAbsoluteDelta": 0.40625
+        },
+        {
+          "level": 9,
+          "width": 1,
+          "height": 1,
+          "rgbaSha256": "68d0bd0432f6f23cb8c39d587ec439435b0a20ec8772a0c0cff3bf9f428dd801",
+          "minRGBA": [
+            123,
+            127,
+            245,
+            255
+          ],
+          "maxRGBA": [
+            123,
+            127,
+            245,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            123.0,
+            127.0,
+            245.0
+          ],
+          "referenceBoxMeanAbsoluteDelta": 0.0
+        }
+      ]
+    },
+    {
+      "path": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_stone_ground_02_color.vtf",
+      "key": "$basetexture",
+      "sourceSha256": "5090471d02395184bf718e0e388ebbf1693cb2e6dc68aaad9be30fc709c996a8",
+      "format": 13,
+      "flags": "0x0",
+      "width": 1024,
+      "height": 1024,
+      "authoredMipCount": 11,
+      "originalPNGExact": true,
+      "embeddedGLBPixelsExact": true,
+      "gltfSampler": {
+        "magFilter": 9729,
+        "minFilter": 9987
+      },
+      "normalGreenInverted": false,
+      "mip0": {
+        "minRGBA": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "maxRGBA": [
+          240,
+          252,
+          248,
+          255
+        ],
+        "alphaBelowHalfFraction": 0.0,
+        "rgbAllBelow8Fraction": 0.3688230514526367,
+        "meanRGB": [
+          68.84730339050293,
+          64.00201034545898,
+          55.77206993103027
+        ]
+      },
+      "lowerMips": [
+        {
+          "level": 1,
+          "width": 512,
+          "height": 512,
+          "rgbaSha256": "fa700f880a6d238f86124ea3c013c62de25b02d1f8511c2fb4ba9b87855cfed1",
+          "minRGBA": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "maxRGBA": [
+            248,
+            252,
+            248,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.36824798583984375,
+          "meanRGB": [
+            69.30764389038086,
+            64.42851638793945,
+            56.127994537353516
+          ],
+          "referenceBoxMeanAbsoluteDelta": 2.6652450561523438
+        },
+        {
+          "level": 2,
+          "width": 256,
+          "height": 256,
+          "rgbaSha256": "438348faa8e0fcc61985123fce934304439eae7440068a7aeb7f1c53adb03a06",
+          "minRGBA": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "maxRGBA": [
+            248,
+            232,
+            224,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.3605499267578125,
+          "meanRGB": [
+            69.64485168457031,
+            64.76698303222656,
+            56.436126708984375
+          ],
+          "referenceBoxMeanAbsoluteDelta": 2.189877510070801
+        },
+        {
+          "level": 3,
+          "width": 128,
+          "height": 128,
+          "rgbaSha256": "afdd2b003e79411b8ea92a79180082d0056111be8231c4fbbdefc23b3feaa7af",
+          "minRGBA": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "maxRGBA": [
+            200,
+            192,
+            192,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.3458251953125,
+          "meanRGB": [
+            70.3143310546875,
+            65.30645751953125,
+            56.9454345703125
+          ],
+          "referenceBoxMeanAbsoluteDelta": 2.5970077514648438
+        },
+        {
+          "level": 4,
+          "width": 64,
+          "height": 64,
+          "rgbaSha256": "5e5dbf8ee1d4503a2bba062a852de96349dfb67298a1f54db378decda69b1d3b",
+          "minRGBA": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "maxRGBA": [
+            184,
+            164,
+            144,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.325927734375,
+          "meanRGB": [
+            71.362060546875,
+            66.210205078125,
+            57.685546875
+          ],
+          "referenceBoxMeanAbsoluteDelta": 3.5958404541015625
+        },
+        {
+          "level": 5,
+          "width": 32,
+          "height": 32,
+          "rgbaSha256": "9bbbd8278b9673ec2708588654dde25ca3e3ae93c0b06a443f16f9d73f9bd349",
+          "minRGBA": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "maxRGBA": [
+            160,
+            148,
+            128,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.283203125,
+          "meanRGB": [
+            72.998046875,
+            67.947265625,
+            58.9443359375
+          ],
+          "referenceBoxMeanAbsoluteDelta": 5.1004638671875
+        },
+        {
+          "level": 6,
+          "width": 16,
+          "height": 16,
+          "rgbaSha256": "bb9abbd6de98199474364e012236c9cd1e0d786e9601cff047e0af9a90c7ab20",
+          "minRGBA": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "maxRGBA": [
+            152,
+            140,
+            128,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.23046875,
+          "meanRGB": [
+            73.76953125,
+            69.0,
+            60.0078125
+          ],
+          "referenceBoxMeanAbsoluteDelta": 7.507568359375
+        },
+        {
+          "level": 7,
+          "width": 8,
+          "height": 8,
+          "rgbaSha256": "5f196c4df4943124b3fc4640b06f98e7af08d39782847536c3f60207b20ce1c0",
+          "minRGBA": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "maxRGBA": [
+            152,
+            144,
+            120,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.09375,
+          "meanRGB": [
+            76.328125,
+            70.078125,
+            60.015625
+          ],
+          "referenceBoxMeanAbsoluteDelta": 10.3720703125
+        },
+        {
+          "level": 8,
+          "width": 4,
+          "height": 4,
+          "rgbaSha256": "33cabbe3b5082f2fe7b07f1a7ce6865c0499d940c02a0ec0fafb5b95bd1a7110",
+          "minRGBA": [
+            32,
+            28,
+            24,
+            255
+          ],
+          "maxRGBA": [
+            112,
+            104,
+            88,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            73.5625,
+            67.6875,
+            57.4375
+          ],
+          "referenceBoxMeanAbsoluteDelta": 7.37109375
+        },
+        {
+          "level": 9,
+          "width": 2,
+          "height": 2,
+          "rgbaSha256": "63d0209c4ba77d487dd2f08972115bdc4eba106282bd0e950cb9f39d7baee72e",
+          "minRGBA": [
+            64,
+            60,
+            48,
+            255
+          ],
+          "maxRGBA": [
+            80,
+            76,
+            64,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            69.25,
+            65.25,
+            53.25
+          ],
+          "referenceBoxMeanAbsoluteDelta": 2.765625
+        },
+        {
+          "level": 10,
+          "width": 1,
+          "height": 1,
+          "rgbaSha256": "90fdde8a36897b2916e0e08b84ec7c5d2a1d1b21eb77769462396f2ef6244345",
+          "minRGBA": [
+            69,
+            64,
+            56,
+            255
+          ],
+          "maxRGBA": [
+            69,
+            64,
+            56,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            69.0,
+            64.0,
+            56.0
+          ],
+          "referenceBoxMeanAbsoluteDelta": 1.0625
+        }
+      ]
+    },
+    {
+      "path": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_stone_ground_02_normal.vtf",
+      "key": "$bumpmap",
+      "sourceSha256": "a87bf624ea0889af73f6c35d07fa6135e4efdd666fbba886fb8f44aeb2215748",
+      "format": 13,
+      "flags": "0x0",
+      "width": 512,
+      "height": 512,
+      "authoredMipCount": 10,
+      "originalPNGExact": true,
+      "embeddedGLBPixelsExact": true,
+      "gltfSampler": {
+        "magFilter": 9729,
+        "minFilter": 9987
+      },
+      "normalGreenInverted": true,
+      "mip0": {
+        "minRGBA": [
+          0,
+          0,
+          120,
+          255
+        ],
+        "maxRGBA": [
+          248,
+          252,
+          248,
+          255
+        ],
+        "alphaBelowHalfFraction": 0.0,
+        "rgbAllBelow8Fraction": 0.0,
+        "meanRGB": [
+          123.08611297607422,
+          126.8653564453125,
+          236.01387786865234
+        ]
+      },
+      "lowerMips": [
+        {
+          "level": 1,
+          "width": 256,
+          "height": 256,
+          "rgbaSha256": "485ce9ffe13f276830a659b73d5b672f9d207901ab0d2b4a127f2ca08ab36698",
+          "minRGBA": [
+            0,
+            0,
+            72,
+            255
+          ],
+          "maxRGBA": [
+            248,
+            252,
+            248,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            123.07052612304688,
+            126.84779357910156,
+            234.69789123535156
+          ],
+          "referenceBoxMeanAbsoluteDelta": 5.712657928466797
+        },
+        {
+          "level": 2,
+          "width": 128,
+          "height": 128,
+          "rgbaSha256": "e28fbef936cf99d2dc82c5ac98ba86aff0ff2d3d62ba47413bf22cc92d73dc27",
+          "minRGBA": [
+            0,
+            0,
+            168,
+            255
+          ],
+          "maxRGBA": [
+            248,
+            252,
+            248,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            123.111572265625,
+            126.71990966796875,
+            234.4840087890625
+          ],
+          "referenceBoxMeanAbsoluteDelta": 7.0733489990234375
+        },
+        {
+          "level": 3,
+          "width": 64,
+          "height": 64,
+          "rgbaSha256": "5ea937dfe22a01c90fe48940706ff40db91c83c5b948a19cf5cad6be6fcec828",
+          "minRGBA": [
+            0,
+            0,
+            184,
+            255
+          ],
+          "maxRGBA": [
+            248,
+            252,
+            248,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            123.267333984375,
+            126.742919921875,
+            233.586669921875
+          ],
+          "referenceBoxMeanAbsoluteDelta": 10.106399536132812
+        },
+        {
+          "level": 4,
+          "width": 32,
+          "height": 32,
+          "rgbaSha256": "98639cbeff6e0d612338fb0d15659f4051575f0ea5a9e62ab4c0bc31ac1e2bac",
+          "minRGBA": [
+            0,
+            0,
+            192,
+            255
+          ],
+          "maxRGBA": [
+            248,
+            252,
+            248,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            122.138671875,
+            126.6005859375,
+            232.3427734375
+          ],
+          "referenceBoxMeanAbsoluteDelta": 12.66668701171875
+        },
+        {
+          "level": 5,
+          "width": 16,
+          "height": 16,
+          "rgbaSha256": "04c27922eafee2fc860a34865d927ebf9cfcc3fc0afc86107bf73b8246b45d9d",
+          "minRGBA": [
+            16,
+            0,
+            200,
+            255
+          ],
+          "maxRGBA": [
+            216,
+            244,
+            248,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            123.39453125,
+            126.94140625,
+            230.06640625
+          ],
+          "referenceBoxMeanAbsoluteDelta": 12.6650390625
+        },
+        {
+          "level": 6,
+          "width": 8,
+          "height": 8,
+          "rgbaSha256": "e19b7aa3a9b5b9913d64ed4bb3063e33050bcb04b2aeb1a716815b96b124d9c2",
+          "minRGBA": [
+            88,
+            60,
+            208,
+            255
+          ],
+          "maxRGBA": [
+            184,
+            180,
+            248,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            123.796875,
+            125.59375,
+            232.90625
+          ],
+          "referenceBoxMeanAbsoluteDelta": 6.9833984375
+        },
+        {
+          "level": 7,
+          "width": 4,
+          "height": 4,
+          "rgbaSha256": "6af9bfac6e089295d064d7307649a862b3a7f838ce41a3822ee6298f541fd4a1",
+          "minRGBA": [
+            120,
+            108,
+            232,
+            255
+          ],
+          "maxRGBA": [
+            128,
+            140,
+            240,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            123.4375,
+            126.5625,
+            235.4375
+          ],
+          "referenceBoxMeanAbsoluteDelta": 2.99609375
+        },
+        {
+          "level": 8,
+          "width": 2,
+          "height": 2,
+          "rgbaSha256": "4b14fd8534b28b126e87bc8876a085494ff8e8c2002651e3298ce744e5a0830c",
+          "minRGBA": [
+            123,
+            125,
+            235,
+            255
+          ],
+          "maxRGBA": [
+            125,
+            127,
+            237,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            123.5,
+            126.5,
+            235.5
+          ],
+          "referenceBoxMeanAbsoluteDelta": 0.796875
+        },
+        {
+          "level": 9,
+          "width": 1,
+          "height": 1,
+          "rgbaSha256": "6a64c74143bf55599362505218e03bef0c8c1b7a89591c0bbae84cf9a67d1be9",
+          "minRGBA": [
+            123,
+            127,
+            235,
+            255
+          ],
+          "maxRGBA": [
+            123,
+            127,
+            235,
+            255
+          ],
+          "alphaBelowHalfFraction": 0.0,
+          "rgbAllBelow8Fraction": 0.0,
+          "meanRGB": [
+            123.0,
+            127.0,
+            235.0
+          ],
+          "referenceBoxMeanAbsoluteDelta": 0.375
+        }
+      ]
+    }
+  ],
+  "primitives": [
+    {
+      "model": "models/props/autocombine/de_dust2/_autocombine_hr_dust_stone_ground_02_color_403.mdl",
+      "mesh": 660,
+      "primitive": 0,
+      "material": "models/props/de_dust/hr_dust/dust_trims/hr_dust_stone_ground_02_color",
+      "vertices": 1553,
+      "triangles": 2615,
+      "rawVvdPositionExact": true,
+      "rawVvdUvExact": true,
+      "originalVvdSha256": "3177882c8e20acb8d07183bb7f2e32bd71ce88347319b2432b2ff45c90f006bd",
+      "uvMin": [
+        0.009999999776482582,
+        0.010225951671600342
+      ],
+      "uvMax": [
+        0.9900000095367432,
+        0.9900000095367432
+      ]
+    },
+    {
+      "model": "models/props/autocombine/de_dust2/_autocombine_hr_dust_stone_ground_02_color_404.mdl",
+      "mesh": 661,
+      "primitive": 0,
+      "material": "models/props/de_dust/hr_dust/dust_trims/hr_dust_stone_ground_02_color",
+      "vertices": 1141,
+      "triangles": 1918,
+      "rawVvdPositionExact": true,
+      "rawVvdUvExact": true,
+      "originalVvdSha256": "963c67798895770de5016c81a30240754ebcadcf5c8f2e30501b62d0a07704e6",
+      "uvMin": [
+        0.009999999776482582,
+        0.010225951671600342
+      ],
+      "uvMax": [
+        0.9900000095367432,
+        0.9900000095367432
+      ]
+    },
+    {
+      "model": "models/props/autocombine/de_dust2/_autocombine_hr_dust_stone_ground_02_color_405.mdl",
+      "mesh": 662,
+      "primitive": 0,
+      "material": "models/props/de_dust/hr_dust/dust_trims/hr_dust_stone_ground_02_color",
+      "vertices": 1426,
+      "triangles": 2399,
+      "rawVvdPositionExact": true,
+      "rawVvdUvExact": true,
+      "originalVvdSha256": "e809dc7f880164b44e3c50ed0d678cc68bc8bbcb27ef790d7d56c2ba62925daa",
+      "uvMin": [
+        0.009999999776482582,
+        0.010225951671600342
+      ],
+      "uvMax": [
+        0.9900000095367432,
+        0.9900000095367432
+      ]
+    },
+    {
+      "model": "models/props/autocombine/de_dust2/_autocombine_hr_dust_stone_ground_02_color_406.mdl",
+      "mesh": 663,
+      "primitive": 0,
+      "material": "models/props/de_dust/hr_dust/dust_trims/hr_dust_stone_ground_02_color",
+      "vertices": 1199,
+      "triangles": 2015,
+      "rawVvdPositionExact": true,
+      "rawVvdUvExact": true,
+      "originalVvdSha256": "a2779714b5e1a32a2809ec9abaa4cd603deef3daf7592f08f98be19dd199cad4",
+      "uvMin": [
+        0.009999999776482582,
+        0.010225951671600342
+      ],
+      "uvMax": [
+        0.9900000095367432,
+        0.9900000095367432
+      ]
+    },
+    {
+      "model": "models/props/autocombine/de_dust2/_autocombine_hr_dust_stone_ground_02_color_407.mdl",
+      "mesh": 664,
+      "primitive": 0,
+      "material": "models/props/de_dust/hr_dust/dust_trims/hr_dust_stone_ground_02_color",
+      "vertices": 1443,
+      "triangles": 2431,
+      "rawVvdPositionExact": true,
+      "rawVvdUvExact": true,
+      "originalVvdSha256": "75a63c1f8b6c5573aace2806e5a1277c2142d51fbcaedccf86899777f95ef0fd",
+      "uvMin": [
+        0.009999999776482582,
+        0.010225951671600342
+      ],
+      "uvMax": [
+        0.9900000095367432,
+        0.9900000095367432
+      ]
+    },
+    {
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_tower_02.mdl",
+      "mesh": 711,
+      "primitive": 0,
+      "material": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_01",
+      "vertices": 1420,
+      "triangles": 1386,
+      "rawVvdPositionExact": true,
+      "rawVvdUvExact": true,
+      "originalVvdSha256": "05029e731d26efd2d825f050c27210308a3fab5519f7f8cafa9f713cce9ddc7f",
+      "uvMin": [
+        -1.0,
+        0.43740832805633545
+      ],
+      "uvMax": [
+        1.0000003576278687,
+        0.995837926864624
+      ]
+    },
+    {
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_window_alcove_01.mdl",
+      "mesh": 731,
+      "primitive": 1,
+      "material": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_01",
+      "vertices": 738,
+      "triangles": 510,
+      "rawVvdPositionExact": true,
+      "rawVvdUvExact": true,
+      "originalVvdSha256": "99c19c78a7c2de1445bbec35289faa5adb7e439f6ea0f7628f302ce6e605bb57",
+      "uvMin": [
+        -1.0,
+        0.5191786289215088
+      ],
+      "uvMax": [
+        1.0000003576278687,
+        0.995837926864624
+      ]
+    },
+    {
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_loose_pile_01.mdl",
+      "mesh": 732,
+      "primitive": 0,
+      "material": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_01",
+      "vertices": 575,
+      "triangles": 500,
+      "rawVvdPositionExact": true,
+      "rawVvdUvExact": true,
+      "originalVvdSha256": "c22708e08b9932c2bad6569c9e86a1fae87498362b6fc019e7d61a8b7c206fbb",
+      "uvMin": [
+        0.045716702938079834,
+        0.004099845886230469
+      ],
+      "uvMax": [
+        0.9973970651626587,
+        0.1272033452987671
+      ]
+    },
+    {
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_a_128_01.mdl",
+      "mesh": 739,
+      "primitive": 0,
+      "material": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_01",
+      "vertices": 179,
+      "triangles": 170,
+      "rawVvdPositionExact": true,
+      "rawVvdUvExact": true,
+      "originalVvdSha256": "1be07e9b396b875c2f42f58b47b08e39074d985a0f7c48e5f9e98c11be40638a",
+      "uvMin": [
+        -1.0,
+        0.467168927192688
+      ],
+      "uvMax": [
+        1.0000003576278687,
+        0.995837926864624
+      ]
+    },
+    {
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_a_256_01.mdl",
+      "mesh": 740,
+      "primitive": 0,
+      "material": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_01",
+      "vertices": 312,
+      "triangles": 300,
+      "rawVvdPositionExact": true,
+      "rawVvdUvExact": true,
+      "originalVvdSha256": "3371b3774a2ded16dceaa58e66bbd116438ad0ec88df7c73a871383b4c406e04",
+      "uvMin": [
+        -1.0,
+        0.467168927192688
+      ],
+      "uvMax": [
+        1.0000003576278687,
+        0.995837926864624
+      ]
+    },
+    {
+      "model": "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_rooftrim_01_455.mdl",
+      "mesh": 741,
+      "primitive": 0,
+      "material": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_01",
+      "vertices": 3900,
+      "triangles": 3417,
+      "rawVvdPositionExact": true,
+      "rawVvdUvExact": true,
+      "originalVvdSha256": "9903226f1b0fba5151c1ca82b51d9afc3e9e2211aa11823fa3a1044f84228550",
+      "uvMin": [
+        -1.876111388206482,
+        0.13420069217681885
+      ],
+      "uvMax": [
+        1.0000003576278687,
+        0.995837926864624
+      ]
+    },
+    {
+      "model": "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_rooftrim_01_456.mdl",
+      "mesh": 742,
+      "primitive": 0,
+      "material": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_01",
+      "vertices": 7494,
+      "triangles": 6052,
+      "rawVvdPositionExact": true,
+      "rawVvdUvExact": true,
+      "originalVvdSha256": "ea50c3321d72b386d01f47a7a6afffa23493b118b0953e556ee5070bca331bda",
+      "uvMin": [
+        -1.876111388206482,
+        0.13420069217681885
+      ],
+      "uvMax": [
+        1.0000003576278687,
+        0.995837926864624
+      ]
+    },
+    {
+      "model": "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_rooftrim_01_457.mdl",
+      "mesh": 743,
+      "primitive": 0,
+      "material": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_01",
+      "vertices": 3879,
+      "triangles": 3436,
+      "rawVvdPositionExact": true,
+      "rawVvdUvExact": true,
+      "originalVvdSha256": "e20e02d8a7a2731ca8ade0be1be25a907a38d30b526834d2f38665a10575209b",
+      "uvMin": [
+        -1.876111388206482,
+        0.13420069217681885
+      ],
+      "uvMax": [
+        1.0000003576278687,
+        0.995837926864624
+      ]
+    },
+    {
+      "model": "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_rooftrim_01_458.mdl",
+      "mesh": 744,
+      "primitive": 0,
+      "material": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_01",
+      "vertices": 1499,
+      "triangles": 1377,
+      "rawVvdPositionExact": true,
+      "rawVvdUvExact": true,
+      "originalVvdSha256": "545f382b9f430764c8a4ba36174fb52f5e19b7cfa8ea3502cece35c5e5f594a7",
+      "uvMin": [
+        -1.876111388206482,
+        0.13420069217681885
+      ],
+      "uvMax": [
+        1.0000003576278687,
+        0.995837926864624
+      ]
+    },
+    {
+      "model": "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_rooftrim_01_459.mdl",
+      "mesh": 745,
+      "primitive": 0,
+      "material": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_01",
+      "vertices": 9319,
+      "triangles": 7978,
+      "rawVvdPositionExact": true,
+      "rawVvdUvExact": true,
+      "originalVvdSha256": "75b12a2293469429b23fdd49cfd651cfc84d99246755e7a49ba33030f94d4589",
+      "uvMin": [
+        -1.876111388206482,
+        0.13420069217681885
+      ],
+      "uvMax": [
+        1.0000003576278687,
+        1.0013794898986816
+      ]
+    },
+    {
+      "model": "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_rooftrim_460.mdl",
+      "mesh": 746,
+      "primitive": 0,
+      "material": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_01",
+      "vertices": 2301,
+      "triangles": 2229,
+      "rawVvdPositionExact": true,
+      "rawVvdUvExact": true,
+      "originalVvdSha256": "9986199e7dc22476469096d3dc994d4d71a6c1b4a8ec4bdd6542fc079ee631a2",
+      "uvMin": [
+        -1.0,
+        0.43740832805633545
+      ],
+      "uvMax": [
+        1.0000003576278687,
+        0.995837926864624
+      ]
+    },
+    {
+      "model": "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_rooftrim_01_461.mdl",
+      "mesh": 747,
+      "primitive": 0,
+      "material": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_01",
+      "vertices": 1115,
+      "triangles": 1070,
+      "rawVvdPositionExact": true,
+      "rawVvdUvExact": true,
+      "originalVvdSha256": "50116db52a9b55201678f2061b40a8b72023e904cbe395dde89a44a91f2770dc",
+      "uvMin": [
+        -1.0,
+        0.467168927192688
+      ],
+      "uvMax": [
+        1.0000003576278687,
+        0.995837926864624
+      ]
+    },
+    {
+      "model": "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_rooftrim_01_462.mdl",
+      "mesh": 748,
+      "primitive": 0,
+      "material": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_01",
+      "vertices": 6053,
+      "triangles": 5235,
+      "rawVvdPositionExact": true,
+      "rawVvdUvExact": true,
+      "originalVvdSha256": "7745229a20af83388fdd20241695cd80a311c91b92090555814b42f17669fc63",
+      "uvMin": [
+        -1.876111388206482,
+        0.13420069217681885
+      ],
+      "uvMax": [
+        1.0000003576278687,
+        1.0013794898986816
+      ]
+    },
+    {
+      "model": "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_rooftrim_01_463.mdl",
+      "mesh": 749,
+      "primitive": 0,
+      "material": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_01",
+      "vertices": 2570,
+      "triangles": 2450,
+      "rawVvdPositionExact": true,
+      "rawVvdUvExact": true,
+      "originalVvdSha256": "b0c0f1ad34e9c386da3e5ff3df52c0ed06c83cee126edb5476098f50f2f82a7d",
+      "uvMin": [
+        -1.876111388206482,
+        0.13420069217681885
+      ],
+      "uvMax": [
+        1.0000003576278687,
+        0.995837926864624
+      ]
+    },
+    {
+      "model": "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_rooftrim_01_464.mdl",
+      "mesh": 750,
+      "primitive": 0,
+      "material": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_01",
+      "vertices": 4023,
+      "triangles": 3616,
+      "rawVvdPositionExact": true,
+      "rawVvdUvExact": true,
+      "originalVvdSha256": "787df107c5a207c5de7ec21c137c7c9b015ebf27068b3111e500c3859e717b4e",
+      "uvMin": [
+        -1.876111388206482,
+        0.13420069217681885
+      ],
+      "uvMax": [
+        1.0000003576278687,
+        1.0013794898986816
+      ]
+    },
+    {
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_tower_01.mdl",
+      "mesh": 922,
+      "primitive": 0,
+      "material": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_01",
+      "vertices": 748,
+      "triangles": 742,
+      "rawVvdPositionExact": true,
+      "rawVvdUvExact": true,
+      "originalVvdSha256": "1bc9fecbde684199db0da3ee0250c73eba88916bc674c9aebb89d2ccff14b787",
+      "uvMin": [
+        -1.0,
+        0.43740832805633545
+      ],
+      "uvMax": [
+        1.0000003576278687,
+        0.995837926864624
+      ]
+    },
+    {
+      "model": "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_rooftrim_01_589.mdl",
+      "mesh": 998,
+      "primitive": 0,
+      "material": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_01",
+      "vertices": 1872,
+      "triangles": 1800,
+      "rawVvdPositionExact": true,
+      "rawVvdUvExact": true,
+      "originalVvdSha256": "d8cce5a3bd2cde21c83b3be679e7ab933f97b6ec8772e1e7b8179950b35187ab",
+      "uvMin": [
+        -1.0,
+        0.467168927192688
+      ],
+      "uvMax": [
+        1.0000003576278687,
+        0.995837926864624
+      ]
+    },
+    {
+      "model": "models/props/autocombine/de_dust2/_autocombine_hr_dust_stone_ground_01_color_609.mdl",
+      "mesh": 1069,
+      "primitive": 0,
+      "material": "models/props/de_dust/hr_dust/dust_trims/hr_dust_stone_ground_01_color",
+      "vertices": 7032,
+      "triangles": 12544,
+      "rawVvdPositionExact": true,
+      "rawVvdUvExact": true,
+      "originalVvdSha256": "ec2cdf37041d90b1c9acabfd88bbcc5a732f4d2fb281254cfc8b434cf5b1c4b0",
+      "uvMin": [
+        0.004568900913000107,
+        0.005354464054107666
+      ],
+      "uvMax": [
+        0.6782528162002563,
+        0.9927976727485657
+      ]
+    },
+    {
+      "model": "models/props/autocombine/de_dust2/_autocombine_hr_dust_stone_ground_01_color_610.mdl",
+      "mesh": 1070,
+      "primitive": 0,
+      "material": "models/props/de_dust/hr_dust/dust_trims/hr_dust_stone_ground_01_color",
+      "vertices": 1991,
+      "triangles": 3580,
+      "rawVvdPositionExact": true,
+      "rawVvdUvExact": true,
+      "originalVvdSha256": "9cbeb80a08a2945161ad2ffeac9a10ec833bd661eb5a6998e2c68bddf10a090a",
+      "uvMin": [
+        0.004568900913000107,
+        0.012790083885192871
+      ],
+      "uvMax": [
+        0.6782528162002563,
+        0.9927976727485657
+      ]
+    },
+    {
+      "model": "models/props/de_dust/hr_dust/dust_trims/stone_ground002c.mdl",
+      "mesh": 1112,
+      "primitive": 0,
+      "material": "models/props/de_dust/hr_dust/dust_trims/hr_dust_stone_ground_02_color",
+      "vertices": 118,
+      "triangles": 200,
+      "rawVvdPositionExact": true,
+      "rawVvdUvExact": true,
+      "originalVvdSha256": "0016fe0bae721bcdb0f92cde173d18a45600e6bc059d09a2c2e464d9b25f23a2",
+      "uvMin": [
+        0.009999999776482582,
+        0.11265116930007935
+      ],
+      "uvMax": [
+        0.8791371583938599,
+        0.9900000095367432
+      ]
+    },
+    {
+      "model": "models/props/de_dust/hr_dust/dust_trims/stone_ground002d.mdl",
+      "mesh": 1113,
+      "primitive": 0,
+      "material": "models/props/de_dust/hr_dust/dust_trims/hr_dust_stone_ground_02_color",
+      "vertices": 168,
+      "triangles": 281,
+      "rawVvdPositionExact": true,
+      "rawVvdUvExact": true,
+      "originalVvdSha256": "1955326d16a9162a03fe26ec2f672ce0f9cf0b4d2aae431ccaa30222a007ac42",
+      "uvMin": [
+        0.009999999776482582,
+        0.4223076105117798
+      ],
+      "uvMax": [
+        0.8879732489585876,
+        0.9900000095367432
+      ]
+    },
+    {
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_window_24x24_wood_03.mdl",
+      "mesh": 1114,
+      "primitive": 2,
+      "material": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_01",
+      "vertices": 33,
+      "triangles": 40,
+      "rawVvdPositionExact": true,
+      "rawVvdUvExact": true,
+      "originalVvdSha256": "249c910bd3af5c68db13c4e6c9e94bae09397409b7039d5e6d61b349d590f6bb",
+      "uvMin": [
+        0.004411458969116211,
+        0.7470776438713074
+      ],
+      "uvMax": [
+        0.9971997737884521,
+        0.995837926864624
+      ]
+    },
+    {
+      "model": "models/props/de_dust/hr_dust/dust_trims/stone_ground001b.mdl",
+      "mesh": 1266,
+      "primitive": 0,
+      "material": "models/props/de_dust/hr_dust/dust_trims/hr_dust_stone_ground_01_color",
+      "vertices": 400,
+      "triangles": 720,
+      "rawVvdPositionExact": true,
+      "rawVvdUvExact": true,
+      "originalVvdSha256": "605cdb7cfb9d5de2cec0b0394f0501b5eeab12aebc879740134a08b6f46fa780",
+      "uvMin": [
+        0.008686508983373642,
+        0.25406360626220703
+      ],
+      "uvMax": [
+        0.6697899103164673,
+        0.9874989986419678
+      ]
+    },
+    {
+      "model": "models/props/de_dust/hr_dust/dust_trims/stone_ground001.mdl",
+      "mesh": 1267,
+      "primitive": 0,
+      "material": "models/props/de_dust/hr_dust/dust_trims/hr_dust_stone_ground_01_color",
+      "vertices": 1061,
+      "triangles": 1880,
+      "rawVvdPositionExact": true,
+      "rawVvdUvExact": true,
+      "originalVvdSha256": "fdbf7e70c4c18fa52bc83a2e93b6d9ec3202d81511c38f3aa04d38c5137dc24e",
+      "uvMin": [
+        0.004568900913000107,
+        0.005354464054107666
+      ],
+      "uvMax": [
+        0.6782528162002563,
+        0.9927976727485657
+      ]
+    },
+    {
+      "model": "models/props/de_dust/hr_dust/dust_trims/stone_ground001c.mdl",
+      "mesh": 1279,
+      "primitive": 0,
+      "material": "models/props/de_dust/hr_dust/dust_trims/hr_dust_stone_ground_01_color",
+      "vertices": 387,
+      "triangles": 692,
+      "rawVvdPositionExact": true,
+      "rawVvdUvExact": true,
+      "originalVvdSha256": "19525e78af957ce5c494afa3fb0655868b31af2f69049f57e4cc341ccb47f0dc",
+      "uvMin": [
+        0.004568900913000107,
+        0.012790083885192871
+      ],
+      "uvMax": [
+        0.6782528162002563,
+        0.7514379024505615
+      ]
+    }
+  ],
+  "centroidSamples": [
+    {
+      "material": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_01",
+      "scope": "one mip0 nearest sample per exact original triangle centroid, not an area/pixel score",
+      "samples": 42308,
+      "actualUVBlackFraction": 0.0,
+      "flippedUVBlackFraction": 0.0,
+      "actualUVAlphaBelowHalfFraction": 0.12215183889571712
+    },
+    {
+      "material": "models/props/de_dust/hr_dust/dust_trims/hr_dust_stone_ground_01_color",
+      "scope": "one mip0 nearest sample per exact original triangle centroid, not an area/pixel score",
+      "samples": 19416,
+      "actualUVBlackFraction": 0.0,
+      "flippedUVBlackFraction": 0.0,
+      "actualUVAlphaBelowHalfFraction": 0.0
+    },
+    {
+      "material": "models/props/de_dust/hr_dust/dust_trims/hr_dust_stone_ground_02_color",
+      "scope": "one mip0 nearest sample per exact original triangle centroid, not an area/pixel score",
+      "samples": 11859,
+      "actualUVBlackFraction": 0.0,
+      "flippedUVBlackFraction": 0.23964921156927227,
+      "actualUVAlphaBelowHalfFraction": 0.0
+    }
+  ],
+  "instances": [
+    {
+      "index": 1530,
+      "model": "models/props/autocombine/de_dust2/_autocombine_hr_dust_stone_ground_02_color_403.mdl",
+      "origin": [
+        -1456.4100341796875,
+        316.0,
+        2.162980079650879
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "aa62edb7ce6f928bebc77033b9cee0db9c43129d2e737f92474f5e73fe66a7d6",
+      "originalVhvVertices": 1553,
+      "linearRadianceMin": [
+        0.003697239130127778,
+        0.003697239130127778,
+        0.003697239130127778
+      ],
+      "linearRadianceMedian": [
+        0.27583282576115464,
+        0.23489525184066312,
+        0.21951971086030772
+      ],
+      "linearRadianceMax": [
+        0.940600705787325,
+        0.9239933336687292,
+        0.9743002018390531
+      ],
+      "allDirectionsDarkFraction": 0.0
+    },
+    {
+      "index": 1531,
+      "model": "models/props/autocombine/de_dust2/_autocombine_hr_dust_stone_ground_02_color_404.mdl",
+      "origin": [
+        383.6820068359375,
+        1904.0,
+        94.59980010986328
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "146f99049ce2f4bc6a4c0b234f00fcf8bdc897699a4e497a84163e60f746f270",
+      "originalVhvVertices": 1141,
+      "linearRadianceMin": [
+        0.002932317953280535,
+        0.002932317953280535,
+        0.0016869150833405035
+      ],
+      "linearRadianceMedian": [
+        0.19751642449675647,
+        0.1835489917206144,
+        0.16364066506526118
+      ],
+      "linearRadianceMax": [
+        0.940600705787325,
+        0.940600705787325,
+        1.0086477563562979
+      ],
+      "allDirectionsDarkFraction": 0.0
+    },
+    {
+      "index": 1532,
+      "model": "models/props/autocombine/de_dust2/_autocombine_hr_dust_stone_ground_02_color_405.mdl",
+      "origin": [
+        -1297.0,
+        -352.0,
+        127.5469970703125
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "3c7a57f874d0963db8d3a43e27580e18d7eb3158334e98e1df0336068bb693cf",
+      "originalVhvVertices": 1426,
+      "linearRadianceMin": [
+        0.003697239130127778,
+        0.002932317953280535,
+        0.0016869150833405035
+      ],
+      "linearRadianceMedian": [
+        0.33922332698659907,
+        0.284452053809027,
+        0.24279634580480725
+      ],
+      "linearRadianceMax": [
+        1.0436454137963656,
+        1.0436454137963656,
+        1.1155990889736878
+      ],
+      "allDirectionsDarkFraction": 0.0
+    },
+    {
+      "index": 1533,
+      "model": "models/props/autocombine/de_dust2/_autocombine_hr_dust_stone_ground_02_color_406.mdl",
+      "origin": [
+        1711.0,
+        401.0,
+        55.0
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "f7255e1d2df1ff82ad03c4db376fe43b9950d748464f4e0329cdbb8338a41c75",
+      "originalVhvVertices": 1199,
+      "linearRadianceMin": [
+        0.002932317953280535,
+        0.0016869150833405035,
+        0.0016869150833405035
+      ],
+      "linearRadianceMedian": [
+        0.12198570760710159,
+        0.11129940952827085,
+        0.09151834825568761
+      ],
+      "linearRadianceMax": [
+        0.9573695752955182,
+        0.9573695752955182,
+        1.0260651954329245
+      ],
+      "allDirectionsDarkFraction": 0.0
+    },
+    {
+      "index": 1534,
+      "model": "models/props/autocombine/de_dust2/_autocombine_hr_dust_stone_ground_02_color_407.mdl",
+      "origin": [
+        1104.0,
+        2400.0,
+        94.6417007446289
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "715bd64ea428544b13d1d07a9579264d767af49ce11d5520250f59c160df8754",
+      "originalVhvVertices": 1443,
+      "linearRadianceMin": [
+        0.00455975438978414,
+        0.003697239130127778,
+        0.002932317953280535
+      ],
+      "linearRadianceMedian": [
+        0.29321614133541885,
+        0.25902732490573366,
+        0.22713651820818223
+      ],
+      "linearRadianceMax": [
+        1.0086477563562979,
+        1.0086477563562979,
+        1.0973652528521294
+      ],
+      "allDirectionsDarkFraction": 0.0
+    },
+    {
+      "index": 1726,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_tower_02.mdl",
+      "origin": [
+        -4278.990234375,
+        2500.489990234375,
+        976.9979858398438
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "05bb5646f8978cc9e395884fb8901b67a928898b6dfafb3f0eb70dc6245c5ef4",
+      "originalVhvVertices": 1420,
+      "linearRadianceMin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.010397801263496598,
+        0.009021490977402251,
+        0.007751026581197323
+      ],
+      "linearRadianceMax": [
+        0.5989417828389882,
+        0.7082977883612912,
+        0.8591735668319918
+      ],
+      "allDirectionsDarkFraction": 0.5922535211267606
+    },
+    {
+      "index": 1766,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_window_alcove_01.mdl",
+      "origin": [
+        -4133.43994140625,
+        2539.669921875,
+        762.6389770507812
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "abf11cb4ea9b094f7439f3e70721ba57fc456421d11469c8c9adec8b13fbab81",
+      "originalVhvVertices": 5203,
+      "linearRadianceMin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.025371274884298432,
+        0.025371274884298432,
+        0.025371274884298432
+      ],
+      "linearRadianceMax": [
+        0.7667436124481827,
+        0.8751375798353509,
+        1.0792951932166202
+      ],
+      "allDirectionsDarkFraction": 0.34653084758793
+    },
+    {
+      "index": 1771,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_loose_pile_01.mdl",
+      "origin": [
+        -3483.64990234375,
+        2998.889892578125,
+        803.2670288085938
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "c9b3c30e7d85765dd1ffe922fe1ff338ea445d03f950dcfbc2fe0ed96a3aae10",
+      "originalVhvVertices": 575,
+      "linearRadianceMin": [
+        0.015175236782101953,
+        0.01891298179716604,
+        0.023103554271188372
+      ],
+      "linearRadianceMedian": [
+        0.27583282576115464,
+        0.320381540887759,
+        0.3992932919573791
+      ],
+      "linearRadianceMax": [
+        0.7518950759358553,
+        0.8591735668319918,
+        1.0613886630407448
+      ],
+      "allDirectionsDarkFraction": 0.0
+    },
+    {
+      "index": 1772,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_tower_02.mdl",
+      "origin": [
+        -3406.360107421875,
+        2868.260009765625,
+        799.9979858398438
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "c29a342adeb4770dad18209426252f6599c3ea59232b32c1113739060b0cae69",
+      "originalVhvVertices": 1420,
+      "linearRadianceMin": [
+        0.013473395682366912,
+        0.013473395682366912,
+        0.016988050588719994
+      ],
+      "linearRadianceMedian": [
+        0.07382776215769936,
+        0.07382776215769936,
+        0.07382776215769936
+      ],
+      "linearRadianceMax": [
+        0.7226724485127611,
+        0.8433697272782518,
+        1.0436454137963656
+      ],
+      "allDirectionsDarkFraction": 0.0
+    },
+    {
+      "index": 1773,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_tower_02.mdl",
+      "origin": [
+        -575.10498046875,
+        4111.6298828125,
+        955.9979858398438
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "2730bde6cb2aacf07a8b6ab94aea1aa85f213bbaf7e90e45d2088acb061568eb",
+      "originalVhvVertices": 1420,
+      "linearRadianceMin": [
+        0.009021490977402251,
+        0.010397801263496598,
+        0.013473395682366912
+      ],
+      "linearRadianceMedian": [
+        0.04777575040693464,
+        0.054592273841015046,
+        0.06575387638123135
+      ],
+      "linearRadianceMax": [
+        0.7372047824889324,
+        0.8591735668319918,
+        1.0436454137963656
+      ],
+      "allDirectionsDarkFraction": 0.03380281690140845
+    },
+    {
+      "index": 1775,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_loose_pile_01.mdl",
+      "origin": [
+        -1806.010009765625,
+        3299.97998046875,
+        591.2670288085938
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "880156db44332f9a65bb54e91aad8dfddab9583b5d6ff74a8f48381793cec454",
+      "originalVhvVertices": 575,
+      "linearRadianceMin": [
+        0.0016869150833405035,
+        0.0016869150833405035,
+        0.0016869150833405035
+      ],
+      "linearRadianceMedian": [
+        0.25902732490573366,
+        0.284452053809027,
+        0.33922332698659907
+      ],
+      "linearRadianceMax": [
+        0.7518950759358553,
+        0.8751375798353509,
+        1.0792951932166202
+      ],
+      "allDirectionsDarkFraction": 0.0
+    },
+    {
+      "index": 1776,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_loose_pile_01.mdl",
+      "origin": [
+        -1710.010009765625,
+        3025.97998046875,
+        591.2670288085938
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "7db6bc61762d72a5da279537ba76b1e448be758c859d7b4338ca049d5fff79ab",
+      "originalVhvVertices": 575,
+      "linearRadianceMin": [
+        0.0016869150833405035,
+        0.0016869150833405035,
+        0.0008046583752478675
+      ],
+      "linearRadianceMedian": [
+        0.27583282576115464,
+        0.3021254885209965,
+        0.35865389795515534
+      ],
+      "linearRadianceMax": [
+        0.7226724485127611,
+        0.8433697272782518,
+        1.0436454137963656
+      ],
+      "allDirectionsDarkFraction": 0.0
+    },
+    {
+      "index": 1777,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_tower_02.mdl",
+      "origin": [
+        -2232.260009765625,
+        3975.639892578125,
+        996.9979858398438
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "f49fec47e9675a1b644c2f95a777c158a4dd2fdd0a7ce1bc0cc871c24863b793",
+      "originalVhvVertices": 1420,
+      "linearRadianceMin": [
+        0.010397801263496598,
+        0.011881333293278125,
+        0.015175236782101953
+      ],
+      "linearRadianceMedian": [
+        0.04777575040693464,
+        0.051122046761691166,
+        0.0581871738867954
+      ],
+      "linearRadianceMax": [
+        0.7082977883612912,
+        0.8277257910629683,
+        1.0260651954329245
+      ],
+      "allDirectionsDarkFraction": 0.020422535211267606
+    },
+    {
+      "index": 1783,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_window_alcove_01.mdl",
+      "origin": [
+        -3406.02001953125,
+        3005.669921875,
+        587.1320190429688
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "4cfffd10c297d6ee2a0dbe109f21f9999a75f55c28734ff2a509f957f0d00e44",
+      "originalVhvVertices": 5203,
+      "linearRadianceMin": [
+        0.006584956665678162,
+        0.007751026581197323,
+        0.010397801263496598
+      ],
+      "linearRadianceMedian": [
+        0.284452053809027,
+        0.320381540887759,
+        0.38891024857827483
+      ],
+      "linearRadianceMax": [
+        0.7667436124481827,
+        0.8912620345896403,
+        1.0973652528521294
+      ],
+      "allDirectionsDarkFraction": 0.0011531808571977706
+    },
+    {
+      "index": 1791,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_window_alcove_01.mdl",
+      "origin": [
+        -2081.590087890625,
+        3975.97998046875,
+        783.31201171875
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "8e27f184e89daf927c852332c4c097770c103d6b6ad2082982010407746d2ad6",
+      "originalVhvVertices": 5203,
+      "linearRadianceMin": [
+        0.003697239130127778,
+        0.00455975438978414,
+        0.00455975438978414
+      ],
+      "linearRadianceMedian": [
+        0.3021254885209965,
+        0.3488648261201463,
+        0.43134020594618716
+      ],
+      "linearRadianceMax": [
+        0.7817506736020229,
+        0.907547197613379,
+        1.0973652528521294
+      ],
+      "allDirectionsDarkFraction": 0.026138766096482798
+    },
+    {
+      "index": 1793,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_window_alcove_01.mdl",
+      "origin": [
+        -3406.0,
+        2717.4599609375,
+        586.916015625
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "d89c959cbe3da2eb921658e800202b89f11c30fc41d332f193216ae3eb419376",
+      "originalVhvVertices": 5203,
+      "linearRadianceMin": [
+        0.007751026581197323,
+        0.009021490977402251,
+        0.009021490977402251
+      ],
+      "linearRadianceMedian": [
+        0.3021254885209965,
+        0.33922332698659907,
+        0.40982573051271864
+      ],
+      "linearRadianceMax": [
+        0.7817506736020229,
+        0.907547197613379,
+        1.0973652528521294
+      ],
+      "allDirectionsDarkFraction": 0.0
+    },
+    {
+      "index": 1803,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_a_128_01.mdl",
+      "origin": [
+        -2738.0,
+        1696.0,
+        417.0
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "d37512703b9112099b57b03422af6654dc3373311412b174f5b51b48cc8d5d87",
+      "originalVhvVertices": 179,
+      "linearRadianceMin": [
+        0.006584956665678162,
+        0.00455975438978414,
+        0.002932317953280535
+      ],
+      "linearRadianceMedian": [
+        0.09626611817956882,
+        0.08241420142990949,
+        0.06575387638123135
+      ],
+      "linearRadianceMax": [
+        0.4534564677128782,
+        0.49950526908796494,
+        0.5859729771614125
+      ],
+      "allDirectionsDarkFraction": 0.0
+    },
+    {
+      "index": 1804,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_a_256_01.mdl",
+      "origin": [
+        -2930.0,
+        1696.0,
+        417.0
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "6ae99fb7bc11d4a67eaf2a216cc24fb9d7317670669a55db166c8b010d8307e6",
+      "originalVhvVertices": 312,
+      "linearRadianceMin": [
+        0.0016869150833405035,
+        0.0016869150833405035,
+        0.0016869150833405035
+      ],
+      "linearRadianceMedian": [
+        0.06575387638123135,
+        0.054592273841015046,
+        0.04455262431219626
+      ],
+      "linearRadianceMax": [
+        0.43134020594618716,
+        0.4761772577397193,
+        0.5604991451712314
+      ],
+      "allDirectionsDarkFraction": 0.00641025641025641
+    },
+    {
+      "index": 1805,
+      "model": "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_rooftrim_01_455.mdl",
+      "origin": [
+        -256.0,
+        2183.0,
+        272.0
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "9f75fba77503b05798466421a8f2eb693490044800b636465647b0fe1a90525e",
+      "originalVhvVertices": 3900,
+      "linearRadianceMin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.09151834825568761,
+        0.07382776215769936,
+        0.0581871738867954
+      ],
+      "linearRadianceMax": [
+        0.9573695752955182,
+        0.940600705787325,
+        1.0260651954329245
+      ],
+      "allDirectionsDarkFraction": 0.03641025641025641
+    },
+    {
+      "index": 1806,
+      "model": "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_rooftrim_01_456.mdl",
+      "origin": [
+        -1344.0,
+        2445.31005859375,
+        229.0
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "5d11b18f2541ef0e79925d06b023f89dd7066e97465fe31b015d426d152679e6",
+      "originalVhvVertices": 7462,
+      "linearRadianceMin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.21204439037417283,
+        0.17677431500140267,
+        0.15728072158442713
+      ],
+      "linearRadianceMax": [
+        1.2673948947138125,
+        1.367652403059248,
+        1.5586611622611184
+      ],
+      "allDirectionsDarkFraction": 0.07317073170731707
+    },
+    {
+      "index": 1807,
+      "model": "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_rooftrim_01_457.mdl",
+      "origin": [
+        -743.0,
+        2864.0,
+        256.3609924316406
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "d0824b3e5582a7c0a4beaacace6e4aee173099e01b700d6f81803db2e1f7640b",
+      "originalVhvVertices": 3856,
+      "linearRadianceMin": [
+        0.002932317953280535,
+        0.0016869150833405035,
+        0.0016869150833405035
+      ],
+      "linearRadianceMedian": [
+        0.13320850736413392,
+        0.10114515918669165,
+        0.07382776215769936
+      ],
+      "linearRadianceMax": [
+        0.666116962909959,
+        0.7667436124481827,
+        0.940600705787325
+      ],
+      "allDirectionsDarkFraction": 0.007520746887966805
+    },
+    {
+      "index": 1808,
+      "model": "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_rooftrim_01_458.mdl",
+      "origin": [
+        -2120.0,
+        3826.0,
+        655.0
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "8c5d4135e3e9bc5996681effe7bc5df4aed213228152f82a2b7a6107cbe8cb51",
+      "originalVhvVertices": 1493,
+      "linearRadianceMin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.24279634580480725,
+        0.26735805253942685,
+        0.320381540887759
+      ],
+      "linearRadianceMax": [
+        0.7667436124481827,
+        0.8912620345896403,
+        1.0792951932166202
+      ],
+      "allDirectionsDarkFraction": 0.1406563965170797
+    },
+    {
+      "index": 1809,
+      "model": "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_rooftrim_01_459.mdl",
+      "origin": [
+        -1596.0,
+        3088.0,
+        417.0
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "b8f6967d715954ad90b62b1c3d872146dda3834ec2568b37c216ebb0d29c2849",
+      "originalVhvVertices": 9283,
+      "linearRadianceMin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.12752977212095082,
+        0.09151834825568761,
+        0.06575387638123135
+      ],
+      "linearRadianceMax": [
+        0.9913928434071899,
+        0.9573695752955182,
+        1.0086477563562979
+      ],
+      "allDirectionsDarkFraction": 0.12969945060863944
+    },
+    {
+      "index": 1810,
+      "model": "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_rooftrim_460.mdl",
+      "origin": [
+        -862.322998046875,
+        3211.919921875,
+        796.9979858398438
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "4d8a71007a84e815639049a9ce538d673d6cc845e9f6ca560e3f47317e395191",
+      "originalVhvVertices": 2301,
+      "linearRadianceMin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.08241420142990949,
+        0.06575387638123135,
+        0.051122046761691166
+      ],
+      "linearRadianceMax": [
+        0.5859729771614125,
+        0.6800203364882401,
+        0.8277257910629683
+      ],
+      "allDirectionsDarkFraction": 0.055627987831377665
+    },
+    {
+      "index": 1811,
+      "model": "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_rooftrim_01_461.mdl",
+      "origin": [
+        -2776.0,
+        2736.0,
+        417.0
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "41570213447d2b9db986c4ecb056dfb63aeac75c55f6e1649f8aedaf426d7458",
+      "originalVhvVertices": 1115,
+      "linearRadianceMin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.13902244778923778,
+        0.10615606265224763,
+        0.07382776215769936
+      ],
+      "linearRadianceMax": [
+        0.44232294099886726,
+        0.49950526908796494,
+        0.5859729771614125
+      ],
+      "allDirectionsDarkFraction": 0.02242152466367713
+    },
+    {
+      "index": 1812,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_tower_02.mdl",
+      "origin": [
+        -2271.639892578125,
+        2857.739990234375,
+        796.9979858398438
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "a348a7b9420791576eb3b59d2dc8595addcde52c2f5515b23b0b351a8fb209e5",
+      "originalVhvVertices": 1420,
+      "linearRadianceMin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.15728072158442713,
+        0.15105804068217293,
+        0.14497211952899766
+      ],
+      "linearRadianceMax": [
+        1.2673948947138125,
+        1.1525590713931697,
+        1.1155990889736878
+      ],
+      "allDirectionsDarkFraction": 0.016901408450704224
+    },
+    {
+      "index": 1813,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_a_256_01.mdl",
+      "origin": [
+        -2512.0,
+        2736.0,
+        545.0
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "4f274b9ba353d7da019cd26c6b8a3296150fbbdd0484b26379e13ce72e45c410",
+      "originalVhvVertices": 312,
+      "linearRadianceMin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.1835489917206144,
+        0.14497211952899766,
+        0.11129940952827085
+      ],
+      "linearRadianceMax": [
+        0.4761772577397193,
+        0.48776519428792975,
+        0.5989417828389882
+      ],
+      "allDirectionsDarkFraction": 0.003205128205128205
+    },
+    {
+      "index": 1814,
+      "model": "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_rooftrim_01_462.mdl",
+      "origin": [
+        -2128.0,
+        2624.0,
+        225.0
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "fd8f08bc755b2a9257397601db1562f16b66fa0b99e36ec46ebb0f062c4842c4",
+      "originalVhvVertices": 6019,
+      "linearRadianceMin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.27583282576115464,
+        0.3021254885209965,
+        0.3488648261201463
+      ],
+      "linearRadianceMax": [
+        0.694080514303382,
+        0.7969165389869831,
+        0.9743002018390531
+      ],
+      "allDirectionsDarkFraction": 0.03704934374480811
+    },
+    {
+      "index": 1815,
+      "model": "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_rooftrim_01_463.mdl",
+      "origin": [
+        -3280.0,
+        2376.0,
+        417.0
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "5d06b315f2a9ba09d8f53905f44a56fba3ac3f64b6c70dadcc97c7aab591c550",
+      "originalVhvVertices": 2570,
+      "linearRadianceMin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.10114515918669165,
+        0.08241420142990949,
+        0.06575387638123135
+      ],
+      "linearRadianceMax": [
+        0.7082977883612912,
+        0.8122414862374254,
+        1.0086477563562979
+      ],
+      "allDirectionsDarkFraction": 0.01634241245136187
+    },
+    {
+      "index": 1816,
+      "model": "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_rooftrim_01_464.mdl",
+      "origin": [
+        -2120.0,
+        3192.0,
+        544.0
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "686905371409d2359fb7d2be71315ad17224b157ef16d5937b9cb689532cdacc",
+      "originalVhvVertices": 4021,
+      "linearRadianceMin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.08241420142990949,
+        0.06972708041777184,
+        0.054592273841015046
+      ],
+      "linearRadianceMax": [
+        0.940600705787325,
+        0.9239933336687292,
+        0.9913928434071899
+      ],
+      "allDirectionsDarkFraction": 0.11091768216861478
+    },
+    {
+      "index": 1825,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_window_alcove_01.mdl",
+      "origin": [
+        -539.0850219726562,
+        3975.8798828125,
+        743.1320190429688
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "f87419cbaa3f5aef89716bd328dd15345d0b17742c25ccb57a5491aafb3577db",
+      "originalVhvVertices": 5203,
+      "linearRadianceMin": [
+        0.007751026581197323,
+        0.007751026581197323,
+        0.009021490977402251
+      ],
+      "linearRadianceMedian": [
+        0.3488648261201463,
+        0.3992932919573791,
+        0.48776519428792975
+      ],
+      "linearRadianceMax": [
+        0.7667436124481827,
+        0.8912620345896403,
+        1.0973652528521294
+      ],
+      "allDirectionsDarkFraction": 0.007495675571785508
+    },
+    {
+      "index": 1950,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_window_alcove_01.mdl",
+      "origin": [
+        -3167.97998046875,
+        1994.3800048828125,
+        650.9819946289062
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "371aac4f2e9ae4a90288d1be5e83a6fa0bf0ac17905e1d40693d18fb4e895276",
+      "originalVhvVertices": 5203,
+      "linearRadianceMin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.08241420142990949,
+        0.07382776215769936,
+        0.06575387638123135
+      ],
+      "linearRadianceMax": [
+        0.7518950759358553,
+        0.8751375798353509,
+        1.0792951932166202
+      ],
+      "allDirectionsDarkFraction": 0.15029790505477608
+    },
+    {
+      "index": 2032,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_window_alcove_01.mdl",
+      "origin": [
+        -2271.97998046875,
+        2717.330078125,
+        583.1320190429688
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "e1600495f2bc715a0f33360c0c8ac4978ca0338068006fce00004eb092ee4434",
+      "originalVhvVertices": 5203,
+      "linearRadianceMin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.25902732490573366,
+        0.23489525184066312,
+        0.21951971086030772
+      ],
+      "linearRadianceMax": [
+        1.209233460194476,
+        1.1712857044155929,
+        1.1712857044155929
+      ],
+      "allDirectionsDarkFraction": 0.004036133000192197
+    },
+    {
+      "index": 2193,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_tower_01.mdl",
+      "origin": [
+        -224.9530029296875,
+        3070.219970703125,
+        510.7860107421875
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "0c10442734739ecd11a381c8b733459ae53bc4aa2ecd9b443f485f12a306fb58",
+      "originalVhvVertices": 748,
+      "linearRadianceMin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.31118049118439384,
+        0.31118049118439384,
+        0.31118049118439384
+      ],
+      "linearRadianceMax": [
+        1.367652403059248,
+        1.3270497395348695,
+        1.3270497395348695
+      ],
+      "allDirectionsDarkFraction": 0.01871657754010695
+    },
+    {
+      "index": 2194,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_tower_01.mdl",
+      "origin": [
+        -959.4500122070312,
+        2667.469970703125,
+        486.7860107421875
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "e58e6f772d869ac9973ed2df751a8a4596e646375dd30961af80b81778d45ca3",
+      "originalVhvVertices": 748,
+      "linearRadianceMin": [
+        0.00552174422801293,
+        0.00455975438978414,
+        0.003697239130127778
+      ],
+      "linearRadianceMedian": [
+        0.320381540887759,
+        0.3021254885209965,
+        0.284452053809027
+      ],
+      "linearRadianceMax": [
+        1.2673948947138125,
+        1.2478421274620972,
+        1.2478421274620972
+      ],
+      "allDirectionsDarkFraction": 0.0
+    },
+    {
+      "index": 2195,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_tower_01.mdl",
+      "origin": [
+        -224.9530029296875,
+        1629.219970703125,
+        419.7860107421875
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "a2b40a8d258e5221a35d576c1f08def392ac093c924464529d4932f5a5641d35",
+      "originalVhvVertices": 748,
+      "linearRadianceMin": [
+        0.013473395682366912,
+        0.011881333293278125,
+        0.011881333293278125
+      ],
+      "linearRadianceMedian": [
+        0.33922332698659907,
+        0.33922332698659907,
+        0.33922332698659907
+      ],
+      "linearRadianceMax": [
+        1.6479406248449033,
+        1.5807268605460985,
+        1.5807268605460985
+      ],
+      "allDirectionsDarkFraction": 0.0
+    },
+    {
+      "index": 2196,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_tower_01.mdl",
+      "origin": [
+        161.64199829101562,
+        1630.18994140625,
+        419.7860107421875
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "b7f19fbf5c6a35ef644f0ae0595ce510144d7a1f65bcacd17765ebee2c583943",
+      "originalVhvVertices": 748,
+      "linearRadianceMin": [
+        0.015175236782101953,
+        0.016988050588719994,
+        0.01891298179716604
+      ],
+      "linearRadianceMedian": [
+        0.3297290250383826,
+        0.3297290250383826,
+        0.31118049118439384
+      ],
+      "linearRadianceMax": [
+        1.287113597321361,
+        1.228455061191693,
+        1.2478421274620972
+      ],
+      "allDirectionsDarkFraction": 0.0
+    },
+    {
+      "index": 2197,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_tower_01.mdl",
+      "origin": [
+        -224.18499755859375,
+        2399.639892578125,
+        446.7860107421875
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "f353162b9bf8a6eeace14e8f141c69b7c99e8ee8251a932defbf711d2eb34a11",
+      "originalVhvVertices": 748,
+      "linearRadianceMin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.320381540887759,
+        0.31118049118439384,
+        0.31118049118439384
+      ],
+      "linearRadianceMax": [
+        1.625366377256507,
+        1.6029618605029818,
+        1.6479406248449033
+      ],
+      "allDirectionsDarkFraction": 0.004010695187165776
+    },
+    {
+      "index": 2198,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_tower_01.mdl",
+      "origin": [
+        -224.52999877929688,
+        1887.449951171875,
+        418.7860107421875
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "b57fed96a5c8bfc42410bfb801bab37bcc0954d59921c4c70e8ad05953a6ba64",
+      "originalVhvVertices": 748,
+      "linearRadianceMin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.284452053809027,
+        0.26735805253942685,
+        0.25902732490573366
+      ],
+      "linearRadianceMax": [
+        1.287113597321361,
+        1.2478421274620972,
+        1.287113597321361
+      ],
+      "allDirectionsDarkFraction": 0.009358288770053475
+    },
+    {
+      "index": 2293,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_window_alcove_01.mdl",
+      "origin": [
+        -861.9829711914062,
+        3060.97998046875,
+        582.9819946289062
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "8d8fecc777a750b007e69ac8556cd5d41102ce50d3d29c9baf795e83bdecfd6b",
+      "originalVhvVertices": 5203,
+      "linearRadianceMin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.10114515918669165,
+        0.08690124718621947,
+        0.06972708041777184
+      ],
+      "linearRadianceMax": [
+        0.7667436124481827,
+        0.8912620345896403,
+        1.0973652528521294
+      ],
+      "allDirectionsDarkFraction": 0.10628483567172785
+    },
+    {
+      "index": 2348,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_a_256_01.mdl",
+      "origin": [
+        67.51370239257812,
+        2842.989990234375,
+        416.0
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "7bfed61902aa1e629c6715fcf3d7f5676b1332e22b14cf884e32463b9c927b42",
+      "originalVhvVertices": 312,
+      "linearRadianceMin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.051122046761691166,
+        0.03847274360359467,
+        0.02775527782186719
+      ],
+      "linearRadianceMax": [
+        0.547993495052789,
+        0.49950526908796494,
+        0.4761772577397193
+      ],
+      "allDirectionsDarkFraction": 0.09294871794871795
+    },
+    {
+      "index": 2349,
+      "model": "models/props/autocombine/de_dust2/_autocombine_dust_kasbah_rooftrim_01_589.mdl",
+      "origin": [
+        128.0,
+        2487.0,
+        416.0
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "71571acbd41dd73e5fef9a8d1485ad1d188defa9c33c32ebb99b9e2e4ace4641",
+      "originalVhvVertices": 1872,
+      "linearRadianceMin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.08241420142990949,
+        0.061907471872391505,
+        0.04455262431219626
+      ],
+      "linearRadianceMax": [
+        0.49950526908796494,
+        0.547993495052789,
+        0.6523700993711264
+      ],
+      "allDirectionsDarkFraction": 0.1111111111111111
+    },
+    {
+      "index": 2411,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_loose_pile_01.mdl",
+      "origin": [
+        -1600.0,
+        1267.0,
+        39.0
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "96a71ec7ec6641718ed3e309cf8ca3daf6b349156dad3945cc9c19a8b94b9518",
+      "originalVhvVertices": 575,
+      "linearRadianceMin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.07382776215769936,
+        0.061907471872391505,
+        0.04145188875151113
+      ],
+      "linearRadianceMax": [
+        0.3297290250383826,
+        0.25084022891761587,
+        0.15728072158442713
+      ],
+      "allDirectionsDarkFraction": 0.06608695652173913
+    },
+    {
+      "index": 2412,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_loose_pile_01.mdl",
+      "origin": [
+        -1364.0,
+        1037.0,
+        41.0
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "e557262215c536db98f5bdee441227d0890bbf63beac1af24b5210530de937be",
+      "originalVhvVertices": 575,
+      "linearRadianceMin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.03561436711055873,
+        0.02775527782186719,
+        0.01891298179716604
+      ],
+      "linearRadianceMax": [
+        0.14497211952899766,
+        0.12752977212095082,
+        0.11657577074812765
+      ],
+      "allDirectionsDarkFraction": 0.33217391304347826
+    },
+    {
+      "index": 2413,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_loose_pile_01.mdl",
+      "origin": [
+        -903.0,
+        1517.0,
+        -109.0
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "b5e3de0b7746ac449461d66d27ef477abc975a7a38d2bbd631664eac2f8069d6",
+      "originalVhvVertices": 575,
+      "linearRadianceMin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.02095113015941545,
+        0.016988050588719994,
+        0.013473395682366912
+      ],
+      "linearRadianceMax": [
+        0.11657577074812765,
+        0.11129940952827085,
+        0.09626611817956882
+      ],
+      "allDirectionsDarkFraction": 0.4782608695652174
+    },
+    {
+      "index": 2414,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_loose_pile_01.mdl",
+      "origin": [
+        -2162.0,
+        1917.0,
+        6.557600021362305
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "2588c762e5381dc53cf4a0fc18095e8272a9081975aa1f838334ae26ed3fd3a1",
+      "originalVhvVertices": 575,
+      "linearRadianceMin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.03847274360359467,
+        0.02775527782186719,
+        0.02095113015941545
+      ],
+      "linearRadianceMax": [
+        0.3488648261201463,
+        0.38891024857827483,
+        0.4534564677128782
+      ],
+      "allDirectionsDarkFraction": 0.20347826086956522
+    },
+    {
+      "index": 2415,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_loose_pile_01.mdl",
+      "origin": [
+        -98.0,
+        1588.0,
+        4.0802001953125
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "518c2dec023fd99b7fcb1808fd84d5b23393eea3c544c873d9f338e034c04102",
+      "originalVhvVertices": 575,
+      "linearRadianceMin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.061907471872391505,
+        0.04777575040693464,
+        0.03561436711055873
+      ],
+      "linearRadianceMax": [
+        0.3488648261201463,
+        0.35865389795515534,
+        0.3992932919573791
+      ],
+      "allDirectionsDarkFraction": 0.288695652173913
+    },
+    {
+      "index": 2416,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_loose_pile_01.mdl",
+      "origin": [
+        264.0,
+        2504.0,
+        100.65599822998047
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "6ebf5b513714e1231e769f8ad4f667ca9504bcb7ad181cf3aaa7053a292dad3d",
+      "originalVhvVertices": 575,
+      "linearRadianceMin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.04145188875151113,
+        0.03287591451495936,
+        0.02775527782186719
+      ],
+      "linearRadianceMax": [
+        0.3488648261201463,
+        0.37867624295966906,
+        0.44232294099886726
+      ],
+      "allDirectionsDarkFraction": 0.19130434782608696
+    },
+    {
+      "index": 2536,
+      "model": "models/props/autocombine/de_dust2/_autocombine_hr_dust_stone_ground_01_color_609.mdl",
+      "origin": [
+        -2048.0,
+        1536.0,
+        31.0
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "4c700dabfa9aef259d3e4001452c6ac1fb32e1426ea92ad8e9a445d1aaa96134",
+      "originalVhvVertices": 7019,
+      "linearRadianceMin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.054592273841015046,
+        0.04777575040693464,
+        0.03847274360359467
+      ],
+      "linearRadianceMax": [
+        0.5604991451712314,
+        0.43134020594618716,
+        0.3685909142239299
+      ],
+      "allDirectionsDarkFraction": 0.21612765351189628
+    },
+    {
+      "index": 2537,
+      "model": "models/props/autocombine/de_dust2/_autocombine_hr_dust_stone_ground_01_color_610.mdl",
+      "origin": [
+        -1664.0,
+        1024.0,
+        29.94339942932129
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "dcdd81cf9d97b38cf9d0fbf6f431d2561f2fe5f9184e6813906e9030500486d6",
+      "originalVhvVertices": 1987,
+      "linearRadianceMin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.14497211952899766,
+        0.12198570760710159,
+        0.10615606265224763
+      ],
+      "linearRadianceMax": [
+        0.9239933336687292,
+        0.8751375798353509,
+        0.8912620345896403
+      ],
+      "allDirectionsDarkFraction": 0.1132360342224459
+    },
+    {
+      "index": 2564,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_tower_01.mdl",
+      "origin": [
+        194.0,
+        2634.0,
+        480.0
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "f2387a7a511d9474693dc84a9a42855eb3f535a91a3f049f27ef13fb4673d3d5",
+      "originalVhvVertices": 748,
+      "linearRadianceMin": [
+        0.010397801263496598,
+        0.010397801263496598,
+        0.010397801263496598
+      ],
+      "linearRadianceMedian": [
+        0.10114515918669165,
+        0.08241420142990949,
+        0.061907471872391505
+      ],
+      "linearRadianceMax": [
+        0.7969165389869831,
+        0.9239933336687292,
+        1.1155990889736878
+      ],
+      "allDirectionsDarkFraction": 0.0
+    },
+    {
+      "index": 2565,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_tower_01.mdl",
+      "origin": [
+        196.0,
+        2001.0,
+        480.0
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "5227cb4d9d2c23bbc1ff0a72ea236737fb6276ebb0800de30bd6341dbbd70dcc",
+      "originalVhvVertices": 748,
+      "linearRadianceMin": [
+        0.0008046583752478675,
+        0.0008046583752478675,
+        0.0008046583752478675
+      ],
+      "linearRadianceMedian": [
+        0.10615606265224763,
+        0.08690124718621947,
+        0.06972708041777184
+      ],
+      "linearRadianceMax": [
+        0.7667436124481827,
+        0.8912620345896403,
+        1.0973652528521294
+      ],
+      "allDirectionsDarkFraction": 0.08155080213903744
+    },
+    {
+      "index": 2634,
+      "model": "models/props/de_dust/hr_dust/dust_trims/stone_ground002c.mdl",
+      "origin": [
+        398.4989929199219,
+        2432.60009765625,
+        -120.4540023803711
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "e411debd9a4807458c7bfd70af01ea4fe2ec32457362bfb39c2fa098eebc1c0c",
+      "originalVhvVertices": 118,
+      "linearRadianceMin": [
+        0.0016869150833405035,
+        0.0008046583752478675,
+        0.0008046583752478675
+      ],
+      "linearRadianceMedian": [
+        0.051122046761691166,
+        0.03847274360359467,
+        0.025371274884298432
+      ],
+      "linearRadianceMax": [
+        1.0086477563562979,
+        0.940600705787325,
+        0.7518950759358553
+      ],
+      "allDirectionsDarkFraction": 0.059322033898305086
+    },
+    {
+      "index": 2635,
+      "model": "models/props/de_dust/hr_dust/dust_trims/stone_ground002d.mdl",
+      "origin": [
+        318.82000732421875,
+        2352.179931640625,
+        -120.0
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "f8137ef82ef7e4ec618cc5ba24be4a58932fd51f1fd24b442693f3c625b429f7",
+      "originalVhvVertices": 168,
+      "linearRadianceMin": [
+        0.00552174422801293,
+        0.00455975438978414,
+        0.002932317953280535
+      ],
+      "linearRadianceMedian": [
+        0.17677431500140267,
+        0.14497211952899766,
+        0.10872773609025924
+      ],
+      "linearRadianceMax": [
+        1.956946832782635,
+        1.8587815346272476,
+        1.4934777096287237
+      ],
+      "allDirectionsDarkFraction": 0.0
+    },
+    {
+      "index": 2642,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_window_24x24_wood_03.mdl",
+      "origin": [
+        -909.4500122070312,
+        2573.72998046875,
+        119.78600311279297
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "87df0baae2c17cc6e5301207954ba710ccc06e2a8d26365295de48c0203cf15f",
+      "originalVhvVertices": 547,
+      "linearRadianceMin": [
+        0.003697239130127778,
+        0.00455975438978414,
+        0.00455975438978414
+      ],
+      "linearRadianceMedian": [
+        0.24279634580480725,
+        0.21951971086030772,
+        0.1904628719766707
+      ],
+      "linearRadianceMax": [
+        0.8591735668319918,
+        0.8751375798353509,
+        0.9239933336687292
+      ],
+      "allDirectionsDarkFraction": 0.007312614259597806
+    },
+    {
+      "index": 3036,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_window_24x24_wood_03.mdl",
+      "origin": [
+        -318.2699890136719,
+        1837.449951171875,
+        52.78620147705078
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "b0ff3474331072bce14d5a10f661125c360a22788d57b8363ed0f0d34740edde",
+      "originalVhvVertices": 547,
+      "linearRadianceMin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.15728072158442713,
+        0.13320850736413392,
+        0.11657577074812765
+      ],
+      "linearRadianceMax": [
+        0.511397811451699,
+        0.5356416020674795,
+        0.5859729771614125
+      ],
+      "allDirectionsDarkFraction": 0.05301645338208409
+    },
+    {
+      "index": 3044,
+      "model": "models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_window_24x24_wood_03.mdl",
+      "origin": [
+        -274.9530029296875,
+        1722.9599609375,
+        52.78620147705078
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "380f90e227390d8c3e13281a254c862e83d11b1a3a9caa6bd974db6b625f08cc",
+      "originalVhvVertices": 547,
+      "linearRadianceMin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.015175236782101953,
+        0.011881333293278125,
+        0.010397801263496598
+      ],
+      "linearRadianceMax": [
+        0.24279634580480725,
+        0.25084022891761587,
+        0.26735805253942685
+      ],
+      "allDirectionsDarkFraction": 0.4369287020109689
+    },
+    {
+      "index": 3057,
+      "model": "models/props/de_dust/hr_dust/dust_trims/stone_ground001b.mdl",
+      "origin": [
+        -1120.0,
+        1418.0899658203125,
+        -111.43499755859375
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "d6c475d58ea49b58a2e2f7fcc491ca69c4e50ef3ed122001a7636791448808f3",
+      "originalVhvVertices": 398,
+      "linearRadianceMin": [
+        0.0008046583752478675,
+        0.0008046583752478675,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.06972708041777184,
+        0.061907471872391505,
+        0.051122046761691166
+      ],
+      "linearRadianceMax": [
+        0.40982573051271864,
+        0.38891024857827483,
+        0.3488648261201463
+      ],
+      "allDirectionsDarkFraction": 0.02763819095477387
+    },
+    {
+      "index": 3058,
+      "model": "models/props/de_dust/hr_dust/dust_trims/stone_ground001.mdl",
+      "origin": [
+        -991.5830078125,
+        1418.5999755859375,
+        -113.43199920654297
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "c421eb2cb90197bb5436b0c7a84e4564023f3e4fe0f392c465145503a894b2a3",
+      "originalVhvVertices": 1058,
+      "linearRadianceMin": [
+        0.0008046583752478675,
+        0.0008046583752478675,
+        0.0
+      ],
+      "linearRadianceMedian": [
+        0.07805658564338949,
+        0.06575387638123135,
+        0.054592273841015046
+      ],
+      "linearRadianceMax": [
+        0.44232294099886726,
+        0.3992932919573791,
+        0.35865389795515534
+      ],
+      "allDirectionsDarkFraction": 0.04253308128544423
+    },
+    {
+      "index": 3106,
+      "model": "models/props/de_dust/hr_dust/dust_trims/stone_ground001c.mdl",
+      "origin": [
+        -767.8200073242188,
+        1419.0799560546875,
+        -113.0
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "89aa28eb0965e034ca6d93d9beea193709bdd6d4f186b106ac8485bc6fec44bf",
+      "originalVhvVertices": 387,
+      "linearRadianceMin": [
+        0.0008046583752478675,
+        0.0008046583752478675,
+        0.0008046583752478675
+      ],
+      "linearRadianceMedian": [
+        0.08690124718621947,
+        0.07805658564338949,
+        0.06575387638123135
+      ],
+      "linearRadianceMax": [
+        0.4534564677128782,
+        0.43134020594618716,
+        0.38891024857827483
+      ],
+      "allDirectionsDarkFraction": 0.007751937984496124
+    },
+    {
+      "index": 3107,
+      "model": "models/props/de_dust/hr_dust/dust_trims/stone_ground001b.mdl",
+      "origin": [
+        -640.2160034179688,
+        1418.6500244140625,
+        -114.0
+      ],
+      "originalVhvExact": true,
+      "sourceSha256": "06bf25f1c097431ae35c86fe4ba1faa119906decc302968a347fa597c3748e06",
+      "originalVhvVertices": 398,
+      "linearRadianceMin": [
+        0.0008046583752478675,
+        0.0008046583752478675,
+        0.0008046583752478675
+      ],
+      "linearRadianceMedian": [
+        0.12198570760710159,
+        0.11129940952827085,
+        0.09626611817956882
+      ],
+      "linearRadianceMax": [
+        0.4534564677128782,
+        0.42050791827197387,
+        0.3685909142239299
+      ],
+      "allDirectionsDarkFraction": 0.002512562814070352
+    }
+  ],
+  "limitations": [
+    "Original authored VTF mip levels are not presently exported in the single-PNG GLB path; GPU visual contribution requires controlled capture.",
+    "Centroid samples do not measure screen area and contain deliberately hidden faces.",
+    "VHV values use the already verified installed bump vertex shader decode; exposure and original display calibration are separate.",
+    "No arbitrary brightness, alpha or UV changes justified by this audit."
+  ]
+}

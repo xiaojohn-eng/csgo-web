@@ -1,0 +1,89 @@
+{
+  "format": "source-sky-second-layer-v1",
+  "materials": ".reference-assets/source-exports/dust2/sky/skydome-materials.json",
+  "sky": ".reference-assets/source-exports/dust2/sky/sky.json",
+  "skyCamera": {},
+  "layers": [
+    {
+      "name": "models/props/de_dust/hr_dust/dust_skybox/sky_dust2",
+      "source": "models/props/de_dust/hr_dust/dust_skybox/sky_dust2",
+      "shader": "unlitgeneric",
+      "parameters": {
+        "$basetexture": "models\\props\\de_dust\\hr_dust\\dust_skybox\\sky_dust2",
+        "$nofog": "1"
+      },
+      "proxied": false,
+      "proxies": {},
+      "mappedKeys": [
+        "$basetexture original VTF full-resolution RGB -> glTF baseColor"
+      ],
+      "mappedCount": 1,
+      "unmappedCount": 1,
+      "rawVmtSha256": "4f5537b160b9da15f18456f01e53c152ccfa19edc289c2c7628c3770f0f3605e"
+    },
+    {
+      "name": "nuke_clouds_002",
+      "source": "models/props/de_nuke/hr_nuke/nuke_skydome_001/nuke_clouds_002",
+      "shader": "unlittwotexture",
+      "parameters": {
+        "$nofog": "1",
+        "$basetexture": "models/props/de_nuke/hr_nuke/nuke_skydome_001/nuke_clouds_003",
+        "$texture2": "models/props/de_nuke/hr_nuke/nuke_skydome_001/nuke_clouds_001",
+        "$alpha": ".35",
+        "$translucent": "1"
+      },
+      "proxied": true,
+      "proxies": {
+        "texturescroll": [
+          {
+            "texturescrollvar": "$basetexturetransform",
+            "texturescrollrate": "0.00209",
+            "texturescrollangle": "80",
+            "texturescale": "3.5"
+          },
+          {
+            "texturescrollvar": "$texture2transform",
+            "texturescrollrate": "0.0",
+            "texturescrollangle": "0",
+            "texturescale": "1"
+          }
+        ]
+      },
+      "mappedKeys": [
+        "$basetexture original VTF full-resolution RGB -> glTF baseColor",
+        "base texture alpha"
+      ],
+      "mappedCount": 2,
+      "unmappedCount": 4,
+      "rawVmtSha256": "cd9c18c5292acba759bfd5cef32484139392d6a1ad6efd95dc02a60895a92929"
+    }
+  ],
+  "cloudLayer": {
+    "name": "nuke_clouds_002",
+    "shader": "unlittwotexture",
+    "baseTexture": "models/props/de_nuke/hr_nuke/nuke_skydome_001/nuke_clouds_003",
+    "texture2": "models/props/de_nuke/hr_nuke/nuke_skydome_001/nuke_clouds_001",
+    "alpha": ".35",
+    "translucent": "1",
+    "noFog": "1",
+    "baseTransform": {
+      "texturescrollvar": "$basetexturetransform",
+      "texturescrollrate": "0.00209",
+      "texturescrollangle": "80",
+      "texturescale": "3.5"
+    },
+    "texture2Transform": {
+      "texturescrollvar": "$texture2transform",
+      "texturescrollrate": "0.0",
+      "texturescrollangle": "0",
+      "texturescale": "1"
+    }
+  },
+  "proxyClass": {
+    "name": "CTextureScrollMaterialProxy",
+    "offsetInClient": 17757466,
+    "clientPath": ".reference-assets/csgo-legacy/csgo/bin/client_client.so",
+    "clientSHA256": "21d2d652a3b2e07c44fa0a3b638886744af9d24ba0c91e64f97a0d8afc43d4cb"
+  },
+  "boundary": "This reads the shipped material files and the client's class name. It does not state how the texturescroll proxy composes its transform from rate, angle and scale: nothing here measured that, so a renderer must not be written from the parameter names alone."
+}

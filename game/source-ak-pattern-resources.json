@@ -1,0 +1,451 @@
+[
+  {
+    "path": "png/models/weapons/customization/paints/custom/ak_island_floral.png",
+    "bytes": 5431458,
+    "sha256": "609329a7a6782ac380192242d9291f7b721d4c11fe1af9de759b513e5d1ab4bc",
+    "paintKitIds": [
+      "724"
+    ],
+    "field": "pattern",
+    "width": 2048,
+    "height": 2048,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/ak_island_floral.vtf",
+    "vtfFlags": 8192,
+    "rgba8Sha256": "c28c1c20d55094dd328931e18c1f12116c58d694fdf8131bbacead556daea6de"
+  },
+  {
+    "path": "png/models/weapons/customization/paints/custom/ak_xray.png",
+    "bytes": 1439163,
+    "sha256": "fb88e492ddd3694deef8a2eafaded5714b53d3f0bd6739f96762c0ce81d94802",
+    "paintKitIds": [
+      "1004"
+    ],
+    "field": "pattern",
+    "width": 1024,
+    "height": 1024,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/ak_xray.vtf",
+    "vtfFlags": 8208,
+    "rgba8Sha256": "effea47b035f9149e0fd6f238e3af4f565429836172db5255c6a86167e10da42"
+  },
+  {
+    "path": "png/models/weapons/customization/paints/custom/fireserpent_ak47.png",
+    "bytes": 1192673,
+    "sha256": "046bbc021a0d3f45697b714d048dfb3d24c5646399961db755aae9f70eac79ec",
+    "paintKitIds": [
+      "180"
+    ],
+    "field": "pattern",
+    "width": 2048,
+    "height": 2048,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/fireserpent_ak47.vtf",
+    "vtfFlags": 8208,
+    "rgba8Sha256": "1e57a1e495c78ec83e98f595db3a86e72466253d4eaa9f6b6784f599ce90de72"
+  },
+  {
+    "path": "png/models/weapons/customization/paints/custom/green_leather.png",
+    "bytes": 4154236,
+    "sha256": "e8586044d4e066b2f9e8ef936ada0355b805ac4539717f74d1244628744c3a30",
+    "paintKitIds": [
+      "341"
+    ],
+    "field": "pattern",
+    "width": 2048,
+    "height": 2048,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/green_leather.vtf",
+    "vtfFlags": 8208,
+    "rgba8Sha256": "0a427e13e5e585a58540a76703b192824e674c1058f53637dc4331055f2b399b"
+  },
+  {
+    "path": "png/models/weapons/customization/paints/custom/jaguar_ak47.png",
+    "bytes": 1351579,
+    "sha256": "401aa8d10ba7c913fe471372353ce3b010d84f14b8e06b343ff155824c7a225e",
+    "paintKitIds": [
+      "1018"
+    ],
+    "field": "pattern",
+    "width": 1024,
+    "height": 1024,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/jaguar_ak47.vtf",
+    "vtfFlags": 8208,
+    "rgba8Sha256": "a5e5266dc067c056aa4e76162b03b00a34d48a63aa668d21f2df9a31a7b189b6"
+  },
+  {
+    "path": "png/models/weapons/customization/paints/custom/jaguar_ak47_normal.png",
+    "bytes": 383778,
+    "sha256": "f9e564e62a74235d79442582c01ce2930c9707cb7ab7fa66aab43fbdefa1230b",
+    "paintKitIds": [
+      "1018"
+    ],
+    "field": "normal",
+    "width": 1024,
+    "height": 1024,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/jaguar_ak47_normal.vtf",
+    "vtfFlags": 8336,
+    "rgba8Sha256": "476e721966235ae5ca8940b4cea521f93b4508a0901f6410c22275a85aeec6d0"
+  },
+  {
+    "path": "png/models/weapons/customization/paints/custom/panther_ak47.png",
+    "bytes": 5274817,
+    "sha256": "ead636117d4b3dd45879bdd7b840480a586a217801643e19502052fd240d81e0",
+    "paintKitIds": [
+      "316"
+    ],
+    "field": "pattern",
+    "width": 2048,
+    "height": 2048,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/panther_ak47.vtf",
+    "vtfFlags": 8208,
+    "rgba8Sha256": "28688407400e3af1da4d5873eee3f19bef26d2ccf3e0fa95e2e7d6c7eb5f9b8c"
+  },
+  {
+    "path": "png/models/weapons/customization/paints/custom/pinstripe_ak47.png",
+    "bytes": 5491014,
+    "sha256": "bec7e6a6365e46bc517afb637789dcf0fe1e7fdfce372ca84d4e1b2b5d89e525",
+    "paintKitIds": [
+      "300"
+    ],
+    "field": "pattern",
+    "width": 2048,
+    "height": 2048,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/pinstripe_ak47.vtf",
+    "vtfFlags": 8208,
+    "rgba8Sha256": "3d84f7e804d32cb7ab6996328c427a4c8fb8f20ef618f0cc26c6f0fb8cd9da29"
+  },
+  {
+    "path": "png/models/weapons/customization/paints/custom/well_traveled.png",
+    "bytes": 4613639,
+    "sha256": "7e07a5c216f0860b53f948df114ed754e7129197738ef8509f0f9141ac9cf947",
+    "paintKitIds": [
+      "340"
+    ],
+    "field": "pattern",
+    "width": 2048,
+    "height": 2048,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/well_traveled.vtf",
+    "vtfFlags": 8208,
+    "rgba8Sha256": "136b4ba45d2f77e876e37f5697b1f73d744385ba432590cf91739eea8376179e"
+  },
+  {
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak-47_phantom_disruptor.png",
+    "bytes": 5527947,
+    "sha256": "71693431d708c0c812b5227084d0ecab6ba01a88a7cbc749c3edadf86c5edd04",
+    "paintKitIds": [
+      "941"
+    ],
+    "field": "pattern",
+    "width": 2048,
+    "height": 2048,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak-47_phantom_disruptor.vtf",
+    "vtfFlags": 8192,
+    "rgba8Sha256": "b57e9109a6c5c56271df896205650a1e09aa6e25cec319d657d8f2838eb79e7b"
+  },
+  {
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak-47_phantom_disruptor_normal.png",
+    "bytes": 2358755,
+    "sha256": "18acb0a9aefd64f200a68ffe2543a9d891c7c96fc5ba2fba1a33715694c7f3d7",
+    "paintKitIds": [
+      "941"
+    ],
+    "field": "normal",
+    "width": 2048,
+    "height": 2048,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak-47_phantom_disruptor_normal.vtf",
+    "vtfFlags": 128,
+    "rgba8Sha256": "c1aa836b57b888b454b19dd4f2003ead6fc696697e806c1816ab05d5e8fe936e"
+  },
+  {
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak47_anubis.png",
+    "bytes": 4969996,
+    "sha256": "2ec6bec772f250560e97adf0ebaa7908b0203dcc168f1af2ee38ed91e5dfead8",
+    "paintKitIds": [
+      "959"
+    ],
+    "field": "pattern",
+    "width": 2048,
+    "height": 2048,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak47_anubis.vtf",
+    "vtfFlags": 8192,
+    "rgba8Sha256": "84abc9a675cc429973002700dd6a0b6455f4798ae2e3d20b17aade040bca912d"
+  },
+  {
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak47_anubis_normal.png",
+    "bytes": 2314743,
+    "sha256": "7888413e6507d90b6333e4992e18cb8b7281e848149ba321579d21678af577c2",
+    "paintKitIds": [
+      "959"
+    ],
+    "field": "normal",
+    "width": 2048,
+    "height": 2048,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak47_anubis_normal.vtf",
+    "vtfFlags": 128,
+    "rgba8Sha256": "f250a9e05331f030798dce8999af7157baa30acb6b89b9b9a5fa6ccb82cc3fb3"
+  },
+  {
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak47_asiimov.png",
+    "bytes": 4238321,
+    "sha256": "f919f65637210f8af4c7005532e0491a834d4f7f23e434eba6d1c87a327722d2",
+    "paintKitIds": [
+      "801"
+    ],
+    "field": "pattern",
+    "width": 2048,
+    "height": 2048,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak47_asiimov.vtf",
+    "vtfFlags": 8192,
+    "rgba8Sha256": "7b0549e3792088b5649856ec2d20fff6250f77ba4ab1b83824f483089ce69e41"
+  },
+  {
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak47_aztec.png",
+    "bytes": 5069218,
+    "sha256": "f6ec4cc9b218fbf4a50a630d240454adbc875913ba492522a286f604d0e23d60",
+    "paintKitIds": [
+      "836"
+    ],
+    "field": "pattern",
+    "width": 2048,
+    "height": 2048,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak47_aztec.vtf",
+    "vtfFlags": 8192,
+    "rgba8Sha256": "68248bcdb215092a65d06afe4eebad92bd80ee185e0e6972c50b56c48392b561"
+  },
+  {
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak47_aztec_normal.png",
+    "bytes": 3355708,
+    "sha256": "4daead50c5732168f9daa6c741cf0cc6ac87f8d4fc73f19012c96554544f9e9f",
+    "paintKitIds": [
+      "836"
+    ],
+    "field": "normal",
+    "width": 2048,
+    "height": 2048,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak47_aztec_normal.vtf",
+    "vtfFlags": 128,
+    "rgba8Sha256": "ee6085318de86c9d22596b852e51091ed94fd9b7dc5d32696518b19b90bdbfba"
+  },
+  {
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak47_cogthings.png",
+    "bytes": 2628956,
+    "sha256": "757637cc212ebb918a54979d1dc3a3d59f55e6d0d7e700179fc495c0b2f6f262",
+    "paintKitIds": [
+      "1143"
+    ],
+    "field": "pattern",
+    "width": 2048,
+    "height": 2048,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak47_cogthings.vtf",
+    "vtfFlags": 8192,
+    "rgba8Sha256": "772895ba51a25c1fd00e0f5243326ac5342527e9b488a6565d552ac0f8758c20"
+  },
+  {
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak47_cogthings_normal.png",
+    "bytes": 2661877,
+    "sha256": "24ada66ffef4f034d00015f630a0e8e964d4973adea583f1a1185b1e482e6e7a",
+    "paintKitIds": [
+      "1143"
+    ],
+    "field": "normal",
+    "width": 2048,
+    "height": 2048,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak47_cogthings_normal.vtf",
+    "vtfFlags": 128,
+    "rgba8Sha256": "55bef8eb42d2cdb727eb028ff923a40f845cc038b95188729cc7b8d0ee36aeae"
+  },
+  {
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak47_courage.png",
+    "bytes": 4939606,
+    "sha256": "865f45625c93dcf194d7c8522be0067eb8dc554b2bc848db978f61cca1a1c5a4",
+    "paintKitIds": [
+      "474"
+    ],
+    "field": "pattern",
+    "width": 2048,
+    "height": 2048,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak47_courage.vtf",
+    "vtfFlags": 8192,
+    "rgba8Sha256": "e372c2e7abe2d372fd50266073f8572080dc9bf52a4392b889c8a19c1b820633"
+  },
+  {
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak47_mastery.png",
+    "bytes": 2444228,
+    "sha256": "800283a0f50fd24244b6400db8fa53b095dbaa302b36f85cde94730b0ff00b95",
+    "paintKitIds": [
+      "422"
+    ],
+    "field": "pattern",
+    "width": 2048,
+    "height": 2048,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak47_mastery.vtf",
+    "vtfFlags": 8192,
+    "rgba8Sha256": "339c5583e09100946de52e7232599fd853174295a15438056e45ce594653a253"
+  },
+  {
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak47_nightwish.png",
+    "bytes": 6546845,
+    "sha256": "e7d35afeb319ddec71e7b2bde81715c75b8d6dbe080034187b498cceebe2c0fb",
+    "paintKitIds": [
+      "1141"
+    ],
+    "field": "pattern",
+    "width": 2048,
+    "height": 2048,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak47_nightwish.vtf",
+    "vtfFlags": 8192,
+    "rgba8Sha256": "78f06c1eae7fd4d1883a63f2ebd201d9aa1448bbcbdc1e866204c4057f75871f"
+  },
+  {
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak47_point_disarray.png",
+    "bytes": 3685538,
+    "sha256": "15f62cc6507e8a1f4b2c934f44fbd4541193630e2447cd5253d2a43dd663381c",
+    "paintKitIds": [
+      "506"
+    ],
+    "field": "pattern",
+    "width": 2048,
+    "height": 2048,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak47_point_disarray.vtf",
+    "vtfFlags": 0,
+    "rgba8Sha256": "00bfdfff1ca1cca78f304c954966c49a490ae45d8370351b9484519cfc2badb4"
+  },
+  {
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak47_winter_sport.png",
+    "bytes": 4775125,
+    "sha256": "25c1044ec19a1ef2a21212d2fb9f2fcbfbad0236a8439babf314f0355bc70e9e",
+    "paintKitIds": [
+      "490"
+    ],
+    "field": "pattern",
+    "width": 2048,
+    "height": 2048,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak47_winter_sport.vtf",
+    "vtfFlags": 8192,
+    "rgba8Sha256": "a28494781f9e0aae1b79c5562e20fbb5dde7ba94eaecb2e3632fa4e8df688275"
+  },
+  {
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak_head_shot_holo.png",
+    "bytes": 7483683,
+    "sha256": "6e080d2c63ff30347ba4e4cbf58a68fa310a3265ac71b9ab96cc789bacf41174",
+    "paintKitIds": [
+      "1221"
+    ],
+    "field": "pattern",
+    "width": 2048,
+    "height": 2048,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak_head_shot_holo.vtf",
+    "vtfFlags": 8192,
+    "rgba8Sha256": "c267949aacefd92971ccc893f648fb595aae8fa44230e96434838f6384869c00"
+  },
+  {
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak_neon_rider.png",
+    "bytes": 2675522,
+    "sha256": "6682a1eb62139e7a7c3509fce90a5339087dcd8288a15fc6834bae998a9cef6e",
+    "paintKitIds": [
+      "707"
+    ],
+    "field": "pattern",
+    "width": 2048,
+    "height": 2048,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak_neon_rider.vtf",
+    "vtfFlags": 8192,
+    "rgba8Sha256": "5914c3e2645b6e1729411757c12b4ee90e91bb5e7ba0a727de0610e923a3a1f6"
+  },
+  {
+    "path": "png/models/weapons/customization/paints/custom/workshop/ak_neon_rider_normal.png",
+    "bytes": 1220654,
+    "sha256": "dc237a57215a6935fc757301760e5bd868379c4fde2484a6560282d089571357",
+    "paintKitIds": [
+      "707"
+    ],
+    "field": "normal",
+    "width": 2048,
+    "height": 2048,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/ak_neon_rider_normal.vtf",
+    "vtfFlags": 128,
+    "rgba8Sha256": "a48aae0d6d0359b6870f13022bd6279aec0881c3b29dbebabbb76e28936a083a"
+  },
+  {
+    "path": "png/models/weapons/customization/paints/custom/workshop/anarchy_ak47.png",
+    "bytes": 7937173,
+    "sha256": "83244c41deb2f87942ce3a960e77b07fbff979b5d98142abe70ee2a9c7ce5f42",
+    "paintKitIds": [
+      "600"
+    ],
+    "field": "pattern",
+    "width": 2048,
+    "height": 2048,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/anarchy_ak47.vtf",
+    "vtfFlags": 8192,
+    "rgba8Sha256": "2eadc7e2cf6b9fc8784cbf7da5b7e2c5069687bd6ca57e21c952fb400f829d47"
+  },
+  {
+    "path": "png/models/weapons/customization/paints/custom/workshop/elegantredv1.1.png",
+    "bytes": 1094641,
+    "sha256": "bdf95c6fde648e7adbafbecb8d9409fa7e9cc3c81ed42f1e387a0919dc1213a0",
+    "paintKitIds": [
+      "282"
+    ],
+    "field": "pattern",
+    "width": 2048,
+    "height": 2048,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/elegantredv1.1.vtf",
+    "vtfFlags": 0,
+    "rgba8Sha256": "080f38f28136956eccd05449dda4a82c78167c42e16fcff4b31a6e7001ed58ea"
+  },
+  {
+    "path": "png/models/weapons/customization/paints/custom/workshop/rubber_ak47.png",
+    "bytes": 4832057,
+    "sha256": "1e708143fab693b29bc9da0a820430b5974793b5574552a3296f4db2530388cb",
+    "paintKitIds": [
+      "302"
+    ],
+    "field": "pattern",
+    "width": 2048,
+    "height": 2048,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/rubber_ak47.vtf",
+    "vtfFlags": 0,
+    "rgba8Sha256": "c1b02e8178fab328497eba0084c71e4a43c6bcdb4bb13843afffe359a4105106"
+  },
+  {
+    "path": "png/models/weapons/customization/paints/custom/workshop/tribute_ak47.png",
+    "bytes": 9266317,
+    "sha256": "f46088755d0b6545b2726a15de5b693c140ec01e09603500686e966ecdeb4a6a",
+    "paintKitIds": [
+      "380"
+    ],
+    "field": "pattern",
+    "width": 2048,
+    "height": 2048,
+    "sourceMaterial": "materials/models/weapons/customization/paints/custom/workshop/tribute_ak47.vtf",
+    "vtfFlags": 8192,
+    "rgba8Sha256": "7ced8b94288986d05eed5b8c98e63a494a20dd134b2ee0266dda8bcb21443b35"
+  },
+  {
+    "path": "png/models/weapons/customization/paints/hydrographic/laminate_ak47.png",
+    "bytes": 1068810,
+    "sha256": "3dc7ee509675a7b7ad4c676220d3f003bd13c3a6b3647dc1ee2feca6940ab354",
+    "paintKitIds": [
+      "14",
+      "172",
+      "226",
+      "1070"
+    ],
+    "field": "pattern",
+    "width": 2048,
+    "height": 2048,
+    "sourceMaterial": "materials/models/weapons/customization/paints/hydrographic/laminate_ak47.vtf",
+    "vtfFlags": 8192,
+    "rgba8Sha256": "3764639b6195bde4df8a3edd41a410cb76593f8193d8497919e4e5f4e0687c5b"
+  },
+  {
+    "path": "inputs.json",
+    "bytes": 61100,
+    "sha256": "c230efc33df658b5aef2cf2419e66a18204fbbf2d17e0b989245b5d52d442019",
+    "paintKitIds": [],
+    "field": "receipt",
+    "width": 0,
+    "height": 0,
+    "vtfFlags": 0,
+    "rgba8Sha256": "",
+    "sourceMaterial": "scripts/extract-source-ak-patterns.py"
+  }
+]

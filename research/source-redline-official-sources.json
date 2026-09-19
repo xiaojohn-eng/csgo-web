@@ -1,0 +1,47 @@
+{
+  "retrievedAt": "2026-09-08T16:10:52.694719+00:00",
+  "sources": [
+    {
+      "url": "https://www.counter-strike.net/workshop/wf_custompaint",
+      "resolvedUrl": "https://www.counter-strike.net/workshop/wf_custompaint",
+      "path": "research/source-redline-official-fragments/wf_custompaint.html",
+      "bytes": 4922,
+      "sha256": "0919f475c5d5f5626afeea98b1976729ed33687c394ca8dd13480a09f8d5c8c4"
+    },
+    {
+      "url": "https://www.counter-strike.net/workshop/wf_patternscale",
+      "resolvedUrl": "https://www.counter-strike.net/workshop/wf_patternscale",
+      "path": "research/source-redline-official-fragments/wf_patternscale.html",
+      "bytes": 4537,
+      "sha256": "a464ca05f281ab71bc3b4d005c05a2faeaf9e1b0bd399b20da0a206831119cd6"
+    },
+    {
+      "url": "https://www.counter-strike.net/workshop/wf_phong",
+      "resolvedUrl": "https://www.counter-strike.net/workshop/wf_phong",
+      "path": "research/source-redline-official-fragments/wf_phong.html",
+      "bytes": 4836,
+      "sha256": "d9f6cb28f38b43a5bb9e7d2e79349726bc5a64bf66fdd18a04ac88adbeae0f0a"
+    },
+    {
+      "url": "https://www.counter-strike.net/workshop/wf_randomization",
+      "resolvedUrl": "https://www.counter-strike.net/workshop/wf_randomization",
+      "path": "research/source-redline-official-fragments/wf_randomization.html",
+      "bytes": 4797,
+      "sha256": "836324d35c038c0a9379c25f7b08a283e6fecad4e430dd5c57f43b9d28b80a6e"
+    },
+    {
+      "url": "https://www.counter-strike.net/workshop/wf_durabilityb",
+      "resolvedUrl": "https://www.counter-strike.net/workshop/wf_durabilityb",
+      "path": "research/source-redline-official-fragments/wf_durabilityb.html",
+      "bytes": 5349,
+      "sha256": "44bb7b3c4ea3a53066a9e6260dc430452380649240d588711200547749c619de"
+    },
+    {
+      "url": "https://www.counter-strike.net/workshop/wf_patternapplication",
+      "resolvedUrl": "https://www.counter-strike.net/workshop/wf_patternapplication",
+      "path": "research/source-redline-official-fragments/wf_patternapplication.html",
+      "bytes": 4465,
+      "sha256": "f2c050a617f56467af2ff098513e1f0977fbe91ae229b8496821597fdaff7737"
+    }
+  ]
+}

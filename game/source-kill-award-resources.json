@@ -1,0 +1,16 @@
+{
+ "format": "source-kill-award-resources-v1",
+ "source": "scripts/items/items_game.txt",
+ "sourceReceipt": {
+  "path": "scripts/items/items_game.txt",
+  "container": "loose",
+  "bytes": 6791631,
+  "sha256": "510e09b68a01d88edba2342972960025fd6484aaaa58365fcf47d8513de79623"
+ },
+ "staged": {
+  "path": "economy/kill-awards.json",
+  "bytes": 21167,
+  "sha256": "3b25225625bc846cd0acf4f3e55b86e192b80b0f857c989bd72785dbe7435cfe"
+ },
+ "table": "game/source-kill-award-table.ts"
+}

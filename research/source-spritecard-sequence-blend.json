@@ -1,0 +1,120 @@
+{
+  "format": "source-spritecard-sequence-blend-v1",
+  "client": {
+    "path": ".reference-assets/csgo-legacy/bin/stdshader_dx9_client.so",
+    "bytes": 1205546,
+    "sha256": "54234f681ce33b3299616a7ee99ba86464df2eae1338dd18bb72f2524aa89216"
+  },
+  "scope": "The shader parameter documentation the client ships beside SpriteCard's parameter table, and the branches that read those parameters.",
+  "parameters": {
+    "$DUALSEQUENCE": {
+      "offset": 1032035,
+      "string": "$DUALSEQUENCE"
+    },
+    "$SEQUENCE_BLEND_MODE": {
+      "offset": 1032049,
+      "string": "$SEQUENCE_BLEND_MODE"
+    },
+    "$MAXLUMFRAMEBLEND1": {
+      "offset": 1032070,
+      "string": "$MAXLUMFRAMEBLEND1"
+    },
+    "$MAXLUMFRAMEBLEND2": {
+      "offset": 1032089,
+      "string": "$MAXLUMFRAMEBLEND2"
+    },
+    "$ZOOMANIMATESEQ2": {
+      "offset": 1032121,
+      "string": "$ZOOMANIMATESEQ2"
+    },
+    "$BLENDFRAMES": {
+      "offset": 1032209,
+      "string": "$BLENDFRAMES"
+    },
+    "$STARTFADESIZE": {
+      "offset": 1032231,
+      "string": "$STARTFADESIZE"
+    },
+    "$ENDFADESIZE": {
+      "offset": 1032251,
+      "string": "$ENDFADESIZE"
+    },
+    "$ADDBASETEXTURE2": {
+      "offset": 1032000,
+      "string": "$ADDBASETEXTURE2"
+    },
+    "$EXTRACTGREENALPHA": {
+      "offset": 1032138,
+      "string": "$EXTRACTGREENALPHA"
+    },
+    "$DISTANCEALPHA": {
+      "offset": 1032552,
+      "string": "$DISTANCEALPHA"
+    },
+    "$OVERBRIGHTFACTOR": {
+      "offset": 1032017,
+      "string": "$OVERBRIGHTFACTOR"
+    },
+    "$MULOUTPUTBYALPHA": {
+      "offset": 1032875,
+      "string": "$MULOUTPUTBYALPHA"
+    },
+    "$OUTLINE": {
+      "offset": 1032631,
+      "string": "$OUTLINECOLOR"
+    },
+    "$PERPARTICLEOUTLINE": {
+      "offset": 1032855,
+      "string": "$PERPARTICLEOUTLINE"
+    }
+  },
+  "missingParameters": [
+    "$SOFTEDGES",
+    "$CROPFACTOR",
+    "$INTENSITY"
+  ],
+  "documentation": {
+    "defines the blend mode between the images un dual sequence particles": {
+      "offset": 1033608,
+      "documentation": "defines the blend mode between the images un dual sequence particles. 0 = avg, 1=alpha from first, rgb from 2nd, 2= first over second\u0000\u0000\u0000instead of blending between animation frames for the first seque"
+    },
+    "instead of blending between animation frames for the first sequence": {
+      "offset": 1033744,
+      "documentation": "instead of blending between animation frames for the first sequence, select pixels based upon max luminance\u0000instead of blending between animation frames for the 2nd sequence, select pixels based upon "
+    },
+    "instead of blending between animation frames for the 2nd sequence": {
+      "offset": 1033852,
+      "documentation": "instead of blending between animation frames for the 2nd sequence, select pixels based upon max luminance\u0000\u0000\u0000if specified, then the red value of the image is used to index this ramp to produce the outp"
+    },
+    "blend two separate animated sequences": {
+      "offset": 1033568,
+      "documentation": "blend two separate animated sequences.\u0000\u0000defines the blend mode between the images un dual sequence particles. 0 = avg, 1=alpha from first, rgb from 2nd, 2= first over second\u0000\u0000\u0000instead of blending betw"
+    },
+    "amount to gradually zoom between frames on the second sequence": {
+      "offset": 1034064,
+      "documentation": "amount to gradually zoom between frames on the second sequence. 2.0 will double the size of a frame over its lifetime.\u0000\u0000grayscale data sitting in green/alpha channels\u0000\u0000amount of base texture to additi"
+    },
+    "whether or not to smoothly blend between animated frames": {
+      "offset": 1034280,
+      "documentation": "whether or not to smoothly blend between animated frames\u0000\u0000\u0000\u0000minimum screen fractional size of particle\u0000\u0000screen fractional size to start fading particle out\u0000screen fractional size to finish fading part"
+    }
+  },
+  "sequenceBlendModes": [
+    "avg",
+    "alpha from first, rgb from 2nd",
+    "first over second"
+  ],
+  "sequenceBlendModeOne": "alpha from first, rgb from 2nd",
+  "branches": {
+    "ANIMBLEND_OR_MAXLUMFRAMEBLEND1": 1032972,
+    "bSecondSequence ? params[SEQUENCE_BLEND_MODE]->GetIntValue() : 0": 1033076,
+    "bBlendFrames || ( params[MAXLUMFRAMEBLEND1]->GetIntValue() != 0 )": 1032904,
+    "bSecondSequence? params[MAXLUMFRAMEBLEND1]->GetIntValue() : 0": 1033188
+  },
+  "reading": {
+    "blendMode": 1,
+    "meaning": "alpha from the first sequence's frame, rgb from the second sequence's frame",
+    "secondSequenceFrame": "with $maxlumframeblend2 the second sequence selects its pixels by max luminance instead of blending between animated frames, which is the same frame twice when a sequence holds one frame",
+    "boundary": "This reads the shipped parameter documentation and the branch conditions, not the compiled shader assembly: it states what the client says each mode means, not a measurement of the blend itself."
+  }
+}

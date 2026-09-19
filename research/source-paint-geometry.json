@@ -1,0 +1,3878 @@
+{
+  "format": "source-paint-geometry-native-v1",
+  "client": {
+    "file": ".reference-assets/csgo-legacy/csgo/bin/linux64/client_client.so",
+    "bytes": 35112006,
+    "sha256": "c47c64c38a066e02bdc006ac4db4fe6e9a318fdd896153accb7af9bd065b7fb5"
+  },
+  "itemsGame": {
+    "bytes": 6791631,
+    "container": "loose",
+    "path": "scripts/items/items_game.txt",
+    "sha256": "510e09b68a01d88edba2342972960025fd6484aaaa58365fcf47d8513de79623"
+  },
+  "chain": [
+    "schema UVScale e1bcaa -> paintmaterial+18c e1bccf",
+    "caller cd662e -> frame-14c, customization struct+74",
+    "constructor f533b0/f533b7 -> object+84",
+    "generator f522ce/f52510 -> factor, mulss f52310/f52325/f52331"
+  ],
+  "nonProjectedFactor": "ignore?1:UVScale",
+  "projectedStyle36Factor": "ignore?1:float32(WeaponLength*float32(1/36))",
+  "weaponLengthFactor": 0.02777777798473835,
+  "weapons": {
+    "weapon_ak47": {
+      "uvScale": 0.549,
+      "weaponLength": 37.746201,
+      "viewmodelDimension": 2048,
+      "worldDimension": 512,
+      "material": "rif_ak47"
+    },
+    "weapon_m4a1": {
+      "uvScale": 0.425,
+      "weaponLength": 35.322601,
+      "viewmodelDimension": 2048,
+      "worldDimension": 512,
+      "material": "rif_m4a1"
+    },
+    "weapon_glock": {
+      "uvScale": 0.446,
+      "weaponLength": 7.97694,
+      "viewmodelDimension": 2048,
+      "worldDimension": 512,
+      "material": "pist_glock18"
+    },
+    "weapon_usp_silencer": {
+      "uvScale": 0.516,
+      "weaponLength": 18.016001,
+      "viewmodelDimension": 2048,
+      "worldDimension": 512,
+      "material": "pist_223"
+    },
+    "weapon_deagle": {
+      "uvScale": 0.3,
+      "weaponLength": 11.3601,
+      "viewmodelDimension": 1024,
+      "worldDimension": 512,
+      "material": "pist_deagle"
+    },
+    "weapon_awp": {
+      "uvScale": 1.029,
+      "weaponLength": 53.803902,
+      "viewmodelDimension": 2048,
+      "worldDimension": 512,
+      "material": "snip_awp"
+    }
+  },
+  "cases": [
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 14,
+      "style": 2,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 44,
+      "style": 8,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        0.5490000247955322,
+        0.9333000779151917,
+        0.8784000277519226
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 72,
+      "style": 3,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        1.75,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.8348846435546875,
+        1.7824594974517822,
+        1.677608847618103
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 122,
+      "style": 3,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        1.65,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.7300341129302979,
+        1.7824594974517822,
+        1.677608847618103
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 170,
+      "style": 3,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        0.9,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        0.9436549544334412,
+        1.7824594974517822,
+        1.677608847618103
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 172,
+      "style": 2,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 180,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 226,
+      "style": 2,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 282,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 300,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 302,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 316,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 340,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 341,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 380,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 394,
+      "style": 8,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 422,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 456,
+      "style": 5,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.4,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.399999976158142,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 474,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 490,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 506,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 524,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 600,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 639,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 656,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 675,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 707,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 724,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 745,
+      "style": 2,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        14.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        14.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 795,
+      "style": 2,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        0.5490000247955322,
+        0.9333000779151917,
+        0.8784000277519226
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 801,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 836,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 885,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 921,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 941,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 959,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 1004,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 1018,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 1035,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 1070,
+      "style": 2,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 1087,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 1141,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 1143,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 1221,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_ak47",
+      "paintKitId": 1238,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 8,
+      "style": 2,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        3.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        3.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 16,
+      "style": 2,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        3.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.2750000953674316,
+        0.7225000262260437,
+        0.6800000071525574
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 17,
+      "style": 2,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        2.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        0.8500000238418579,
+        0.7225000262260437,
+        0.6800000071525574
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 101,
+      "style": 1,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        0.5,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        0.21250000596046448,
+        0.7225000262260437,
+        0.6800000071525574
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 155,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 164,
+      "style": 2,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        3.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.2750000953674316,
+        0.7225000262260437,
+        0.6800000071525574
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 167,
+      "style": 3,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        1.2,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.1774200201034546,
+        1.6680117845535278,
+        1.5698933601379395
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 176,
+      "style": 3,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        0.9,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        0.8830649852752686,
+        1.6680117845535278,
+        1.5698933601379395
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 187,
+      "style": 3,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        2.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.9623667001724243,
+        1.6680117845535278,
+        1.5698933601379395
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 215,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 255,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 309,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 336,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 384,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 400,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 449,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 471,
+      "style": 5,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.5,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.5,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 480,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 512,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 533,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 588,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 632,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 664,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 695,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 730,
+      "style": 3,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        6.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        6.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 780,
+      "style": 5,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        4.5,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        4.5,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 793,
+      "style": 2,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.5,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.5,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 811,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 844,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 926,
+      "style": 2,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        2.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        0.8500000238418579,
+        0.7225000262260437,
+        0.6800000071525574
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 971,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 985,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 993,
+      "style": 7,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        3.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.2750000953674316,
+        0.7225000262260437,
+        0.6800000071525574
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 1041,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 1063,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 1097,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 1149,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 1228,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_m4a1",
+      "paintKitId": 1255,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 2,
+      "style": 1,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        0.5,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        0.22300000488758087,
+        0.7582000494003296,
+        0.7136000394821167
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 3,
+      "style": 1,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        0.5,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        0.22300000488758087,
+        0.7582000494003296,
+        0.7136000394821167
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 38,
+      "style": 6,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 40,
+      "style": 1,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        0.5,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        0.22300000488758087,
+        0.7582000494003296,
+        0.7136000394821167
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 48,
+      "style": 5,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        3.37,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        3.369999885559082,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 84,
+      "style": 2,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        2.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        0.8920000195503235,
+        0.7582000494003296,
+        0.7136000394821167
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 159,
+      "style": 8,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        2.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        0.8920000195503235,
+        0.7582000494003296,
+        0.7136000394821167
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 208,
+      "style": 1,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        0.5,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        0.22300000488758087,
+        0.7582000494003296,
+        0.7136000394821167
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 230,
+      "style": 5,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        2.5,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.1150000095367432,
+        0.7582000494003296,
+        0.7136000394821167
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 278,
+      "style": 2,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 293,
+      "style": 2,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        7.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        3.121999979019165,
+        0.7582000494003296,
+        0.7136000394821167
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 353,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 367,
+      "style": 5,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        2.2,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        2.200000047683716,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 381,
+      "style": 8,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        2.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        2.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 399,
+      "style": 5,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        4.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.784000039100647,
+        0.7582000494003296,
+        0.7136000394821167
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 437,
+      "style": 5,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        8.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        3.568000078201294,
+        0.7582000494003296,
+        0.7136000394821167
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 479,
+      "style": 8,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 495,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 532,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 586,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 607,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 623,
+      "style": 8,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 680,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 694,
+      "style": 6,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        2.2,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        0.48747968673706055,
+        0.3766888380050659,
+        0.3545306622982025
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 713,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 732,
+      "style": 2,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        4.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        4.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 789,
+      "style": 5,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        3.8,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        3.799999952316284,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 799,
+      "style": 6,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        1.4,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        0.3102143406867981,
+        0.3766888380050659,
+        0.3545306622982025
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 808,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 918,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 957,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 963,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 988,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1016,
+      "style": 7,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        3.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.3380000591278076,
+        0.7582000494003296,
+        0.7136000394821167
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1039,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1079,
+      "style": 3,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        2.3,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        0.5096378326416016,
+        0.3766888380050659,
+        0.3545306622982025
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1100,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1119,
+      "style": 5,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        3.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        3.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1120,
+      "style": 5,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        3.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        3.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1121,
+      "style": 5,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        3.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        3.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1122,
+      "style": 5,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        3.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        3.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1123,
+      "style": 5,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        3.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        3.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1158,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1227,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_glock",
+      "paintKitId": 1240,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 25,
+      "style": 3,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        1.68,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        0.8407467007637024,
+        0.8507556319236755,
+        0.8007111549377441
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 60,
+      "style": 5,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        3.3,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.702799916267395,
+        0.8772000074386597,
+        0.8255999684333801
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 183,
+      "style": 2,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        4.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        2.063999891281128,
+        0.8772000074386597,
+        0.8255999684333801
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 217,
+      "style": 2,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        3.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.5479998588562012,
+        0.8772000074386597,
+        0.8255999684333801
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 221,
+      "style": 5,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        3.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.5479998588562012,
+        0.8772000074386597,
+        0.8255999684333801
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 236,
+      "style": 2,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        2.5,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.2899999618530273,
+        0.8772000074386597,
+        0.8255999684333801
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 277,
+      "style": 8,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 290,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 313,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 318,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 332,
+      "style": 2,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 339,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 364,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 443,
+      "style": 3,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        3.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.501333475112915,
+        0.8507556319236755,
+        0.8007111549377441
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 454,
+      "style": 2,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 489,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 504,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 540,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 637,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 653,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 657,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 705,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 796,
+      "style": 3,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        0.7,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        0.35031113028526306,
+        0.8507556319236755,
+        0.8007111549377441
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 817,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 818,
+      "style": 5,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        2.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.031999945640564,
+        0.8772000074386597,
+        0.8255999684333801
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 922,
+      "style": 5,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        1.9,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        0.9803999066352844,
+        0.8772000074386597,
+        0.8255999684333801
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 991,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 1027,
+      "style": 5,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        2.5,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.2899999618530273,
+        0.8772000074386597,
+        0.8255999684333801
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 1031,
+      "style": 3,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        2.6,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.3011555671691895,
+        0.8507556319236755,
+        0.8007111549377441
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 1040,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 1065,
+      "style": 1,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        0.5,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        0.257999986410141,
+        0.8772000074386597,
+        0.8255999684333801
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 1102,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 1136,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 1142,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_usp_silencer",
+      "paintKitId": 1253,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 17,
+      "style": 2,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        2.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        0.6000000238418579,
+        0.5100000500679016,
+        0.48000001907348633
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 37,
+      "style": 6,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 40,
+      "style": 1,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        0.5,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        0.15000000596046448,
+        0.5100000500679016,
+        0.48000001907348633
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 61,
+      "style": 6,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        1.4,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        0.4417816698551178,
+        0.5364491939544678,
+        0.5048933625221252
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 90,
+      "style": 2,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        4.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.2000000476837158,
+        0.5100000500679016,
+        0.48000001907348633
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 185,
+      "style": 5,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        20.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        6.0,
+        0.5100000500679016,
+        0.48000001907348633
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 231,
+      "style": 5,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        2.5,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        0.75,
+        0.5100000500679016,
+        0.48000001907348633
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 232,
+      "style": 2,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        4.5,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.350000023841858,
+        0.5100000500679016,
+        0.48000001907348633
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 237,
+      "style": 2,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        2.5,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        0.75,
+        0.5100000500679016,
+        0.48000001907348633
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 273,
+      "style": 8,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 296,
+      "style": 5,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        6.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.8000000715255737,
+        0.5100000500679016,
+        0.48000001907348633
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 328,
+      "style": 8,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 347,
+      "style": 8,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 351,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 397,
+      "style": 8,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 425,
+      "style": 5,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.5,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.5,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 468,
+      "style": 5,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.4,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.399999976158142,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 469,
+      "style": 5,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.6,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.600000023841858,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 470,
+      "style": 5,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.6,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.600000023841858,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 509,
+      "style": 8,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 527,
+      "style": 8,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 603,
+      "style": 8,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 645,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 711,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 757,
+      "style": 5,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        6.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.8000000715255737,
+        0.5100000500679016,
+        0.48000001907348633
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 764,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 805,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 841,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 945,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 962,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 992,
+      "style": 5,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        0.30000001192092896,
+        0.5100000500679016,
+        0.48000001907348633
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 1006,
+      "style": 5,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        7.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        2.1000001430511475,
+        0.5100000500679016,
+        0.48000001907348633
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 1050,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 1056,
+      "style": 3,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        1.9,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        0.5995608568191528,
+        0.5364491939544678,
+        0.5048933625221252
+      ]
+    },
+    {
+      "weapon": "weapon_deagle",
+      "paintKitId": 1090,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 30,
+      "style": 3,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        1.5,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        2.2418293952941895,
+        2.5407400131225586,
+        2.391284704208374
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 51,
+      "style": 5,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 72,
+      "style": 3,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        1.75,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        2.6154675483703613,
+        2.5407400131225586,
+        2.391284704208374
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 84,
+      "style": 2,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        2.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        2.058000087738037,
+        1.7493001222610474,
+        1.6464000940322876
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 174,
+      "style": 2,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        2.5,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        2.572500228881836,
+        1.7493001222610474,
+        1.6464000940322876
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 181,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.297,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.2970000505447388,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 212,
+      "style": 5,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        4.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        4.116000175476074,
+        1.7493001222610474,
+        1.6464000940322876
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 227,
+      "style": 2,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        2.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        2.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 251,
+      "style": 2,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        3.5,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        3.6015000343322754,
+        1.7493001222610474,
+        1.6464000940322876
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 259,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 279,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 344,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 395,
+      "style": 5,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 424,
+      "style": 8,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 446,
+      "style": 8,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 451,
+      "style": 2,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        2.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        2.058000087738037,
+        1.7493001222610474,
+        1.6464000940322876
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 475,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 525,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 584,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 640,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 662,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 691,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 718,
+      "style": 5,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        2.5,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        2.572500228881836,
+        1.7493001222610474,
+        1.6464000940322876
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 736,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 756,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 788,
+      "style": 2,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        4.5,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        4.5,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 803,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 819,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 838,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 887,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 917,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 943,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 975,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 1026,
+      "style": 6,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.26,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.2599999904632568,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 1029,
+      "style": 5,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        2.9,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        2.984100341796875,
+        1.7493001222610474,
+        1.6464000940322876
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 1058,
+      "style": 2,
+      "ignoreWeaponSizeScale": 0,
+      "inputScales": [
+        2.3,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        2.3666999340057373,
+        1.7493001222610474,
+        1.6464000940322876
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 1144,
+      "style": 7,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 1222,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    },
+    {
+      "weapon": "weapon_awp",
+      "paintKitId": 1239,
+      "style": 9,
+      "ignoreWeaponSizeScale": 1,
+      "inputScales": [
+        1.0,
+        1.7,
+        1.6
+      ],
+      "nativeScaled": [
+        1.0,
+        1.7000000476837158,
+        1.600000023841858
+      ]
+    }
+  ],
+  "boundary": "Original native multiplication and branches; original schema values supplied from verified items_game resolution. Formatting/matrices have their separate original parser receipt."
+}

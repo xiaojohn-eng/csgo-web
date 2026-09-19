@@ -1,0 +1,818 @@
+{
+  "binary": ".reference-assets/csgo-legacy/csgo/bin/client_client.so",
+  "bytes": 21839778,
+  "name": "Movement Basic",
+  "candidates": [
+    {
+      "registrationVA": "0x403f2c",
+      "definitionVTable": "0x11142e8",
+      "definition": [
+        "0xd29ac0",
+        "0xd2bbe0",
+        "0xd29ad0",
+        "0xd29ae0",
+        "0xd2e840",
+        "0xd29af0",
+        "0x0",
+        "0x1114ff4",
+        "0xd29a70",
+        "0xd2bba0"
+      ],
+      "factory": "0xd1e6d0",
+      "nameStringVA": "0x110e2a0",
+      "factoryInstructions": [
+        {
+          "address": "0xd1e6d0",
+          "text": "push ebp"
+        },
+        {
+          "address": "0xd1e6d1",
+          "text": "mov ebp, esp"
+        },
+        {
+          "address": "0xd1e6d3",
+          "text": "sub esp, 0x18"
+        },
+        {
+          "address": "0xd1e6d6",
+          "text": "cmp byte ptr [0x597f660], 0"
+        },
+        {
+          "address": "0xd1e6dd",
+          "text": "je 0xd1e6f0"
+        },
+        {
+          "address": "0xd1e6df",
+          "text": "leave "
+        },
+        {
+          "address": "0xd1e6e0",
+          "text": "mov eax, 0x14af8a0"
+        },
+        {
+          "address": "0xd1e6e5",
+          "text": "ret "
+        },
+        {
+          "address": "0xd1e6e6",
+          "text": "lea esi, [esi]"
+        },
+        {
+          "address": "0xd1e6e9",
+          "text": "lea edi, [edi]"
+        },
+        {
+          "address": "0xd1e6f0",
+          "text": "mov dword ptr [esp], 0x597f660"
+        },
+        {
+          "address": "0xd1e6f7",
+          "text": "call 0xd1e6f8"
+        },
+        {
+          "address": "0xd1e6fc",
+          "text": "test eax, eax"
+        },
+        {
+          "address": "0xd1e6fe",
+          "text": "je 0xd1e6df"
+        },
+        {
+          "address": "0xd1e700",
+          "text": "mov dword ptr [esp], 0x597f660"
+        },
+        {
+          "address": "0xd1e707",
+          "text": "mov dword ptr [0x14af8a8], 3"
+        },
+        {
+          "address": "0xd1e711",
+          "text": "mov dword ptr [0x14af8d4], 3"
+        },
+        {
+          "address": "0xd1e71b",
+          "text": "mov dword ptr [0x14af900], 3"
+        },
+        {
+          "address": "0xd1e725",
+          "text": "mov dword ptr [0x14af92c], 3"
+        },
+        {
+          "address": "0xd1e72f",
+          "text": "mov dword ptr [0x14af958], 3"
+        },
+        {
+          "address": "0xd1e739",
+          "text": "mov dword ptr [0x14af984], 2"
+        },
+        {
+          "address": "0xd1e743",
+          "text": "mov dword ptr [0x14af9b0], 3"
+        },
+        {
+          "address": "0xd1e74d",
+          "text": "mov dword ptr [0x14af9dc], 3"
+        },
+        {
+          "address": "0xd1e757",
+          "text": "mov dword ptr [0x14afa08], 2"
+        },
+        {
+          "address": "0xd1e761",
+          "text": "mov dword ptr [0x14afa34], 3"
+        },
+        {
+          "address": "0xd1e76b",
+          "text": "mov dword ptr [0x14afa60], 3"
+        },
+        {
+          "address": "0xd1e775",
+          "text": "mov dword ptr [0x14afa8c], 3"
+        },
+        {
+          "address": "0xd1e77f",
+          "text": "mov dword ptr [0x14afab8], 2"
+        },
+        {
+          "address": "0xd1e789",
+          "text": "mov dword ptr [0x14afae4], 3"
+        },
+        {
+          "address": "0xd1e793",
+          "text": "mov dword ptr [0x14afb10], 3"
+        },
+        {
+          "address": "0xd1e79d",
+          "text": "mov dword ptr [0x14afb3c], 2"
+        },
+        {
+          "address": "0xd1e7a7",
+          "text": "mov dword ptr [0x14afb68], 0xa"
+        },
+        {
+          "address": "0xd1e7b1",
+          "text": "mov dword ptr [0x14afb94], 3"
+        },
+        {
+          "address": "0xd1e7bb",
+          "text": "mov dword ptr [0x14afbc0], 2"
+        },
+        {
+          "address": "0xd1e7c5",
+          "text": "call 0xd1e7c6"
+        },
+        {
+          "address": "0xd1e7ca",
+          "text": "mov eax, 0x14af8a0"
+        },
+        {
+          "address": "0xd1e7cf",
+          "text": "leave "
+        },
+        {
+          "address": "0xd1e7d0",
+          "text": "ret "
+        },
+        {
+          "address": "0xd1e7d1",
+          "text": "jmp 0xd1e7e0"
+        },
+        {
+          "address": "0xd1e7d3",
+          "text": "nop "
+        },
+        {
+          "address": "0xd1e7d4",
+          "text": "nop "
+        },
+        {
+          "address": "0xd1e7d5",
+          "text": "nop "
+        },
+        {
+          "address": "0xd1e7d6",
+          "text": "nop "
+        },
+        {
+          "address": "0xd1e7d7",
+          "text": "nop "
+        },
+        {
+          "address": "0xd1e7d8",
+          "text": "nop "
+        },
+        {
+          "address": "0xd1e7d9",
+          "text": "nop "
+        },
+        {
+          "address": "0xd1e7da",
+          "text": "nop "
+        },
+        {
+          "address": "0xd1e7db",
+          "text": "nop "
+        },
+        {
+          "address": "0xd1e7dc",
+          "text": "nop "
+        },
+        {
+          "address": "0xd1e7dd",
+          "text": "nop "
+        },
+        {
+          "address": "0xd1e7de",
+          "text": "nop "
+        },
+        {
+          "address": "0xd1e7df",
+          "text": "nop "
+        },
+        {
+          "address": "0xd1e7e0",
+          "text": "push ebp"
+        },
+        {
+          "address": "0xd1e7e1",
+          "text": "mov ebp, esp"
+        },
+        {
+          "address": "0xd1e7e3",
+          "text": "sub esp, 0x18"
+        },
+        {
+          "address": "0xd1e7e6",
+          "text": "cmp byte ptr [0x597f668], 0"
+        },
+        {
+          "address": "0xd1e7ed",
+          "text": "je 0xd1e800"
+        },
+        {
+          "address": "0xd1e7ef",
+          "text": "leave "
+        },
+        {
+          "address": "0xd1e7f0",
+          "text": "mov eax, 0x14afc20"
+        },
+        {
+          "address": "0xd1e7f5",
+          "text": "ret "
+        },
+        {
+          "address": "0xd1e7f6",
+          "text": "lea esi, [esi]"
+        },
+        {
+          "address": "0xd1e7f9",
+          "text": "lea edi, [edi]"
+        },
+        {
+          "address": "0xd1e800",
+          "text": "mov dword ptr [esp], 0x597f668"
+        },
+        {
+          "address": "0xd1e807",
+          "text": "call 0xd1e808"
+        },
+        {
+          "address": "0xd1e80c",
+          "text": "test eax, eax"
+        },
+        {
+          "address": "0xd1e80e",
+          "text": "je 0xd1e7ef"
+        },
+        {
+          "address": "0xd1e810",
+          "text": "mov dword ptr [esp], 0x597f668"
+        },
+        {
+          "address": "0xd1e817",
+          "text": "mov dword ptr [0x14afc28], 3"
+        },
+        {
+          "address": "0xd1e821",
+          "text": "mov dword ptr [0x14afc54], 3"
+        },
+        {
+          "address": "0xd1e82b",
+          "text": "mov dword ptr [0x14afc80], 3"
+        },
+        {
+          "address": "0xd1e835",
+          "text": "mov dword ptr [0x14afcac], 3"
+        },
+        {
+          "address": "0xd1e83f",
+          "text": "mov dword ptr [0x14afcd8], 3"
+        },
+        {
+          "address": "0xd1e849",
+          "text": "mov dword ptr [0x14afd04], 2"
+        },
+        {
+          "address": "0xd1e853",
+          "text": "mov dword ptr [0x14afd30], 3"
+        },
+        {
+          "address": "0xd1e85d",
+          "text": "mov dword ptr [0x14afd5c], 3"
+        },
+        {
+          "address": "0xd1e867",
+          "text": "mov dword ptr [0x14afd88], 2"
+        },
+        {
+          "address": "0xd1e871",
+          "text": "mov dword ptr [0x14afdb4], 3"
+        },
+        {
+          "address": "0xd1e87b",
+          "text": "mov dword ptr [0x14afde0], 3"
+        },
+        {
+          "address": "0xd1e885",
+          "text": "mov dword ptr [0x14afe0c], 3"
+        },
+        {
+          "address": "0xd1e88f",
+          "text": "mov dword ptr [0x14afe38], 2"
+        },
+        {
+          "address": "0xd1e899",
+          "text": "mov dword ptr [0x14afe64], 3"
+        },
+        {
+          "address": "0xd1e8a3",
+          "text": "mov dword ptr [0x14afe90], 3"
+        },
+        {
+          "address": "0xd1e8ad",
+          "text": "mov dword ptr [0x14afebc], 2"
+        },
+        {
+          "address": "0xd1e8b7",
+          "text": "mov dword ptr [0x14afee8], 3"
+        },
+        {
+          "address": "0xd1e8c1",
+          "text": "mov dword ptr [0x14aff14], 3"
+        },
+        {
+          "address": "0xd1e8cb",
+          "text": "mov dword ptr [0x14aff40], 3"
+        },
+        {
+          "address": "0xd1e8d5",
+          "text": "mov dword ptr [0x14aff6c], 3"
+        },
+        {
+          "address": "0xd1e8df",
+          "text": "mov dword ptr [0x14aff98], 3"
+        },
+        {
+          "address": "0xd1e8e9",
+          "text": "mov dword ptr [0x14affc4], 3"
+        },
+        {
+          "address": "0xd1e8f3",
+          "text": "call 0xd1e8f4"
+        },
+        {
+          "address": "0xd1e8f8",
+          "text": "mov eax, 0x14afc20"
+        },
+        {
+          "address": "0xd1e8fd",
+          "text": "leave "
+        },
+        {
+          "address": "0xd1e8fe",
+          "text": "ret "
+        },
+        {
+          "address": "0xd1e8ff",
+          "text": "nop "
+        },
+        {
+          "address": "0xd1e900",
+          "text": "push ebp"
+        },
+        {
+          "address": "0xd1e901",
+          "text": "mov ebp, esp"
+        },
+        {
+          "address": "0xd1e903",
+          "text": "sub esp, 0x18"
+        },
+        {
+          "address": "0xd1e906",
+          "text": "cmp byte ptr [0x597f670], 0"
+        },
+        {
+          "address": "0xd1e90d",
+          "text": "je 0xd1e920"
+        },
+        {
+          "address": "0xd1e90f",
+          "text": "leave "
+        },
+        {
+          "address": "0xd1e910",
+          "text": "mov eax, 0x14b0020"
+        },
+        {
+          "address": "0xd1e915",
+          "text": "ret "
+        },
+        {
+          "address": "0xd1e916",
+          "text": "lea esi, [esi]"
+        },
+        {
+          "address": "0xd1e919",
+          "text": "lea edi, [edi]"
+        },
+        {
+          "address": "0xd1e920",
+          "text": "mov dword ptr [esp], 0x597f670"
+        },
+        {
+          "address": "0xd1e927",
+          "text": "call 0xd1e928"
+        },
+        {
+          "address": "0xd1e92c",
+          "text": "test eax, eax"
+        },
+        {
+          "address": "0xd1e92e",
+          "text": "je 0xd1e90f"
+        },
+        {
+          "address": "0xd1e930",
+          "text": "mov dword ptr [esp], 0x597f670"
+        },
+        {
+          "address": "0xd1e937",
+          "text": "mov dword ptr [0x14b0028], 3"
+        },
+        {
+          "address": "0xd1e941",
+          "text": "mov dword ptr [0x14b0054], 3"
+        }
+      ],
+      "handlers": [
+        {
+          "index": 0,
+          "address": "0xd29ac0",
+          "instructions": "[omitted: private reference evidence]"
+        },
+        {
+          "index": 1,
+          "address": "0xd2bbe0",
+          "instructions": "[omitted: private reference evidence]"
+        },
+        {
+          "index": 2,
+          "address": "0xd29ad0",
+          "instructions": "[omitted: private reference evidence]"
+        },
+        {
+          "index": 3,
+          "address": "0xd29ae0",
+          "instructions": "[omitted: private reference evidence]"
+        },
+        {
+          "index": 4,
+          "address": "0xd2e840",
+          "instructions": "[omitted: private reference evidence]"
+        },
+        {
+          "index": 5,
+          "address": "0xd29af0",
+          "instructions": "[omitted: private reference evidence]"
+        },
+        {
+          "index": 7,
+          "address": "0x1114ff4",
+          "instructions": "[omitted: private reference evidence]"
+        },
+        {
+          "index": 8,
+          "address": "0xd29a70",
+          "instructions": "[omitted: private reference evidence]"
+        },
+        {
+          "index": 9,
+          "address": "0xd2bba0",
+          "instructions": "[omitted: private reference evidence]"
+        }
+      ],
+      "instanceVTable": "0x1110ca8",
+      "instanceMethods": [
+        {
+          "index": 9,
+          "address": "0xd0d800",
+          "floating": [
+            {
+              "address": "0xd0d8aa",
+              "text": "mulss xmm0, xmm3"
+            },
+            {
+              "address": "0xd0d8ae",
+              "text": "mulss xmm0, xmm1"
+            },
+            {
+              "address": "0xd0d8d5",
+              "text": "movaps xmm0, xmm3"
+            },
+            {
+              "address": "0xd0d8d8",
+              "text": "divss xmm0, dword ptr [ebx + 0x38]"
+            },
+            {
+              "address": "0xd0d8e0",
+              "text": "mulss xmm4, xmm0"
+            },
+            {
+              "address": "0xd0d8f1",
+              "text": "shufps xmm1, xmm1, 0"
+            },
+            {
+              "address": "0xd0d8f5",
+              "text": "shufps xmm2, xmm2, 0"
+            },
+            {
+              "address": "0xd0d8fd",
+              "text": "movaps xmm4, xmm0"
+            },
+            {
+              "address": "0xd0d900",
+              "text": "shufps xmm4, xmm0, 0"
+            },
+            {
+              "address": "0xd0d90f",
+              "text": "shufps xmm0, xmm0, 0"
+            },
+            {
+              "address": "0xd0d93f",
+              "text": "movaps xmmword ptr [eax], xmm0"
+            },
+            {
+              "address": "0xd0d942",
+              "text": "movaps xmmword ptr [eax + 0x10], xmm1"
+            },
+            {
+              "address": "0xd0d946",
+              "text": "movaps xmmword ptr [eax + 0x20], xmm2"
+            },
+            {
+              "address": "0xd0d961",
+              "text": "movaps xmmword ptr [ebp - 0xeb78], xmm4"
+            },
+            {
+              "address": "0xd0d9f4",
+              "text": "movaps xmm4, xmmword ptr [ebp - 0xeb78]"
+            },
+            {
+              "address": "0xd0da08",
+              "text": "movaps xmm0, xmmword ptr [ebp - 0xeb48]"
+            },
+            {
+              "address": "0xd0da0f",
+              "text": "movaps xmm1, xmmword ptr [ebp - 0xeb38]"
+            },
+            {
+              "address": "0xd0da16",
+              "text": "movaps xmm2, xmmword ptr [ebp - 0xeb28]"
+            },
+            {
+              "address": "0xd0da28",
+              "text": "movaps xmmword ptr [ebp - 0xeb48], xmm0"
+            },
+            {
+              "address": "0xd0da2f",
+              "text": "movaps xmmword ptr [ebp - 0xeb38], xmm1"
+            },
+            {
+              "address": "0xd0da38",
+              "text": "movaps xmmword ptr [ebp - 0xeb28], xmm2"
+            },
+            {
+              "address": "0xd0da4b",
+              "text": "mulss xmm3, xmm3"
+            },
+            {
+              "address": "0xd0da71",
+              "text": "movaps xmm3, xmm5"
+            },
+            {
+              "address": "0xd0da77",
+              "text": "shufps xmm3, xmm5, 0"
+            },
+            {
+              "address": "0xd0da91",
+              "text": "movaps xmm0, xmmword ptr [esi]"
+            },
+            {
+              "address": "0xd0da94",
+              "text": "movaps xmm1, xmmword ptr [esi + 0x10]"
+            },
+            {
+              "address": "0xd0da98",
+              "text": "movaps xmm2, xmmword ptr [esi + 0x20]"
+            },
+            {
+              "address": "0xd0da9c",
+              "text": "movaps xmm6, xmmword ptr [edx]"
+            },
+            {
+              "address": "0xd0da9f",
+              "text": "mulps xmm0, xmm3"
+            },
+            {
+              "address": "0xd0daa2",
+              "text": "mulps xmm1, xmm3"
+            },
+            {
+              "address": "0xd0daa5",
+              "text": "mulps xmm2, xmm3"
+            },
+            {
+              "address": "0xd0daa8",
+              "text": "movaps xmm5, xmm6"
+            },
+            {
+              "address": "0xd0daab",
+              "text": "subps xmm5, xmmword ptr [eax]"
+            },
+            {
+              "address": "0xd0daae",
+              "text": "mulps xmm5, xmm4"
+            },
+            {
+              "address": "0xd0dab1",
+              "text": "addps xmm0, xmm5"
+            },
+            {
+              "address": "0xd0dab4",
+              "text": "addps xmm0, xmm6"
+            },
+            {
+              "address": "0xd0dab7",
+              "text": "movaps xmmword ptr [eax], xmm0"
+            },
+            {
+              "address": "0xd0daba",
+              "text": "movaps xmm5, xmmword ptr [edx + 0x10]"
+            },
+            {
+              "address": "0xd0dabe",
+              "text": "movaps xmm0, xmm5"
+            },
+            {
+              "address": "0xd0dac1",
+              "text": "subps xmm0, xmmword ptr [eax + 0x10]"
+            },
+            {
+              "address": "0xd0dac5",
+              "text": "mulps xmm0, xmm4"
+            },
+            {
+              "address": "0xd0dac8",
+              "text": "addps xmm1, xmm0"
+            },
+            {
+              "address": "0xd0dacb",
+              "text": "addps xmm1, xmm5"
+            },
+            {
+              "address": "0xd0dace",
+              "text": "movaps xmmword ptr [eax + 0x10], xmm1"
+            },
+            {
+              "address": "0xd0dad2",
+              "text": "movaps xmm1, xmmword ptr [edx + 0x20]"
+            },
+            {
+              "address": "0xd0dadc",
+              "text": "movaps xmm0, xmm1"
+            },
+            {
+              "address": "0xd0dadf",
+              "text": "subps xmm0, xmmword ptr [eax + 0x20]"
+            },
+            {
+              "address": "0xd0dae3",
+              "text": "mulps xmm0, xmm4"
+            },
+            {
+              "address": "0xd0dae6",
+              "text": "addps xmm2, xmm0"
+            },
+            {
+              "address": "0xd0dae9",
+              "text": "addps xmm2, xmm1"
+            },
+            {
+              "address": "0xd0daec",
+              "text": "movaps xmmword ptr [eax + 0x20], xmm2"
+            },
+            {
+              "address": "0xd0dde4",
+              "text": "movaps xmm0, xmmword ptr [ebp - 0xeb48]"
+            },
+            {
+              "address": "0xd0ddef",
+              "text": "movaps xmm1, xmmword ptr [ebp - 0xeb38]"
+            },
+            {
+              "address": "0xd0ddf6",
+              "text": "movaps xmm2, xmmword ptr [ebp - 0xeb28]"
+            }
+          ],
+          "calls": [
+            {
+              "address": "0xd0d887",
+              "target": "0xd0d888",
+              "importName": null
+            },
+            {
+              "address": "0xd0d8b7",
+              "target": "0xd0d8b8",
+              "importName": null
+            },
+            {
+              "address": "0xd0d997",
+              "target": "0xd45690",
+              "importName": null
+            },
+            {
+              "address": "0xd0d9e9",
+              "target": "0x58",
+              "importName": null
+            },
+            {
+              "address": "0xd0db71",
+              "target": "0x64",
+              "importName": null
+            },
+            {
+              "address": "0xd0dbaf",
+              "target": "0x5c",
+              "importName": null
+            },
+            {
+              "address": "0xd0dc4d",
+              "target": "0xd45690",
+              "importName": null
+            },
+            {
+              "address": "0xd0dcca",
+              "target": "0x60",
+              "importName": null
+            },
+            {
+              "address": "0xd0dd7a",
+              "target": "0xd45690",
+              "importName": null
+            },
+            {
+              "address": "0xd0ddca",
+              "target": "0x60",
+              "importName": null
+            }
+          ],
+          "instructions": "[omitted: private reference evidence]"
+        }
+      ]
+    }
+  ],
+  "constants": {
+    "0xfaa300": {
+      "kind": "double",
+      "value": 1.0
+    },
+    "0xfb1298": {
+      "kind": "double",
+      "value": 0.0
+    },
+    "0x1116b60": {
+      "kind": "float",
+      "value": 29.999998092651367
+    }
+  },
+  "reading": {
+    "registration": "The operator registers itself at 0x403f2c; its definition table is at 0x11142e8.",
+    "instance": "The factory at 0xd2bbe0 allocates 0x6c bytes and writes the instance vtable 0x1110ca8, then copies the unpack defaults into the instance; the apply method is vtable entry 9 at 0xd0d800.",
+    "fields": "The instance holds gravity as three floats at +0x58, +0x5c and +0x60 and the drag as a float at +0x64, which is what the apply method reads before it integrates.",
+    "drag": "The apply method computes 1 - max(drag, 0), calls a libm function on it, multiplies by 30.0 (the tick rate) and by dt, and then takes __expf_finite of that product, so the drag is an exponential decay over the tick at 30 Hz rather than a linear per-frame subtraction.",
+    "notYetRead": "How that factor and the per-step gravity array combine into each sub-step position is not read yet: the method writes a per-sub-step position history, and the algebra of that loop has not been traced to the particle struct layout.",
+    "boundary": "This locates the operator and reads its constants and the shape of the drag term. It does not state the position update, so no simulation may be written from it yet: a wrong reading here would move the smoke silently."
+  }
+}

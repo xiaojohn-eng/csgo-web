@@ -1,0 +1,20 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>BREACHLINE · 资产实测</title>
+<style>body{margin:0;background:#181b1e;font:14px system-ui;color:#ddd}canvas{display:block}nav{position:fixed;top:16px;left:16px;display:flex;gap:8px;z-index:2}button{padding:9px 16px;color:#eee;background:#263139;border:1px solid #52606a;border-radius:4px}output{position:fixed;bottom:15px;left:16px}</style>
+<nav><button data-action="rifle_idle">持枪</button><button data-action="rifle_fire">射击</button><button data-action="rifle_reload">换弹</button><button id="orbit">检查模型</button></nav><output>载入中</output><canvas></canvas>
+<script type="module">
+import * as T from 'three';
+import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
+import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
+import {RoomEnvironment} from 'three/addons/environments/RoomEnvironment.js';
+const renderer=new T.WebGLRenderer({canvas:document.querySelector('canvas'),antialias:true,preserveDrawingBuffer:true});renderer.setSize(innerWidth,innerHeight);renderer.setPixelRatio(1);renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=1;
+const scene=new T.Scene();scene.background=new T.Color('#30383d');const pmrem=new T.PMREMGenerator(renderer);scene.environment=pmrem.fromScene(new RoomEnvironment()).texture;scene.environmentIntensity=.65;
+const camera=new T.PerspectiveCamera(62,innerWidth/innerHeight,.015,100);camera.position.set(0,0,0);camera.lookAt(0,0,-1);
+const key=new T.DirectionalLight('#f1e4d0',2.1);key.position.set(-2,3,1);scene.add(key,new T.HemisphereLight('#bdd5e2','#494139',1));
+const asset=await new GLTFLoader().loadAsync('/models/v3/rifle.glb');const model=asset.scene;model.position.set(.035,-.18,-.51);scene.add(model);model.traverse(o=>{if(o.isSkinnedMesh)o.frustumCulled=false});
+const mixer=new T.AnimationMixer(model);let current;
+function play(name,time){if(current)current.stop();current=mixer.clipAction(T.AnimationClip.findByName(asset.animations,name));current.reset().play();current.time=time??0;mixer.update(0);}
+play('rifle_idle');document.querySelector('output').textContent=asset.animations.map(a=>a.name+' '+a.duration.toFixed(2)+'s').join(' · ');
+for(const b of document.querySelectorAll('[data-action]'))b.onclick=()=>play(b.dataset.action);
+const controls=new OrbitControls(camera,renderer.domElement);controls.enabled=false;document.querySelector('#orbit').onclick=()=>{controls.enabled=!controls.enabled;camera.position.set(controls.enabled?1:0,controls.enabled?.5:0,controls.enabled?.3:0);controls.target.copy(controls.enabled?new T.Vector3(0,-.13,-.5):new T.Vector3(0,0,-1));controls.update()};
+window.assetReview={ready:true,pose:(name,time)=>{play(name,time);current.paused=true;renderer.render(scene,camera)},model,renderer};let last=performance.now();function tick(t){const dt=Math.min((t-last)/1000,.05);last=t;mixer.update(dt);if(controls.enabled)controls.update();renderer.render(scene,camera);requestAnimationFrame(tick)}requestAnimationFrame(tick);
+</script></html>

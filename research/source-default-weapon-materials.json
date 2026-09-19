@@ -1,0 +1,683 @@
+{
+  "format": "source-default-weapon-vmts-v1",
+  "sourceApp": 740,
+  "build": 12426148,
+  "cases": [
+    {
+      "weapon": "ak47",
+      "variant": "firstPerson",
+      "sourceVMT": "materials/models/weapons/v_models/rif_ak47/ak47.vmt",
+      "sha256": "dc01f61f77b650bf36a4115a9b5e2f2ebf1e4fcf7fb2c953c2fc5c28c04d0a30",
+      "bytes": 437,
+      "originalParameters": {
+        "$basetexture": "models\\weapons\\v_models\\rif_ak47\\ak47",
+        "$phong": "1",
+        "$phongboost": "2",
+        "$phongalbedoboost": "35",
+        "$phongfresnelranges": "[.83 .83 1]",
+        "$phongexponenttexture": "models\\weapons\\v_models\\rif_ak47\\ak47_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[.1 .1 .1]",
+        "$phongalbedotint": "1",
+        "$phongdisablehalflambert": "1"
+      },
+      "originalLineNumbers": {
+        "$basetexture": 3,
+        "$phong": 5,
+        "$phongboost": 6,
+        "$phongalbedoboost": 7,
+        "$phongfresnelranges": 8,
+        "$phongexponenttexture": 9,
+        "$basemapalphaphongmask": 11,
+        "$envmap": 13,
+        "$envmapfresnel": 14,
+        "$envmaptint": 15,
+        "$phongalbedotint": 17,
+        "$phongdisablehalflambert": 19
+      },
+      "parameters": {
+        "name": "Source_AK47_VertexLitGeneric",
+        "boost": 2.0,
+        "fresnel": [
+          0.83,
+          0.83,
+          1.0
+        ],
+        "phongMask": "baseAlpha",
+        "halfLambert": false,
+        "albedoTint": true,
+        "albedoBoost": 35.0,
+        "envmap": {
+          "tint": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "fresnel": true,
+          "mask": "phongMask"
+        }
+      }
+    },
+    {
+      "weapon": "ak47",
+      "variant": "world",
+      "sourceVMT": "materials/models/weapons/w_models/w_rif_ak47/ak47.vmt",
+      "sha256": "0ca9a59228d917737da55d9df9a2e0e00fb1765bc170df548da33d85585c0a80",
+      "bytes": 441,
+      "originalParameters": {
+        "$basetexture": "models\\weapons\\w_models\\W_rif_ak47\\ak47",
+        "$phong": "1",
+        "$phongboost": "2",
+        "$phongalbedoboost": "35",
+        "$phongfresnelranges": "[.83 .83 1]",
+        "$phongexponenttexture": "models\\weapons\\w_models\\W_rif_ak47\\ak47_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[.1 .1 .1]",
+        "$phongalbedotint": "1",
+        "$phongdisablehalflambert": "1"
+      },
+      "originalLineNumbers": {
+        "$basetexture": 3,
+        "$phong": 5,
+        "$phongboost": 6,
+        "$phongalbedoboost": 7,
+        "$phongfresnelranges": 8,
+        "$phongexponenttexture": 9,
+        "$basemapalphaphongmask": 11,
+        "$envmap": 13,
+        "$envmapfresnel": 14,
+        "$envmaptint": 15,
+        "$phongalbedotint": 17,
+        "$phongdisablehalflambert": 19
+      },
+      "parameters": {
+        "name": "Source_AK47_VertexLitGeneric",
+        "boost": 2.0,
+        "fresnel": [
+          0.83,
+          0.83,
+          1.0
+        ],
+        "phongMask": "baseAlpha",
+        "halfLambert": false,
+        "albedoTint": true,
+        "albedoBoost": 35.0,
+        "envmap": {
+          "tint": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "fresnel": true,
+          "mask": "phongMask"
+        }
+      }
+    },
+    {
+      "weapon": "m4a4",
+      "variant": "firstPerson",
+      "sourceVMT": "materials/models/weapons/v_models/rif_m4a1/rif_m4a1.vmt",
+      "sha256": "7cbe8c9555593b927aa98b5c609196cb1a3eb27849e953e9c5223b970609df68",
+      "bytes": 452,
+      "originalParameters": {
+        "$basetexture": "models\\weapons\\v_models\\rif_m4a1\\rif_m4a1",
+        "$phongexponenttexture": "models\\weapons\\v_models\\rif_m4a1\\rif_m4a1_exponent",
+        "$phong": "1",
+        "$phongboost": "2",
+        "$phongalbedoboost": "25",
+        "$phongfresnelranges": "[.83 .83 1]",
+        "$basemapalphaphongmask": "1",
+        "$phongalbedotint": "1",
+        "$phongdisablehalflambert": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[.15 .15 .15]"
+      },
+      "originalLineNumbers": {
+        "$basetexture": 3,
+        "$phongexponenttexture": 4,
+        "$phong": 6,
+        "$phongboost": 9,
+        "$phongalbedoboost": 10,
+        "$phongfresnelranges": 11,
+        "$basemapalphaphongmask": 13,
+        "$phongalbedotint": 15,
+        "$phongdisablehalflambert": 17,
+        "$envmap": 19,
+        "$envmapfresnel": 20,
+        "$envmaptint": 21
+      },
+      "parameters": {
+        "name": "Source_M4A4_VertexLitGeneric",
+        "boost": 2.0,
+        "fresnel": [
+          0.83,
+          0.83,
+          1.0
+        ],
+        "phongMask": "baseAlpha",
+        "halfLambert": false,
+        "albedoTint": true,
+        "albedoBoost": 25.0,
+        "envmap": {
+          "tint": [
+            0.15,
+            0.15,
+            0.15
+          ],
+          "fresnel": true,
+          "mask": "phongMask"
+        }
+      }
+    },
+    {
+      "weapon": "m4a4",
+      "variant": "world",
+      "sourceVMT": "materials/models/weapons/w_models/w_rif_m4a1/rif_m4a1.vmt",
+      "sha256": "7353af380a4d5b74820908f3eec986adbd0fd123cc2db369bc0399f424e55f37",
+      "bytes": 461,
+      "originalParameters": {
+        "$basetexture": "models\\weapons\\w_models\\w_rif_m4a1\\rif_m4a1",
+        "$phongexponenttexture": "models\\weapons\\w_models\\w_rif_m4a1\\rif_m4a1_exponent",
+        "$phong": "1",
+        "$phongboost": "2",
+        "$phongalbedoboost": "25",
+        "$phongfresnelranges": "[.83 .83 1]",
+        "$basemapalphaphongmask": "1",
+        "$phongalbedotint": "1",
+        "$phongdisablehalflambert": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[.15 .15 .15]"
+      },
+      "originalLineNumbers": {
+        "$basetexture": 3,
+        "$phongexponenttexture": 4,
+        "$phong": 6,
+        "$phongboost": 9,
+        "$phongalbedoboost": 10,
+        "$phongfresnelranges": 11,
+        "$basemapalphaphongmask": 13,
+        "$phongalbedotint": 15,
+        "$phongdisablehalflambert": 17,
+        "$envmap": 19,
+        "$envmapfresnel": 20,
+        "$envmaptint": 21
+      },
+      "parameters": {
+        "name": "Source_World_M4A4_VertexLitGeneric",
+        "boost": 2.0,
+        "fresnel": [
+          0.83,
+          0.83,
+          1.0
+        ],
+        "phongMask": "baseAlpha",
+        "halfLambert": false,
+        "albedoTint": true,
+        "albedoBoost": 25.0,
+        "envmap": {
+          "tint": [
+            0.15,
+            0.15,
+            0.15
+          ],
+          "fresnel": true,
+          "mask": "phongMask"
+        }
+      }
+    },
+    {
+      "weapon": "awp",
+      "variant": "firstPerson",
+      "sourceVMT": "materials/models/weapons/v_models/snip_awp/awp.vmt",
+      "sha256": "a8da3373f5baacc039f83a5f63e64a4bbcc7fc29b3e2d648aa0f3eac88b8fd83",
+      "bytes": 454,
+      "originalParameters": {
+        "$basetexture": "models\\weapons\\v_models\\snip_awp\\awp",
+        "$phong": "1",
+        "$phongboost": "2",
+        "$phongalbedoboost": "40",
+        "$phongfresnelranges": "[.8 .8 1]",
+        "$phongexponenttexture": "models\\weapons\\v_models\\snip_awp\\awp_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[.1 .1 .1]",
+        "$phongalbedotint": "1",
+        "$phongdisablehalflambert": "1"
+      },
+      "originalLineNumbers": {
+        "$basetexture": 3,
+        "$phong": 5,
+        "$phongboost": 6,
+        "$phongalbedoboost": 7,
+        "$phongfresnelranges": 8,
+        "$phongexponenttexture": 10,
+        "$basemapalphaphongmask": 12,
+        "$envmap": 14,
+        "$envmapfresnel": 15,
+        "$envmaptint": 16,
+        "$phongalbedotint": 18,
+        "$phongdisablehalflambert": 19
+      },
+      "parameters": {
+        "name": "Source_AWP_FP_VertexLitGeneric",
+        "boost": 2.0,
+        "fresnel": [
+          0.8,
+          0.8,
+          1.0
+        ],
+        "phongMask": "baseAlpha",
+        "halfLambert": false,
+        "albedoTint": true,
+        "albedoBoost": 40.0,
+        "envmap": {
+          "tint": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "fresnel": true,
+          "mask": "phongMask"
+        }
+      }
+    },
+    {
+      "weapon": "awp",
+      "variant": "world",
+      "sourceVMT": "materials/models/weapons/w_models/w_snip_awp/awp.vmt",
+      "sha256": "f83967403ffe90bf88fbac5e14dbda09486331f3fea3b1be0d761025fac3ee0a",
+      "bytes": 470,
+      "originalParameters": {
+        "$basetexture": "models\\weapons\\w_models\\w_snip_awp\\awp",
+        "$phong": "1",
+        "$phongboost": "1",
+        "$phongalbedoboost": "40",
+        "$phongfresnelranges": "[.8 .8 1]",
+        "$phongexponenttexture": "models\\weapons\\w_models\\w_snip_awp\\awp_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[.1 .1 .1]",
+        "$phongalbedotint": "1",
+        "$phongdisablehalflambert": "1"
+      },
+      "originalLineNumbers": {
+        "$basetexture": 3,
+        "$phong": 5,
+        "$phongboost": 6,
+        "$phongalbedoboost": 7,
+        "$phongfresnelranges": 8,
+        "$phongexponenttexture": 10,
+        "$basemapalphaphongmask": 12,
+        "$envmap": 14,
+        "$envmapfresnel": 15,
+        "$envmaptint": 16,
+        "$phongalbedotint": 18,
+        "$phongdisablehalflambert": 19
+      },
+      "parameters": {
+        "name": "Source_AWP_World_VertexLitGeneric",
+        "boost": 1.0,
+        "fresnel": [
+          0.8,
+          0.8,
+          1.0
+        ],
+        "phongMask": "baseAlpha",
+        "halfLambert": false,
+        "albedoTint": true,
+        "albedoBoost": 40.0,
+        "envmap": {
+          "tint": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "fresnel": true,
+          "mask": "phongMask"
+        }
+      }
+    },
+    {
+      "weapon": "glock",
+      "variant": "firstPerson",
+      "sourceVMT": "materials/models/weapons/v_models/pist_glock18/pist_glock18.vmt",
+      "sha256": "15dad51c6ebd42404988f589c510d830e116e6b62cf13552e6ec676a764a7949",
+      "bytes": 472,
+      "originalParameters": {
+        "$basetexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18",
+        "$phong": "1",
+        "$phongboost": "1",
+        "$phongalbedoboost": "35",
+        "$phongfresnelranges": "[.83 .83 1]",
+        "$phongexponenttexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[.25 .25 .25]",
+        "$phongalbedotint": "1",
+        "$phongdisablehalflambert": "1"
+      },
+      "originalLineNumbers": {
+        "$basetexture": 3,
+        "$phong": 5,
+        "$phongboost": 6,
+        "$phongalbedoboost": 7,
+        "$phongfresnelranges": 8,
+        "$phongexponenttexture": 9,
+        "$basemapalphaphongmask": 11,
+        "$envmap": 13,
+        "$envmapfresnel": 14,
+        "$envmaptint": 15,
+        "$phongalbedotint": 17,
+        "$phongdisablehalflambert": 19
+      },
+      "parameters": {
+        "name": "Source_glock_VertexLitGeneric",
+        "boost": 1.0,
+        "fresnel": [
+          0.83,
+          0.83,
+          1.0
+        ],
+        "phongMask": "baseAlpha",
+        "halfLambert": false,
+        "albedoTint": true,
+        "albedoBoost": 35.0,
+        "envmap": {
+          "tint": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "fresnel": true,
+          "mask": "phongMask"
+        }
+      }
+    },
+    {
+      "weapon": "glock",
+      "variant": "world",
+      "sourceVMT": "materials/models/weapons/w_models/w_pist_glock18/pist_glock18.vmt",
+      "sha256": "ae497ff8b79b0becc13eb78d5940c415b45d99ccc4b87ae6def6065f74be8766",
+      "bytes": 466,
+      "originalParameters": {
+        "$basetexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18",
+        "$phong": "1",
+        "$phongboost": "1",
+        "$phongalbedoboost": "35",
+        "$phongfresnelranges": "[.83 .83 1]",
+        "$phongexponenttexture": "models\\weapons\\v_models\\pist_glock18\\pist_glock18_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[.25 .25 .25]",
+        "$phongalbedotint": "1",
+        "$phongdisablehalflambert": "1"
+      },
+      "originalLineNumbers": {
+        "$basetexture": 3,
+        "$phong": 5,
+        "$phongboost": 6,
+        "$phongalbedoboost": 7,
+        "$phongfresnelranges": 8,
+        "$phongexponenttexture": 9,
+        "$basemapalphaphongmask": 11,
+        "$envmap": 13,
+        "$envmapfresnel": 14,
+        "$envmaptint": 15,
+        "$phongalbedotint": 17,
+        "$phongdisablehalflambert": 19
+      },
+      "parameters": {
+        "name": "Source_World_glock_VertexLitGeneric",
+        "boost": 1.0,
+        "fresnel": [
+          0.83,
+          0.83,
+          1.0
+        ],
+        "phongMask": "baseAlpha",
+        "halfLambert": false,
+        "albedoTint": true,
+        "albedoBoost": 35.0,
+        "envmap": {
+          "tint": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "fresnel": true,
+          "mask": "phongMask"
+        }
+      }
+    },
+    {
+      "weapon": "usp",
+      "variant": "firstPerson",
+      "sourceVMT": "materials/models/weapons/v_models/pist_223/pist_223.vmt",
+      "sha256": "644f6fab0ec8a61673670c5ab0be61bbc986c66f00cab6cbd372e8261d8129cb",
+      "bytes": 458,
+      "originalParameters": {
+        "$basetexture": "models\\weapons\\v_models\\pist_223\\pist_223",
+        "$phongexponenttexture": "models\\weapons\\v_models\\pist_223\\pist_223_exponent",
+        "$phong": "1",
+        "$phongboost": "8",
+        "$phongalbedoboost": "80",
+        "$phongfresnelranges": "[.83 .83 1]",
+        "$basemapalphaphongmask": "1",
+        "$phongalbedotint": "1",
+        "$phongdisablehalflambert": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[.2 .2 .2]"
+      },
+      "originalLineNumbers": {
+        "$basetexture": 4,
+        "$phongexponenttexture": 5,
+        "$phong": 6,
+        "$phongboost": 9,
+        "$phongalbedoboost": 10,
+        "$phongfresnelranges": 11,
+        "$basemapalphaphongmask": 13,
+        "$phongalbedotint": 15,
+        "$phongdisablehalflambert": 17,
+        "$envmap": 19,
+        "$envmapfresnel": 20,
+        "$envmaptint": 21
+      },
+      "parameters": {
+        "name": "Source_usp_VertexLitGeneric",
+        "boost": 8.0,
+        "fresnel": [
+          0.83,
+          0.83,
+          1.0
+        ],
+        "phongMask": "baseAlpha",
+        "halfLambert": false,
+        "albedoTint": true,
+        "albedoBoost": 80.0,
+        "envmap": {
+          "tint": [
+            0.2,
+            0.2,
+            0.2
+          ],
+          "fresnel": true,
+          "mask": "phongMask"
+        }
+      }
+    },
+    {
+      "weapon": "usp",
+      "variant": "world",
+      "sourceVMT": "materials/models/weapons/w_models/w_pist_223/pist_223.vmt",
+      "sha256": "bc5fd01395eef3fd6b54cee35600b46006ebf392f33967676575444168a97cbd",
+      "bytes": 500,
+      "originalParameters": {
+        "$basetexture": "models\\weapons\\w_models\\w_pist_223\\pist_223",
+        "$phong": "1",
+        "$phongboost": "5",
+        "$phongfresnelranges": "[.2 0.5 1]",
+        "$phongexponenttexture": "models\\weapons\\w_models\\w_pist_223\\pist_223_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmapfresnel": "1",
+        "$envmapfresnelminmaxexp": "[.0 .1 .1]",
+        "$envmaptint": "[.52 .56 .60]",
+        "$phongdisablehalflambert": "0"
+      },
+      "originalLineNumbers": {
+        "$basetexture": 3,
+        "$phong": 5,
+        "$phongboost": 6,
+        "$phongfresnelranges": 7,
+        "$phongexponenttexture": 9,
+        "$basemapalphaphongmask": 11,
+        "$envmapfresnel": 14,
+        "$envmapfresnelminmaxexp": 15,
+        "$envmaptint": 16,
+        "$phongdisablehalflambert": 19
+      },
+      "parameters": {
+        "name": "Source_World_usp_VertexLitGeneric",
+        "boost": 5.0,
+        "fresnel": [
+          0.2,
+          0.5,
+          1.0
+        ],
+        "phongMask": "baseAlpha",
+        "halfLambert": true,
+        "albedoTint": false,
+        "tint": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "weapon": "deagle",
+      "variant": "firstPerson",
+      "sourceVMT": "materials/models/weapons/v_models/pist_deagle/pist_deagle.vmt",
+      "sha256": "ae88ee0beb230520bfa67bf41730dba2f699d6bee611f76600a2af0d374f0566",
+      "bytes": 478,
+      "originalParameters": {
+        "$basetexture": "models\\weapons\\v_models\\pist_deagle\\pist_deagle",
+        "$phong": "1",
+        "$phongboost": "1",
+        "$phongalbedoboost": "40",
+        "$phongfresnelranges": "[.8 .8 1]",
+        "$phongexponenttexture": "models\\weapons\\v_models\\pist_deagle\\pist_deagle_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[.4 .4 .4]",
+        "$phongalbedotint": "1",
+        "$phongdisablehalflambert": "1"
+      },
+      "originalLineNumbers": {
+        "$basetexture": 4,
+        "$phong": 6,
+        "$phongboost": 7,
+        "$phongalbedoboost": 8,
+        "$phongfresnelranges": 9,
+        "$phongexponenttexture": 11,
+        "$basemapalphaphongmask": 13,
+        "$envmap": 15,
+        "$envmapfresnel": 16,
+        "$envmaptint": 17,
+        "$phongalbedotint": 19,
+        "$phongdisablehalflambert": 20
+      },
+      "parameters": {
+        "name": "Source_deagle_VertexLitGeneric",
+        "boost": 1.0,
+        "fresnel": [
+          0.8,
+          0.8,
+          1.0
+        ],
+        "phongMask": "baseAlpha",
+        "halfLambert": false,
+        "albedoTint": true,
+        "albedoBoost": 40.0,
+        "envmap": {
+          "tint": [
+            0.4,
+            0.4,
+            0.4
+          ],
+          "fresnel": true,
+          "mask": "phongMask"
+        }
+      }
+    },
+    {
+      "weapon": "deagle",
+      "variant": "world",
+      "sourceVMT": "materials/models/weapons/w_models/w_pist_deagle/pist_deagle.vmt",
+      "sha256": "2b29b55566ac2bf3cd5ca4ad5299232e5dad23d29dafd4a5a94d8d0db2e265bc",
+      "bytes": 490,
+      "originalParameters": {
+        "$basetexture": "models\\weapons\\w_models\\w_pist_deagle\\pist_deagle",
+        "$phong": "1",
+        "$phongboost": "1",
+        "$phongalbedoboost": "40",
+        "$phongfresnelranges": "[.8 .8 1]",
+        "$phongexponenttexture": "models\\weapons\\w_models\\w_pist_deagle\\pist_deagle_exponent",
+        "$basemapalphaphongmask": "1",
+        "$envmap": "env_cubemap",
+        "$envmapfresnel": "1",
+        "$envmaptint": "[.4 .4 .4]",
+        "$phongalbedotint": "1",
+        "$phongdisablehalflambert": "1"
+      },
+      "originalLineNumbers": {
+        "$basetexture": 4,
+        "$phong": 6,
+        "$phongboost": 7,
+        "$phongalbedoboost": 8,
+        "$phongfresnelranges": 9,
+        "$phongexponenttexture": 11,
+        "$basemapalphaphongmask": 13,
+        "$envmap": 15,
+        "$envmapfresnel": 16,
+        "$envmaptint": 17,
+        "$phongalbedotint": 19,
+        "$phongdisablehalflambert": 20
+      },
+      "parameters": {
+        "name": "Source_World_Deagle_VertexLitGeneric",
+        "boost": 1.0,
+        "fresnel": [
+          0.8,
+          0.8,
+          1.0
+        ],
+        "phongMask": "baseAlpha",
+        "halfLambert": false,
+        "albedoTint": true,
+        "albedoBoost": 40.0,
+        "envmap": {
+          "tint": [
+            0.4,
+            0.4,
+            0.4
+          ],
+          "fresnel": true,
+          "mask": "phongMask"
+        }
+      }
+    }
+  ],
+  "boundary": "VPK CRC-verified original VMT bytes and explicit parsed controls. Source light sampling and pixel equivalence need independent GPU acceptance."
+}
