@@ -1,0 +1,329 @@
+{
+  "release": "assets-2026-09-20",
+  "files": [
+    {
+      "path": "public/favicon.svg",
+      "bytes": 234,
+      "sha256": "3361338b391c73421d7de6291ad673203e4ace0a2e683ee70c76431ba366f211",
+      "license": "MIT (project-owned contribution)",
+      "basis": "User-confirmed project original; project-generated resource"
+    },
+    {
+      "path": "public/images/menu-harbor-w01.png",
+      "bytes": 2187788,
+      "sha256": "1a036dc863d173c75bef00a97f4af12ab3ff27b2c0c33cd97fa8829f6e217dda",
+      "license": "MIT (project-owned contribution)",
+      "basis": "Image2 UI05 menu background; matching active-assets menu receipt"
+    },
+    {
+      "path": "public/models/web-w01/CHARACTER-NOTICES.md",
+      "bytes": 1554,
+      "sha256": "00917840c1bff643fcd145b59a1a4b8942f1df84ca967486e01975b1565b847c",
+      "license": "MIT; Microsoft notice retained",
+      "basis": "Microsoft Rocketbox derivative with project-original equipment and weapon; matching active-assets characterAndM4 receipt"
+    },
+    {
+      "path": "public/models/web-w01/LICENSE-Rocketbox.md",
+      "bytes": 1066,
+      "sha256": "17474e386e0b9e1a700cc3d06b2b0882a2c376d9c6b49c7f8274409b8f8d2352",
+      "license": "MIT; Microsoft notice retained",
+      "basis": "Microsoft Rocketbox derivative with project-original equipment and weapon; matching active-assets characterAndM4 receipt"
+    },
+    {
+      "path": "public/models/web-w01/action-events.json",
+      "bytes": 6024,
+      "sha256": "6aa98e52d31b29de7d02f3f60fa8f82bf3e8c4fcacf7d93964559521d2329d5e",
+      "license": "MIT; Microsoft notice retained",
+      "basis": "Microsoft Rocketbox derivative with project-original equipment and weapon; matching active-assets characterAndM4 receipt"
+    },
+    {
+      "path": "public/models/web-w01/falcon-combat-actions.glb",
+      "bytes": 57526008,
+      "sha256": "a541aeb26e0e6154830e23f2f6c3c978e54b0209f0e930564bb5f43545adfa2a",
+      "license": "MIT; Microsoft notice retained",
+      "basis": "Microsoft Rocketbox derivative with project-original equipment and weapon; matching active-assets characterAndM4 receipt"
+    },
+    {
+      "path": "public/models/web-w02/map/gameplay-layout.json",
+      "bytes": 328017,
+      "sha256": "03617c9446130784de7c2df6212e1965e406fe798fad14f49285a6c98e3104ba",
+      "license": "MIT for original work; CC0-1.0 for identified upstream components",
+      "basis": "PORT SELENE original authored map; matching active-assets map receipt; Poly Haven CC0 components documented in provenance.json"
+    },
+    {
+      "path": "public/models/web-w02/map/port-selene-runtime.glb",
+      "bytes": 80352620,
+      "sha256": "090e05354378a12ff01c057cd8d07a1e609bf7f13859448f365ded0bac039aa4",
+      "license": "MIT for original work; CC0-1.0 for identified upstream components",
+      "basis": "PORT SELENE original authored map; matching active-assets map receipt; Poly Haven CC0 components documented in provenance.json"
+    },
+    {
+      "path": "public/models/web-w02/map/provenance.json",
+      "bytes": 13116,
+      "sha256": "fddddb9a7faf700bd686eb46e4cd3fa95c8cdda7f134c8e9c425f8e2ad7fabaa",
+      "license": "MIT for original work; CC0-1.0 for identified upstream components",
+      "basis": "PORT SELENE original authored map; matching active-assets map receipt; Poly Haven CC0 components documented in provenance.json"
+    },
+    {
+      "path": "public/models/web-w02/weapon/falcon-dmr.glb",
+      "bytes": 17447156,
+      "sha256": "826b7c8a4339e9d153dbf664acc499e2c61b67cfb9d8056de10ac4a3a5010164",
+      "license": "MIT (project-owned contribution)",
+      "basis": "W01 original FALCON weapon; matching active-assets P12/DMR receipts"
+    },
+    {
+      "path": "public/models/web-w02/weapon/falcon-p12.glb",
+      "bytes": 16962276,
+      "sha256": "2b00f4b4632c4b1965fe3bacd3aab66cc8d4461f3375144b7151668812d1c2b5",
+      "license": "MIT (project-owned contribution)",
+      "basis": "W01 original FALCON weapon; matching active-assets P12/DMR receipts"
+    },
+    {
+      "path": "public/models/web-w02/weapon/metadata.json",
+      "bytes": 994,
+      "sha256": "a410c80a421c143d343294562d8264c175d4a83682a6a38a82d69e43967a96b2",
+      "license": "MIT (project-owned contribution)",
+      "basis": "W01 original FALCON weapon; matching active-assets P12/DMR receipts"
+    },
+    {
+      "path": "public/textures/generated/tactical-albedo-image2.png",
+      "bytes": 3267710,
+      "sha256": "b41e2d3bf154e5d413489100d94582aa6617d52bce60edccd3293e6e0fd78c8f",
+      "license": "MIT (project-owned contribution)",
+      "basis": "User-confirmed project original; project-generated resource"
+    },
+    {
+      "path": "public/textures/generated/tactical-normal.png",
+      "bytes": 1467041,
+      "sha256": "f817f4a58ff983b963a1db88c56f010732e76ed9a7fd663aaec7951d00b4fd22",
+      "license": "MIT (project-owned contribution)",
+      "basis": "User-confirmed project original; project-generated resource"
+    },
+    {
+      "path": "public/textures/generated/tactical-orm.png",
+      "bytes": 571685,
+      "sha256": "8cd708cb295fcba5a87f285b2389511b6cb833fb00e88b2435f89f21938d831f",
+      "license": "MIT (project-owned contribution)",
+      "basis": "User-confirmed project original; project-generated resource"
+    }
+  ],
+  "uncompressedBytes": 180133289,
+  "excluded": [
+    {
+      "path": "public/source/",
+      "reason": "Valve-derived resources; not part of the original/openly licensed asset release"
+    }
+  ],
+  "pending": [
+    {
+      "path": "public/textures/rusty_metal_02_AO.jpg",
+      "bytes": 458330,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/textures/rusty_metal_02_Diffuse.jpg",
+      "bytes": 564932,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/textures/wooden_planks_Rough.jpg",
+      "bytes": 233217,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/textures/asphalt_02_Diffuse.jpg",
+      "bytes": 731707,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/textures/concrete_floor_worn_001_arm.jpg",
+      "bytes": 152919,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/textures/rusty_metal_02_arm.jpg",
+      "bytes": 153031,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/textures/brick_wall_003_Rough.jpg",
+      "bytes": 345775,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/textures/brick_wall_003_Diffuse.jpg",
+      "bytes": 665706,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/textures/wooden_planks_nor_gl.jpg",
+      "bytes": 705118,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/textures/rusty_metal_02_Rough.jpg",
+      "bytes": 135023,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/textures/asphalt_02_nor_gl.jpg",
+      "bytes": 1240122,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/textures/kloofendal_48d_partly_cloudy_puresky.hdr",
+      "bytes": 5451493,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/textures/wooden_planks_Diffuse.jpg",
+      "bytes": 489587,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/textures/rusty_metal_02_nor_gl.jpg",
+      "bytes": 403156,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/textures/asphalt_02_Rough.jpg",
+      "bytes": 544032,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/textures/concrete_floor_worn_001_AO.jpg",
+      "bytes": 124987,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/textures/concrete_floor_worn_001_Rough.jpg",
+      "bytes": 181942,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/textures/brick_wall_003_nor_gl.jpg",
+      "bytes": 1242175,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/textures/concrete_floor_worn_001_Diffuse.jpg",
+      "bytes": 118806,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/textures/concrete_floor_worn_001_nor_gl.jpg",
+      "bytes": 110906,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/textures/v3/arms_orm.png",
+      "bytes": 2700414,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/textures/v3/rifle_normal.png",
+      "bytes": 1192019,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/textures/v3/rifle_basecolor.png",
+      "bytes": 1676340,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/textures/v3/rifle_orm.png",
+      "bytes": 1752463,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/textures/v3/arms_normal.png",
+      "bytes": 4731999,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/textures/v3/arms_basecolor.png",
+      "bytes": 4839516,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/models/operator.glb",
+      "bytes": 1889908,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/models/vandal.glb",
+      "bytes": 1790124,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/models/marshal.glb",
+      "bytes": 1576796,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/models/spectre.glb",
+      "bytes": 1791308,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/models/sidearm.glb",
+      "bytes": 1259212,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/models/v3/rifle.glb",
+      "bytes": 18816424,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/audio/step6.wav",
+      "bytes": 30266,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/audio/step4.wav",
+      "bytes": 31554,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/audio/marshal.wav",
+      "bytes": 119284,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/audio/step5.wav",
+      "bytes": 28550,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/audio/step1.wav",
+      "bytes": 32986,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/audio/sidearm.wav",
+      "bytes": 75162,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/audio/step2.wav",
+      "bytes": 29346,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/audio/spectre.wav",
+      "bytes": 75206,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/audio/step3.wav",
+      "bytes": 29284,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    },
+    {
+      "path": "public/audio/vandal.wav",
+      "bytes": 75192,
+      "reason": "No sufficient per-file origin evidence found during this release"
+    }
+  ]
+}

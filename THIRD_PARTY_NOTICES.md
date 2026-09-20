@@ -12,3 +12,7 @@ The root MIT license applies to original project code and documentation only. It
 See `docs/public-export.json` for the export boundary. Local reference evidence and asset-dependent tests are not a promise that a fresh clone reproduces the private asset installation.
 
 Source SDK license and third-party notices are retained in `docs/licenses/Source-SDK-2013.txt` and `docs/licenses/Source-SDK-thirdpartylegalnotices.txt` for reference and any applicable portions.
+
+## Public asset release (2026-09-20)
+
+The separate GitHub Release distributes project-original resources and explicitly documented MIT/CC0 components. Original contributions use the root MIT license to the extent the project owner holds applicable rights. Microsoft Rocketbox derivative character assets retain their enclosed Microsoft MIT notice; Poly Haven components retain CC0 as documented in the map provenance. This does not license Valve-derived assets. Exact scope and file hashes: `docs/public-assets-manifest.json`.
